@@ -1,0 +1,2290 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.61446628302211,
+          34.848013915724195
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-988E8B7C",
+        "timestamp": "2026-01-15T10:00:00",
+        "category": "construction_waste",
+        "category_name": "Construction Waste",
+        "confidence": 0.805,
+        "size_m2": 0.4885,
+        "estimated_weight_kg": 14.402,
+        "priority": "critical",
+        "color": "#8e44ad",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.61465919997315,
+          34.848243231156005
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-BD09C80C",
+        "timestamp": "2026-01-15T10:00:01.075421",
+        "category": "food_packaging",
+        "category_name": "Food Packaging",
+        "confidence": 0.779,
+        "size_m2": 0.0113,
+        "estimated_weight_kg": 0.038,
+        "priority": "medium",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.61420744633362,
+          34.84797744793607
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-932E066B",
+        "timestamp": "2026-01-15T10:00:01.613132",
+        "category": "tire",
+        "category_name": "Tires",
+        "confidence": 0.981,
+        "size_m2": 0.2614,
+        "estimated_weight_kg": 14.802,
+        "priority": "critical",
+        "color": "#2c3e50",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.61415983215849,
+          34.848000622003546
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-2AB9A403",
+        "timestamp": "2026-01-15T10:00:02.150842",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.762,
+        "size_m2": 0.0028,
+        "estimated_weight_kg": 0.03,
+        "priority": "medium",
+        "color": "#3498db",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.61415864381841,
+          34.84804839090915
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-A8265427",
+        "timestamp": "2026-01-15T10:00:02.688553",
+        "category": "food_packaging",
+        "category_name": "Food Packaging",
+        "confidence": 0.911,
+        "size_m2": 0.0198,
+        "estimated_weight_kg": 0.039,
+        "priority": "medium",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.61384378181461,
+          34.848351657778544
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-AFAF5F54",
+        "timestamp": "2026-01-15T10:00:03.226263",
+        "category": "tire",
+        "category_name": "Tires",
+        "confidence": 0.772,
+        "size_m2": 0.3626,
+        "estimated_weight_kg": 11.75,
+        "priority": "critical",
+        "color": "#2c3e50",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.61386594751247,
+          34.84803132949879
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-5445C6F2",
+        "timestamp": "2026-01-15T10:00:03.763974",
+        "category": "tire",
+        "category_name": "Tires",
+        "confidence": 0.873,
+        "size_m2": 0.3791,
+        "estimated_weight_kg": 8.116,
+        "priority": "critical",
+        "color": "#2c3e50",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.61325082847357,
+          34.84804599778828
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-C65AB901",
+        "timestamp": "2026-01-15T10:00:04.301684",
+        "category": "food_packaging",
+        "category_name": "Food Packaging",
+        "confidence": 0.832,
+        "size_m2": 0.0191,
+        "estimated_weight_kg": 0.031,
+        "priority": "low",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.6132980394618,
+          34.84850276937587
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-41CD053A",
+        "timestamp": "2026-01-15T10:00:05.377105",
+        "category": "tire",
+        "category_name": "Tires",
+        "confidence": 0.877,
+        "size_m2": 0.4315,
+        "estimated_weight_kg": 11.886,
+        "priority": "critical",
+        "color": "#2c3e50",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.61071456912742,
+          34.84900177251822
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-ADCCF787",
+        "timestamp": "2026-01-15T10:00:12.367342",
+        "category": "metal_debris",
+        "category_name": "Metal Debris",
+        "confidence": 0.924,
+        "size_m2": 0.0504,
+        "estimated_weight_kg": 2.071,
+        "priority": "medium",
+        "color": "#95a5a6",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.60695876498373,
+          34.84966274451319
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-200CC943",
+        "timestamp": "2026-01-15T10:00:25.810105",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.896,
+        "size_m2": 0.0015,
+        "estimated_weight_kg": 0.046,
+        "priority": "low",
+        "color": "#3498db",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.60459327885553,
+          34.85017437334895
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-25D73803",
+        "timestamp": "2026-01-15T10:00:34.951184",
+        "category": "food_packaging",
+        "category_name": "Food Packaging",
+        "confidence": 0.906,
+        "size_m2": 0.0132,
+        "estimated_weight_kg": 0.075,
+        "priority": "low",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.59375996096574,
+          34.85228381626293
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-227CFE31",
+        "timestamp": "2026-01-15T10:01:10.979916",
+        "category": "construction_waste",
+        "category_name": "Construction Waste",
+        "confidence": 0.908,
+        "size_m2": 0.7372,
+        "estimated_weight_kg": 43.969,
+        "priority": "critical",
+        "color": "#8e44ad",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.59124876609022,
+          34.85310460513684
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-51FA51AA",
+        "timestamp": "2026-01-15T10:01:19.587065",
+        "category": "food_packaging",
+        "category_name": "Food Packaging",
+        "confidence": 0.964,
+        "size_m2": 0.0196,
+        "estimated_weight_kg": 0.051,
+        "priority": "low",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.58857835232537,
+          34.853860829698945
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-93155DD6",
+        "timestamp": "2026-01-15T10:01:28.194213",
+        "category": "tire",
+        "category_name": "Tires",
+        "confidence": 0.817,
+        "size_m2": 0.1982,
+        "estimated_weight_kg": 13.057,
+        "priority": "high",
+        "color": "#2c3e50",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.58650082742813,
+          34.85433391508434
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-91C1734B",
+        "timestamp": "2026-01-15T10:01:34.649574",
+        "category": "glass",
+        "category_name": "Glass",
+        "confidence": 0.754,
+        "size_m2": 0.0094,
+        "estimated_weight_kg": 0.311,
+        "priority": "low",
+        "color": "#1abc9c",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.5852711723587,
+          34.85507042224612
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-315EDDD2",
+        "timestamp": "2026-01-15T10:01:38.953149",
+        "category": "construction_waste",
+        "category_name": "Construction Waste",
+        "confidence": 0.954,
+        "size_m2": 0.4708,
+        "estimated_weight_kg": 25.404,
+        "priority": "critical",
+        "color": "#8e44ad",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.58513711395457,
+          34.85496334144053
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-2DE8D288",
+        "timestamp": "2026-01-15T10:01:39.491096",
+        "category": "metal_debris",
+        "category_name": "Metal Debris",
+        "confidence": 0.898,
+        "size_m2": 0.0678,
+        "estimated_weight_kg": 0.937,
+        "priority": "medium",
+        "color": "#95a5a6",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.5847987173529,
+          34.85496598280941
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-9256FC7B",
+        "timestamp": "2026-01-15T10:01:40.566989",
+        "category": "metal_debris",
+        "category_name": "Metal Debris",
+        "confidence": 0.836,
+        "size_m2": 0.0773,
+        "estimated_weight_kg": 3.661,
+        "priority": "medium",
+        "color": "#95a5a6",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.58450614472217,
+          34.855251910831704
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-EC8C5D9D",
+        "timestamp": "2026-01-15T10:01:41.642883",
+        "category": "organic_waste",
+        "category_name": "Organic Waste",
+        "confidence": 0.942,
+        "size_m2": 0.038,
+        "estimated_weight_kg": 0.551,
+        "priority": "low",
+        "color": "#27ae60",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.5843596798346,
+          34.8552293016134
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-7403640D",
+        "timestamp": "2026-01-15T10:01:42.180829",
+        "category": "food_packaging",
+        "category_name": "Food Packaging",
+        "confidence": 0.889,
+        "size_m2": 0.0106,
+        "estimated_weight_kg": 0.028,
+        "priority": "low",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.58463486242911,
+          34.855171794652954
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-C2109A34",
+        "timestamp": "2026-01-15T10:01:42.718776",
+        "category": "metal_debris",
+        "category_name": "Metal Debris",
+        "confidence": 0.947,
+        "size_m2": 0.0273,
+        "estimated_weight_kg": 0.668,
+        "priority": "low",
+        "color": "#95a5a6",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.58412092459534,
+          34.855224426610185
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-6CAE31CA",
+        "timestamp": "2026-01-15T10:01:43.256723",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.762,
+        "size_m2": 0.0029,
+        "estimated_weight_kg": 0.013,
+        "priority": "low",
+        "color": "#3498db",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.58369481034036,
+          34.8553999933242
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-019780CE",
+        "timestamp": "2026-01-15T10:01:44.870563",
+        "category": "textile",
+        "category_name": "Textile/Fabric",
+        "confidence": 0.941,
+        "size_m2": 0.1274,
+        "estimated_weight_kg": 0.781,
+        "priority": "medium",
+        "color": "#e74c3c",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.58387324862674,
+          34.85518198349109
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-7D480AB7",
+        "timestamp": "2026-01-15T10:01:45.946457",
+        "category": "glass",
+        "category_name": "Glass",
+        "confidence": 0.848,
+        "size_m2": 0.0088,
+        "estimated_weight_kg": 0.409,
+        "priority": "low",
+        "color": "#1abc9c",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.57496223038375,
+          34.857889173934296
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-C8199C3F",
+        "timestamp": "2026-01-15T10:02:15.533530",
+        "category": "construction_waste",
+        "category_name": "Construction Waste",
+        "confidence": 0.979,
+        "size_m2": 0.7451,
+        "estimated_weight_kg": 21.197,
+        "priority": "critical",
+        "color": "#8e44ad",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.5740376040838,
+          34.85839303538214
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-4998D74D",
+        "timestamp": "2026-01-15T10:02:19.290844",
+        "category": "food_packaging",
+        "category_name": "Food Packaging",
+        "confidence": 0.753,
+        "size_m2": 0.0103,
+        "estimated_weight_kg": 0.081,
+        "priority": "low",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.565253733837,
+          34.86109071519845
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-62B62E78",
+        "timestamp": "2026-01-15T10:02:49.349352",
+        "category": "construction_waste",
+        "category_name": "Construction Waste",
+        "confidence": 0.868,
+        "size_m2": 0.6056,
+        "estimated_weight_kg": 13.913,
+        "priority": "critical",
+        "color": "#8e44ad",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.55703605495677,
+          34.86428753897056
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-982DEC5A",
+        "timestamp": "2026-01-15T10:03:19.407860",
+        "category": "tire",
+        "category_name": "Tires",
+        "confidence": 0.84,
+        "size_m2": 0.3632,
+        "estimated_weight_kg": 8.317,
+        "priority": "critical",
+        "color": "#2c3e50",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.5565183986419,
+          34.86461738750966
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-070368A4",
+        "timestamp": "2026-01-15T10:03:20.481378",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.756,
+        "size_m2": 0.0012,
+        "estimated_weight_kg": 0.036,
+        "priority": "medium",
+        "color": "#3498db",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.55639097798132,
+          34.86455201711495
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-8F5DB259",
+        "timestamp": "2026-01-15T10:03:21.554896",
+        "category": "tire",
+        "category_name": "Tires",
+        "confidence": 0.976,
+        "size_m2": 0.2968,
+        "estimated_weight_kg": 11.819,
+        "priority": "critical",
+        "color": "#2c3e50",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.55645483591572,
+          34.86481253685997
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-9B33BB5E",
+        "timestamp": "2026-01-15T10:03:22.091655",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.773,
+        "size_m2": 0.0013,
+        "estimated_weight_kg": 0.011,
+        "priority": "medium",
+        "color": "#3498db",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.55582116443831,
+          34.86455089186678
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-4E09FD44",
+        "timestamp": "2026-01-15T10:03:22.628414",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.778,
+        "size_m2": 0.0034,
+        "estimated_weight_kg": 0.021,
+        "priority": "medium",
+        "color": "#3498db",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.55570562298149,
+          34.86491595405254
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-9AD0B3E2",
+        "timestamp": "2026-01-15T10:03:23.165174",
+        "category": "metal_debris",
+        "category_name": "Metal Debris",
+        "confidence": 0.93,
+        "size_m2": 0.0462,
+        "estimated_weight_kg": 1.298,
+        "priority": "medium",
+        "color": "#95a5a6",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.55566504451595,
+          34.86473368028022
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-5C3B0409",
+        "timestamp": "2026-01-15T10:03:24.238692",
+        "category": "metal_debris",
+        "category_name": "Metal Debris",
+        "confidence": 0.956,
+        "size_m2": 0.0506,
+        "estimated_weight_kg": 4.688,
+        "priority": "high",
+        "color": "#95a5a6",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.55572633244641,
+          34.865017656638734
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-7C1ABDCD",
+        "timestamp": "2026-01-15T10:03:24.775451",
+        "category": "organic_waste",
+        "category_name": "Organic Waste",
+        "confidence": 0.827,
+        "size_m2": 0.0377,
+        "estimated_weight_kg": 0.844,
+        "priority": "medium",
+        "color": "#27ae60",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.55502355177713,
+          34.864637631180315
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-1F3648EB",
+        "timestamp": "2026-01-15T10:03:25.312210",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.978,
+        "size_m2": 0.002,
+        "estimated_weight_kg": 0.048,
+        "priority": "medium",
+        "color": "#3498db",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.55532823415885,
+          34.86494814433301
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-475DB0E6",
+        "timestamp": "2026-01-15T10:03:25.848969",
+        "category": "food_packaging",
+        "category_name": "Food Packaging",
+        "confidence": 0.94,
+        "size_m2": 0.0151,
+        "estimated_weight_kg": 0.08,
+        "priority": "medium",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.55516522917014,
+          34.864985859813885
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-F3CABA75",
+        "timestamp": "2026-01-15T10:03:26.921647",
+        "category": "tire",
+        "category_name": "Tires",
+        "confidence": 0.834,
+        "size_m2": 0.2906,
+        "estimated_weight_kg": 14.214,
+        "priority": "critical",
+        "color": "#2c3e50",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.55457949613736,
+          34.865227457747295
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-AB53ECE5",
+        "timestamp": "2026-01-15T10:03:27.457566",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.767,
+        "size_m2": 0.0013,
+        "estimated_weight_kg": 0.038,
+        "priority": "medium",
+        "color": "#3498db",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.55474078665736,
+          34.86490055889796
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-B3B5A9DC",
+        "timestamp": "2026-01-15T10:03:27.993485",
+        "category": "textile",
+        "category_name": "Textile/Fabric",
+        "confidence": 0.945,
+        "size_m2": 0.1061,
+        "estimated_weight_kg": 0.867,
+        "priority": "high",
+        "color": "#e74c3c",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.55447572090989,
+          34.86528584488701
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-6D7D5CA3",
+        "timestamp": "2026-01-15T10:03:28.529404",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.852,
+        "size_m2": 0.0033,
+        "estimated_weight_kg": 0.032,
+        "priority": "medium",
+        "color": "#3498db",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.55384638792883,
+          34.86525539050392
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-7941ED51",
+        "timestamp": "2026-01-15T10:03:31.208999",
+        "category": "food_packaging",
+        "category_name": "Food Packaging",
+        "confidence": 0.778,
+        "size_m2": 0.0058,
+        "estimated_weight_kg": 0.03,
+        "priority": "medium",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.55297296039058,
+          34.86539002234204
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-80E0E87B",
+        "timestamp": "2026-01-15T10:03:32.280837",
+        "category": "food_packaging",
+        "category_name": "Food Packaging",
+        "confidence": 0.804,
+        "size_m2": 0.0093,
+        "estimated_weight_kg": 0.089,
+        "priority": "low",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.55331983554954,
+          34.86558456979492
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-BB133812",
+        "timestamp": "2026-01-15T10:03:32.816756",
+        "category": "construction_waste",
+        "category_name": "Construction Waste",
+        "confidence": 0.768,
+        "size_m2": 0.6458,
+        "estimated_weight_kg": 49.719,
+        "priority": "critical",
+        "color": "#8e44ad",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.55286600867406,
+          34.86540565165172
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-4B232F95",
+        "timestamp": "2026-01-15T10:03:33.352675",
+        "category": "tire",
+        "category_name": "Tires",
+        "confidence": 0.89,
+        "size_m2": 0.2955,
+        "estimated_weight_kg": 12.393,
+        "priority": "critical",
+        "color": "#2c3e50",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.5516466421903,
+          34.86536680356998
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-2CC7A913",
+        "timestamp": "2026-01-15T10:03:36.568189",
+        "category": "glass",
+        "category_name": "Glass",
+        "confidence": 0.817,
+        "size_m2": 0.0059,
+        "estimated_weight_kg": 0.386,
+        "priority": "low",
+        "color": "#1abc9c",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.54030298083187,
+          34.8673961733755
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-83A48580",
+        "timestamp": "2026-01-15T10:04:15.154358",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.918,
+        "size_m2": 0.0039,
+        "estimated_weight_kg": 0.049,
+        "priority": "low",
+        "color": "#3498db",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.53231174753024,
+          34.868994172430355
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-91293190",
+        "timestamp": "2026-01-15T10:04:41.414389",
+        "category": "food_packaging",
+        "category_name": "Food Packaging",
+        "confidence": 0.978,
+        "size_m2": 0.0187,
+        "estimated_weight_kg": 0.086,
+        "priority": "low",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.53001699897169,
+          34.86914254497215
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-55496491",
+        "timestamp": "2026-01-15T10:04:48.381336",
+        "category": "construction_waste",
+        "category_name": "Construction Waste",
+        "confidence": 0.84,
+        "size_m2": 0.2839,
+        "estimated_weight_kg": 11.055,
+        "priority": "critical",
+        "color": "#8e44ad",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.53013556938967,
+          34.86899116471737
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-F863F562",
+        "timestamp": "2026-01-15T10:04:48.917255",
+        "category": "food_packaging",
+        "category_name": "Food Packaging",
+        "confidence": 0.951,
+        "size_m2": 0.0195,
+        "estimated_weight_kg": 0.087,
+        "priority": "low",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.53013119957924,
+          34.86912044963192
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-9270188D",
+        "timestamp": "2026-01-15T10:04:49.989093",
+        "category": "construction_waste",
+        "category_name": "Construction Waste",
+        "confidence": 0.989,
+        "size_m2": 0.8597,
+        "estimated_weight_kg": 49.989,
+        "priority": "critical",
+        "color": "#8e44ad",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.52934188504118,
+          34.86954169830338
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-CA73990B",
+        "timestamp": "2026-01-15T10:04:51.060931",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.979,
+        "size_m2": 0.0024,
+        "estimated_weight_kg": 0.015,
+        "priority": "medium",
+        "color": "#3498db",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.52930371454609,
+          34.86943829474383
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-32D2B8FD",
+        "timestamp": "2026-01-15T10:04:51.596850",
+        "category": "food_packaging",
+        "category_name": "Food Packaging",
+        "confidence": 0.875,
+        "size_m2": 0.0067,
+        "estimated_weight_kg": 0.074,
+        "priority": "medium",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.52916260912713,
+          34.86948837842639
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-7AB86E9B",
+        "timestamp": "2026-01-15T10:04:52.132769",
+        "category": "food_packaging",
+        "category_name": "Food Packaging",
+        "confidence": 0.782,
+        "size_m2": 0.0181,
+        "estimated_weight_kg": 0.052,
+        "priority": "medium",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.52877670855948,
+          34.86947383701735
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-D3E1A9F2",
+        "timestamp": "2026-01-15T10:04:53.204607",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.834,
+        "size_m2": 0.0014,
+        "estimated_weight_kg": 0.011,
+        "priority": "medium",
+        "color": "#3498db",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.52828170131708,
+          34.86945268066969
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-567AFC3B",
+        "timestamp": "2026-01-15T10:04:54.277225",
+        "category": "food_packaging",
+        "category_name": "Food Packaging",
+        "confidence": 0.845,
+        "size_m2": 0.0127,
+        "estimated_weight_kg": 0.083,
+        "priority": "medium",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.52786636346032,
+          34.869986977639016
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-C18230E9",
+        "timestamp": "2026-01-15T10:04:57.495080",
+        "category": "organic_waste",
+        "category_name": "Organic Waste",
+        "confidence": 0.86,
+        "size_m2": 0.0371,
+        "estimated_weight_kg": 0.332,
+        "priority": "low",
+        "color": "#27ae60",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.52726569980986,
+          34.869643750591194
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-F6A09E09",
+        "timestamp": "2026-01-15T10:04:58.567698",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.781,
+        "size_m2": 0.0012,
+        "estimated_weight_kg": 0.015,
+        "priority": "low",
+        "color": "#3498db",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.5272404184217,
+          34.86988819471422
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-E47CF30E",
+        "timestamp": "2026-01-15T10:04:59.640317",
+        "category": "food_packaging",
+        "category_name": "Food Packaging",
+        "confidence": 0.91,
+        "size_m2": 0.0185,
+        "estimated_weight_kg": 0.058,
+        "priority": "low",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.52297401074347,
+          34.87059496978102
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-6B50212D",
+        "timestamp": "2026-01-15T10:05:14.120663",
+        "category": "food_packaging",
+        "category_name": "Food Packaging",
+        "confidence": 0.779,
+        "size_m2": 0.0077,
+        "estimated_weight_kg": 0.027,
+        "priority": "low",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.51968026470549,
+          34.871436012540315
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-201E9523",
+        "timestamp": "2026-01-15T10:05:24.310536",
+        "category": "construction_waste",
+        "category_name": "Construction Waste",
+        "confidence": 0.901,
+        "size_m2": 0.2795,
+        "estimated_weight_kg": 41.976,
+        "priority": "high",
+        "color": "#8e44ad",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.51954633685737,
+          34.87186003121635
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-95716307",
+        "timestamp": "2026-01-15T10:05:25.919464",
+        "category": "food_packaging",
+        "category_name": "Food Packaging",
+        "confidence": 0.794,
+        "size_m2": 0.0171,
+        "estimated_weight_kg": 0.08,
+        "priority": "low",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.51787978493395,
+          34.87192584218657
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-5BE0BD39",
+        "timestamp": "2026-01-15T10:05:30.209937",
+        "category": "tire",
+        "category_name": "Tires",
+        "confidence": 0.759,
+        "size_m2": 0.2985,
+        "estimated_weight_kg": 13.232,
+        "priority": "high",
+        "color": "#2c3e50",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.51150480795542,
+          34.87366672848027
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-C420F746",
+        "timestamp": "2026-01-15T10:05:52.198611",
+        "category": "metal_debris",
+        "category_name": "Metal Debris",
+        "confidence": 0.878,
+        "size_m2": 0.033,
+        "estimated_weight_kg": 2.513,
+        "priority": "low",
+        "color": "#95a5a6",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.50155594803475,
+          34.876022910523496
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-3395B738",
+        "timestamp": "2026-01-15T10:06:27.096331",
+        "category": "food_packaging",
+        "category_name": "Food Packaging",
+        "confidence": 0.779,
+        "size_m2": 0.0082,
+        "estimated_weight_kg": 0.046,
+        "priority": "low",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.48325434059448,
+          34.88115857771627
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-CB585CB7",
+        "timestamp": "2026-01-15T10:07:28.414301",
+        "category": "metal_debris",
+        "category_name": "Metal Debris",
+        "confidence": 0.891,
+        "size_m2": 0.0315,
+        "estimated_weight_kg": 2.917,
+        "priority": "low",
+        "color": "#95a5a6",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.48231898829532,
+          34.8812354222594
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-3B7CD597",
+        "timestamp": "2026-01-15T10:07:32.717316",
+        "category": "tire",
+        "category_name": "Tires",
+        "confidence": 0.835,
+        "size_m2": 0.3672,
+        "estimated_weight_kg": 11.995,
+        "priority": "critical",
+        "color": "#2c3e50",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.48232555375341,
+          34.881268128251186
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-9DC83839",
+        "timestamp": "2026-01-15T10:07:33.255193",
+        "category": "food_packaging",
+        "category_name": "Food Packaging",
+        "confidence": 0.795,
+        "size_m2": 0.0087,
+        "estimated_weight_kg": 0.033,
+        "priority": "low",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.48194760253689,
+          34.88172238684878
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-8ECF436B",
+        "timestamp": "2026-01-15T10:07:34.330947",
+        "category": "metal_debris",
+        "category_name": "Metal Debris",
+        "confidence": 0.777,
+        "size_m2": 0.0558,
+        "estimated_weight_kg": 4.921,
+        "priority": "high",
+        "color": "#95a5a6",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.4813470123358,
+          34.88176517977074
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-A799D260",
+        "timestamp": "2026-01-15T10:07:34.868824",
+        "category": "tire",
+        "category_name": "Tires",
+        "confidence": 0.973,
+        "size_m2": 0.1891,
+        "estimated_weight_kg": 12.681,
+        "priority": "critical",
+        "color": "#2c3e50",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.48111145073455,
+          34.881505652629905
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-BA8B9694",
+        "timestamp": "2026-01-15T10:07:35.944578",
+        "category": "tire",
+        "category_name": "Tires",
+        "confidence": 0.872,
+        "size_m2": 0.2464,
+        "estimated_weight_kg": 10.978,
+        "priority": "critical",
+        "color": "#2c3e50",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.48109271629048,
+          34.88175230508586
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-9FCDD61B",
+        "timestamp": "2026-01-15T10:07:37.020331",
+        "category": "metal_debris",
+        "category_name": "Metal Debris",
+        "confidence": 0.878,
+        "size_m2": 0.0366,
+        "estimated_weight_kg": 2.665,
+        "priority": "medium",
+        "color": "#95a5a6",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.48104210445398,
+          34.88160235464355
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-2A39CA0B",
+        "timestamp": "2026-01-15T10:07:37.558208",
+        "category": "textile",
+        "category_name": "Textile/Fabric",
+        "confidence": 0.811,
+        "size_m2": 0.0984,
+        "estimated_weight_kg": 1.658,
+        "priority": "high",
+        "color": "#e74c3c",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.48068124568188,
+          34.881923050700735
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-7DBE773B",
+        "timestamp": "2026-01-15T10:07:38.096085",
+        "category": "tire",
+        "category_name": "Tires",
+        "confidence": 0.949,
+        "size_m2": 0.2558,
+        "estimated_weight_kg": 14.507,
+        "priority": "critical",
+        "color": "#2c3e50",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.48021676812267,
+          34.882027367377425
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-FF82A0C7",
+        "timestamp": "2026-01-15T10:07:38.633962",
+        "category": "food_packaging",
+        "category_name": "Food Packaging",
+        "confidence": 0.888,
+        "size_m2": 0.006,
+        "estimated_weight_kg": 0.079,
+        "priority": "medium",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.48052265808944,
+          34.88207395169799
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-310D0432",
+        "timestamp": "2026-01-15T10:07:39.171839",
+        "category": "food_packaging",
+        "category_name": "Food Packaging",
+        "confidence": 0.91,
+        "size_m2": 0.0075,
+        "estimated_weight_kg": 0.085,
+        "priority": "medium",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.48020215637224,
+          34.882139693864026
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-36B0C1AF",
+        "timestamp": "2026-01-15T10:07:39.709716",
+        "category": "construction_waste",
+        "category_name": "Construction Waste",
+        "confidence": 0.861,
+        "size_m2": 0.5794,
+        "estimated_weight_kg": 25.078,
+        "priority": "critical",
+        "color": "#8e44ad",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.48021425587515,
+          34.88201389005368
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-75A7E96E",
+        "timestamp": "2026-01-15T10:07:40.247593",
+        "category": "organic_waste",
+        "category_name": "Organic Waste",
+        "confidence": 0.968,
+        "size_m2": 0.0323,
+        "estimated_weight_kg": 0.589,
+        "priority": "medium",
+        "color": "#27ae60",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.47972332777523,
+          34.882289489530855
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-673C1922",
+        "timestamp": "2026-01-15T10:07:40.783893",
+        "category": "tire",
+        "category_name": "Tires",
+        "confidence": 0.899,
+        "size_m2": 0.1772,
+        "estimated_weight_kg": 13.558,
+        "priority": "critical",
+        "color": "#2c3e50",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.47958911960262,
+          34.88235885804684
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-9326E856",
+        "timestamp": "2026-01-15T10:07:42.392795",
+        "category": "tire",
+        "category_name": "Tires",
+        "confidence": 0.758,
+        "size_m2": 0.2182,
+        "estimated_weight_kg": 13.208,
+        "priority": "critical",
+        "color": "#2c3e50",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.47930715745376,
+          34.88243819917117
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-8B49907C",
+        "timestamp": "2026-01-15T10:07:42.929095",
+        "category": "construction_waste",
+        "category_name": "Construction Waste",
+        "confidence": 0.781,
+        "size_m2": 0.333,
+        "estimated_weight_kg": 43.858,
+        "priority": "critical",
+        "color": "#8e44ad",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.47928246669017,
+          34.88211006111963
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-874262BF",
+        "timestamp": "2026-01-15T10:07:43.465396",
+        "category": "construction_waste",
+        "category_name": "Construction Waste",
+        "confidence": 0.917,
+        "size_m2": 0.79,
+        "estimated_weight_kg": 35.646,
+        "priority": "critical",
+        "color": "#8e44ad",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.47917024760278,
+          34.88230511880814
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-1443E9AC",
+        "timestamp": "2026-01-15T10:07:44.001696",
+        "category": "organic_waste",
+        "category_name": "Organic Waste",
+        "confidence": 0.861,
+        "size_m2": 0.0413,
+        "estimated_weight_kg": 0.461,
+        "priority": "medium",
+        "color": "#27ae60",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.47874947196492,
+          34.8824456280882
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-53AAF072",
+        "timestamp": "2026-01-15T10:07:44.537997",
+        "category": "metal_debris",
+        "category_name": "Metal Debris",
+        "confidence": 0.974,
+        "size_m2": 0.0264,
+        "estimated_weight_kg": 4.425,
+        "priority": "medium",
+        "color": "#95a5a6",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.47844003139579,
+          34.882693083764295
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-25084D0F",
+        "timestamp": "2026-01-15T10:07:45.074297",
+        "category": "food_packaging",
+        "category_name": "Food Packaging",
+        "confidence": 0.852,
+        "size_m2": 0.0136,
+        "estimated_weight_kg": 0.069,
+        "priority": "medium",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.47846156848772,
+          34.882762257504794
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-A01E1FC5",
+        "timestamp": "2026-01-15T10:07:45.610598",
+        "category": "food_packaging",
+        "category_name": "Food Packaging",
+        "confidence": 0.78,
+        "size_m2": 0.0198,
+        "estimated_weight_kg": 0.087,
+        "priority": "medium",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.47811618768344,
+          34.88254957371986
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-FD5415FB",
+        "timestamp": "2026-01-15T10:07:46.683199",
+        "category": "tire",
+        "category_name": "Tires",
+        "confidence": 0.943,
+        "size_m2": 0.1455,
+        "estimated_weight_kg": 10.346,
+        "priority": "critical",
+        "color": "#2c3e50",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.4780091040697,
+          34.88257837288359
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-2ABA1BC0",
+        "timestamp": "2026-01-15T10:07:47.219499",
+        "category": "organic_waste",
+        "category_name": "Organic Waste",
+        "confidence": 0.927,
+        "size_m2": 0.0306,
+        "estimated_weight_kg": 0.412,
+        "priority": "medium",
+        "color": "#27ae60",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.47792729935297,
+          34.88269680124044
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-0B00E836",
+        "timestamp": "2026-01-15T10:07:48.292100",
+        "category": "food_packaging",
+        "category_name": "Food Packaging",
+        "confidence": 0.97,
+        "size_m2": 0.0125,
+        "estimated_weight_kg": 0.054,
+        "priority": "medium",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.47790739442975,
+          34.88284802717873
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-314C9494",
+        "timestamp": "2026-01-15T10:07:48.828401",
+        "category": "metal_debris",
+        "category_name": "Metal Debris",
+        "confidence": 0.786,
+        "size_m2": 0.0384,
+        "estimated_weight_kg": 4.825,
+        "priority": "medium",
+        "color": "#95a5a6",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.47696055915715,
+          34.883289209136755
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-8ADA8224",
+        "timestamp": "2026-01-15T10:07:50.973603",
+        "category": "metal_debris",
+        "category_name": "Metal Debris",
+        "confidence": 0.8,
+        "size_m2": 0.03,
+        "estimated_weight_kg": 3.875,
+        "priority": "low",
+        "color": "#95a5a6",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.476467712862,
+          34.883055607542246
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-5DF20600",
+        "timestamp": "2026-01-15T10:07:53.655105",
+        "category": "metal_debris",
+        "category_name": "Metal Debris",
+        "confidence": 0.936,
+        "size_m2": 0.0674,
+        "estimated_weight_kg": 0.796,
+        "priority": "low",
+        "color": "#95a5a6",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.47593676798509,
+          34.8833378368286
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-59092552",
+        "timestamp": "2026-01-15T10:07:54.727706",
+        "category": "metal_debris",
+        "category_name": "Metal Debris",
+        "confidence": 0.957,
+        "size_m2": 0.0366,
+        "estimated_weight_kg": 1.319,
+        "priority": "low",
+        "color": "#95a5a6",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.46400175151321,
+          34.88699662129949
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-33FE9C96",
+        "timestamp": "2026-01-15T10:08:36.022843",
+        "category": "tire",
+        "category_name": "Tires",
+        "confidence": 0.922,
+        "size_m2": 0.1345,
+        "estimated_weight_kg": 9.093,
+        "priority": "high",
+        "color": "#2c3e50",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    }
+  ],
+  "properties": {
+    "location": "Route 66 - Needles Corridor",
+    "total_detections": 95,
+    "generated_at": "2025-12-25T14:51:46.476751"
+  }
+}

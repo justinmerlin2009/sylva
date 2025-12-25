@@ -1,0 +1,2290 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.09425941985347,
+          29.549794889940102
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-7AF2B38A",
+        "timestamp": "2026-01-15T10:00:19.210435",
+        "category": "food_packaging",
+        "category_name": "Food Packaging",
+        "confidence": 0.853,
+        "size_m2": 0.0067,
+        "estimated_weight_kg": 0.038,
+        "priority": "low",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.09301213078828,
+          29.548472835764915
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-D1A10AFA",
+        "timestamp": "2026-01-15T10:00:27.443479",
+        "category": "food_packaging",
+        "category_name": "Food Packaging",
+        "confidence": 0.831,
+        "size_m2": 0.0083,
+        "estimated_weight_kg": 0.03,
+        "priority": "low",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.09279009193632,
+          29.548576914763334
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-746AA84A",
+        "timestamp": "2026-01-15T10:00:28.129566",
+        "category": "food_packaging",
+        "category_name": "Food Packaging",
+        "confidence": 0.81,
+        "size_m2": 0.0196,
+        "estimated_weight_kg": 0.097,
+        "priority": "low",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.09301515241036,
+          29.548431686494443
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-1ABE85A2",
+        "timestamp": "2026-01-15T10:00:28.815653",
+        "category": "food_packaging",
+        "category_name": "Food Packaging",
+        "confidence": 0.817,
+        "size_m2": 0.0125,
+        "estimated_weight_kg": 0.024,
+        "priority": "low",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.09235762396773,
+          29.54805801630205
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-E62ED0ED",
+        "timestamp": "2026-01-15T10:00:30.873914",
+        "category": "textile",
+        "category_name": "Textile/Fabric",
+        "confidence": 0.933,
+        "size_m2": 0.0863,
+        "estimated_weight_kg": 1.41,
+        "priority": "high",
+        "color": "#e74c3c",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.09221303791684,
+          29.548085192061794
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-331B9341",
+        "timestamp": "2026-01-15T10:00:31.560001",
+        "category": "food_packaging",
+        "category_name": "Food Packaging",
+        "confidence": 0.95,
+        "size_m2": 0.013,
+        "estimated_weight_kg": 0.027,
+        "priority": "medium",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.09211063486552,
+          29.547889503867953
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-CF567EF3",
+        "timestamp": "2026-01-15T10:00:32.246088",
+        "category": "tire",
+        "category_name": "Tires",
+        "confidence": 0.804,
+        "size_m2": 0.1312,
+        "estimated_weight_kg": 11.585,
+        "priority": "critical",
+        "color": "#2c3e50",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.0920207451378,
+          29.548128230113758
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-86E145BA",
+        "timestamp": "2026-01-15T10:00:32.932175",
+        "category": "glass",
+        "category_name": "Glass",
+        "confidence": 0.777,
+        "size_m2": 0.0035,
+        "estimated_weight_kg": 0.302,
+        "priority": "medium",
+        "color": "#1abc9c",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.0917376779582,
+          29.547790588406365
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-26C334A3",
+        "timestamp": "2026-01-15T10:00:33.618404",
+        "category": "metal_debris",
+        "category_name": "Metal Debris",
+        "confidence": 0.808,
+        "size_m2": 0.0666,
+        "estimated_weight_kg": 2.883,
+        "priority": "high",
+        "color": "#95a5a6",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.09162329161892,
+          29.548098558650135
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-5730B543",
+        "timestamp": "2026-01-15T10:00:34.304633",
+        "category": "food_packaging",
+        "category_name": "Food Packaging",
+        "confidence": 0.965,
+        "size_m2": 0.0102,
+        "estimated_weight_kg": 0.078,
+        "priority": "medium",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.09149835967679,
+          29.547723941461758
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-E708D66D",
+        "timestamp": "2026-01-15T10:00:36.363319",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.752,
+        "size_m2": 0.0037,
+        "estimated_weight_kg": 0.034,
+        "priority": "medium",
+        "color": "#3498db",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.09136140086504,
+          29.547438913567053
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-ED6F3021",
+        "timestamp": "2026-01-15T10:00:37.049548",
+        "category": "food_packaging",
+        "category_name": "Food Packaging",
+        "confidence": 0.804,
+        "size_m2": 0.0154,
+        "estimated_weight_kg": 0.072,
+        "priority": "low",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.09090596427733,
+          29.547460944775633
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-8A5C32F6",
+        "timestamp": "2026-01-15T10:00:37.735776",
+        "category": "tire",
+        "category_name": "Tires",
+        "confidence": 0.886,
+        "size_m2": 0.4435,
+        "estimated_weight_kg": 12.603,
+        "priority": "critical",
+        "color": "#2c3e50",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.08695191273819,
+          29.54570402046187
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-2E649E3B",
+        "timestamp": "2026-01-15T10:00:58.322639",
+        "category": "glass",
+        "category_name": "Glass",
+        "confidence": 0.901,
+        "size_m2": 0.0054,
+        "estimated_weight_kg": 0.468,
+        "priority": "low",
+        "color": "#1abc9c",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.08671615199478,
+          29.54576908903907
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-1E115158",
+        "timestamp": "2026-01-15T10:00:59.008868",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.756,
+        "size_m2": 0.0032,
+        "estimated_weight_kg": 0.021,
+        "priority": "low",
+        "color": "#3498db",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.08625897448556,
+          29.545850652849055
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-5A9A7136",
+        "timestamp": "2026-01-15T10:00:59.695097",
+        "category": "glass",
+        "category_name": "Glass",
+        "confidence": 0.973,
+        "size_m2": 0.0053,
+        "estimated_weight_kg": 0.205,
+        "priority": "low",
+        "color": "#1abc9c",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.08579206408454,
+          29.545595186777852
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-CB7D7605",
+        "timestamp": "2026-01-15T10:01:02.440012",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.826,
+        "size_m2": 0.0022,
+        "estimated_weight_kg": 0.044,
+        "priority": "medium",
+        "color": "#3498db",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.08573695857267,
+          29.545519909755352
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-D3F86373",
+        "timestamp": "2026-01-15T10:01:03.126240",
+        "category": "food_packaging",
+        "category_name": "Food Packaging",
+        "confidence": 0.988,
+        "size_m2": 0.0065,
+        "estimated_weight_kg": 0.069,
+        "priority": "medium",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.08540468208567,
+          29.545440435339373
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-D5F1928F",
+        "timestamp": "2026-01-15T10:01:04.498698",
+        "category": "metal_debris",
+        "category_name": "Metal Debris",
+        "confidence": 0.82,
+        "size_m2": 0.0777,
+        "estimated_weight_kg": 2.118,
+        "priority": "high",
+        "color": "#95a5a6",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.08503706877224,
+          29.54530506927063
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-24D76E5E",
+        "timestamp": "2026-01-15T10:01:05.871155",
+        "category": "food_packaging",
+        "category_name": "Food Packaging",
+        "confidence": 0.906,
+        "size_m2": 0.0125,
+        "estimated_weight_kg": 0.084,
+        "priority": "medium",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.08521937696575,
+          29.54523173288025
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-43AA7881",
+        "timestamp": "2026-01-15T10:01:06.557384",
+        "category": "food_packaging",
+        "category_name": "Food Packaging",
+        "confidence": 0.759,
+        "size_m2": 0.0064,
+        "estimated_weight_kg": 0.066,
+        "priority": "medium",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.08495087942644,
+          29.54486682986196
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-12226181",
+        "timestamp": "2026-01-15T10:01:07.243613",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.836,
+        "size_m2": 0.0011,
+        "estimated_weight_kg": 0.043,
+        "priority": "medium",
+        "color": "#3498db",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.08501228581429,
+          29.545039125728575
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-081107F8",
+        "timestamp": "2026-01-15T10:01:07.930263",
+        "category": "food_packaging",
+        "category_name": "Food Packaging",
+        "confidence": 0.878,
+        "size_m2": 0.0063,
+        "estimated_weight_kg": 0.024,
+        "priority": "medium",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.08455509809679,
+          29.544923033534793
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-FD0BD51C",
+        "timestamp": "2026-01-15T10:01:08.616913",
+        "category": "food_packaging",
+        "category_name": "Food Packaging",
+        "confidence": 0.815,
+        "size_m2": 0.0098,
+        "estimated_weight_kg": 0.084,
+        "priority": "medium",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.08442404689389,
+          29.544493831648918
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-55ADA931",
+        "timestamp": "2026-01-15T10:01:09.303564",
+        "category": "organic_waste",
+        "category_name": "Organic Waste",
+        "confidence": 0.792,
+        "size_m2": 0.0463,
+        "estimated_weight_kg": 0.468,
+        "priority": "medium",
+        "color": "#27ae60",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.08403320740527,
+          29.544424097560896
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-3A4F9064",
+        "timestamp": "2026-01-15T10:01:12.050164",
+        "category": "tire",
+        "category_name": "Tires",
+        "confidence": 0.927,
+        "size_m2": 0.23,
+        "estimated_weight_kg": 14.684,
+        "priority": "critical",
+        "color": "#2c3e50",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.0840899630339,
+          29.544142626114045
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-A18D7FA7",
+        "timestamp": "2026-01-15T10:01:13.423465",
+        "category": "food_packaging",
+        "category_name": "Food Packaging",
+        "confidence": 0.778,
+        "size_m2": 0.0164,
+        "estimated_weight_kg": 0.021,
+        "priority": "low",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.08369457279065,
+          29.544264908328916
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-A3F5EA23",
+        "timestamp": "2026-01-15T10:01:14.110115",
+        "category": "food_packaging",
+        "category_name": "Food Packaging",
+        "confidence": 0.864,
+        "size_m2": 0.0065,
+        "estimated_weight_kg": 0.059,
+        "priority": "low",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.08176660913257,
+          29.542713347149864
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-82687852",
+        "timestamp": "2026-01-15T10:01:25.096518",
+        "category": "metal_debris",
+        "category_name": "Metal Debris",
+        "confidence": 0.9,
+        "size_m2": 0.0284,
+        "estimated_weight_kg": 2.186,
+        "priority": "low",
+        "color": "#95a5a6",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.0799768144035,
+          29.541408404603757
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-67E96847",
+        "timestamp": "2026-01-15T10:01:36.769572",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.891,
+        "size_m2": 0.0029,
+        "estimated_weight_kg": 0.011,
+        "priority": "low",
+        "color": "#3498db",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.07957514469884,
+          29.54120278650561
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-4CAD9F10",
+        "timestamp": "2026-01-15T10:01:37.456222",
+        "category": "metal_debris",
+        "category_name": "Metal Debris",
+        "confidence": 0.843,
+        "size_m2": 0.0659,
+        "estimated_weight_kg": 4.737,
+        "priority": "medium",
+        "color": "#95a5a6",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.0796887037636,
+          29.54085496451189
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-828CF8AE",
+        "timestamp": "2026-01-15T10:01:38.829523",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.914,
+        "size_m2": 0.0011,
+        "estimated_weight_kg": 0.014,
+        "priority": "low",
+        "color": "#3498db",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.07941526891145,
+          29.541029865923104
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-A048C0BB",
+        "timestamp": "2026-01-15T10:01:40.202823",
+        "category": "construction_waste",
+        "category_name": "Construction Waste",
+        "confidence": 0.917,
+        "size_m2": 0.4614,
+        "estimated_weight_kg": 14.727,
+        "priority": "critical",
+        "color": "#8e44ad",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.07893826769514,
+          29.54093049605595
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-EBEF2556",
+        "timestamp": "2026-01-15T10:01:40.889473",
+        "category": "food_packaging",
+        "category_name": "Food Packaging",
+        "confidence": 0.944,
+        "size_m2": 0.0077,
+        "estimated_weight_kg": 0.08,
+        "priority": "medium",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.0787973599632,
+          29.54065725848733
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-B5A010BC",
+        "timestamp": "2026-01-15T10:01:41.576123",
+        "category": "tire",
+        "category_name": "Tires",
+        "confidence": 0.853,
+        "size_m2": 0.474,
+        "estimated_weight_kg": 14.009,
+        "priority": "critical",
+        "color": "#2c3e50",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.07868591907003,
+          29.540414109311875
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-3FAF1755",
+        "timestamp": "2026-01-15T10:01:42.262774",
+        "category": "metal_debris",
+        "category_name": "Metal Debris",
+        "confidence": 0.965,
+        "size_m2": 0.087,
+        "estimated_weight_kg": 1.94,
+        "priority": "high",
+        "color": "#95a5a6",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.07894029836925,
+          29.540712504680307
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-48C860B4",
+        "timestamp": "2026-01-15T10:01:42.949424",
+        "category": "tire",
+        "category_name": "Tires",
+        "confidence": 0.888,
+        "size_m2": 0.4813,
+        "estimated_weight_kg": 14.654,
+        "priority": "critical",
+        "color": "#2c3e50",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.07845108146155,
+          29.540124860762635
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-BC9C1698",
+        "timestamp": "2026-01-15T10:01:45.009374",
+        "category": "construction_waste",
+        "category_name": "Construction Waste",
+        "confidence": 0.94,
+        "size_m2": 0.8143,
+        "estimated_weight_kg": 41.663,
+        "priority": "critical",
+        "color": "#8e44ad",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.07818965823245,
+          29.53993798800623
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-20A0CCFD",
+        "timestamp": "2026-01-15T10:01:45.696025",
+        "category": "tire",
+        "category_name": "Tires",
+        "confidence": 0.778,
+        "size_m2": 0.4579,
+        "estimated_weight_kg": 10.456,
+        "priority": "critical",
+        "color": "#2c3e50",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.07836848089279,
+          29.54015992942295
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-0ADCB256",
+        "timestamp": "2026-01-15T10:01:46.382675",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.947,
+        "size_m2": 0.0031,
+        "estimated_weight_kg": 0.013,
+        "priority": "medium",
+        "color": "#3498db",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.07772342776252,
+          29.539862127645947
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-39A68E5B",
+        "timestamp": "2026-01-15T10:01:47.069325",
+        "category": "tire",
+        "category_name": "Tires",
+        "confidence": 0.977,
+        "size_m2": 0.264,
+        "estimated_weight_kg": 13.69,
+        "priority": "critical",
+        "color": "#2c3e50",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.07776293001896,
+          29.539528182559106
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-56DC81A3",
+        "timestamp": "2026-01-15T10:01:49.826673",
+        "category": "construction_waste",
+        "category_name": "Construction Waste",
+        "confidence": 0.968,
+        "size_m2": 0.6688,
+        "estimated_weight_kg": 26.969,
+        "priority": "critical",
+        "color": "#8e44ad",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.07744180468957,
+          29.539333428133954
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-2CFC2D91",
+        "timestamp": "2026-01-15T10:01:50.516010",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.906,
+        "size_m2": 0.0014,
+        "estimated_weight_kg": 0.015,
+        "priority": "medium",
+        "color": "#3498db",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.07733836626814,
+          29.539592765094152
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-66024850",
+        "timestamp": "2026-01-15T10:01:51.205347",
+        "category": "food_packaging",
+        "category_name": "Food Packaging",
+        "confidence": 0.981,
+        "size_m2": 0.018,
+        "estimated_weight_kg": 0.038,
+        "priority": "medium",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.07700330565729,
+          29.539181360616933
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-1CAEE0B4",
+        "timestamp": "2026-01-15T10:01:51.894684",
+        "category": "metal_debris",
+        "category_name": "Metal Debris",
+        "confidence": 0.883,
+        "size_m2": 0.0995,
+        "estimated_weight_kg": 0.832,
+        "priority": "medium",
+        "color": "#95a5a6",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.0770151860876,
+          29.539257947778236
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-3CCBA9F2",
+        "timestamp": "2026-01-15T10:01:52.584021",
+        "category": "metal_debris",
+        "category_name": "Metal Debris",
+        "confidence": 0.966,
+        "size_m2": 0.0721,
+        "estimated_weight_kg": 3.129,
+        "priority": "high",
+        "color": "#95a5a6",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.07668111210457,
+          29.539255278448824
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-4BD40DE8",
+        "timestamp": "2026-01-15T10:01:53.962695",
+        "category": "metal_debris",
+        "category_name": "Metal Debris",
+        "confidence": 0.795,
+        "size_m2": 0.0715,
+        "estimated_weight_kg": 1.748,
+        "priority": "high",
+        "color": "#95a5a6",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.07637529682792,
+          29.53850909340943
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-8B20359F",
+        "timestamp": "2026-01-15T10:01:58.098716",
+        "category": "textile",
+        "category_name": "Textile/Fabric",
+        "confidence": 0.879,
+        "size_m2": 0.1979,
+        "estimated_weight_kg": 1.457,
+        "priority": "high",
+        "color": "#e74c3c",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.07320121514607,
+          29.535943371161704
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-0002DCBE",
+        "timestamp": "2026-01-15T10:02:17.400151",
+        "category": "glass",
+        "category_name": "Glass",
+        "confidence": 0.924,
+        "size_m2": 0.0087,
+        "estimated_weight_kg": 0.485,
+        "priority": "low",
+        "color": "#1abc9c",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.06762184981226,
+          29.532225848649787
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-1B6E3B11",
+        "timestamp": "2026-01-15T10:02:47.638361",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.945,
+        "size_m2": 0.0011,
+        "estimated_weight_kg": 0.025,
+        "priority": "low",
+        "color": "#3498db",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.0672565596929,
+          29.53158548542492
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-8AB09D6F",
+        "timestamp": "2026-01-15T10:02:51.071815",
+        "category": "textile",
+        "category_name": "Textile/Fabric",
+        "confidence": 0.862,
+        "size_m2": 0.1763,
+        "estimated_weight_kg": 1.709,
+        "priority": "medium",
+        "color": "#e74c3c",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.06585345452251,
+          29.530603504386054
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-CE5C7D05",
+        "timestamp": "2026-01-15T10:02:57.252032",
+        "category": "organic_waste",
+        "category_name": "Organic Waste",
+        "confidence": 0.883,
+        "size_m2": 0.06,
+        "estimated_weight_kg": 0.997,
+        "priority": "medium",
+        "color": "#27ae60",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.06595808043815,
+          29.53073335863559
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-2E169ABA",
+        "timestamp": "2026-01-15T10:02:58.625414",
+        "category": "food_packaging",
+        "category_name": "Food Packaging",
+        "confidence": 0.895,
+        "size_m2": 0.0069,
+        "estimated_weight_kg": 0.096,
+        "priority": "low",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.06576213837502,
+          29.530572315688666
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-CF710E73",
+        "timestamp": "2026-01-15T10:02:59.312104",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.935,
+        "size_m2": 0.003,
+        "estimated_weight_kg": 0.031,
+        "priority": "low",
+        "color": "#3498db",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.06543927059778,
+          29.53039365555844
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-5EB32B6C",
+        "timestamp": "2026-01-15T10:03:00.685486",
+        "category": "organic_waste",
+        "category_name": "Organic Waste",
+        "confidence": 0.757,
+        "size_m2": 0.0332,
+        "estimated_weight_kg": 0.221,
+        "priority": "low",
+        "color": "#27ae60",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.0655164934243,
+          29.5303395086623
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-33F304F9",
+        "timestamp": "2026-01-15T10:03:01.372177",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.892,
+        "size_m2": 0.001,
+        "estimated_weight_kg": 0.024,
+        "priority": "low",
+        "color": "#3498db",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.06527475985081,
+          29.530390180299843
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-FC7028FF",
+        "timestamp": "2026-01-15T10:03:02.058867",
+        "category": "food_packaging",
+        "category_name": "Food Packaging",
+        "confidence": 0.899,
+        "size_m2": 0.0168,
+        "estimated_weight_kg": 0.052,
+        "priority": "low",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.06479691484917,
+          29.529840742891384
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-182CE33B",
+        "timestamp": "2026-01-15T10:03:03.432249",
+        "category": "food_packaging",
+        "category_name": "Food Packaging",
+        "confidence": 0.985,
+        "size_m2": 0.0089,
+        "estimated_weight_kg": 0.057,
+        "priority": "medium",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.06414005212464,
+          29.52960380045636
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-B9931F2D",
+        "timestamp": "2026-01-15T10:03:08.236539",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.786,
+        "size_m2": 0.0014,
+        "estimated_weight_kg": 0.015,
+        "priority": "low",
+        "color": "#3498db",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.06400558128317,
+          29.5293463435643
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-9BAE554D",
+        "timestamp": "2026-01-15T10:03:08.922866",
+        "category": "organic_waste",
+        "category_name": "Organic Waste",
+        "confidence": 0.791,
+        "size_m2": 0.0363,
+        "estimated_weight_kg": 0.701,
+        "priority": "low",
+        "color": "#27ae60",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.06386786690338,
+          29.529281933705597
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-E52664AE",
+        "timestamp": "2026-01-15T10:03:09.609193",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.861,
+        "size_m2": 0.0013,
+        "estimated_weight_kg": 0.015,
+        "priority": "low",
+        "color": "#3498db",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.06345962909654,
+          29.52943889274871
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-26F2C0D8",
+        "timestamp": "2026-01-15T10:03:10.295520",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.77,
+        "size_m2": 0.0034,
+        "estimated_weight_kg": 0.035,
+        "priority": "low",
+        "color": "#3498db",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.06035672399122,
+          29.527749902923475
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-BD27E4DD",
+        "timestamp": "2026-01-15T10:03:26.767370",
+        "category": "organic_waste",
+        "category_name": "Organic Waste",
+        "confidence": 0.8,
+        "size_m2": 0.0487,
+        "estimated_weight_kg": 0.266,
+        "priority": "low",
+        "color": "#27ae60",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.05715009678943,
+          29.52678176682314
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-4E74A177",
+        "timestamp": "2026-01-15T10:03:41.883847",
+        "category": "food_packaging",
+        "category_name": "Food Packaging",
+        "confidence": 0.811,
+        "size_m2": 0.0162,
+        "estimated_weight_kg": 0.023,
+        "priority": "low",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.05492252411955,
+          29.525957779067568
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-06A10D44",
+        "timestamp": "2026-01-15T10:03:52.221956",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.808,
+        "size_m2": 0.0023,
+        "estimated_weight_kg": 0.031,
+        "priority": "low",
+        "color": "#3498db",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.05485441888577,
+          29.52572062581053
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-DA23BF60",
+        "timestamp": "2026-01-15T10:03:52.911163",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.964,
+        "size_m2": 0.002,
+        "estimated_weight_kg": 0.015,
+        "priority": "low",
+        "color": "#3498db",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.05452585097146,
+          29.52595231712487
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-A2AC06A9",
+        "timestamp": "2026-01-15T10:03:54.289577",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.929,
+        "size_m2": 0.0026,
+        "estimated_weight_kg": 0.033,
+        "priority": "low",
+        "color": "#3498db",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.0541457334626,
+          29.525596386051145
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-B2F110EB",
+        "timestamp": "2026-01-15T10:03:56.357199",
+        "category": "tire",
+        "category_name": "Tires",
+        "confidence": 0.987,
+        "size_m2": 0.339,
+        "estimated_weight_kg": 10.493,
+        "priority": "critical",
+        "color": "#2c3e50",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.05360292865208,
+          29.525276280610115
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-399B10F6",
+        "timestamp": "2026-01-15T10:03:59.114028",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.818,
+        "size_m2": 0.0015,
+        "estimated_weight_kg": 0.017,
+        "priority": "medium",
+        "color": "#3498db",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.05312152847844,
+          29.525248650587187
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-43D47401",
+        "timestamp": "2026-01-15T10:04:00.492443",
+        "category": "food_packaging",
+        "category_name": "Food Packaging",
+        "confidence": 0.845,
+        "size_m2": 0.0197,
+        "estimated_weight_kg": 0.029,
+        "priority": "medium",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.05287867718995,
+          29.525393478400275
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-8B6A6424",
+        "timestamp": "2026-01-15T10:04:02.560065",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.884,
+        "size_m2": 0.003,
+        "estimated_weight_kg": 0.047,
+        "priority": "medium",
+        "color": "#3498db",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.05273584819685,
+          29.525277649890423
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-A8F3707F",
+        "timestamp": "2026-01-15T10:04:03.249272",
+        "category": "food_packaging",
+        "category_name": "Food Packaging",
+        "confidence": 0.808,
+        "size_m2": 0.0114,
+        "estimated_weight_kg": 0.061,
+        "priority": "medium",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.05243364872543,
+          29.525035064123195
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-6D814D3E",
+        "timestamp": "2026-01-15T10:04:03.938479",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.762,
+        "size_m2": 0.0024,
+        "estimated_weight_kg": 0.031,
+        "priority": "medium",
+        "color": "#3498db",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.05188386622827,
+          29.52487869070214
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-ADF05E80",
+        "timestamp": "2026-01-15T10:04:05.316894",
+        "category": "food_packaging",
+        "category_name": "Food Packaging",
+        "confidence": 0.914,
+        "size_m2": 0.0171,
+        "estimated_weight_kg": 0.04,
+        "priority": "medium",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.05202241985113,
+          29.524949663008616
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-290B7CFD",
+        "timestamp": "2026-01-15T10:04:06.006101",
+        "category": "food_packaging",
+        "category_name": "Food Packaging",
+        "confidence": 0.982,
+        "size_m2": 0.0189,
+        "estimated_weight_kg": 0.086,
+        "priority": "medium",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.05199501660744,
+          29.525100860303066
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-9F3633E0",
+        "timestamp": "2026-01-15T10:04:06.692455",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.952,
+        "size_m2": 0.0032,
+        "estimated_weight_kg": 0.033,
+        "priority": "medium",
+        "color": "#3498db",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.05185589626363,
+          29.524731867292058
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-768F0437",
+        "timestamp": "2026-01-15T10:04:07.378810",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.876,
+        "size_m2": 0.0034,
+        "estimated_weight_kg": 0.037,
+        "priority": "medium",
+        "color": "#3498db",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.05141630364858,
+          29.524796452057053
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-962A2198",
+        "timestamp": "2026-01-15T10:04:08.065164",
+        "category": "food_packaging",
+        "category_name": "Food Packaging",
+        "confidence": 0.822,
+        "size_m2": 0.0107,
+        "estimated_weight_kg": 0.057,
+        "priority": "medium",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.05118976196522,
+          29.524601411639832
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-EFD36C1C",
+        "timestamp": "2026-01-15T10:04:08.751519",
+        "category": "food_packaging",
+        "category_name": "Food Packaging",
+        "confidence": 0.9,
+        "size_m2": 0.0132,
+        "estimated_weight_kg": 0.093,
+        "priority": "medium",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.05135635964771,
+          29.524796750043908
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-BB975BDD",
+        "timestamp": "2026-01-15T10:04:09.437873",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.878,
+        "size_m2": 0.0034,
+        "estimated_weight_kg": 0.035,
+        "priority": "medium",
+        "color": "#3498db",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.05121950976401,
+          29.52450979369454
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-E199D35C",
+        "timestamp": "2026-01-15T10:04:10.124227",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.887,
+        "size_m2": 0.0032,
+        "estimated_weight_kg": 0.011,
+        "priority": "medium",
+        "color": "#3498db",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.05060918020847,
+          29.524418799671643
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-52AA493A",
+        "timestamp": "2026-01-15T10:04:12.183290",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.845,
+        "size_m2": 0.0035,
+        "estimated_weight_kg": 0.015,
+        "priority": "medium",
+        "color": "#3498db",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.05036070720057,
+          29.524193571657253
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-0B31634D",
+        "timestamp": "2026-01-15T10:04:13.555999",
+        "category": "construction_waste",
+        "category_name": "Construction Waste",
+        "confidence": 0.88,
+        "size_m2": 0.7309,
+        "estimated_weight_kg": 37.758,
+        "priority": "critical",
+        "color": "#8e44ad",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.05010054153344,
+          29.52410232297574
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-C86C18A6",
+        "timestamp": "2026-01-15T10:04:14.242354",
+        "category": "food_packaging",
+        "category_name": "Food Packaging",
+        "confidence": 0.977,
+        "size_m2": 0.011,
+        "estimated_weight_kg": 0.057,
+        "priority": "medium",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.05008021924694,
+          29.52424231001541
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-14669F89",
+        "timestamp": "2026-01-15T10:04:14.928708",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.886,
+        "size_m2": 0.0036,
+        "estimated_weight_kg": 0.047,
+        "priority": "medium",
+        "color": "#3498db",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.05003679647918,
+          29.52423651909202
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-2135B0B5",
+        "timestamp": "2026-01-15T10:04:16.301417",
+        "category": "food_packaging",
+        "category_name": "Food Packaging",
+        "confidence": 0.927,
+        "size_m2": 0.0141,
+        "estimated_weight_kg": 0.054,
+        "priority": "medium",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.04995775590062,
+          29.52405490886519
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-134AAD67",
+        "timestamp": "2026-01-15T10:04:16.987771",
+        "category": "textile",
+        "category_name": "Textile/Fabric",
+        "confidence": 0.971,
+        "size_m2": 0.1758,
+        "estimated_weight_kg": 0.424,
+        "priority": "high",
+        "color": "#e74c3c",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.04954231609358,
+          29.523944346789133
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-BBC7A23C",
+        "timestamp": "2026-01-15T10:04:18.360480",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.751,
+        "size_m2": 0.002,
+        "estimated_weight_kg": 0.042,
+        "priority": "low",
+        "color": "#3498db",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.04884803461934,
+          29.523729256926302
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-FCD9E972",
+        "timestamp": "2026-01-15T10:04:20.419543",
+        "category": "food_packaging",
+        "category_name": "Food Packaging",
+        "confidence": 0.859,
+        "size_m2": 0.0102,
+        "estimated_weight_kg": 0.079,
+        "priority": "low",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.04683381472762,
+          29.522566747759022
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-BC5CD428",
+        "timestamp": "2026-01-15T10:04:32.087567",
+        "category": "food_packaging",
+        "category_name": "Food Packaging",
+        "confidence": 0.837,
+        "size_m2": 0.0113,
+        "estimated_weight_kg": 0.093,
+        "priority": "low",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.0461258987163,
+          29.5222798386214
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-44C6542F",
+        "timestamp": "2026-01-15T10:04:34.146631",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.85,
+        "size_m2": 0.0039,
+        "estimated_weight_kg": 0.016,
+        "priority": "low",
+        "color": "#3498db",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.04596169595096,
+          29.5223914998652
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-194A561C",
+        "timestamp": "2026-01-15T10:04:35.519339",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.966,
+        "size_m2": 0.0032,
+        "estimated_weight_kg": 0.018,
+        "priority": "medium",
+        "color": "#3498db",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.04558034201958,
+          29.52203427772072
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-2C40C9AD",
+        "timestamp": "2026-01-15T10:04:37.578402",
+        "category": "tire",
+        "category_name": "Tires",
+        "confidence": 0.859,
+        "size_m2": 0.1496,
+        "estimated_weight_kg": 13.429,
+        "priority": "critical",
+        "color": "#2c3e50",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.04541214081044,
+          29.522122758105933
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-876F124F",
+        "timestamp": "2026-01-15T10:04:38.264757",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.977,
+        "size_m2": 0.0015,
+        "estimated_weight_kg": 0.044,
+        "priority": "medium",
+        "color": "#3498db",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.04521491167473,
+          29.522077387798692
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-A72196F7",
+        "timestamp": "2026-01-15T10:04:39.637466",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.908,
+        "size_m2": 0.0015,
+        "estimated_weight_kg": 0.039,
+        "priority": "medium",
+        "color": "#3498db",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    }
+  ],
+  "properties": {
+    "location": "NASA Clear Lake, Houston TX",
+    "total_detections": 95,
+    "generated_at": "2025-12-25T14:51:46.485031"
+  }
+}

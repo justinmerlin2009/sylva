@@ -1,0 +1,6854 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.65040195563951,
+          37.90782625702395
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-688D1E14",
+        "timestamp": "2026-01-15T10:00:04.613459",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.803,
+        "size_m2": 0.0025,
+        "estimated_weight_kg": 0.027,
+        "priority": "low",
+        "color": "#3498db",
+        "flight_id": "SYLVA-STI-001",
+        "environment": "beach",
+        "location": "Stinson Beach, California"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.650430337752,
+          37.907580393024105
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-FE1CF151",
+        "timestamp": "2026-01-15T10:00:06.920189",
+        "category": "food_packaging",
+        "category_name": "Food Packaging",
+        "confidence": 0.983,
+        "size_m2": 0.0155,
+        "estimated_weight_kg": 0.049,
+        "priority": "medium",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-STI-001",
+        "environment": "beach",
+        "location": "Stinson Beach, California"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.65036281814196,
+          37.90720415919596
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-2224FEB5",
+        "timestamp": "2026-01-15T10:00:07.689098",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.871,
+        "size_m2": 0.0011,
+        "estimated_weight_kg": 0.034,
+        "priority": "medium",
+        "color": "#3498db",
+        "flight_id": "SYLVA-STI-001",
+        "environment": "beach",
+        "location": "Stinson Beach, California"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.65019244477433,
+          37.90716391347783
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-2ACDBCD7",
+        "timestamp": "2026-01-15T10:00:09.226918",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.808,
+        "size_m2": 0.0025,
+        "estimated_weight_kg": 0.049,
+        "priority": "medium",
+        "color": "#3498db",
+        "flight_id": "SYLVA-STI-001",
+        "environment": "beach",
+        "location": "Stinson Beach, California"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.64988753737946,
+          37.90673975572655
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-80F2BAB2",
+        "timestamp": "2026-01-15T10:00:09.995828",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.879,
+        "size_m2": 0.0029,
+        "estimated_weight_kg": 0.035,
+        "priority": "medium",
+        "color": "#3498db",
+        "flight_id": "SYLVA-STI-001",
+        "environment": "beach",
+        "location": "Stinson Beach, California"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.65004511304215,
+          37.90656181119766
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-531FF13C",
+        "timestamp": "2026-01-15T10:00:11.533648",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.754,
+        "size_m2": 0.0028,
+        "estimated_weight_kg": 0.037,
+        "priority": "medium",
+        "color": "#3498db",
+        "flight_id": "SYLVA-STI-001",
+        "environment": "beach",
+        "location": "Stinson Beach, California"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.64998694919556,
+          37.90653627077108
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-CD44B0A9",
+        "timestamp": "2026-01-15T10:00:12.302558",
+        "category": "organic_waste",
+        "category_name": "Organic Waste",
+        "confidence": 0.783,
+        "size_m2": 0.0324,
+        "estimated_weight_kg": 0.943,
+        "priority": "medium",
+        "color": "#27ae60",
+        "flight_id": "SYLVA-STI-001",
+        "environment": "beach",
+        "location": "Stinson Beach, California"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.64950397151432,
+          37.90640556786714
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-B61DA497",
+        "timestamp": "2026-01-15T10:00:13.840377",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.883,
+        "size_m2": 0.003,
+        "estimated_weight_kg": 0.043,
+        "priority": "medium",
+        "color": "#3498db",
+        "flight_id": "SYLVA-STI-001",
+        "environment": "beach",
+        "location": "Stinson Beach, California"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.64935439415652,
+          37.90600138743558
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-BF39AFBE",
+        "timestamp": "2026-01-15T10:00:14.609287",
+        "category": "glass",
+        "category_name": "Glass",
+        "confidence": 0.834,
+        "size_m2": 0.0072,
+        "estimated_weight_kg": 0.302,
+        "priority": "low",
+        "color": "#1abc9c",
+        "flight_id": "SYLVA-STI-001",
+        "environment": "beach",
+        "location": "Stinson Beach, California"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6486275074291,
+          37.90509090900079
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-002FA459",
+        "timestamp": "2026-01-15T10:00:22.218524",
+        "category": "organic_waste",
+        "category_name": "Organic Waste",
+        "confidence": 0.966,
+        "size_m2": 0.0188,
+        "estimated_weight_kg": 0.245,
+        "priority": "medium",
+        "color": "#27ae60",
+        "flight_id": "SYLVA-STI-001",
+        "environment": "beach",
+        "location": "Stinson Beach, California"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.64857076160254,
+          37.90469552451108
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-B12B70F4",
+        "timestamp": "2026-01-15T10:00:22.978560",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.916,
+        "size_m2": 0.0015,
+        "estimated_weight_kg": 0.032,
+        "priority": "medium",
+        "color": "#3498db",
+        "flight_id": "SYLVA-STI-001",
+        "environment": "beach",
+        "location": "Stinson Beach, California"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.64864223718885,
+          37.904797884828426
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-168C797A",
+        "timestamp": "2026-01-15T10:00:23.738596",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.954,
+        "size_m2": 0.0032,
+        "estimated_weight_kg": 0.036,
+        "priority": "medium",
+        "color": "#3498db",
+        "flight_id": "SYLVA-STI-001",
+        "environment": "beach",
+        "location": "Stinson Beach, California"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.64848830449277,
+          37.90448143735094
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-F784E4AC",
+        "timestamp": "2026-01-15T10:00:24.498633",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.844,
+        "size_m2": 0.0017,
+        "estimated_weight_kg": 0.049,
+        "priority": "medium",
+        "color": "#3498db",
+        "flight_id": "SYLVA-STI-001",
+        "environment": "beach",
+        "location": "Stinson Beach, California"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6483993086563,
+          37.90455459838694
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-CA45BF77",
+        "timestamp": "2026-01-15T10:00:25.258669",
+        "category": "food_packaging",
+        "category_name": "Food Packaging",
+        "confidence": 0.923,
+        "size_m2": 0.0124,
+        "estimated_weight_kg": 0.036,
+        "priority": "medium",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-STI-001",
+        "environment": "beach",
+        "location": "Stinson Beach, California"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.64836891652627,
+          37.90435675859376
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-7DADF02D",
+        "timestamp": "2026-01-15T10:00:26.018705",
+        "category": "glass",
+        "category_name": "Glass",
+        "confidence": 0.839,
+        "size_m2": 0.0097,
+        "estimated_weight_kg": 0.474,
+        "priority": "medium",
+        "color": "#1abc9c",
+        "flight_id": "SYLVA-STI-001",
+        "environment": "beach",
+        "location": "Stinson Beach, California"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.64704389407612,
+          37.90305692752193
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-6FB7D75C",
+        "timestamp": "2026-01-15T10:00:34.560511",
+        "category": "textile",
+        "category_name": "Textile/Fabric",
+        "confidence": 0.842,
+        "size_m2": 0.178,
+        "estimated_weight_kg": 0.73,
+        "priority": "medium",
+        "color": "#e74c3c",
+        "flight_id": "SYLVA-STI-001",
+        "environment": "beach",
+        "location": "Stinson Beach, California"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.64687750908486,
+          37.90258321756952
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-D4CEDCE5",
+        "timestamp": "2026-01-15T10:00:36.908647",
+        "category": "glass",
+        "category_name": "Glass",
+        "confidence": 0.773,
+        "size_m2": 0.0077,
+        "estimated_weight_kg": 0.371,
+        "priority": "low",
+        "color": "#1abc9c",
+        "flight_id": "SYLVA-STI-001",
+        "environment": "beach",
+        "location": "Stinson Beach, California"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.64677419854296,
+          37.90230900344704
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-8108AB0C",
+        "timestamp": "2026-01-15T10:00:38.474071",
+        "category": "glass",
+        "category_name": "Glass",
+        "confidence": 0.919,
+        "size_m2": 0.0081,
+        "estimated_weight_kg": 0.409,
+        "priority": "medium",
+        "color": "#1abc9c",
+        "flight_id": "SYLVA-STI-001",
+        "environment": "beach",
+        "location": "Stinson Beach, California"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.64641521188767,
+          37.90235527626542
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-9D0578F8",
+        "timestamp": "2026-01-15T10:00:40.039495",
+        "category": "glass",
+        "category_name": "Glass",
+        "confidence": 0.87,
+        "size_m2": 0.0093,
+        "estimated_weight_kg": 0.353,
+        "priority": "medium",
+        "color": "#1abc9c",
+        "flight_id": "SYLVA-STI-001",
+        "environment": "beach",
+        "location": "Stinson Beach, California"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.64638789758727,
+          37.90217563775046
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-463024EB",
+        "timestamp": "2026-01-15T10:00:40.822208",
+        "category": "glass",
+        "category_name": "Glass",
+        "confidence": 0.773,
+        "size_m2": 0.005,
+        "estimated_weight_kg": 0.313,
+        "priority": "medium",
+        "color": "#1abc9c",
+        "flight_id": "SYLVA-STI-001",
+        "environment": "beach",
+        "location": "Stinson Beach, California"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.64637551374858,
+          37.90199608905836
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-EAC5D0BF",
+        "timestamp": "2026-01-15T10:00:41.604920",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.759,
+        "size_m2": 0.0028,
+        "estimated_weight_kg": 0.011,
+        "priority": "medium",
+        "color": "#3498db",
+        "flight_id": "SYLVA-STI-001",
+        "environment": "beach",
+        "location": "Stinson Beach, California"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.64627244967475,
+          37.90167830474562
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-DFA4B183",
+        "timestamp": "2026-01-15T10:00:42.387632",
+        "category": "organic_waste",
+        "category_name": "Organic Waste",
+        "confidence": 0.77,
+        "size_m2": 0.0247,
+        "estimated_weight_kg": 0.661,
+        "priority": "medium",
+        "color": "#27ae60",
+        "flight_id": "SYLVA-STI-001",
+        "environment": "beach",
+        "location": "Stinson Beach, California"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.64615081016372,
+          37.90178221505111
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-BF694E3D",
+        "timestamp": "2026-01-15T10:00:43.170344",
+        "category": "metal_debris",
+        "category_name": "Metal Debris",
+        "confidence": 0.828,
+        "size_m2": 0.0982,
+        "estimated_weight_kg": 2.823,
+        "priority": "high",
+        "color": "#95a5a6",
+        "flight_id": "SYLVA-STI-001",
+        "environment": "beach",
+        "location": "Stinson Beach, California"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.64631987080321,
+          37.90158801385157
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-BA8D2215",
+        "timestamp": "2026-01-15T10:00:43.953056",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.917,
+        "size_m2": 0.0039,
+        "estimated_weight_kg": 0.043,
+        "priority": "medium",
+        "color": "#3498db",
+        "flight_id": "SYLVA-STI-001",
+        "environment": "beach",
+        "location": "Stinson Beach, California"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.64598124846034,
+          37.90131334029834
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-3743FDBE",
+        "timestamp": "2026-01-15T10:00:45.505571",
+        "category": "food_packaging",
+        "category_name": "Food Packaging",
+        "confidence": 0.817,
+        "size_m2": 0.0157,
+        "estimated_weight_kg": 0.073,
+        "priority": "medium",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-STI-001",
+        "environment": "beach",
+        "location": "Stinson Beach, California"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.64577012637493,
+          37.90125357878563
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-49A57DE2",
+        "timestamp": "2026-01-15T10:00:46.275374",
+        "category": "food_packaging",
+        "category_name": "Food Packaging",
+        "confidence": 0.932,
+        "size_m2": 0.0087,
+        "estimated_weight_kg": 0.048,
+        "priority": "medium",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-STI-001",
+        "environment": "beach",
+        "location": "Stinson Beach, California"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.64588570709118,
+          37.90100994227095
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-947A0DCF",
+        "timestamp": "2026-01-15T10:00:47.045176",
+        "category": "glass",
+        "category_name": "Glass",
+        "confidence": 0.773,
+        "size_m2": 0.0078,
+        "estimated_weight_kg": 0.342,
+        "priority": "medium",
+        "color": "#1abc9c",
+        "flight_id": "SYLVA-STI-001",
+        "environment": "beach",
+        "location": "Stinson Beach, California"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.64558275374735,
+          37.900935252087876
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-CCBA3E10",
+        "timestamp": "2026-01-15T10:00:47.814979",
+        "category": "food_packaging",
+        "category_name": "Food Packaging",
+        "confidence": 0.761,
+        "size_m2": 0.0142,
+        "estimated_weight_kg": 0.071,
+        "priority": "medium",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-STI-001",
+        "environment": "beach",
+        "location": "Stinson Beach, California"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.64528560763092,
+          37.900910299804636
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-20CF4F5A",
+        "timestamp": "2026-01-15T10:00:48.584782",
+        "category": "food_packaging",
+        "category_name": "Food Packaging",
+        "confidence": 0.904,
+        "size_m2": 0.0074,
+        "estimated_weight_kg": 0.026,
+        "priority": "medium",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-STI-001",
+        "environment": "beach",
+        "location": "Stinson Beach, California"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.64532484682259,
+          37.901050158066006
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-92AC4DFC",
+        "timestamp": "2026-01-15T10:00:49.354585",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.881,
+        "size_m2": 0.0029,
+        "estimated_weight_kg": 0.028,
+        "priority": "medium",
+        "color": "#3498db",
+        "flight_id": "SYLVA-STI-001",
+        "environment": "beach",
+        "location": "Stinson Beach, California"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.64503624376701,
+          37.900864291785766
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-B288199D",
+        "timestamp": "2026-01-15T10:00:50.124388",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.754,
+        "size_m2": 0.0012,
+        "estimated_weight_kg": 0.014,
+        "priority": "medium",
+        "color": "#3498db",
+        "flight_id": "SYLVA-STI-001",
+        "environment": "beach",
+        "location": "Stinson Beach, California"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.64519319466743,
+          37.900438168853746
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-4B9D02CD",
+        "timestamp": "2026-01-15T10:00:50.894191",
+        "category": "glass",
+        "category_name": "Glass",
+        "confidence": 0.818,
+        "size_m2": 0.0027,
+        "estimated_weight_kg": 0.444,
+        "priority": "medium",
+        "color": "#1abc9c",
+        "flight_id": "SYLVA-STI-001",
+        "environment": "beach",
+        "location": "Stinson Beach, California"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.64449307917089,
+          37.90026704596916
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-542DE951",
+        "timestamp": "2026-01-15T10:00:53.973402",
+        "category": "organic_waste",
+        "category_name": "Organic Waste",
+        "confidence": 0.793,
+        "size_m2": 0.0512,
+        "estimated_weight_kg": 0.354,
+        "priority": "medium",
+        "color": "#27ae60",
+        "flight_id": "SYLVA-STI-001",
+        "environment": "beach",
+        "location": "Stinson Beach, California"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.64463384837146,
+          37.90029904829711
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-47146934",
+        "timestamp": "2026-01-15T10:00:54.743205",
+        "category": "food_packaging",
+        "category_name": "Food Packaging",
+        "confidence": 0.973,
+        "size_m2": 0.0166,
+        "estimated_weight_kg": 0.047,
+        "priority": "medium",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-STI-001",
+        "environment": "beach",
+        "location": "Stinson Beach, California"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.64432279763422,
+          37.90005040994314
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-E3E4274E",
+        "timestamp": "2026-01-15T10:00:55.513008",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.948,
+        "size_m2": 0.0037,
+        "estimated_weight_kg": 0.03,
+        "priority": "medium",
+        "color": "#3498db",
+        "flight_id": "SYLVA-STI-001",
+        "environment": "beach",
+        "location": "Stinson Beach, California"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.64447627444657,
+          37.89976611773184
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-E7F46FF4",
+        "timestamp": "2026-01-15T10:00:57.052613",
+        "category": "textile",
+        "category_name": "Textile/Fabric",
+        "confidence": 0.978,
+        "size_m2": 0.0637,
+        "estimated_weight_kg": 0.775,
+        "priority": "high",
+        "color": "#e74c3c",
+        "flight_id": "SYLVA-STI-001",
+        "environment": "beach",
+        "location": "Stinson Beach, California"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.64403799261464,
+          37.89962000850163
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-C24E262A",
+        "timestamp": "2026-01-15T10:00:58.592219",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.931,
+        "size_m2": 0.002,
+        "estimated_weight_kg": 0.037,
+        "priority": "medium",
+        "color": "#3498db",
+        "flight_id": "SYLVA-STI-001",
+        "environment": "beach",
+        "location": "Stinson Beach, California"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.64397561670809,
+          37.89927298445959
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-F213F4FF",
+        "timestamp": "2026-01-15T10:00:59.362022",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.963,
+        "size_m2": 0.0026,
+        "estimated_weight_kg": 0.028,
+        "priority": "medium",
+        "color": "#3498db",
+        "flight_id": "SYLVA-STI-001",
+        "environment": "beach",
+        "location": "Stinson Beach, California"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.64367481819306,
+          37.899155081432525
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-8189E6D4",
+        "timestamp": "2026-01-15T10:01:00.131825",
+        "category": "food_packaging",
+        "category_name": "Food Packaging",
+        "confidence": 0.918,
+        "size_m2": 0.0065,
+        "estimated_weight_kg": 0.027,
+        "priority": "medium",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-STI-001",
+        "environment": "beach",
+        "location": "Stinson Beach, California"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6438633052275,
+          37.899322779140036
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-893A22A5",
+        "timestamp": "2026-01-15T10:01:00.901627",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.839,
+        "size_m2": 0.004,
+        "estimated_weight_kg": 0.025,
+        "priority": "medium",
+        "color": "#3498db",
+        "flight_id": "SYLVA-STI-001",
+        "environment": "beach",
+        "location": "Stinson Beach, California"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.64334398554564,
+          37.8991670542756
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-139DD032",
+        "timestamp": "2026-01-15T10:01:02.441233",
+        "category": "food_packaging",
+        "category_name": "Food Packaging",
+        "confidence": 0.884,
+        "size_m2": 0.0063,
+        "estimated_weight_kg": 0.082,
+        "priority": "medium",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-STI-001",
+        "environment": "beach",
+        "location": "Stinson Beach, California"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.64339319912274,
+          37.898702998747034
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-E40C523A",
+        "timestamp": "2026-01-15T10:01:03.223960",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.779,
+        "size_m2": 0.0024,
+        "estimated_weight_kg": 0.012,
+        "priority": "medium",
+        "color": "#3498db",
+        "flight_id": "SYLVA-STI-001",
+        "environment": "beach",
+        "location": "Stinson Beach, California"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.64322523863882,
+          37.898822674291594
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-561EF3E9",
+        "timestamp": "2026-01-15T10:01:04.006687",
+        "category": "textile",
+        "category_name": "Textile/Fabric",
+        "confidence": 0.958,
+        "size_m2": 0.1062,
+        "estimated_weight_kg": 0.714,
+        "priority": "high",
+        "color": "#e74c3c",
+        "flight_id": "SYLVA-STI-001",
+        "environment": "beach",
+        "location": "Stinson Beach, California"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.64299493595631,
+          37.89842494196451
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-10769CFD",
+        "timestamp": "2026-01-15T10:01:04.789415",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.988,
+        "size_m2": 0.0037,
+        "estimated_weight_kg": 0.031,
+        "priority": "medium",
+        "color": "#3498db",
+        "flight_id": "SYLVA-STI-001",
+        "environment": "beach",
+        "location": "Stinson Beach, California"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.64306841398559,
+          37.89870087283988
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-35E22EDD",
+        "timestamp": "2026-01-15T10:01:05.572142",
+        "category": "food_packaging",
+        "category_name": "Food Packaging",
+        "confidence": 0.901,
+        "size_m2": 0.0154,
+        "estimated_weight_kg": 0.056,
+        "priority": "medium",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-STI-001",
+        "environment": "beach",
+        "location": "Stinson Beach, California"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.64305949957374,
+          37.89810012016554
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-C9361925",
+        "timestamp": "2026-01-15T10:01:07.137596",
+        "category": "textile",
+        "category_name": "Textile/Fabric",
+        "confidence": 0.899,
+        "size_m2": 0.1835,
+        "estimated_weight_kg": 1.02,
+        "priority": "critical",
+        "color": "#e74c3c",
+        "flight_id": "SYLVA-STI-001",
+        "environment": "beach",
+        "location": "Stinson Beach, California"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.64289650088993,
+          37.898173438786664
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-4F204E4B",
+        "timestamp": "2026-01-15T10:01:07.920324",
+        "category": "food_packaging",
+        "category_name": "Food Packaging",
+        "confidence": 0.987,
+        "size_m2": 0.0062,
+        "estimated_weight_kg": 0.098,
+        "priority": "medium",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-STI-001",
+        "environment": "beach",
+        "location": "Stinson Beach, California"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.64247739667347,
+          37.89790511003157
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-12E8AC16",
+        "timestamp": "2026-01-15T10:01:09.485778",
+        "category": "organic_waste",
+        "category_name": "Organic Waste",
+        "confidence": 0.947,
+        "size_m2": 0.0223,
+        "estimated_weight_kg": 0.92,
+        "priority": "medium",
+        "color": "#27ae60",
+        "flight_id": "SYLVA-STI-001",
+        "environment": "beach",
+        "location": "Stinson Beach, California"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.64245855404201,
+          37.89771887538233
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-3AE58CD6",
+        "timestamp": "2026-01-15T10:01:11.051233",
+        "category": "textile",
+        "category_name": "Textile/Fabric",
+        "confidence": 0.756,
+        "size_m2": 0.1799,
+        "estimated_weight_kg": 0.281,
+        "priority": "high",
+        "color": "#e74c3c",
+        "flight_id": "SYLVA-STI-001",
+        "environment": "beach",
+        "location": "Stinson Beach, California"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.64251945761686,
+          37.89778035167881
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-08945A2F",
+        "timestamp": "2026-01-15T10:01:11.833960",
+        "category": "food_packaging",
+        "category_name": "Food Packaging",
+        "confidence": 0.952,
+        "size_m2": 0.0107,
+        "estimated_weight_kg": 0.098,
+        "priority": "medium",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-STI-001",
+        "environment": "beach",
+        "location": "Stinson Beach, California"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.64226430316418,
+          37.897352389579865
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-1F8462D7",
+        "timestamp": "2026-01-15T10:01:13.399414",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.99,
+        "size_m2": 0.0036,
+        "estimated_weight_kg": 0.043,
+        "priority": "low",
+        "color": "#3498db",
+        "flight_id": "SYLVA-STI-001",
+        "environment": "beach",
+        "location": "Stinson Beach, California"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.64166781069,
+          37.897118249339314
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-5767C72B",
+        "timestamp": "2026-01-15T10:01:15.747596",
+        "category": "glass",
+        "category_name": "Glass",
+        "confidence": 0.781,
+        "size_m2": 0.0044,
+        "estimated_weight_kg": 0.335,
+        "priority": "medium",
+        "color": "#1abc9c",
+        "flight_id": "SYLVA-STI-001",
+        "environment": "beach",
+        "location": "Stinson Beach, California"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6416802986075,
+          37.89676166834714
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-84086CB4",
+        "timestamp": "2026-01-15T10:01:16.530323",
+        "category": "food_packaging",
+        "category_name": "Food Packaging",
+        "confidence": 0.911,
+        "size_m2": 0.0104,
+        "estimated_weight_kg": 0.029,
+        "priority": "medium",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-STI-001",
+        "environment": "beach",
+        "location": "Stinson Beach, California"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.64157723247472,
+          37.8967087420003
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-AD39FE7A",
+        "timestamp": "2026-01-15T10:01:17.313051",
+        "category": "food_packaging",
+        "category_name": "Food Packaging",
+        "confidence": 0.847,
+        "size_m2": 0.0134,
+        "estimated_weight_kg": 0.09,
+        "priority": "medium",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-STI-001",
+        "environment": "beach",
+        "location": "Stinson Beach, California"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.64153146359692,
+          37.896695783434104
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-F94E70AC",
+        "timestamp": "2026-01-15T10:01:18.095778",
+        "category": "food_packaging",
+        "category_name": "Food Packaging",
+        "confidence": 0.753,
+        "size_m2": 0.0082,
+        "estimated_weight_kg": 0.031,
+        "priority": "medium",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-STI-001",
+        "environment": "beach",
+        "location": "Stinson Beach, California"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.64151626196146,
+          37.896450934926854
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-6AD20375",
+        "timestamp": "2026-01-15T10:01:18.878505",
+        "category": "glass",
+        "category_name": "Glass",
+        "confidence": 0.938,
+        "size_m2": 0.0051,
+        "estimated_weight_kg": 0.354,
+        "priority": "medium",
+        "color": "#1abc9c",
+        "flight_id": "SYLVA-STI-001",
+        "environment": "beach",
+        "location": "Stinson Beach, California"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.64105683316822,
+          37.89638802448512
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-A15EA11B",
+        "timestamp": "2026-01-15T10:01:20.443975",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.812,
+        "size_m2": 0.0038,
+        "estimated_weight_kg": 0.03,
+        "priority": "medium",
+        "color": "#3498db",
+        "flight_id": "SYLVA-STI-001",
+        "environment": "beach",
+        "location": "Stinson Beach, California"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.64132707257508,
+          37.896103009227296
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-84AC2049",
+        "timestamp": "2026-01-15T10:01:21.226709",
+        "category": "food_packaging",
+        "category_name": "Food Packaging",
+        "confidence": 0.781,
+        "size_m2": 0.0086,
+        "estimated_weight_kg": 0.026,
+        "priority": "medium",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-STI-001",
+        "environment": "beach",
+        "location": "Stinson Beach, California"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.64108766909857,
+          37.895910787062896
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-8F944554",
+        "timestamp": "2026-01-15T10:01:22.009444",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.864,
+        "size_m2": 0.002,
+        "estimated_weight_kg": 0.046,
+        "priority": "medium",
+        "color": "#3498db",
+        "flight_id": "SYLVA-STI-001",
+        "environment": "beach",
+        "location": "Stinson Beach, California"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6411415558035,
+          37.8956372097876
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-7B5F5727",
+        "timestamp": "2026-01-15T10:01:23.574914",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.771,
+        "size_m2": 0.0018,
+        "estimated_weight_kg": 0.017,
+        "priority": "low",
+        "color": "#3498db",
+        "flight_id": "SYLVA-STI-001",
+        "environment": "beach",
+        "location": "Stinson Beach, California"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.63988934094886,
+          37.8942644114151
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-2C2C4716",
+        "timestamp": "2026-01-15T10:01:32.967732",
+        "category": "food_packaging",
+        "category_name": "Food Packaging",
+        "confidence": 0.942,
+        "size_m2": 0.0154,
+        "estimated_weight_kg": 0.023,
+        "priority": "medium",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-STI-001",
+        "environment": "beach",
+        "location": "Stinson Beach, California"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.63933742842408,
+          37.89410268804305
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-357FFA34",
+        "timestamp": "2026-01-15T10:01:35.315936",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.93,
+        "size_m2": 0.0018,
+        "estimated_weight_kg": 0.042,
+        "priority": "medium",
+        "color": "#3498db",
+        "flight_id": "SYLVA-STI-001",
+        "environment": "beach",
+        "location": "Stinson Beach, California"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.63915085105809,
+          37.89343093530108
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-45182E4D",
+        "timestamp": "2026-01-15T10:01:38.446906",
+        "category": "organic_waste",
+        "category_name": "Organic Waste",
+        "confidence": 0.929,
+        "size_m2": 0.0316,
+        "estimated_weight_kg": 0.516,
+        "priority": "low",
+        "color": "#27ae60",
+        "flight_id": "SYLVA-STI-001",
+        "environment": "beach",
+        "location": "Stinson Beach, California"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.63886961363521,
+          37.89348468535828
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-C208C59C",
+        "timestamp": "2026-01-15T10:01:39.229648",
+        "category": "food_packaging",
+        "category_name": "Food Packaging",
+        "confidence": 0.857,
+        "size_m2": 0.013,
+        "estimated_weight_kg": 0.029,
+        "priority": "low",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-STI-001",
+        "environment": "beach",
+        "location": "Stinson Beach, California"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.63827872729838,
+          37.89233144061182
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-BC24A321",
+        "timestamp": "2026-01-15T10:01:45.491587",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.829,
+        "size_m2": 0.002,
+        "estimated_weight_kg": 0.018,
+        "priority": "low",
+        "color": "#3498db",
+        "flight_id": "SYLVA-STI-001",
+        "environment": "beach",
+        "location": "Stinson Beach, California"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.63739390781676,
+          37.89154231417057
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-C0012C47",
+        "timestamp": "2026-01-15T10:01:51.753526",
+        "category": "glass",
+        "category_name": "Glass",
+        "confidence": 0.879,
+        "size_m2": 0.0062,
+        "estimated_weight_kg": 0.226,
+        "priority": "medium",
+        "color": "#1abc9c",
+        "flight_id": "SYLVA-STI-001",
+        "environment": "beach",
+        "location": "Stinson Beach, California"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.63723996381951,
+          37.89098486279907
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-A5D07573",
+        "timestamp": "2026-01-15T10:01:54.884526",
+        "category": "food_packaging",
+        "category_name": "Food Packaging",
+        "confidence": 0.887,
+        "size_m2": 0.0104,
+        "estimated_weight_kg": 0.072,
+        "priority": "low",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-STI-001",
+        "environment": "beach",
+        "location": "Stinson Beach, California"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6365935142772,
+          37.890197140373786
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-64E55528",
+        "timestamp": "2026-01-15T10:02:00.363776",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.789,
+        "size_m2": 0.0015,
+        "estimated_weight_kg": 0.02,
+        "priority": "low",
+        "color": "#3498db",
+        "flight_id": "SYLVA-STI-001",
+        "environment": "beach",
+        "location": "Stinson Beach, California"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.63599623136348,
+          37.8896771723638
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-07227DD8",
+        "timestamp": "2026-01-15T10:02:02.712026",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.986,
+        "size_m2": 0.0026,
+        "estimated_weight_kg": 0.026,
+        "priority": "medium",
+        "color": "#3498db",
+        "flight_id": "SYLVA-STI-001",
+        "environment": "beach",
+        "location": "Stinson Beach, California"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.63589933490398,
+          37.88992591552782
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-269EB9F6",
+        "timestamp": "2026-01-15T10:02:03.494776",
+        "category": "glass",
+        "category_name": "Glass",
+        "confidence": 0.91,
+        "size_m2": 0.0044,
+        "estimated_weight_kg": 0.251,
+        "priority": "medium",
+        "color": "#1abc9c",
+        "flight_id": "SYLVA-STI-001",
+        "environment": "beach",
+        "location": "Stinson Beach, California"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.63600688779653,
+          37.88950268370575
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-87B63BB0",
+        "timestamp": "2026-01-15T10:02:05.060276",
+        "category": "glass",
+        "category_name": "Glass",
+        "confidence": 0.852,
+        "size_m2": 0.0039,
+        "estimated_weight_kg": 0.297,
+        "priority": "medium",
+        "color": "#1abc9c",
+        "flight_id": "SYLVA-STI-001",
+        "environment": "beach",
+        "location": "Stinson Beach, California"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.63578016627064,
+          37.88922200324658
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-5BB9B85E",
+        "timestamp": "2026-01-15T10:02:05.843026",
+        "category": "food_packaging",
+        "category_name": "Food Packaging",
+        "confidence": 0.865,
+        "size_m2": 0.0137,
+        "estimated_weight_kg": 0.032,
+        "priority": "medium",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-STI-001",
+        "environment": "beach",
+        "location": "Stinson Beach, California"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.63583877782344,
+          37.88915484722244
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-11744EF7",
+        "timestamp": "2026-01-15T10:02:06.625776",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.944,
+        "size_m2": 0.004,
+        "estimated_weight_kg": 0.023,
+        "priority": "medium",
+        "color": "#3498db",
+        "flight_id": "SYLVA-STI-001",
+        "environment": "beach",
+        "location": "Stinson Beach, California"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.63550519091855,
+          37.889245615797655
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-CA0D0E9E",
+        "timestamp": "2026-01-15T10:02:07.408526",
+        "category": "metal_debris",
+        "category_name": "Metal Debris",
+        "confidence": 0.973,
+        "size_m2": 0.0559,
+        "estimated_weight_kg": 2.07,
+        "priority": "high",
+        "color": "#95a5a6",
+        "flight_id": "SYLVA-STI-001",
+        "environment": "beach",
+        "location": "Stinson Beach, California"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.63525200743062,
+          37.888763752458104
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-3E6F6C41",
+        "timestamp": "2026-01-15T10:02:08.961129",
+        "category": "textile",
+        "category_name": "Textile/Fabric",
+        "confidence": 0.928,
+        "size_m2": 0.0772,
+        "estimated_weight_kg": 0.32,
+        "priority": "high",
+        "color": "#e74c3c",
+        "flight_id": "SYLVA-STI-001",
+        "environment": "beach",
+        "location": "Stinson Beach, California"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.63514586704471,
+          37.888669689817874
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-BB8EDE9E",
+        "timestamp": "2026-01-15T10:02:09.730982",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.945,
+        "size_m2": 0.0015,
+        "estimated_weight_kg": 0.017,
+        "priority": "medium",
+        "color": "#3498db",
+        "flight_id": "SYLVA-STI-001",
+        "environment": "beach",
+        "location": "Stinson Beach, California"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.63502203622934,
+          37.888619455360576
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-5B8609FB",
+        "timestamp": "2026-01-15T10:02:10.500835",
+        "category": "tire",
+        "category_name": "Tires",
+        "confidence": 0.84,
+        "size_m2": 0.4312,
+        "estimated_weight_kg": 11.074,
+        "priority": "critical",
+        "color": "#2c3e50",
+        "flight_id": "SYLVA-STI-001",
+        "environment": "beach",
+        "location": "Stinson Beach, California"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.63505155500266,
+          37.88869483671169
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-B8A54044",
+        "timestamp": "2026-01-15T10:02:11.270688",
+        "category": "food_packaging",
+        "category_name": "Food Packaging",
+        "confidence": 0.88,
+        "size_m2": 0.0185,
+        "estimated_weight_kg": 0.051,
+        "priority": "medium",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-STI-001",
+        "environment": "beach",
+        "location": "Stinson Beach, California"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.63475292109783,
+          37.88833087110625
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-BFCB6A9C",
+        "timestamp": "2026-01-15T10:02:12.040541",
+        "category": "organic_waste",
+        "category_name": "Organic Waste",
+        "confidence": 0.941,
+        "size_m2": 0.0301,
+        "estimated_weight_kg": 0.225,
+        "priority": "medium",
+        "color": "#27ae60",
+        "flight_id": "SYLVA-STI-001",
+        "environment": "beach",
+        "location": "Stinson Beach, California"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.63470943968048,
+          37.888442714574076
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-4FF2F002",
+        "timestamp": "2026-01-15T10:02:12.810394",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.929,
+        "size_m2": 0.0019,
+        "estimated_weight_kg": 0.02,
+        "priority": "medium",
+        "color": "#3498db",
+        "flight_id": "SYLVA-STI-001",
+        "environment": "beach",
+        "location": "Stinson Beach, California"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.63446916630437,
+          37.88818749147699
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-717AB9C4",
+        "timestamp": "2026-01-15T10:02:14.350100",
+        "category": "food_packaging",
+        "category_name": "Food Packaging",
+        "confidence": 0.953,
+        "size_m2": 0.0173,
+        "estimated_weight_kg": 0.029,
+        "priority": "medium",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-STI-001",
+        "environment": "beach",
+        "location": "Stinson Beach, California"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6346768575174,
+          37.88814795947462
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-B9204BA2",
+        "timestamp": "2026-01-15T10:02:15.119953",
+        "category": "food_packaging",
+        "category_name": "Food Packaging",
+        "confidence": 0.904,
+        "size_m2": 0.0158,
+        "estimated_weight_kg": 0.078,
+        "priority": "medium",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-STI-001",
+        "environment": "beach",
+        "location": "Stinson Beach, California"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6330255240508,
+          37.88640701590875
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-FAD47354",
+        "timestamp": "2026-01-15T10:02:25.897895",
+        "category": "food_packaging",
+        "category_name": "Food Packaging",
+        "confidence": 0.846,
+        "size_m2": 0.0186,
+        "estimated_weight_kg": 0.067,
+        "priority": "medium",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-STI-001",
+        "environment": "beach",
+        "location": "Stinson Beach, California"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.63284553189077,
+          37.88630995685272
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-22D6FD9C",
+        "timestamp": "2026-01-15T10:02:26.667758",
+        "category": "organic_waste",
+        "category_name": "Organic Waste",
+        "confidence": 0.959,
+        "size_m2": 0.0425,
+        "estimated_weight_kg": 0.116,
+        "priority": "low",
+        "color": "#27ae60",
+        "flight_id": "SYLVA-STI-001",
+        "environment": "beach",
+        "location": "Stinson Beach, California"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.63256660697604,
+          37.88634568321585
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-90659EB1",
+        "timestamp": "2026-01-15T10:02:27.437621",
+        "category": "glass",
+        "category_name": "Glass",
+        "confidence": 0.896,
+        "size_m2": 0.0036,
+        "estimated_weight_kg": 0.373,
+        "priority": "low",
+        "color": "#1abc9c",
+        "flight_id": "SYLVA-STI-001",
+        "environment": "beach",
+        "location": "Stinson Beach, California"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.63026416719424,
+          37.88411854496549
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-8281FA32",
+        "timestamp": "2026-01-15T10:02:43.604745",
+        "category": "metal_debris",
+        "category_name": "Metal Debris",
+        "confidence": 0.951,
+        "size_m2": 0.0335,
+        "estimated_weight_kg": 4.932,
+        "priority": "medium",
+        "color": "#95a5a6",
+        "flight_id": "SYLVA-STI-001",
+        "environment": "beach",
+        "location": "Stinson Beach, California"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.63043226475412,
+          37.88405450250694
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-BDBB7306",
+        "timestamp": "2026-01-15T10:02:44.374618",
+        "category": "construction_waste",
+        "category_name": "Construction Waste",
+        "confidence": 0.83,
+        "size_m2": 0.5493,
+        "estimated_weight_kg": 12.19,
+        "priority": "critical",
+        "color": "#8e44ad",
+        "flight_id": "SYLVA-STI-001",
+        "environment": "beach",
+        "location": "Stinson Beach, California"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.63033374751329,
+          37.88374653099858
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-253FA37E",
+        "timestamp": "2026-01-15T10:02:45.144491",
+        "category": "metal_debris",
+        "category_name": "Metal Debris",
+        "confidence": 0.833,
+        "size_m2": 0.094,
+        "estimated_weight_kg": 2.059,
+        "priority": "medium",
+        "color": "#95a5a6",
+        "flight_id": "SYLVA-STI-001",
+        "environment": "beach",
+        "location": "Stinson Beach, California"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.63010063073959,
+          37.883507745755374
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-1459AA58",
+        "timestamp": "2026-01-15T10:02:46.684237",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.851,
+        "size_m2": 0.0015,
+        "estimated_weight_kg": 0.03,
+        "priority": "medium",
+        "color": "#3498db",
+        "flight_id": "SYLVA-STI-001",
+        "environment": "beach",
+        "location": "Stinson Beach, California"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.62990484379617,
+          37.883450345378165
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-84850BDF",
+        "timestamp": "2026-01-15T10:02:47.454110",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.981,
+        "size_m2": 0.003,
+        "estimated_weight_kg": 0.017,
+        "priority": "medium",
+        "color": "#3498db",
+        "flight_id": "SYLVA-STI-001",
+        "environment": "beach",
+        "location": "Stinson Beach, California"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.62947311535495,
+          37.88306112698334
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-1DBFA3D4",
+        "timestamp": "2026-01-15T10:02:48.993856",
+        "category": "metal_debris",
+        "category_name": "Metal Debris",
+        "confidence": 0.93,
+        "size_m2": 0.0697,
+        "estimated_weight_kg": 0.802,
+        "priority": "high",
+        "color": "#95a5a6",
+        "flight_id": "SYLVA-STI-001",
+        "environment": "beach",
+        "location": "Stinson Beach, California"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6297759248673,
+          37.883052037001875
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-9D3AAF83",
+        "timestamp": "2026-01-15T10:02:49.763729",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.766,
+        "size_m2": 0.0024,
+        "estimated_weight_kg": 0.033,
+        "priority": "medium",
+        "color": "#3498db",
+        "flight_id": "SYLVA-STI-001",
+        "environment": "beach",
+        "location": "Stinson Beach, California"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.62950409617584,
+          37.88306668171313
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-61CADE71",
+        "timestamp": "2026-01-15T10:02:50.533602",
+        "category": "tire",
+        "category_name": "Tires",
+        "confidence": 0.794,
+        "size_m2": 0.3349,
+        "estimated_weight_kg": 9.087,
+        "priority": "critical",
+        "color": "#2c3e50",
+        "flight_id": "SYLVA-STI-001",
+        "environment": "beach",
+        "location": "Stinson Beach, California"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.62939282683189,
+          37.88278042198619
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-10F63612",
+        "timestamp": "2026-01-15T10:02:52.073348",
+        "category": "organic_waste",
+        "category_name": "Organic Waste",
+        "confidence": 0.787,
+        "size_m2": 0.0334,
+        "estimated_weight_kg": 0.123,
+        "priority": "medium",
+        "color": "#27ae60",
+        "flight_id": "SYLVA-STI-001",
+        "environment": "beach",
+        "location": "Stinson Beach, California"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.62913698154823,
+          37.88233832649625
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-4ED83602",
+        "timestamp": "2026-01-15T10:02:54.382968",
+        "category": "food_packaging",
+        "category_name": "Food Packaging",
+        "confidence": 0.775,
+        "size_m2": 0.0151,
+        "estimated_weight_kg": 0.022,
+        "priority": "medium",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-STI-001",
+        "environment": "beach",
+        "location": "Stinson Beach, California"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.61446628302211,
+          34.848013915724195
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-988E8B7C",
+        "timestamp": "2026-01-15T10:00:00",
+        "category": "construction_waste",
+        "category_name": "Construction Waste",
+        "confidence": 0.805,
+        "size_m2": 0.4885,
+        "estimated_weight_kg": 14.402,
+        "priority": "critical",
+        "color": "#8e44ad",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.61465919997315,
+          34.848243231156005
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-BD09C80C",
+        "timestamp": "2026-01-15T10:00:01.075421",
+        "category": "food_packaging",
+        "category_name": "Food Packaging",
+        "confidence": 0.779,
+        "size_m2": 0.0113,
+        "estimated_weight_kg": 0.038,
+        "priority": "medium",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.61420744633362,
+          34.84797744793607
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-932E066B",
+        "timestamp": "2026-01-15T10:00:01.613132",
+        "category": "tire",
+        "category_name": "Tires",
+        "confidence": 0.981,
+        "size_m2": 0.2614,
+        "estimated_weight_kg": 14.802,
+        "priority": "critical",
+        "color": "#2c3e50",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.61415983215849,
+          34.848000622003546
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-2AB9A403",
+        "timestamp": "2026-01-15T10:00:02.150842",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.762,
+        "size_m2": 0.0028,
+        "estimated_weight_kg": 0.03,
+        "priority": "medium",
+        "color": "#3498db",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.61415864381841,
+          34.84804839090915
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-A8265427",
+        "timestamp": "2026-01-15T10:00:02.688553",
+        "category": "food_packaging",
+        "category_name": "Food Packaging",
+        "confidence": 0.911,
+        "size_m2": 0.0198,
+        "estimated_weight_kg": 0.039,
+        "priority": "medium",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.61384378181461,
+          34.848351657778544
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-AFAF5F54",
+        "timestamp": "2026-01-15T10:00:03.226263",
+        "category": "tire",
+        "category_name": "Tires",
+        "confidence": 0.772,
+        "size_m2": 0.3626,
+        "estimated_weight_kg": 11.75,
+        "priority": "critical",
+        "color": "#2c3e50",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.61386594751247,
+          34.84803132949879
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-5445C6F2",
+        "timestamp": "2026-01-15T10:00:03.763974",
+        "category": "tire",
+        "category_name": "Tires",
+        "confidence": 0.873,
+        "size_m2": 0.3791,
+        "estimated_weight_kg": 8.116,
+        "priority": "critical",
+        "color": "#2c3e50",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.61325082847357,
+          34.84804599778828
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-C65AB901",
+        "timestamp": "2026-01-15T10:00:04.301684",
+        "category": "food_packaging",
+        "category_name": "Food Packaging",
+        "confidence": 0.832,
+        "size_m2": 0.0191,
+        "estimated_weight_kg": 0.031,
+        "priority": "low",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.6132980394618,
+          34.84850276937587
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-41CD053A",
+        "timestamp": "2026-01-15T10:00:05.377105",
+        "category": "tire",
+        "category_name": "Tires",
+        "confidence": 0.877,
+        "size_m2": 0.4315,
+        "estimated_weight_kg": 11.886,
+        "priority": "critical",
+        "color": "#2c3e50",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.61071456912742,
+          34.84900177251822
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-ADCCF787",
+        "timestamp": "2026-01-15T10:00:12.367342",
+        "category": "metal_debris",
+        "category_name": "Metal Debris",
+        "confidence": 0.924,
+        "size_m2": 0.0504,
+        "estimated_weight_kg": 2.071,
+        "priority": "medium",
+        "color": "#95a5a6",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.60695876498373,
+          34.84966274451319
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-200CC943",
+        "timestamp": "2026-01-15T10:00:25.810105",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.896,
+        "size_m2": 0.0015,
+        "estimated_weight_kg": 0.046,
+        "priority": "low",
+        "color": "#3498db",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.60459327885553,
+          34.85017437334895
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-25D73803",
+        "timestamp": "2026-01-15T10:00:34.951184",
+        "category": "food_packaging",
+        "category_name": "Food Packaging",
+        "confidence": 0.906,
+        "size_m2": 0.0132,
+        "estimated_weight_kg": 0.075,
+        "priority": "low",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.59375996096574,
+          34.85228381626293
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-227CFE31",
+        "timestamp": "2026-01-15T10:01:10.979916",
+        "category": "construction_waste",
+        "category_name": "Construction Waste",
+        "confidence": 0.908,
+        "size_m2": 0.7372,
+        "estimated_weight_kg": 43.969,
+        "priority": "critical",
+        "color": "#8e44ad",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.59124876609022,
+          34.85310460513684
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-51FA51AA",
+        "timestamp": "2026-01-15T10:01:19.587065",
+        "category": "food_packaging",
+        "category_name": "Food Packaging",
+        "confidence": 0.964,
+        "size_m2": 0.0196,
+        "estimated_weight_kg": 0.051,
+        "priority": "low",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.58857835232537,
+          34.853860829698945
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-93155DD6",
+        "timestamp": "2026-01-15T10:01:28.194213",
+        "category": "tire",
+        "category_name": "Tires",
+        "confidence": 0.817,
+        "size_m2": 0.1982,
+        "estimated_weight_kg": 13.057,
+        "priority": "high",
+        "color": "#2c3e50",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.58650082742813,
+          34.85433391508434
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-91C1734B",
+        "timestamp": "2026-01-15T10:01:34.649574",
+        "category": "glass",
+        "category_name": "Glass",
+        "confidence": 0.754,
+        "size_m2": 0.0094,
+        "estimated_weight_kg": 0.311,
+        "priority": "low",
+        "color": "#1abc9c",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.5852711723587,
+          34.85507042224612
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-315EDDD2",
+        "timestamp": "2026-01-15T10:01:38.953149",
+        "category": "construction_waste",
+        "category_name": "Construction Waste",
+        "confidence": 0.954,
+        "size_m2": 0.4708,
+        "estimated_weight_kg": 25.404,
+        "priority": "critical",
+        "color": "#8e44ad",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.58513711395457,
+          34.85496334144053
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-2DE8D288",
+        "timestamp": "2026-01-15T10:01:39.491096",
+        "category": "metal_debris",
+        "category_name": "Metal Debris",
+        "confidence": 0.898,
+        "size_m2": 0.0678,
+        "estimated_weight_kg": 0.937,
+        "priority": "medium",
+        "color": "#95a5a6",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.5847987173529,
+          34.85496598280941
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-9256FC7B",
+        "timestamp": "2026-01-15T10:01:40.566989",
+        "category": "metal_debris",
+        "category_name": "Metal Debris",
+        "confidence": 0.836,
+        "size_m2": 0.0773,
+        "estimated_weight_kg": 3.661,
+        "priority": "medium",
+        "color": "#95a5a6",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.58450614472217,
+          34.855251910831704
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-EC8C5D9D",
+        "timestamp": "2026-01-15T10:01:41.642883",
+        "category": "organic_waste",
+        "category_name": "Organic Waste",
+        "confidence": 0.942,
+        "size_m2": 0.038,
+        "estimated_weight_kg": 0.551,
+        "priority": "low",
+        "color": "#27ae60",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.5843596798346,
+          34.8552293016134
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-7403640D",
+        "timestamp": "2026-01-15T10:01:42.180829",
+        "category": "food_packaging",
+        "category_name": "Food Packaging",
+        "confidence": 0.889,
+        "size_m2": 0.0106,
+        "estimated_weight_kg": 0.028,
+        "priority": "low",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.58463486242911,
+          34.855171794652954
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-C2109A34",
+        "timestamp": "2026-01-15T10:01:42.718776",
+        "category": "metal_debris",
+        "category_name": "Metal Debris",
+        "confidence": 0.947,
+        "size_m2": 0.0273,
+        "estimated_weight_kg": 0.668,
+        "priority": "low",
+        "color": "#95a5a6",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.58412092459534,
+          34.855224426610185
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-6CAE31CA",
+        "timestamp": "2026-01-15T10:01:43.256723",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.762,
+        "size_m2": 0.0029,
+        "estimated_weight_kg": 0.013,
+        "priority": "low",
+        "color": "#3498db",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.58369481034036,
+          34.8553999933242
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-019780CE",
+        "timestamp": "2026-01-15T10:01:44.870563",
+        "category": "textile",
+        "category_name": "Textile/Fabric",
+        "confidence": 0.941,
+        "size_m2": 0.1274,
+        "estimated_weight_kg": 0.781,
+        "priority": "medium",
+        "color": "#e74c3c",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.58387324862674,
+          34.85518198349109
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-7D480AB7",
+        "timestamp": "2026-01-15T10:01:45.946457",
+        "category": "glass",
+        "category_name": "Glass",
+        "confidence": 0.848,
+        "size_m2": 0.0088,
+        "estimated_weight_kg": 0.409,
+        "priority": "low",
+        "color": "#1abc9c",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.57496223038375,
+          34.857889173934296
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-C8199C3F",
+        "timestamp": "2026-01-15T10:02:15.533530",
+        "category": "construction_waste",
+        "category_name": "Construction Waste",
+        "confidence": 0.979,
+        "size_m2": 0.7451,
+        "estimated_weight_kg": 21.197,
+        "priority": "critical",
+        "color": "#8e44ad",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.5740376040838,
+          34.85839303538214
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-4998D74D",
+        "timestamp": "2026-01-15T10:02:19.290844",
+        "category": "food_packaging",
+        "category_name": "Food Packaging",
+        "confidence": 0.753,
+        "size_m2": 0.0103,
+        "estimated_weight_kg": 0.081,
+        "priority": "low",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.565253733837,
+          34.86109071519845
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-62B62E78",
+        "timestamp": "2026-01-15T10:02:49.349352",
+        "category": "construction_waste",
+        "category_name": "Construction Waste",
+        "confidence": 0.868,
+        "size_m2": 0.6056,
+        "estimated_weight_kg": 13.913,
+        "priority": "critical",
+        "color": "#8e44ad",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.55703605495677,
+          34.86428753897056
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-982DEC5A",
+        "timestamp": "2026-01-15T10:03:19.407860",
+        "category": "tire",
+        "category_name": "Tires",
+        "confidence": 0.84,
+        "size_m2": 0.3632,
+        "estimated_weight_kg": 8.317,
+        "priority": "critical",
+        "color": "#2c3e50",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.5565183986419,
+          34.86461738750966
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-070368A4",
+        "timestamp": "2026-01-15T10:03:20.481378",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.756,
+        "size_m2": 0.0012,
+        "estimated_weight_kg": 0.036,
+        "priority": "medium",
+        "color": "#3498db",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.55639097798132,
+          34.86455201711495
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-8F5DB259",
+        "timestamp": "2026-01-15T10:03:21.554896",
+        "category": "tire",
+        "category_name": "Tires",
+        "confidence": 0.976,
+        "size_m2": 0.2968,
+        "estimated_weight_kg": 11.819,
+        "priority": "critical",
+        "color": "#2c3e50",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.55645483591572,
+          34.86481253685997
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-9B33BB5E",
+        "timestamp": "2026-01-15T10:03:22.091655",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.773,
+        "size_m2": 0.0013,
+        "estimated_weight_kg": 0.011,
+        "priority": "medium",
+        "color": "#3498db",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.55582116443831,
+          34.86455089186678
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-4E09FD44",
+        "timestamp": "2026-01-15T10:03:22.628414",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.778,
+        "size_m2": 0.0034,
+        "estimated_weight_kg": 0.021,
+        "priority": "medium",
+        "color": "#3498db",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.55570562298149,
+          34.86491595405254
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-9AD0B3E2",
+        "timestamp": "2026-01-15T10:03:23.165174",
+        "category": "metal_debris",
+        "category_name": "Metal Debris",
+        "confidence": 0.93,
+        "size_m2": 0.0462,
+        "estimated_weight_kg": 1.298,
+        "priority": "medium",
+        "color": "#95a5a6",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.55566504451595,
+          34.86473368028022
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-5C3B0409",
+        "timestamp": "2026-01-15T10:03:24.238692",
+        "category": "metal_debris",
+        "category_name": "Metal Debris",
+        "confidence": 0.956,
+        "size_m2": 0.0506,
+        "estimated_weight_kg": 4.688,
+        "priority": "high",
+        "color": "#95a5a6",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.55572633244641,
+          34.865017656638734
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-7C1ABDCD",
+        "timestamp": "2026-01-15T10:03:24.775451",
+        "category": "organic_waste",
+        "category_name": "Organic Waste",
+        "confidence": 0.827,
+        "size_m2": 0.0377,
+        "estimated_weight_kg": 0.844,
+        "priority": "medium",
+        "color": "#27ae60",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.55502355177713,
+          34.864637631180315
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-1F3648EB",
+        "timestamp": "2026-01-15T10:03:25.312210",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.978,
+        "size_m2": 0.002,
+        "estimated_weight_kg": 0.048,
+        "priority": "medium",
+        "color": "#3498db",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.55532823415885,
+          34.86494814433301
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-475DB0E6",
+        "timestamp": "2026-01-15T10:03:25.848969",
+        "category": "food_packaging",
+        "category_name": "Food Packaging",
+        "confidence": 0.94,
+        "size_m2": 0.0151,
+        "estimated_weight_kg": 0.08,
+        "priority": "medium",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.55516522917014,
+          34.864985859813885
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-F3CABA75",
+        "timestamp": "2026-01-15T10:03:26.921647",
+        "category": "tire",
+        "category_name": "Tires",
+        "confidence": 0.834,
+        "size_m2": 0.2906,
+        "estimated_weight_kg": 14.214,
+        "priority": "critical",
+        "color": "#2c3e50",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.55457949613736,
+          34.865227457747295
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-AB53ECE5",
+        "timestamp": "2026-01-15T10:03:27.457566",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.767,
+        "size_m2": 0.0013,
+        "estimated_weight_kg": 0.038,
+        "priority": "medium",
+        "color": "#3498db",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.55474078665736,
+          34.86490055889796
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-B3B5A9DC",
+        "timestamp": "2026-01-15T10:03:27.993485",
+        "category": "textile",
+        "category_name": "Textile/Fabric",
+        "confidence": 0.945,
+        "size_m2": 0.1061,
+        "estimated_weight_kg": 0.867,
+        "priority": "high",
+        "color": "#e74c3c",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.55447572090989,
+          34.86528584488701
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-6D7D5CA3",
+        "timestamp": "2026-01-15T10:03:28.529404",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.852,
+        "size_m2": 0.0033,
+        "estimated_weight_kg": 0.032,
+        "priority": "medium",
+        "color": "#3498db",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.55384638792883,
+          34.86525539050392
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-7941ED51",
+        "timestamp": "2026-01-15T10:03:31.208999",
+        "category": "food_packaging",
+        "category_name": "Food Packaging",
+        "confidence": 0.778,
+        "size_m2": 0.0058,
+        "estimated_weight_kg": 0.03,
+        "priority": "medium",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.55297296039058,
+          34.86539002234204
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-80E0E87B",
+        "timestamp": "2026-01-15T10:03:32.280837",
+        "category": "food_packaging",
+        "category_name": "Food Packaging",
+        "confidence": 0.804,
+        "size_m2": 0.0093,
+        "estimated_weight_kg": 0.089,
+        "priority": "low",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.55331983554954,
+          34.86558456979492
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-BB133812",
+        "timestamp": "2026-01-15T10:03:32.816756",
+        "category": "construction_waste",
+        "category_name": "Construction Waste",
+        "confidence": 0.768,
+        "size_m2": 0.6458,
+        "estimated_weight_kg": 49.719,
+        "priority": "critical",
+        "color": "#8e44ad",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.55286600867406,
+          34.86540565165172
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-4B232F95",
+        "timestamp": "2026-01-15T10:03:33.352675",
+        "category": "tire",
+        "category_name": "Tires",
+        "confidence": 0.89,
+        "size_m2": 0.2955,
+        "estimated_weight_kg": 12.393,
+        "priority": "critical",
+        "color": "#2c3e50",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.5516466421903,
+          34.86536680356998
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-2CC7A913",
+        "timestamp": "2026-01-15T10:03:36.568189",
+        "category": "glass",
+        "category_name": "Glass",
+        "confidence": 0.817,
+        "size_m2": 0.0059,
+        "estimated_weight_kg": 0.386,
+        "priority": "low",
+        "color": "#1abc9c",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.54030298083187,
+          34.8673961733755
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-83A48580",
+        "timestamp": "2026-01-15T10:04:15.154358",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.918,
+        "size_m2": 0.0039,
+        "estimated_weight_kg": 0.049,
+        "priority": "low",
+        "color": "#3498db",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.53231174753024,
+          34.868994172430355
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-91293190",
+        "timestamp": "2026-01-15T10:04:41.414389",
+        "category": "food_packaging",
+        "category_name": "Food Packaging",
+        "confidence": 0.978,
+        "size_m2": 0.0187,
+        "estimated_weight_kg": 0.086,
+        "priority": "low",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.53001699897169,
+          34.86914254497215
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-55496491",
+        "timestamp": "2026-01-15T10:04:48.381336",
+        "category": "construction_waste",
+        "category_name": "Construction Waste",
+        "confidence": 0.84,
+        "size_m2": 0.2839,
+        "estimated_weight_kg": 11.055,
+        "priority": "critical",
+        "color": "#8e44ad",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.53013556938967,
+          34.86899116471737
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-F863F562",
+        "timestamp": "2026-01-15T10:04:48.917255",
+        "category": "food_packaging",
+        "category_name": "Food Packaging",
+        "confidence": 0.951,
+        "size_m2": 0.0195,
+        "estimated_weight_kg": 0.087,
+        "priority": "low",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.53013119957924,
+          34.86912044963192
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-9270188D",
+        "timestamp": "2026-01-15T10:04:49.989093",
+        "category": "construction_waste",
+        "category_name": "Construction Waste",
+        "confidence": 0.989,
+        "size_m2": 0.8597,
+        "estimated_weight_kg": 49.989,
+        "priority": "critical",
+        "color": "#8e44ad",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.52934188504118,
+          34.86954169830338
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-CA73990B",
+        "timestamp": "2026-01-15T10:04:51.060931",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.979,
+        "size_m2": 0.0024,
+        "estimated_weight_kg": 0.015,
+        "priority": "medium",
+        "color": "#3498db",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.52930371454609,
+          34.86943829474383
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-32D2B8FD",
+        "timestamp": "2026-01-15T10:04:51.596850",
+        "category": "food_packaging",
+        "category_name": "Food Packaging",
+        "confidence": 0.875,
+        "size_m2": 0.0067,
+        "estimated_weight_kg": 0.074,
+        "priority": "medium",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.52916260912713,
+          34.86948837842639
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-7AB86E9B",
+        "timestamp": "2026-01-15T10:04:52.132769",
+        "category": "food_packaging",
+        "category_name": "Food Packaging",
+        "confidence": 0.782,
+        "size_m2": 0.0181,
+        "estimated_weight_kg": 0.052,
+        "priority": "medium",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.52877670855948,
+          34.86947383701735
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-D3E1A9F2",
+        "timestamp": "2026-01-15T10:04:53.204607",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.834,
+        "size_m2": 0.0014,
+        "estimated_weight_kg": 0.011,
+        "priority": "medium",
+        "color": "#3498db",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.52828170131708,
+          34.86945268066969
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-567AFC3B",
+        "timestamp": "2026-01-15T10:04:54.277225",
+        "category": "food_packaging",
+        "category_name": "Food Packaging",
+        "confidence": 0.845,
+        "size_m2": 0.0127,
+        "estimated_weight_kg": 0.083,
+        "priority": "medium",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.52786636346032,
+          34.869986977639016
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-C18230E9",
+        "timestamp": "2026-01-15T10:04:57.495080",
+        "category": "organic_waste",
+        "category_name": "Organic Waste",
+        "confidence": 0.86,
+        "size_m2": 0.0371,
+        "estimated_weight_kg": 0.332,
+        "priority": "low",
+        "color": "#27ae60",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.52726569980986,
+          34.869643750591194
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-F6A09E09",
+        "timestamp": "2026-01-15T10:04:58.567698",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.781,
+        "size_m2": 0.0012,
+        "estimated_weight_kg": 0.015,
+        "priority": "low",
+        "color": "#3498db",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.5272404184217,
+          34.86988819471422
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-E47CF30E",
+        "timestamp": "2026-01-15T10:04:59.640317",
+        "category": "food_packaging",
+        "category_name": "Food Packaging",
+        "confidence": 0.91,
+        "size_m2": 0.0185,
+        "estimated_weight_kg": 0.058,
+        "priority": "low",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.52297401074347,
+          34.87059496978102
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-6B50212D",
+        "timestamp": "2026-01-15T10:05:14.120663",
+        "category": "food_packaging",
+        "category_name": "Food Packaging",
+        "confidence": 0.779,
+        "size_m2": 0.0077,
+        "estimated_weight_kg": 0.027,
+        "priority": "low",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.51968026470549,
+          34.871436012540315
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-201E9523",
+        "timestamp": "2026-01-15T10:05:24.310536",
+        "category": "construction_waste",
+        "category_name": "Construction Waste",
+        "confidence": 0.901,
+        "size_m2": 0.2795,
+        "estimated_weight_kg": 41.976,
+        "priority": "high",
+        "color": "#8e44ad",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.51954633685737,
+          34.87186003121635
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-95716307",
+        "timestamp": "2026-01-15T10:05:25.919464",
+        "category": "food_packaging",
+        "category_name": "Food Packaging",
+        "confidence": 0.794,
+        "size_m2": 0.0171,
+        "estimated_weight_kg": 0.08,
+        "priority": "low",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.51787978493395,
+          34.87192584218657
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-5BE0BD39",
+        "timestamp": "2026-01-15T10:05:30.209937",
+        "category": "tire",
+        "category_name": "Tires",
+        "confidence": 0.759,
+        "size_m2": 0.2985,
+        "estimated_weight_kg": 13.232,
+        "priority": "high",
+        "color": "#2c3e50",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.51150480795542,
+          34.87366672848027
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-C420F746",
+        "timestamp": "2026-01-15T10:05:52.198611",
+        "category": "metal_debris",
+        "category_name": "Metal Debris",
+        "confidence": 0.878,
+        "size_m2": 0.033,
+        "estimated_weight_kg": 2.513,
+        "priority": "low",
+        "color": "#95a5a6",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.50155594803475,
+          34.876022910523496
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-3395B738",
+        "timestamp": "2026-01-15T10:06:27.096331",
+        "category": "food_packaging",
+        "category_name": "Food Packaging",
+        "confidence": 0.779,
+        "size_m2": 0.0082,
+        "estimated_weight_kg": 0.046,
+        "priority": "low",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.48325434059448,
+          34.88115857771627
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-CB585CB7",
+        "timestamp": "2026-01-15T10:07:28.414301",
+        "category": "metal_debris",
+        "category_name": "Metal Debris",
+        "confidence": 0.891,
+        "size_m2": 0.0315,
+        "estimated_weight_kg": 2.917,
+        "priority": "low",
+        "color": "#95a5a6",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.48231898829532,
+          34.8812354222594
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-3B7CD597",
+        "timestamp": "2026-01-15T10:07:32.717316",
+        "category": "tire",
+        "category_name": "Tires",
+        "confidence": 0.835,
+        "size_m2": 0.3672,
+        "estimated_weight_kg": 11.995,
+        "priority": "critical",
+        "color": "#2c3e50",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.48232555375341,
+          34.881268128251186
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-9DC83839",
+        "timestamp": "2026-01-15T10:07:33.255193",
+        "category": "food_packaging",
+        "category_name": "Food Packaging",
+        "confidence": 0.795,
+        "size_m2": 0.0087,
+        "estimated_weight_kg": 0.033,
+        "priority": "low",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.48194760253689,
+          34.88172238684878
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-8ECF436B",
+        "timestamp": "2026-01-15T10:07:34.330947",
+        "category": "metal_debris",
+        "category_name": "Metal Debris",
+        "confidence": 0.777,
+        "size_m2": 0.0558,
+        "estimated_weight_kg": 4.921,
+        "priority": "high",
+        "color": "#95a5a6",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.4813470123358,
+          34.88176517977074
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-A799D260",
+        "timestamp": "2026-01-15T10:07:34.868824",
+        "category": "tire",
+        "category_name": "Tires",
+        "confidence": 0.973,
+        "size_m2": 0.1891,
+        "estimated_weight_kg": 12.681,
+        "priority": "critical",
+        "color": "#2c3e50",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.48111145073455,
+          34.881505652629905
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-BA8B9694",
+        "timestamp": "2026-01-15T10:07:35.944578",
+        "category": "tire",
+        "category_name": "Tires",
+        "confidence": 0.872,
+        "size_m2": 0.2464,
+        "estimated_weight_kg": 10.978,
+        "priority": "critical",
+        "color": "#2c3e50",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.48109271629048,
+          34.88175230508586
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-9FCDD61B",
+        "timestamp": "2026-01-15T10:07:37.020331",
+        "category": "metal_debris",
+        "category_name": "Metal Debris",
+        "confidence": 0.878,
+        "size_m2": 0.0366,
+        "estimated_weight_kg": 2.665,
+        "priority": "medium",
+        "color": "#95a5a6",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.48104210445398,
+          34.88160235464355
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-2A39CA0B",
+        "timestamp": "2026-01-15T10:07:37.558208",
+        "category": "textile",
+        "category_name": "Textile/Fabric",
+        "confidence": 0.811,
+        "size_m2": 0.0984,
+        "estimated_weight_kg": 1.658,
+        "priority": "high",
+        "color": "#e74c3c",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.48068124568188,
+          34.881923050700735
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-7DBE773B",
+        "timestamp": "2026-01-15T10:07:38.096085",
+        "category": "tire",
+        "category_name": "Tires",
+        "confidence": 0.949,
+        "size_m2": 0.2558,
+        "estimated_weight_kg": 14.507,
+        "priority": "critical",
+        "color": "#2c3e50",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.48021676812267,
+          34.882027367377425
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-FF82A0C7",
+        "timestamp": "2026-01-15T10:07:38.633962",
+        "category": "food_packaging",
+        "category_name": "Food Packaging",
+        "confidence": 0.888,
+        "size_m2": 0.006,
+        "estimated_weight_kg": 0.079,
+        "priority": "medium",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.48052265808944,
+          34.88207395169799
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-310D0432",
+        "timestamp": "2026-01-15T10:07:39.171839",
+        "category": "food_packaging",
+        "category_name": "Food Packaging",
+        "confidence": 0.91,
+        "size_m2": 0.0075,
+        "estimated_weight_kg": 0.085,
+        "priority": "medium",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.48020215637224,
+          34.882139693864026
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-36B0C1AF",
+        "timestamp": "2026-01-15T10:07:39.709716",
+        "category": "construction_waste",
+        "category_name": "Construction Waste",
+        "confidence": 0.861,
+        "size_m2": 0.5794,
+        "estimated_weight_kg": 25.078,
+        "priority": "critical",
+        "color": "#8e44ad",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.48021425587515,
+          34.88201389005368
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-75A7E96E",
+        "timestamp": "2026-01-15T10:07:40.247593",
+        "category": "organic_waste",
+        "category_name": "Organic Waste",
+        "confidence": 0.968,
+        "size_m2": 0.0323,
+        "estimated_weight_kg": 0.589,
+        "priority": "medium",
+        "color": "#27ae60",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.47972332777523,
+          34.882289489530855
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-673C1922",
+        "timestamp": "2026-01-15T10:07:40.783893",
+        "category": "tire",
+        "category_name": "Tires",
+        "confidence": 0.899,
+        "size_m2": 0.1772,
+        "estimated_weight_kg": 13.558,
+        "priority": "critical",
+        "color": "#2c3e50",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.47958911960262,
+          34.88235885804684
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-9326E856",
+        "timestamp": "2026-01-15T10:07:42.392795",
+        "category": "tire",
+        "category_name": "Tires",
+        "confidence": 0.758,
+        "size_m2": 0.2182,
+        "estimated_weight_kg": 13.208,
+        "priority": "critical",
+        "color": "#2c3e50",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.47930715745376,
+          34.88243819917117
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-8B49907C",
+        "timestamp": "2026-01-15T10:07:42.929095",
+        "category": "construction_waste",
+        "category_name": "Construction Waste",
+        "confidence": 0.781,
+        "size_m2": 0.333,
+        "estimated_weight_kg": 43.858,
+        "priority": "critical",
+        "color": "#8e44ad",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.47928246669017,
+          34.88211006111963
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-874262BF",
+        "timestamp": "2026-01-15T10:07:43.465396",
+        "category": "construction_waste",
+        "category_name": "Construction Waste",
+        "confidence": 0.917,
+        "size_m2": 0.79,
+        "estimated_weight_kg": 35.646,
+        "priority": "critical",
+        "color": "#8e44ad",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.47917024760278,
+          34.88230511880814
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-1443E9AC",
+        "timestamp": "2026-01-15T10:07:44.001696",
+        "category": "organic_waste",
+        "category_name": "Organic Waste",
+        "confidence": 0.861,
+        "size_m2": 0.0413,
+        "estimated_weight_kg": 0.461,
+        "priority": "medium",
+        "color": "#27ae60",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.47874947196492,
+          34.8824456280882
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-53AAF072",
+        "timestamp": "2026-01-15T10:07:44.537997",
+        "category": "metal_debris",
+        "category_name": "Metal Debris",
+        "confidence": 0.974,
+        "size_m2": 0.0264,
+        "estimated_weight_kg": 4.425,
+        "priority": "medium",
+        "color": "#95a5a6",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.47844003139579,
+          34.882693083764295
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-25084D0F",
+        "timestamp": "2026-01-15T10:07:45.074297",
+        "category": "food_packaging",
+        "category_name": "Food Packaging",
+        "confidence": 0.852,
+        "size_m2": 0.0136,
+        "estimated_weight_kg": 0.069,
+        "priority": "medium",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.47846156848772,
+          34.882762257504794
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-A01E1FC5",
+        "timestamp": "2026-01-15T10:07:45.610598",
+        "category": "food_packaging",
+        "category_name": "Food Packaging",
+        "confidence": 0.78,
+        "size_m2": 0.0198,
+        "estimated_weight_kg": 0.087,
+        "priority": "medium",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.47811618768344,
+          34.88254957371986
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-FD5415FB",
+        "timestamp": "2026-01-15T10:07:46.683199",
+        "category": "tire",
+        "category_name": "Tires",
+        "confidence": 0.943,
+        "size_m2": 0.1455,
+        "estimated_weight_kg": 10.346,
+        "priority": "critical",
+        "color": "#2c3e50",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.4780091040697,
+          34.88257837288359
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-2ABA1BC0",
+        "timestamp": "2026-01-15T10:07:47.219499",
+        "category": "organic_waste",
+        "category_name": "Organic Waste",
+        "confidence": 0.927,
+        "size_m2": 0.0306,
+        "estimated_weight_kg": 0.412,
+        "priority": "medium",
+        "color": "#27ae60",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.47792729935297,
+          34.88269680124044
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-0B00E836",
+        "timestamp": "2026-01-15T10:07:48.292100",
+        "category": "food_packaging",
+        "category_name": "Food Packaging",
+        "confidence": 0.97,
+        "size_m2": 0.0125,
+        "estimated_weight_kg": 0.054,
+        "priority": "medium",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.47790739442975,
+          34.88284802717873
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-314C9494",
+        "timestamp": "2026-01-15T10:07:48.828401",
+        "category": "metal_debris",
+        "category_name": "Metal Debris",
+        "confidence": 0.786,
+        "size_m2": 0.0384,
+        "estimated_weight_kg": 4.825,
+        "priority": "medium",
+        "color": "#95a5a6",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.47696055915715,
+          34.883289209136755
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-8ADA8224",
+        "timestamp": "2026-01-15T10:07:50.973603",
+        "category": "metal_debris",
+        "category_name": "Metal Debris",
+        "confidence": 0.8,
+        "size_m2": 0.03,
+        "estimated_weight_kg": 3.875,
+        "priority": "low",
+        "color": "#95a5a6",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.476467712862,
+          34.883055607542246
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-5DF20600",
+        "timestamp": "2026-01-15T10:07:53.655105",
+        "category": "metal_debris",
+        "category_name": "Metal Debris",
+        "confidence": 0.936,
+        "size_m2": 0.0674,
+        "estimated_weight_kg": 0.796,
+        "priority": "low",
+        "color": "#95a5a6",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.47593676798509,
+          34.8833378368286
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-59092552",
+        "timestamp": "2026-01-15T10:07:54.727706",
+        "category": "metal_debris",
+        "category_name": "Metal Debris",
+        "confidence": 0.957,
+        "size_m2": 0.0366,
+        "estimated_weight_kg": 1.319,
+        "priority": "low",
+        "color": "#95a5a6",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.46400175151321,
+          34.88699662129949
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-33FE9C96",
+        "timestamp": "2026-01-15T10:08:36.022843",
+        "category": "tire",
+        "category_name": "Tires",
+        "confidence": 0.922,
+        "size_m2": 0.1345,
+        "estimated_weight_kg": 9.093,
+        "priority": "high",
+        "color": "#2c3e50",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Route 66 - Needles Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.09425941985347,
+          29.549794889940102
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-7AF2B38A",
+        "timestamp": "2026-01-15T10:00:19.210435",
+        "category": "food_packaging",
+        "category_name": "Food Packaging",
+        "confidence": 0.853,
+        "size_m2": 0.0067,
+        "estimated_weight_kg": 0.038,
+        "priority": "low",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.09301213078828,
+          29.548472835764915
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-D1A10AFA",
+        "timestamp": "2026-01-15T10:00:27.443479",
+        "category": "food_packaging",
+        "category_name": "Food Packaging",
+        "confidence": 0.831,
+        "size_m2": 0.0083,
+        "estimated_weight_kg": 0.03,
+        "priority": "low",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.09279009193632,
+          29.548576914763334
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-746AA84A",
+        "timestamp": "2026-01-15T10:00:28.129566",
+        "category": "food_packaging",
+        "category_name": "Food Packaging",
+        "confidence": 0.81,
+        "size_m2": 0.0196,
+        "estimated_weight_kg": 0.097,
+        "priority": "low",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.09301515241036,
+          29.548431686494443
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-1ABE85A2",
+        "timestamp": "2026-01-15T10:00:28.815653",
+        "category": "food_packaging",
+        "category_name": "Food Packaging",
+        "confidence": 0.817,
+        "size_m2": 0.0125,
+        "estimated_weight_kg": 0.024,
+        "priority": "low",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.09235762396773,
+          29.54805801630205
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-E62ED0ED",
+        "timestamp": "2026-01-15T10:00:30.873914",
+        "category": "textile",
+        "category_name": "Textile/Fabric",
+        "confidence": 0.933,
+        "size_m2": 0.0863,
+        "estimated_weight_kg": 1.41,
+        "priority": "high",
+        "color": "#e74c3c",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.09221303791684,
+          29.548085192061794
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-331B9341",
+        "timestamp": "2026-01-15T10:00:31.560001",
+        "category": "food_packaging",
+        "category_name": "Food Packaging",
+        "confidence": 0.95,
+        "size_m2": 0.013,
+        "estimated_weight_kg": 0.027,
+        "priority": "medium",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.09211063486552,
+          29.547889503867953
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-CF567EF3",
+        "timestamp": "2026-01-15T10:00:32.246088",
+        "category": "tire",
+        "category_name": "Tires",
+        "confidence": 0.804,
+        "size_m2": 0.1312,
+        "estimated_weight_kg": 11.585,
+        "priority": "critical",
+        "color": "#2c3e50",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.0920207451378,
+          29.548128230113758
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-86E145BA",
+        "timestamp": "2026-01-15T10:00:32.932175",
+        "category": "glass",
+        "category_name": "Glass",
+        "confidence": 0.777,
+        "size_m2": 0.0035,
+        "estimated_weight_kg": 0.302,
+        "priority": "medium",
+        "color": "#1abc9c",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.0917376779582,
+          29.547790588406365
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-26C334A3",
+        "timestamp": "2026-01-15T10:00:33.618404",
+        "category": "metal_debris",
+        "category_name": "Metal Debris",
+        "confidence": 0.808,
+        "size_m2": 0.0666,
+        "estimated_weight_kg": 2.883,
+        "priority": "high",
+        "color": "#95a5a6",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.09162329161892,
+          29.548098558650135
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-5730B543",
+        "timestamp": "2026-01-15T10:00:34.304633",
+        "category": "food_packaging",
+        "category_name": "Food Packaging",
+        "confidence": 0.965,
+        "size_m2": 0.0102,
+        "estimated_weight_kg": 0.078,
+        "priority": "medium",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.09149835967679,
+          29.547723941461758
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-E708D66D",
+        "timestamp": "2026-01-15T10:00:36.363319",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.752,
+        "size_m2": 0.0037,
+        "estimated_weight_kg": 0.034,
+        "priority": "medium",
+        "color": "#3498db",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.09136140086504,
+          29.547438913567053
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-ED6F3021",
+        "timestamp": "2026-01-15T10:00:37.049548",
+        "category": "food_packaging",
+        "category_name": "Food Packaging",
+        "confidence": 0.804,
+        "size_m2": 0.0154,
+        "estimated_weight_kg": 0.072,
+        "priority": "low",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.09090596427733,
+          29.547460944775633
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-8A5C32F6",
+        "timestamp": "2026-01-15T10:00:37.735776",
+        "category": "tire",
+        "category_name": "Tires",
+        "confidence": 0.886,
+        "size_m2": 0.4435,
+        "estimated_weight_kg": 12.603,
+        "priority": "critical",
+        "color": "#2c3e50",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.08695191273819,
+          29.54570402046187
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-2E649E3B",
+        "timestamp": "2026-01-15T10:00:58.322639",
+        "category": "glass",
+        "category_name": "Glass",
+        "confidence": 0.901,
+        "size_m2": 0.0054,
+        "estimated_weight_kg": 0.468,
+        "priority": "low",
+        "color": "#1abc9c",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.08671615199478,
+          29.54576908903907
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-1E115158",
+        "timestamp": "2026-01-15T10:00:59.008868",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.756,
+        "size_m2": 0.0032,
+        "estimated_weight_kg": 0.021,
+        "priority": "low",
+        "color": "#3498db",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.08625897448556,
+          29.545850652849055
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-5A9A7136",
+        "timestamp": "2026-01-15T10:00:59.695097",
+        "category": "glass",
+        "category_name": "Glass",
+        "confidence": 0.973,
+        "size_m2": 0.0053,
+        "estimated_weight_kg": 0.205,
+        "priority": "low",
+        "color": "#1abc9c",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.08579206408454,
+          29.545595186777852
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-CB7D7605",
+        "timestamp": "2026-01-15T10:01:02.440012",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.826,
+        "size_m2": 0.0022,
+        "estimated_weight_kg": 0.044,
+        "priority": "medium",
+        "color": "#3498db",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.08573695857267,
+          29.545519909755352
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-D3F86373",
+        "timestamp": "2026-01-15T10:01:03.126240",
+        "category": "food_packaging",
+        "category_name": "Food Packaging",
+        "confidence": 0.988,
+        "size_m2": 0.0065,
+        "estimated_weight_kg": 0.069,
+        "priority": "medium",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.08540468208567,
+          29.545440435339373
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-D5F1928F",
+        "timestamp": "2026-01-15T10:01:04.498698",
+        "category": "metal_debris",
+        "category_name": "Metal Debris",
+        "confidence": 0.82,
+        "size_m2": 0.0777,
+        "estimated_weight_kg": 2.118,
+        "priority": "high",
+        "color": "#95a5a6",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.08503706877224,
+          29.54530506927063
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-24D76E5E",
+        "timestamp": "2026-01-15T10:01:05.871155",
+        "category": "food_packaging",
+        "category_name": "Food Packaging",
+        "confidence": 0.906,
+        "size_m2": 0.0125,
+        "estimated_weight_kg": 0.084,
+        "priority": "medium",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.08521937696575,
+          29.54523173288025
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-43AA7881",
+        "timestamp": "2026-01-15T10:01:06.557384",
+        "category": "food_packaging",
+        "category_name": "Food Packaging",
+        "confidence": 0.759,
+        "size_m2": 0.0064,
+        "estimated_weight_kg": 0.066,
+        "priority": "medium",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.08495087942644,
+          29.54486682986196
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-12226181",
+        "timestamp": "2026-01-15T10:01:07.243613",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.836,
+        "size_m2": 0.0011,
+        "estimated_weight_kg": 0.043,
+        "priority": "medium",
+        "color": "#3498db",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.08501228581429,
+          29.545039125728575
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-081107F8",
+        "timestamp": "2026-01-15T10:01:07.930263",
+        "category": "food_packaging",
+        "category_name": "Food Packaging",
+        "confidence": 0.878,
+        "size_m2": 0.0063,
+        "estimated_weight_kg": 0.024,
+        "priority": "medium",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.08455509809679,
+          29.544923033534793
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-FD0BD51C",
+        "timestamp": "2026-01-15T10:01:08.616913",
+        "category": "food_packaging",
+        "category_name": "Food Packaging",
+        "confidence": 0.815,
+        "size_m2": 0.0098,
+        "estimated_weight_kg": 0.084,
+        "priority": "medium",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.08442404689389,
+          29.544493831648918
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-55ADA931",
+        "timestamp": "2026-01-15T10:01:09.303564",
+        "category": "organic_waste",
+        "category_name": "Organic Waste",
+        "confidence": 0.792,
+        "size_m2": 0.0463,
+        "estimated_weight_kg": 0.468,
+        "priority": "medium",
+        "color": "#27ae60",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.08403320740527,
+          29.544424097560896
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-3A4F9064",
+        "timestamp": "2026-01-15T10:01:12.050164",
+        "category": "tire",
+        "category_name": "Tires",
+        "confidence": 0.927,
+        "size_m2": 0.23,
+        "estimated_weight_kg": 14.684,
+        "priority": "critical",
+        "color": "#2c3e50",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.0840899630339,
+          29.544142626114045
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-A18D7FA7",
+        "timestamp": "2026-01-15T10:01:13.423465",
+        "category": "food_packaging",
+        "category_name": "Food Packaging",
+        "confidence": 0.778,
+        "size_m2": 0.0164,
+        "estimated_weight_kg": 0.021,
+        "priority": "low",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.08369457279065,
+          29.544264908328916
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-A3F5EA23",
+        "timestamp": "2026-01-15T10:01:14.110115",
+        "category": "food_packaging",
+        "category_name": "Food Packaging",
+        "confidence": 0.864,
+        "size_m2": 0.0065,
+        "estimated_weight_kg": 0.059,
+        "priority": "low",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.08176660913257,
+          29.542713347149864
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-82687852",
+        "timestamp": "2026-01-15T10:01:25.096518",
+        "category": "metal_debris",
+        "category_name": "Metal Debris",
+        "confidence": 0.9,
+        "size_m2": 0.0284,
+        "estimated_weight_kg": 2.186,
+        "priority": "low",
+        "color": "#95a5a6",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.0799768144035,
+          29.541408404603757
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-67E96847",
+        "timestamp": "2026-01-15T10:01:36.769572",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.891,
+        "size_m2": 0.0029,
+        "estimated_weight_kg": 0.011,
+        "priority": "low",
+        "color": "#3498db",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.07957514469884,
+          29.54120278650561
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-4CAD9F10",
+        "timestamp": "2026-01-15T10:01:37.456222",
+        "category": "metal_debris",
+        "category_name": "Metal Debris",
+        "confidence": 0.843,
+        "size_m2": 0.0659,
+        "estimated_weight_kg": 4.737,
+        "priority": "medium",
+        "color": "#95a5a6",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.0796887037636,
+          29.54085496451189
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-828CF8AE",
+        "timestamp": "2026-01-15T10:01:38.829523",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.914,
+        "size_m2": 0.0011,
+        "estimated_weight_kg": 0.014,
+        "priority": "low",
+        "color": "#3498db",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.07941526891145,
+          29.541029865923104
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-A048C0BB",
+        "timestamp": "2026-01-15T10:01:40.202823",
+        "category": "construction_waste",
+        "category_name": "Construction Waste",
+        "confidence": 0.917,
+        "size_m2": 0.4614,
+        "estimated_weight_kg": 14.727,
+        "priority": "critical",
+        "color": "#8e44ad",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.07893826769514,
+          29.54093049605595
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-EBEF2556",
+        "timestamp": "2026-01-15T10:01:40.889473",
+        "category": "food_packaging",
+        "category_name": "Food Packaging",
+        "confidence": 0.944,
+        "size_m2": 0.0077,
+        "estimated_weight_kg": 0.08,
+        "priority": "medium",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.0787973599632,
+          29.54065725848733
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-B5A010BC",
+        "timestamp": "2026-01-15T10:01:41.576123",
+        "category": "tire",
+        "category_name": "Tires",
+        "confidence": 0.853,
+        "size_m2": 0.474,
+        "estimated_weight_kg": 14.009,
+        "priority": "critical",
+        "color": "#2c3e50",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.07868591907003,
+          29.540414109311875
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-3FAF1755",
+        "timestamp": "2026-01-15T10:01:42.262774",
+        "category": "metal_debris",
+        "category_name": "Metal Debris",
+        "confidence": 0.965,
+        "size_m2": 0.087,
+        "estimated_weight_kg": 1.94,
+        "priority": "high",
+        "color": "#95a5a6",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.07894029836925,
+          29.540712504680307
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-48C860B4",
+        "timestamp": "2026-01-15T10:01:42.949424",
+        "category": "tire",
+        "category_name": "Tires",
+        "confidence": 0.888,
+        "size_m2": 0.4813,
+        "estimated_weight_kg": 14.654,
+        "priority": "critical",
+        "color": "#2c3e50",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.07845108146155,
+          29.540124860762635
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-BC9C1698",
+        "timestamp": "2026-01-15T10:01:45.009374",
+        "category": "construction_waste",
+        "category_name": "Construction Waste",
+        "confidence": 0.94,
+        "size_m2": 0.8143,
+        "estimated_weight_kg": 41.663,
+        "priority": "critical",
+        "color": "#8e44ad",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.07818965823245,
+          29.53993798800623
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-20A0CCFD",
+        "timestamp": "2026-01-15T10:01:45.696025",
+        "category": "tire",
+        "category_name": "Tires",
+        "confidence": 0.778,
+        "size_m2": 0.4579,
+        "estimated_weight_kg": 10.456,
+        "priority": "critical",
+        "color": "#2c3e50",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.07836848089279,
+          29.54015992942295
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-0ADCB256",
+        "timestamp": "2026-01-15T10:01:46.382675",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.947,
+        "size_m2": 0.0031,
+        "estimated_weight_kg": 0.013,
+        "priority": "medium",
+        "color": "#3498db",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.07772342776252,
+          29.539862127645947
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-39A68E5B",
+        "timestamp": "2026-01-15T10:01:47.069325",
+        "category": "tire",
+        "category_name": "Tires",
+        "confidence": 0.977,
+        "size_m2": 0.264,
+        "estimated_weight_kg": 13.69,
+        "priority": "critical",
+        "color": "#2c3e50",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.07776293001896,
+          29.539528182559106
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-56DC81A3",
+        "timestamp": "2026-01-15T10:01:49.826673",
+        "category": "construction_waste",
+        "category_name": "Construction Waste",
+        "confidence": 0.968,
+        "size_m2": 0.6688,
+        "estimated_weight_kg": 26.969,
+        "priority": "critical",
+        "color": "#8e44ad",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.07744180468957,
+          29.539333428133954
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-2CFC2D91",
+        "timestamp": "2026-01-15T10:01:50.516010",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.906,
+        "size_m2": 0.0014,
+        "estimated_weight_kg": 0.015,
+        "priority": "medium",
+        "color": "#3498db",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.07733836626814,
+          29.539592765094152
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-66024850",
+        "timestamp": "2026-01-15T10:01:51.205347",
+        "category": "food_packaging",
+        "category_name": "Food Packaging",
+        "confidence": 0.981,
+        "size_m2": 0.018,
+        "estimated_weight_kg": 0.038,
+        "priority": "medium",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.07700330565729,
+          29.539181360616933
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-1CAEE0B4",
+        "timestamp": "2026-01-15T10:01:51.894684",
+        "category": "metal_debris",
+        "category_name": "Metal Debris",
+        "confidence": 0.883,
+        "size_m2": 0.0995,
+        "estimated_weight_kg": 0.832,
+        "priority": "medium",
+        "color": "#95a5a6",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.0770151860876,
+          29.539257947778236
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-3CCBA9F2",
+        "timestamp": "2026-01-15T10:01:52.584021",
+        "category": "metal_debris",
+        "category_name": "Metal Debris",
+        "confidence": 0.966,
+        "size_m2": 0.0721,
+        "estimated_weight_kg": 3.129,
+        "priority": "high",
+        "color": "#95a5a6",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.07668111210457,
+          29.539255278448824
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-4BD40DE8",
+        "timestamp": "2026-01-15T10:01:53.962695",
+        "category": "metal_debris",
+        "category_name": "Metal Debris",
+        "confidence": 0.795,
+        "size_m2": 0.0715,
+        "estimated_weight_kg": 1.748,
+        "priority": "high",
+        "color": "#95a5a6",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.07637529682792,
+          29.53850909340943
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-8B20359F",
+        "timestamp": "2026-01-15T10:01:58.098716",
+        "category": "textile",
+        "category_name": "Textile/Fabric",
+        "confidence": 0.879,
+        "size_m2": 0.1979,
+        "estimated_weight_kg": 1.457,
+        "priority": "high",
+        "color": "#e74c3c",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.07320121514607,
+          29.535943371161704
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-0002DCBE",
+        "timestamp": "2026-01-15T10:02:17.400151",
+        "category": "glass",
+        "category_name": "Glass",
+        "confidence": 0.924,
+        "size_m2": 0.0087,
+        "estimated_weight_kg": 0.485,
+        "priority": "low",
+        "color": "#1abc9c",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.06762184981226,
+          29.532225848649787
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-1B6E3B11",
+        "timestamp": "2026-01-15T10:02:47.638361",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.945,
+        "size_m2": 0.0011,
+        "estimated_weight_kg": 0.025,
+        "priority": "low",
+        "color": "#3498db",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.0672565596929,
+          29.53158548542492
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-8AB09D6F",
+        "timestamp": "2026-01-15T10:02:51.071815",
+        "category": "textile",
+        "category_name": "Textile/Fabric",
+        "confidence": 0.862,
+        "size_m2": 0.1763,
+        "estimated_weight_kg": 1.709,
+        "priority": "medium",
+        "color": "#e74c3c",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.06585345452251,
+          29.530603504386054
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-CE5C7D05",
+        "timestamp": "2026-01-15T10:02:57.252032",
+        "category": "organic_waste",
+        "category_name": "Organic Waste",
+        "confidence": 0.883,
+        "size_m2": 0.06,
+        "estimated_weight_kg": 0.997,
+        "priority": "medium",
+        "color": "#27ae60",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.06595808043815,
+          29.53073335863559
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-2E169ABA",
+        "timestamp": "2026-01-15T10:02:58.625414",
+        "category": "food_packaging",
+        "category_name": "Food Packaging",
+        "confidence": 0.895,
+        "size_m2": 0.0069,
+        "estimated_weight_kg": 0.096,
+        "priority": "low",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.06576213837502,
+          29.530572315688666
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-CF710E73",
+        "timestamp": "2026-01-15T10:02:59.312104",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.935,
+        "size_m2": 0.003,
+        "estimated_weight_kg": 0.031,
+        "priority": "low",
+        "color": "#3498db",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.06543927059778,
+          29.53039365555844
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-5EB32B6C",
+        "timestamp": "2026-01-15T10:03:00.685486",
+        "category": "organic_waste",
+        "category_name": "Organic Waste",
+        "confidence": 0.757,
+        "size_m2": 0.0332,
+        "estimated_weight_kg": 0.221,
+        "priority": "low",
+        "color": "#27ae60",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.0655164934243,
+          29.5303395086623
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-33F304F9",
+        "timestamp": "2026-01-15T10:03:01.372177",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.892,
+        "size_m2": 0.001,
+        "estimated_weight_kg": 0.024,
+        "priority": "low",
+        "color": "#3498db",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.06527475985081,
+          29.530390180299843
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-FC7028FF",
+        "timestamp": "2026-01-15T10:03:02.058867",
+        "category": "food_packaging",
+        "category_name": "Food Packaging",
+        "confidence": 0.899,
+        "size_m2": 0.0168,
+        "estimated_weight_kg": 0.052,
+        "priority": "low",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.06479691484917,
+          29.529840742891384
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-182CE33B",
+        "timestamp": "2026-01-15T10:03:03.432249",
+        "category": "food_packaging",
+        "category_name": "Food Packaging",
+        "confidence": 0.985,
+        "size_m2": 0.0089,
+        "estimated_weight_kg": 0.057,
+        "priority": "medium",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.06414005212464,
+          29.52960380045636
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-B9931F2D",
+        "timestamp": "2026-01-15T10:03:08.236539",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.786,
+        "size_m2": 0.0014,
+        "estimated_weight_kg": 0.015,
+        "priority": "low",
+        "color": "#3498db",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.06400558128317,
+          29.5293463435643
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-9BAE554D",
+        "timestamp": "2026-01-15T10:03:08.922866",
+        "category": "organic_waste",
+        "category_name": "Organic Waste",
+        "confidence": 0.791,
+        "size_m2": 0.0363,
+        "estimated_weight_kg": 0.701,
+        "priority": "low",
+        "color": "#27ae60",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.06386786690338,
+          29.529281933705597
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-E52664AE",
+        "timestamp": "2026-01-15T10:03:09.609193",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.861,
+        "size_m2": 0.0013,
+        "estimated_weight_kg": 0.015,
+        "priority": "low",
+        "color": "#3498db",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.06345962909654,
+          29.52943889274871
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-26F2C0D8",
+        "timestamp": "2026-01-15T10:03:10.295520",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.77,
+        "size_m2": 0.0034,
+        "estimated_weight_kg": 0.035,
+        "priority": "low",
+        "color": "#3498db",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.06035672399122,
+          29.527749902923475
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-BD27E4DD",
+        "timestamp": "2026-01-15T10:03:26.767370",
+        "category": "organic_waste",
+        "category_name": "Organic Waste",
+        "confidence": 0.8,
+        "size_m2": 0.0487,
+        "estimated_weight_kg": 0.266,
+        "priority": "low",
+        "color": "#27ae60",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.05715009678943,
+          29.52678176682314
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-4E74A177",
+        "timestamp": "2026-01-15T10:03:41.883847",
+        "category": "food_packaging",
+        "category_name": "Food Packaging",
+        "confidence": 0.811,
+        "size_m2": 0.0162,
+        "estimated_weight_kg": 0.023,
+        "priority": "low",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.05492252411955,
+          29.525957779067568
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-06A10D44",
+        "timestamp": "2026-01-15T10:03:52.221956",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.808,
+        "size_m2": 0.0023,
+        "estimated_weight_kg": 0.031,
+        "priority": "low",
+        "color": "#3498db",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.05485441888577,
+          29.52572062581053
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-DA23BF60",
+        "timestamp": "2026-01-15T10:03:52.911163",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.964,
+        "size_m2": 0.002,
+        "estimated_weight_kg": 0.015,
+        "priority": "low",
+        "color": "#3498db",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.05452585097146,
+          29.52595231712487
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-A2AC06A9",
+        "timestamp": "2026-01-15T10:03:54.289577",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.929,
+        "size_m2": 0.0026,
+        "estimated_weight_kg": 0.033,
+        "priority": "low",
+        "color": "#3498db",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.0541457334626,
+          29.525596386051145
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-B2F110EB",
+        "timestamp": "2026-01-15T10:03:56.357199",
+        "category": "tire",
+        "category_name": "Tires",
+        "confidence": 0.987,
+        "size_m2": 0.339,
+        "estimated_weight_kg": 10.493,
+        "priority": "critical",
+        "color": "#2c3e50",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.05360292865208,
+          29.525276280610115
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-399B10F6",
+        "timestamp": "2026-01-15T10:03:59.114028",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.818,
+        "size_m2": 0.0015,
+        "estimated_weight_kg": 0.017,
+        "priority": "medium",
+        "color": "#3498db",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.05312152847844,
+          29.525248650587187
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-43D47401",
+        "timestamp": "2026-01-15T10:04:00.492443",
+        "category": "food_packaging",
+        "category_name": "Food Packaging",
+        "confidence": 0.845,
+        "size_m2": 0.0197,
+        "estimated_weight_kg": 0.029,
+        "priority": "medium",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.05287867718995,
+          29.525393478400275
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-8B6A6424",
+        "timestamp": "2026-01-15T10:04:02.560065",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.884,
+        "size_m2": 0.003,
+        "estimated_weight_kg": 0.047,
+        "priority": "medium",
+        "color": "#3498db",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.05273584819685,
+          29.525277649890423
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-A8F3707F",
+        "timestamp": "2026-01-15T10:04:03.249272",
+        "category": "food_packaging",
+        "category_name": "Food Packaging",
+        "confidence": 0.808,
+        "size_m2": 0.0114,
+        "estimated_weight_kg": 0.061,
+        "priority": "medium",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.05243364872543,
+          29.525035064123195
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-6D814D3E",
+        "timestamp": "2026-01-15T10:04:03.938479",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.762,
+        "size_m2": 0.0024,
+        "estimated_weight_kg": 0.031,
+        "priority": "medium",
+        "color": "#3498db",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.05188386622827,
+          29.52487869070214
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-ADF05E80",
+        "timestamp": "2026-01-15T10:04:05.316894",
+        "category": "food_packaging",
+        "category_name": "Food Packaging",
+        "confidence": 0.914,
+        "size_m2": 0.0171,
+        "estimated_weight_kg": 0.04,
+        "priority": "medium",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.05202241985113,
+          29.524949663008616
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-290B7CFD",
+        "timestamp": "2026-01-15T10:04:06.006101",
+        "category": "food_packaging",
+        "category_name": "Food Packaging",
+        "confidence": 0.982,
+        "size_m2": 0.0189,
+        "estimated_weight_kg": 0.086,
+        "priority": "medium",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.05199501660744,
+          29.525100860303066
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-9F3633E0",
+        "timestamp": "2026-01-15T10:04:06.692455",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.952,
+        "size_m2": 0.0032,
+        "estimated_weight_kg": 0.033,
+        "priority": "medium",
+        "color": "#3498db",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.05185589626363,
+          29.524731867292058
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-768F0437",
+        "timestamp": "2026-01-15T10:04:07.378810",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.876,
+        "size_m2": 0.0034,
+        "estimated_weight_kg": 0.037,
+        "priority": "medium",
+        "color": "#3498db",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.05141630364858,
+          29.524796452057053
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-962A2198",
+        "timestamp": "2026-01-15T10:04:08.065164",
+        "category": "food_packaging",
+        "category_name": "Food Packaging",
+        "confidence": 0.822,
+        "size_m2": 0.0107,
+        "estimated_weight_kg": 0.057,
+        "priority": "medium",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.05118976196522,
+          29.524601411639832
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-EFD36C1C",
+        "timestamp": "2026-01-15T10:04:08.751519",
+        "category": "food_packaging",
+        "category_name": "Food Packaging",
+        "confidence": 0.9,
+        "size_m2": 0.0132,
+        "estimated_weight_kg": 0.093,
+        "priority": "medium",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.05135635964771,
+          29.524796750043908
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-BB975BDD",
+        "timestamp": "2026-01-15T10:04:09.437873",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.878,
+        "size_m2": 0.0034,
+        "estimated_weight_kg": 0.035,
+        "priority": "medium",
+        "color": "#3498db",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.05121950976401,
+          29.52450979369454
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-E199D35C",
+        "timestamp": "2026-01-15T10:04:10.124227",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.887,
+        "size_m2": 0.0032,
+        "estimated_weight_kg": 0.011,
+        "priority": "medium",
+        "color": "#3498db",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.05060918020847,
+          29.524418799671643
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-52AA493A",
+        "timestamp": "2026-01-15T10:04:12.183290",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.845,
+        "size_m2": 0.0035,
+        "estimated_weight_kg": 0.015,
+        "priority": "medium",
+        "color": "#3498db",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.05036070720057,
+          29.524193571657253
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-0B31634D",
+        "timestamp": "2026-01-15T10:04:13.555999",
+        "category": "construction_waste",
+        "category_name": "Construction Waste",
+        "confidence": 0.88,
+        "size_m2": 0.7309,
+        "estimated_weight_kg": 37.758,
+        "priority": "critical",
+        "color": "#8e44ad",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.05010054153344,
+          29.52410232297574
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-C86C18A6",
+        "timestamp": "2026-01-15T10:04:14.242354",
+        "category": "food_packaging",
+        "category_name": "Food Packaging",
+        "confidence": 0.977,
+        "size_m2": 0.011,
+        "estimated_weight_kg": 0.057,
+        "priority": "medium",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.05008021924694,
+          29.52424231001541
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-14669F89",
+        "timestamp": "2026-01-15T10:04:14.928708",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.886,
+        "size_m2": 0.0036,
+        "estimated_weight_kg": 0.047,
+        "priority": "medium",
+        "color": "#3498db",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.05003679647918,
+          29.52423651909202
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-2135B0B5",
+        "timestamp": "2026-01-15T10:04:16.301417",
+        "category": "food_packaging",
+        "category_name": "Food Packaging",
+        "confidence": 0.927,
+        "size_m2": 0.0141,
+        "estimated_weight_kg": 0.054,
+        "priority": "medium",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.04995775590062,
+          29.52405490886519
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-134AAD67",
+        "timestamp": "2026-01-15T10:04:16.987771",
+        "category": "textile",
+        "category_name": "Textile/Fabric",
+        "confidence": 0.971,
+        "size_m2": 0.1758,
+        "estimated_weight_kg": 0.424,
+        "priority": "high",
+        "color": "#e74c3c",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.04954231609358,
+          29.523944346789133
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-BBC7A23C",
+        "timestamp": "2026-01-15T10:04:18.360480",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.751,
+        "size_m2": 0.002,
+        "estimated_weight_kg": 0.042,
+        "priority": "low",
+        "color": "#3498db",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.04884803461934,
+          29.523729256926302
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-FCD9E972",
+        "timestamp": "2026-01-15T10:04:20.419543",
+        "category": "food_packaging",
+        "category_name": "Food Packaging",
+        "confidence": 0.859,
+        "size_m2": 0.0102,
+        "estimated_weight_kg": 0.079,
+        "priority": "low",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.04683381472762,
+          29.522566747759022
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-BC5CD428",
+        "timestamp": "2026-01-15T10:04:32.087567",
+        "category": "food_packaging",
+        "category_name": "Food Packaging",
+        "confidence": 0.837,
+        "size_m2": 0.0113,
+        "estimated_weight_kg": 0.093,
+        "priority": "low",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.0461258987163,
+          29.5222798386214
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-44C6542F",
+        "timestamp": "2026-01-15T10:04:34.146631",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.85,
+        "size_m2": 0.0039,
+        "estimated_weight_kg": 0.016,
+        "priority": "low",
+        "color": "#3498db",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.04596169595096,
+          29.5223914998652
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-194A561C",
+        "timestamp": "2026-01-15T10:04:35.519339",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.966,
+        "size_m2": 0.0032,
+        "estimated_weight_kg": 0.018,
+        "priority": "medium",
+        "color": "#3498db",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.04558034201958,
+          29.52203427772072
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-2C40C9AD",
+        "timestamp": "2026-01-15T10:04:37.578402",
+        "category": "tire",
+        "category_name": "Tires",
+        "confidence": 0.859,
+        "size_m2": 0.1496,
+        "estimated_weight_kg": 13.429,
+        "priority": "critical",
+        "color": "#2c3e50",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.04541214081044,
+          29.522122758105933
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-876F124F",
+        "timestamp": "2026-01-15T10:04:38.264757",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.977,
+        "size_m2": 0.0015,
+        "estimated_weight_kg": 0.044,
+        "priority": "medium",
+        "color": "#3498db",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.04521491167473,
+          29.522077387798692
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-A72196F7",
+        "timestamp": "2026-01-15T10:04:39.637466",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.908,
+        "size_m2": 0.0015,
+        "estimated_weight_kg": 0.039,
+        "priority": "medium",
+        "color": "#3498db",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA Clear Lake, Houston TX"
+      }
+    }
+  ],
+  "properties": {
+    "total_detections": 285,
+    "locations": [
+      "stinson_beach",
+      "route_66",
+      "nasa_clear_lake"
+    ],
+    "generated_at": "2025-12-25T14:51:46.486715"
+  }
+}

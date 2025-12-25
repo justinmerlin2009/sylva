@@ -1,0 +1,71 @@
+{
+  "total_detections": 95,
+  "total_estimated_weight_kg": 60.1,
+  "total_area_m2": 3.23,
+  "by_category": [
+    {
+      "category": "plastic_bottle",
+      "name": "Plastic Bottles",
+      "count": 33,
+      "percentage": 34.7,
+      "color": "#3498db"
+    },
+    {
+      "category": "food_packaging",
+      "name": "Food Packaging",
+      "count": 25,
+      "percentage": 26.3,
+      "color": "#e67e22"
+    },
+    {
+      "category": "glass",
+      "name": "Glass",
+      "count": 14,
+      "percentage": 14.7,
+      "color": "#1abc9c"
+    },
+    {
+      "category": "organic_waste",
+      "name": "Organic Waste",
+      "count": 9,
+      "percentage": 9.5,
+      "color": "#27ae60"
+    },
+    {
+      "category": "textile",
+      "name": "Textile/Fabric",
+      "count": 6,
+      "percentage": 6.3,
+      "color": "#e74c3c"
+    },
+    {
+      "category": "metal_debris",
+      "name": "Metal Debris",
+      "count": 5,
+      "percentage": 5.3,
+      "color": "#95a5a6"
+    },
+    {
+      "category": "tire",
+      "name": "Tires",
+      "count": 2,
+      "percentage": 2.1,
+      "color": "#2c3e50"
+    },
+    {
+      "category": "construction_waste",
+      "name": "Construction Waste",
+      "count": 1,
+      "percentage": 1.1,
+      "color": "#8e44ad"
+    }
+  ],
+  "by_priority": {
+    "critical": 4,
+    "high": 7,
+    "medium": 72,
+    "low": 12
+  },
+  "location": "Stinson Beach, California",
+  "environment_type": "beach"
+}

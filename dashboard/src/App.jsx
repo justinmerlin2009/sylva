@@ -1,0 +1,641 @@
+import React, { useState, useEffect, useCallback, useRef } from 'react'
+import axios from 'axios'
+import Map from './components/Map'
+import Sidebar from './components/Sidebar'
+import LiveDemo from './components/LiveDemo'
+import DetectionPanel from './components/DetectionPanel'
+import PathDrawer from './components/PathDrawer'
+
+const API_BASE = '/api'
+
+function App() {
+  // Data state
+  const [locations, setLocations] = useState([])
+  const [flights, setFlights] = useState({})
+  const [detections, setDetections] = useState([])
+  const [stats, setStats] = useState(null)
+  const [categories, setCategories] = useState([])
+  const [heatmapData, setHeatmapData] = useState([])
+  const [loading, setLoading] = useState(true)
+
+  // UI state
+  const [selectedLocation, setSelectedLocation] = useState('all')
+  const [activeFilters, setActiveFilters] = useState({
+    categories: [],
+    priorities: [],
+  })
+  const [showHeatmap, setShowHeatmap] = useState(false)
+  const [showFlightPath, setShowFlightPath] = useState(true)
+  const [satelliteView, setSatelliteView] = useState(false)
+  const [showPopulationDensity, setShowPopulationDensity] = useState(false)
+  const [populationDensityData, setPopulationDensityData] = useState([])
+
+  // Live demo state
+  const [demoActive, setDemoActive] = useState(false)
+  const [demoProgress, setDemoProgress] = useState(0)
+  const [demoDetections, setDemoDetections] = useState([])
+  const [dronePosition, setDronePosition] = useState(null)
+  const [droneAltitude, setDroneAltitude] = useState(120)
+  const [droneSpeed, setDroneSpeed] = useState(15)
+  const [currentWaypointName, setCurrentWaypointName] = useState('')
+  const [waypoints, setWaypoints] = useState([])
+  const [dronePathHistory, setDronePathHistory] = useState([]) // Track scanned path
+
+  // CV Detection panel state
+  const [scanningDetection, setScanningDetection] = useState(null)
+  const [showDetectionPanel, setShowDetectionPanel] = useState(false)
+
+  // Custom path drawing state
+  const [isDrawing, setIsDrawing] = useState(false)
+  const [drawnPoints, setDrawnPoints] = useState([])
+  const [customPaths, setCustomPaths] = useState([])
+  const [selectedCustomPath, setSelectedCustomPath] = useState(null)
+  const [customPathFlight, setCustomPathFlight] = useState(null)
+  const [customPathDetections, setCustomPathDetections] = useState(null)
+
+  const wsRef = useRef(null)
+
+  // Load initial data
+  useEffect(() => {
+    loadInitialData()
+  }, [])
+
+  // Load data when location changes
+  useEffect(() => {
+    if (!loading) {
+      loadDetections()
+      loadStats()
+      loadWaypoints()
+      loadPopulationDensity()
+    }
+  }, [selectedLocation, activeFilters])
+
+  const loadInitialData = async () => {
+    try {
+      setLoading(true)
+
+      const [locationsRes, categoriesRes, heatmapRes] = await Promise.all([
+        axios.get(`${API_BASE}/locations`),
+        axios.get(`${API_BASE}/detections/categories`),
+        axios.get(`${API_BASE}/heatmap`),
+      ])
+
+      setLocations(locationsRes.data.locations)
+      setCategories(categoriesRes.data.categories)
+      setHeatmapData(heatmapRes.data)
+
+      // Load flights for each location
+      const flightsData = {}
+      for (const loc of locationsRes.data.locations) {
+        try {
+          const flightRes = await axios.get(`${API_BASE}/flights/${loc.id}`)
+          flightsData[loc.id] = flightRes.data
+        } catch (e) {
+          console.warn(`Could not load flight for ${loc.id}`)
+        }
+      }
+      setFlights(flightsData)
+
+      await loadDetections()
+      await loadStats()
+
+      setLoading(false)
+    } catch (error) {
+      console.error('Error loading data:', error)
+      setLoading(false)
+    }
+  }
+
+  const loadWaypoints = async () => {
+    const location = selectedLocation === 'all' ? 'stinson_beach' : selectedLocation
+    const loc = locations.find(l => l.id === location)
+    if (loc && loc.waypoints) {
+      setWaypoints(loc.waypoints)
+    }
+  }
+
+  const loadDetections = async () => {
+    try {
+      const params = new URLSearchParams()
+
+      if (selectedLocation !== 'all') {
+        params.append('location', selectedLocation)
+      }
+
+      const response = await axios.get(`${API_BASE}/detections?${params}`)
+      let features = response.data.features || []
+
+      if (activeFilters.categories.length > 0) {
+        features = features.filter(f =>
+          activeFilters.categories.includes(f.properties.category)
+        )
+      }
+
+      if (activeFilters.priorities.length > 0) {
+        features = features.filter(f =>
+          activeFilters.priorities.includes(f.properties.priority)
+        )
+      }
+
+      setDetections(features)
+    } catch (error) {
+      console.error('Error loading detections:', error)
+    }
+  }
+
+  const loadStats = async () => {
+    try {
+      const location = selectedLocation !== 'all' ? selectedLocation : null
+      const url = location
+        ? `${API_BASE}/stats?location=${location}`
+        : `${API_BASE}/stats`
+
+      const response = await axios.get(url)
+      setStats(response.data)
+    } catch (error) {
+      console.error('Error loading stats:', error)
+    }
+  }
+
+  const loadPopulationDensity = async () => {
+    try {
+      const location = selectedLocation !== 'all' ? selectedLocation : null
+      const url = location
+        ? `${API_BASE}/population-density?location=${location}`
+        : `${API_BASE}/population-density`
+
+      const response = await axios.get(url)
+      setPopulationDensityData(response.data.zones || [])
+    } catch (error) {
+      console.error('Error loading population density:', error)
+    }
+  }
+
+  const toggleCategoryFilter = (category) => {
+    setActiveFilters(prev => {
+      const categories = prev.categories.includes(category)
+        ? prev.categories.filter(c => c !== category)
+        : [...prev.categories, category]
+      return { ...prev, categories }
+    })
+  }
+
+  const togglePriorityFilter = (priority) => {
+    setActiveFilters(prev => {
+      const priorities = prev.priorities.includes(priority)
+        ? prev.priorities.filter(p => p !== priority)
+        : [...prev.priorities, priority]
+      return { ...prev, priorities }
+    })
+  }
+
+  const clearFilters = () => {
+    setActiveFilters({ categories: [], priorities: [] })
+  }
+
+  // Live Demo Functions
+  const startDemo = useCallback((location, speed = 1.0, startWaypoint = 0) => {
+    if (wsRef.current) {
+      wsRef.current.close()
+    }
+
+    const protocol = window.location.protocol === 'https:' ? 'wss:' : 'ws:'
+    const ws = new WebSocket(`${protocol}//${window.location.host}/ws/live`)
+    wsRef.current = ws
+
+    ws.onopen = () => {
+      setDemoActive(true)
+      setDemoDetections([])
+      setDemoProgress(0)
+      setScanningDetection(null)
+      setShowDetectionPanel(true)
+      setDronePathHistory([]) // Reset path history
+
+      ws.send(JSON.stringify({
+        command: 'start',
+        location: location,
+        speed: speed,
+        start_waypoint: startWaypoint,
+      }))
+    }
+
+    ws.onmessage = (event) => {
+      const data = JSON.parse(event.data)
+
+      if (data.type === 'demo_start') {
+        setDroneAltitude(data.altitude || 120)
+        setDroneSpeed(data.speed || 15)
+        if (data.waypoints) {
+          setWaypoints(data.waypoints)
+        }
+      } else if (data.type === 'frame') {
+        const newPos = {
+          lat: data.position.lat,
+          lon: data.position.lon,
+        }
+        setDronePosition(newPos)
+        // Track path history for trail visualization (every 3rd point for performance)
+        if (data.frame_index % 3 === 0) {
+          setDronePathHistory(prev => [...prev, [newPos.lat, newPos.lon]])
+        }
+        setDemoProgress(data.progress * 100)
+        setDroneAltitude(data.altitude || 120)
+        setDroneSpeed(data.speed || 15)
+        setCurrentWaypointName(data.current_waypoint_name || '')
+
+        // POSITION-BASED SYNC: Add ALL new detections to the map immediately
+        // This keeps detection dots synchronized with drone position
+        if (data.new_detections && data.new_detections.length > 0) {
+          setDemoDetections(prev => [...prev, ...data.new_detections])
+        }
+
+        // Handle CV panel detection (sampled - every 5th detection)
+        // This is separate from map dots - only for the CV panel animation
+        if (data.detection_event && data.new_detection) {
+          setScanningDetection(data.new_detection)
+
+          // Clear scanning state after animation
+          setTimeout(() => {
+            setScanningDetection(null)
+          }, 1200)
+        }
+      } else if (data.type === 'demo_complete') {
+        setDemoActive(false)
+        setDronePosition(null)
+        setScanningDetection(null)
+      }
+    }
+
+    ws.onclose = () => {
+      setDemoActive(false)
+    }
+
+    ws.onerror = (error) => {
+      console.error('WebSocket error:', error)
+      setDemoActive(false)
+    }
+  }, [])
+
+  const stopDemo = useCallback(() => {
+    if (wsRef.current) {
+      wsRef.current.close()
+    }
+    setDemoActive(false)
+    setDronePosition(null)
+    setDemoDetections([])
+    setDemoProgress(0)
+    setScanningDetection(null)
+    setShowDetectionPanel(false)
+    setDronePathHistory([]) // Reset path history
+  }, [])
+
+  const handleWaypointClick = (waypointIndex) => {
+    if (!demoActive) {
+      const location = selectedLocation === 'all' ? 'stinson_beach' : selectedLocation
+      startDemo(location, 1.0, waypointIndex)
+    }
+  }
+
+  // Custom Path Drawing Functions
+  const handleStartDrawing = () => {
+    setIsDrawing(true)
+    setDrawnPoints([])
+    setSelectedCustomPath(null)
+    setCustomPathFlight(null)
+    setCustomPathDetections(null)
+  }
+
+  const handleCancelDrawing = () => {
+    setIsDrawing(false)
+    setDrawnPoints([])
+  }
+
+  const handleMapClick = (point) => {
+    if (isDrawing) {
+      setDrawnPoints(prev => [...prev, point])
+    }
+  }
+
+  const handleRemovePoint = (index) => {
+    setDrawnPoints(prev => prev.filter((_, i) => i !== index))
+  }
+
+  const handleCreatePath = async (pathData) => {
+    try {
+      const response = await axios.post(`${API_BASE}/custom-path`, pathData)
+      const newPath = response.data
+      setCustomPaths(prev => [...prev, newPath])
+      setIsDrawing(false)
+      setDrawnPoints([])
+
+      // Load the created path details
+      await handleSelectCustomPath(newPath)
+
+      return newPath
+    } catch (error) {
+      console.error('Failed to create custom path:', error)
+      throw error
+    }
+  }
+
+  const handleSelectCustomPath = async (path) => {
+    setSelectedCustomPath(path)
+
+    try {
+      // Load flight path and detections
+      const [flightRes, detectionsRes] = await Promise.all([
+        axios.get(`${API_BASE}/custom-path/${path.id}/flight`),
+        axios.get(`${API_BASE}/custom-path/${path.id}/detections`),
+      ])
+
+      setCustomPathFlight(flightRes.data)
+      setCustomPathDetections(detectionsRes.data)
+
+      // Center map on the custom path
+      if (flightRes.data.features && flightRes.data.features.length > 0) {
+        const coords = flightRes.data.features[0].geometry.coordinates
+        if (coords.length > 0) {
+          const midIdx = Math.floor(coords.length / 2)
+          setSelectedLocation('all') // Reset to show custom path
+        }
+      }
+    } catch (error) {
+      console.error('Failed to load custom path details:', error)
+    }
+  }
+
+  const handleDeleteCustomPath = async (pathId) => {
+    try {
+      await axios.delete(`${API_BASE}/custom-path/${pathId}`)
+      setCustomPaths(prev => prev.filter(p => p.id !== pathId))
+      if (selectedCustomPath?.id === pathId) {
+        setSelectedCustomPath(null)
+        setCustomPathFlight(null)
+        setCustomPathDetections(null)
+      }
+    } catch (error) {
+      console.error('Failed to delete custom path:', error)
+    }
+  }
+
+  const handleSaveResults = async (pathId) => {
+    try {
+      const response = await axios.post(`${API_BASE}/custom-path/${pathId}/save-results`)
+      alert(`Results saved!\n\nTotal detections: ${response.data.stats.total_detections}\nTotal weight: ${response.data.stats.total_weight_kg} kg`)
+      return response.data
+    } catch (error) {
+      console.error('Failed to save results:', error)
+      throw error
+    }
+  }
+
+  const handleRunCustomDemo = (pathId) => {
+    // Start live demo for custom path
+    const path = customPaths.find(p => p.id === pathId)
+    if (!path) return
+
+    // Load path details first
+    handleSelectCustomPath(path)
+
+    // Start WebSocket demo with custom_path_id
+    const ws = new WebSocket(`ws://localhost:8000/ws/live`)
+    wsRef.current = ws
+
+    ws.onopen = () => {
+      console.log('Starting custom path demo:', pathId)
+      setDemoActive(true)
+      setDemoDetections([])
+      setDemoProgress(0)
+      setDronePathHistory([])
+      setShowDetectionPanel(true)
+
+      ws.send(JSON.stringify({
+        command: 'start',
+        custom_path_id: pathId,
+        speed: speedMultiplier,
+      }))
+    }
+
+    ws.onmessage = (event) => {
+      const data = JSON.parse(event.data)
+
+      if (data.type === 'frame') {
+        setDronePosition(data.position)
+        setDemoProgress(data.progress)
+        setDroneAltitude(data.altitude)
+
+        // Update path history
+        if (data.position) {
+          setDronePathHistory(prev => {
+            const newHistory = [...prev, [data.position.lat, data.position.lon]]
+            return newHistory.slice(-200)
+          })
+        }
+
+        // Handle detections
+        if (data.new_detections && data.new_detections.length > 0) {
+          setDemoDetections(prev => [...prev, ...data.new_detections])
+        }
+
+        // CV panel
+        if (data.detection_event && data.new_detection) {
+          setScanningDetection(data.new_detection)
+          setTimeout(() => setScanningDetection(null), 1200)
+        }
+      } else if (data.type === 'demo_complete') {
+        console.log('Custom demo complete:', data.total_detections, 'detections')
+        setDemoActive(false)
+      }
+    }
+
+    ws.onclose = () => setDemoActive(false)
+    ws.onerror = (error) => {
+      console.error('Custom demo error:', error)
+      setDemoActive(false)
+    }
+  }
+
+  // Get map center based on selected location
+  const getMapCenter = () => {
+    if (demoActive && dronePosition) {
+      return [dronePosition.lat, dronePosition.lon]
+    }
+    if (selectedLocation === 'all') {
+      return [36.5, -118.5]
+    }
+    const loc = locations.find(l => l.id === selectedLocation)
+    if (loc && loc.center) {
+      return [loc.center.lat, loc.center.lon]
+    }
+    return [37.8988, -122.6422]
+  }
+
+  const getMapZoom = () => {
+    if (demoActive) {
+      // Zoomed in close to ground during live flight demo
+      const loc = locations.find(l => l.id === (selectedLocation === 'all' ? 'stinson_beach' : selectedLocation))
+      if (loc?.id === 'stinson_beach') return 16  // Close ground view
+      if (loc?.id === 'route_66') return 15       // Highway corridor view
+      if (loc?.id === 'nasa_clear_lake') return 16
+      return 16
+    }
+    if (selectedLocation === 'all') {
+      return 6
+    }
+    return selectedLocation === 'stinson_beach' ? 14 :
+           selectedLocation === 'nasa_clear_lake' ? 13 : 11
+  }
+
+  if (loading) {
+    return (
+      <div className="app-container">
+        <div className="loading">Loading Sylva Dashboard...</div>
+      </div>
+    )
+  }
+
+  const displayDetections = demoActive ? demoDetections : detections
+
+  // Generate progressive heatmap from demo detections (only shows scanned areas)
+  const generateProgressiveHeatmap = (demoDetections) => {
+    if (!demoDetections || demoDetections.length === 0) return []
+
+    return demoDetections.map(det => {
+      const coords = det.geometry.coordinates
+      // Calculate intensity based on priority
+      let intensity = 0.5
+      if (det.properties.priority === 'critical') intensity = 1.0
+      else if (det.properties.priority === 'high') intensity = 0.8
+      else if (det.properties.priority === 'medium') intensity = 0.6
+
+      return [coords[1], coords[0], intensity]
+    })
+  }
+
+  const displayFlights = showFlightPath
+    ? (selectedLocation === 'all' ? flights : { [selectedLocation]: flights[selectedLocation] })
+    : {}
+
+  // Get waypoints for current location
+  const currentWaypoints = selectedLocation === 'all'
+    ? locations.find(l => l.id === 'stinson_beach')?.waypoints || []
+    : locations.find(l => l.id === selectedLocation)?.waypoints || []
+
+  return (
+    <div className="app-container">
+      <Sidebar
+        locations={locations}
+        selectedLocation={selectedLocation}
+        onLocationChange={setSelectedLocation}
+        categories={categories}
+        activeFilters={activeFilters}
+        onToggleCategory={toggleCategoryFilter}
+        onTogglePriority={togglePriorityFilter}
+        onClearFilters={clearFilters}
+        stats={stats}
+        detectionCount={displayDetections.length}
+        showHeatmap={showHeatmap}
+        onToggleHeatmap={() => setShowHeatmap(!showHeatmap)}
+        showFlightPath={showFlightPath}
+        onToggleFlightPath={() => setShowFlightPath(!showFlightPath)}
+        satelliteView={satelliteView}
+        onToggleSatellite={() => setSatelliteView(!satelliteView)}
+        showPopulationDensity={showPopulationDensity}
+        onTogglePopulationDensity={() => setShowPopulationDensity(!showPopulationDensity)}
+        populationDensity={locations.find(l => l.id === selectedLocation)?.population_density || 0}
+      >
+        <LiveDemo
+          locations={locations}
+          selectedLocation={selectedLocation}
+          demoActive={demoActive}
+          demoProgress={demoProgress}
+          demoDetectionCount={demoDetections.length}
+          onStart={startDemo}
+          onStop={stopDemo}
+          waypoints={currentWaypoints}
+          currentWaypointName={currentWaypointName}
+          droneAltitude={droneAltitude}
+          droneSpeed={droneSpeed}
+        />
+      </Sidebar>
+
+      <div className="main-content">
+        <header className="header">
+          <div className="logo">
+            <h1>SYLVA</h1>
+            <span className="logo-subtitle">Environmental Monitoring System</span>
+          </div>
+          <div className="header-controls">
+            <button
+              className={`map-toggle-btn ${satelliteView ? 'active' : ''}`}
+              onClick={() => setSatelliteView(!satelliteView)}
+            >
+              {satelliteView ? '🛰️ Satellite' : '🗺️ Map'}
+            </button>
+            <span className="detection-count">{displayDetections.length} detections</span>
+          </div>
+        </header>
+
+        <div className="map-container">
+          <Map
+            center={getMapCenter()}
+            zoom={getMapZoom()}
+            detections={displayDetections}
+            flights={displayFlights}
+            heatmapData={showHeatmap ? (demoActive ? generateProgressiveHeatmap(demoDetections) : heatmapData) : []}
+            dronePosition={dronePosition}
+            categories={categories}
+            satelliteView={satelliteView}
+            demoActive={demoActive}
+            scanningDetection={scanningDetection}
+            waypoints={demoActive ? [] : currentWaypoints}
+            onWaypointClick={handleWaypointClick}
+            droneAltitude={droneAltitude}
+            populationDensityData={showPopulationDensity ? populationDensityData : []}
+            dronePathHistory={dronePathHistory}
+            demoDetections={demoDetections}
+            // Custom path drawing props
+            isDrawing={isDrawing}
+            drawnPoints={drawnPoints}
+            onMapClick={handleMapClick}
+            customPathFlight={customPathFlight}
+            customPathDetections={customPathDetections}
+          />
+
+          {/* CV Detection Panel - shows during demo */}
+          {demoActive && showDetectionPanel && (
+            <DetectionPanel
+              detection={scanningDetection}
+              isProcessing={!!scanningDetection}
+              dronePosition={dronePosition}
+              droneAltitude={droneAltitude}
+              totalDetections={demoDetections.length}
+              onClose={() => setShowDetectionPanel(false)}
+            />
+          )}
+
+          {/* Custom Path Drawer Panel */}
+          <div className="path-drawer-panel">
+            <PathDrawer
+              isDrawing={isDrawing}
+              onStartDrawing={handleStartDrawing}
+              onCancelDrawing={handleCancelDrawing}
+              drawnPoints={drawnPoints}
+              onAddPoint={handleMapClick}
+              onRemovePoint={handleRemovePoint}
+              onCreatePath={handleCreatePath}
+              onSaveResults={handleSaveResults}
+              customPaths={customPaths}
+              selectedCustomPath={selectedCustomPath}
+              onSelectCustomPath={handleSelectCustomPath}
+              onDeleteCustomPath={handleDeleteCustomPath}
+              onRunCustomDemo={handleRunCustomDemo}
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  )
+}
+
+export default App
