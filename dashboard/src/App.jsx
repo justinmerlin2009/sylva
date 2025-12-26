@@ -6,7 +6,8 @@ import LiveDemo from './components/LiveDemo'
 import DetectionPanel from './components/DetectionPanel'
 import PathDrawer from './components/PathDrawer'
 
-const API_BASE = '/api'
+const API_BASE = 'https://sylva-api.onrender.com/api'
+const WS_BASE = 'wss://sylva-api.onrender.com'
 
 function App() {
   // Data state
@@ -199,8 +200,7 @@ function App() {
       wsRef.current.close()
     }
 
-    const protocol = window.location.protocol === 'https:' ? 'wss:' : 'ws:'
-    const ws = new WebSocket(`${protocol}//${window.location.host}/ws/live`)
+    const ws = new WebSocket(`${WS_BASE}/ws/live`)
     wsRef.current = ws
 
     ws.onopen = () => {
@@ -398,7 +398,7 @@ function App() {
     handleSelectCustomPath(path)
 
     // Start WebSocket demo with custom_path_id
-    const ws = new WebSocket(`ws://localhost:8000/ws/live`)
+    const ws = new WebSocket(`${WS_BASE}/ws/live`)
     wsRef.current = ws
 
     ws.onopen = () => {
