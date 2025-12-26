@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react'
-import { MapContainer, TileLayer, Marker, Popup, Polyline, CircleMarker, Circle, useMap, Rectangle, Polygon, useMapEvents } from 'react-leaflet'
+import { MapContainer, TileLayer, Marker, Popup, Polyline, CircleMarker, Circle, useMap, useMapEvents } from 'react-leaflet'
 import L from 'leaflet'
 import 'leaflet/dist/leaflet.css'
 
@@ -140,109 +140,57 @@ function MapController({ center, zoom, followDrone, smoothFollow }) {
   return null
 }
 
-// Rotate a point around a center by given angle (in degrees)
-function rotatePoint(centerLat, centerLon, pointLat, pointLon, angleDeg) {
-  const angleRad = (angleDeg * Math.PI) / 180
-  const cos = Math.cos(angleRad)
-  const sin = Math.sin(angleRad)
-
-  // Translate point to origin
-  const dx = pointLon - centerLon
-  const dy = pointLat - centerLat
-
-  // Rotate
-  const newDx = dx * cos - dy * sin
-  const newDy = dx * sin + dy * cos
-
-  // Translate back
-  return [centerLat + newDy, centerLon + newDx]
-}
-
-// Scan area visualization - dark grey frame with transparent center, rotated with heading
+// Scan area visualization - two concentric circles around the plane
 function ScanArea({ position, altitude, heading }) {
   if (!position) return null
 
-  // Scan dimensions - long side perpendicular to flight direction
-  // Width is perpendicular to flight (longer), height is along flight (shorter)
-  const scanWidth = 0.004   // ~440m perpendicular to flight
-  const scanHeight = 0.0015 // ~165m along flight direction
-
-  const centerLat = position.lat
-  const centerLon = position.lon
-
-  // Define corners of rectangle (before rotation)
-  // Long side along latitude (north-south), short side along longitude (east-west)
-  const halfLong = scanWidth / 2   // long dimension
-  const halfShort = scanHeight / 2 // short dimension
-
-  const corners = [
-    [centerLat - halfLong, centerLon - halfShort], // bottom-left
-    [centerLat - halfLong, centerLon + halfShort], // bottom-right
-    [centerLat + halfLong, centerLon + halfShort], // top-right
-    [centerLat + halfLong, centerLon - halfShort], // top-left
-  ]
-
-  // Rotate by heading - 35 to correct alignment (long side perpendicular to flight)
-  const rotationAngle = heading - 35
-  const rotatedCorners = corners.map(([lat, lon]) =>
-    rotatePoint(centerLat, centerLon, lat, lon, rotationAngle)
-  )
-
-  // Inner rectangle (60% size) for transparent center effect
-  const innerHalfLong = halfLong * 0.6
-  const innerHalfShort = halfShort * 0.6
-  const innerCorners = [
-    [centerLat - innerHalfLong, centerLon - innerHalfShort],
-    [centerLat - innerHalfLong, centerLon + innerHalfShort],
-    [centerLat + innerHalfLong, centerLon + innerHalfShort],
-    [centerLat + innerHalfLong, centerLon - innerHalfShort],
-  ]
-  const rotatedInnerCorners = innerCorners.map(([lat, lon]) =>
-    rotatePoint(centerLat, centerLon, lat, lon, rotationAngle)
-  )
-
-  // Crosshair endpoints (rotated)
-  const crosshairLen = scanHeight * 0.4
-  const crossV1 = rotatePoint(centerLat, centerLon, centerLat - crosshairLen, centerLon, rotationAngle)
-  const crossV2 = rotatePoint(centerLat, centerLon, centerLat + crosshairLen, centerLon, rotationAngle)
-  const crossH1 = rotatePoint(centerLat, centerLon, centerLat, centerLon - crosshairLen, rotationAngle)
-  const crossH2 = rotatePoint(centerLat, centerLon, centerLat, centerLon + crosshairLen, rotationAngle)
+  // Circle radii in meters - outer and inner scan circles
+  const outerRadius = 250  // ~250m outer circle
+  const innerRadius = 150  // ~150m inner circle
 
   return (
     <>
-      {/* Dark grey outer rectangle - rotated scan frame */}
-      <Polygon
-        positions={rotatedCorners}
+      {/* Outer scan circle */}
+      <Circle
+        center={[position.lat, position.lon]}
+        radius={outerRadius}
         pathOptions={{
           color: '#374151',
           weight: 3,
           fillColor: '#1f2937',
-          fillOpacity: 0.35,
+          fillOpacity: 0.25,
         }}
       />
-      {/* Inner transparent rectangle */}
-      <Polygon
-        positions={rotatedInnerCorners}
+      {/* Inner scan circle */}
+      <Circle
+        center={[position.lat, position.lon]}
+        radius={innerRadius}
         pathOptions={{
-          color: '#9ca3af',
+          color: '#22c55e',
           weight: 2,
-          fillColor: '#ffffff',
-          fillOpacity: 0.15,
-          dashArray: '6, 6',
+          fillColor: '#22c55e',
+          fillOpacity: 0.1,
+          dashArray: '8, 6',
         }}
       />
-      {/* Crosshair - along flight direction */}
+      {/* Center crosshair - vertical */}
       <Polyline
-        positions={[crossV1, crossV2]}
+        positions={[
+          [position.lat - 0.0008, position.lon],
+          [position.lat + 0.0008, position.lon]
+        ]}
         pathOptions={{
           color: '#ef4444',
           weight: 2,
           opacity: 0.8,
         }}
       />
-      {/* Crosshair - perpendicular to flight */}
+      {/* Center crosshair - horizontal */}
       <Polyline
-        positions={[crossH1, crossH2]}
+        positions={[
+          [position.lat, position.lon - 0.001],
+          [position.lat, position.lon + 0.001]
+        ]}
         pathOptions={{
           color: '#ef4444',
           weight: 2,
