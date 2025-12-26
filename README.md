@@ -20,6 +20,18 @@ Sylva is a system of autonomous fixed-wing drones designed to detect and map env
 
 ---
 
+## Screenshots
+
+### Landing Page
+![Sylva Landing Page](docs/screenshots/landing-page.png)
+*The Sylva homepage featuring the mission statement, promo video, and navigation to the simulation.*
+
+### Simulation Dashboard
+![Simulation Dashboard](docs/screenshots/simulation-map.png)
+*The interactive simulation dashboard showing all three survey locations across the United States with flight paths, detection controls, and live demo features.*
+
+---
+
 ## Overview
 
 The Sylva simulation demonstrates:
