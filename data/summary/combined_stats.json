@@ -1,6 +1,6 @@
 {
-  "total_detections": 300,
-  "total_weight_kg": 1231.97,
+  "total_detections": 293,
+  "total_weight_kg": 1265.84,
   "total_clusters": 0,
   "by_location": {
     "stinson_beach": {
@@ -146,76 +146,76 @@
       "environment_type": "highway"
     },
     "nasa_clear_lake": {
-      "total_detections": 110,
-      "total_estimated_weight_kg": 553.61,
-      "total_area_m2": 14.75,
+      "total_detections": 103,
+      "total_estimated_weight_kg": 587.48,
+      "total_area_m2": 13.42,
       "by_category": [
+        {
+          "category": "metal_debris",
+          "name": "Metal Debris",
+          "count": 23,
+          "percentage": 22.3,
+          "color": "#95a5a6"
+        },
         {
           "category": "plastic_bottle",
           "name": "Plastic Bottles",
-          "count": 23,
-          "percentage": 20.9,
+          "count": 22,
+          "percentage": 21.4,
           "color": "#3498db"
         },
         {
           "category": "food_packaging",
           "name": "Food Packaging/Cardboard",
-          "count": 21,
-          "percentage": 19.1,
+          "count": 19,
+          "percentage": 18.4,
           "color": "#e67e22"
-        },
-        {
-          "category": "tire",
-          "name": "Tires",
-          "count": 18,
-          "percentage": 16.4,
-          "color": "#2c3e50"
-        },
-        {
-          "category": "metal_debris",
-          "name": "Metal Debris",
-          "count": 16,
-          "percentage": 14.5,
-          "color": "#95a5a6"
         },
         {
           "category": "construction_waste",
           "name": "Construction Waste",
-          "count": 12,
-          "percentage": 10.9,
+          "count": 13,
+          "percentage": 12.6,
           "color": "#8e44ad"
         },
         {
-          "category": "organic_waste",
-          "name": "Organic Waste",
-          "count": 8,
-          "percentage": 7.3,
-          "color": "#27ae60"
+          "category": "tire",
+          "name": "Tires",
+          "count": 11,
+          "percentage": 10.7,
+          "color": "#2c3e50"
         },
         {
           "category": "glass",
           "name": "Glass",
-          "count": 8,
-          "percentage": 7.3,
+          "count": 7,
+          "percentage": 6.8,
           "color": "#1abc9c"
         },
         {
           "category": "textile",
           "name": "Textile/Fabric",
-          "count": 4,
-          "percentage": 3.6,
+          "count": 5,
+          "percentage": 4.9,
           "color": "#e74c3c"
+        },
+        {
+          "category": "organic_waste",
+          "name": "Organic Waste",
+          "count": 3,
+          "percentage": 2.9,
+          "color": "#27ae60"
         }
       ],
       "by_priority": {
-        "critical": 20,
+        "critical": 15,
         "high": 10,
-        "medium": 20,
-        "low": 60
+        "medium": 24,
+        "low": 54
       },
       "location": "NASA - Space Center Houston, Texas",
       "environment_type": "urban_waterfront"
     }
   },
-  "generated_at": "2025-12-26T10:07:58.396480"
+  "generated_at": "2025-12-26T10:17:53.130276"
 }

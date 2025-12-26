@@ -6,42 +6,18 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -95.10114968964524,
-          29.481553892569384
+          -95.09819801106813,
+          29.47750078332883
         ]
       },
       "properties": {
-        "id": "DET-2025-6DEB22E7",
+        "id": "DET-2025-69688046",
         "timestamp": "2026-01-15T10:00:00",
-        "category": "construction_waste",
-        "category_name": "Construction Waste",
-        "confidence": 0.789,
-        "size_m2": 0.7315,
-        "estimated_weight_kg": 13.366,
-        "priority": "critical",
-        "color": "#8e44ad",
-        "flight_id": "SYLVA-NAS-001",
-        "environment": "urban_waterfront",
-        "location": "NASA - Space Center Houston, Texas"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -95.10219040976612,
-          29.482019246557254
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-F632CED6",
-        "timestamp": "2026-01-15T10:00:06.006208",
         "category": "metal_debris",
         "category_name": "Metal Debris",
-        "confidence": 0.882,
-        "size_m2": 0.0254,
-        "estimated_weight_kg": 1.224,
+        "confidence": 0.814,
+        "size_m2": 0.032,
+        "estimated_weight_kg": 2.155,
         "priority": "low",
         "color": "#95a5a6",
         "flight_id": "SYLVA-NAS-001",
@@ -54,18 +30,42 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -95.10292941763471,
-          29.484080087068996
+          -95.09925374149593,
+          29.47909209566589
         ]
       },
       "properties": {
-        "id": "DET-2025-D83DA96F",
-        "timestamp": "2026-01-15T10:00:18.018623",
+        "id": "DET-2025-42A143B6",
+        "timestamp": "2026-01-15T10:00:11.448713",
+        "category": "tire",
+        "category_name": "Tires",
+        "confidence": 0.888,
+        "size_m2": 0.4231,
+        "estimated_weight_kg": 11.518,
+        "priority": "critical",
+        "color": "#2c3e50",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA - Space Center Houston, Texas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.10068335242455,
+          29.48112805960446
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-C27222BE",
+        "timestamp": "2026-01-15T10:00:22.897380",
         "category": "plastic_bottle",
         "category_name": "Plastic Bottles",
-        "confidence": 0.906,
-        "size_m2": 0.002,
-        "estimated_weight_kg": 0.04,
+        "confidence": 0.976,
+        "size_m2": 0.0029,
+        "estimated_weight_kg": 0.017,
         "priority": "low",
         "color": "#3498db",
         "flight_id": "SYLVA-NAS-001",
@@ -78,450 +78,18 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -95.10384779092213,
-          29.485184500407243
+          -95.10203277470674,
+          29.482740391437847
         ]
       },
       "properties": {
-        "id": "DET-2025-CFAB64C6",
-        "timestamp": "2026-01-15T10:00:24.024831",
-        "category": "food_packaging",
-        "category_name": "Food Packaging/Cardboard",
-        "confidence": 0.984,
-        "size_m2": 0.009,
-        "estimated_weight_kg": 0.04,
-        "priority": "low",
-        "color": "#e67e22",
-        "flight_id": "SYLVA-NAS-001",
-        "environment": "urban_waterfront",
-        "location": "NASA - Space Center Houston, Texas"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -95.10403363783026,
-          29.486215893694627
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-01F799A1",
-        "timestamp": "2026-01-15T10:00:30.031039",
-        "category": "tire",
-        "category_name": "Tires",
-        "confidence": 0.797,
-        "size_m2": 0.3413,
-        "estimated_weight_kg": 11.448,
-        "priority": "critical",
-        "color": "#2c3e50",
-        "flight_id": "SYLVA-NAS-001",
-        "environment": "urban_waterfront",
-        "location": "NASA - Space Center Houston, Texas"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -95.10582919061821,
-          29.488747374911636
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-19E80020",
-        "timestamp": "2026-01-15T10:00:48.049662",
-        "category": "plastic_bottle",
-        "category_name": "Plastic Bottles",
-        "confidence": 0.97,
-        "size_m2": 0.0038,
-        "estimated_weight_kg": 0.048,
-        "priority": "low",
-        "color": "#3498db",
-        "flight_id": "SYLVA-NAS-001",
-        "environment": "urban_waterfront",
-        "location": "NASA - Space Center Houston, Texas"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -95.10643902053494,
-          29.490200707496516
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-45F27D61",
-        "timestamp": "2026-01-15T10:00:54.055870",
-        "category": "textile",
-        "category_name": "Textile/Fabric",
-        "confidence": 0.821,
-        "size_m2": 0.1945,
-        "estimated_weight_kg": 1.735,
-        "priority": "medium",
-        "color": "#e74c3c",
-        "flight_id": "SYLVA-NAS-001",
-        "environment": "urban_waterfront",
-        "location": "NASA - Space Center Houston, Texas"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -95.10718167153799,
-          29.490806974058536
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-9B373D5B",
-        "timestamp": "2026-01-15T10:01:00.062077",
-        "category": "metal_debris",
-        "category_name": "Metal Debris",
-        "confidence": 0.887,
-        "size_m2": 0.0952,
-        "estimated_weight_kg": 3.632,
-        "priority": "medium",
-        "color": "#95a5a6",
-        "flight_id": "SYLVA-NAS-001",
-        "environment": "urban_waterfront",
-        "location": "NASA - Space Center Houston, Texas"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -95.10778428731128,
-          29.492194907234122
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-7E0A4E52",
-        "timestamp": "2026-01-15T10:01:06.068285",
-        "category": "tire",
-        "category_name": "Tires",
-        "confidence": 0.917,
-        "size_m2": 0.454,
-        "estimated_weight_kg": 13.185,
-        "priority": "critical",
-        "color": "#2c3e50",
-        "flight_id": "SYLVA-NAS-001",
-        "environment": "urban_waterfront",
-        "location": "NASA - Space Center Houston, Texas"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -95.10788482542624,
-          29.492764019994947
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-FCBAB317",
-        "timestamp": "2026-01-15T10:01:12.074493",
-        "category": "construction_waste",
-        "category_name": "Construction Waste",
-        "confidence": 0.873,
-        "size_m2": 0.9003,
-        "estimated_weight_kg": 46.53,
-        "priority": "critical",
-        "color": "#8e44ad",
-        "flight_id": "SYLVA-NAS-001",
-        "environment": "urban_waterfront",
-        "location": "NASA - Space Center Houston, Texas"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -95.10853217897939,
-          29.493879939677562
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-E2564EF7",
-        "timestamp": "2026-01-15T10:01:18.080701",
-        "category": "construction_waste",
-        "category_name": "Construction Waste",
-        "confidence": 0.84,
-        "size_m2": 0.9175,
-        "estimated_weight_kg": 23.52,
-        "priority": "critical",
-        "color": "#8e44ad",
-        "flight_id": "SYLVA-NAS-001",
-        "environment": "urban_waterfront",
-        "location": "NASA - Space Center Houston, Texas"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -95.10921296647194,
-          29.494507920094197
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-A64C91A2",
-        "timestamp": "2026-01-15T10:01:24.086908",
-        "category": "tire",
-        "category_name": "Tires",
-        "confidence": 0.757,
-        "size_m2": 0.2325,
-        "estimated_weight_kg": 12.136,
-        "priority": "high",
-        "color": "#2c3e50",
-        "flight_id": "SYLVA-NAS-001",
-        "environment": "urban_waterfront",
-        "location": "NASA - Space Center Houston, Texas"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -95.11005854819258,
-          29.495652078882518
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-B6063334",
-        "timestamp": "2026-01-15T10:01:30.093116",
-        "category": "tire",
-        "category_name": "Tires",
-        "confidence": 0.899,
-        "size_m2": 0.4137,
-        "estimated_weight_kg": 9.511,
-        "priority": "high",
-        "color": "#2c3e50",
-        "flight_id": "SYLVA-NAS-001",
-        "environment": "urban_waterfront",
-        "location": "NASA - Space Center Houston, Texas"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -95.11028694480305,
-          29.496732688199813
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-55B921B6",
-        "timestamp": "2026-01-15T10:01:36.099324",
-        "category": "metal_debris",
-        "category_name": "Metal Debris",
-        "confidence": 0.874,
-        "size_m2": 0.0795,
-        "estimated_weight_kg": 4.891,
-        "priority": "medium",
-        "color": "#95a5a6",
-        "flight_id": "SYLVA-NAS-001",
-        "environment": "urban_waterfront",
-        "location": "NASA - Space Center Houston, Texas"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -95.11094737559124,
-          29.49759416517523
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-FBC61B20",
-        "timestamp": "2026-01-15T10:01:42.105531",
-        "category": "plastic_bottle",
-        "category_name": "Plastic Bottles",
-        "confidence": 0.951,
-        "size_m2": 0.0011,
-        "estimated_weight_kg": 0.049,
-        "priority": "low",
-        "color": "#3498db",
-        "flight_id": "SYLVA-NAS-001",
-        "environment": "urban_waterfront",
-        "location": "NASA - Space Center Houston, Texas"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -95.11218545334485,
-          29.499429176099042
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-5749AABB",
-        "timestamp": "2026-01-15T10:01:54.117947",
-        "category": "food_packaging",
-        "category_name": "Food Packaging/Cardboard",
-        "confidence": 0.908,
-        "size_m2": 0.0132,
-        "estimated_weight_kg": 0.077,
-        "priority": "low",
-        "color": "#e67e22",
-        "flight_id": "SYLVA-NAS-001",
-        "environment": "urban_waterfront",
-        "location": "NASA - Space Center Houston, Texas"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -95.11259193401739,
-          29.50074587391501
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-FE294369",
-        "timestamp": "2026-01-15T10:02:00.124155",
-        "category": "metal_debris",
-        "category_name": "Metal Debris",
-        "confidence": 0.835,
-        "size_m2": 0.0565,
-        "estimated_weight_kg": 1.615,
-        "priority": "medium",
-        "color": "#95a5a6",
-        "flight_id": "SYLVA-NAS-001",
-        "environment": "urban_waterfront",
-        "location": "NASA - Space Center Houston, Texas"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -95.11341787564481,
-          29.50130931100376
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-D2EB671B",
-        "timestamp": "2026-01-15T10:02:06.130362",
-        "category": "plastic_bottle",
-        "category_name": "Plastic Bottles",
-        "confidence": 0.864,
-        "size_m2": 0.0036,
-        "estimated_weight_kg": 0.038,
-        "priority": "low",
-        "color": "#3498db",
-        "flight_id": "SYLVA-NAS-001",
-        "environment": "urban_waterfront",
-        "location": "NASA - Space Center Houston, Texas"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -95.11390965747269,
-          29.5024612846697
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-2BCC6764",
-        "timestamp": "2026-01-15T10:02:12.136570",
-        "category": "tire",
-        "category_name": "Tires",
-        "confidence": 0.902,
-        "size_m2": 0.2744,
-        "estimated_weight_kg": 12.311,
-        "priority": "high",
-        "color": "#2c3e50",
-        "flight_id": "SYLVA-NAS-001",
-        "environment": "urban_waterfront",
-        "location": "NASA - Space Center Houston, Texas"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -95.11541669843473,
-          29.50549691128497
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-97BC537E",
-        "timestamp": "2026-01-15T10:02:30.155193",
-        "category": "organic_waste",
-        "category_name": "Organic Waste",
-        "confidence": 0.767,
-        "size_m2": 0.0446,
-        "estimated_weight_kg": 0.247,
-        "priority": "low",
-        "color": "#27ae60",
-        "flight_id": "SYLVA-NAS-001",
-        "environment": "urban_waterfront",
-        "location": "NASA - Space Center Houston, Texas"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -95.11561335772629,
-          29.50643021941417
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-0B362FD4",
-        "timestamp": "2026-01-15T10:02:36.161401",
-        "category": "metal_debris",
-        "category_name": "Metal Debris",
-        "confidence": 0.86,
-        "size_m2": 0.0541,
-        "estimated_weight_kg": 3.395,
-        "priority": "medium",
-        "color": "#95a5a6",
-        "flight_id": "SYLVA-NAS-001",
-        "environment": "urban_waterfront",
-        "location": "NASA - Space Center Houston, Texas"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -95.11565807707281,
-          29.507332571383387
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-AFBA0135",
-        "timestamp": "2026-01-15T10:02:42.171146",
+        "id": "DET-2025-1BA93EB2",
+        "timestamp": "2026-01-15T10:00:34.346000",
         "category": "glass",
         "category_name": "Glass",
-        "confidence": 0.774,
-        "size_m2": 0.004,
-        "estimated_weight_kg": 0.221,
+        "confidence": 0.981,
+        "size_m2": 0.0057,
+        "estimated_weight_kg": 0.49,
         "priority": "low",
         "color": "#1abc9c",
         "flight_id": "SYLVA-NAS-001",
@@ -534,18 +102,18 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -95.11609620945151,
-          29.5085956916198
+          -95.10256736414568,
+          29.484539215857957
         ]
       },
       "properties": {
-        "id": "DET-2025-4080B202",
-        "timestamp": "2026-01-15T10:02:48.181397",
+        "id": "DET-2025-6FF0F30B",
+        "timestamp": "2026-01-15T10:00:45.667291",
         "category": "food_packaging",
         "category_name": "Food Packaging/Cardboard",
-        "confidence": 0.945,
-        "size_m2": 0.0177,
-        "estimated_weight_kg": 0.022,
+        "confidence": 0.975,
+        "size_m2": 0.0075,
+        "estimated_weight_kg": 0.065,
         "priority": "low",
         "color": "#e67e22",
         "flight_id": "SYLVA-NAS-001",
@@ -558,282 +126,18 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -95.11557684129936,
-          29.509669380155163
+          -95.10377375706817,
+          29.486194076814712
         ]
       },
       "properties": {
-        "id": "DET-2025-102F3D8E",
-        "timestamp": "2026-01-15T10:02:54.191647",
-        "category": "organic_waste",
-        "category_name": "Organic Waste",
-        "confidence": 0.818,
-        "size_m2": 0.0481,
-        "estimated_weight_kg": 0.823,
-        "priority": "low",
-        "color": "#27ae60",
-        "flight_id": "SYLVA-NAS-001",
-        "environment": "urban_waterfront",
-        "location": "NASA - Space Center Houston, Texas"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -95.11523143990394,
-          29.51088078262168
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-2E592453",
-        "timestamp": "2026-01-15T10:03:00.201897",
-        "category": "food_packaging",
-        "category_name": "Food Packaging/Cardboard",
-        "confidence": 0.832,
-        "size_m2": 0.0106,
-        "estimated_weight_kg": 0.082,
-        "priority": "low",
-        "color": "#e67e22",
-        "flight_id": "SYLVA-NAS-001",
-        "environment": "urban_waterfront",
-        "location": "NASA - Space Center Houston, Texas"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -95.1152123035241,
-          29.512820160634913
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-7A9A3636",
-        "timestamp": "2026-01-15T10:03:12.222398",
-        "category": "construction_waste",
-        "category_name": "Construction Waste",
-        "confidence": 0.871,
-        "size_m2": 0.3273,
-        "estimated_weight_kg": 46.102,
-        "priority": "critical",
-        "color": "#8e44ad",
-        "flight_id": "SYLVA-NAS-001",
-        "environment": "urban_waterfront",
-        "location": "NASA - Space Center Houston, Texas"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -95.11526255669038,
-          29.51416070368165
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-180B8E7F",
-        "timestamp": "2026-01-15T10:03:18.232649",
-        "category": "plastic_bottle",
-        "category_name": "Plastic Bottles",
-        "confidence": 0.827,
-        "size_m2": 0.0037,
-        "estimated_weight_kg": 0.014,
-        "priority": "low",
-        "color": "#3498db",
-        "flight_id": "SYLVA-NAS-001",
-        "environment": "urban_waterfront",
-        "location": "NASA - Space Center Houston, Texas"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -95.11501748883906,
-          29.515044064781307
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-60C4CDC6",
-        "timestamp": "2026-01-15T10:03:24.242899",
-        "category": "tire",
-        "category_name": "Tires",
-        "confidence": 0.911,
-        "size_m2": 0.235,
-        "estimated_weight_kg": 10.301,
-        "priority": "high",
-        "color": "#2c3e50",
-        "flight_id": "SYLVA-NAS-001",
-        "environment": "urban_waterfront",
-        "location": "NASA - Space Center Houston, Texas"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -95.11528571323133,
-          29.516250845589536
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-5FFD4FD3",
-        "timestamp": "2026-01-15T10:03:30.253149",
-        "category": "tire",
-        "category_name": "Tires",
-        "confidence": 0.856,
-        "size_m2": 0.1466,
-        "estimated_weight_kg": 11.847,
-        "priority": "high",
-        "color": "#2c3e50",
-        "flight_id": "SYLVA-NAS-001",
-        "environment": "urban_waterfront",
-        "location": "NASA - Space Center Houston, Texas"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -95.11517076452738,
-          29.51694640552861
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-6F2FF031",
-        "timestamp": "2026-01-15T10:03:36.263400",
-        "category": "construction_waste",
-        "category_name": "Construction Waste",
-        "confidence": 0.77,
-        "size_m2": 0.7137,
-        "estimated_weight_kg": 14.045,
-        "priority": "critical",
-        "color": "#8e44ad",
-        "flight_id": "SYLVA-NAS-001",
-        "environment": "urban_waterfront",
-        "location": "NASA - Space Center Houston, Texas"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -95.11463720349504,
-          29.518369976469796
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-CC7A22D3",
-        "timestamp": "2026-01-15T10:03:42.273650",
-        "category": "plastic_bottle",
-        "category_name": "Plastic Bottles",
-        "confidence": 0.84,
-        "size_m2": 0.0013,
-        "estimated_weight_kg": 0.049,
-        "priority": "low",
-        "color": "#3498db",
-        "flight_id": "SYLVA-NAS-001",
-        "environment": "urban_waterfront",
-        "location": "NASA - Space Center Houston, Texas"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -95.11439208831035,
-          29.51953306498402
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-A0B90780",
-        "timestamp": "2026-01-15T10:03:48.283901",
-        "category": "metal_debris",
-        "category_name": "Metal Debris",
-        "confidence": 0.937,
-        "size_m2": 0.0532,
-        "estimated_weight_kg": 0.876,
-        "priority": "medium",
-        "color": "#95a5a6",
-        "flight_id": "SYLVA-NAS-001",
-        "environment": "urban_waterfront",
-        "location": "NASA - Space Center Houston, Texas"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -95.11485391300141,
-          29.52054379448447
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-BA15E1DF",
-        "timestamp": "2026-01-15T10:03:54.294151",
-        "category": "food_packaging",
-        "category_name": "Food Packaging/Cardboard",
-        "confidence": 0.764,
-        "size_m2": 0.0052,
-        "estimated_weight_kg": 0.057,
-        "priority": "medium",
-        "color": "#e67e22",
-        "flight_id": "SYLVA-NAS-001",
-        "environment": "urban_waterfront",
-        "location": "NASA - Space Center Houston, Texas"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -95.11433939043863,
-          29.521556904923415
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-F165284C",
-        "timestamp": "2026-01-15T10:04:00.304402",
-        "category": "food_packaging",
-        "category_name": "Food Packaging/Cardboard",
-        "confidence": 0.819,
-        "size_m2": 0.0194,
-        "estimated_weight_kg": 0.05,
-        "priority": "low",
-        "color": "#e67e22",
-        "flight_id": "SYLVA-NAS-001",
-        "environment": "urban_waterfront",
-        "location": "NASA - Space Center Houston, Texas"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -95.11469825563,
-          29.522815319471082
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-0D85DE31",
-        "timestamp": "2026-01-15T10:04:06.314652",
+        "id": "DET-2025-DE7D4449",
+        "timestamp": "2026-01-15T10:00:56.969186",
         "category": "textile",
         "category_name": "Textile/Fabric",
-        "confidence": 0.877,
-        "size_m2": 0.0565,
-        "estimated_weight_kg": 1.804,
+        "confidence": 0.961,
+        "size_m2": 0.071,
+        "estimated_weight_kg": 1.133,
         "priority": "medium",
         "color": "#e74c3c",
         "flight_id": "SYLVA-NAS-001",
@@ -846,42 +150,18 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -95.11394364230831,
-          29.523634864312314
+          -95.10502342218615,
+          29.488343149544054
         ]
       },
       "properties": {
-        "id": "DET-2025-128AA324",
-        "timestamp": "2026-01-15T10:04:12.324902",
-        "category": "tire",
-        "category_name": "Tires",
-        "confidence": 0.859,
-        "size_m2": 0.361,
-        "estimated_weight_kg": 12.87,
-        "priority": "critical",
-        "color": "#2c3e50",
-        "flight_id": "SYLVA-NAS-001",
-        "environment": "urban_waterfront",
-        "location": "NASA - Space Center Houston, Texas"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -95.11443589818974,
-          29.52489804341479
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-0BF7AEC5",
-        "timestamp": "2026-01-15T10:04:18.335153",
+        "id": "DET-2025-6D8967D7",
+        "timestamp": "2026-01-15T10:01:08.271040",
         "category": "food_packaging",
         "category_name": "Food Packaging/Cardboard",
-        "confidence": 0.859,
-        "size_m2": 0.0193,
-        "estimated_weight_kg": 0.091,
+        "confidence": 0.958,
+        "size_m2": 0.0171,
+        "estimated_weight_kg": 0.085,
         "priority": "low",
         "color": "#e67e22",
         "flight_id": "SYLVA-NAS-001",
@@ -894,17 +174,113 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -95.11402405374822,
-          29.52562706340647
+          -95.10584697433427,
+          29.489976456111634
         ]
       },
       "properties": {
-        "id": "DET-2025-710C64EF",
-        "timestamp": "2026-01-15T10:04:24.345403",
+        "id": "DET-2025-25718D2D",
+        "timestamp": "2026-01-15T10:01:19.560835",
+        "category": "metal_debris",
+        "category_name": "Metal Debris",
+        "confidence": 0.964,
+        "size_m2": 0.0776,
+        "estimated_weight_kg": 4.081,
+        "priority": "medium",
+        "color": "#95a5a6",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA - Space Center Houston, Texas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.10712361279987,
+          29.491563571920523
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-AAE6C5FD",
+        "timestamp": "2026-01-15T10:01:30.818895",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.819,
+        "size_m2": 0.0024,
+        "estimated_weight_kg": 0.032,
+        "priority": "low",
+        "color": "#3498db",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA - Space Center Houston, Texas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.10801897722514,
+          29.49327703345593
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-63FDDD05",
+        "timestamp": "2026-01-15T10:01:42.076910",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.935,
+        "size_m2": 0.0014,
+        "estimated_weight_kg": 0.031,
+        "priority": "low",
+        "color": "#3498db",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA - Space Center Houston, Texas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.10961291441836,
+          29.49516039513048
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-742C1765",
+        "timestamp": "2026-01-15T10:01:53.334880",
         "category": "food_packaging",
         "category_name": "Food Packaging/Cardboard",
-        "confidence": 0.984,
-        "size_m2": 0.0138,
+        "confidence": 0.924,
+        "size_m2": 0.0131,
+        "estimated_weight_kg": 0.071,
+        "priority": "low",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA - Space Center Houston, Texas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.11022642851151,
+          29.49706863045788
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-CF179B1A",
+        "timestamp": "2026-01-15T10:02:04.592805",
+        "category": "food_packaging",
+        "category_name": "Food Packaging/Cardboard",
+        "confidence": 0.756,
+        "size_m2": 0.0116,
         "estimated_weight_kg": 0.026,
         "priority": "low",
         "color": "#e67e22",
@@ -918,1169 +294,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -95.11387300669672,
-          29.52795170918585
+          -95.11158973996184,
+          29.499027121996257
         ]
       },
       "properties": {
-        "id": "DET-2025-AC933885",
-        "timestamp": "2026-01-15T10:04:36.365904",
-        "category": "construction_waste",
-        "category_name": "Construction Waste",
-        "confidence": 0.969,
-        "size_m2": 0.7635,
-        "estimated_weight_kg": 16.505,
-        "priority": "critical",
-        "color": "#8e44ad",
-        "flight_id": "SYLVA-NAS-001",
-        "environment": "urban_waterfront",
-        "location": "NASA - Space Center Houston, Texas"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -95.11311221376597,
-          29.528907629844863
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-367B41F5",
-        "timestamp": "2026-01-15T10:04:42.383375",
-        "category": "food_packaging",
-        "category_name": "Food Packaging/Cardboard",
-        "confidence": 0.761,
-        "size_m2": 0.019,
-        "estimated_weight_kg": 0.089,
-        "priority": "low",
-        "color": "#e67e22",
-        "flight_id": "SYLVA-NAS-001",
-        "environment": "urban_waterfront",
-        "location": "NASA - Space Center Houston, Texas"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -95.11157466406159,
-          29.530901596008796
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-B420EF30",
-        "timestamp": "2026-01-15T10:04:54.418318",
+        "id": "DET-2025-5083BDA4",
+        "timestamp": "2026-01-15T10:02:15.855911",
         "category": "plastic_bottle",
         "category_name": "Plastic Bottles",
-        "confidence": 0.983,
-        "size_m2": 0.0028,
-        "estimated_weight_kg": 0.025,
-        "priority": "low",
-        "color": "#3498db",
-        "flight_id": "SYLVA-NAS-001",
-        "environment": "urban_waterfront",
-        "location": "NASA - Space Center Houston, Texas"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -95.11128356245372,
-          29.531666431130013
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-8DD3685A",
-        "timestamp": "2026-01-15T10:05:00.435789",
-        "category": "food_packaging",
-        "category_name": "Food Packaging/Cardboard",
-        "confidence": 0.945,
-        "size_m2": 0.0058,
-        "estimated_weight_kg": 0.089,
-        "priority": "low",
-        "color": "#e67e22",
-        "flight_id": "SYLVA-NAS-001",
-        "environment": "urban_waterfront",
-        "location": "NASA - Space Center Houston, Texas"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -95.11043853968727,
-          29.532559459560538
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-0AAACD88",
-        "timestamp": "2026-01-15T10:05:06.453261",
-        "category": "glass",
-        "category_name": "Glass",
-        "confidence": 0.858,
-        "size_m2": 0.0089,
-        "estimated_weight_kg": 0.274,
-        "priority": "low",
-        "color": "#1abc9c",
-        "flight_id": "SYLVA-NAS-001",
-        "environment": "urban_waterfront",
-        "location": "NASA - Space Center Houston, Texas"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -95.1101867583688,
-          29.533574384035933
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-35834450",
-        "timestamp": "2026-01-15T10:05:12.470732",
-        "category": "metal_debris",
-        "category_name": "Metal Debris",
-        "confidence": 0.777,
-        "size_m2": 0.0714,
-        "estimated_weight_kg": 2.112,
-        "priority": "medium",
-        "color": "#95a5a6",
-        "flight_id": "SYLVA-NAS-001",
-        "environment": "urban_waterfront",
-        "location": "NASA - Space Center Houston, Texas"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -95.10878502696588,
-          29.535503790945956
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-DD327DA4",
-        "timestamp": "2026-01-15T10:05:24.505675",
-        "category": "organic_waste",
-        "category_name": "Organic Waste",
-        "confidence": 0.96,
-        "size_m2": 0.0398,
-        "estimated_weight_kg": 0.605,
-        "priority": "low",
-        "color": "#27ae60",
-        "flight_id": "SYLVA-NAS-001",
-        "environment": "urban_waterfront",
-        "location": "NASA - Space Center Houston, Texas"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -95.10798791974256,
-          29.535997474593934
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-F94601DD",
-        "timestamp": "2026-01-15T10:05:30.523146",
-        "category": "metal_debris",
-        "category_name": "Metal Debris",
-        "confidence": 0.783,
-        "size_m2": 0.0778,
-        "estimated_weight_kg": 1.458,
-        "priority": "medium",
-        "color": "#95a5a6",
-        "flight_id": "SYLVA-NAS-001",
-        "environment": "urban_waterfront",
-        "location": "NASA - Space Center Houston, Texas"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -95.1075782499245,
-          29.537310163072366
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-AFCDF277",
-        "timestamp": "2026-01-15T10:05:36.540618",
-        "category": "tire",
-        "category_name": "Tires",
-        "confidence": 0.873,
-        "size_m2": 0.4641,
-        "estimated_weight_kg": 10.438,
-        "priority": "critical",
-        "color": "#2c3e50",
-        "flight_id": "SYLVA-NAS-001",
-        "environment": "urban_waterfront",
-        "location": "NASA - Space Center Houston, Texas"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -95.10665086452566,
-          29.538208294213774
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-C4210116",
-        "timestamp": "2026-01-15T10:05:42.558089",
-        "category": "glass",
-        "category_name": "Glass",
-        "confidence": 0.868,
-        "size_m2": 0.0036,
-        "estimated_weight_kg": 0.478,
-        "priority": "low",
-        "color": "#1abc9c",
-        "flight_id": "SYLVA-NAS-001",
-        "environment": "urban_waterfront",
-        "location": "NASA - Space Center Houston, Texas"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -95.10628314789913,
-          29.539321619148236
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-4A3F44DB",
-        "timestamp": "2026-01-15T10:05:48.575560",
-        "category": "tire",
-        "category_name": "Tires",
-        "confidence": 0.768,
-        "size_m2": 0.3625,
-        "estimated_weight_kg": 9.681,
-        "priority": "critical",
-        "color": "#2c3e50",
-        "flight_id": "SYLVA-NAS-001",
-        "environment": "urban_waterfront",
-        "location": "NASA - Space Center Houston, Texas"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -95.10581849111898,
-          29.53984310967712
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-DFC90BFF",
-        "timestamp": "2026-01-15T10:05:54.593032",
-        "category": "metal_debris",
-        "category_name": "Metal Debris",
-        "confidence": 0.965,
-        "size_m2": 0.0386,
-        "estimated_weight_kg": 2.056,
-        "priority": "medium",
-        "color": "#95a5a6",
-        "flight_id": "SYLVA-NAS-001",
-        "environment": "urban_waterfront",
-        "location": "NASA - Space Center Houston, Texas"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -95.1052101794954,
-          29.54074892168713
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-1B910CD5",
-        "timestamp": "2026-01-15T10:06:00.610503",
-        "category": "plastic_bottle",
-        "category_name": "Plastic Bottles",
-        "confidence": 0.792,
+        "confidence": 0.882,
         "size_m2": 0.0015,
-        "estimated_weight_kg": 0.021,
-        "priority": "medium",
-        "color": "#3498db",
-        "flight_id": "SYLVA-NAS-001",
-        "environment": "urban_waterfront",
-        "location": "NASA - Space Center Houston, Texas"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -95.10452086865776,
-          29.54190880131731
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-2C7A9B95",
-        "timestamp": "2026-01-15T10:06:06.627974",
-        "category": "tire",
-        "category_name": "Tires",
-        "confidence": 0.759,
-        "size_m2": 0.3138,
-        "estimated_weight_kg": 12.833,
-        "priority": "critical",
-        "color": "#2c3e50",
-        "flight_id": "SYLVA-NAS-001",
-        "environment": "urban_waterfront",
-        "location": "NASA - Space Center Houston, Texas"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -95.10289205513465,
-          29.54356606631444
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-2E29B90C",
-        "timestamp": "2026-01-15T10:06:18.662917",
-        "category": "glass",
-        "category_name": "Glass",
-        "confidence": 0.943,
-        "size_m2": 0.003,
-        "estimated_weight_kg": 0.283,
-        "priority": "low",
-        "color": "#1abc9c",
-        "flight_id": "SYLVA-NAS-001",
-        "environment": "urban_waterfront",
-        "location": "NASA - Space Center Houston, Texas"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -95.10258864905992,
-          29.5445680902433
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-A19B66AF",
-        "timestamp": "2026-01-15T10:06:24.680388",
-        "category": "tire",
-        "category_name": "Tires",
-        "confidence": 0.861,
-        "size_m2": 0.3568,
-        "estimated_weight_kg": 10.582,
-        "priority": "critical",
-        "color": "#2c3e50",
-        "flight_id": "SYLVA-NAS-001",
-        "environment": "urban_waterfront",
-        "location": "NASA - Space Center Houston, Texas"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -95.10169674120343,
-          29.545494641374372
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-4DFA4585",
-        "timestamp": "2026-01-15T10:06:30.697860",
-        "category": "organic_waste",
-        "category_name": "Organic Waste",
-        "confidence": 0.776,
-        "size_m2": 0.038,
-        "estimated_weight_kg": 0.579,
-        "priority": "low",
-        "color": "#27ae60",
-        "flight_id": "SYLVA-NAS-001",
-        "environment": "urban_waterfront",
-        "location": "NASA - Space Center Houston, Texas"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -95.10001034645771,
-          29.548177278093867
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-1769F9B7",
-        "timestamp": "2026-01-15T10:06:48.750181",
-        "category": "food_packaging",
-        "category_name": "Food Packaging/Cardboard",
-        "confidence": 0.801,
-        "size_m2": 0.0053,
-        "estimated_weight_kg": 0.046,
-        "priority": "low",
-        "color": "#e67e22",
-        "flight_id": "SYLVA-NAS-001",
-        "environment": "urban_waterfront",
-        "location": "NASA - Space Center Houston, Texas"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -95.09868009489163,
-          29.549080866333107
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-DA41CCF7",
-        "timestamp": "2026-01-15T10:06:54.767279",
-        "category": "metal_debris",
-        "category_name": "Metal Debris",
-        "confidence": 0.771,
-        "size_m2": 0.0842,
-        "estimated_weight_kg": 2.743,
-        "priority": "medium",
-        "color": "#95a5a6",
-        "flight_id": "SYLVA-NAS-001",
-        "environment": "urban_waterfront",
-        "location": "NASA - Space Center Houston, Texas"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -95.09772091141544,
-          29.549539366443934
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-EF0E5B1C",
-        "timestamp": "2026-01-15T10:07:00.784378",
-        "category": "plastic_bottle",
-        "category_name": "Plastic Bottles",
-        "confidence": 0.905,
-        "size_m2": 0.0019,
-        "estimated_weight_kg": 0.025,
-        "priority": "low",
-        "color": "#3498db",
-        "flight_id": "SYLVA-NAS-001",
-        "environment": "urban_waterfront",
-        "location": "NASA - Space Center Houston, Texas"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -95.09654739964,
-          29.550161626721536
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-0CD26702",
-        "timestamp": "2026-01-15T10:07:06.801476",
-        "category": "plastic_bottle",
-        "category_name": "Plastic Bottles",
-        "confidence": 0.809,
-        "size_m2": 0.0013,
-        "estimated_weight_kg": 0.016,
-        "priority": "low",
-        "color": "#3498db",
-        "flight_id": "SYLVA-NAS-001",
-        "environment": "urban_waterfront",
-        "location": "NASA - Space Center Houston, Texas"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -95.09574017252179,
-          29.550399073681447
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-392FA464",
-        "timestamp": "2026-01-15T10:07:12.818575",
-        "category": "organic_waste",
-        "category_name": "Organic Waste",
-        "confidence": 0.848,
-        "size_m2": 0.0186,
-        "estimated_weight_kg": 0.572,
-        "priority": "low",
-        "color": "#27ae60",
-        "flight_id": "SYLVA-NAS-001",
-        "environment": "urban_waterfront",
-        "location": "NASA - Space Center Houston, Texas"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -95.09408260392748,
-          29.55096180984789
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-90ACC920",
-        "timestamp": "2026-01-15T10:07:18.835673",
-        "category": "organic_waste",
-        "category_name": "Organic Waste",
-        "confidence": 0.791,
-        "size_m2": 0.0518,
-        "estimated_weight_kg": 0.332,
-        "priority": "low",
-        "color": "#27ae60",
-        "flight_id": "SYLVA-NAS-001",
-        "environment": "urban_waterfront",
-        "location": "NASA - Space Center Houston, Texas"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -95.09328869949483,
-          29.55155647142187
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-1E9B073C",
-        "timestamp": "2026-01-15T10:07:24.852772",
-        "category": "food_packaging",
-        "category_name": "Food Packaging/Cardboard",
-        "confidence": 0.828,
-        "size_m2": 0.0165,
-        "estimated_weight_kg": 0.035,
-        "priority": "low",
-        "color": "#e67e22",
-        "flight_id": "SYLVA-NAS-001",
-        "environment": "urban_waterfront",
-        "location": "NASA - Space Center Houston, Texas"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -95.09248662830991,
-          29.55192594294729
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-4F92C188",
-        "timestamp": "2026-01-15T10:07:30.869870",
-        "category": "metal_debris",
-        "category_name": "Metal Debris",
-        "confidence": 0.787,
-        "size_m2": 0.0466,
-        "estimated_weight_kg": 3.116,
-        "priority": "low",
-        "color": "#95a5a6",
-        "flight_id": "SYLVA-NAS-001",
-        "environment": "urban_waterfront",
-        "location": "NASA - Space Center Houston, Texas"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -95.091294431634,
-          29.552389426289444
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-EB1253F0",
-        "timestamp": "2026-01-15T10:07:36.886969",
-        "category": "plastic_bottle",
-        "category_name": "Plastic Bottles",
-        "confidence": 0.827,
-        "size_m2": 0.0012,
-        "estimated_weight_kg": 0.05,
-        "priority": "low",
-        "color": "#3498db",
-        "flight_id": "SYLVA-NAS-001",
-        "environment": "urban_waterfront",
-        "location": "NASA - Space Center Houston, Texas"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -95.08989177128048,
-          29.553274113801958
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-290AAD83",
-        "timestamp": "2026-01-15T10:07:42.904068",
-        "category": "metal_debris",
-        "category_name": "Metal Debris",
-        "confidence": 0.834,
-        "size_m2": 0.0604,
-        "estimated_weight_kg": 2.353,
-        "priority": "medium",
-        "color": "#95a5a6",
-        "flight_id": "SYLVA-NAS-001",
-        "environment": "urban_waterfront",
-        "location": "NASA - Space Center Houston, Texas"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -95.0892288208597,
-          29.55394142205391
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-4A46CACD",
-        "timestamp": "2026-01-15T10:07:48.921166",
-        "category": "construction_waste",
-        "category_name": "Construction Waste",
-        "confidence": 0.766,
-        "size_m2": 0.9538,
-        "estimated_weight_kg": 17.249,
-        "priority": "critical",
-        "color": "#8e44ad",
-        "flight_id": "SYLVA-NAS-001",
-        "environment": "urban_waterfront",
-        "location": "NASA - Space Center Houston, Texas"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -95.08596240237836,
-          29.555482365304748
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-9E4CA981",
-        "timestamp": "2026-01-15T10:08:06.972462",
-        "category": "construction_waste",
-        "category_name": "Construction Waste",
-        "confidence": 0.789,
-        "size_m2": 0.4012,
-        "estimated_weight_kg": 16.546,
-        "priority": "critical",
-        "color": "#8e44ad",
-        "flight_id": "SYLVA-NAS-001",
-        "environment": "urban_waterfront",
-        "location": "NASA - Space Center Houston, Texas"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -95.08476433688251,
-          29.55580012640024
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-B4AB8419",
-        "timestamp": "2026-01-15T10:08:12.989560",
-        "category": "organic_waste",
-        "category_name": "Organic Waste",
-        "confidence": 0.855,
-        "size_m2": 0.0327,
-        "estimated_weight_kg": 0.835,
-        "priority": "low",
-        "color": "#27ae60",
-        "flight_id": "SYLVA-NAS-001",
-        "environment": "urban_waterfront",
-        "location": "NASA - Space Center Houston, Texas"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -95.083396477137,
-          29.556230633934305
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-B0D5896B",
-        "timestamp": "2026-01-15T10:08:19.006659",
-        "category": "tire",
-        "category_name": "Tires",
-        "confidence": 0.842,
-        "size_m2": 0.2121,
-        "estimated_weight_kg": 14.297,
-        "priority": "high",
-        "color": "#2c3e50",
-        "flight_id": "SYLVA-NAS-001",
-        "environment": "urban_waterfront",
-        "location": "NASA - Space Center Houston, Texas"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -95.08165074474984,
-          29.557496365146978
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-F21E8D66",
-        "timestamp": "2026-01-15T10:08:31.040856",
-        "category": "glass",
-        "category_name": "Glass",
-        "confidence": 0.783,
-        "size_m2": 0.0072,
-        "estimated_weight_kg": 0.3,
-        "priority": "low",
-        "color": "#1abc9c",
-        "flight_id": "SYLVA-NAS-001",
-        "environment": "urban_waterfront",
-        "location": "NASA - Space Center Houston, Texas"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -95.08014536652506,
-          29.557975763046297
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-62AB2FE3",
-        "timestamp": "2026-01-15T10:08:37.057954",
-        "category": "construction_waste",
-        "category_name": "Construction Waste",
-        "confidence": 0.81,
-        "size_m2": 0.3638,
-        "estimated_weight_kg": 22.469,
-        "priority": "critical",
-        "color": "#8e44ad",
-        "flight_id": "SYLVA-NAS-001",
-        "environment": "urban_waterfront",
-        "location": "NASA - Space Center Houston, Texas"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -95.07913482291107,
-          29.5585389815068
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-27492EE7",
-        "timestamp": "2026-01-15T10:08:43.075053",
-        "category": "organic_waste",
-        "category_name": "Organic Waste",
-        "confidence": 0.777,
-        "size_m2": 0.0304,
-        "estimated_weight_kg": 0.839,
-        "priority": "low",
-        "color": "#27ae60",
-        "flight_id": "SYLVA-NAS-001",
-        "environment": "urban_waterfront",
-        "location": "NASA - Space Center Houston, Texas"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -95.07797400305002,
-          29.558958753978466
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-415E25C9",
-        "timestamp": "2026-01-15T10:08:49.092152",
-        "category": "plastic_bottle",
-        "category_name": "Plastic Bottles",
-        "confidence": 0.923,
-        "size_m2": 0.0017,
-        "estimated_weight_kg": 0.039,
-        "priority": "low",
-        "color": "#3498db",
-        "flight_id": "SYLVA-NAS-001",
-        "environment": "urban_waterfront",
-        "location": "NASA - Space Center Houston, Texas"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -95.07725261862299,
-          29.559546446381948
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-739B3EF3",
-        "timestamp": "2026-01-15T10:08:55.109250",
-        "category": "food_packaging",
-        "category_name": "Food Packaging/Cardboard",
-        "confidence": 0.89,
-        "size_m2": 0.0077,
-        "estimated_weight_kg": 0.093,
-        "priority": "low",
-        "color": "#e67e22",
-        "flight_id": "SYLVA-NAS-001",
-        "environment": "urban_waterfront",
-        "location": "NASA - Space Center Houston, Texas"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -95.07618402319152,
-          29.560344958830974
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-56271EB0",
-        "timestamp": "2026-01-15T10:09:01.126349",
-        "category": "metal_debris",
-        "category_name": "Metal Debris",
-        "confidence": 0.754,
-        "size_m2": 0.0629,
-        "estimated_weight_kg": 3.252,
-        "priority": "medium",
-        "color": "#95a5a6",
-        "flight_id": "SYLVA-NAS-001",
-        "environment": "urban_waterfront",
-        "location": "NASA - Space Center Houston, Texas"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -95.0748155843918,
-          29.560645777424646
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-2C7FC1B2",
-        "timestamp": "2026-01-15T10:09:07.143447",
-        "category": "glass",
-        "category_name": "Glass",
-        "confidence": 0.888,
-        "size_m2": 0.0078,
-        "estimated_weight_kg": 0.246,
-        "priority": "low",
-        "color": "#1abc9c",
-        "flight_id": "SYLVA-NAS-001",
-        "environment": "urban_waterfront",
-        "location": "NASA - Space Center Houston, Texas"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -95.07361564355459,
-          29.56129466344145
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-677CA7C8",
-        "timestamp": "2026-01-15T10:09:13.160546",
-        "category": "glass",
-        "category_name": "Glass",
-        "confidence": 0.986,
-        "size_m2": 0.0059,
-        "estimated_weight_kg": 0.234,
-        "priority": "low",
-        "color": "#1abc9c",
-        "flight_id": "SYLVA-NAS-001",
-        "environment": "urban_waterfront",
-        "location": "NASA - Space Center Houston, Texas"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -95.07248558642621,
-          29.561821228732814
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-1CA7A6E1",
-        "timestamp": "2026-01-15T10:09:19.177143",
-        "category": "tire",
-        "category_name": "Tires",
-        "confidence": 0.763,
-        "size_m2": 0.3467,
-        "estimated_weight_kg": 10.793,
-        "priority": "critical",
-        "color": "#2c3e50",
-        "flight_id": "SYLVA-NAS-001",
-        "environment": "urban_waterfront",
-        "location": "NASA - Space Center Houston, Texas"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -95.07034574338552,
-          29.561502672659774
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-0815E137",
-        "timestamp": "2026-01-15T10:09:31.203326",
-        "category": "food_packaging",
-        "category_name": "Food Packaging/Cardboard",
-        "confidence": 0.833,
-        "size_m2": 0.0131,
-        "estimated_weight_kg": 0.094,
-        "priority": "low",
-        "color": "#e67e22",
-        "flight_id": "SYLVA-NAS-001",
-        "environment": "urban_waterfront",
-        "location": "NASA - Space Center Houston, Texas"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -95.0691561072308,
-          29.561838159375743
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-37AFE6B2",
-        "timestamp": "2026-01-15T10:09:37.216417",
-        "category": "tire",
-        "category_name": "Tires",
-        "confidence": 0.87,
-        "size_m2": 0.1778,
-        "estimated_weight_kg": 9.235,
-        "priority": "high",
-        "color": "#2c3e50",
-        "flight_id": "SYLVA-NAS-001",
-        "environment": "urban_waterfront",
-        "location": "NASA - Space Center Houston, Texas"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -95.06529400526018,
-          29.562105099794607
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-215B3531",
-        "timestamp": "2026-01-15T10:09:55.255690",
-        "category": "metal_debris",
-        "category_name": "Metal Debris",
-        "confidence": 0.793,
-        "size_m2": 0.026,
-        "estimated_weight_kg": 3.486,
-        "priority": "low",
-        "color": "#95a5a6",
-        "flight_id": "SYLVA-NAS-001",
-        "environment": "urban_waterfront",
-        "location": "NASA - Space Center Houston, Texas"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -95.06435537874881,
-          29.562199186838686
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-4E2E8FB4",
-        "timestamp": "2026-01-15T10:10:01.268781",
-        "category": "textile",
-        "category_name": "Textile/Fabric",
-        "confidence": 0.766,
-        "size_m2": 0.1253,
-        "estimated_weight_kg": 1.272,
-        "priority": "medium",
-        "color": "#e74c3c",
-        "flight_id": "SYLVA-NAS-001",
-        "environment": "urban_waterfront",
-        "location": "NASA - Space Center Houston, Texas"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -95.06174583218792,
-          29.56256541735195
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-36657F6F",
-        "timestamp": "2026-01-15T10:10:13.294963",
-        "category": "plastic_bottle",
-        "category_name": "Plastic Bottles",
-        "confidence": 0.886,
-        "size_m2": 0.0011,
-        "estimated_weight_kg": 0.029,
-        "priority": "low",
-        "color": "#3498db",
-        "flight_id": "SYLVA-NAS-001",
-        "environment": "urban_waterfront",
-        "location": "NASA - Space Center Houston, Texas"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -95.05906062498457,
-          29.562511409898384
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-D1FC30D5",
-        "timestamp": "2026-01-15T10:10:25.321146",
-        "category": "tire",
-        "category_name": "Tires",
-        "confidence": 0.787,
-        "size_m2": 0.2753,
-        "estimated_weight_kg": 11.917,
-        "priority": "high",
-        "color": "#2c3e50",
-        "flight_id": "SYLVA-NAS-001",
-        "environment": "urban_waterfront",
-        "location": "NASA - Space Center Houston, Texas"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -95.0579294462176,
-          29.562861505977224
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-998F4513",
-        "timestamp": "2026-01-15T10:10:31.334237",
-        "category": "food_packaging",
-        "category_name": "Food Packaging/Cardboard",
-        "confidence": 0.756,
-        "size_m2": 0.0147,
-        "estimated_weight_kg": 0.053,
-        "priority": "low",
-        "color": "#e67e22",
-        "flight_id": "SYLVA-NAS-001",
-        "environment": "urban_waterfront",
-        "location": "NASA - Space Center Houston, Texas"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -95.05689620684024,
-          29.562788555796622
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-1AB703EF",
-        "timestamp": "2026-01-15T10:10:37.347328",
-        "category": "plastic_bottle",
-        "category_name": "Plastic Bottles",
-        "confidence": 0.755,
-        "size_m2": 0.0017,
-        "estimated_weight_kg": 0.037,
-        "priority": "low",
-        "color": "#3498db",
-        "flight_id": "SYLVA-NAS-001",
-        "environment": "urban_waterfront",
-        "location": "NASA - Space Center Houston, Texas"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -95.0552661102663,
-          29.562691843172164
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-44221472",
-        "timestamp": "2026-01-15T10:10:43.360419",
-        "category": "plastic_bottle",
-        "category_name": "Plastic Bottles",
-        "confidence": 0.923,
-        "size_m2": 0.0013,
         "estimated_weight_kg": 0.02,
         "priority": "low",
         "color": "#3498db",
@@ -2094,18 +318,42 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -95.05407946036908,
-          29.562819714453376
+          -95.1123978919728,
+          29.500549046771287
         ]
       },
       "properties": {
-        "id": "DET-2025-384B302B",
-        "timestamp": "2026-01-15T10:10:49.373510",
+        "id": "DET-2025-49179AD7",
+        "timestamp": "2026-01-15T10:02:27.192119",
+        "category": "construction_waste",
+        "category_name": "Construction Waste",
+        "confidence": 0.851,
+        "size_m2": 0.6658,
+        "estimated_weight_kg": 34.469,
+        "priority": "critical",
+        "color": "#8e44ad",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA - Space Center Houston, Texas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.1140842877405,
+          29.502645079251234
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-2F588A0A",
+        "timestamp": "2026-01-15T10:02:38.528281",
         "category": "plastic_bottle",
         "category_name": "Plastic Bottles",
-        "confidence": 0.753,
-        "size_m2": 0.0019,
-        "estimated_weight_kg": 0.046,
+        "confidence": 0.955,
+        "size_m2": 0.0011,
+        "estimated_weight_kg": 0.012,
         "priority": "low",
         "color": "#3498db",
         "flight_id": "SYLVA-NAS-001",
@@ -2118,18 +366,90 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -95.05313648453215,
-          29.562732615830818
+          -95.11488150899972,
+          29.504077940209324
         ]
       },
       "properties": {
-        "id": "DET-2025-7A0DDB74",
-        "timestamp": "2026-01-15T10:10:55.386601",
+        "id": "DET-2025-7854916A",
+        "timestamp": "2026-01-15T10:02:49.870597",
+        "category": "tire",
+        "category_name": "Tires",
+        "confidence": 0.846,
+        "size_m2": 0.19,
+        "estimated_weight_kg": 11.037,
+        "priority": "high",
+        "color": "#2c3e50",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA - Space Center Houston, Texas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.11602199876859,
+          29.505865106101883
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-7632483A",
+        "timestamp": "2026-01-15T10:03:01.315502",
+        "category": "metal_debris",
+        "category_name": "Metal Debris",
+        "confidence": 0.908,
+        "size_m2": 0.0627,
+        "estimated_weight_kg": 4.354,
+        "priority": "medium",
+        "color": "#95a5a6",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA - Space Center Houston, Texas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.11721039410328,
+          29.50809574918465
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-D7319A50",
+        "timestamp": "2026-01-15T10:03:12.760368",
+        "category": "metal_debris",
+        "category_name": "Metal Debris",
+        "confidence": 0.843,
+        "size_m2": 0.0955,
+        "estimated_weight_kg": 3.09,
+        "priority": "medium",
+        "color": "#95a5a6",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA - Space Center Houston, Texas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.11769106287828,
+          29.509846951750962
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-19FF626E",
+        "timestamp": "2026-01-15T10:03:24.205195",
         "category": "food_packaging",
         "category_name": "Food Packaging/Cardboard",
-        "confidence": 0.946,
-        "size_m2": 0.0113,
-        "estimated_weight_kg": 0.091,
+        "confidence": 0.797,
+        "size_m2": 0.0194,
+        "estimated_weight_kg": 0.092,
         "priority": "low",
         "color": "#e67e22",
         "flight_id": "SYLVA-NAS-001",
@@ -2142,17 +462,1361 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -95.05164024909261,
-          29.563019442035536
+          -95.11922636591937,
+          29.51137747089235
         ]
       },
       "properties": {
-        "id": "DET-2025-ACD65D35",
-        "timestamp": "2026-01-15T10:11:01.399692",
+        "id": "DET-2025-8252294E",
+        "timestamp": "2026-01-15T10:03:35.595156",
+        "category": "metal_debris",
+        "category_name": "Metal Debris",
+        "confidence": 0.953,
+        "size_m2": 0.0303,
+        "estimated_weight_kg": 1.935,
+        "priority": "low",
+        "color": "#95a5a6",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA - Space Center Houston, Texas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.12048800870085,
+          29.513334206275996
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-0659F666",
+        "timestamp": "2026-01-15T10:03:46.919545",
+        "category": "metal_debris",
+        "category_name": "Metal Debris",
+        "confidence": 0.926,
+        "size_m2": 0.0722,
+        "estimated_weight_kg": 4.449,
+        "priority": "medium",
+        "color": "#95a5a6",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA - Space Center Houston, Texas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.12131350614838,
+          29.515011840887336
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-EADF49AE",
+        "timestamp": "2026-01-15T10:03:58.243881",
+        "category": "construction_waste",
+        "category_name": "Construction Waste",
+        "confidence": 0.839,
+        "size_m2": 0.9929,
+        "estimated_weight_kg": 26.505,
+        "priority": "critical",
+        "color": "#8e44ad",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA - Space Center Houston, Texas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.12228171687707,
+          29.517285318916237
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-E003EA69",
+        "timestamp": "2026-01-15T10:04:09.742727",
+        "category": "food_packaging",
+        "category_name": "Food Packaging/Cardboard",
+        "confidence": 0.775,
+        "size_m2": 0.0163,
+        "estimated_weight_kg": 0.08,
+        "priority": "low",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA - Space Center Houston, Texas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.12359935723265,
+          29.519061293853653
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-2D2DA833",
+        "timestamp": "2026-01-15T10:04:21.360901",
+        "category": "organic_waste",
+        "category_name": "Organic Waste",
+        "confidence": 0.967,
+        "size_m2": 0.0325,
+        "estimated_weight_kg": 0.11,
+        "priority": "low",
+        "color": "#27ae60",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA - Space Center Houston, Texas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.12413906724824,
+          29.521056207529814
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-8E050595",
+        "timestamp": "2026-01-15T10:04:32.934449",
+        "category": "tire",
+        "category_name": "Tires",
+        "confidence": 0.82,
+        "size_m2": 0.3619,
+        "estimated_weight_kg": 11.139,
+        "priority": "critical",
+        "color": "#2c3e50",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA - Space Center Houston, Texas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.1230704798098,
+          29.522410722426486
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-20F63819",
+        "timestamp": "2026-01-15T10:04:42.791460",
+        "category": "construction_waste",
+        "category_name": "Construction Waste",
+        "confidence": 0.764,
+        "size_m2": 0.3184,
+        "estimated_weight_kg": 29.777,
+        "priority": "critical",
+        "color": "#8e44ad",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA - Space Center Houston, Texas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.12135356989751,
+          29.523678617015506
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-7A7127A5",
+        "timestamp": "2026-01-15T10:04:54.772475",
         "category": "plastic_bottle",
         "category_name": "Plastic Bottles",
+        "confidence": 0.898,
+        "size_m2": 0.0014,
+        "estimated_weight_kg": 0.04,
+        "priority": "low",
+        "color": "#3498db",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA - Space Center Houston, Texas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.11960709651163,
+          29.524860121402426
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-AE9B4E31",
+        "timestamp": "2026-01-15T10:05:06.069323",
+        "category": "construction_waste",
+        "category_name": "Construction Waste",
+        "confidence": 0.77,
+        "size_m2": 0.7797,
+        "estimated_weight_kg": 13.254,
+        "priority": "critical",
+        "color": "#8e44ad",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA - Space Center Houston, Texas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.11719798604332,
+          29.525766220232494
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-A88A29AC",
+        "timestamp": "2026-01-15T10:05:17.385418",
+        "category": "glass",
+        "category_name": "Glass",
+        "confidence": 0.84,
+        "size_m2": 0.0099,
+        "estimated_weight_kg": 0.426,
+        "priority": "low",
+        "color": "#1abc9c",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA - Space Center Houston, Texas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.11560034258954,
+          29.52708039207121
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-D5058956",
+        "timestamp": "2026-01-15T10:05:28.701425",
+        "category": "glass",
+        "category_name": "Glass",
+        "confidence": 0.753,
+        "size_m2": 0.0033,
+        "estimated_weight_kg": 0.348,
+        "priority": "low",
+        "color": "#1abc9c",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA - Space Center Houston, Texas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.11385695825255,
+          29.528008536444663
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-F89C1360",
+        "timestamp": "2026-01-15T10:05:40.017345",
+        "category": "metal_debris",
+        "category_name": "Metal Debris",
+        "confidence": 0.981,
+        "size_m2": 0.081,
+        "estimated_weight_kg": 3.125,
+        "priority": "medium",
+        "color": "#95a5a6",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA - Space Center Houston, Texas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.11185663211235,
+          29.529638740372096
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-5084A6C6",
+        "timestamp": "2026-01-15T10:05:51.333177",
+        "category": "textile",
+        "category_name": "Textile/Fabric",
+        "confidence": 0.76,
+        "size_m2": 0.0518,
+        "estimated_weight_kg": 1.946,
+        "priority": "medium",
+        "color": "#e74c3c",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA - Space Center Houston, Texas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.1102071834659,
+          29.53107144305658
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-FB60F088",
+        "timestamp": "2026-01-15T10:06:02.776224",
+        "category": "metal_debris",
+        "category_name": "Metal Debris",
+        "confidence": 0.901,
+        "size_m2": 0.0977,
+        "estimated_weight_kg": 2.854,
+        "priority": "medium",
+        "color": "#95a5a6",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA - Space Center Houston, Texas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.10903006636394,
+          29.532702263534844
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-06E6AE47",
+        "timestamp": "2026-01-15T10:06:13.658161",
+        "category": "construction_waste",
+        "category_name": "Construction Waste",
+        "confidence": 0.978,
+        "size_m2": 0.2841,
+        "estimated_weight_kg": 21.239,
+        "priority": "critical",
+        "color": "#8e44ad",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA - Space Center Houston, Texas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.10971077072249,
+          29.534544263786156
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-F884D009",
+        "timestamp": "2026-01-15T10:06:24.689822",
+        "category": "food_packaging",
+        "category_name": "Food Packaging/Cardboard",
+        "confidence": 0.89,
+        "size_m2": 0.012,
+        "estimated_weight_kg": 0.048,
+        "priority": "medium",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA - Space Center Houston, Texas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.11041195941314,
+          29.536602927188362
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-F2A9DFE3",
+        "timestamp": "2026-01-15T10:06:35.980673",
+        "category": "metal_debris",
+        "category_name": "Metal Debris",
+        "confidence": 0.914,
+        "size_m2": 0.0482,
+        "estimated_weight_kg": 4.162,
+        "priority": "medium",
+        "color": "#95a5a6",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA - Space Center Houston, Texas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.11132355881884,
+          29.538451944042677
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-B4E61AF0",
+        "timestamp": "2026-01-15T10:06:47.393239",
+        "category": "construction_waste",
+        "category_name": "Construction Waste",
+        "confidence": 0.974,
+        "size_m2": 0.7101,
+        "estimated_weight_kg": 26.73,
+        "priority": "critical",
+        "color": "#8e44ad",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA - Space Center Houston, Texas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.11184785533145,
+          29.53996560952069
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-9F273517",
+        "timestamp": "2026-01-15T10:06:58.536474",
+        "category": "construction_waste",
+        "category_name": "Construction Waste",
+        "confidence": 0.893,
+        "size_m2": 0.9905,
+        "estimated_weight_kg": 16.017,
+        "priority": "critical",
+        "color": "#8e44ad",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA - Space Center Houston, Texas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.11115169863383,
+          29.542341408383958
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-9B5F60C3",
+        "timestamp": "2026-01-15T10:07:09.231910",
+        "category": "tire",
+        "category_name": "Tires",
+        "confidence": 0.764,
+        "size_m2": 0.2806,
+        "estimated_weight_kg": 9.914,
+        "priority": "high",
+        "color": "#2c3e50",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA - Space Center Houston, Texas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.10949340244083,
+          29.543843110658862
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-87296730",
+        "timestamp": "2026-01-15T10:07:20.510073",
+        "category": "metal_debris",
+        "category_name": "Metal Debris",
+        "confidence": 0.954,
+        "size_m2": 0.0827,
+        "estimated_weight_kg": 4.751,
+        "priority": "medium",
+        "color": "#95a5a6",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA - Space Center Houston, Texas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.1078025348658,
+          29.5447290431736
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-355B9E71",
+        "timestamp": "2026-01-15T10:07:31.804578",
+        "category": "metal_debris",
+        "category_name": "Metal Debris",
+        "confidence": 0.898,
+        "size_m2": 0.0421,
+        "estimated_weight_kg": 3.523,
+        "priority": "low",
+        "color": "#95a5a6",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA - Space Center Houston, Texas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.10614100657249,
+          29.546296127767945
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-38474AFD",
+        "timestamp": "2026-01-15T10:07:43.164679",
+        "category": "construction_waste",
+        "category_name": "Construction Waste",
         "confidence": 0.882,
-        "size_m2": 0.0029,
+        "size_m2": 0.6401,
+        "estimated_weight_kg": 44.087,
+        "priority": "critical",
+        "color": "#8e44ad",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA - Space Center Houston, Texas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.10426546850776,
+          29.546821145721214
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-C192EFB4",
+        "timestamp": "2026-01-15T10:07:54.452739",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.919,
+        "size_m2": 0.0033,
+        "estimated_weight_kg": 0.035,
+        "priority": "low",
+        "color": "#3498db",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA - Space Center Houston, Texas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.10188070556129,
+          29.547290059019062
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-CF8D175E",
+        "timestamp": "2026-01-15T10:08:05.776129",
+        "category": "metal_debris",
+        "category_name": "Metal Debris",
+        "confidence": 0.967,
+        "size_m2": 0.0544,
+        "estimated_weight_kg": 2.469,
+        "priority": "medium",
+        "color": "#95a5a6",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA - Space Center Houston, Texas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.09962921931776,
+          29.54848128780967
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-E7B67115",
+        "timestamp": "2026-01-15T10:08:17.256804",
+        "category": "metal_debris",
+        "category_name": "Metal Debris",
+        "confidence": 0.785,
+        "size_m2": 0.0897,
+        "estimated_weight_kg": 4.773,
+        "priority": "medium",
+        "color": "#95a5a6",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA - Space Center Houston, Texas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.09740660806202,
+          29.548859834098675
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-38718D89",
+        "timestamp": "2026-01-15T10:08:28.761016",
+        "category": "textile",
+        "category_name": "Textile/Fabric",
+        "confidence": 0.902,
+        "size_m2": 0.1239,
+        "estimated_weight_kg": 0.792,
+        "priority": "medium",
+        "color": "#e74c3c",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA - Space Center Houston, Texas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.09534396269422,
+          29.549503913108264
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-6BAB92F3",
+        "timestamp": "2026-01-15T10:08:40.032200",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.794,
+        "size_m2": 0.0014,
+        "estimated_weight_kg": 0.036,
+        "priority": "low",
+        "color": "#3498db",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA - Space Center Houston, Texas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.09289598257956,
+          29.550386452658373
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-A7A229C2",
+        "timestamp": "2026-01-15T10:08:51.303315",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.791,
+        "size_m2": 0.0016,
+        "estimated_weight_kg": 0.012,
+        "priority": "low",
+        "color": "#3498db",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA - Space Center Houston, Texas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.09105467371572,
+          29.550921825764227
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-CF70839D",
+        "timestamp": "2026-01-15T10:09:02.609103",
+        "category": "tire",
+        "category_name": "Tires",
+        "confidence": 0.871,
+        "size_m2": 0.2024,
+        "estimated_weight_kg": 10.55,
+        "priority": "high",
+        "color": "#2c3e50",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA - Space Center Houston, Texas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.08843673246926,
+          29.55195973638937
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-3C8262FC",
+        "timestamp": "2026-01-15T10:09:14.054177",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.765,
+        "size_m2": 0.0036,
+        "estimated_weight_kg": 0.047,
+        "priority": "low",
+        "color": "#3498db",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA - Space Center Houston, Texas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.08651885507739,
+          29.552637570689402
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-A552AF5D",
+        "timestamp": "2026-01-15T10:09:25.499181",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.898,
+        "size_m2": 0.0021,
+        "estimated_weight_kg": 0.029,
+        "priority": "low",
+        "color": "#3498db",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA - Space Center Houston, Texas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.0844294006305,
+          29.553352432356583
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-FBFF4F47",
+        "timestamp": "2026-01-15T10:09:36.902178",
+        "category": "food_packaging",
+        "category_name": "Food Packaging/Cardboard",
+        "confidence": 0.873,
+        "size_m2": 0.0157,
+        "estimated_weight_kg": 0.092,
+        "priority": "low",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA - Space Center Houston, Texas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.08189887088918,
+          29.55386967417421
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-1E296531",
+        "timestamp": "2026-01-15T10:09:48.289878",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.755,
+        "size_m2": 0.0018,
+        "estimated_weight_kg": 0.025,
+        "priority": "low",
+        "color": "#3498db",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA - Space Center Houston, Texas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.07997473478422,
+          29.554542028566225
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-0015F64F",
+        "timestamp": "2026-01-15T10:09:59.622290",
+        "category": "organic_waste",
+        "category_name": "Organic Waste",
+        "confidence": 0.939,
+        "size_m2": 0.0417,
+        "estimated_weight_kg": 0.711,
+        "priority": "low",
+        "color": "#27ae60",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA - Space Center Houston, Texas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.07745065059154,
+          29.555373738401105
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-1BFBF889",
+        "timestamp": "2026-01-15T10:10:10.918720",
+        "category": "construction_waste",
+        "category_name": "Construction Waste",
+        "confidence": 0.818,
+        "size_m2": 0.5737,
+        "estimated_weight_kg": 15.103,
+        "priority": "critical",
+        "color": "#8e44ad",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA - Space Center Houston, Texas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.07611573691992,
+          29.5569243989222
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-BAB16772",
+        "timestamp": "2026-01-15T10:10:22.254103",
+        "category": "textile",
+        "category_name": "Textile/Fabric",
+        "confidence": 0.774,
+        "size_m2": 0.1409,
+        "estimated_weight_kg": 0.627,
+        "priority": "medium",
+        "color": "#e74c3c",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA - Space Center Houston, Texas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.07498164327568,
+          29.55850183503244
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-326BB2FA",
+        "timestamp": "2026-01-15T10:10:33.693399",
+        "category": "food_packaging",
+        "category_name": "Food Packaging/Cardboard",
+        "confidence": 0.769,
+        "size_m2": 0.0076,
+        "estimated_weight_kg": 0.092,
+        "priority": "low",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA - Space Center Houston, Texas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.0739899488498,
+          29.560749760871705
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-A134C59A",
+        "timestamp": "2026-01-15T10:10:45.098630",
+        "category": "food_packaging",
+        "category_name": "Food Packaging/Cardboard",
+        "confidence": 0.946,
+        "size_m2": 0.0195,
+        "estimated_weight_kg": 0.089,
+        "priority": "low",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA - Space Center Houston, Texas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.07228803623153,
+          29.562393353821392
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-4556BA04",
+        "timestamp": "2026-01-15T10:10:56.714893",
+        "category": "metal_debris",
+        "category_name": "Metal Debris",
+        "confidence": 0.935,
+        "size_m2": 0.0679,
+        "estimated_weight_kg": 1.76,
+        "priority": "medium",
+        "color": "#95a5a6",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA - Space Center Houston, Texas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.07103566908506,
+          29.56387321595009
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-3F10E138",
+        "timestamp": "2026-01-15T10:11:08.166166",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.819,
+        "size_m2": 0.0013,
+        "estimated_weight_kg": 0.034,
+        "priority": "low",
+        "color": "#3498db",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA - Space Center Houston, Texas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.06903087475247,
+          29.565154226341445
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-39DEB774",
+        "timestamp": "2026-01-15T10:11:19.838974",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.765,
+        "size_m2": 0.002,
+        "estimated_weight_kg": 0.015,
+        "priority": "low",
+        "color": "#3498db",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA - Space Center Houston, Texas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.06695932641476,
+          29.56597867046587
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-E8ABEFD2",
+        "timestamp": "2026-01-15T10:11:31.363865",
+        "category": "metal_debris",
+        "category_name": "Metal Debris",
+        "confidence": 0.863,
+        "size_m2": 0.082,
+        "estimated_weight_kg": 3.18,
+        "priority": "medium",
+        "color": "#95a5a6",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA - Space Center Houston, Texas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.06433955392086,
+          29.566556805865535
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-DAD5FDC7",
+        "timestamp": "2026-01-15T10:11:42.837897",
+        "category": "textile",
+        "category_name": "Textile/Fabric",
+        "confidence": 0.975,
+        "size_m2": 0.0686,
+        "estimated_weight_kg": 1.516,
+        "priority": "medium",
+        "color": "#e74c3c",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA - Space Center Houston, Texas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.0620975074063,
+          29.566653464927114
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-32AD9C1A",
+        "timestamp": "2026-01-15T10:11:54.453559",
+        "category": "construction_waste",
+        "category_name": "Construction Waste",
+        "confidence": 0.798,
+        "size_m2": 0.3548,
+        "estimated_weight_kg": 41.811,
+        "priority": "critical",
+        "color": "#8e44ad",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA - Space Center Houston, Texas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.05961207386956,
+          29.56693032102054
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-85E19655",
+        "timestamp": "2026-01-15T10:12:06.107043",
+        "category": "tire",
+        "category_name": "Tires",
+        "confidence": 0.844,
+        "size_m2": 0.2596,
+        "estimated_weight_kg": 14.14,
+        "priority": "high",
+        "color": "#2c3e50",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA - Space Center Houston, Texas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.05736282539553,
+          29.566552099844085
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-8355173E",
+        "timestamp": "2026-01-15T10:12:17.647903",
+        "category": "food_packaging",
+        "category_name": "Food Packaging/Cardboard",
+        "confidence": 0.806,
+        "size_m2": 0.0162,
+        "estimated_weight_kg": 0.06,
+        "priority": "low",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA - Space Center Houston, Texas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.05478258961608,
+          29.565998863997425
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-26BA69A2",
+        "timestamp": "2026-01-15T10:12:29.376304",
+        "category": "food_packaging",
+        "category_name": "Food Packaging/Cardboard",
+        "confidence": 0.901,
+        "size_m2": 0.0068,
+        "estimated_weight_kg": 0.095,
+        "priority": "low",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA - Space Center Houston, Texas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.05291066458096,
+          29.565151698991
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-72EA56E0",
+        "timestamp": "2026-01-15T10:12:40.639174",
+        "category": "food_packaging",
+        "category_name": "Food Packaging/Cardboard",
+        "confidence": 0.786,
+        "size_m2": 0.0184,
+        "estimated_weight_kg": 0.083,
+        "priority": "low",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA - Space Center Houston, Texas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.05111791640387,
+          29.564573302423682
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-DAAE808D",
+        "timestamp": "2026-01-15T10:12:51.654396",
+        "category": "metal_debris",
+        "category_name": "Metal Debris",
+        "confidence": 0.832,
+        "size_m2": 0.0822,
+        "estimated_weight_kg": 4.445,
+        "priority": "medium",
+        "color": "#95a5a6",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA - Space Center Houston, Texas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.04863148857316,
+          29.564582527601956
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-960C1310",
+        "timestamp": "2026-01-15T10:13:03.103964",
+        "category": "food_packaging",
+        "category_name": "Food Packaging/Cardboard",
+        "confidence": 0.805,
+        "size_m2": 0.017,
+        "estimated_weight_kg": 0.032,
+        "priority": "low",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA - Space Center Houston, Texas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.04591617410405,
+          29.564415506761385
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-26E43F3B",
+        "timestamp": "2026-01-15T10:13:14.611062",
+        "category": "tire",
+        "category_name": "Tires",
+        "confidence": 0.794,
+        "size_m2": 0.2194,
+        "estimated_weight_kg": 10.42,
+        "priority": "high",
+        "color": "#2c3e50",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA - Space Center Houston, Texas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.04371707122084,
+          29.56410358562588
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-8597E62F",
+        "timestamp": "2026-01-15T10:13:26.245101",
+        "category": "glass",
+        "category_name": "Glass",
+        "confidence": 0.871,
+        "size_m2": 0.0037,
+        "estimated_weight_kg": 0.376,
+        "priority": "low",
+        "color": "#1abc9c",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA - Space Center Houston, Texas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.04170177356607,
+          29.562916413334097
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-5506B78E",
+        "timestamp": "2026-01-15T10:13:37.436931",
+        "category": "metal_debris",
+        "category_name": "Metal Debris",
+        "confidence": 0.92,
+        "size_m2": 0.0772,
+        "estimated_weight_kg": 4.651,
+        "priority": "medium",
+        "color": "#95a5a6",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA - Space Center Houston, Texas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.04037036678866,
+          29.561219562511315
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-BE0E468F",
+        "timestamp": "2026-01-15T10:13:49.035219",
+        "category": "construction_waste",
+        "category_name": "Construction Waste",
+        "confidence": 0.858,
+        "size_m2": 0.9508,
+        "estimated_weight_kg": 47.023,
+        "priority": "critical",
+        "color": "#8e44ad",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA - Space Center Houston, Texas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.03883382687683,
+          29.560165350504406
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-C0B4405D",
+        "timestamp": "2026-01-15T10:14:00.087584",
+        "category": "glass",
+        "category_name": "Glass",
+        "confidence": 0.892,
+        "size_m2": 0.009,
+        "estimated_weight_kg": 0.356,
+        "priority": "low",
+        "color": "#1abc9c",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA - Space Center Houston, Texas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.0360931912464,
+          29.560306585985813
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-DF04ADAF",
+        "timestamp": "2026-01-15T10:14:11.348164",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.879,
+        "size_m2": 0.002,
         "estimated_weight_kg": 0.026,
         "priority": "low",
         "color": "#3498db",
@@ -2166,258 +1830,18 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -95.0502804024519,
-          29.56344941610311
+          -95.03382724051647,
+          29.56059921367789
         ]
       },
       "properties": {
-        "id": "DET-2025-E89E7ED1",
-        "timestamp": "2026-01-15T10:11:07.412783",
-        "category": "plastic_bottle",
-        "category_name": "Plastic Bottles",
-        "confidence": 0.965,
-        "size_m2": 0.0036,
-        "estimated_weight_kg": 0.029,
-        "priority": "medium",
-        "color": "#3498db",
-        "flight_id": "SYLVA-NAS-001",
-        "environment": "urban_waterfront",
-        "location": "NASA - Space Center Houston, Texas"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -95.04929179218743,
-          29.563040877169016
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-4496706D",
-        "timestamp": "2026-01-15T10:11:13.425874",
-        "category": "food_packaging",
-        "category_name": "Food Packaging/Cardboard",
-        "confidence": 0.783,
-        "size_m2": 0.0145,
-        "estimated_weight_kg": 0.041,
-        "priority": "medium",
-        "color": "#e67e22",
-        "flight_id": "SYLVA-NAS-001",
-        "environment": "urban_waterfront",
-        "location": "NASA - Space Center Houston, Texas"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -95.04818355457382,
-          29.563373311785764
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-1070B668",
-        "timestamp": "2026-01-15T10:11:19.438966",
-        "category": "plastic_bottle",
-        "category_name": "Plastic Bottles",
-        "confidence": 0.778,
-        "size_m2": 0.0011,
-        "estimated_weight_kg": 0.047,
-        "priority": "medium",
-        "color": "#3498db",
-        "flight_id": "SYLVA-NAS-001",
-        "environment": "urban_waterfront",
-        "location": "NASA - Space Center Houston, Texas"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -95.04658691650141,
-          29.563508063190874
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-985D0505",
-        "timestamp": "2026-01-15T10:11:25.452057",
-        "category": "construction_waste",
-        "category_name": "Construction Waste",
-        "confidence": 0.783,
-        "size_m2": 0.4048,
-        "estimated_weight_kg": 10.44,
-        "priority": "critical",
-        "color": "#8e44ad",
-        "flight_id": "SYLVA-NAS-001",
-        "environment": "urban_waterfront",
-        "location": "NASA - Space Center Houston, Texas"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -95.04541457834287,
-          29.56356672495554
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-F27E01D2",
-        "timestamp": "2026-01-15T10:11:31.465148",
-        "category": "metal_debris",
-        "category_name": "Metal Debris",
-        "confidence": 0.851,
-        "size_m2": 0.0382,
-        "estimated_weight_kg": 4.615,
-        "priority": "low",
-        "color": "#95a5a6",
-        "flight_id": "SYLVA-NAS-001",
-        "environment": "urban_waterfront",
-        "location": "NASA - Space Center Houston, Texas"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -95.04446730017462,
-          29.56335770360846
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-2442A2B0",
-        "timestamp": "2026-01-15T10:11:37.478239",
-        "category": "construction_waste",
-        "category_name": "Construction Waste",
-        "confidence": 0.809,
-        "size_m2": 0.3121,
-        "estimated_weight_kg": 34.126,
-        "priority": "critical",
-        "color": "#8e44ad",
-        "flight_id": "SYLVA-NAS-001",
-        "environment": "urban_waterfront",
-        "location": "NASA - Space Center Houston, Texas"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -95.0428410083843,
-          29.563665892486938
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-2DB13BCB",
-        "timestamp": "2026-01-15T10:11:43.491330",
-        "category": "food_packaging",
-        "category_name": "Food Packaging/Cardboard",
-        "confidence": 0.909,
-        "size_m2": 0.0135,
-        "estimated_weight_kg": 0.058,
-        "priority": "low",
-        "color": "#e67e22",
-        "flight_id": "SYLVA-NAS-001",
-        "environment": "urban_waterfront",
-        "location": "NASA - Space Center Houston, Texas"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -95.04235083558247,
-          29.56425604093882
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-5B338B63",
-        "timestamp": "2026-01-15T10:11:49.535205",
-        "category": "food_packaging",
-        "category_name": "Food Packaging/Cardboard",
-        "confidence": 0.869,
-        "size_m2": 0.0139,
-        "estimated_weight_kg": 0.024,
-        "priority": "low",
-        "color": "#e67e22",
-        "flight_id": "SYLVA-NAS-001",
-        "environment": "urban_waterfront",
-        "location": "NASA - Space Center Houston, Texas"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -95.04135663925707,
-          29.565239500809902
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-0A7A80EF",
-        "timestamp": "2026-01-15T10:11:55.579079",
-        "category": "plastic_bottle",
-        "category_name": "Plastic Bottles",
-        "confidence": 0.915,
-        "size_m2": 0.0032,
-        "estimated_weight_kg": 0.03,
-        "priority": "low",
-        "color": "#3498db",
-        "flight_id": "SYLVA-NAS-001",
-        "environment": "urban_waterfront",
-        "location": "NASA - Space Center Houston, Texas"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -95.03990397816668,
-          29.565931150114093
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-6032268F",
-        "timestamp": "2026-01-15T10:12:01.622954",
-        "category": "metal_debris",
-        "category_name": "Metal Debris",
-        "confidence": 0.837,
-        "size_m2": 0.0454,
-        "estimated_weight_kg": 3.156,
-        "priority": "low",
-        "color": "#95a5a6",
-        "flight_id": "SYLVA-NAS-001",
-        "environment": "urban_waterfront",
-        "location": "NASA - Space Center Houston, Texas"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -95.03886534120801,
-          29.566327472559205
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-E6C72F3C",
-        "timestamp": "2026-01-15T10:12:07.666829",
+        "id": "DET-2025-AD6B6C60",
+        "timestamp": "2026-01-15T10:14:22.608704",
         "category": "tire",
         "category_name": "Tires",
-        "confidence": 0.96,
-        "size_m2": 0.1944,
-        "estimated_weight_kg": 11.793,
+        "confidence": 0.784,
+        "size_m2": 0.2092,
+        "estimated_weight_kg": 11.167,
         "priority": "high",
         "color": "#2c3e50",
         "flight_id": "SYLVA-NAS-001",
@@ -2430,20 +1854,20 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -95.03805519347218,
-          29.56733434892443
+          -95.03145813934464,
+          29.561047359049823
         ]
       },
       "properties": {
-        "id": "DET-2025-E64CBFF9",
-        "timestamp": "2026-01-15T10:12:13.710704",
-        "category": "construction_waste",
-        "category_name": "Construction Waste",
-        "confidence": 0.803,
-        "size_m2": 0.4373,
-        "estimated_weight_kg": 29.577,
-        "priority": "critical",
-        "color": "#8e44ad",
+        "id": "DET-2025-B67EDD67",
+        "timestamp": "2026-01-15T10:14:33.869206",
+        "category": "food_packaging",
+        "category_name": "Food Packaging/Cardboard",
+        "confidence": 0.753,
+        "size_m2": 0.0137,
+        "estimated_weight_kg": 0.071,
+        "priority": "low",
+        "color": "#e67e22",
         "flight_id": "SYLVA-NAS-001",
         "environment": "urban_waterfront",
         "location": "NASA - Space Center Houston, Texas"
@@ -2454,18 +1878,90 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -95.03615911468688,
-          29.56830515177251
+          -95.02974021573351,
+          29.561881070067834
         ]
       },
       "properties": {
-        "id": "DET-2025-460A1F83",
-        "timestamp": "2026-01-15T10:12:25.798453",
+        "id": "DET-2025-AD4AE508",
+        "timestamp": "2026-01-15T10:14:44.954180",
+        "category": "food_packaging",
+        "category_name": "Food Packaging/Cardboard",
+        "confidence": 0.871,
+        "size_m2": 0.0063,
+        "estimated_weight_kg": 0.1,
+        "priority": "low",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA - Space Center Houston, Texas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.02779854961734,
+          29.563053986751914
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-B5430E6C",
+        "timestamp": "2026-01-15T10:14:56.466959",
+        "category": "organic_waste",
+        "category_name": "Organic Waste",
+        "confidence": 0.759,
+        "size_m2": 0.0242,
+        "estimated_weight_kg": 0.272,
+        "priority": "low",
+        "color": "#27ae60",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA - Space Center Houston, Texas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.02620129074448,
+          29.56435682235538
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-2BA0F6FE",
+        "timestamp": "2026-01-15T10:15:07.613847",
+        "category": "tire",
+        "category_name": "Tires",
+        "confidence": 0.846,
+        "size_m2": 0.3216,
+        "estimated_weight_kg": 11.085,
+        "priority": "critical",
+        "color": "#2c3e50",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA - Space Center Houston, Texas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.02608513476984,
+          29.56643039150263
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-B1255B20",
+        "timestamp": "2026-01-15T10:15:18.883944",
         "category": "glass",
         "category_name": "Glass",
-        "confidence": 0.97,
-        "size_m2": 0.0039,
-        "estimated_weight_kg": 0.37,
+        "confidence": 0.905,
+        "size_m2": 0.0053,
+        "estimated_weight_kg": 0.281,
         "priority": "low",
         "color": "#1abc9c",
         "flight_id": "SYLVA-NAS-001",
@@ -2478,20 +1974,20 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -95.03510509320964,
-          29.569225228749072
+          -95.02645867049019,
+          29.56849121967406
         ]
       },
       "properties": {
-        "id": "DET-2025-A51C8F3F",
-        "timestamp": "2026-01-15T10:12:31.842328",
-        "category": "textile",
-        "category_name": "Textile/Fabric",
-        "confidence": 0.957,
-        "size_m2": 0.1916,
-        "estimated_weight_kg": 1.054,
-        "priority": "medium",
-        "color": "#e74c3c",
+        "id": "DET-2025-745C1AEC",
+        "timestamp": "2026-01-15T10:15:30.354261",
+        "category": "metal_debris",
+        "category_name": "Metal Debris",
+        "confidence": 0.805,
+        "size_m2": 0.027,
+        "estimated_weight_kg": 1.499,
+        "priority": "low",
+        "color": "#95a5a6",
         "flight_id": "SYLVA-NAS-001",
         "environment": "urban_waterfront",
         "location": "NASA - Space Center Houston, Texas"
@@ -2502,18 +1998,162 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -95.03469667913839,
-          29.570196909945224
+          -95.02661900495775,
+          29.570468701570277
         ]
       },
       "properties": {
-        "id": "DET-2025-F09E69E8",
-        "timestamp": "2026-01-15T10:12:37.886203",
+        "id": "DET-2025-C84FFC73",
+        "timestamp": "2026-01-15T10:15:41.824576",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.774,
+        "size_m2": 0.003,
+        "estimated_weight_kg": 0.02,
+        "priority": "low",
+        "color": "#3498db",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA - Space Center Houston, Texas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.02700241251493,
+          29.572977715401613
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-7F4057E3",
+        "timestamp": "2026-01-15T10:15:53.271317",
+        "category": "food_packaging",
+        "category_name": "Food Packaging/Cardboard",
+        "confidence": 0.82,
+        "size_m2": 0.015,
+        "estimated_weight_kg": 0.036,
+        "priority": "low",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA - Space Center Houston, Texas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.02764238267474,
+          29.57460012928027
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-1F71953F",
+        "timestamp": "2026-01-15T10:16:04.716563",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.851,
+        "size_m2": 0.0015,
+        "estimated_weight_kg": 0.033,
+        "priority": "low",
+        "color": "#3498db",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA - Space Center Houston, Texas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.02797172587515,
+          29.57672785166912
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-A1923E2B",
+        "timestamp": "2026-01-15T10:16:16.161805",
+        "category": "food_packaging",
+        "category_name": "Food Packaging/Cardboard",
+        "confidence": 0.9,
+        "size_m2": 0.0139,
+        "estimated_weight_kg": 0.041,
+        "priority": "low",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA - Space Center Houston, Texas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.0282588688781,
+          29.57880527225506
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-3C1A913C",
+        "timestamp": "2026-01-15T10:16:27.507696",
+        "category": "glass",
+        "category_name": "Glass",
+        "confidence": 0.958,
+        "size_m2": 0.0082,
+        "estimated_weight_kg": 0.242,
+        "priority": "low",
+        "color": "#1abc9c",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA - Space Center Houston, Texas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.02860204503851,
+          29.5809844073507
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-9F69E01B",
+        "timestamp": "2026-01-15T10:16:38.787502",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.902,
+        "size_m2": 0.0018,
+        "estimated_weight_kg": 0.032,
+        "priority": "low",
+        "color": "#3498db",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA - Space Center Houston, Texas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.02860631996603,
+          29.583074997910114
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-4A06E5F3",
+        "timestamp": "2026-01-15T10:16:50.067304",
         "category": "tire",
         "category_name": "Tires",
-        "confidence": 0.768,
-        "size_m2": 0.2113,
-        "estimated_weight_kg": 8.844,
+        "confidence": 0.754,
+        "size_m2": 0.1894,
+        "estimated_weight_kg": 9.906,
         "priority": "high",
         "color": "#2c3e50",
         "flight_id": "SYLVA-NAS-001",
@@ -2526,18 +2166,66 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -95.03366825301764,
-          29.57083373543922
+          -95.0292157331063,
+          29.584861757111277
         ]
       },
       "properties": {
-        "id": "DET-2025-D45E7D58",
-        "timestamp": "2026-01-15T10:12:43.930077",
+        "id": "DET-2025-439907BC",
+        "timestamp": "2026-01-15T10:17:01.308285",
+        "category": "metal_debris",
+        "category_name": "Metal Debris",
+        "confidence": 0.8,
+        "size_m2": 0.0739,
+        "estimated_weight_kg": 4.234,
+        "priority": "medium",
+        "color": "#95a5a6",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA - Space Center Houston, Texas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.02872039975854,
+          29.587158323042967
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-887B415F",
+        "timestamp": "2026-01-15T10:17:12.614322",
+        "category": "metal_debris",
+        "category_name": "Metal Debris",
+        "confidence": 0.792,
+        "size_m2": 0.07,
+        "estimated_weight_kg": 3.493,
+        "priority": "medium",
+        "color": "#95a5a6",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA - Space Center Houston, Texas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.02883377741752,
+          29.588892854090187
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-D1F8C728",
+        "timestamp": "2026-01-15T10:17:23.995620",
         "category": "plastic_bottle",
         "category_name": "Plastic Bottles",
-        "confidence": 0.827,
-        "size_m2": 0.0026,
-        "estimated_weight_kg": 0.042,
+        "confidence": 0.77,
+        "size_m2": 0.0015,
+        "estimated_weight_kg": 0.04,
         "priority": "low",
         "color": "#3498db",
         "flight_id": "SYLVA-NAS-001",
@@ -2550,42 +2238,18 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -95.03260283069142,
-          29.571465342431434
+          -95.02879159343385,
+          29.590935969438288
         ]
       },
       "properties": {
-        "id": "DET-2025-AE6CB0C8",
-        "timestamp": "2026-01-15T10:12:49.973952",
-        "category": "plastic_bottle",
-        "category_name": "Plastic Bottles",
-        "confidence": 0.96,
-        "size_m2": 0.0036,
-        "estimated_weight_kg": 0.011,
-        "priority": "low",
-        "color": "#3498db",
-        "flight_id": "SYLVA-NAS-001",
-        "environment": "urban_waterfront",
-        "location": "NASA - Space Center Houston, Texas"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -95.03022280367767,
-          29.57297379073808
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-AE9A67D9",
-        "timestamp": "2026-01-15T10:13:02.061702",
+        "id": "DET-2025-F988F59B",
+        "timestamp": "2026-01-15T10:17:35.427977",
         "category": "food_packaging",
         "category_name": "Food Packaging/Cardboard",
-        "confidence": 0.865,
-        "size_m2": 0.0165,
-        "estimated_weight_kg": 0.052,
+        "confidence": 0.886,
+        "size_m2": 0.0158,
+        "estimated_weight_kg": 0.044,
         "priority": "low",
         "color": "#e67e22",
         "flight_id": "SYLVA-NAS-001",
@@ -2598,44 +2262,212 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -95.02946078283289,
-          29.57372196196532
+          -95.02856516825672,
+          29.593221348371696
         ]
       },
       "properties": {
-        "id": "DET-2025-4C94267C",
-        "timestamp": "2026-01-15T10:13:08.105576",
-        "category": "food_packaging",
-        "category_name": "Food Packaging/Cardboard",
-        "confidence": 0.807,
-        "size_m2": 0.0113,
-        "estimated_weight_kg": 0.079,
-        "priority": "low",
-        "color": "#e67e22",
-        "flight_id": "SYLVA-NAS-001",
-        "environment": "urban_waterfront",
-        "location": "NASA - Space Center Houston, Texas"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -95.02879405056063,
-          29.574078101958534
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-A08CAA52",
-        "timestamp": "2026-01-15T10:13:14.149451",
+        "id": "DET-2025-CB544541",
+        "timestamp": "2026-01-15T10:17:46.730485",
         "category": "plastic_bottle",
         "category_name": "Plastic Bottles",
-        "confidence": 0.987,
+        "confidence": 0.893,
         "size_m2": 0.0011,
-        "estimated_weight_kg": 0.011,
+        "estimated_weight_kg": 0.02,
         "priority": "low",
         "color": "#3498db",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA - Space Center Houston, Texas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.02952495246396,
+          29.59503611767351
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-4B9707EE",
+        "timestamp": "2026-01-15T10:17:58.154152",
+        "category": "metal_debris",
+        "category_name": "Metal Debris",
+        "confidence": 0.925,
+        "size_m2": 0.033,
+        "estimated_weight_kg": 0.838,
+        "priority": "medium",
+        "color": "#95a5a6",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA - Space Center Houston, Texas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.03034423276858,
+          29.59691187856787
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-73F489AA",
+        "timestamp": "2026-01-15T10:18:09.577797",
+        "category": "metal_debris",
+        "category_name": "Metal Debris",
+        "confidence": 0.815,
+        "size_m2": 0.085,
+        "estimated_weight_kg": 3.626,
+        "priority": "high",
+        "color": "#95a5a6",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA - Space Center Houston, Texas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.03060924059537,
+          29.59867565212673
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-9B16016B",
+        "timestamp": "2026-01-15T10:18:21.001422",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.794,
+        "size_m2": 0.0039,
+        "estimated_weight_kg": 0.028,
+        "priority": "low",
+        "color": "#3498db",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA - Space Center Houston, Texas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.03113667289487,
+          29.60101840327902
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-009A9011",
+        "timestamp": "2026-01-15T10:18:32.297343",
+        "category": "metal_debris",
+        "category_name": "Metal Debris",
+        "confidence": 0.81,
+        "size_m2": 0.0769,
+        "estimated_weight_kg": 4.321,
+        "priority": "medium",
+        "color": "#95a5a6",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA - Space Center Houston, Texas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.03130181605201,
+          29.603181612176222
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-B3A8BAF4",
+        "timestamp": "2026-01-15T10:18:43.621142",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.793,
+        "size_m2": 0.0031,
+        "estimated_weight_kg": 0.047,
+        "priority": "low",
+        "color": "#3498db",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA - Space Center Houston, Texas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.03185018987044,
+          29.604693442972113
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-20B5710F",
+        "timestamp": "2026-01-15T10:18:55.092687",
+        "category": "tire",
+        "category_name": "Tires",
+        "confidence": 0.977,
+        "size_m2": 0.4716,
+        "estimated_weight_kg": 14.797,
+        "priority": "critical",
+        "color": "#2c3e50",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA - Space Center Houston, Texas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.03255336677273,
+          29.607130230096793
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-049308E4",
+        "timestamp": "2026-01-15T10:19:06.564226",
+        "category": "construction_waste",
+        "category_name": "Construction Waste",
+        "confidence": 0.805,
+        "size_m2": 0.2778,
+        "estimated_weight_kg": 33.851,
+        "priority": "high",
+        "color": "#8e44ad",
+        "flight_id": "SYLVA-NAS-001",
+        "environment": "urban_waterfront",
+        "location": "NASA - Space Center Houston, Texas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.03254231759277,
+          29.607253018379637
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-A46A05DC",
+        "timestamp": "2026-01-15T10:19:07.328995",
+        "category": "construction_waste",
+        "category_name": "Construction Waste",
+        "confidence": 0.879,
+        "size_m2": 0.299,
+        "estimated_weight_kg": 22.612,
+        "priority": "high",
+        "color": "#8e44ad",
         "flight_id": "SYLVA-NAS-001",
         "environment": "urban_waterfront",
         "location": "NASA - Space Center Houston, Texas"
@@ -2644,7 +2476,7 @@
   ],
   "properties": {
     "location": "NASA - Space Center Houston, Texas",
-    "total_detections": 110,
-    "generated_at": "2025-12-26T10:07:58.386115"
+    "total_detections": 103,
+    "generated_at": "2025-12-26T10:17:53.121509"
   }
 }

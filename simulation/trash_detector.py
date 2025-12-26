@@ -150,10 +150,11 @@ class TrashDetector:
             ]
         elif self.env_type == "urban_waterfront":
             # NASA - Space Center Houston urban waterfront hotspots
-            # Path: (29.4813, -95.1014) to (29.5749, -95.0277)
+            # New path: (29.4773, -95.0983) to (29.6071, -95.0324) - 22.95 km
             self.hotspots = [
+                # SOUTHERN SECTION - Near Space Center Houston
                 {
-                    "lat": 29.4850,
+                    "lat": 29.4800,
                     "lon": -95.1000,
                     "radius_m": 250,
                     "multiplier": 4.0,
@@ -161,52 +162,88 @@ class TrashDetector:
                     "primary_trash": ["plastic_bottle", "food_packaging", "metal_debris"],
                 },
                 {
-                    "lat": 29.5000,
-                    "lon": -95.1100,
+                    "lat": 29.4950,
+                    "lon": -95.1080,
                     "radius_m": 200,
                     "multiplier": 3.5,
-                    "name": "NASA Road 1 Corridor",
+                    "name": "NASA Road 1 South Corridor",
                     "primary_trash": ["food_packaging", "plastic_bottle"],
                 },
+                # WEST TURN SECTION - Path curves west
                 {
-                    "lat": 29.5200,
+                    "lat": 29.5100,
                     "lon": -95.1150,
-                    "radius_m": 300,
+                    "radius_m": 280,
                     "multiplier": 5.0,
                     "name": "Clear Lake City Park",
                     "primary_trash": ["food_packaging", "plastic_bottle", "glass"],
                 },
                 {
-                    "lat": 29.5400,
-                    "lon": -95.1050,
+                    "lat": 29.5220,
+                    "lon": -95.1230,
+                    "radius_m": 300,
+                    "multiplier": 5.5,
+                    "name": "Clear Lake Western Shore",
+                    "primary_trash": ["tire", "organic_waste", "plastic_bottle"],
+                },
+                # CENTRAL SECTION - Path turns back east
+                {
+                    "lat": 29.5350,
+                    "lon": -95.1100,
                     "radius_m": 350,
                     "multiplier": 6.0,
                     "name": "Clear Lake Marina",
                     "primary_trash": ["tire", "metal_debris", "construction_waste"],
                 },
                 {
+                    "lat": 29.5480,
+                    "lon": -95.0950,
+                    "radius_m": 250,
+                    "multiplier": 4.5,
+                    "name": "Nassau Bay Waterfront",
+                    "primary_trash": ["plastic_bottle", "food_packaging", "glass"],
+                },
+                # EASTERN SECTION - Toward Kemah
+                {
                     "lat": 29.5550,
-                    "lon": -95.0800,
+                    "lon": -95.0750,
                     "radius_m": 200,
                     "multiplier": 4.0,
                     "name": "Seabrook Waterfront",
                     "primary_trash": ["plastic_bottle", "organic_waste"],
                 },
                 {
-                    "lat": 29.5650,
-                    "lon": -95.0500,
-                    "radius_m": 400,
-                    "multiplier": 7.0,
-                    "name": "Kemah Boardwalk Area",
+                    "lat": 29.5640,
+                    "lon": -95.0550,
+                    "radius_m": 350,
+                    "multiplier": 6.5,
+                    "name": "Kemah Channel Area",
                     "primary_trash": ["food_packaging", "plastic_bottle", "glass", "textile"],
                 },
+                # NORTHERN SECTION - Near Galveston Bay
                 {
-                    "lat": 29.5720,
-                    "lon": -95.0350,
+                    "lat": 29.5780,
+                    "lon": -95.0380,
                     "radius_m": 300,
                     "multiplier": 5.0,
                     "name": "Galveston Bay Shore",
                     "primary_trash": ["plastic_bottle", "organic_waste", "tire"],
+                },
+                {
+                    "lat": 29.5950,
+                    "lon": -95.0310,
+                    "radius_m": 350,
+                    "multiplier": 7.0,
+                    "name": "Kemah Boardwalk Area",
+                    "primary_trash": ["food_packaging", "plastic_bottle", "glass", "metal_debris"],
+                },
+                {
+                    "lat": 29.6050,
+                    "lon": -95.0320,
+                    "radius_m": 250,
+                    "multiplier": 4.5,
+                    "name": "Bayside Marina North",
+                    "primary_trash": ["tire", "construction_waste", "metal_debris"],
                 },
             ]
         else:
