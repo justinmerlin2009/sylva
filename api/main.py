@@ -1021,8 +1021,8 @@ async def get_geography(location: str) -> Dict:
     # Map location keys to geography files
     file_mappings = {
         "stinson_beach": ["stinson_beach_water.geojson", "stinson_beach_shoreline.geojson"],
-        "route_66": ["route_66_highway.geojson"],
-        "nasa_clear_lake": ["nasa_clear_lake.geojson"],
+        "lake_erie": ["lake_erie_highway.geojson"],
+        "nasa_space_center": ["nasa_space_center.geojson"],
     }
 
     if location not in file_mappings:

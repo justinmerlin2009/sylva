@@ -462,7 +462,7 @@
   {
     "hotspot_id": "HS-ROU-001",
     "name": "Needles Downtown Exit",
-    "location": "route_66",
+    "location": "lake_erie",
     "location_name": "Historic Route 66, Needles CA",
     "coordinates": {
       "lat": 34.848,
@@ -508,7 +508,7 @@
   {
     "hotspot_id": "HS-ROU-002",
     "name": "East Needles Pullout",
-    "location": "route_66",
+    "location": "lake_erie",
     "location_name": "Historic Route 66, Needles CA",
     "coordinates": {
       "lat": 34.855,
@@ -554,7 +554,7 @@
   {
     "hotspot_id": "HS-ROU-003",
     "name": "Desert Rest Stop",
-    "location": "route_66",
+    "location": "lake_erie",
     "location_name": "Historic Route 66, Needles CA",
     "coordinates": {
       "lat": 34.865,
@@ -600,7 +600,7 @@
   {
     "hotspot_id": "HS-ROU-004",
     "name": "AZ State Line Welcome",
-    "location": "route_66",
+    "location": "lake_erie",
     "location_name": "Historic Route 66, Needles CA",
     "coordinates": {
       "lat": 34.8694,
@@ -646,7 +646,7 @@
   {
     "hotspot_id": "HS-ROU-005",
     "name": "Historic Marker Dumping",
-    "location": "route_66",
+    "location": "lake_erie",
     "location_name": "Historic Route 66, Needles CA",
     "coordinates": {
       "lat": 34.882,
@@ -692,7 +692,7 @@
   {
     "hotspot_id": "HS-NAS-001",
     "name": "NASA Parkway Roadside",
-    "location": "nasa_clear_lake",
+    "location": "nasa_space_center",
     "location_name": "NASA Clear Lake Area, Houston TX",
     "coordinates": {
       "lat": 29.548,
@@ -738,7 +738,7 @@
   {
     "hotspot_id": "HS-NAS-002",
     "name": "Clear Lake Park",
-    "location": "nasa_clear_lake",
+    "location": "nasa_space_center",
     "location_name": "NASA Clear Lake Area, Houston TX",
     "coordinates": {
       "lat": 29.545,
@@ -784,7 +784,7 @@
   {
     "hotspot_id": "HS-NAS-003",
     "name": "Marina Dumping",
-    "location": "nasa_clear_lake",
+    "location": "nasa_space_center",
     "location_name": "NASA Clear Lake Area, Houston TX",
     "coordinates": {
       "lat": 29.54,
@@ -830,7 +830,7 @@
   {
     "hotspot_id": "HS-NAS-004",
     "name": "Seabrook Waterfront",
-    "location": "nasa_clear_lake",
+    "location": "nasa_space_center",
     "location_name": "NASA Clear Lake Area, Houston TX",
     "coordinates": {
       "lat": 29.53,
@@ -876,7 +876,7 @@
   {
     "hotspot_id": "HS-NAS-005",
     "name": "Kemah Boardwalk Area",
-    "location": "nasa_clear_lake",
+    "location": "nasa_space_center",
     "location_name": "NASA Clear Lake Area, Houston TX",
     "coordinates": {
       "lat": 29.525,
@@ -922,7 +922,7 @@
   {
     "hotspot_id": "HS-NAS-006",
     "name": "Bay Shoreline",
-    "location": "nasa_clear_lake",
+    "location": "nasa_space_center",
     "location_name": "NASA Clear Lake Area, Houston TX",
     "coordinates": {
       "lat": 29.522,

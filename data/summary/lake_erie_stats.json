@@ -1,0 +1,71 @@
+{
+  "total_detections": 95,
+  "total_estimated_weight_kg": 430.28,
+  "total_area_m2": 10.28,
+  "by_category": [
+    {
+      "category": "metal_debris",
+      "name": "Metal Debris",
+      "count": 21,
+      "percentage": 22.1,
+      "color": "#95a5a6"
+    },
+    {
+      "category": "plastic_bottle",
+      "name": "Plastic Bottles",
+      "count": 20,
+      "percentage": 21.1,
+      "color": "#3498db"
+    },
+    {
+      "category": "food_packaging",
+      "name": "Food Packaging/Cardboard",
+      "count": 18,
+      "percentage": 18.9,
+      "color": "#e67e22"
+    },
+    {
+      "category": "tire",
+      "name": "Tires",
+      "count": 10,
+      "percentage": 10.5,
+      "color": "#2c3e50"
+    },
+    {
+      "category": "construction_waste",
+      "name": "Construction Waste",
+      "count": 9,
+      "percentage": 9.5,
+      "color": "#8e44ad"
+    },
+    {
+      "category": "glass",
+      "name": "Glass",
+      "count": 8,
+      "percentage": 8.4,
+      "color": "#1abc9c"
+    },
+    {
+      "category": "organic_waste",
+      "name": "Organic Waste",
+      "count": 6,
+      "percentage": 6.3,
+      "color": "#27ae60"
+    },
+    {
+      "category": "textile",
+      "name": "Textile/Fabric",
+      "count": 3,
+      "percentage": 3.2,
+      "color": "#e74c3c"
+    }
+  ],
+  "by_priority": {
+    "critical": 14,
+    "high": 5,
+    "medium": 13,
+    "low": 63
+  },
+  "location": "Lake Erie - Highway & Waterfront, Ohio",
+  "environment_type": "highway"
+}

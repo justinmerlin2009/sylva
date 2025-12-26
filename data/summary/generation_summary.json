@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-12-26T10:17:53.085510",
+  "generated_at": "2025-12-26T10:49:56.878515",
   "seed": 42,
   "locations": {
     "stinson_beach": {
@@ -11,22 +11,22 @@
       "estimated_weight_kg": 151.72,
       "clusters": 0
     },
-    "route_66": {
-      "flight_id": "SYLVA-ROU-001",
-      "waypoints": 120,
+    "lake_erie": {
+      "flight_id": "SYLVA-LAK-001",
+      "waypoints": 111,
       "distance_km": 0.0,
       "duration_minutes": 0.0,
       "detections": 95,
-      "estimated_weight_kg": 526.64,
+      "estimated_weight_kg": 430.28,
       "clusters": 0
     },
-    "nasa_clear_lake": {
+    "nasa_space_center": {
       "flight_id": "SYLVA-NAS-001",
-      "waypoints": 103,
+      "waypoints": 132,
       "distance_km": 0.0,
       "duration_minutes": 0.0,
-      "detections": 103,
-      "estimated_weight_kg": 587.48,
+      "detections": 110,
+      "estimated_weight_kg": 566.44,
       "clusters": 0
     }
   }

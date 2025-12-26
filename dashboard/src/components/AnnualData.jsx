@@ -129,7 +129,7 @@ function AnnualData({ isOpen, onClose }) {
   // Location comparison data
   const locationData = Object.entries(annualData.by_location || {}).map(([id, data]) => ({
     name: id === 'stinson_beach' ? 'Stinson Beach' :
-          id === 'route_66' ? 'Lake Erie' : 'NASA Space Center',
+          id === 'lake_erie' ? 'Lake Erie' : 'NASA Space Center',
     detections: data.total_detections,
     weight: Math.round(data.total_weight_kg),
     critical: data.by_priority?.critical || 0

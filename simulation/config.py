@@ -125,7 +125,7 @@ LOCATIONS = {
         "corridor_width_m": 100,
         "population_density": 450,
     },
-    "route_66": {
+    "lake_erie": {
         "name": "Lake Erie - Highway & Waterfront, Ohio",
         "type": "highway",
         "center": {"lat": 41.75, "lon": -82.05},
@@ -235,7 +235,7 @@ LOCATIONS = {
         "corridor_width_m": 80,
         "population_density": 450,
     },
-    "nasa_clear_lake": {
+    "nasa_space_center": {
         "name": "NASA - Space Center Houston, Texas",
         "type": "urban_waterfront",
         "center": {"lat": 29.545, "lon": -95.065},
@@ -360,14 +360,14 @@ POPULATION_DENSITY_ZONES = {
         {"lat": 37.895, "lon": -122.710, "radius_m": 400, "density": 800, "name": "North Stinson"},
         {"lat": 37.890, "lon": -122.640, "radius_m": 300, "density": 200, "name": "South Rural"},
     ],
-    "route_66": [
+    "lake_erie": [
         {"lat": 41.89, "lon": -80.79, "radius_m": 1000, "density": 800, "name": "Conneaut Harbor"},
         {"lat": 41.53, "lon": -81.62, "radius_m": 1500, "density": 1200, "name": "Cleveland Metro"},
         {"lat": 41.37, "lon": -82.53, "radius_m": 800, "density": 600, "name": "Sandusky Bay"},
         {"lat": 41.66, "lon": -83.35, "radius_m": 1200, "density": 900, "name": "Toledo Waterfront"},
         {"lat": 42.20, "lon": -83.17, "radius_m": 1000, "density": 1100, "name": "Detroit River"},
     ],
-    "nasa_clear_lake": [
+    "nasa_space_center": [
         {"lat": 29.485, "lon": -95.100, "radius_m": 800, "density": 2500, "name": "Space Center Houston"},
         {"lat": 29.520, "lon": -95.115, "radius_m": 600, "density": 3200, "name": "Clear Lake City"},
         {"lat": 29.550, "lon": -95.100, "radius_m": 500, "density": 2800, "name": "Clear Lake Shore"},

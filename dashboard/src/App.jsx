@@ -508,8 +508,8 @@ function App() {
       // Zoomed in close to ground during live flight demo
       const loc = locations.find(l => l.id === (selectedLocation === 'all' ? 'stinson_beach' : selectedLocation))
       if (loc?.id === 'stinson_beach') return 16  // Close ground view
-      if (loc?.id === 'route_66') return 15       // Highway corridor view
-      if (loc?.id === 'nasa_clear_lake') return 16
+      if (loc?.id === 'lake_erie') return 15       // Highway corridor view
+      if (loc?.id === 'nasa_space_center') return 16
       return 16
     }
     // When drawing, don't force zoom - let user control freely
@@ -518,7 +518,7 @@ function App() {
       return 13  // Reasonable zoom to see the area
     }
     return selectedLocation === 'stinson_beach' ? 14 :
-           selectedLocation === 'nasa_clear_lake' ? 13 : 12
+           selectedLocation === 'nasa_space_center' ? 13 : 12
   }
 
   if (loading) {

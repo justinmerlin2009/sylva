@@ -21,7 +21,7 @@ class FlightPathGenerator:
         Initialize flight path generator for a specific location or custom config.
 
         Args:
-            location_key: Key from LOCATIONS config (e.g., 'stinson_beach', 'route_66')
+            location_key: Key from LOCATIONS config (e.g., 'stinson_beach', 'lake_erie')
             custom_config: Custom configuration dict for user-drawn paths
         """
         if custom_config:

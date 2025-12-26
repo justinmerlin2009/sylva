@@ -17,7 +17,7 @@
   },
   {
     "cleanup_id": "CLN-ROU-2026-01",
-    "location": "route_66",
+    "location": "lake_erie",
     "location_name": "Historic Route 66, Needles CA",
     "date": "2026-01-21",
     "month": 1,
@@ -33,7 +33,7 @@
   },
   {
     "cleanup_id": "CLN-NAS-2026-01",
-    "location": "nasa_clear_lake",
+    "location": "nasa_space_center",
     "location_name": "NASA Clear Lake Area, Houston TX",
     "date": "2026-01-15",
     "month": 1,
@@ -66,7 +66,7 @@
   },
   {
     "cleanup_id": "CLN-ROU-2026-02",
-    "location": "route_66",
+    "location": "lake_erie",
     "location_name": "Historic Route 66, Needles CA",
     "date": "2026-02-15",
     "month": 2,
@@ -82,7 +82,7 @@
   },
   {
     "cleanup_id": "CLN-NAS-2026-02",
-    "location": "nasa_clear_lake",
+    "location": "nasa_space_center",
     "location_name": "NASA Clear Lake Area, Houston TX",
     "date": "2026-02-23",
     "month": 2,
@@ -115,7 +115,7 @@
   },
   {
     "cleanup_id": "CLN-ROU-2026-03",
-    "location": "route_66",
+    "location": "lake_erie",
     "location_name": "Historic Route 66, Needles CA",
     "date": "2026-03-20",
     "month": 3,
@@ -131,7 +131,7 @@
   },
   {
     "cleanup_id": "CLN-NAS-2026-03",
-    "location": "nasa_clear_lake",
+    "location": "nasa_space_center",
     "location_name": "NASA Clear Lake Area, Houston TX",
     "date": "2026-03-25",
     "month": 3,
@@ -164,7 +164,7 @@
   },
   {
     "cleanup_id": "CLN-ROU-2026-04",
-    "location": "route_66",
+    "location": "lake_erie",
     "location_name": "Historic Route 66, Needles CA",
     "date": "2026-04-16",
     "month": 4,
@@ -180,7 +180,7 @@
   },
   {
     "cleanup_id": "CLN-NAS-2026-04",
-    "location": "nasa_clear_lake",
+    "location": "nasa_space_center",
     "location_name": "NASA Clear Lake Area, Houston TX",
     "date": "2026-04-20",
     "month": 4,
@@ -213,7 +213,7 @@
   },
   {
     "cleanup_id": "CLN-ROU-2026-05",
-    "location": "route_66",
+    "location": "lake_erie",
     "location_name": "Historic Route 66, Needles CA",
     "date": "2026-05-16",
     "month": 5,
@@ -229,7 +229,7 @@
   },
   {
     "cleanup_id": "CLN-NAS-2026-05",
-    "location": "nasa_clear_lake",
+    "location": "nasa_space_center",
     "location_name": "NASA Clear Lake Area, Houston TX",
     "date": "2026-05-20",
     "month": 5,
@@ -262,7 +262,7 @@
   },
   {
     "cleanup_id": "CLN-ROU-2026-06",
-    "location": "route_66",
+    "location": "lake_erie",
     "location_name": "Historic Route 66, Needles CA",
     "date": "2026-06-23",
     "month": 6,
@@ -278,7 +278,7 @@
   },
   {
     "cleanup_id": "CLN-NAS-2026-06",
-    "location": "nasa_clear_lake",
+    "location": "nasa_space_center",
     "location_name": "NASA Clear Lake Area, Houston TX",
     "date": "2026-06-23",
     "month": 6,
@@ -311,7 +311,7 @@
   },
   {
     "cleanup_id": "CLN-ROU-2026-07",
-    "location": "route_66",
+    "location": "lake_erie",
     "location_name": "Historic Route 66, Needles CA",
     "date": "2026-07-18",
     "month": 7,
@@ -327,7 +327,7 @@
   },
   {
     "cleanup_id": "CLN-NAS-2026-07",
-    "location": "nasa_clear_lake",
+    "location": "nasa_space_center",
     "location_name": "NASA Clear Lake Area, Houston TX",
     "date": "2026-07-26",
     "month": 7,
@@ -360,7 +360,7 @@
   },
   {
     "cleanup_id": "CLN-ROU-2026-08",
-    "location": "route_66",
+    "location": "lake_erie",
     "location_name": "Historic Route 66, Needles CA",
     "date": "2026-08-27",
     "month": 8,
@@ -376,7 +376,7 @@
   },
   {
     "cleanup_id": "CLN-NAS-2026-08",
-    "location": "nasa_clear_lake",
+    "location": "nasa_space_center",
     "location_name": "NASA Clear Lake Area, Houston TX",
     "date": "2026-08-26",
     "month": 8,
@@ -409,7 +409,7 @@
   },
   {
     "cleanup_id": "CLN-ROU-2026-09",
-    "location": "route_66",
+    "location": "lake_erie",
     "location_name": "Historic Route 66, Needles CA",
     "date": "2026-09-28",
     "month": 9,
@@ -425,7 +425,7 @@
   },
   {
     "cleanup_id": "CLN-NAS-2026-09",
-    "location": "nasa_clear_lake",
+    "location": "nasa_space_center",
     "location_name": "NASA Clear Lake Area, Houston TX",
     "date": "2026-09-19",
     "month": 9,
@@ -458,7 +458,7 @@
   },
   {
     "cleanup_id": "CLN-ROU-2026-10",
-    "location": "route_66",
+    "location": "lake_erie",
     "location_name": "Historic Route 66, Needles CA",
     "date": "2026-10-25",
     "month": 10,
@@ -474,7 +474,7 @@
   },
   {
     "cleanup_id": "CLN-NAS-2026-10",
-    "location": "nasa_clear_lake",
+    "location": "nasa_space_center",
     "location_name": "NASA Clear Lake Area, Houston TX",
     "date": "2026-10-18",
     "month": 10,
@@ -507,7 +507,7 @@
   },
   {
     "cleanup_id": "CLN-ROU-2026-11",
-    "location": "route_66",
+    "location": "lake_erie",
     "location_name": "Historic Route 66, Needles CA",
     "date": "2026-11-22",
     "month": 11,
@@ -523,7 +523,7 @@
   },
   {
     "cleanup_id": "CLN-NAS-2026-11",
-    "location": "nasa_clear_lake",
+    "location": "nasa_space_center",
     "location_name": "NASA Clear Lake Area, Houston TX",
     "date": "2026-11-21",
     "month": 11,
@@ -556,7 +556,7 @@
   },
   {
     "cleanup_id": "CLN-ROU-2026-12",
-    "location": "route_66",
+    "location": "lake_erie",
     "location_name": "Historic Route 66, Needles CA",
     "date": "2026-12-17",
     "month": 12,
@@ -572,7 +572,7 @@
   },
   {
     "cleanup_id": "CLN-NAS-2026-12",
-    "location": "nasa_clear_lake",
+    "location": "nasa_space_center",
     "location_name": "NASA Clear Lake Area, Houston TX",
     "date": "2026-12-25",
     "month": 12,

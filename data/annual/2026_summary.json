@@ -27,7 +27,7 @@
         "low": 1783
       }
     },
-    "route_66": {
+    "lake_erie": {
       "total_detections": 4322,
       "total_weight_kg": 26470.62,
       "flights_completed": 48,
@@ -38,7 +38,7 @@
         "low": 2443
       }
     },
-    "nasa_clear_lake": {
+    "nasa_space_center": {
       "total_detections": 4293,
       "total_weight_kg": 19368.31,
       "flights_completed": 48,

@@ -25,8 +25,8 @@ function LiveDemo({
 
   const getLocationName = (id) => {
     if (id === 'stinson_beach') return 'Stinson Beach'
-    if (id === 'route_66') return 'Lake Erie'
-    if (id === 'nasa_clear_lake') return 'NASA Space Center'
+    if (id === 'lake_erie') return 'Lake Erie'
+    if (id === 'nasa_space_center') return 'NASA Space Center'
     return id
   }
 

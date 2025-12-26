@@ -88,13 +88,13 @@ WATER_BODIES = {
         {"name": "Pacific Ocean", "type": "ocean", "lat": 37.885, "lon": -122.638, "radius_m": 50},
         {"name": "Bolinas Lagoon", "type": "lagoon", "lat": 37.908, "lon": -122.650, "radius_m": 100},
     ],
-    "route_66": [
+    "lake_erie": [
         # Colorado River runs near the highway
         {"name": "Colorado River", "type": "river", "lat": 34.848, "lon": -114.625, "radius_m": 200},
         {"name": "Colorado River", "type": "river", "lat": 34.852, "lon": -114.590, "radius_m": 200},
         {"name": "Colorado River", "type": "river", "lat": 34.858, "lon": -114.555, "radius_m": 200},
     ],
-    "nasa_clear_lake": [
+    "nasa_space_center": [
         # Clear Lake and surrounding waterways along the survey path
         {"name": "Clear Lake", "type": "lake", "lat": 29.555, "lon": -95.095, "radius_m": 100},
         {"name": "Clear Lake", "type": "lake", "lat": 29.545, "lon": -95.075, "radius_m": 100},
@@ -112,12 +112,12 @@ CLEANUP_SCHEDULE = {
         "effectiveness": 0.65,  # 65% of critical items removed
         "target_hotspots": ["Main Beach - Heavy Use", "Easkoot Creek Dumping"],
     },
-    "route_66": {
+    "lake_erie": {
         "frequency": "monthly",
         "effectiveness": 0.45,
         "target_hotspots": ["Needles Downtown Exit", "Historic Marker Dumping"],
     },
-    "nasa_clear_lake": {
+    "nasa_space_center": {
         "frequency": "biweekly",
         "effectiveness": 0.55,
         "target_hotspots": ["Clear Lake Park", "Marina Dumping", "Kemah Boardwalk Area"],
