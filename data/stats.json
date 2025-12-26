@@ -1,0 +1,76 @@
+{
+  "total_detections": 285,
+  "total_estimated_weight_kg": 1187.9540000000009,
+  "by_priority": {
+    "critical": 30,
+    "high": 21,
+    "medium": 54,
+    "low": 180
+  },
+  "by_category": [
+    {
+      "category": "plastic_bottle",
+      "name": "Plastic Bottles",
+      "color": "#3498db",
+      "count": 68,
+      "weight_kg": 2.1219999999999994,
+      "percentage": 23.9
+    },
+    {
+      "category": "food_packaging",
+      "name": "Food Packaging",
+      "color": "#e67e22",
+      "count": 68,
+      "weight_kg": 4.137999999999999,
+      "percentage": 23.9
+    },
+    {
+      "category": "glass",
+      "name": "Glass",
+      "color": "#1abc9c",
+      "count": 38,
+      "weight_kg": 12.981,
+      "percentage": 13.3
+    },
+    {
+      "category": "metal_debris",
+      "name": "Metal Debris",
+      "color": "#95a5a6",
+      "count": 32,
+      "weight_kg": 70.718,
+      "percentage": 11.2
+    },
+    {
+      "category": "construction_waste",
+      "name": "Construction Waste",
+      "color": "#8e44ad",
+      "count": 26,
+      "weight_kg": 854.9760000000001,
+      "percentage": 9.1
+    },
+    {
+      "category": "tire",
+      "name": "Tires",
+      "color": "#2c3e50",
+      "count": 19,
+      "weight_kg": 216.191,
+      "percentage": 6.7
+    },
+    {
+      "category": "organic_waste",
+      "name": "Organic Waste",
+      "color": "#27ae60",
+      "count": 18,
+      "weight_kg": 9.615000000000002,
+      "percentage": 6.3
+    },
+    {
+      "category": "textile",
+      "name": "Textile/Fabric",
+      "color": "#e74c3c",
+      "count": 16,
+      "weight_kg": 17.213,
+      "percentage": 5.6
+    }
+  ]
+}

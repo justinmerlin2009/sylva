@@ -1058,13 +1058,340 @@ async def list_geography() -> Dict:
     return {"geography_files": available}
 
 
+# =============================================================================
+# ANALYTICS ENDPOINTS - Annual Data
+# =============================================================================
+
+ANNUAL_DIR = DATA_DIR / "annual"
+
+
+@app.get("/api/analytics/annual/{year}")
+async def get_annual_summary(year: int) -> Dict:
+    """Get comprehensive annual statistics for a year."""
+    summary_file = ANNUAL_DIR / f"{year}_summary.json"
+
+    if not summary_file.exists():
+        raise HTTPException(status_code=404, detail=f"Annual data for {year} not found")
+
+    return load_json(summary_file)
+
+
+@app.get("/api/analytics/monthly/{year}/{month}")
+async def get_monthly_report(year: int, month: int) -> Dict:
+    """Get monthly report for a specific month."""
+    if month < 1 or month > 12:
+        raise HTTPException(status_code=400, detail="Month must be between 1 and 12")
+
+    monthly_file = ANNUAL_DIR / "monthly" / f"{year}_{month:02d}_report.json"
+
+    if not monthly_file.exists():
+        raise HTTPException(status_code=404, detail=f"Monthly report for {year}/{month} not found")
+
+    return load_json(monthly_file)
+
+
+@app.get("/api/analytics/months/{year}")
+async def list_monthly_reports(year: int) -> Dict:
+    """List all monthly reports for a year."""
+    monthly_dir = ANNUAL_DIR / "monthly"
+    reports = []
+
+    for month in range(1, 13):
+        monthly_file = monthly_dir / f"{year}_{month:02d}_report.json"
+        if monthly_file.exists():
+            data = load_json(monthly_file)
+            reports.append({
+                "month": month,
+                "month_name": data.get("month_name", ""),
+                "detections": data.get("total_detections", 0),
+                "weight_kg": data.get("total_weight_kg", 0),
+                "flights": data.get("flights_completed", 0),
+            })
+
+    return {"year": year, "reports": reports}
+
+
+@app.get("/api/analytics/hotspots/{year}")
+async def get_hotspot_evolution(year: int) -> Dict:
+    """Get hotspot evolution data showing pollution trends over time."""
+    hotspots_file = ANNUAL_DIR / f"hotspots_{year}.json"
+
+    if not hotspots_file.exists():
+        raise HTTPException(status_code=404, detail=f"Hotspot data for {year} not found")
+
+    hotspots = load_json(hotspots_file)
+
+    return {
+        "year": year,
+        "total_hotspots": len(hotspots),
+        "hotspots": hotspots,
+        "summary": {
+            "critical_water_risk": len([h for h in hotspots if h.get("water_risk") == "critical"]),
+            "improving": len([h for h in hotspots if h.get("trend") == "improving"]),
+            "worsening": len([h for h in hotspots if h.get("trend") == "worsening"]),
+            "seasonal": len([h for h in hotspots if "seasonal" in h.get("trend", "")]),
+        }
+    }
+
+
+@app.get("/api/analytics/cleanups/{year}")
+async def get_cleanup_events(year: int) -> Dict:
+    """Get cleanup events and their impact."""
+    cleanups_file = ANNUAL_DIR / f"cleanups_{year}.json"
+
+    if not cleanups_file.exists():
+        raise HTTPException(status_code=404, detail=f"Cleanup data for {year} not found")
+
+    cleanups = load_json(cleanups_file)
+
+    total_items = sum(c.get("items_removed", 0) for c in cleanups)
+    total_weight = sum(c.get("weight_removed_kg", 0) for c in cleanups)
+
+    return {
+        "year": year,
+        "total_events": len(cleanups),
+        "total_items_removed": total_items,
+        "total_weight_removed_kg": round(total_weight, 2),
+        "events": cleanups,
+    }
+
+
+@app.get("/api/analytics/detections/{year}")
+async def get_annual_detections(
+    year: int,
+    location: Optional[str] = None,
+    month: Optional[int] = None,
+    water_risk: Optional[str] = None,
+    limit: Optional[int] = Query(None, ge=1, le=50000),
+) -> Dict:
+    """Get annual detections with optional filtering."""
+    detections_file = ANNUAL_DIR / f"detections_{year}.geojson"
+
+    if not detections_file.exists():
+        raise HTTPException(status_code=404, detail=f"Detection data for {year} not found")
+
+    data = load_json(detections_file)
+    features = data.get("features", [])
+
+    # Apply filters
+    if location:
+        features = [f for f in features if location.lower() in f["properties"].get("location", "").lower()]
+
+    if month:
+        features = [f for f in features if f["properties"].get("month") == month]
+
+    if water_risk:
+        features = [f for f in features if f["properties"].get("water_risk_level") == water_risk]
+
+    if limit:
+        features = features[:limit]
+
+    return {
+        "type": "FeatureCollection",
+        "year": year,
+        "features": features,
+        "count": len(features),
+        "filters": {"location": location, "month": month, "water_risk": water_risk},
+    }
+
+
+@app.get("/api/analytics/flights/{year}")
+async def get_annual_flights(year: int) -> Dict:
+    """Get all flights for a year."""
+    flights_file = ANNUAL_DIR / f"flights_{year}.json"
+
+    if not flights_file.exists():
+        raise HTTPException(status_code=404, detail=f"Flight data for {year} not found")
+
+    flights = load_json(flights_file)
+
+    return {
+        "year": year,
+        "total_flights": len(flights),
+        "flights": flights,
+    }
+
+
+# =============================================================================
+# WATER RISK ENDPOINTS
+# =============================================================================
+
+@app.get("/api/water-risk/summary")
+async def get_water_risk_summary(year: int = 2026) -> Dict:
+    """Get water risk summary from annual data."""
+    summary_file = ANNUAL_DIR / f"{year}_summary.json"
+
+    if not summary_file.exists():
+        raise HTTPException(status_code=404, detail=f"Annual data for {year} not found")
+
+    data = load_json(summary_file)
+    water_risk = data.get("water_risk_summary", {})
+
+    return {
+        "year": year,
+        **water_risk,
+        "risk_levels": {
+            "critical": "Within 25m of water body",
+            "high": "25-100m from water body",
+            "medium": "100-500m from water body",
+            "low": "Over 500m from water body",
+        }
+    }
+
+
+@app.get("/api/water-risk/hotspots")
+async def get_water_risk_hotspots(
+    year: int = 2026,
+    risk_level: Optional[str] = None,
+) -> Dict:
+    """Get hotspots filtered by water risk level."""
+    hotspots_file = ANNUAL_DIR / f"hotspots_{year}.json"
+
+    if not hotspots_file.exists():
+        raise HTTPException(status_code=404, detail=f"Hotspot data for {year} not found")
+
+    hotspots = load_json(hotspots_file)
+
+    if risk_level:
+        hotspots = [h for h in hotspots if h.get("water_risk") == risk_level]
+
+    return {
+        "year": year,
+        "risk_level_filter": risk_level,
+        "hotspots": hotspots,
+        "count": len(hotspots),
+    }
+
+
+# =============================================================================
+# REPORT ENDPOINTS - Government-Ready Exports
+# =============================================================================
+
+@app.get("/api/reports/executive-summary/{year}")
+async def get_executive_summary(year: int) -> Dict:
+    """Generate executive summary for government reports."""
+    summary_file = ANNUAL_DIR / f"{year}_summary.json"
+    hotspots_file = ANNUAL_DIR / f"hotspots_{year}.json"
+
+    if not summary_file.exists():
+        raise HTTPException(status_code=404, detail=f"Annual data for {year} not found")
+
+    summary = load_json(summary_file)
+    hotspots = load_json(hotspots_file) if hotspots_file.exists() else []
+
+    # Calculate key metrics
+    water_risk = summary.get("water_risk_summary", {})
+    cleanup = summary.get("cleanup_summary", {})
+    ops = summary.get("operational_metrics", {})
+
+    # Identify top priority hotspots
+    critical_hotspots = sorted(
+        [h for h in hotspots if h.get("water_risk") == "critical"],
+        key=lambda x: -x.get("total_annual_weight_kg", 0)
+    )[:5]
+
+    return {
+        "report_type": "Executive Summary",
+        "year": year,
+        "generated_at": datetime.now().isoformat(),
+
+        "key_findings": {
+            "total_debris_detected_kg": summary.get("total_weight_kg", 0),
+            "total_items_detected": summary.get("total_detections", 0),
+            "critical_water_risk_items": water_risk.get("critical_near_water", 0),
+            "pollution_prevented_kg": water_risk.get("estimated_water_pollution_prevented_kg", 0),
+            "survey_coverage_km2": summary.get("total_area_surveyed_km2", 0),
+        },
+
+        "operational_efficiency": {
+            "total_flights": summary.get("total_flights", 0),
+            "drones_deployed": summary.get("drones_deployed", 0),
+            "cost_per_detection_usd": ops.get("cost_per_detection_usd", 0),
+            "manual_equivalent_cost_usd": ops.get("manual_equivalent_cost_usd", 0),
+            "estimated_savings_pct": round(
+                (1 - ops.get("cost_per_detection_usd", 1) / ops.get("manual_equivalent_cost_usd", 1)) * 100, 1
+            ) if ops.get("manual_equivalent_cost_usd", 0) > 0 else 0,
+        },
+
+        "cleanup_impact": {
+            "total_cleanup_events": cleanup.get("total_cleanup_events", 0),
+            "items_removed": cleanup.get("total_items_removed", 0),
+            "weight_removed_kg": cleanup.get("total_weight_removed_kg", 0),
+            "crew_hours_invested": cleanup.get("total_crew_hours", 0),
+        },
+
+        "priority_hotspots": [
+            {
+                "name": h.get("name"),
+                "location": h.get("location_name"),
+                "water_risk": h.get("water_risk"),
+                "annual_weight_kg": h.get("total_annual_weight_kg"),
+                "trend": h.get("trend"),
+                "recommendation": h.get("recommended_action"),
+            }
+            for h in critical_hotspots
+        ],
+
+        "recommendations": [
+            f"Focus cleanup resources on {len(critical_hotspots)} critical water-risk hotspots",
+            f"Estimated {water_risk.get('estimated_water_pollution_prevented_kg', 0):.1f} kg of pollution prevented from entering waterways",
+            f"Continue weekly surveys at beach locations during summer months",
+            f"Deploy additional signage at high-traffic areas identified in survey",
+        ],
+    }
+
+
+@app.get("/api/reports/export/{year}")
+async def export_annual_data(year: int, format: str = "json") -> Dict:
+    """Export annual data in various formats for external use."""
+    summary_file = ANNUAL_DIR / f"{year}_summary.json"
+    detections_file = ANNUAL_DIR / f"detections_{year}.geojson"
+
+    if not summary_file.exists():
+        raise HTTPException(status_code=404, detail=f"Annual data for {year} not found")
+
+    if format == "json":
+        return load_json(summary_file)
+
+    elif format == "csv":
+        # Return CSV-ready detection data
+        if not detections_file.exists():
+            raise HTTPException(status_code=404, detail="Detection data not found")
+
+        data = load_json(detections_file)
+        rows = []
+
+        for f in data.get("features", []):
+            props = f["properties"]
+            coords = f["geometry"]["coordinates"]
+            rows.append({
+                "id": props.get("id"),
+                "date": props.get("timestamp", "")[:10],
+                "latitude": coords[1],
+                "longitude": coords[0],
+                "category": props.get("category_name"),
+                "weight_kg": props.get("estimated_weight_kg"),
+                "priority": props.get("priority"),
+                "water_risk": props.get("water_risk_level"),
+                "water_proximity_m": props.get("water_proximity_m"),
+                "location": props.get("location"),
+                "drone_id": props.get("drone_id"),
+                "flight_id": props.get("flight_id"),
+            })
+
+        return {"format": "csv", "rows": rows, "count": len(rows)}
+
+    else:
+        raise HTTPException(status_code=400, detail=f"Unsupported format: {format}")
+
+
 @app.get("/api/health")
 async def health_check() -> Dict:
     """Health check endpoint."""
     return {
         "status": "healthy",
         "timestamp": datetime.now().isoformat(),
-        "version": "1.1.0",
+        "version": "1.2.0",
     }
 
 
@@ -1074,7 +1401,7 @@ async def root():
     return {
         "name": "Sylva API",
         "description": "Drone environmental monitoring simulation API",
-        "version": "1.1.0",
+        "version": "1.2.0",
         "docs": "/docs",
         "endpoints": {
             "flights": "/api/flights",
@@ -1084,6 +1411,20 @@ async def root():
             "heatmap": "/api/heatmap",
             "locations": "/api/locations",
             "live_demo": "ws://localhost:8000/ws/live",
+            "analytics": {
+                "annual": "/api/analytics/annual/{year}",
+                "monthly": "/api/analytics/monthly/{year}/{month}",
+                "hotspots": "/api/analytics/hotspots/{year}",
+                "cleanups": "/api/analytics/cleanups/{year}",
+            },
+            "water_risk": {
+                "summary": "/api/water-risk/summary",
+                "hotspots": "/api/water-risk/hotspots",
+            },
+            "reports": {
+                "executive_summary": "/api/reports/executive-summary/{year}",
+                "export": "/api/reports/export/{year}",
+            },
         },
     }
 

@@ -1,0 +1,200 @@
+{
+  "year": 2026,
+  "generated_at": "2025-12-25T20:57:01.070412",
+  "total_flights": 144,
+  "total_detections": 12764,
+  "total_weight_kg": 51315.52,
+  "total_area_surveyed_km2": 110.78,
+  "total_distance_flown_km": 1107.84,
+  "drones_deployed": 5,
+  "drone_fleet": [
+    "SYLVA-1-ALPHA",
+    "SYLVA-1-BRAVO",
+    "SYLVA-1-CHARLIE",
+    "SYLVA-1-DELTA",
+    "SYLVA-1-ECHO"
+  ],
+  "locations_monitored": 3,
+  "by_location": {
+    "stinson_beach": {
+      "total_detections": 4149,
+      "total_weight_kg": 5476.59,
+      "flights_completed": 48,
+      "by_priority": {
+        "critical": 221,
+        "high": 351,
+        "medium": 1794,
+        "low": 1783
+      }
+    },
+    "route_66": {
+      "total_detections": 4322,
+      "total_weight_kg": 26470.62,
+      "flights_completed": 48,
+      "by_priority": {
+        "critical": 842,
+        "high": 437,
+        "medium": 600,
+        "low": 2443
+      }
+    },
+    "nasa_clear_lake": {
+      "total_detections": 4293,
+      "total_weight_kg": 19368.31,
+      "flights_completed": 48,
+      "by_priority": {
+        "critical": 544,
+        "high": 262,
+        "medium": 485,
+        "low": 3002
+      }
+    }
+  },
+  "by_month": {
+    "1": {
+      "detections": 819,
+      "weight_kg": 3130.96,
+      "flights": 12
+    },
+    "2": {
+      "detections": 816,
+      "weight_kg": 3362.69,
+      "flights": 12
+    },
+    "3": {
+      "detections": 981,
+      "weight_kg": 4196.04,
+      "flights": 12
+    },
+    "4": {
+      "detections": 1032,
+      "weight_kg": 4115.15,
+      "flights": 12
+    },
+    "5": {
+      "detections": 1169,
+      "weight_kg": 4754.72,
+      "flights": 12
+    },
+    "6": {
+      "detections": 1313,
+      "weight_kg": 4531.48,
+      "flights": 12
+    },
+    "7": {
+      "detections": 1388,
+      "weight_kg": 5738.85,
+      "flights": 12
+    },
+    "8": {
+      "detections": 1370,
+      "weight_kg": 5432.73,
+      "flights": 12
+    },
+    "9": {
+      "detections": 1085,
+      "weight_kg": 4408.38,
+      "flights": 12
+    },
+    "10": {
+      "detections": 966,
+      "weight_kg": 4009.05,
+      "flights": 12
+    },
+    "11": {
+      "detections": 1010,
+      "weight_kg": 4162.77,
+      "flights": 12
+    },
+    "12": {
+      "detections": 815,
+      "weight_kg": 3472.71,
+      "flights": 12
+    }
+  },
+  "by_category": [
+    {
+      "name": "Plastic Bottles",
+      "count": 2901,
+      "percentage": 22.7,
+      "weight_kg": 86.81,
+      "color": "#3498db"
+    },
+    {
+      "name": "Food Packaging",
+      "count": 2992,
+      "percentage": 23.4,
+      "weight_kg": 179.07,
+      "color": "#e67e22"
+    },
+    {
+      "name": "Tires",
+      "count": 1214,
+      "percentage": 9.5,
+      "weight_kg": 13929.39,
+      "color": "#2c3e50"
+    },
+    {
+      "name": "Metal Debris",
+      "count": 1319,
+      "percentage": 10.3,
+      "weight_kg": 3571.41,
+      "color": "#95a5a6"
+    },
+    {
+      "name": "Construction Waste",
+      "count": 1015,
+      "percentage": 8.0,
+      "weight_kg": 31415.1,
+      "color": "#8e44ad"
+    },
+    {
+      "name": "Organic Waste",
+      "count": 1142,
+      "percentage": 8.9,
+      "weight_kg": 645.73,
+      "color": "#27ae60"
+    },
+    {
+      "name": "Glass",
+      "count": 1253,
+      "percentage": 9.8,
+      "weight_kg": 437.8,
+      "color": "#1abc9c"
+    },
+    {
+      "name": "Textile/Fabric",
+      "count": 928,
+      "percentage": 7.3,
+      "weight_kg": 1050.21,
+      "color": "#e74c3c"
+    }
+  ],
+  "by_priority": {
+    "critical": 1607,
+    "high": 1050,
+    "medium": 2879,
+    "low": 7228
+  },
+  "water_risk_summary": {
+    "critical_near_water": 86,
+    "high_risk_near_water": 831,
+    "critical_weight_kg": 357.1,
+    "items_cleaned": 111,
+    "weight_cleaned_kg": 743.95,
+    "estimated_water_pollution_prevented_kg": 520.76
+  },
+  "cleanup_summary": {
+    "total_cleanup_events": 36,
+    "total_items_removed": 111,
+    "total_weight_removed_kg": 743.95,
+    "total_crew_hours": 1848
+  },
+  "operational_metrics": {
+    "avg_detections_per_flight": 88.6,
+    "avg_weight_per_detection_kg": 4.02,
+    "flight_completion_rate": 1.0,
+    "cost_per_detection_usd": 0.87,
+    "manual_equivalent_cost_usd": 15.5
+  }
+}

@@ -1,0 +1,590 @@
+[
+  {
+    "cleanup_id": "CLN-STI-2026-01",
+    "location": "stinson_beach",
+    "location_name": "Stinson Beach Shoreline, California",
+    "date": "2026-01-23",
+    "month": 1,
+    "items_removed": 3,
+    "weight_removed_kg": 4.5,
+    "target_hotspots": [
+      "Main Beach - Heavy Use",
+      "Easkoot Creek Dumping"
+    ],
+    "crew_size": 10,
+    "hours_worked": 8,
+    "effectiveness_rate": 0.65
+  },
+  {
+    "cleanup_id": "CLN-ROU-2026-01",
+    "location": "route_66",
+    "location_name": "Historic Route 66, Needles CA",
+    "date": "2026-01-21",
+    "month": 1,
+    "items_removed": 0,
+    "weight_removed_kg": 0,
+    "target_hotspots": [
+      "Needles Downtown Exit",
+      "Historic Marker Dumping"
+    ],
+    "crew_size": 6,
+    "hours_worked": 5,
+    "effectiveness_rate": 0.45
+  },
+  {
+    "cleanup_id": "CLN-NAS-2026-01",
+    "location": "nasa_clear_lake",
+    "location_name": "NASA Clear Lake Area, Houston TX",
+    "date": "2026-01-15",
+    "month": 1,
+    "items_removed": 0,
+    "weight_removed_kg": 0,
+    "target_hotspots": [
+      "Clear Lake Park",
+      "Marina Dumping",
+      "Kemah Boardwalk Area"
+    ],
+    "crew_size": 11,
+    "hours_worked": 8,
+    "effectiveness_rate": 0.55
+  },
+  {
+    "cleanup_id": "CLN-STI-2026-02",
+    "location": "stinson_beach",
+    "location_name": "Stinson Beach Shoreline, California",
+    "date": "2026-02-24",
+    "month": 2,
+    "items_removed": 5,
+    "weight_removed_kg": 2.43,
+    "target_hotspots": [
+      "Main Beach - Heavy Use",
+      "Easkoot Creek Dumping"
+    ],
+    "crew_size": 7,
+    "hours_worked": 6,
+    "effectiveness_rate": 0.65
+  },
+  {
+    "cleanup_id": "CLN-ROU-2026-02",
+    "location": "route_66",
+    "location_name": "Historic Route 66, Needles CA",
+    "date": "2026-02-15",
+    "month": 2,
+    "items_removed": 1,
+    "weight_removed_kg": 30.05,
+    "target_hotspots": [
+      "Needles Downtown Exit",
+      "Historic Marker Dumping"
+    ],
+    "crew_size": 6,
+    "hours_worked": 5,
+    "effectiveness_rate": 0.45
+  },
+  {
+    "cleanup_id": "CLN-NAS-2026-02",
+    "location": "nasa_clear_lake",
+    "location_name": "NASA Clear Lake Area, Houston TX",
+    "date": "2026-02-23",
+    "month": 2,
+    "items_removed": 2,
+    "weight_removed_kg": 21.04,
+    "target_hotspots": [
+      "Clear Lake Park",
+      "Marina Dumping",
+      "Kemah Boardwalk Area"
+    ],
+    "crew_size": 11,
+    "hours_worked": 8,
+    "effectiveness_rate": 0.55
+  },
+  {
+    "cleanup_id": "CLN-STI-2026-03",
+    "location": "stinson_beach",
+    "location_name": "Stinson Beach Shoreline, California",
+    "date": "2026-03-27",
+    "month": 3,
+    "items_removed": 11,
+    "weight_removed_kg": 8.43,
+    "target_hotspots": [
+      "Main Beach - Heavy Use",
+      "Easkoot Creek Dumping"
+    ],
+    "crew_size": 8,
+    "hours_worked": 4,
+    "effectiveness_rate": 0.65
+  },
+  {
+    "cleanup_id": "CLN-ROU-2026-03",
+    "location": "route_66",
+    "location_name": "Historic Route 66, Needles CA",
+    "date": "2026-03-20",
+    "month": 3,
+    "items_removed": 0,
+    "weight_removed_kg": 0,
+    "target_hotspots": [
+      "Needles Downtown Exit",
+      "Historic Marker Dumping"
+    ],
+    "crew_size": 12,
+    "hours_worked": 7,
+    "effectiveness_rate": 0.45
+  },
+  {
+    "cleanup_id": "CLN-NAS-2026-03",
+    "location": "nasa_clear_lake",
+    "location_name": "NASA Clear Lake Area, Houston TX",
+    "date": "2026-03-25",
+    "month": 3,
+    "items_removed": 3,
+    "weight_removed_kg": 41.8,
+    "target_hotspots": [
+      "Clear Lake Park",
+      "Marina Dumping",
+      "Kemah Boardwalk Area"
+    ],
+    "crew_size": 11,
+    "hours_worked": 4,
+    "effectiveness_rate": 0.55
+  },
+  {
+    "cleanup_id": "CLN-STI-2026-04",
+    "location": "stinson_beach",
+    "location_name": "Stinson Beach Shoreline, California",
+    "date": "2026-04-27",
+    "month": 4,
+    "items_removed": 9,
+    "weight_removed_kg": 92.46,
+    "target_hotspots": [
+      "Main Beach - Heavy Use",
+      "Easkoot Creek Dumping"
+    ],
+    "crew_size": 12,
+    "hours_worked": 6,
+    "effectiveness_rate": 0.65
+  },
+  {
+    "cleanup_id": "CLN-ROU-2026-04",
+    "location": "route_66",
+    "location_name": "Historic Route 66, Needles CA",
+    "date": "2026-04-16",
+    "month": 4,
+    "items_removed": 0,
+    "weight_removed_kg": 0,
+    "target_hotspots": [
+      "Needles Downtown Exit",
+      "Historic Marker Dumping"
+    ],
+    "crew_size": 9,
+    "hours_worked": 6,
+    "effectiveness_rate": 0.45
+  },
+  {
+    "cleanup_id": "CLN-NAS-2026-04",
+    "location": "nasa_clear_lake",
+    "location_name": "NASA Clear Lake Area, Houston TX",
+    "date": "2026-04-20",
+    "month": 4,
+    "items_removed": 1,
+    "weight_removed_kg": 10.35,
+    "target_hotspots": [
+      "Clear Lake Park",
+      "Marina Dumping",
+      "Kemah Boardwalk Area"
+    ],
+    "crew_size": 10,
+    "hours_worked": 7,
+    "effectiveness_rate": 0.55
+  },
+  {
+    "cleanup_id": "CLN-STI-2026-05",
+    "location": "stinson_beach",
+    "location_name": "Stinson Beach Shoreline, California",
+    "date": "2026-05-19",
+    "month": 5,
+    "items_removed": 9,
+    "weight_removed_kg": 61.12,
+    "target_hotspots": [
+      "Main Beach - Heavy Use",
+      "Easkoot Creek Dumping"
+    ],
+    "crew_size": 6,
+    "hours_worked": 8,
+    "effectiveness_rate": 0.65
+  },
+  {
+    "cleanup_id": "CLN-ROU-2026-05",
+    "location": "route_66",
+    "location_name": "Historic Route 66, Needles CA",
+    "date": "2026-05-16",
+    "month": 5,
+    "items_removed": 0,
+    "weight_removed_kg": 0,
+    "target_hotspots": [
+      "Needles Downtown Exit",
+      "Historic Marker Dumping"
+    ],
+    "crew_size": 6,
+    "hours_worked": 5,
+    "effectiveness_rate": 0.45
+  },
+  {
+    "cleanup_id": "CLN-NAS-2026-05",
+    "location": "nasa_clear_lake",
+    "location_name": "NASA Clear Lake Area, Houston TX",
+    "date": "2026-05-20",
+    "month": 5,
+    "items_removed": 1,
+    "weight_removed_kg": 22.36,
+    "target_hotspots": [
+      "Clear Lake Park",
+      "Marina Dumping",
+      "Kemah Boardwalk Area"
+    ],
+    "crew_size": 4,
+    "hours_worked": 6,
+    "effectiveness_rate": 0.55
+  },
+  {
+    "cleanup_id": "CLN-STI-2026-06",
+    "location": "stinson_beach",
+    "location_name": "Stinson Beach Shoreline, California",
+    "date": "2026-06-27",
+    "month": 6,
+    "items_removed": 5,
+    "weight_removed_kg": 27.31,
+    "target_hotspots": [
+      "Main Beach - Heavy Use",
+      "Easkoot Creek Dumping"
+    ],
+    "crew_size": 8,
+    "hours_worked": 4,
+    "effectiveness_rate": 0.65
+  },
+  {
+    "cleanup_id": "CLN-ROU-2026-06",
+    "location": "route_66",
+    "location_name": "Historic Route 66, Needles CA",
+    "date": "2026-06-23",
+    "month": 6,
+    "items_removed": 0,
+    "weight_removed_kg": 0,
+    "target_hotspots": [
+      "Needles Downtown Exit",
+      "Historic Marker Dumping"
+    ],
+    "crew_size": 7,
+    "hours_worked": 6,
+    "effectiveness_rate": 0.45
+  },
+  {
+    "cleanup_id": "CLN-NAS-2026-06",
+    "location": "nasa_clear_lake",
+    "location_name": "NASA Clear Lake Area, Houston TX",
+    "date": "2026-06-23",
+    "month": 6,
+    "items_removed": 3,
+    "weight_removed_kg": 52.0,
+    "target_hotspots": [
+      "Clear Lake Park",
+      "Marina Dumping",
+      "Kemah Boardwalk Area"
+    ],
+    "crew_size": 8,
+    "hours_worked": 7,
+    "effectiveness_rate": 0.55
+  },
+  {
+    "cleanup_id": "CLN-STI-2026-07",
+    "location": "stinson_beach",
+    "location_name": "Stinson Beach Shoreline, California",
+    "date": "2026-07-28",
+    "month": 7,
+    "items_removed": 6,
+    "weight_removed_kg": 36.49,
+    "target_hotspots": [
+      "Main Beach - Heavy Use",
+      "Easkoot Creek Dumping"
+    ],
+    "crew_size": 6,
+    "hours_worked": 8,
+    "effectiveness_rate": 0.65
+  },
+  {
+    "cleanup_id": "CLN-ROU-2026-07",
+    "location": "route_66",
+    "location_name": "Historic Route 66, Needles CA",
+    "date": "2026-07-18",
+    "month": 7,
+    "items_removed": 2,
+    "weight_removed_kg": 45.69,
+    "target_hotspots": [
+      "Needles Downtown Exit",
+      "Historic Marker Dumping"
+    ],
+    "crew_size": 8,
+    "hours_worked": 5,
+    "effectiveness_rate": 0.45
+  },
+  {
+    "cleanup_id": "CLN-NAS-2026-07",
+    "location": "nasa_clear_lake",
+    "location_name": "NASA Clear Lake Area, Houston TX",
+    "date": "2026-07-26",
+    "month": 7,
+    "items_removed": 3,
+    "weight_removed_kg": 62.87,
+    "target_hotspots": [
+      "Clear Lake Park",
+      "Marina Dumping",
+      "Kemah Boardwalk Area"
+    ],
+    "crew_size": 6,
+    "hours_worked": 6,
+    "effectiveness_rate": 0.55
+  },
+  {
+    "cleanup_id": "CLN-STI-2026-08",
+    "location": "stinson_beach",
+    "location_name": "Stinson Beach Shoreline, California",
+    "date": "2026-08-15",
+    "month": 8,
+    "items_removed": 8,
+    "weight_removed_kg": 15.3,
+    "target_hotspots": [
+      "Main Beach - Heavy Use",
+      "Easkoot Creek Dumping"
+    ],
+    "crew_size": 5,
+    "hours_worked": 7,
+    "effectiveness_rate": 0.65
+  },
+  {
+    "cleanup_id": "CLN-ROU-2026-08",
+    "location": "route_66",
+    "location_name": "Historic Route 66, Needles CA",
+    "date": "2026-08-27",
+    "month": 8,
+    "items_removed": 2,
+    "weight_removed_kg": 44.41,
+    "target_hotspots": [
+      "Needles Downtown Exit",
+      "Historic Marker Dumping"
+    ],
+    "crew_size": 10,
+    "hours_worked": 5,
+    "effectiveness_rate": 0.45
+  },
+  {
+    "cleanup_id": "CLN-NAS-2026-08",
+    "location": "nasa_clear_lake",
+    "location_name": "NASA Clear Lake Area, Houston TX",
+    "date": "2026-08-26",
+    "month": 8,
+    "items_removed": 0,
+    "weight_removed_kg": 0,
+    "target_hotspots": [
+      "Clear Lake Park",
+      "Marina Dumping",
+      "Kemah Boardwalk Area"
+    ],
+    "crew_size": 12,
+    "hours_worked": 8,
+    "effectiveness_rate": 0.55
+  },
+  {
+    "cleanup_id": "CLN-STI-2026-09",
+    "location": "stinson_beach",
+    "location_name": "Stinson Beach Shoreline, California",
+    "date": "2026-09-26",
+    "month": 9,
+    "items_removed": 11,
+    "weight_removed_kg": 29.17,
+    "target_hotspots": [
+      "Main Beach - Heavy Use",
+      "Easkoot Creek Dumping"
+    ],
+    "crew_size": 11,
+    "hours_worked": 5,
+    "effectiveness_rate": 0.65
+  },
+  {
+    "cleanup_id": "CLN-ROU-2026-09",
+    "location": "route_66",
+    "location_name": "Historic Route 66, Needles CA",
+    "date": "2026-09-28",
+    "month": 9,
+    "items_removed": 1,
+    "weight_removed_kg": 12.23,
+    "target_hotspots": [
+      "Needles Downtown Exit",
+      "Historic Marker Dumping"
+    ],
+    "crew_size": 8,
+    "hours_worked": 5,
+    "effectiveness_rate": 0.45
+  },
+  {
+    "cleanup_id": "CLN-NAS-2026-09",
+    "location": "nasa_clear_lake",
+    "location_name": "NASA Clear Lake Area, Houston TX",
+    "date": "2026-09-19",
+    "month": 9,
+    "items_removed": 0,
+    "weight_removed_kg": 0,
+    "target_hotspots": [
+      "Clear Lake Park",
+      "Marina Dumping",
+      "Kemah Boardwalk Area"
+    ],
+    "crew_size": 12,
+    "hours_worked": 5,
+    "effectiveness_rate": 0.55
+  },
+  {
+    "cleanup_id": "CLN-STI-2026-10",
+    "location": "stinson_beach",
+    "location_name": "Stinson Beach Shoreline, California",
+    "date": "2026-10-27",
+    "month": 10,
+    "items_removed": 5,
+    "weight_removed_kg": 9.85,
+    "target_hotspots": [
+      "Main Beach - Heavy Use",
+      "Easkoot Creek Dumping"
+    ],
+    "crew_size": 5,
+    "hours_worked": 8,
+    "effectiveness_rate": 0.65
+  },
+  {
+    "cleanup_id": "CLN-ROU-2026-10",
+    "location": "route_66",
+    "location_name": "Historic Route 66, Needles CA",
+    "date": "2026-10-25",
+    "month": 10,
+    "items_removed": 0,
+    "weight_removed_kg": 0,
+    "target_hotspots": [
+      "Needles Downtown Exit",
+      "Historic Marker Dumping"
+    ],
+    "crew_size": 10,
+    "hours_worked": 8,
+    "effectiveness_rate": 0.45
+  },
+  {
+    "cleanup_id": "CLN-NAS-2026-10",
+    "location": "nasa_clear_lake",
+    "location_name": "NASA Clear Lake Area, Houston TX",
+    "date": "2026-10-18",
+    "month": 10,
+    "items_removed": 1,
+    "weight_removed_kg": 14.04,
+    "target_hotspots": [
+      "Clear Lake Park",
+      "Marina Dumping",
+      "Kemah Boardwalk Area"
+    ],
+    "crew_size": 5,
+    "hours_worked": 6,
+    "effectiveness_rate": 0.55
+  },
+  {
+    "cleanup_id": "CLN-STI-2026-11",
+    "location": "stinson_beach",
+    "location_name": "Stinson Beach Shoreline, California",
+    "date": "2026-11-28",
+    "month": 11,
+    "items_removed": 7,
+    "weight_removed_kg": 7.1,
+    "target_hotspots": [
+      "Main Beach - Heavy Use",
+      "Easkoot Creek Dumping"
+    ],
+    "crew_size": 11,
+    "hours_worked": 7,
+    "effectiveness_rate": 0.65
+  },
+  {
+    "cleanup_id": "CLN-ROU-2026-11",
+    "location": "route_66",
+    "location_name": "Historic Route 66, Needles CA",
+    "date": "2026-11-22",
+    "month": 11,
+    "items_removed": 2,
+    "weight_removed_kg": 12.63,
+    "target_hotspots": [
+      "Needles Downtown Exit",
+      "Historic Marker Dumping"
+    ],
+    "crew_size": 11,
+    "hours_worked": 5,
+    "effectiveness_rate": 0.45
+  },
+  {
+    "cleanup_id": "CLN-NAS-2026-11",
+    "location": "nasa_clear_lake",
+    "location_name": "NASA Clear Lake Area, Houston TX",
+    "date": "2026-11-21",
+    "month": 11,
+    "items_removed": 1,
+    "weight_removed_kg": 23.13,
+    "target_hotspots": [
+      "Clear Lake Park",
+      "Marina Dumping",
+      "Kemah Boardwalk Area"
+    ],
+    "crew_size": 8,
+    "hours_worked": 5,
+    "effectiveness_rate": 0.55
+  },
+  {
+    "cleanup_id": "CLN-STI-2026-12",
+    "location": "stinson_beach",
+    "location_name": "Stinson Beach Shoreline, California",
+    "date": "2026-12-16",
+    "month": 12,
+    "items_removed": 8,
+    "weight_removed_kg": 40.77,
+    "target_hotspots": [
+      "Main Beach - Heavy Use",
+      "Easkoot Creek Dumping"
+    ],
+    "crew_size": 4,
+    "hours_worked": 7,
+    "effectiveness_rate": 0.65
+  },
+  {
+    "cleanup_id": "CLN-ROU-2026-12",
+    "location": "route_66",
+    "location_name": "Historic Route 66, Needles CA",
+    "date": "2026-12-17",
+    "month": 12,
+    "items_removed": 0,
+    "weight_removed_kg": 0,
+    "target_hotspots": [
+      "Needles Downtown Exit",
+      "Historic Marker Dumping"
+    ],
+    "crew_size": 8,
+    "hours_worked": 8,
+    "effectiveness_rate": 0.45
+  },
+  {
+    "cleanup_id": "CLN-NAS-2026-12",
+    "location": "nasa_clear_lake",
+    "location_name": "NASA Clear Lake Area, Houston TX",
+    "date": "2026-12-25",
+    "month": 12,
+    "items_removed": 1,
+    "weight_removed_kg": 16.42,
+    "target_hotspots": [
+      "Clear Lake Park",
+      "Marina Dumping",
+      "Kemah Boardwalk Area"
+    ],
+    "crew_size": 4,
+    "hours_worked": 7,
+    "effectiveness_rate": 0.55
+  }
+]

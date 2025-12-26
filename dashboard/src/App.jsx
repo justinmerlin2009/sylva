@@ -6,6 +6,7 @@ import Sidebar from './components/Sidebar'
 import LiveDemo from './components/LiveDemo'
 import DetectionPanel from './components/DetectionPanel'
 import PathDrawer from './components/PathDrawer'
+import AnnualData from './components/AnnualData'
 
 const API_BASE = 'https://sylva-api.onrender.com/api'
 const WS_BASE = 'wss://sylva-api.onrender.com'
@@ -54,6 +55,9 @@ function App() {
   const [selectedCustomPath, setSelectedCustomPath] = useState(null)
   const [customPathFlight, setCustomPathFlight] = useState(null)
   const [customPathDetections, setCustomPathDetections] = useState(null)
+
+  // Annual data panel state
+  const [showAnnualData, setShowAnnualData] = useState(false)
 
   const wsRef = useRef(null)
 
@@ -523,7 +527,8 @@ function App() {
     )
   }
 
-  const displayDetections = demoActive ? demoDetections : detections
+  // Only show detections during or after a demo has run (demoDetections populated)
+  const displayDetections = demoDetections.length > 0 ? demoDetections : (demoActive ? [] : [])
 
   // Generate progressive heatmap from demo detections (only shows scanned areas)
   const generateProgressiveHeatmap = (demoDetections) => {
@@ -596,6 +601,13 @@ function App() {
           </Link>
           <div className="header-controls">
             <button
+              className="map-toggle-btn"
+              onClick={() => setShowAnnualData(true)}
+              style={{ background: 'linear-gradient(135deg, #2563eb, #7c3aed)', color: 'white', border: 'none' }}
+            >
+              Annual Data 2026
+            </button>
+            <button
               className={`map-toggle-btn ${satelliteView ? 'active' : ''}`}
               onClick={() => setSatelliteView(!satelliteView)}
             >
@@ -664,6 +676,12 @@ function App() {
           </div>
         </div>
       </div>
+
+      {/* Annual Data Panel */}
+      <AnnualData
+        isOpen={showAnnualData}
+        onClose={() => setShowAnnualData(false)}
+      />
     </div>
   )
 }

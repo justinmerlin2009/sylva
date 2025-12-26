@@ -1,0 +1,47 @@
+{
+  "month": 9,
+  "month_name": "September 2026",
+  "flights_completed": 12,
+  "total_detections": 1085,
+  "total_weight_kg": 4408.38,
+  "comparison_to_previous": {
+    "detection_change_pct": -20.8,
+    "previous_month_detections": 1370
+  },
+  "top_categories": [
+    {
+      "category": "food_packaging",
+      "name": "Food Packaging",
+      "count": 255
+    },
+    {
+      "category": "plastic_bottle",
+      "name": "Plastic Bottles",
+      "count": 244
+    },
+    {
+      "category": "metal_debris",
+      "name": "Metal Debris",
+      "count": 116
+    },
+    {
+      "category": "glass",
+      "name": "Glass",
+      "count": 110
+    },
+    {
+      "category": "tire",
+      "name": "Tires",
+      "count": 96
+    }
+  ],
+  "water_risk_detections": 6,
+  "cleanup_events": 3,
+  "items_cleaned": 12,
+  "by_priority": {
+    "critical": 146,
+    "high": 87,
+    "medium": 221,
+    "low": 631
+  }
+}
