@@ -32,6 +32,7 @@ function App() {
   const [showPopulationDensity, setShowPopulationDensity] = useState(false)
   const [populationDensityData, setPopulationDensityData] = useState([])
   const [geographyData, setGeographyData] = useState(null)
+  const [showGeography, setShowGeography] = useState(true)
 
   // Live demo state
   const [demoActive, setDemoActive] = useState(false)
@@ -585,6 +586,8 @@ function App() {
         showPopulationDensity={showPopulationDensity}
         onTogglePopulationDensity={() => setShowPopulationDensity(!showPopulationDensity)}
         populationDensity={locations.find(l => l.id === selectedLocation)?.population_density || 0}
+        showGeography={showGeography}
+        onToggleGeography={() => setShowGeography(!showGeography)}
       >
         <LiveDemo
           locations={locations}
@@ -643,7 +646,7 @@ function App() {
             customPathFlight={customPathFlight}
             customPathDetections={customPathDetections}
             // Geography data
-            geographyData={geographyData}
+            geographyData={showGeography ? geographyData : null}
           />
 
           {/* CV Detection Panel - shows during demo */}

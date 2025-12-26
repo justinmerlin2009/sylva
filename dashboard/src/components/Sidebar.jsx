@@ -20,6 +20,8 @@ function Sidebar({
   showPopulationDensity,
   onTogglePopulationDensity,
   populationDensity,
+  showGeography,
+  onToggleGeography,
   children,
 }) {
   const priorities = ['critical', 'high', 'medium', 'low']
@@ -137,6 +139,17 @@ function Sidebar({
               <span className="density-label">people/km²</span>
             </div>
           )}
+          <div className="toggle-section">
+            <span className="toggle-label">Geography (Water, Roads)</span>
+            <label className="toggle-switch">
+              <input
+                type="checkbox"
+                checked={showGeography}
+                onChange={onToggleGeography}
+              />
+              <span className="toggle-slider"></span>
+            </label>
+          </div>
         </div>
 
         {/* Priority Filter */}
