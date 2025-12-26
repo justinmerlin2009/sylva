@@ -401,8 +401,12 @@ class TrashDetector:
         """
         detections = []
 
-        # Target: 75-95 detections total (20% increase for better coverage)
-        target_detections = random.randint(75, 95)
+        # Target detections based on environment type
+        # NASA Space Center (urban_waterfront) gets 20% more detections
+        if self.env_type == "urban_waterfront":
+            target_detections = random.randint(90, 115)  # 20% more for NASA
+        else:
+            target_detections = random.randint(75, 95)
 
         # Calculate total path length and spacing
         total_waypoints = len(waypoints)

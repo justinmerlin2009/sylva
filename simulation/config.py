@@ -119,17 +119,17 @@ TRASH_CATEGORIES = {
         "icon": "bottle",
         "beach_probability": 0.25,
         "highway_probability": 0.15,
-        "urban_waterfront_probability": 0.22,
+        "urban_waterfront_probability": 0.25,  # increased for NASA
     },
     "food_packaging": {
-        "name": "Food Packaging",
+        "name": "Food Packaging/Cardboard",
         "avg_size_m2": 0.01,
         "weight_range_kg": (0.02, 0.1),
         "color": "#e67e22",
         "icon": "package",
         "beach_probability": 0.20,
         "highway_probability": 0.20,
-        "urban_waterfront_probability": 0.25,
+        "urban_waterfront_probability": 0.18,
     },
     "tire": {
         "name": "Tires",
@@ -139,7 +139,7 @@ TRASH_CATEGORIES = {
         "icon": "tire",
         "beach_probability": 0.02,
         "highway_probability": 0.15,
-        "urban_waterfront_probability": 0.08,
+        "urban_waterfront_probability": 0.12,  # increased for NASA - hazardous
     },
     "metal_debris": {
         "name": "Metal Debris",
@@ -149,7 +149,7 @@ TRASH_CATEGORIES = {
         "icon": "metal",
         "beach_probability": 0.05,
         "highway_probability": 0.18,
-        "urban_waterfront_probability": 0.12,
+        "urban_waterfront_probability": 0.15,  # increased for NASA - hazardous
     },
     "construction_waste": {
         "name": "Construction Waste",
@@ -159,7 +159,7 @@ TRASH_CATEGORIES = {
         "icon": "construction",
         "beach_probability": 0.03,
         "highway_probability": 0.12,
-        "urban_waterfront_probability": 0.10,
+        "urban_waterfront_probability": 0.15,  # increased for NASA - cardboard/debris
     },
     "organic_waste": {
         "name": "Organic Waste",
@@ -169,7 +169,7 @@ TRASH_CATEGORIES = {
         "icon": "leaf",
         "beach_probability": 0.15,
         "highway_probability": 0.08,
-        "urban_waterfront_probability": 0.08,
+        "urban_waterfront_probability": 0.05,  # reduced
     },
     "glass": {
         "name": "Glass",
@@ -179,7 +179,7 @@ TRASH_CATEGORIES = {
         "icon": "glass",
         "beach_probability": 0.18,
         "highway_probability": 0.07,
-        "urban_waterfront_probability": 0.10,
+        "urban_waterfront_probability": 0.05,  # reduced
     },
     "textile": {
         "name": "Textile/Fabric",
@@ -201,7 +201,7 @@ DETECTION_PARAMS = {
     "base_detection_rate_per_km2": {
         "beach": 400,  # items per km² - higher for realistic beach survey
         "highway": 80,  # items per km²
-        "urban_waterfront": 350,  # items per km² - urban area near water
+        "urban_waterfront": 420,  # items per km² - 20% increase for NASA Space Center
     },
     "hotspot_multiplier": 3.0,  # multiplier for high-density areas
     "rest_stop_multiplier": 2.5,
