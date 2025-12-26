@@ -189,12 +189,26 @@ function Home() {
         <section id="collab" className="content-section collab-section">
           <h2 className="section-title">Collaborations</h2>
           <div className="collab-grid">
-            <div className="collab-card">
-              <div className="collab-logo">[Logo]</div>
-              <h3>[Partner/Collaborator Name]</h3>
-              <p className="collab-role">[Organization/Role]</p>
-              <p className="collab-desc">[Description of collaboration]</p>
-            </div>
+            <a href="https://cleanca.com" target="_blank" rel="noopener noreferrer" className="collab-card">
+              <img src="/logos/Caltrans.png" alt="Clean California" className="collab-logo-img" />
+              <h3>Jeff Burdick</h3>
+              <p className="collab-role">Cal Transportation / Clean California</p>
+            </a>
+            <a href="https://www.fire.ca.gov" target="_blank" rel="noopener noreferrer" className="collab-card">
+              <img src="/logos/Logo_of_CAL_FIRE.png" alt="CAL FIRE" className="collab-logo-img" />
+              <h3>David Passovoy</h3>
+              <p className="collab-role">CAL FIRE</p>
+            </a>
+            <a href="https://www.researchgate.net/profile/Shu-Li-50" target="_blank" rel="noopener noreferrer" className="collab-card">
+              <img src="/logos/UC_Irvine_Anteaters_logo.png" alt="UC Irvine" className="collab-logo-img" />
+              <h3>Shu Li</h3>
+              <p className="collab-role">UC Irvine Environmental Science</p>
+            </a>
+            <a href="https://seneca.com" target="_blank" rel="noopener noreferrer" className="collab-card">
+              <img src="/logos/Seneca.png" alt="Seneca" className="collab-logo-img" />
+              <h3>Ethan Swergold</h3>
+              <p className="collab-role">Conrad Mentor, Seneca</p>
+            </a>
           </div>
         </section>
       </main>

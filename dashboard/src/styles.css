@@ -1861,17 +1861,26 @@ body {
 /* Collaborations Section */
 .collab-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(4, 1fr);
   gap: 32px;
   margin-top: 48px;
 }
 
 .collab-card {
+  display: block;
   background: rgba(255, 255, 255, 0.05);
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 16px;
-  padding: 40px;
+  padding: 40px 24px;
   text-align: center;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.collab-card:hover {
+  background: rgba(255, 255, 255, 0.08);
+  transform: translateY(-4px);
+  border-color: rgba(59, 130, 246, 0.3);
 }
 
 .collab-logo {
@@ -1887,8 +1896,23 @@ body {
   font-size: 14px;
 }
 
+.collab-logo-img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  margin: 0 auto 24px;
+  background: white;
+  border-radius: 12px;
+  padding: 12px;
+  transition: transform 0.3s ease;
+}
+
+.collab-card:hover .collab-logo-img {
+  transform: scale(1.05);
+}
+
 .collab-card h3 {
-  font-size: 22px;
+  font-size: 20px;
   margin-bottom: 8px;
   color: white;
 }
@@ -1896,7 +1920,7 @@ body {
 .collab-role {
   font-size: 14px;
   color: #3b82f6;
-  margin-bottom: 16px;
+  margin-bottom: 0;
 }
 
 .collab-desc {
@@ -1914,7 +1938,8 @@ body {
 
 /* Home page responsive - medium screens */
 @media (max-width: 1024px) {
-  .team-grid {
+  .team-grid,
+  .collab-grid {
     grid-template-columns: repeat(2, 1fr);
   }
 }
@@ -1956,7 +1981,8 @@ body {
   .features-section,
   .api-features,
   .team-grid,
-  .future-grid {
+  .future-grid,
+  .collab-grid {
     grid-template-columns: 1fr;
   }
 
