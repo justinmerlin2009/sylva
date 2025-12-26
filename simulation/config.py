@@ -29,95 +29,78 @@ LOCATIONS = {
     "stinson_beach": {
         "name": "Stinson Beach Shoreline, California",
         "type": "beach",
-        "center": {"lat": 37.8965, "lon": -122.6400},
-        # Flight path follows the ENTIRE shoreline from Seadrift to Bolinas (~4 miles)
+        "center": {"lat": 37.900, "lon": -122.645},
+        # Flight path follows the shoreline from north to south
         "waypoints": [
-            # Northern section - Seadrift
-            {"lat": 37.9100, "lon": -122.6520, "name": "Seadrift Beach Start"},
-            {"lat": 37.9070, "lon": -122.6500, "name": "Seadrift South"},
-            {"lat": 37.9045, "lon": -122.6485, "name": "North Stinson"},
-            # Main Stinson Beach shoreline
-            {"lat": 37.9015, "lon": -122.6460, "name": "Stinson North Beach"},
-            {"lat": 37.9000, "lon": -122.6445, "name": "Stinson Beach Center"},
-            {"lat": 37.8975, "lon": -122.6420, "name": "Lifeguard Station"},
-            {"lat": 37.8950, "lon": -122.6400, "name": "Central Beach"},
-            {"lat": 37.8920, "lon": -122.6380, "name": "South Stinson"},
-            # Southern section - toward Bolinas
-            {"lat": 37.8895, "lon": -122.6360, "name": "Easkoot Creek"},
-            {"lat": 37.8870, "lon": -122.6340, "name": "Willow Camp"},
-            {"lat": 37.8845, "lon": -122.6310, "name": "Rocky Point"},
-            {"lat": 37.8830, "lon": -122.6295, "name": "Bolinas Approach"},
+            {"lat": 37.915, "lon": -122.655, "name": "North Stinson Beach"},
+            {"lat": 37.910, "lon": -122.650, "name": "Stinson North"},
+            {"lat": 37.904, "lon": -122.646, "name": "Lifeguard Station"},
+            {"lat": 37.898, "lon": -122.644, "name": "Stinson Beach Center"},
+            {"lat": 37.892, "lon": -122.645, "name": "South Stinson"},
+            {"lat": 37.886, "lon": -122.650, "name": "Rocky Point"},
+            {"lat": 37.880, "lon": -122.656, "name": "South Beach - Bolinas"},
         ],
-        "survey_altitude_m": 80,  # Lower for better beach detection
-        "survey_speed_ms": 20,  # ~45 mph for detailed beach scanning
+        "survey_altitude_m": 80,
+        "survey_speed_ms": 20,
         "flight_pattern": "shoreline",
-        "corridor_width_m": 100,  # Full beach width
-        "population_density": 450,  # people per km² - rural beach area
+        "corridor_width_m": 100,
+        "population_density": 450,
     },
     "route_66": {
-        "name": "Historic Route 66, Needles to Topock",
+        "name": "Historic Route 66, Needles CA",
         "type": "highway",
-        # 14-mile section (~22km) along historic Route 66 from Needles, CA to Topock, AZ
+        "center": {"lat": 34.850, "lon": -114.585},
+        # Flight path follows Historic Route 66 highway
         "waypoints": [
-            {"lat": 34.8450, "lon": -114.6200, "name": "Needles, CA"},
-            {"lat": 34.8500, "lon": -114.6100, "name": "East Needles"},
-            {"lat": 34.8540, "lon": -114.5950, "name": "Desert View"},
-            {"lat": 34.8580, "lon": -114.5750, "name": "Route 66 Sign"},
-            {"lat": 34.8625, "lon": -114.5600, "name": "Midpoint Vista"},
-            {"lat": 34.8650, "lon": -114.5550, "name": "Route 66 Midpoint"},
-            {"lat": 34.8694, "lon": -114.5289, "name": "Historic Marker"},
-            {"lat": 34.8770, "lon": -114.5000, "name": "Colorado River Approach"},
-            {"lat": 34.8820, "lon": -114.4800, "name": "River View"},
-            {"lat": 34.8855, "lon": -114.4400, "name": "Topock, AZ Border"},
+            {"lat": 34.843, "lon": -114.630, "name": "Needles, CA - Start"},
+            {"lat": 34.848, "lon": -114.610, "name": "East Needles"},
+            {"lat": 34.853, "lon": -114.585, "name": "Route 66 Midpoint"},
+            {"lat": 34.858, "lon": -114.560, "name": "Desert View"},
+            {"lat": 34.862, "lon": -114.540, "name": "East End"},
         ],
         "survey_altitude_m": 100,
-        "survey_speed_ms": 28,  # ~63 mph cruise along highway
+        "survey_speed_ms": 28,
         "flight_pattern": "highway",
-        "corridor_width_m": 40,  # Highway shoulder scan
-        "population_density": 85,  # people per km² - desert highway
+        "corridor_width_m": 40,
+        "population_density": 85,
     },
     "nasa_clear_lake": {
         "name": "NASA Clear Lake Area, Houston TX",
         "type": "urban_waterfront",
-        "center": {"lat": 29.5400, "lon": -95.0700},
-        # 350-mile concentric circle survey around Clear Lake
+        "center": {"lat": 29.540, "lon": -95.080},
+        # Concentric circles around Clear Lake
         "waypoints": [
-            # Expanding concentric circles - 7 rings totaling 350 miles
-            {"lat": 29.5580, "lon": -95.0700, "name": "Clear Lake Center - Start"},
-            {"lat": 29.5625, "lon": -95.0700, "name": "Circle 1 Complete"},
-            {"lat": 29.5670, "lon": -95.0700, "name": "Circle 2 Complete"},
-            {"lat": 29.5760, "lon": -95.0700, "name": "Circle 3 Complete"},
-            {"lat": 29.5830, "lon": -95.0700, "name": "Circle 4 Complete"},
-            {"lat": 29.5940, "lon": -95.0700, "name": "Circle 5 Complete"},
-            {"lat": 29.6080, "lon": -95.0700, "name": "Circle 6 Complete"},
-            {"lat": 29.6300, "lon": -95.0700, "name": "Circle 7 - 350 Miles Complete"},
+            {"lat": 29.540, "lon": -95.080, "name": "Clear Lake Center"},
+            {"lat": 29.545, "lon": -95.080, "name": "Circle 1"},
+            {"lat": 29.548, "lon": -95.080, "name": "Circle 2 Complete"},
+            {"lat": 29.552, "lon": -95.080, "name": "Circle 3 Complete"},
+            {"lat": 29.560, "lon": -95.080, "name": "Circle 4 Complete"},
         ],
         "survey_altitude_m": 120,
-        "survey_speed_ms": 22,  # ~50 mph for urban waterfront
+        "survey_speed_ms": 22,
         "flight_pattern": "concentric_circles",
-        "corridor_width_m": 150,  # Wide scan for concentric pattern
-        "population_density": 1850,  # people per km² - suburban Houston
-        "total_distance_miles": 350,
+        "corridor_width_m": 150,
+        "population_density": 1850,
     },
 }
 
 # Population density zones for overlay visualization
 POPULATION_DENSITY_ZONES = {
     "stinson_beach": [
-        {"lat": 37.8990, "lon": -122.6435, "radius_m": 500, "density": 1200, "name": "Main Beach Area"},
-        {"lat": 37.9060, "lon": -122.6495, "radius_m": 400, "density": 800, "name": "Seadrift Residential"},
-        {"lat": 37.8865, "lon": -122.6330, "radius_m": 300, "density": 200, "name": "South Rural"},
+        {"lat": 37.900, "lon": -122.645, "radius_m": 500, "density": 1200, "name": "Main Beach Area"},
+        {"lat": 37.910, "lon": -122.650, "radius_m": 400, "density": 800, "name": "North Stinson"},
+        {"lat": 37.885, "lon": -122.655, "radius_m": 300, "density": 200, "name": "South Rural"},
     ],
     "route_66": [
-        {"lat": 34.8480, "lon": -114.6147, "radius_m": 1000, "density": 350, "name": "Needles Town"},
-        {"lat": 34.8694, "lon": -114.5289, "radius_m": 500, "density": 50, "name": "Border Area"},
-        {"lat": 34.8820, "lon": -114.4800, "radius_m": 300, "density": 20, "name": "Desert"},
+        {"lat": 34.848, "lon": -114.615, "radius_m": 1000, "density": 350, "name": "Needles Town"},
+        {"lat": 34.855, "lon": -114.575, "radius_m": 500, "density": 50, "name": "Desert Highway"},
+        {"lat": 34.860, "lon": -114.550, "radius_m": 300, "density": 20, "name": "East Desert"},
     ],
     "nasa_clear_lake": [
-        {"lat": 29.5519, "lon": -95.0920, "radius_m": 800, "density": 2500, "name": "NASA Complex"},
-        {"lat": 29.5400, "lon": -95.0780, "radius_m": 600, "density": 3200, "name": "Clear Lake City"},
-        {"lat": 29.5300, "lon": -95.0650, "radius_m": 500, "density": 2800, "name": "Seabrook"},
-        {"lat": 29.5250, "lon": -95.0520, "radius_m": 700, "density": 1500, "name": "Kemah"},
+        {"lat": 29.555, "lon": -95.095, "radius_m": 800, "density": 2500, "name": "NASA Complex"},
+        {"lat": 29.540, "lon": -95.080, "radius_m": 600, "density": 3200, "name": "Clear Lake City"},
+        {"lat": 29.530, "lon": -95.060, "radius_m": 500, "density": 2800, "name": "Seabrook"},
+        {"lat": 29.520, "lon": -95.050, "radius_m": 700, "density": 1500, "name": "Kemah"},
     ],
 }
 
