@@ -484,8 +484,14 @@ function App() {
     if (demoActive && dronePosition) {
       return [dronePosition.lat, dronePosition.lon]
     }
+    // When drawing, center on last drawn point
+    if (isDrawing && drawnPoints.length > 0) {
+      const lastPoint = drawnPoints[drawnPoints.length - 1]
+      return [lastPoint.lat, lastPoint.lon]
+    }
     if (selectedLocation === 'all') {
-      return [36.5, -118.5]
+      // Default to Stinson Beach for a good starting view
+      return [37.8988, -122.6422]
     }
     const loc = locations.find(l => l.id === selectedLocation)
     if (loc && loc.center) {
@@ -503,11 +509,15 @@ function App() {
       if (loc?.id === 'nasa_clear_lake') return 16
       return 16
     }
+    // When drawing, keep a good zoom level for precision
+    if (isDrawing) {
+      return 14
+    }
     if (selectedLocation === 'all') {
-      return 6
+      return 13  // Reasonable zoom to see the area
     }
     return selectedLocation === 'stinson_beach' ? 14 :
-           selectedLocation === 'nasa_clear_lake' ? 13 : 11
+           selectedLocation === 'nasa_clear_lake' ? 13 : 12
   }
 
   if (loading) {

@@ -446,11 +446,12 @@ function Map({
     >
       <MapController center={mapCenter} zoom={mapZoom} followDrone={followDrone} smoothFollow={smoothFollow} />
 
-      {/* Base map layer - OpenStreetMap */}
+      {/* Base map layer - CartoDB Voyager (detailed with roads, water, labels) */}
       {!satelliteView && (
         <TileLayer
-          attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-          url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+          attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>'
+          url="https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png"
+          subdomains="abcd"
         />
       )}
 
@@ -462,7 +463,16 @@ function Map({
         />
       )}
 
-      {/* Labels overlay for satellite view */}
+      {/* Roads and labels overlay for satellite view */}
+      {satelliteView && (
+        <TileLayer
+          attribution=''
+          url="https://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Transportation/MapServer/tile/{z}/{y}/{x}"
+          opacity={0.7}
+        />
+      )}
+
+      {/* Place names overlay for satellite view */}
       {satelliteView && (
         <TileLayer
           attribution=''

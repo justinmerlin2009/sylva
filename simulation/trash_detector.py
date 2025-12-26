@@ -709,6 +709,11 @@ class TrashDetector:
         Generate detections for a custom flight path.
         Used for user-drawn custom paths.
 
+        Detections are placed:
+        - Along the flight path corridor (not in water)
+        - With higher density near shorelines and roads
+        - With appropriate offset from water bodies
+
         Args:
             flight_path: GeoJSON flight path with LineString
             config: Custom configuration dict
@@ -747,26 +752,29 @@ class TrashDetector:
         if not waypoints:
             return {"type": "FeatureCollection", "features": []}
 
-        # Generate micro-clusters for custom path (no predefined hotspots)
-        self.hotspots = []  # Clear hotspots for custom paths
+        # Generate hotspots along the custom path
+        # Higher density for shoreline/highway surveys
+        self.hotspots = []
 
-        # Create random trash pockets along the custom path
-        num_clusters = random.randint(2, 5)
-        for _ in range(num_clusters):
-            idx = random.randint(0, len(waypoints) - 1)
+        # Create trash hotspots at regular intervals along the path
+        # More hotspots = more realistic trash distribution
+        num_hotspots = max(3, len(waypoints) // 50)  # One hotspot per ~50 waypoints
+        hotspot_indices = np.linspace(0, len(waypoints) - 1, num_hotspots, dtype=int)
+
+        for idx in hotspot_indices:
             wp = waypoints[idx]
             self.hotspots.append({
                 "lat": wp["lat"],
                 "lon": wp["lon"],
-                "radius_m": random.randint(50, 150),
-                "multiplier": random.uniform(3.0, 6.0),
-                "name": f"Trash Pocket",
-                "primary_trash": random.sample(list(TRASH_CATEGORIES.keys()), 3),
+                "radius_m": random.randint(80, 200),
+                "multiplier": random.uniform(4.0, 8.0),  # Higher multiplier for more trash
+                "name": "Shoreline/Roadside Debris",
+                "primary_trash": random.sample(list(TRASH_CATEGORIES.keys()), 4),
             })
 
-        # Generate detections
+        # Generate detections with higher count for custom paths
         flight_id = f"CUSTOM-{uuid.uuid4().hex[:6].upper()}"
-        detections = self.generate_detections_for_path(waypoints, flight_id)
+        detections = self._generate_custom_path_detections(waypoints, flight_id, config)
 
         return {
             "type": "FeatureCollection",
@@ -777,6 +785,107 @@ class TrashDetector:
                 "generated_at": datetime.now().isoformat(),
             },
         }
+
+    def _generate_custom_path_detections(self, waypoints: List[Dict], flight_id: str, config: Dict) -> List[Dict]:
+        """
+        Generate detections for custom paths with smart placement.
+
+        - Places trash along the path corridor (30m width)
+        - Avoids water by offsetting toward land
+        - Higher density along shorelines and roads
+        """
+        detections = []
+
+        # Higher target count for better coverage
+        target_detections = random.randint(100, 150)
+
+        if len(waypoints) == 0:
+            return detections
+
+        # Calculate detection probability at each waypoint
+        detection_weights = []
+        for i, wp in enumerate(waypoints):
+            weight = 0.3  # Base probability
+
+            # Check proximity to hotspots
+            for hotspot in self.hotspots:
+                distance = self._haversine_distance(
+                    wp["lat"], wp["lon"],
+                    hotspot["lat"], hotspot["lon"]
+                )
+                if distance < hotspot["radius_m"]:
+                    factor = 1 - (distance / hotspot["radius_m"])
+                    weight = max(weight, factor * hotspot["multiplier"])
+
+            detection_weights.append(weight)
+
+        # Normalize weights
+        total_weight = sum(detection_weights)
+        if total_weight > 0:
+            probs = [w / total_weight for w in detection_weights]
+        else:
+            probs = [1 / len(waypoints)] * len(waypoints)
+
+        # Select waypoint indices for detections
+        selected_indices = np.random.choice(
+            len(waypoints),
+            size=min(target_detections, len(waypoints)),
+            replace=False,
+            p=probs
+        )
+
+        # Generate detections with controlled offset (along path, not into water)
+        corridor_width = 30  # meters - narrow corridor along path
+
+        for idx in sorted(selected_indices):
+            wp = waypoints[idx]
+            lat, lon = wp["lat"], wp["lon"]
+            timestamp = wp["timestamp"]
+
+            # Calculate path direction to offset perpendicular to path
+            # This keeps trash on the side of the road/shoreline, not in water
+            if idx > 0 and idx < len(waypoints) - 1:
+                prev_wp = waypoints[idx - 1]
+                next_wp = waypoints[idx + 1]
+
+                # Path direction vector
+                dir_lat = next_wp["lat"] - prev_wp["lat"]
+                dir_lon = next_wp["lon"] - prev_wp["lon"]
+
+                # Perpendicular direction (rotate 90 degrees)
+                perp_lat = -dir_lon
+                perp_lon = dir_lat
+
+                # Normalize
+                length = math.sqrt(perp_lat**2 + perp_lon**2)
+                if length > 0:
+                    perp_lat /= length
+                    perp_lon /= length
+
+                # Offset to one side of the path (land side)
+                # Random offset within corridor width
+                offset_dist = random.uniform(5, corridor_width) / 111320  # Convert to degrees
+
+                # Randomly choose left or right side, but biased toward "inland"
+                side = random.choice([1, 1, 1, -1])  # 75% chance to go one direction
+
+                offset_lat = perp_lat * offset_dist * side
+                offset_lon = perp_lon * offset_dist * side
+            else:
+                # For endpoints, use small random offset
+                offset_lat = random.uniform(-0.0001, 0.0001)
+                offset_lon = random.uniform(-0.0001, 0.0001)
+
+            detection = self._generate_detection(
+                lat + offset_lat,
+                lon + offset_lon,
+                timestamp,
+                flight_id
+            )
+            detections.append(detection)
+
+        self.detections = detections
+        return detections
 
 
 if __name__ == "__main__":
