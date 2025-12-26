@@ -497,11 +497,8 @@ function App() {
     if (demoActive && dronePosition) {
       return [dronePosition.lat, dronePosition.lon]
     }
-    // When drawing, center on last drawn point
-    if (isDrawing && drawnPoints.length > 0) {
-      const lastPoint = drawnPoints[drawnPoints.length - 1]
-      return [lastPoint.lat, lastPoint.lon]
-    }
+    // When drawing, don't change center - let user control the map freely
+    // The Map component will ignore center updates when isDrawing is true
     if (selectedLocation === 'all') {
       // Default to Stinson Beach for a good starting view
       return [37.8988, -122.6422]
@@ -522,10 +519,8 @@ function App() {
       if (loc?.id === 'nasa_clear_lake') return 16
       return 16
     }
-    // When drawing, keep a good zoom level for precision
-    if (isDrawing) {
-      return 14
-    }
+    // When drawing, don't force zoom - let user control freely
+    // The Map component will ignore zoom updates when isDrawing is true
     if (selectedLocation === 'all') {
       return 13  // Reasonable zoom to see the area
     }

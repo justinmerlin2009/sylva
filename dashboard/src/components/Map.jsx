@@ -123,10 +123,15 @@ function HeatmapLayer({ data }) {
 }
 
 // Map view controller with smooth animation
-function MapController({ center, zoom, followDrone, smoothFollow }) {
+function MapController({ center, zoom, followDrone, smoothFollow, disableAutoUpdate }) {
   const map = useMap()
 
   useEffect(() => {
+    // Don't auto-update view when user is drawing custom paths
+    if (disableAutoUpdate) {
+      return
+    }
+
     if (smoothFollow) {
       // Smooth pan to keep drone in view without constant zooming
       map.panTo(center, { animate: true, duration: 0.3 })
@@ -135,7 +140,7 @@ function MapController({ center, zoom, followDrone, smoothFollow }) {
     } else {
       map.setView(center, zoom)
     }
-  }, [map, center, zoom, followDrone, smoothFollow])
+  }, [map, center, zoom, followDrone, smoothFollow, disableAutoUpdate])
 
   return null
 }
@@ -542,7 +547,7 @@ function Map({
       style={{ height: '100%', width: '100%' }}
       zoomControl={true}
     >
-      <MapController center={mapCenter} zoom={mapZoom} followDrone={followDrone} smoothFollow={smoothFollow} />
+      <MapController center={mapCenter} zoom={mapZoom} followDrone={followDrone} smoothFollow={smoothFollow} disableAutoUpdate={isDrawing} />
 
       {/* Base map layer - CartoDB Voyager (detailed with roads, water, labels) */}
       {!satelliteView && (
