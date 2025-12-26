@@ -391,9 +391,17 @@ function App() {
   }
 
   const handleRunCustomDemo = (pathId) => {
+    // Stop any existing demo first
+    if (wsRef.current) {
+      wsRef.current.close()
+    }
+
     // Start live demo for custom path
     const path = customPaths.find(p => p.id === pathId)
-    if (!path) return
+    if (!path) {
+      console.error('Path not found:', pathId)
+      return
+    }
 
     // Load path details first
     handleSelectCustomPath(path)
@@ -413,24 +421,35 @@ function App() {
       ws.send(JSON.stringify({
         command: 'start',
         custom_path_id: pathId,
-        speed: speedMultiplier,
+        speed: 1.0,  // Default speed
       }))
     }
 
     ws.onmessage = (event) => {
       const data = JSON.parse(event.data)
 
-      if (data.type === 'frame') {
-        setDronePosition(data.position)
-        setDemoProgress(data.progress)
-        setDroneAltitude(data.altitude)
+      if (data.type === 'error') {
+        console.error('Demo error:', data.message)
+        alert(`Error: ${data.message}`)
+        setDemoActive(false)
+        return
+      }
+
+      if (data.type === 'demo_start') {
+        console.log('Custom demo started:', data.location)
+        setDroneAltitude(data.altitude || 120)
+      } else if (data.type === 'frame') {
+        const newPos = {
+          lat: data.position.lat,
+          lon: data.position.lon,
+        }
+        setDronePosition(newPos)
+        setDemoProgress(data.progress * 100)
+        setDroneAltitude(data.altitude || 120)
 
         // Update path history
-        if (data.position) {
-          setDronePathHistory(prev => {
-            const newHistory = [...prev, [data.position.lat, data.position.lon]]
-            return newHistory.slice(-200)
-          })
+        if (data.frame_index % 3 === 0) {
+          setDronePathHistory(prev => [...prev, [newPos.lat, newPos.lon]])
         }
 
         // Handle detections
@@ -446,12 +465,16 @@ function App() {
       } else if (data.type === 'demo_complete') {
         console.log('Custom demo complete:', data.total_detections, 'detections')
         setDemoActive(false)
+        setDronePosition(null)
       }
     }
 
-    ws.onclose = () => setDemoActive(false)
+    ws.onclose = () => {
+      setDemoActive(false)
+    }
+
     ws.onerror = (error) => {
-      console.error('Custom demo error:', error)
+      console.error('Custom demo WebSocket error:', error)
       setDemoActive(false)
     }
   }

@@ -8,7 +8,7 @@ import json
 import math
 import random
 import uuid
-from datetime import datetime
+from datetime import datetime, timedelta
 from typing import List, Dict, Tuple, Optional
 import numpy as np
 
@@ -716,16 +716,32 @@ class TrashDetector:
         Returns:
             GeoJSON FeatureCollection of detections
         """
-        # Extract waypoints from flight path
+        # Extract waypoints from flight path with proper timestamps
         waypoints = []
+        speed = config.get("survey_speed_ms", 25)  # meters per second
+        start_time = datetime.now()
+        elapsed_seconds = 0
+
         if flight_path.get("features"):
             for feature in flight_path["features"]:
                 if feature["geometry"]["type"] == "LineString":
-                    for coord in feature["geometry"]["coordinates"]:
+                    coords = feature["geometry"]["coordinates"]
+                    for i, coord in enumerate(coords):
+                        # Calculate elapsed time based on distance from previous point
+                        if i > 0:
+                            prev_coord = coords[i - 1]
+                            distance = self._haversine_distance(
+                                prev_coord[1], prev_coord[0],
+                                coord[1], coord[0]
+                            )
+                            elapsed_seconds += distance / speed
+
+                        timestamp = start_time + timedelta(seconds=elapsed_seconds)
+
                         waypoints.append({
                             "lat": coord[1],
                             "lon": coord[0],
-                            "timestamp": datetime.now().isoformat(),
+                            "timestamp": timestamp.isoformat(),
                         })
 
         if not waypoints:
