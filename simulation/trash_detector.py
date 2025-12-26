@@ -52,46 +52,54 @@ class TrashDetector:
     def _define_hotspots(self):
         """Define areas with elevated trash density based on location type."""
         if self.env_type == "beach":
-            # Beach hotspots along Stinson Beach coastline (new path from NW to SE)
-            # Path: (37.9021, -122.7185) to (37.8858, -122.6285)
+            # Beach hotspots along Stinson Beach coastline (New Stinson path from NW to SE)
+            # Path: (37.9069, -122.7276) to (37.8791, -122.6135)
             self.hotspots = [
-                # NORTHWEST SECTION
+                # NORTHWEST SECTION - Bolinas Lagoon area
                 {
-                    "lat": 37.9000,
-                    "lon": -122.7100,
+                    "lat": 37.9050,
+                    "lon": -122.7240,
                     "radius_m": 150,
                     "multiplier": 3.5,
-                    "name": "Northwest Beach Debris",
+                    "name": "Bolinas Lagoon North",
                     "primary_trash": ["organic_waste", "plastic_bottle"],
                 },
                 {
-                    "lat": 37.8960,
-                    "lon": -122.7000,
-                    "radius_m": 100,
+                    "lat": 37.9000,
+                    "lon": -122.7130,
+                    "radius_m": 120,
                     "multiplier": 4.0,
                     "name": "Duxbury Point Area",
                     "primary_trash": ["glass", "plastic_bottle", "food_packaging"],
                 },
+                {
+                    "lat": 37.8960,
+                    "lon": -122.7050,
+                    "radius_m": 100,
+                    "multiplier": 3.0,
+                    "name": "Northwest Beach Access",
+                    "primary_trash": ["plastic_bottle", "textile"],
+                },
                 # MAIN BEACH SECTION - highest activity
                 {
-                    "lat": 37.9030,
-                    "lon": -122.6900,
+                    "lat": 37.9020,
+                    "lon": -122.6960,
                     "radius_m": 180,
                     "multiplier": 6.0,
                     "name": "Main Beach Parking",
                     "primary_trash": ["food_packaging", "plastic_bottle"],
                 },
                 {
-                    "lat": 37.9060,
-                    "lon": -122.6750,
+                    "lat": 37.9065,
+                    "lon": -122.6770,
                     "radius_m": 220,
                     "multiplier": 7.0,
                     "name": "Stinson Beach Center - Heavy Use",
                     "primary_trash": ["plastic_bottle", "food_packaging", "textile"],
                 },
                 {
-                    "lat": 37.9050,
-                    "lon": -122.6650,
+                    "lat": 37.9055,
+                    "lon": -122.6670,
                     "radius_m": 120,
                     "multiplier": 5.0,
                     "name": "Lifeguard Station Area",
@@ -99,44 +107,44 @@ class TrashDetector:
                 },
                 # CENTRAL SECTION
                 {
-                    "lat": 37.9040,
-                    "lon": -122.6550,
+                    "lat": 37.9035,
+                    "lon": -122.6560,
                     "radius_m": 100,
-                    "multiplier": 3.0,
+                    "multiplier": 3.5,
                     "name": "Central Beach Access",
                     "primary_trash": ["plastic_bottle", "textile"],
                 },
                 {
-                    "lat": 37.9000,
-                    "lon": -122.6450,
+                    "lat": 37.8990,
+                    "lon": -122.6460,
                     "radius_m": 90,
                     "multiplier": 3.5,
                     "name": "South Beach Picnic",
                     "primary_trash": ["food_packaging", "glass"],
                 },
-                # SOUTHEAST SECTION
+                # SOUTHEAST SECTION - Seadrift area
                 {
-                    "lat": 37.8950,
-                    "lon": -122.6380,
+                    "lat": 37.8930,
+                    "lon": -122.6360,
                     "radius_m": 200,
                     "multiplier": 5.5,
                     "name": "Seadrift Lagoon Area",
                     "primary_trash": ["tire", "construction_waste", "metal_debris"],
                 },
                 {
-                    "lat": 37.8900,
-                    "lon": -122.6330,
-                    "radius_m": 80,
-                    "multiplier": 2.5,
+                    "lat": 37.8850,
+                    "lon": -122.6280,
+                    "radius_m": 100,
+                    "multiplier": 3.0,
                     "name": "Southeast Beach Debris",
                     "primary_trash": ["organic_waste", "textile"],
                 },
                 {
-                    "lat": 37.8870,
-                    "lon": -122.6300,
+                    "lat": 37.8790,
+                    "lon": -122.6150,
                     "radius_m": 150,
                     "multiplier": 4.0,
-                    "name": "Southeast Point",
+                    "name": "Southeast Point - Bolinas Channel",
                     "primary_trash": ["construction_waste", "tire", "metal_debris"],
                 },
             ]

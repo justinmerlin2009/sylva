@@ -1,19 +1,26 @@
 {
   "total_detections": 300,
-  "total_weight_kg": 1275.97,
+  "total_weight_kg": 1275.74,
   "total_clusters": 0,
   "by_location": {
     "stinson_beach": {
       "total_detections": 95,
-      "total_estimated_weight_kg": 151.95,
-      "total_area_m2": 5.78,
+      "total_estimated_weight_kg": 151.72,
+      "total_area_m2": 5.15,
       "by_category": [
         {
           "category": "plastic_bottle",
           "name": "Plastic Bottles",
-          "count": 35,
-          "percentage": 36.8,
+          "count": 26,
+          "percentage": 27.4,
           "color": "#3498db"
+        },
+        {
+          "category": "glass",
+          "name": "Glass",
+          "count": 18,
+          "percentage": 18.9,
+          "color": "#1abc9c"
         },
         {
           "category": "food_packaging",
@@ -30,24 +37,17 @@
           "color": "#27ae60"
         },
         {
-          "category": "glass",
-          "name": "Glass",
-          "count": 9,
-          "percentage": 9.5,
-          "color": "#1abc9c"
-        },
-        {
           "category": "textile",
           "name": "Textile/Fabric",
-          "count": 8,
-          "percentage": 8.4,
+          "count": 11,
+          "percentage": 11.6,
           "color": "#e74c3c"
         },
         {
           "category": "metal_debris",
           "name": "Metal Debris",
-          "count": 7,
-          "percentage": 7.4,
+          "count": 4,
+          "percentage": 4.2,
           "color": "#95a5a6"
         },
         {
@@ -67,9 +67,9 @@
       ],
       "by_priority": {
         "critical": 6,
-        "high": 7,
-        "medium": 24,
-        "low": 58
+        "high": 11,
+        "medium": 16,
+        "low": 62
       },
       "location": "Stinson Beach Coastline, California",
       "environment_type": "beach"
@@ -217,5 +217,5 @@
       "environment_type": "urban_waterfront"
     }
   },
-  "generated_at": "2025-12-26T08:52:12.012425"
+  "generated_at": "2025-12-26T09:26:29.654165"
 }

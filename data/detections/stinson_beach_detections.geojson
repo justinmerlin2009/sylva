@@ -6,20 +6,20 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.71853963409885,
-          37.90224538226415
+          -122.72796930786426,
+          37.90697347192467
         ]
       },
       "properties": {
-        "id": "DET-2025-83F40D5D",
+        "id": "DET-2025-84B8B980",
         "timestamp": "2026-01-15T10:00:00",
-        "category": "textile",
-        "category_name": "Textile/Fabric",
-        "confidence": 0.777,
-        "size_m2": 0.0706,
-        "estimated_weight_kg": 0.814,
+        "category": "metal_debris",
+        "category_name": "Metal Debris",
+        "confidence": 0.792,
+        "size_m2": 0.042,
+        "estimated_weight_kg": 3.403,
         "priority": "medium",
-        "color": "#e74c3c",
+        "color": "#95a5a6",
         "flight_id": "SYLVA-STI-001",
         "environment": "beach",
         "location": "Stinson Beach Coastline, California"
@@ -30,42 +30,18 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.71761290291666,
-          37.901576463079905
+          -122.7274988762261,
+          37.90517363605048
         ]
       },
       "properties": {
-        "id": "DET-2025-9050A916",
-        "timestamp": "2026-01-15T10:00:03.784710",
-        "category": "glass",
-        "category_name": "Glass",
-        "confidence": 0.808,
-        "size_m2": 0.0067,
-        "estimated_weight_kg": 0.359,
-        "priority": "low",
-        "color": "#1abc9c",
-        "flight_id": "SYLVA-STI-001",
-        "environment": "beach",
-        "location": "Stinson Beach Coastline, California"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.71690490481946,
-          37.901649766746914
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-5601CC3D",
-        "timestamp": "2026-01-15T10:00:07.569420",
+        "id": "DET-2025-2825CEA6",
+        "timestamp": "2026-01-15T10:00:10.660463",
         "category": "food_packaging",
         "category_name": "Food Packaging/Cardboard",
-        "confidence": 0.965,
-        "size_m2": 0.0102,
-        "estimated_weight_kg": 0.078,
+        "confidence": 0.961,
+        "size_m2": 0.0067,
+        "estimated_weight_kg": 0.094,
         "priority": "low",
         "color": "#e67e22",
         "flight_id": "SYLVA-STI-001",
@@ -78,42 +54,18 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.71655342281731,
-          37.901079557466105
+          -122.72664332810804,
+          37.90432692802137
         ]
       },
       "properties": {
-        "id": "DET-2025-A42DA709",
-        "timestamp": "2026-01-15T10:00:11.354130",
-        "category": "plastic_bottle",
-        "category_name": "Plastic Bottles",
-        "confidence": 0.752,
-        "size_m2": 0.0037,
-        "estimated_weight_kg": 0.034,
-        "priority": "low",
-        "color": "#3498db",
-        "flight_id": "SYLVA-STI-001",
-        "environment": "beach",
-        "location": "Stinson Beach Coastline, California"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.71580558258552,
-          37.90044492888651
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-FC4645F1",
-        "timestamp": "2026-01-15T10:00:15.138841",
+        "id": "DET-2025-E30AA1FC",
+        "timestamp": "2026-01-15T10:00:16.047078",
         "category": "construction_waste",
         "category_name": "Construction Waste",
-        "confidence": 0.804,
-        "size_m2": 0.7689,
-        "estimated_weight_kg": 36.078,
+        "confidence": 0.965,
+        "size_m2": 0.4314,
+        "estimated_weight_kg": 13.724,
         "priority": "critical",
         "color": "#8e44ad",
         "flight_id": "SYLVA-STI-001",
@@ -126,19 +78,43 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.71465438462036,
-          37.900203355473494
+          -122.72588406800976,
+          37.90350155717749
         ]
       },
       "properties": {
-        "id": "DET-2025-01BEAEA0",
-        "timestamp": "2026-01-15T10:00:18.923551",
+        "id": "DET-2025-03599F83",
+        "timestamp": "2026-01-15T10:00:21.377555",
+        "category": "glass",
+        "category_name": "Glass",
+        "confidence": 0.937,
+        "size_m2": 0.0092,
+        "estimated_weight_kg": 0.466,
+        "priority": "low",
+        "color": "#1abc9c",
+        "flight_id": "SYLVA-STI-001",
+        "environment": "beach",
+        "location": "Stinson Beach Coastline, California"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.72441968607893,
+          37.90291557911645
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-99CD9631",
+        "timestamp": "2026-01-15T10:00:26.681836",
         "category": "organic_waste",
         "category_name": "Organic Waste",
-        "confidence": 0.886,
-        "size_m2": 0.0532,
-        "estimated_weight_kg": 0.692,
-        "priority": "medium",
+        "confidence": 0.909,
+        "size_m2": 0.0154,
+        "estimated_weight_kg": 0.191,
+        "priority": "low",
         "color": "#27ae60",
         "flight_id": "SYLVA-STI-001",
         "environment": "beach",
@@ -150,18 +126,66 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.71424603361746,
-          37.89988864261388
+          -122.72339176655971,
+          37.90277543535325
         ]
       },
       "properties": {
-        "id": "DET-2025-360926E5",
-        "timestamp": "2026-01-15T10:00:22.708261",
+        "id": "DET-2025-900B9439",
+        "timestamp": "2026-01-15T10:00:31.999513",
+        "category": "organic_waste",
+        "category_name": "Organic Waste",
+        "confidence": 0.807,
+        "size_m2": 0.0251,
+        "estimated_weight_kg": 0.741,
+        "priority": "low",
+        "color": "#27ae60",
+        "flight_id": "SYLVA-STI-001",
+        "environment": "beach",
+        "location": "Stinson Beach Coastline, California"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.722202245369,
+          37.902477358462164
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-1FB800B0",
+        "timestamp": "2026-01-15T10:00:37.327241",
+        "category": "organic_waste",
+        "category_name": "Organic Waste",
+        "confidence": 0.838,
+        "size_m2": 0.0406,
+        "estimated_weight_kg": 0.184,
+        "priority": "low",
+        "color": "#27ae60",
+        "flight_id": "SYLVA-STI-001",
+        "environment": "beach",
+        "location": "Stinson Beach Coastline, California"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.72010550876746,
+          37.90255481667057
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-CEA1296B",
+        "timestamp": "2026-01-15T10:00:47.887773",
         "category": "textile",
         "category_name": "Textile/Fabric",
-        "confidence": 0.901,
-        "size_m2": 0.109,
-        "estimated_weight_kg": 1.806,
+        "confidence": 0.871,
+        "size_m2": 0.1447,
+        "estimated_weight_kg": 1.631,
         "priority": "high",
         "color": "#e74c3c",
         "flight_id": "SYLVA-STI-001",
@@ -174,66 +198,18 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.71189454253079,
-          37.89898456882953
+          -122.71864617572265,
+          37.90200839597812
         ]
       },
       "properties": {
-        "id": "DET-2025-3F2761F6",
-        "timestamp": "2026-01-15T10:00:34.062391",
-        "category": "plastic_bottle",
-        "category_name": "Plastic Bottles",
-        "confidence": 0.756,
-        "size_m2": 0.0032,
-        "estimated_weight_kg": 0.021,
-        "priority": "low",
-        "color": "#3498db",
-        "flight_id": "SYLVA-STI-001",
-        "environment": "beach",
-        "location": "Stinson Beach Coastline, California"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.71076233059786,
-          37.89880641021209
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-95A0A163",
-        "timestamp": "2026-01-15T10:00:37.847101",
-        "category": "glass",
-        "category_name": "Glass",
-        "confidence": 0.973,
-        "size_m2": 0.0053,
-        "estimated_weight_kg": 0.205,
-        "priority": "low",
-        "color": "#1abc9c",
-        "flight_id": "SYLVA-STI-001",
-        "environment": "beach",
-        "location": "Stinson Beach Coastline, California"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.70939605961928,
-          37.89808826284992
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-D99F3FE0",
-        "timestamp": "2026-01-15T10:00:45.416522",
+        "id": "DET-2025-FCF46685",
+        "timestamp": "2026-01-15T10:00:53.204310",
         "category": "food_packaging",
         "category_name": "Food Packaging/Cardboard",
-        "confidence": 0.826,
-        "size_m2": 0.0108,
-        "estimated_weight_kg": 0.088,
+        "confidence": 0.793,
+        "size_m2": 0.0054,
+        "estimated_weight_kg": 0.072,
         "priority": "low",
         "color": "#e67e22",
         "flight_id": "SYLVA-STI-001",
@@ -246,114 +222,18 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.70876903459941,
-          37.89771813764517
+          -122.71771405542783,
+          37.902176353338945
         ]
       },
       "properties": {
-        "id": "DET-2025-C7622AE1",
-        "timestamp": "2026-01-15T10:00:49.201232",
-        "category": "organic_waste",
-        "category_name": "Organic Waste",
-        "confidence": 0.988,
-        "size_m2": 0.0194,
-        "estimated_weight_kg": 0.654,
-        "priority": "low",
-        "color": "#27ae60",
-        "flight_id": "SYLVA-STI-001",
-        "environment": "beach",
-        "location": "Stinson Beach Coastline, California"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.70723310934193,
-          37.897048620898424
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-C0CB7026",
-        "timestamp": "2026-01-15T10:00:56.770652",
-        "category": "organic_waste",
-        "category_name": "Organic Waste",
-        "confidence": 0.82,
-        "size_m2": 0.0466,
-        "estimated_weight_kg": 0.424,
-        "priority": "low",
-        "color": "#27ae60",
-        "flight_id": "SYLVA-STI-001",
-        "environment": "beach",
-        "location": "Stinson Beach Coastline, California"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.70564055116785,
-          37.896327567596735
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-21CF311C",
-        "timestamp": "2026-01-15T10:01:04.340072",
-        "category": "metal_debris",
-        "category_name": "Metal Debris",
-        "confidence": 0.906,
-        "size_m2": 0.0626,
-        "estimated_weight_kg": 4.092,
-        "priority": "medium",
-        "color": "#95a5a6",
-        "flight_id": "SYLVA-STI-001",
-        "environment": "beach",
-        "location": "Stinson Beach Coastline, California"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.70532067285956,
-          37.895963910353075
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-F179E6EE",
-        "timestamp": "2026-01-15T10:01:08.124783",
-        "category": "food_packaging",
-        "category_name": "Food Packaging/Cardboard",
-        "confidence": 0.759,
-        "size_m2": 0.0064,
-        "estimated_weight_kg": 0.066,
-        "priority": "low",
-        "color": "#e67e22",
-        "flight_id": "SYLVA-STI-001",
-        "environment": "beach",
-        "location": "Stinson Beach Coastline, California"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.70441192604015,
-          37.89525241652886
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-BA97D11D",
-        "timestamp": "2026-01-15T10:01:11.909493",
+        "id": "DET-2025-B59080C8",
+        "timestamp": "2026-01-15T10:00:58.538534",
         "category": "plastic_bottle",
         "category_name": "Plastic Bottles",
-        "confidence": 0.836,
-        "size_m2": 0.0011,
-        "estimated_weight_kg": 0.043,
+        "confidence": 0.982,
+        "size_m2": 0.0038,
+        "estimated_weight_kg": 0.027,
         "priority": "low",
         "color": "#3498db",
         "flight_id": "SYLVA-STI-001",
@@ -366,66 +246,18 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.70391844866391,
-          37.89520196740009
+          -122.71654704015478,
+          37.901552585071116
         ]
       },
       "properties": {
-        "id": "DET-2025-56585CD7",
-        "timestamp": "2026-01-15T10:01:15.694203",
-        "category": "organic_waste",
-        "category_name": "Organic Waste",
-        "confidence": 0.878,
-        "size_m2": 0.0188,
-        "estimated_weight_kg": 0.147,
-        "priority": "low",
-        "color": "#27ae60",
-        "flight_id": "SYLVA-STI-001",
-        "environment": "beach",
-        "location": "Stinson Beach Coastline, California"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.7027171453008,
-          37.89481575736506
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-C794E3F8",
-        "timestamp": "2026-01-15T10:01:19.478913",
-        "category": "metal_debris",
-        "category_name": "Metal Debris",
-        "confidence": 0.815,
-        "size_m2": 0.0492,
-        "estimated_weight_kg": 4.078,
-        "priority": "medium",
-        "color": "#95a5a6",
-        "flight_id": "SYLVA-STI-001",
-        "environment": "beach",
-        "location": "Stinson Beach Coastline, California"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.70204388864823,
-          37.89483434236732
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-E1C4C17A",
-        "timestamp": "2026-01-15T10:01:23.231892",
+        "id": "DET-2025-E214CB0C",
+        "timestamp": "2026-01-15T10:01:03.939082",
         "category": "glass",
         "category_name": "Glass",
-        "confidence": 0.792,
-        "size_m2": 0.0077,
-        "estimated_weight_kg": 0.323,
+        "confidence": 0.884,
+        "size_m2": 0.0049,
+        "estimated_weight_kg": 0.251,
         "priority": "low",
         "color": "#1abc9c",
         "flight_id": "SYLVA-STI-001",
@@ -438,19 +270,19 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.70084697241253,
-          37.89600555282872
+          -122.714403413162,
+          37.90110990880718
         ]
       },
       "properties": {
-        "id": "DET-2025-492041CC",
-        "timestamp": "2026-01-15T10:01:30.737849",
+        "id": "DET-2025-B753B2C9",
+        "timestamp": "2026-01-15T10:01:14.704685",
         "category": "organic_waste",
         "category_name": "Organic Waste",
-        "confidence": 0.927,
-        "size_m2": 0.0276,
-        "estimated_weight_kg": 0.959,
-        "priority": "low",
+        "confidence": 0.874,
+        "size_m2": 0.0596,
+        "estimated_weight_kg": 0.226,
+        "priority": "medium",
         "color": "#27ae60",
         "flight_id": "SYLVA-STI-001",
         "environment": "beach",
@@ -462,306 +294,18 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.70055785457865,
-          37.896309378974316
+          -122.71298955217442,
+          37.90061701786704
         ]
       },
       "properties": {
-        "id": "DET-2025-9DE8C7C1",
-        "timestamp": "2026-01-15T10:01:34.490828",
-        "category": "food_packaging",
-        "category_name": "Food Packaging/Cardboard",
-        "confidence": 0.778,
-        "size_m2": 0.0164,
-        "estimated_weight_kg": 0.021,
-        "priority": "medium",
-        "color": "#e67e22",
-        "flight_id": "SYLVA-STI-001",
-        "environment": "beach",
-        "location": "Stinson Beach Coastline, California"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.69954203991306,
-          37.89698155022536
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-16E1A83C",
-        "timestamp": "2026-01-15T10:01:38.243807",
-        "category": "metal_debris",
-        "category_name": "Metal Debris",
-        "confidence": 0.864,
-        "size_m2": 0.0323,
-        "estimated_weight_kg": 2.712,
-        "priority": "medium",
-        "color": "#95a5a6",
-        "flight_id": "SYLVA-STI-001",
-        "environment": "beach",
-        "location": "Stinson Beach Coastline, California"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.69822956131807,
-          37.89761730714029
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-90837287",
-        "timestamp": "2026-01-15T10:01:45.749764",
-        "category": "organic_waste",
-        "category_name": "Organic Waste",
-        "confidence": 0.9,
-        "size_m2": 0.017,
-        "estimated_weight_kg": 0.437,
-        "priority": "low",
-        "color": "#27ae60",
-        "flight_id": "SYLVA-STI-001",
-        "environment": "beach",
-        "location": "Stinson Beach Coastline, California"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.69790192575469,
-          37.89822578319685
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-4E8F913F",
-        "timestamp": "2026-01-15T10:01:49.502743",
-        "category": "plastic_bottle",
-        "category_name": "Plastic Bottles",
-        "confidence": 0.891,
-        "size_m2": 0.0029,
-        "estimated_weight_kg": 0.011,
-        "priority": "low",
-        "color": "#3498db",
-        "flight_id": "SYLVA-STI-001",
-        "environment": "beach",
-        "location": "Stinson Beach Coastline, California"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.6968757443164,
-          37.898506598850375
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-964761E1",
-        "timestamp": "2026-01-15T10:01:53.255722",
-        "category": "tire",
-        "category_name": "Tires",
-        "confidence": 0.843,
-        "size_m2": 0.3296,
-        "estimated_weight_kg": 14.59,
-        "priority": "critical",
-        "color": "#2c3e50",
-        "flight_id": "SYLVA-STI-001",
-        "environment": "beach",
-        "location": "Stinson Beach Coastline, California"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.69666130412847,
-          37.89873843734983
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-051841A8",
-        "timestamp": "2026-01-15T10:01:57.008701",
-        "category": "plastic_bottle",
-        "category_name": "Plastic Bottles",
-        "confidence": 0.914,
-        "size_m2": 0.0011,
-        "estimated_weight_kg": 0.014,
-        "priority": "low",
-        "color": "#3498db",
-        "flight_id": "SYLVA-STI-001",
-        "environment": "beach",
-        "location": "Stinson Beach Coastline, California"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.6959718430832,
-          37.899568588812926
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-B3C5534A",
-        "timestamp": "2026-01-15T10:02:00.761680",
-        "category": "glass",
-        "category_name": "Glass",
-        "confidence": 0.917,
-        "size_m2": 0.0046,
-        "estimated_weight_kg": 0.235,
-        "priority": "low",
-        "color": "#1abc9c",
-        "flight_id": "SYLVA-STI-001",
-        "environment": "beach",
-        "location": "Stinson Beach Coastline, California"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.69482031300169,
-          37.89997009030419
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-EB1802F0",
-        "timestamp": "2026-01-15T10:02:04.514658",
+        "id": "DET-2025-792BC7B3",
+        "timestamp": "2026-01-15T10:01:20.025101",
         "category": "food_packaging",
         "category_name": "Food Packaging/Cardboard",
         "confidence": 0.944,
-        "size_m2": 0.0077,
-        "estimated_weight_kg": 0.08,
-        "priority": "low",
-        "color": "#e67e22",
-        "flight_id": "SYLVA-STI-001",
-        "environment": "beach",
-        "location": "Stinson Beach Coastline, California"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.69347441844639,
-          37.90059950278295
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-E0B1061D",
-        "timestamp": "2026-01-15T10:02:12.020616",
-        "category": "food_packaging",
-        "category_name": "Food Packaging/Cardboard",
-        "confidence": 0.853,
-        "size_m2": 0.019,
-        "estimated_weight_kg": 0.089,
-        "priority": "low",
-        "color": "#e67e22",
-        "flight_id": "SYLVA-STI-001",
-        "environment": "beach",
-        "location": "Stinson Beach Coastline, California"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.69279753194871,
-          37.90084293373795
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-13D9AA65",
-        "timestamp": "2026-01-15T10:02:15.773595",
-        "category": "metal_debris",
-        "category_name": "Metal Debris",
-        "confidence": 0.965,
-        "size_m2": 0.087,
-        "estimated_weight_kg": 1.94,
-        "priority": "medium",
-        "color": "#95a5a6",
-        "flight_id": "SYLVA-STI-001",
-        "environment": "beach",
-        "location": "Stinson Beach Coastline, California"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.69264282477162,
-          37.90172413204714
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-A97988C3",
-        "timestamp": "2026-01-15T10:02:19.526573",
-        "category": "food_packaging",
-        "category_name": "Food Packaging/Cardboard",
-        "confidence": 0.888,
-        "size_m2": 0.0193,
-        "estimated_weight_kg": 0.096,
-        "priority": "low",
-        "color": "#e67e22",
-        "flight_id": "SYLVA-STI-001",
-        "environment": "beach",
-        "location": "Stinson Beach Coastline, California"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.69181098853907,
-          37.90176464509759
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-C6341EF9",
-        "timestamp": "2026-01-15T10:02:23.279552",
-        "category": "organic_waste",
-        "category_name": "Organic Waste",
-        "confidence": 0.94,
-        "size_m2": 0.0489,
-        "estimated_weight_kg": 0.812,
-        "priority": "low",
-        "color": "#27ae60",
-        "flight_id": "SYLVA-STI-001",
-        "environment": "beach",
-        "location": "Stinson Beach Coastline, California"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.69096831886715,
-          37.902067338656074
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-EAD99B80",
-        "timestamp": "2026-01-15T10:02:27.032531",
-        "category": "food_packaging",
-        "category_name": "Food Packaging/Cardboard",
-        "confidence": 0.778,
-        "size_m2": 0.0183,
-        "estimated_weight_kg": 0.048,
+        "size_m2": 0.0094,
+        "estimated_weight_kg": 0.085,
         "priority": "medium",
         "color": "#e67e22",
         "flight_id": "SYLVA-STI-001",
@@ -774,306 +318,18 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.69067753749125,
-          37.90285037992298
+          -122.71223631040604,
+          37.89987736433483
         ]
       },
       "properties": {
-        "id": "DET-2025-14542662",
-        "timestamp": "2026-01-15T10:02:30.785510",
-        "category": "plastic_bottle",
-        "category_name": "Plastic Bottles",
-        "confidence": 0.947,
-        "size_m2": 0.0031,
-        "estimated_weight_kg": 0.013,
-        "priority": "medium",
-        "color": "#3498db",
-        "flight_id": "SYLVA-STI-001",
-        "environment": "beach",
-        "location": "Stinson Beach Coastline, California"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.68934036007447,
-          37.903015399191595
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-4898CF7D",
-        "timestamp": "2026-01-15T10:02:34.538488",
-        "category": "plastic_bottle",
-        "category_name": "Plastic Bottles",
-        "confidence": 0.977,
-        "size_m2": 0.0021,
-        "estimated_weight_kg": 0.043,
-        "priority": "medium",
-        "color": "#3498db",
-        "flight_id": "SYLVA-STI-001",
-        "environment": "beach",
-        "location": "Stinson Beach Coastline, California"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.68931826165688,
-          37.90350951964958
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-8277BB73",
-        "timestamp": "2026-01-15T10:02:38.291467",
-        "category": "organic_waste",
-        "category_name": "Organic Waste",
-        "confidence": 0.968,
-        "size_m2": 0.0401,
-        "estimated_weight_kg": 0.482,
-        "priority": "medium",
-        "color": "#27ae60",
-        "flight_id": "SYLVA-STI-001",
-        "environment": "beach",
-        "location": "Stinson Beach Coastline, California"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.68824807070244,
-          37.90360623059902
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-6B18BC88",
-        "timestamp": "2026-01-15T10:02:42.068626",
-        "category": "plastic_bottle",
-        "category_name": "Plastic Bottles",
-        "confidence": 0.906,
-        "size_m2": 0.0014,
-        "estimated_weight_kg": 0.015,
-        "priority": "low",
-        "color": "#3498db",
-        "flight_id": "SYLVA-STI-001",
-        "environment": "beach",
-        "location": "Stinson Beach Coastline, California"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.68744223689139,
-          37.90422657030651
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-D680C714",
-        "timestamp": "2026-01-15T10:02:45.851830",
-        "category": "food_packaging",
-        "category_name": "Food Packaging/Cardboard",
-        "confidence": 0.981,
-        "size_m2": 0.018,
-        "estimated_weight_kg": 0.038,
-        "priority": "low",
-        "color": "#e67e22",
-        "flight_id": "SYLVA-STI-001",
-        "environment": "beach",
-        "location": "Stinson Beach Coastline, California"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.6863030032384,
-          37.904008199519794
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-DA116461",
-        "timestamp": "2026-01-15T10:02:49.635034",
-        "category": "construction_waste",
-        "category_name": "Construction Waste",
-        "confidence": 0.883,
-        "size_m2": 0.9947,
-        "estimated_weight_kg": 12.952,
-        "priority": "critical",
-        "color": "#8e44ad",
-        "flight_id": "SYLVA-STI-001",
-        "environment": "beach",
-        "location": "Stinson Beach Coastline, California"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.68562943886546,
-          37.90441303878364
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-9C424FE3",
-        "timestamp": "2026-01-15T10:02:53.418238",
-        "category": "tire",
-        "category_name": "Tires",
-        "confidence": 0.966,
-        "size_m2": 0.3603,
-        "estimated_weight_kg": 12.09,
-        "priority": "critical",
-        "color": "#2c3e50",
-        "flight_id": "SYLVA-STI-001",
-        "environment": "beach",
-        "location": "Stinson Beach Coastline, California"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.6846580771505,
-          37.90480913564219
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-610AEF97",
-        "timestamp": "2026-01-15T10:02:57.201442",
-        "category": "tire",
-        "category_name": "Tires",
-        "confidence": 0.795,
-        "size_m2": 0.3575,
-        "estimated_weight_kg": 9.942,
-        "priority": "critical",
-        "color": "#2c3e50",
-        "flight_id": "SYLVA-STI-001",
-        "environment": "beach",
-        "location": "Stinson Beach Coastline, California"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.68350456969613,
-          37.90495854229371
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-70596AC3",
-        "timestamp": "2026-01-15T10:03:04.767850",
-        "category": "textile",
-        "category_name": "Textile/Fabric",
-        "confidence": 0.879,
-        "size_m2": 0.1979,
-        "estimated_weight_kg": 1.457,
-        "priority": "high",
-        "color": "#e74c3c",
-        "flight_id": "SYLVA-STI-001",
-        "environment": "beach",
-        "location": "Stinson Beach Coastline, California"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.68265489241593,
-          37.9052246591656
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-F92567DA",
-        "timestamp": "2026-01-15T10:03:08.551054",
-        "category": "textile",
-        "category_name": "Textile/Fabric",
-        "confidence": 0.924,
-        "size_m2": 0.1734,
-        "estimated_weight_kg": 1.91,
-        "priority": "high",
-        "color": "#e74c3c",
-        "flight_id": "SYLVA-STI-001",
-        "environment": "beach",
-        "location": "Stinson Beach Coastline, California"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.67804489660767,
-          37.90630196251233
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-0598CA7F",
-        "timestamp": "2026-01-15T10:03:27.467074",
-        "category": "plastic_bottle",
-        "category_name": "Plastic Bottles",
-        "confidence": 0.945,
-        "size_m2": 0.0011,
-        "estimated_weight_kg": 0.025,
-        "priority": "low",
-        "color": "#3498db",
-        "flight_id": "SYLVA-STI-001",
-        "environment": "beach",
-        "location": "Stinson Beach Coastline, California"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.67753277407498,
-          37.90624346715433
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-C2F0A4CB",
-        "timestamp": "2026-01-15T10:03:31.250278",
-        "category": "textile",
-        "category_name": "Textile/Fabric",
-        "confidence": 0.862,
-        "size_m2": 0.1763,
-        "estimated_weight_kg": 1.709,
-        "priority": "high",
-        "color": "#e74c3c",
-        "flight_id": "SYLVA-STI-001",
-        "environment": "beach",
-        "location": "Stinson Beach Coastline, California"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.67630387689677,
-          37.906170291032204
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-A176224D",
-        "timestamp": "2026-01-15T10:03:35.033482",
+        "id": "DET-2025-EE5D178F",
+        "timestamp": "2026-01-15T10:01:25.529157",
         "category": "glass",
         "category_name": "Glass",
-        "confidence": 0.883,
-        "size_m2": 0.01,
-        "estimated_weight_kg": 0.499,
+        "confidence": 0.941,
+        "size_m2": 0.0074,
+        "estimated_weight_kg": 0.411,
         "priority": "medium",
         "color": "#1abc9c",
         "flight_id": "SYLVA-STI-001",
@@ -1086,738 +342,42 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.67592167010689,
-          37.90672506957556
+          -122.71180274508261,
+          37.89890288429894
         ]
       },
       "properties": {
-        "id": "DET-2025-24C7B12E",
-        "timestamp": "2026-01-15T10:03:38.816686",
-        "category": "food_packaging",
-        "category_name": "Food Packaging/Cardboard",
-        "confidence": 0.895,
-        "size_m2": 0.0069,
-        "estimated_weight_kg": 0.096,
-        "priority": "medium",
-        "color": "#e67e22",
-        "flight_id": "SYLVA-STI-001",
-        "environment": "beach",
-        "location": "Stinson Beach Coastline, California"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.67498389511668,
-          37.906584204419715
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-D088BC72",
-        "timestamp": "2026-01-15T10:03:42.580902",
-        "category": "plastic_bottle",
-        "category_name": "Plastic Bottles",
-        "confidence": 0.935,
-        "size_m2": 0.003,
-        "estimated_weight_kg": 0.031,
-        "priority": "medium",
-        "color": "#3498db",
-        "flight_id": "SYLVA-STI-001",
-        "environment": "beach",
-        "location": "Stinson Beach Coastline, California"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.67402134151608,
-          37.90647015748823
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-C617BEF4",
-        "timestamp": "2026-01-15T10:03:46.340371",
-        "category": "textile",
-        "category_name": "Textile/Fabric",
-        "confidence": 0.757,
-        "size_m2": 0.1105,
-        "estimated_weight_kg": 0.441,
-        "priority": "high",
-        "color": "#e74c3c",
-        "flight_id": "SYLVA-STI-001",
-        "environment": "beach",
-        "location": "Stinson Beach Coastline, California"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.67343010796573,
-          37.906414035501086
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-29F4D2F1",
-        "timestamp": "2026-01-15T10:03:50.099840",
-        "category": "plastic_bottle",
-        "category_name": "Plastic Bottles",
-        "confidence": 0.892,
-        "size_m2": 0.001,
-        "estimated_weight_kg": 0.024,
-        "priority": "medium",
-        "color": "#3498db",
-        "flight_id": "SYLVA-STI-001",
-        "environment": "beach",
-        "location": "Stinson Beach Coastline, California"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.6724392618899,
-          37.906467035496874
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-3026DB40",
-        "timestamp": "2026-01-15T10:03:53.859309",
-        "category": "metal_debris",
-        "category_name": "Metal Debris",
-        "confidence": 0.899,
-        "size_m2": 0.0838,
-        "estimated_weight_kg": 2.284,
-        "priority": "medium",
-        "color": "#95a5a6",
-        "flight_id": "SYLVA-STI-001",
-        "environment": "beach",
-        "location": "Stinson Beach Coastline, California"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.66956460813458,
-          37.905716446515186
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-EBA534E1",
-        "timestamp": "2026-01-15T10:04:05.137716",
-        "category": "metal_debris",
-        "category_name": "Metal Debris",
-        "confidence": 0.985,
-        "size_m2": 0.0444,
-        "estimated_weight_kg": 2.566,
-        "priority": "medium",
-        "color": "#95a5a6",
-        "flight_id": "SYLVA-STI-001",
-        "environment": "beach",
-        "location": "Stinson Beach Coastline, California"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.66915508765904,
-          37.90584133955973
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-C5BFF3FD",
-        "timestamp": "2026-01-15T10:04:08.897185",
-        "category": "plastic_bottle",
-        "category_name": "Plastic Bottles",
-        "confidence": 0.786,
-        "size_m2": 0.0014,
-        "estimated_weight_kg": 0.015,
-        "priority": "low",
-        "color": "#3498db",
-        "flight_id": "SYLVA-STI-001",
-        "environment": "beach",
-        "location": "Stinson Beach Coastline, California"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.66744856089915,
-          37.905399618348625
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-4DA8C9DC",
-        "timestamp": "2026-01-15T10:04:16.416123",
-        "category": "textile",
-        "category_name": "Textile/Fabric",
-        "confidence": 0.791,
-        "size_m2": 0.1211,
-        "estimated_weight_kg": 1.402,
-        "priority": "high",
-        "color": "#e74c3c",
-        "flight_id": "SYLVA-STI-001",
-        "environment": "beach",
-        "location": "Stinson Beach Coastline, California"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.66661481897742,
-          37.90529219377235
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-ED0F208D",
-        "timestamp": "2026-01-15T10:04:20.175593",
-        "category": "plastic_bottle",
-        "category_name": "Plastic Bottles",
-        "confidence": 0.861,
-        "size_m2": 0.0013,
-        "estimated_weight_kg": 0.015,
-        "priority": "low",
-        "color": "#3498db",
-        "flight_id": "SYLVA-STI-001",
-        "environment": "beach",
-        "location": "Stinson Beach Coastline, California"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.66543063112965,
-          37.90543734787412
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-D3601409",
-        "timestamp": "2026-01-15T10:04:23.935062",
-        "category": "plastic_bottle",
-        "category_name": "Plastic Bottles",
-        "confidence": 0.77,
-        "size_m2": 0.0034,
-        "estimated_weight_kg": 0.035,
-        "priority": "medium",
-        "color": "#3498db",
-        "flight_id": "SYLVA-STI-001",
-        "environment": "beach",
-        "location": "Stinson Beach Coastline, California"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.6649095187457,
-          37.90504677036241
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-8BEEFD6F",
-        "timestamp": "2026-01-15T10:04:27.694531",
+        "id": "DET-2025-705ADCBB",
+        "timestamp": "2026-01-15T10:01:31.166494",
         "category": "organic_waste",
         "category_name": "Organic Waste",
-        "confidence": 0.8,
-        "size_m2": 0.0487,
-        "estimated_weight_kg": 0.266,
-        "priority": "medium",
-        "color": "#27ae60",
-        "flight_id": "SYLVA-STI-001",
-        "environment": "beach",
-        "location": "Stinson Beach Coastline, California"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.66395835797688,
-          37.90527951715269
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-27DE25AB",
-        "timestamp": "2026-01-15T10:04:31.454000",
-        "category": "food_packaging",
-        "category_name": "Food Packaging/Cardboard",
-        "confidence": 0.811,
-        "size_m2": 0.0162,
-        "estimated_weight_kg": 0.023,
-        "priority": "low",
-        "color": "#e67e22",
-        "flight_id": "SYLVA-STI-001",
-        "environment": "beach",
-        "location": "Stinson Beach Coastline, California"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.66305144594594,
-          37.905075810901735
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-7F1ACD9B",
-        "timestamp": "2026-01-15T10:04:35.213469",
-        "category": "plastic_bottle",
-        "category_name": "Plastic Bottles",
-        "confidence": 0.808,
-        "size_m2": 0.0023,
-        "estimated_weight_kg": 0.031,
-        "priority": "low",
-        "color": "#3498db",
-        "flight_id": "SYLVA-STI-001",
-        "environment": "beach",
-        "location": "Stinson Beach Coastline, California"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.66231751636082,
-          37.904741424742355
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-07AA624E",
-        "timestamp": "2026-01-15T10:04:38.972938",
-        "category": "plastic_bottle",
-        "category_name": "Plastic Bottles",
-        "confidence": 0.964,
-        "size_m2": 0.002,
-        "estimated_weight_kg": 0.015,
-        "priority": "low",
-        "color": "#3498db",
-        "flight_id": "SYLVA-STI-001",
-        "environment": "beach",
-        "location": "Stinson Beach Coastline, California"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.66140497276866,
-          37.905037914296585
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-7096E11A",
-        "timestamp": "2026-01-15T10:04:42.732407",
-        "category": "plastic_bottle",
-        "category_name": "Plastic Bottles",
-        "confidence": 0.929,
-        "size_m2": 0.0026,
-        "estimated_weight_kg": 0.033,
-        "priority": "low",
-        "color": "#3498db",
-        "flight_id": "SYLVA-STI-001",
-        "environment": "beach",
-        "location": "Stinson Beach Coastline, California"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.66063924997573,
-          37.904681072606905
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-1F6910E7",
-        "timestamp": "2026-01-15T10:04:46.491876",
-        "category": "organic_waste",
-        "category_name": "Organic Waste",
-        "confidence": 0.987,
-        "size_m2": 0.0407,
-        "estimated_weight_kg": 0.42,
-        "priority": "low",
-        "color": "#27ae60",
-        "flight_id": "SYLVA-STI-001",
-        "environment": "beach",
-        "location": "Stinson Beach Coastline, California"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.65986967658172,
-          37.904437888591765
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-BD33D110",
-        "timestamp": "2026-01-15T10:04:50.251345",
-        "category": "plastic_bottle",
-        "category_name": "Plastic Bottles",
-        "confidence": 0.818,
-        "size_m2": 0.0015,
-        "estimated_weight_kg": 0.017,
-        "priority": "low",
-        "color": "#3498db",
-        "flight_id": "SYLVA-STI-001",
-        "environment": "beach",
-        "location": "Stinson Beach Coastline, California"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.65792448345336,
-          37.90430218009452
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-922DCCDE",
-        "timestamp": "2026-01-15T10:04:57.770283",
-        "category": "food_packaging",
-        "category_name": "Food Packaging/Cardboard",
-        "confidence": 0.845,
-        "size_m2": 0.0197,
-        "estimated_weight_kg": 0.029,
-        "priority": "low",
-        "color": "#e67e22",
-        "flight_id": "SYLVA-STI-001",
-        "environment": "beach",
-        "location": "Stinson Beach Coastline, California"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.65733919534374,
-          37.90450896799062
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-4312EBAA",
-        "timestamp": "2026-01-15T10:05:01.532950",
-        "category": "plastic_bottle",
-        "category_name": "Plastic Bottles",
-        "confidence": 0.884,
-        "size_m2": 0.003,
-        "estimated_weight_kg": 0.047,
-        "priority": "low",
-        "color": "#3498db",
-        "flight_id": "SYLVA-STI-001",
-        "environment": "beach",
-        "location": "Stinson Beach Coastline, California"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.65587271445519,
-          37.90374673679056
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-65B3B271",
-        "timestamp": "2026-01-15T10:05:09.083869",
-        "category": "plastic_bottle",
-        "category_name": "Plastic Bottles",
-        "confidence": 0.808,
-        "size_m2": 0.0023,
-        "estimated_weight_kg": 0.03,
-        "priority": "low",
-        "color": "#3498db",
-        "flight_id": "SYLVA-STI-001",
-        "environment": "beach",
-        "location": "Stinson Beach Coastline, California"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.65491015689973,
-          37.90316428056073
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-6A655ACB",
-        "timestamp": "2026-01-15T10:05:12.859329",
-        "category": "plastic_bottle",
-        "category_name": "Plastic Bottles",
-        "confidence": 0.762,
-        "size_m2": 0.0024,
-        "estimated_weight_kg": 0.031,
-        "priority": "low",
-        "color": "#3498db",
-        "flight_id": "SYLVA-STI-001",
-        "environment": "beach",
-        "location": "Stinson Beach Coastline, California"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.65384393544491,
-          37.902739778609096
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-8B9EFFF7",
-        "timestamp": "2026-01-15T10:05:16.634788",
-        "category": "food_packaging",
-        "category_name": "Food Packaging/Cardboard",
-        "confidence": 0.914,
-        "size_m2": 0.0171,
-        "estimated_weight_kg": 0.04,
-        "priority": "low",
-        "color": "#e67e22",
-        "flight_id": "SYLVA-STI-001",
-        "environment": "beach",
-        "location": "Stinson Beach Coastline, California"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.65274349611529,
-          37.90220529148406
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-5F60DECE",
-        "timestamp": "2026-01-15T10:05:24.185707",
-        "category": "food_packaging",
-        "category_name": "Food Packaging/Cardboard",
-        "confidence": 0.982,
-        "size_m2": 0.0189,
-        "estimated_weight_kg": 0.086,
-        "priority": "low",
-        "color": "#e67e22",
-        "flight_id": "SYLVA-STI-001",
-        "environment": "beach",
-        "location": "Stinson Beach Coastline, California"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.6521536683668,
-          37.90211296418888
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-D56F2912",
-        "timestamp": "2026-01-15T10:05:27.961167",
-        "category": "plastic_bottle",
-        "category_name": "Plastic Bottles",
-        "confidence": 0.952,
-        "size_m2": 0.0032,
-        "estimated_weight_kg": 0.033,
-        "priority": "low",
-        "color": "#3498db",
-        "flight_id": "SYLVA-STI-001",
-        "environment": "beach",
-        "location": "Stinson Beach Coastline, California"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.6514165713035,
-          37.90139233686806
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-0F82024B",
-        "timestamp": "2026-01-15T10:05:31.736626",
-        "category": "plastic_bottle",
-        "category_name": "Plastic Bottles",
-        "confidence": 0.876,
-        "size_m2": 0.0034,
-        "estimated_weight_kg": 0.037,
-        "priority": "low",
-        "color": "#3498db",
-        "flight_id": "SYLVA-STI-001",
-        "environment": "beach",
-        "location": "Stinson Beach Coastline, California"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.6502671063556,
-          37.90118860846268
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-D9BD71D9",
-        "timestamp": "2026-01-15T10:05:35.512086",
-        "category": "food_packaging",
-        "category_name": "Food Packaging/Cardboard",
-        "confidence": 0.822,
-        "size_m2": 0.0107,
-        "estimated_weight_kg": 0.057,
-        "priority": "low",
-        "color": "#e67e22",
-        "flight_id": "SYLVA-STI-001",
-        "environment": "beach",
-        "location": "Stinson Beach Coastline, California"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.64942580996978,
-          37.90069371964336
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-D00DA1B9",
-        "timestamp": "2026-01-15T10:05:39.287545",
-        "category": "food_packaging",
-        "category_name": "Food Packaging/Cardboard",
-        "confidence": 0.9,
-        "size_m2": 0.0132,
-        "estimated_weight_kg": 0.093,
-        "priority": "low",
-        "color": "#e67e22",
-        "flight_id": "SYLVA-STI-001",
-        "environment": "beach",
-        "location": "Stinson Beach Coastline, California"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.64834481796403,
-          37.900293676746486
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-1481458C",
-        "timestamp": "2026-01-15T10:05:46.838464",
-        "category": "plastic_bottle",
-        "category_name": "Plastic Bottles",
-        "confidence": 0.878,
-        "size_m2": 0.0034,
-        "estimated_weight_kg": 0.035,
-        "priority": "low",
-        "color": "#3498db",
-        "flight_id": "SYLVA-STI-001",
-        "environment": "beach",
-        "location": "Stinson Beach Coastline, California"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.64612910768236,
-          37.89898759416883
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-B6F1E9A0",
-        "timestamp": "2026-01-15T10:05:58.164843",
-        "category": "plastic_bottle",
-        "category_name": "Plastic Bottles",
-        "confidence": 0.887,
-        "size_m2": 0.0032,
-        "estimated_weight_kg": 0.011,
-        "priority": "low",
-        "color": "#3498db",
-        "flight_id": "SYLVA-STI-001",
-        "environment": "beach",
-        "location": "Stinson Beach Coastline, California"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.64511284860097,
-          37.8987482500623
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-879E7C26",
-        "timestamp": "2026-01-15T10:06:01.940303",
-        "category": "plastic_bottle",
-        "category_name": "Plastic Bottles",
-        "confidence": 0.845,
-        "size_m2": 0.0035,
-        "estimated_weight_kg": 0.015,
-        "priority": "low",
-        "color": "#3498db",
-        "flight_id": "SYLVA-STI-001",
-        "environment": "beach",
-        "location": "Stinson Beach Coastline, California"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.64367907842735,
-          37.89794197728025
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-95873D81",
-        "timestamp": "2026-01-15T10:06:09.491222",
-        "category": "glass",
-        "category_name": "Glass",
         "confidence": 0.88,
-        "size_m2": 0.0073,
-        "estimated_weight_kg": 0.408,
+        "size_m2": 0.0166,
+        "estimated_weight_kg": 0.519,
+        "priority": "low",
+        "color": "#27ae60",
+        "flight_id": "SYLVA-STI-001",
+        "environment": "beach",
+        "location": "Stinson Beach Coastline, California"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.71041980107593,
+          37.897162310449936
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-DF683A06",
+        "timestamp": "2026-01-15T10:01:42.415277",
+        "category": "glass",
+        "category_name": "Glass",
+        "confidence": 0.875,
+        "size_m2": 0.0052,
+        "estimated_weight_kg": 0.238,
         "priority": "low",
         "color": "#1abc9c",
         "flight_id": "SYLVA-STI-001",
@@ -1830,42 +390,18 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.64130512175527,
-          37.89687008417919
+          -122.70838311914244,
+          37.896280637430046
         ]
       },
       "properties": {
-        "id": "DET-2025-30E61C4C",
-        "timestamp": "2026-01-15T10:06:20.817600",
-        "category": "organic_waste",
-        "category_name": "Organic Waste",
-        "confidence": 0.977,
-        "size_m2": 0.033,
-        "estimated_weight_kg": 0.516,
-        "priority": "low",
-        "color": "#27ae60",
-        "flight_id": "SYLVA-STI-001",
-        "environment": "beach",
-        "location": "Stinson Beach Coastline, California"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.64076694536296,
-          37.89672192157083
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-1C0EAB6D",
-        "timestamp": "2026-01-15T10:06:24.591615",
+        "id": "DET-2025-738E8B2C",
+        "timestamp": "2026-01-15T10:01:53.194068",
         "category": "plastic_bottle",
         "category_name": "Plastic Bottles",
-        "confidence": 0.886,
-        "size_m2": 0.0036,
-        "estimated_weight_kg": 0.047,
+        "confidence": 0.903,
+        "size_m2": 0.0026,
+        "estimated_weight_kg": 0.032,
         "priority": "low",
         "color": "#3498db",
         "flight_id": "SYLVA-STI-001",
@@ -1878,20 +414,20 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.64050669193274,
-          37.896349630982975
+          -122.70718227564201,
+          37.89567899280482
         ]
       },
       "properties": {
-        "id": "DET-2025-6EDBC518",
-        "timestamp": "2026-01-15T10:06:28.359849",
-        "category": "organic_waste",
-        "category_name": "Organic Waste",
-        "confidence": 0.927,
-        "size_m2": 0.0423,
-        "estimated_weight_kg": 0.482,
+        "id": "DET-2025-753E336F",
+        "timestamp": "2026-01-15T10:01:58.463112",
+        "category": "glass",
+        "category_name": "Glass",
+        "confidence": 0.769,
+        "size_m2": 0.0045,
+        "estimated_weight_kg": 0.332,
         "priority": "low",
-        "color": "#27ae60",
+        "color": "#1abc9c",
         "flight_id": "SYLVA-STI-001",
         "environment": "beach",
         "location": "Stinson Beach Coastline, California"
@@ -1902,113 +438,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.64000081197078,
-          37.89570040096786
+          -122.70586456647064,
+          37.895480360658176
         ]
       },
       "properties": {
-        "id": "DET-2025-90F2A4A3",
-        "timestamp": "2026-01-15T10:06:32.128084",
-        "category": "textile",
-        "category_name": "Textile/Fabric",
-        "confidence": 0.971,
-        "size_m2": 0.1758,
-        "estimated_weight_kg": 0.424,
-        "priority": "medium",
-        "color": "#e74c3c",
-        "flight_id": "SYLVA-STI-001",
-        "environment": "beach",
-        "location": "Stinson Beach Coastline, California"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.63924430279712,
-          37.89521786726444
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-14CDE0B1",
-        "timestamp": "2026-01-15T10:06:35.896318",
+        "id": "DET-2025-89000673",
+        "timestamp": "2026-01-15T10:02:03.799168",
         "category": "plastic_bottle",
         "category_name": "Plastic Bottles",
-        "confidence": 0.751,
-        "size_m2": 0.002,
-        "estimated_weight_kg": 0.042,
-        "priority": "medium",
-        "color": "#3498db",
-        "flight_id": "SYLVA-STI-001",
-        "environment": "beach",
-        "location": "Stinson Beach Coastline, California"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.63830973601193,
-          37.894673350160055
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-4338383C",
-        "timestamp": "2026-01-15T10:06:39.664553",
-        "category": "food_packaging",
-        "category_name": "Food Packaging/Cardboard",
-        "confidence": 0.859,
-        "size_m2": 0.0102,
-        "estimated_weight_kg": 0.079,
-        "priority": "medium",
-        "color": "#e67e22",
-        "flight_id": "SYLVA-STI-001",
-        "environment": "beach",
-        "location": "Stinson Beach Coastline, California"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.6382261497323,
-          37.893990632332816
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-4692E9CD",
-        "timestamp": "2026-01-15T10:06:43.432787",
-        "category": "metal_debris",
-        "category_name": "Metal Debris",
-        "confidence": 0.837,
-        "size_m2": 0.0564,
-        "estimated_weight_kg": 4.617,
-        "priority": "high",
-        "color": "#95a5a6",
-        "flight_id": "SYLVA-STI-001",
-        "environment": "beach",
-        "location": "Stinson Beach Coastline, California"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.63728357152006,
-          37.89336765898535
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-7FD0C9D4",
-        "timestamp": "2026-01-15T10:06:47.201022",
-        "category": "plastic_bottle",
-        "category_name": "Plastic Bottles",
-        "confidence": 0.85,
-        "size_m2": 0.0039,
+        "confidence": 0.81,
+        "size_m2": 0.0015,
         "estimated_weight_kg": 0.016,
         "priority": "low",
         "color": "#3498db",
@@ -2022,17 +462,857 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.63626394978283,
-          37.89263408236654
+          -122.70504385015425,
+          37.895017059908554
         ]
       },
       "properties": {
-        "id": "DET-2025-71589173",
-        "timestamp": "2026-01-15T10:06:54.737491",
+        "id": "DET-2025-0652D42B",
+        "timestamp": "2026-01-15T10:02:09.224563",
+        "category": "textile",
+        "category_name": "Textile/Fabric",
+        "confidence": 0.897,
+        "size_m2": 0.1607,
+        "estimated_weight_kg": 1.198,
+        "priority": "high",
+        "color": "#e74c3c",
+        "flight_id": "SYLVA-STI-001",
+        "environment": "beach",
+        "location": "Stinson Beach Coastline, California"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.70348451656476,
+          37.894553172269084
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-3D0E68F1",
+        "timestamp": "2026-01-15T10:02:14.773393",
         "category": "plastic_bottle",
         "category_name": "Plastic Bottles",
-        "confidence": 0.966,
-        "size_m2": 0.0032,
+        "confidence": 0.76,
+        "size_m2": 0.0013,
+        "estimated_weight_kg": 0.012,
+        "priority": "low",
+        "color": "#3498db",
+        "flight_id": "SYLVA-STI-001",
+        "environment": "beach",
+        "location": "Stinson Beach Coastline, California"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.70274245685881,
+          37.89423252207008
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-3C74A20B",
+        "timestamp": "2026-01-15T10:02:20.371611",
+        "category": "metal_debris",
+        "category_name": "Metal Debris",
+        "confidence": 0.854,
+        "size_m2": 0.0605,
+        "estimated_weight_kg": 1.279,
+        "priority": "medium",
+        "color": "#95a5a6",
+        "flight_id": "SYLVA-STI-001",
+        "environment": "beach",
+        "location": "Stinson Beach Coastline, California"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.70192240625381,
+          37.89480730665737
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-7878B786",
+        "timestamp": "2026-01-15T10:02:25.926275",
+        "category": "food_packaging",
+        "category_name": "Food Packaging/Cardboard",
+        "confidence": 0.956,
+        "size_m2": 0.0144,
+        "estimated_weight_kg": 0.06,
+        "priority": "low",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-STI-001",
+        "environment": "beach",
+        "location": "Stinson Beach Coastline, California"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.70085856993151,
+          37.89531698923168
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-C11F23DA",
+        "timestamp": "2026-01-15T10:02:31.465769",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.888,
+        "size_m2": 0.0028,
+        "estimated_weight_kg": 0.048,
+        "priority": "low",
+        "color": "#3498db",
+        "flight_id": "SYLVA-STI-001",
+        "environment": "beach",
+        "location": "Stinson Beach Coastline, California"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.70023236109736,
+          37.89731183953615
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-ED2F44AA",
+        "timestamp": "2026-01-15T10:02:42.485860",
+        "category": "textile",
+        "category_name": "Textile/Fabric",
+        "confidence": 0.967,
+        "size_m2": 0.1079,
+        "estimated_weight_kg": 1.93,
+        "priority": "high",
+        "color": "#e74c3c",
+        "flight_id": "SYLVA-STI-001",
+        "environment": "beach",
+        "location": "Stinson Beach Coastline, California"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.69972328677022,
+          37.89787368746399
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-1D51221F",
+        "timestamp": "2026-01-15T10:02:47.908057",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.827,
+        "size_m2": 0.003,
+        "estimated_weight_kg": 0.013,
+        "priority": "low",
+        "color": "#3498db",
+        "flight_id": "SYLVA-STI-001",
+        "environment": "beach",
+        "location": "Stinson Beach Coastline, California"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.69856397437316,
+          37.89893877565345
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-326B35C9",
+        "timestamp": "2026-01-15T10:02:53.422515",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.961,
+        "size_m2": 0.0031,
+        "estimated_weight_kg": 0.035,
+        "priority": "low",
+        "color": "#3498db",
+        "flight_id": "SYLVA-STI-001",
+        "environment": "beach",
+        "location": "Stinson Beach Coastline, California"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.69771037147292,
+          37.89928127639671
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-017B660B",
+        "timestamp": "2026-01-15T10:02:58.931421",
+        "category": "glass",
+        "category_name": "Glass",
+        "confidence": 0.849,
+        "size_m2": 0.0086,
+        "estimated_weight_kg": 0.497,
+        "priority": "low",
+        "color": "#1abc9c",
+        "flight_id": "SYLVA-STI-001",
+        "environment": "beach",
+        "location": "Stinson Beach Coastline, California"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.69618954750473,
+          37.89988779826142
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-0C740443",
+        "timestamp": "2026-01-15T10:03:04.426488",
+        "category": "glass",
+        "category_name": "Glass",
+        "confidence": 0.931,
+        "size_m2": 0.0057,
+        "estimated_weight_kg": 0.425,
+        "priority": "low",
+        "color": "#1abc9c",
+        "flight_id": "SYLVA-STI-001",
+        "environment": "beach",
+        "location": "Stinson Beach Coastline, California"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.69533835593758,
+          37.90064276233774
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-B09255AB",
+        "timestamp": "2026-01-15T10:03:09.905024",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.753,
+        "size_m2": 0.0037,
+        "estimated_weight_kg": 0.026,
+        "priority": "low",
+        "color": "#3498db",
+        "flight_id": "SYLVA-STI-001",
+        "environment": "beach",
+        "location": "Stinson Beach Coastline, California"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.69421342306538,
+          37.90104658515882
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-E9014BDB",
+        "timestamp": "2026-01-15T10:03:15.361530",
+        "category": "textile",
+        "category_name": "Textile/Fabric",
+        "confidence": 0.858,
+        "size_m2": 0.136,
+        "estimated_weight_kg": 1.337,
+        "priority": "high",
+        "color": "#e74c3c",
+        "flight_id": "SYLVA-STI-001",
+        "environment": "beach",
+        "location": "Stinson Beach Coastline, California"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.69331125556855,
+          37.90179427639918
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-EDA64BC4",
+        "timestamp": "2026-01-15T10:03:20.863016",
+        "category": "glass",
+        "category_name": "Glass",
+        "confidence": 0.869,
+        "size_m2": 0.0084,
+        "estimated_weight_kg": 0.227,
+        "priority": "low",
+        "color": "#1abc9c",
+        "flight_id": "SYLVA-STI-001",
+        "environment": "beach",
+        "location": "Stinson Beach Coastline, California"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.69221222880724,
+          37.90224055881153
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-44C00A3E",
+        "timestamp": "2026-01-15T10:03:26.316694",
+        "category": "food_packaging",
+        "category_name": "Food Packaging/Cardboard",
+        "confidence": 0.933,
+        "size_m2": 0.0068,
+        "estimated_weight_kg": 0.031,
+        "priority": "low",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-STI-001",
+        "environment": "beach",
+        "location": "Stinson Beach Coastline, California"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.69114973647675,
+          37.902405441020626
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-0CEA148E",
+        "timestamp": "2026-01-15T10:03:31.661631",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.77,
+        "size_m2": 0.0035,
+        "estimated_weight_kg": 0.038,
+        "priority": "low",
+        "color": "#3498db",
+        "flight_id": "SYLVA-STI-001",
+        "environment": "beach",
+        "location": "Stinson Beach Coastline, California"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.69031651248025,
+          37.902967228742625
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-7299B0F9",
+        "timestamp": "2026-01-15T10:03:37.134503",
+        "category": "glass",
+        "category_name": "Glass",
+        "confidence": 0.931,
+        "size_m2": 0.0096,
+        "estimated_weight_kg": 0.496,
+        "priority": "low",
+        "color": "#1abc9c",
+        "flight_id": "SYLVA-STI-001",
+        "environment": "beach",
+        "location": "Stinson Beach Coastline, California"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6888813526038,
+          37.90343759436914
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-B89B3113",
+        "timestamp": "2026-01-15T10:03:42.927252",
+        "category": "food_packaging",
+        "category_name": "Food Packaging/Cardboard",
+        "confidence": 0.868,
+        "size_m2": 0.0186,
+        "estimated_weight_kg": 0.029,
+        "priority": "low",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-STI-001",
+        "environment": "beach",
+        "location": "Stinson Beach Coastline, California"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.68577924161679,
+          37.904625610531596
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-7155C10E",
+        "timestamp": "2026-01-15T10:04:00.070479",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.89,
+        "size_m2": 0.0029,
+        "estimated_weight_kg": 0.04,
+        "priority": "low",
+        "color": "#3498db",
+        "flight_id": "SYLVA-STI-001",
+        "environment": "beach",
+        "location": "Stinson Beach Coastline, California"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.68408891119113,
+          37.90498327421
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-45EBA391",
+        "timestamp": "2026-01-15T10:04:05.334072",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.983,
+        "size_m2": 0.0039,
+        "estimated_weight_kg": 0.01,
+        "priority": "low",
+        "color": "#3498db",
+        "flight_id": "SYLVA-STI-001",
+        "environment": "beach",
+        "location": "Stinson Beach Coastline, California"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.68289696700333,
+          37.905498243591786
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-EB5C6EA3",
+        "timestamp": "2026-01-15T10:04:10.597644",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.876,
+        "size_m2": 0.0027,
+        "estimated_weight_kg": 0.049,
+        "priority": "low",
+        "color": "#3498db",
+        "flight_id": "SYLVA-STI-001",
+        "environment": "beach",
+        "location": "Stinson Beach Coastline, California"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6829359569114,
+          37.906460566988656
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-22BEE68C",
+        "timestamp": "2026-01-15T10:04:16.053512",
+        "category": "organic_waste",
+        "category_name": "Organic Waste",
+        "confidence": 0.817,
+        "size_m2": 0.0556,
+        "estimated_weight_kg": 0.141,
+        "priority": "medium",
+        "color": "#27ae60",
+        "flight_id": "SYLVA-STI-001",
+        "environment": "beach",
+        "location": "Stinson Beach Coastline, California"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.68271992312789,
+          37.90735443044806
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-62A09CA3",
+        "timestamp": "2026-01-15T10:04:21.425969",
+        "category": "food_packaging",
+        "category_name": "Food Packaging/Cardboard",
+        "confidence": 0.835,
+        "size_m2": 0.0078,
+        "estimated_weight_kg": 0.057,
+        "priority": "low",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-STI-001",
+        "environment": "beach",
+        "location": "Stinson Beach Coastline, California"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.68201074379397,
+          37.90852111286089
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-78D2863B",
+        "timestamp": "2026-01-15T10:04:26.687207",
+        "category": "organic_waste",
+        "category_name": "Organic Waste",
+        "confidence": 0.945,
+        "size_m2": 0.0391,
+        "estimated_weight_kg": 0.379,
+        "priority": "low",
+        "color": "#27ae60",
+        "flight_id": "SYLVA-STI-001",
+        "environment": "beach",
+        "location": "Stinson Beach Coastline, California"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6806431536023,
+          37.90917761437439
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-E00494A5",
+        "timestamp": "2026-01-15T10:04:37.511798",
+        "category": "textile",
+        "category_name": "Textile/Fabric",
+        "confidence": 0.85,
+        "size_m2": 0.1589,
+        "estimated_weight_kg": 1.304,
+        "priority": "high",
+        "color": "#e74c3c",
+        "flight_id": "SYLVA-STI-001",
+        "environment": "beach",
+        "location": "Stinson Beach Coastline, California"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.68115688112712,
+          37.90766135044003
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-2F7EFE28",
+        "timestamp": "2026-01-15T10:04:43.240762",
+        "category": "food_packaging",
+        "category_name": "Food Packaging/Cardboard",
+        "confidence": 0.786,
+        "size_m2": 0.0172,
+        "estimated_weight_kg": 0.099,
+        "priority": "low",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-STI-001",
+        "environment": "beach",
+        "location": "Stinson Beach Coastline, California"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6800219495685,
+          37.90718609983578
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-603DBA20",
+        "timestamp": "2026-01-15T10:04:48.910751",
+        "category": "glass",
+        "category_name": "Glass",
+        "confidence": 0.816,
+        "size_m2": 0.006,
+        "estimated_weight_kg": 0.324,
+        "priority": "low",
+        "color": "#1abc9c",
+        "flight_id": "SYLVA-STI-001",
+        "environment": "beach",
+        "location": "Stinson Beach Coastline, California"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.67898897693814,
+          37.90686693730096
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-B39F7D2B",
+        "timestamp": "2026-01-15T10:04:54.307455",
+        "category": "textile",
+        "category_name": "Textile/Fabric",
+        "confidence": 0.977,
+        "size_m2": 0.1333,
+        "estimated_weight_kg": 1.584,
+        "priority": "high",
+        "color": "#e74c3c",
+        "flight_id": "SYLVA-STI-001",
+        "environment": "beach",
+        "location": "Stinson Beach Coastline, California"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6783709578635,
+          37.90672141066679
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-43DBE786",
+        "timestamp": "2026-01-15T10:04:59.594225",
+        "category": "textile",
+        "category_name": "Textile/Fabric",
+        "confidence": 0.911,
+        "size_m2": 0.1409,
+        "estimated_weight_kg": 0.612,
+        "priority": "high",
+        "color": "#e74c3c",
+        "flight_id": "SYLVA-STI-001",
+        "environment": "beach",
+        "location": "Stinson Beach Coastline, California"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.67673560384247,
+          37.90648627319381
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-A1F0AEA3",
+        "timestamp": "2026-01-15T10:05:05.076016",
+        "category": "food_packaging",
+        "category_name": "Food Packaging/Cardboard",
+        "confidence": 0.955,
+        "size_m2": 0.0166,
+        "estimated_weight_kg": 0.062,
+        "priority": "medium",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-STI-001",
+        "environment": "beach",
+        "location": "Stinson Beach Coastline, California"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.67572028644518,
+          37.90690031407975
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-1836004C",
+        "timestamp": "2026-01-15T10:05:10.486376",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.899,
+        "size_m2": 0.0011,
+        "estimated_weight_kg": 0.04,
+        "priority": "medium",
+        "color": "#3498db",
+        "flight_id": "SYLVA-STI-001",
+        "environment": "beach",
+        "location": "Stinson Beach Coastline, California"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.67473919552033,
+          37.90650884473669
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-9806BEFE",
+        "timestamp": "2026-01-15T10:05:15.896737",
+        "category": "food_packaging",
+        "category_name": "Food Packaging/Cardboard",
+        "confidence": 0.855,
+        "size_m2": 0.0138,
+        "estimated_weight_kg": 0.051,
+        "priority": "low",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-STI-001",
+        "environment": "beach",
+        "location": "Stinson Beach Coastline, California"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.67052849669457,
+          37.90659389582144
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-75C9A1B5",
+        "timestamp": "2026-01-15T10:05:31.811215",
+        "category": "food_packaging",
+        "category_name": "Food Packaging/Cardboard",
+        "confidence": 0.978,
+        "size_m2": 0.0143,
+        "estimated_weight_kg": 0.089,
+        "priority": "low",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-STI-001",
+        "environment": "beach",
+        "location": "Stinson Beach Coastline, California"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.66975442548986,
+          37.90649741214588
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-7B542189",
+        "timestamp": "2026-01-15T10:05:37.134289",
+        "category": "tire",
+        "category_name": "Tires",
+        "confidence": 0.829,
+        "size_m2": 0.4925,
+        "estimated_weight_kg": 11.448,
+        "priority": "critical",
+        "color": "#2c3e50",
+        "flight_id": "SYLVA-STI-001",
+        "environment": "beach",
+        "location": "Stinson Beach Coastline, California"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.66863061401428,
+          37.90609457820385
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-D207FEF3",
+        "timestamp": "2026-01-15T10:05:42.457372",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.904,
+        "size_m2": 0.0015,
+        "estimated_weight_kg": 0.016,
+        "priority": "low",
+        "color": "#3498db",
+        "flight_id": "SYLVA-STI-001",
+        "environment": "beach",
+        "location": "Stinson Beach Coastline, California"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6671785046033,
+          37.90653151885635
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-53D2F93C",
+        "timestamp": "2026-01-15T10:05:47.842133",
+        "category": "food_packaging",
+        "category_name": "Food Packaging/Cardboard",
+        "confidence": 0.76,
+        "size_m2": 0.0076,
+        "estimated_weight_kg": 0.035,
+        "priority": "low",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-STI-001",
+        "environment": "beach",
+        "location": "Stinson Beach Coastline, California"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.66618521482452,
+          37.90614315531155
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-1E466E97",
+        "timestamp": "2026-01-15T10:05:53.225240",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.837,
+        "size_m2": 0.0024,
         "estimated_weight_kg": 0.018,
         "priority": "low",
         "color": "#3498db",
@@ -2046,18 +1326,18 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.63517637748176,
-          37.89140585646866
+          -122.66456675410751,
+          37.905787677062456
         ]
       },
       "properties": {
-        "id": "DET-2025-2EE2150D",
-        "timestamp": "2026-01-15T10:07:02.273960",
+        "id": "DET-2025-E07F6676",
+        "timestamp": "2026-01-15T10:05:58.542560",
         "category": "organic_waste",
         "category_name": "Organic Waste",
-        "confidence": 0.859,
-        "size_m2": 0.018,
-        "estimated_weight_kg": 0.798,
+        "confidence": 0.971,
+        "size_m2": 0.0187,
+        "estimated_weight_kg": 0.886,
         "priority": "low",
         "color": "#27ae60",
         "flight_id": "SYLVA-STI-001",
@@ -2070,18 +1350,18 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.63456017454074,
-          37.891082467394014
+          -122.65969364305917,
+          37.90514683963811
         ]
       },
       "properties": {
-        "id": "DET-2025-E86919DA",
-        "timestamp": "2026-01-15T10:07:06.042194",
+        "id": "DET-2025-BF374CB0",
+        "timestamp": "2026-01-15T10:06:20.971945",
         "category": "plastic_bottle",
         "category_name": "Plastic Bottles",
-        "confidence": 0.977,
-        "size_m2": 0.0015,
-        "estimated_weight_kg": 0.044,
+        "confidence": 0.866,
+        "size_m2": 0.0016,
+        "estimated_weight_kg": 0.025,
         "priority": "low",
         "color": "#3498db",
         "flight_id": "SYLVA-STI-001",
@@ -2094,17 +1374,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.63352132654514,
-          37.89016977297987
+          -122.65740539372061,
+          37.90429521548175
         ]
       },
       "properties": {
-        "id": "DET-2025-0E9183E2",
-        "timestamp": "2026-01-15T10:07:13.578663",
+        "id": "DET-2025-FCF090CC",
+        "timestamp": "2026-01-15T10:06:31.592534",
         "category": "plastic_bottle",
         "category_name": "Plastic Bottles",
-        "confidence": 0.908,
-        "size_m2": 0.0015,
+        "confidence": 0.965,
+        "size_m2": 0.0018,
         "estimated_weight_kg": 0.039,
         "priority": "low",
         "color": "#3498db",
@@ -2118,17 +1398,425 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.63276658446506,
-          37.88950518988683
+          -122.65651556612119,
+          37.90369332509078
         ]
       },
       "properties": {
-        "id": "DET-2025-D325BF79",
-        "timestamp": "2026-01-15T10:07:17.346898",
+        "id": "DET-2025-F5C85D62",
+        "timestamp": "2026-01-15T10:06:36.883305",
+        "category": "food_packaging",
+        "category_name": "Food Packaging/Cardboard",
+        "confidence": 0.841,
+        "size_m2": 0.0086,
+        "estimated_weight_kg": 0.042,
+        "priority": "medium",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-STI-001",
+        "environment": "beach",
+        "location": "Stinson Beach Coastline, California"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.65546404306848,
+          37.90346524447696
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-11017248",
+        "timestamp": "2026-01-15T10:06:42.174099",
         "category": "plastic_bottle",
         "category_name": "Plastic Bottles",
-        "confidence": 0.793,
-        "size_m2": 0.0013,
+        "confidence": 0.913,
+        "size_m2": 0.0037,
+        "estimated_weight_kg": 0.034,
+        "priority": "medium",
+        "color": "#3498db",
+        "flight_id": "SYLVA-STI-001",
+        "environment": "beach",
+        "location": "Stinson Beach Coastline, California"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.65426862600191,
+          37.90288963610843
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-A82CA31A",
+        "timestamp": "2026-01-15T10:06:47.503106",
+        "category": "organic_waste",
+        "category_name": "Organic Waste",
+        "confidence": 0.781,
+        "size_m2": 0.0485,
+        "estimated_weight_kg": 0.488,
+        "priority": "low",
+        "color": "#27ae60",
+        "flight_id": "SYLVA-STI-001",
+        "environment": "beach",
+        "location": "Stinson Beach Coastline, California"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.65320921394967,
+          37.902698652631166
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-B70A76F4",
+        "timestamp": "2026-01-15T10:06:52.838505",
+        "category": "food_packaging",
+        "category_name": "Food Packaging/Cardboard",
+        "confidence": 0.807,
+        "size_m2": 0.0198,
+        "estimated_weight_kg": 0.068,
+        "priority": "low",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-STI-001",
+        "environment": "beach",
+        "location": "Stinson Beach Coastline, California"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.65239474144842,
+          37.90200684883858
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-E6A8F512",
+        "timestamp": "2026-01-15T10:06:58.173930",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.965,
+        "size_m2": 0.0019,
+        "estimated_weight_kg": 0.017,
+        "priority": "low",
+        "color": "#3498db",
+        "flight_id": "SYLVA-STI-001",
+        "environment": "beach",
+        "location": "Stinson Beach Coastline, California"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.65080281761531,
+          37.90169006699571
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-5FD1E4F7",
+        "timestamp": "2026-01-15T10:07:03.522879",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.958,
+        "size_m2": 0.0022,
+        "estimated_weight_kg": 0.049,
+        "priority": "low",
+        "color": "#3498db",
+        "flight_id": "SYLVA-STI-001",
+        "environment": "beach",
+        "location": "Stinson Beach Coastline, California"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.64785324178358,
+          37.900081277520236
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-8EA466F8",
+        "timestamp": "2026-01-15T10:07:19.671127",
+        "category": "textile",
+        "category_name": "Textile/Fabric",
+        "confidence": 0.817,
+        "size_m2": 0.1335,
+        "estimated_weight_kg": 1.229,
+        "priority": "high",
+        "color": "#e74c3c",
+        "flight_id": "SYLVA-STI-001",
+        "environment": "beach",
+        "location": "Stinson Beach Coastline, California"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.64691948883548,
+          37.899617564375575
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-AE9A998D",
+        "timestamp": "2026-01-15T10:07:25.085026",
+        "category": "metal_debris",
+        "category_name": "Metal Debris",
+        "confidence": 0.897,
+        "size_m2": 0.0432,
+        "estimated_weight_kg": 1.017,
+        "priority": "medium",
+        "color": "#95a5a6",
+        "flight_id": "SYLVA-STI-001",
+        "environment": "beach",
+        "location": "Stinson Beach Coastline, California"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.64577548728099,
+          37.898997355686454
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-34836060",
+        "timestamp": "2026-01-15T10:07:30.540414",
+        "category": "construction_waste",
+        "category_name": "Construction Waste",
+        "confidence": 0.782,
+        "size_m2": 0.2889,
+        "estimated_weight_kg": 23.464,
+        "priority": "critical",
+        "color": "#8e44ad",
+        "flight_id": "SYLVA-STI-001",
+        "environment": "beach",
+        "location": "Stinson Beach Coastline, California"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.64454367904153,
+          37.8986222970167
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-BFBAC6F1",
+        "timestamp": "2026-01-15T10:07:35.995830",
+        "category": "food_packaging",
+        "category_name": "Food Packaging/Cardboard",
+        "confidence": 0.893,
+        "size_m2": 0.0152,
+        "estimated_weight_kg": 0.081,
+        "priority": "low",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-STI-001",
+        "environment": "beach",
+        "location": "Stinson Beach Coastline, California"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.64248828171655,
+          37.897437661919184
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-DA96F602",
+        "timestamp": "2026-01-15T10:07:47.210451",
+        "category": "glass",
+        "category_name": "Glass",
+        "confidence": 0.925,
+        "size_m2": 0.0097,
+        "estimated_weight_kg": 0.237,
+        "priority": "low",
+        "color": "#1abc9c",
+        "flight_id": "SYLVA-STI-001",
+        "environment": "beach",
+        "location": "Stinson Beach Coastline, California"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.64059849096283,
+          37.89601296460368
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-5CD95588",
+        "timestamp": "2026-01-15T10:07:58.303955",
+        "category": "organic_waste",
+        "category_name": "Organic Waste",
+        "confidence": 0.941,
+        "size_m2": 0.0529,
+        "estimated_weight_kg": 0.226,
+        "priority": "medium",
+        "color": "#27ae60",
+        "flight_id": "SYLVA-STI-001",
+        "environment": "beach",
+        "location": "Stinson Beach Coastline, California"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6395163597853,
+          37.8954582260483
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-725FB035",
+        "timestamp": "2026-01-15T10:08:03.797373",
+        "category": "organic_waste",
+        "category_name": "Organic Waste",
+        "confidence": 0.961,
+        "size_m2": 0.0385,
+        "estimated_weight_kg": 0.423,
+        "priority": "low",
+        "color": "#27ae60",
+        "flight_id": "SYLVA-STI-001",
+        "environment": "beach",
+        "location": "Stinson Beach Coastline, California"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.63887570582632,
+          37.894938431686334
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-B368D907",
+        "timestamp": "2026-01-15T10:08:09.259149",
+        "category": "tire",
+        "category_name": "Tires",
+        "confidence": 0.871,
+        "size_m2": 0.238,
+        "estimated_weight_kg": 13.233,
+        "priority": "critical",
+        "color": "#2c3e50",
+        "flight_id": "SYLVA-STI-001",
+        "environment": "beach",
+        "location": "Stinson Beach Coastline, California"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.63706509163893,
+          37.89358662070513
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-250766EC",
+        "timestamp": "2026-01-15T10:08:20.078531",
+        "category": "textile",
+        "category_name": "Textile/Fabric",
+        "confidence": 0.976,
+        "size_m2": 0.1436,
+        "estimated_weight_kg": 0.41,
+        "priority": "high",
+        "color": "#e74c3c",
+        "flight_id": "SYLVA-STI-001",
+        "environment": "beach",
+        "location": "Stinson Beach Coastline, California"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.63611801247474,
+          37.89267441150372
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-61A784C4",
+        "timestamp": "2026-01-15T10:08:25.394433",
+        "category": "construction_waste",
+        "category_name": "Construction Waste",
+        "confidence": 0.939,
+        "size_m2": 0.6501,
+        "estimated_weight_kg": 45.756,
+        "priority": "critical",
+        "color": "#8e44ad",
+        "flight_id": "SYLVA-STI-001",
+        "environment": "beach",
+        "location": "Stinson Beach Coastline, California"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.63532293559255,
+          37.89201955932265
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-64E261C9",
+        "timestamp": "2026-01-15T10:08:30.710356",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.96,
+        "size_m2": 0.0027,
+        "estimated_weight_kg": 0.04,
+        "priority": "medium",
+        "color": "#3498db",
+        "flight_id": "SYLVA-STI-001",
+        "environment": "beach",
+        "location": "Stinson Beach Coastline, California"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.63378842905688,
+          37.89044020286004
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-C0A3E533",
+        "timestamp": "2026-01-15T10:08:41.239436",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.786,
+        "size_m2": 0.0022,
         "estimated_weight_kg": 0.042,
         "priority": "low",
         "color": "#3498db",
@@ -2142,18 +1830,138 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.63191591079443,
-          37.88842660082318
+          -122.63308901514901,
+          37.8900179872886
         ]
       },
       "properties": {
-        "id": "DET-2025-6298A144",
-        "timestamp": "2026-01-15T10:07:24.883367",
+        "id": "DET-2025-B826014C",
+        "timestamp": "2026-01-15T10:08:46.734366",
+        "category": "organic_waste",
+        "category_name": "Organic Waste",
+        "confidence": 0.833,
+        "size_m2": 0.0394,
+        "estimated_weight_kg": 0.327,
+        "priority": "low",
+        "color": "#27ae60",
+        "flight_id": "SYLVA-STI-001",
+        "environment": "beach",
+        "location": "Stinson Beach Coastline, California"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6324459776243,
+          37.88923165976715
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-F499718A",
+        "timestamp": "2026-01-15T10:08:52.270049",
+        "category": "tire",
+        "category_name": "Tires",
+        "confidence": 0.891,
+        "size_m2": 0.4802,
+        "estimated_weight_kg": 9.073,
+        "priority": "critical",
+        "color": "#2c3e50",
+        "flight_id": "SYLVA-STI-001",
+        "environment": "beach",
+        "location": "Stinson Beach Coastline, California"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.62913222930908,
+          37.88589402368697
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-99A65D2B",
+        "timestamp": "2026-01-15T10:09:13.939668",
+        "category": "textile",
+        "category_name": "Textile/Fabric",
+        "confidence": 0.971,
+        "size_m2": 0.1348,
+        "estimated_weight_kg": 1.454,
+        "priority": "high",
+        "color": "#e74c3c",
+        "flight_id": "SYLVA-STI-001",
+        "environment": "beach",
+        "location": "Stinson Beach Coastline, California"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.62858308537294,
+          37.88529989278821
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-311BBA85",
+        "timestamp": "2026-01-15T10:09:19.748591",
+        "category": "organic_waste",
+        "category_name": "Organic Waste",
+        "confidence": 0.972,
+        "size_m2": 0.0481,
+        "estimated_weight_kg": 0.941,
+        "priority": "low",
+        "color": "#27ae60",
+        "flight_id": "SYLVA-STI-001",
+        "environment": "beach",
+        "location": "Stinson Beach Coastline, California"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.62797156503282,
+          37.884608337229345
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-8E8A9152",
+        "timestamp": "2026-01-15T10:09:25.290485",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.875,
+        "size_m2": 0.0038,
+        "estimated_weight_kg": 0.045,
+        "priority": "medium",
+        "color": "#3498db",
+        "flight_id": "SYLVA-STI-001",
+        "environment": "beach",
+        "location": "Stinson Beach Coastline, California"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.62810610347127,
+          37.883130674151566
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-160EF513",
+        "timestamp": "2026-01-15T10:09:30.823972",
         "category": "glass",
         "category_name": "Glass",
-        "confidence": 0.845,
-        "size_m2": 0.0089,
-        "estimated_weight_kg": 0.449,
+        "confidence": 0.846,
+        "size_m2": 0.0025,
+        "estimated_weight_kg": 0.3,
         "priority": "low",
         "color": "#1abc9c",
         "flight_id": "SYLVA-STI-001",
@@ -2166,17 +1974,89 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.63085863560592,
-          37.88797775383765
+          -122.62837269234589,
+          37.8822207407743
         ]
       },
       "properties": {
-        "id": "DET-2025-25B8E137",
-        "timestamp": "2026-01-15T10:07:28.651601",
+        "id": "DET-2025-8D88C4B3",
+        "timestamp": "2026-01-15T10:09:36.603482",
+        "category": "glass",
+        "category_name": "Glass",
+        "confidence": 0.859,
+        "size_m2": 0.0059,
+        "estimated_weight_kg": 0.267,
+        "priority": "low",
+        "color": "#1abc9c",
+        "flight_id": "SYLVA-STI-001",
+        "environment": "beach",
+        "location": "Stinson Beach Coastline, California"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6274862582124,
+          37.88157858758466
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-04E1CFA2",
+        "timestamp": "2026-01-15T10:09:41.858399",
+        "category": "textile",
+        "category_name": "Textile/Fabric",
+        "confidence": 0.902,
+        "size_m2": 0.1044,
+        "estimated_weight_kg": 1.245,
+        "priority": "high",
+        "color": "#e74c3c",
+        "flight_id": "SYLVA-STI-001",
+        "environment": "beach",
+        "location": "Stinson Beach Coastline, California"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.62598023135556,
+          37.88132782243028
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-9EF1F51A",
+        "timestamp": "2026-01-15T10:09:47.131025",
         "category": "plastic_bottle",
         "category_name": "Plastic Bottles",
-        "confidence": 0.756,
-        "size_m2": 0.0013,
+        "confidence": 0.989,
+        "size_m2": 0.0022,
+        "estimated_weight_kg": 0.013,
+        "priority": "low",
+        "color": "#3498db",
+        "flight_id": "SYLVA-STI-001",
+        "environment": "beach",
+        "location": "Stinson Beach Coastline, California"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.62493509670144,
+          37.88119181391877
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-EB849645",
+        "timestamp": "2026-01-15T10:09:52.406603",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.796,
+        "size_m2": 0.0037,
         "estimated_weight_kg": 0.018,
         "priority": "low",
         "color": "#3498db",
@@ -2190,19 +2070,19 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.63031924311811,
-          37.88758319213316
+          -122.6230605662107,
+          37.88099112985801
         ]
       },
       "properties": {
-        "id": "DET-2025-2F75FE03",
-        "timestamp": "2026-01-15T10:07:32.419836",
+        "id": "DET-2025-B75D9F11",
+        "timestamp": "2026-01-15T10:10:03.427484",
         "category": "glass",
         "category_name": "Glass",
-        "confidence": 0.841,
-        "size_m2": 0.0051,
-        "estimated_weight_kg": 0.278,
-        "priority": "medium",
+        "confidence": 0.856,
+        "size_m2": 0.0059,
+        "estimated_weight_kg": 0.357,
+        "priority": "low",
         "color": "#1abc9c",
         "flight_id": "SYLVA-STI-001",
         "environment": "beach",
@@ -2214,43 +2094,19 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.63008868023353,
-          37.887205201795695
+          -122.62206775937103,
+          37.880169580037084
         ]
       },
       "properties": {
-        "id": "DET-2025-F5A16C8E",
-        "timestamp": "2026-01-15T10:07:36.188070",
-        "category": "construction_waste",
-        "category_name": "Construction Waste",
-        "confidence": 0.978,
-        "size_m2": 0.5771,
-        "estimated_weight_kg": 21.779,
-        "priority": "critical",
-        "color": "#8e44ad",
-        "flight_id": "SYLVA-STI-001",
-        "environment": "beach",
-        "location": "Stinson Beach Coastline, California"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.62942185137447,
-          37.88678280652571
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-5B0C6099",
-        "timestamp": "2026-01-15T10:07:39.956305",
+        "id": "DET-2025-A088A316",
+        "timestamp": "2026-01-15T10:10:08.782971",
         "category": "glass",
         "category_name": "Glass",
-        "confidence": 0.755,
-        "size_m2": 0.0085,
-        "estimated_weight_kg": 0.328,
-        "priority": "medium",
+        "confidence": 0.815,
+        "size_m2": 0.0096,
+        "estimated_weight_kg": 0.312,
+        "priority": "low",
         "color": "#1abc9c",
         "flight_id": "SYLVA-STI-001",
         "environment": "beach",
@@ -2262,20 +2118,164 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.62903215043073,
-          37.88614186320806
+          -122.62115782057568,
+          37.87940624221893
         ]
       },
       "properties": {
-        "id": "DET-2025-2DF705F0",
-        "timestamp": "2026-01-15T10:07:43.724539",
+        "id": "DET-2025-219320C3",
+        "timestamp": "2026-01-15T10:10:14.147973",
+        "category": "glass",
+        "category_name": "Glass",
+        "confidence": 0.803,
+        "size_m2": 0.0074,
+        "estimated_weight_kg": 0.208,
+        "priority": "low",
+        "color": "#1abc9c",
+        "flight_id": "SYLVA-STI-001",
+        "environment": "beach",
+        "location": "Stinson Beach Coastline, California"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6211360922987,
+          37.8784161577288
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-94215D03",
+        "timestamp": "2026-01-15T10:10:19.812543",
+        "category": "glass",
+        "category_name": "Glass",
+        "confidence": 0.807,
+        "size_m2": 0.0038,
+        "estimated_weight_kg": 0.396,
+        "priority": "low",
+        "color": "#1abc9c",
+        "flight_id": "SYLVA-STI-001",
+        "environment": "beach",
+        "location": "Stinson Beach Coastline, California"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.61990237739937,
+          37.878170597801684
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-E70E8579",
+        "timestamp": "2026-01-15T10:10:25.409375",
+        "category": "glass",
+        "category_name": "Glass",
+        "confidence": 0.799,
+        "size_m2": 0.0055,
+        "estimated_weight_kg": 0.4,
+        "priority": "low",
+        "color": "#1abc9c",
+        "flight_id": "SYLVA-STI-001",
+        "environment": "beach",
+        "location": "Stinson Beach Coastline, California"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.61806832224549,
+          37.877645321153636
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-A59977AA",
+        "timestamp": "2026-01-15T10:10:36.139702",
         "category": "plastic_bottle",
         "category_name": "Plastic Bottles",
-        "confidence": 0.876,
-        "size_m2": 0.0035,
-        "estimated_weight_kg": 0.049,
+        "confidence": 0.89,
+        "size_m2": 0.0011,
+        "estimated_weight_kg": 0.017,
         "priority": "low",
         "color": "#3498db",
+        "flight_id": "SYLVA-STI-001",
+        "environment": "beach",
+        "location": "Stinson Beach Coastline, California"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.61675501902168,
+          37.87822959167047
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-1B507DB9",
+        "timestamp": "2026-01-15T10:10:41.397278",
+        "category": "food_packaging",
+        "category_name": "Food Packaging/Cardboard",
+        "confidence": 0.814,
+        "size_m2": 0.0107,
+        "estimated_weight_kg": 0.067,
+        "priority": "low",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-STI-001",
+        "environment": "beach",
+        "location": "Stinson Beach Coastline, California"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.61552624965653,
+          37.87833510993167
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-B93AC3D4",
+        "timestamp": "2026-01-15T10:10:46.691825",
+        "category": "food_packaging",
+        "category_name": "Food Packaging/Cardboard",
+        "confidence": 0.784,
+        "size_m2": 0.0192,
+        "estimated_weight_kg": 0.081,
+        "priority": "medium",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-STI-001",
+        "environment": "beach",
+        "location": "Stinson Beach Coastline, California"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.61421936316403,
+          37.87895463995272
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-B144FB61",
+        "timestamp": "2026-01-15T10:10:52.078799",
+        "category": "metal_debris",
+        "category_name": "Metal Debris",
+        "confidence": 0.88,
+        "size_m2": 0.0267,
+        "estimated_weight_kg": 1.709,
+        "priority": "medium",
+        "color": "#95a5a6",
         "flight_id": "SYLVA-STI-001",
         "environment": "beach",
         "location": "Stinson Beach Coastline, California"
@@ -2285,6 +2285,6 @@
   "properties": {
     "location": "Stinson Beach Coastline, California",
     "total_detections": 95,
-    "generated_at": "2025-12-26T08:52:11.914224"
+    "generated_at": "2025-12-26T09:26:29.569416"
   }
 }
