@@ -25,7 +25,7 @@ from fastapi.responses import JSONResponse
 app = FastAPI(
     title="Sylva API",
     description="API for Sylva drone environmental monitoring simulation",
-    version="1.0.0",
+    version="1.1.0",
     docs_url="/docs",
     redoc_url="/redoc",
 )
@@ -1064,7 +1064,7 @@ async def health_check() -> Dict:
     return {
         "status": "healthy",
         "timestamp": datetime.now().isoformat(),
-        "version": "1.0.0",
+        "version": "1.1.0",
     }
 
 
@@ -1074,7 +1074,7 @@ async def root():
     return {
         "name": "Sylva API",
         "description": "Drone environmental monitoring simulation API",
-        "version": "1.0.0",
+        "version": "1.1.0",
         "docs": "/docs",
         "endpoints": {
             "flights": "/api/flights",
