@@ -2,6 +2,8 @@
 Sylva API Server
 FastAPI backend for the Sylva drone simulation
 TamAir - Conrad Challenge 2026
+
+Version: 1.1.0 - Updated flight paths and geography features
 """
 
 import sys
