@@ -517,8 +517,11 @@ function App() {
     if (selectedLocation === 'all') {
       return 13  // Reasonable zoom to see the area
     }
-    return selectedLocation === 'stinson_beach' ? 14 :
-           selectedLocation === 'nasa_space_center' ? 13 : 12
+    // Zoom levels to show full flight path with all waypoints
+    if (selectedLocation === 'stinson_beach') return 13  // ~13km path
+    if (selectedLocation === 'lake_erie') return 7       // ~430km path - needs wide view
+    if (selectedLocation === 'nasa_space_center') return 12  // ~23km path
+    return 12
   }
 
   if (loading) {
