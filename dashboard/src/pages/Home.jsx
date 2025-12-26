@@ -217,7 +217,7 @@ function Home() {
             <a href="https://www.researchgate.net/profile/Shu-Li-50" target="_blank" rel="noopener noreferrer" className="collab-card">
               <img src="/logos/UC_Irvine_Anteaters_logo.png" alt="UC Irvine" className="collab-logo-img" />
               <h3>Shu Li</h3>
-              <p className="collab-role">UC Irvine Environmental Science</p>
+              <p className="collab-role">UC Irvine - Department of Civil and Environmental Engineering</p>
             </a>
           </div>
         </section>
