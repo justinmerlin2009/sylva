@@ -7,7 +7,7 @@ function Home() {
       {/* Navigation */}
       <header className="home-header">
         <Link to="/" className="home-logo">
-          <span className="logo-icon">S</span>
+          <img src="/logos/sylva-logo.svg" alt="Sylva" className="logo-icon-img" />
           <span className="logo-text">Sylva</span>
         </Link>
         <nav className="home-nav">
