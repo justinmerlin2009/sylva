@@ -233,17 +233,44 @@ function PathDrawer({
               <div className="export-buttons">
                 <button
                   className="btn btn-sm"
-                  onClick={() => {
-                    const data = JSON.stringify(selectedCustomPath, null, 2)
-                    const blob = new Blob([data], { type: 'application/json' })
-                    const url = URL.createObjectURL(blob)
-                    const a = document.createElement('a')
-                    a.href = url
-                    a.download = `${selectedCustomPath.name.replace(/\s+/g, '_')}_export.json`
-                    a.click()
+                  onClick={async () => {
+                    try {
+                      // Fetch full flight path and animation data from API
+                      const [flightRes, animRes] = await Promise.all([
+                        fetch(`http://localhost:8000/api/custom-path/${selectedCustomPath.id}/flight`),
+                        fetch(`http://localhost:8000/api/custom-path/${selectedCustomPath.id}/animation`)
+                      ])
+                      const flightPath = await flightRes.json()
+                      const animation = await animRes.json()
+
+                      // Combine all data for export
+                      const exportData = {
+                        ...selectedCustomPath,
+                        flight_path: flightPath,
+                        animation_data: animation
+                      }
+
+                      const data = JSON.stringify(exportData, null, 2)
+                      const blob = new Blob([data], { type: 'application/json' })
+                      const url = URL.createObjectURL(blob)
+                      const a = document.createElement('a')
+                      a.href = url
+                      a.download = `${selectedCustomPath.name.replace(/\s+/g, '_')}_full_export.json`
+                      a.click()
+                    } catch (error) {
+                      console.error('Export error:', error)
+                      // Fallback to basic export
+                      const data = JSON.stringify(selectedCustomPath, null, 2)
+                      const blob = new Blob([data], { type: 'application/json' })
+                      const url = URL.createObjectURL(blob)
+                      const a = document.createElement('a')
+                      a.href = url
+                      a.download = `${selectedCustomPath.name.replace(/\s+/g, '_')}_export.json`
+                      a.click()
+                    }
                   }}
                 >
-                  Export JSON
+                  Export Full Data
                 </button>
               </div>
             </div>

@@ -555,6 +555,42 @@ function App() {
     ? locations.find(l => l.id === 'stinson_beach')?.waypoints || []
     : locations.find(l => l.id === selectedLocation)?.waypoints || []
 
+  // Calculate live stats from demo detections during simulation
+  const calculateLiveStats = (detections) => {
+    if (!detections || detections.length === 0) {
+      return {
+        total_weight_kg: 0,
+        by_priority: { critical: 0, high: 0, medium: 0, low: 0 },
+        by_category: []
+      }
+    }
+
+    let totalWeight = 0
+    const priorityCounts = { critical: 0, high: 0, medium: 0, low: 0 }
+    const categoryCounts = {}
+
+    detections.forEach(det => {
+      const props = det.properties
+      totalWeight += props.estimated_weight_kg || 0
+      priorityCounts[props.priority] = (priorityCounts[props.priority] || 0) + 1
+      categoryCounts[props.category] = (categoryCounts[props.category] || 0) + 1
+    })
+
+    return {
+      total_weight_kg: totalWeight,
+      by_priority: priorityCounts,
+      by_category: Object.entries(categoryCounts).map(([cat, count]) => ({
+        category: cat,
+        count
+      }))
+    }
+  }
+
+  // Use live stats during demo, otherwise use static stats from API
+  const displayStats = demoActive || demoDetections.length > 0
+    ? calculateLiveStats(demoDetections)
+    : stats
+
   return (
     <div className="app-container">
       <Sidebar
@@ -566,7 +602,7 @@ function App() {
         onToggleCategory={toggleCategoryFilter}
         onTogglePriority={togglePriorityFilter}
         onClearFilters={clearFilters}
-        stats={stats}
+        stats={displayStats}
         detectionCount={displayDetections.length}
         showHeatmap={showHeatmap}
         onToggleHeatmap={() => setShowHeatmap(!showHeatmap)}

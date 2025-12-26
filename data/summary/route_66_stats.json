@@ -1,70 +1,70 @@
 {
   "total_detections": 95,
-  "total_estimated_weight_kg": 570.41,
-  "total_area_m2": 12.27,
+  "total_estimated_weight_kg": 526.64,
+  "total_area_m2": 14.56,
   "by_category": [
+    {
+      "category": "plastic_bottle",
+      "name": "Plastic Bottles",
+      "count": 20,
+      "percentage": 21.1,
+      "color": "#3498db"
+    },
     {
       "category": "metal_debris",
       "name": "Metal Debris",
-      "count": 22,
-      "percentage": 23.2,
+      "count": 18,
+      "percentage": 18.9,
       "color": "#95a5a6"
-    },
-    {
-      "category": "food_packaging",
-      "name": "Food Packaging/Cardboard",
-      "count": 20,
-      "percentage": 21.1,
-      "color": "#e67e22"
     },
     {
       "category": "tire",
       "name": "Tires",
-      "count": 12,
-      "percentage": 12.6,
+      "count": 14,
+      "percentage": 14.7,
       "color": "#2c3e50"
     },
     {
-      "category": "glass",
-      "name": "Glass",
-      "count": 11,
-      "percentage": 11.6,
-      "color": "#1abc9c"
+      "category": "food_packaging",
+      "name": "Food Packaging/Cardboard",
+      "count": 12,
+      "percentage": 12.6,
+      "color": "#e67e22"
     },
     {
       "category": "construction_waste",
       "name": "Construction Waste",
-      "count": 10,
-      "percentage": 10.5,
+      "count": 11,
+      "percentage": 11.6,
       "color": "#8e44ad"
-    },
-    {
-      "category": "plastic_bottle",
-      "name": "Plastic Bottles",
-      "count": 10,
-      "percentage": 10.5,
-      "color": "#3498db"
     },
     {
       "category": "organic_waste",
       "name": "Organic Waste",
-      "count": 5,
-      "percentage": 5.3,
+      "count": 9,
+      "percentage": 9.5,
       "color": "#27ae60"
+    },
+    {
+      "category": "glass",
+      "name": "Glass",
+      "count": 7,
+      "percentage": 7.4,
+      "color": "#1abc9c"
     },
     {
       "category": "textile",
       "name": "Textile/Fabric",
-      "count": 5,
-      "percentage": 5.3,
+      "count": 4,
+      "percentage": 4.2,
       "color": "#e74c3c"
     }
   ],
   "by_priority": {
-    "critical": 15,
+    "critical": 18,
     "high": 7,
-    "medium": 21,
-    "low": 52
+    "medium": 12,
+    "low": 58
   },
   "location": "Lake Erie - Highway & Waterfront, Ohio",
   "environment_type": "highway"

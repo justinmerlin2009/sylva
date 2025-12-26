@@ -210,60 +210,114 @@ class TrashDetector:
                 },
             ]
         else:
-            # Lake Erie - Highway & Waterfront hotspots
-            # Path: (41.8941, -80.7880) to (42.6925, -82.6254)
+            # Lake Erie - Highway & Waterfront hotspots (New Lake Erie path)
+            # Path: (41.9248, -80.6644) to (42.5834, -82.6254) - 429.9 km
             self.hotspots = [
+                # EASTERN SECTION - PA/OH Border
                 {
-                    "lat": 41.8900,
-                    "lon": -80.8000,
+                    "lat": 41.9200,
+                    "lon": -80.7000,
                     "radius_m": 400,
-                    "multiplier": 4.5,
-                    "name": "Conneaut Harbor Dumping",
+                    "multiplier": 4.0,
+                    "name": "Conneaut Harbor Area",
                     "primary_trash": ["tire", "metal_debris", "construction_waste"],
                 },
                 {
+                    "lat": 41.8500,
+                    "lon": -80.9500,
+                    "radius_m": 350,
+                    "multiplier": 3.5,
+                    "name": "Ashtabula County Shore",
+                    "primary_trash": ["plastic_bottle", "food_packaging", "organic_waste"],
+                },
+                # CLEVELAND METRO AREA
+                {
+                    "lat": 41.7500,
+                    "lon": -81.2500,
+                    "radius_m": 450,
+                    "multiplier": 5.0,
+                    "name": "Mentor Headlands",
+                    "primary_trash": ["plastic_bottle", "food_packaging", "glass"],
+                },
+                {
                     "lat": 41.5500,
-                    "lon": -81.6000,
+                    "lon": -81.6200,
                     "radius_m": 500,
-                    "multiplier": 6.0,
+                    "multiplier": 6.5,
                     "name": "Cleveland Industrial Zone",
                     "primary_trash": ["metal_debris", "tire", "construction_waste"],
                 },
                 {
                     "lat": 41.4800,
                     "lon": -81.7500,
-                    "radius_m": 350,
-                    "multiplier": 5.0,
+                    "radius_m": 400,
+                    "multiplier": 5.5,
                     "name": "Cleveland Harbor",
                     "primary_trash": ["plastic_bottle", "food_packaging", "tire"],
                 },
+                # SANDUSKY BAY AREA
                 {
-                    "lat": 41.3700,
-                    "lon": -82.5300,
+                    "lat": 41.4000,
+                    "lon": -82.3500,
                     "radius_m": 400,
                     "multiplier": 4.5,
+                    "name": "Lorain County Shore",
+                    "primary_trash": ["plastic_bottle", "organic_waste", "textile"],
+                },
+                {
+                    "lat": 41.3600,
+                    "lon": -82.5500,
+                    "radius_m": 450,
+                    "multiplier": 5.0,
                     "name": "Sandusky Bay Marina",
                     "primary_trash": ["plastic_bottle", "organic_waste", "glass"],
                 },
+                # TOLEDO AREA
                 {
-                    "lat": 41.6600,
-                    "lon": -83.3500,
-                    "radius_m": 450,
-                    "multiplier": 5.5,
+                    "lat": 41.5300,
+                    "lon": -83.0000,
+                    "radius_m": 400,
+                    "multiplier": 4.5,
+                    "name": "Port Clinton Area",
+                    "primary_trash": ["food_packaging", "plastic_bottle", "glass"],
+                },
+                {
+                    "lat": 41.6700,
+                    "lon": -83.4500,
+                    "radius_m": 500,
+                    "multiplier": 6.0,
                     "name": "Toledo Waterfront",
                     "primary_trash": ["food_packaging", "plastic_bottle", "metal_debris"],
                 },
+                # DETROIT RIVER AREA
                 {
-                    "lat": 42.2000,
-                    "lon": -83.1700,
+                    "lat": 42.0500,
+                    "lon": -83.2500,
+                    "radius_m": 450,
+                    "multiplier": 5.5,
+                    "name": "Monroe County Shore",
+                    "primary_trash": ["tire", "construction_waste", "metal_debris"],
+                },
+                {
+                    "lat": 42.2200,
+                    "lon": -83.1800,
                     "radius_m": 500,
                     "multiplier": 6.5,
                     "name": "Detroit River Industrial",
                     "primary_trash": ["tire", "construction_waste", "metal_debris"],
                 },
+                # NORTHERN SECTION - Lake St. Clair
                 {
-                    "lat": 42.6900,
-                    "lon": -82.6300,
+                    "lat": 42.5000,
+                    "lon": -82.8800,
+                    "radius_m": 400,
+                    "multiplier": 4.5,
+                    "name": "Grosse Pointe Area",
+                    "primary_trash": ["plastic_bottle", "food_packaging", "organic_waste"],
+                },
+                {
+                    "lat": 42.6500,
+                    "lon": -82.6500,
                     "radius_m": 350,
                     "multiplier": 4.0,
                     "name": "Lake St. Clair Shore",

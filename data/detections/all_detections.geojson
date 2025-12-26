@@ -11,7 +11,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-84B8B980",
+        "id": "DET-2025-7141411C",
         "timestamp": "2026-01-15T10:00:00",
         "category": "metal_debris",
         "category_name": "Metal Debris",
@@ -35,7 +35,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-2825CEA6",
+        "id": "DET-2025-3DF30696",
         "timestamp": "2026-01-15T10:00:10.660463",
         "category": "food_packaging",
         "category_name": "Food Packaging/Cardboard",
@@ -59,7 +59,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-E30AA1FC",
+        "id": "DET-2025-5A10C6BE",
         "timestamp": "2026-01-15T10:00:16.047078",
         "category": "construction_waste",
         "category_name": "Construction Waste",
@@ -83,7 +83,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-03599F83",
+        "id": "DET-2025-C068F4CF",
         "timestamp": "2026-01-15T10:00:21.377555",
         "category": "glass",
         "category_name": "Glass",
@@ -107,7 +107,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-99CD9631",
+        "id": "DET-2025-5BC8E593",
         "timestamp": "2026-01-15T10:00:26.681836",
         "category": "organic_waste",
         "category_name": "Organic Waste",
@@ -131,7 +131,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-900B9439",
+        "id": "DET-2025-A3AD2441",
         "timestamp": "2026-01-15T10:00:31.999513",
         "category": "organic_waste",
         "category_name": "Organic Waste",
@@ -155,7 +155,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-1FB800B0",
+        "id": "DET-2025-97F0A54D",
         "timestamp": "2026-01-15T10:00:37.327241",
         "category": "organic_waste",
         "category_name": "Organic Waste",
@@ -179,7 +179,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-CEA1296B",
+        "id": "DET-2025-1810E86D",
         "timestamp": "2026-01-15T10:00:47.887773",
         "category": "textile",
         "category_name": "Textile/Fabric",
@@ -203,7 +203,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-FCF46685",
+        "id": "DET-2025-2ED1F28F",
         "timestamp": "2026-01-15T10:00:53.204310",
         "category": "food_packaging",
         "category_name": "Food Packaging/Cardboard",
@@ -227,7 +227,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-B59080C8",
+        "id": "DET-2025-352738F3",
         "timestamp": "2026-01-15T10:00:58.538534",
         "category": "plastic_bottle",
         "category_name": "Plastic Bottles",
@@ -251,7 +251,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-E214CB0C",
+        "id": "DET-2025-18AEB1B1",
         "timestamp": "2026-01-15T10:01:03.939082",
         "category": "glass",
         "category_name": "Glass",
@@ -275,7 +275,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-B753B2C9",
+        "id": "DET-2025-8FC1FE59",
         "timestamp": "2026-01-15T10:01:14.704685",
         "category": "organic_waste",
         "category_name": "Organic Waste",
@@ -299,7 +299,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-792BC7B3",
+        "id": "DET-2025-9AA2B777",
         "timestamp": "2026-01-15T10:01:20.025101",
         "category": "food_packaging",
         "category_name": "Food Packaging/Cardboard",
@@ -323,7 +323,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-EE5D178F",
+        "id": "DET-2025-C6209F1A",
         "timestamp": "2026-01-15T10:01:25.529157",
         "category": "glass",
         "category_name": "Glass",
@@ -347,7 +347,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-705ADCBB",
+        "id": "DET-2025-3CDD2192",
         "timestamp": "2026-01-15T10:01:31.166494",
         "category": "organic_waste",
         "category_name": "Organic Waste",
@@ -371,7 +371,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-DF683A06",
+        "id": "DET-2025-340B3CED",
         "timestamp": "2026-01-15T10:01:42.415277",
         "category": "glass",
         "category_name": "Glass",
@@ -395,7 +395,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-738E8B2C",
+        "id": "DET-2025-6ADC93D8",
         "timestamp": "2026-01-15T10:01:53.194068",
         "category": "plastic_bottle",
         "category_name": "Plastic Bottles",
@@ -419,7 +419,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-753E336F",
+        "id": "DET-2025-25CF8CDB",
         "timestamp": "2026-01-15T10:01:58.463112",
         "category": "glass",
         "category_name": "Glass",
@@ -443,7 +443,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-89000673",
+        "id": "DET-2025-5D7F136D",
         "timestamp": "2026-01-15T10:02:03.799168",
         "category": "plastic_bottle",
         "category_name": "Plastic Bottles",
@@ -467,7 +467,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-0652D42B",
+        "id": "DET-2025-C3EBB0C8",
         "timestamp": "2026-01-15T10:02:09.224563",
         "category": "textile",
         "category_name": "Textile/Fabric",
@@ -491,7 +491,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-3D0E68F1",
+        "id": "DET-2025-E679F094",
         "timestamp": "2026-01-15T10:02:14.773393",
         "category": "plastic_bottle",
         "category_name": "Plastic Bottles",
@@ -515,7 +515,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-3C74A20B",
+        "id": "DET-2025-9BBD9F8D",
         "timestamp": "2026-01-15T10:02:20.371611",
         "category": "metal_debris",
         "category_name": "Metal Debris",
@@ -539,7 +539,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-7878B786",
+        "id": "DET-2025-828167FC",
         "timestamp": "2026-01-15T10:02:25.926275",
         "category": "food_packaging",
         "category_name": "Food Packaging/Cardboard",
@@ -563,7 +563,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-C11F23DA",
+        "id": "DET-2025-BE952DC0",
         "timestamp": "2026-01-15T10:02:31.465769",
         "category": "plastic_bottle",
         "category_name": "Plastic Bottles",
@@ -587,7 +587,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-ED2F44AA",
+        "id": "DET-2025-E02C9B85",
         "timestamp": "2026-01-15T10:02:42.485860",
         "category": "textile",
         "category_name": "Textile/Fabric",
@@ -611,7 +611,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-1D51221F",
+        "id": "DET-2025-C6EDD07F",
         "timestamp": "2026-01-15T10:02:47.908057",
         "category": "plastic_bottle",
         "category_name": "Plastic Bottles",
@@ -635,7 +635,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-326B35C9",
+        "id": "DET-2025-16F0C838",
         "timestamp": "2026-01-15T10:02:53.422515",
         "category": "plastic_bottle",
         "category_name": "Plastic Bottles",
@@ -659,7 +659,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-017B660B",
+        "id": "DET-2025-9D695CA4",
         "timestamp": "2026-01-15T10:02:58.931421",
         "category": "glass",
         "category_name": "Glass",
@@ -683,7 +683,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-0C740443",
+        "id": "DET-2025-2DEF3739",
         "timestamp": "2026-01-15T10:03:04.426488",
         "category": "glass",
         "category_name": "Glass",
@@ -707,7 +707,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-B09255AB",
+        "id": "DET-2025-165EDF1D",
         "timestamp": "2026-01-15T10:03:09.905024",
         "category": "plastic_bottle",
         "category_name": "Plastic Bottles",
@@ -731,7 +731,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-E9014BDB",
+        "id": "DET-2025-F8ADAF38",
         "timestamp": "2026-01-15T10:03:15.361530",
         "category": "textile",
         "category_name": "Textile/Fabric",
@@ -755,7 +755,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-EDA64BC4",
+        "id": "DET-2025-CB704028",
         "timestamp": "2026-01-15T10:03:20.863016",
         "category": "glass",
         "category_name": "Glass",
@@ -779,7 +779,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-44C00A3E",
+        "id": "DET-2025-3702AF46",
         "timestamp": "2026-01-15T10:03:26.316694",
         "category": "food_packaging",
         "category_name": "Food Packaging/Cardboard",
@@ -803,7 +803,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-0CEA148E",
+        "id": "DET-2025-53B25229",
         "timestamp": "2026-01-15T10:03:31.661631",
         "category": "plastic_bottle",
         "category_name": "Plastic Bottles",
@@ -827,7 +827,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-7299B0F9",
+        "id": "DET-2025-16E6A3BB",
         "timestamp": "2026-01-15T10:03:37.134503",
         "category": "glass",
         "category_name": "Glass",
@@ -851,7 +851,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-B89B3113",
+        "id": "DET-2025-E3758D0A",
         "timestamp": "2026-01-15T10:03:42.927252",
         "category": "food_packaging",
         "category_name": "Food Packaging/Cardboard",
@@ -875,7 +875,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-7155C10E",
+        "id": "DET-2025-6AB4346A",
         "timestamp": "2026-01-15T10:04:00.070479",
         "category": "plastic_bottle",
         "category_name": "Plastic Bottles",
@@ -899,7 +899,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-45EBA391",
+        "id": "DET-2025-5FD7C5A3",
         "timestamp": "2026-01-15T10:04:05.334072",
         "category": "plastic_bottle",
         "category_name": "Plastic Bottles",
@@ -923,7 +923,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-EB5C6EA3",
+        "id": "DET-2025-D9E2E661",
         "timestamp": "2026-01-15T10:04:10.597644",
         "category": "plastic_bottle",
         "category_name": "Plastic Bottles",
@@ -947,7 +947,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-22BEE68C",
+        "id": "DET-2025-00579002",
         "timestamp": "2026-01-15T10:04:16.053512",
         "category": "organic_waste",
         "category_name": "Organic Waste",
@@ -971,7 +971,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-62A09CA3",
+        "id": "DET-2025-27366229",
         "timestamp": "2026-01-15T10:04:21.425969",
         "category": "food_packaging",
         "category_name": "Food Packaging/Cardboard",
@@ -995,7 +995,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-78D2863B",
+        "id": "DET-2025-A638354A",
         "timestamp": "2026-01-15T10:04:26.687207",
         "category": "organic_waste",
         "category_name": "Organic Waste",
@@ -1019,7 +1019,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-E00494A5",
+        "id": "DET-2025-D6F0DD10",
         "timestamp": "2026-01-15T10:04:37.511798",
         "category": "textile",
         "category_name": "Textile/Fabric",
@@ -1043,7 +1043,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-2F7EFE28",
+        "id": "DET-2025-85EA7C13",
         "timestamp": "2026-01-15T10:04:43.240762",
         "category": "food_packaging",
         "category_name": "Food Packaging/Cardboard",
@@ -1067,7 +1067,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-603DBA20",
+        "id": "DET-2025-674BA307",
         "timestamp": "2026-01-15T10:04:48.910751",
         "category": "glass",
         "category_name": "Glass",
@@ -1091,7 +1091,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-B39F7D2B",
+        "id": "DET-2025-AB870D8B",
         "timestamp": "2026-01-15T10:04:54.307455",
         "category": "textile",
         "category_name": "Textile/Fabric",
@@ -1115,7 +1115,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-43DBE786",
+        "id": "DET-2025-7D6505BB",
         "timestamp": "2026-01-15T10:04:59.594225",
         "category": "textile",
         "category_name": "Textile/Fabric",
@@ -1139,7 +1139,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-A1F0AEA3",
+        "id": "DET-2025-EA0E12A4",
         "timestamp": "2026-01-15T10:05:05.076016",
         "category": "food_packaging",
         "category_name": "Food Packaging/Cardboard",
@@ -1163,7 +1163,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-1836004C",
+        "id": "DET-2025-80AD31FD",
         "timestamp": "2026-01-15T10:05:10.486376",
         "category": "plastic_bottle",
         "category_name": "Plastic Bottles",
@@ -1187,7 +1187,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-9806BEFE",
+        "id": "DET-2025-DEE3AD3B",
         "timestamp": "2026-01-15T10:05:15.896737",
         "category": "food_packaging",
         "category_name": "Food Packaging/Cardboard",
@@ -1211,7 +1211,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-75C9A1B5",
+        "id": "DET-2025-D41AC8E9",
         "timestamp": "2026-01-15T10:05:31.811215",
         "category": "food_packaging",
         "category_name": "Food Packaging/Cardboard",
@@ -1235,7 +1235,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-7B542189",
+        "id": "DET-2025-340796E2",
         "timestamp": "2026-01-15T10:05:37.134289",
         "category": "tire",
         "category_name": "Tires",
@@ -1259,7 +1259,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-D207FEF3",
+        "id": "DET-2025-1D1E55BC",
         "timestamp": "2026-01-15T10:05:42.457372",
         "category": "plastic_bottle",
         "category_name": "Plastic Bottles",
@@ -1283,7 +1283,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-53D2F93C",
+        "id": "DET-2025-FAC660DB",
         "timestamp": "2026-01-15T10:05:47.842133",
         "category": "food_packaging",
         "category_name": "Food Packaging/Cardboard",
@@ -1307,7 +1307,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-1E466E97",
+        "id": "DET-2025-C3128E10",
         "timestamp": "2026-01-15T10:05:53.225240",
         "category": "plastic_bottle",
         "category_name": "Plastic Bottles",
@@ -1331,7 +1331,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-E07F6676",
+        "id": "DET-2025-BA1D2096",
         "timestamp": "2026-01-15T10:05:58.542560",
         "category": "organic_waste",
         "category_name": "Organic Waste",
@@ -1355,7 +1355,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-BF374CB0",
+        "id": "DET-2025-5929E3D0",
         "timestamp": "2026-01-15T10:06:20.971945",
         "category": "plastic_bottle",
         "category_name": "Plastic Bottles",
@@ -1379,7 +1379,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-FCF090CC",
+        "id": "DET-2025-40820380",
         "timestamp": "2026-01-15T10:06:31.592534",
         "category": "plastic_bottle",
         "category_name": "Plastic Bottles",
@@ -1403,7 +1403,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-F5C85D62",
+        "id": "DET-2025-9D18064A",
         "timestamp": "2026-01-15T10:06:36.883305",
         "category": "food_packaging",
         "category_name": "Food Packaging/Cardboard",
@@ -1427,7 +1427,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-11017248",
+        "id": "DET-2025-1BD62C75",
         "timestamp": "2026-01-15T10:06:42.174099",
         "category": "plastic_bottle",
         "category_name": "Plastic Bottles",
@@ -1451,7 +1451,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-A82CA31A",
+        "id": "DET-2025-9001144A",
         "timestamp": "2026-01-15T10:06:47.503106",
         "category": "organic_waste",
         "category_name": "Organic Waste",
@@ -1475,7 +1475,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-B70A76F4",
+        "id": "DET-2025-7CD41262",
         "timestamp": "2026-01-15T10:06:52.838505",
         "category": "food_packaging",
         "category_name": "Food Packaging/Cardboard",
@@ -1499,7 +1499,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-E6A8F512",
+        "id": "DET-2025-35608111",
         "timestamp": "2026-01-15T10:06:58.173930",
         "category": "plastic_bottle",
         "category_name": "Plastic Bottles",
@@ -1523,7 +1523,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-5FD1E4F7",
+        "id": "DET-2025-61844257",
         "timestamp": "2026-01-15T10:07:03.522879",
         "category": "plastic_bottle",
         "category_name": "Plastic Bottles",
@@ -1547,7 +1547,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-8EA466F8",
+        "id": "DET-2025-F9DC054B",
         "timestamp": "2026-01-15T10:07:19.671127",
         "category": "textile",
         "category_name": "Textile/Fabric",
@@ -1571,7 +1571,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-AE9A998D",
+        "id": "DET-2025-3C5B7202",
         "timestamp": "2026-01-15T10:07:25.085026",
         "category": "metal_debris",
         "category_name": "Metal Debris",
@@ -1595,7 +1595,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-34836060",
+        "id": "DET-2025-5CF9F274",
         "timestamp": "2026-01-15T10:07:30.540414",
         "category": "construction_waste",
         "category_name": "Construction Waste",
@@ -1619,7 +1619,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-BFBAC6F1",
+        "id": "DET-2025-71403EFF",
         "timestamp": "2026-01-15T10:07:35.995830",
         "category": "food_packaging",
         "category_name": "Food Packaging/Cardboard",
@@ -1643,7 +1643,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-DA96F602",
+        "id": "DET-2025-BB5F0038",
         "timestamp": "2026-01-15T10:07:47.210451",
         "category": "glass",
         "category_name": "Glass",
@@ -1667,7 +1667,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-5CD95588",
+        "id": "DET-2025-C05ECB99",
         "timestamp": "2026-01-15T10:07:58.303955",
         "category": "organic_waste",
         "category_name": "Organic Waste",
@@ -1691,7 +1691,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-725FB035",
+        "id": "DET-2025-51C0E16E",
         "timestamp": "2026-01-15T10:08:03.797373",
         "category": "organic_waste",
         "category_name": "Organic Waste",
@@ -1715,7 +1715,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-B368D907",
+        "id": "DET-2025-7948C3D7",
         "timestamp": "2026-01-15T10:08:09.259149",
         "category": "tire",
         "category_name": "Tires",
@@ -1739,7 +1739,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-250766EC",
+        "id": "DET-2025-CCF8BD2D",
         "timestamp": "2026-01-15T10:08:20.078531",
         "category": "textile",
         "category_name": "Textile/Fabric",
@@ -1763,7 +1763,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-61A784C4",
+        "id": "DET-2025-CEBD7F4B",
         "timestamp": "2026-01-15T10:08:25.394433",
         "category": "construction_waste",
         "category_name": "Construction Waste",
@@ -1787,7 +1787,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-64E261C9",
+        "id": "DET-2025-F9DD6ABA",
         "timestamp": "2026-01-15T10:08:30.710356",
         "category": "plastic_bottle",
         "category_name": "Plastic Bottles",
@@ -1811,7 +1811,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-C0A3E533",
+        "id": "DET-2025-3805ED8F",
         "timestamp": "2026-01-15T10:08:41.239436",
         "category": "plastic_bottle",
         "category_name": "Plastic Bottles",
@@ -1835,7 +1835,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-B826014C",
+        "id": "DET-2025-0A74833B",
         "timestamp": "2026-01-15T10:08:46.734366",
         "category": "organic_waste",
         "category_name": "Organic Waste",
@@ -1859,7 +1859,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-F499718A",
+        "id": "DET-2025-6951C791",
         "timestamp": "2026-01-15T10:08:52.270049",
         "category": "tire",
         "category_name": "Tires",
@@ -1883,7 +1883,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-99A65D2B",
+        "id": "DET-2025-7183533D",
         "timestamp": "2026-01-15T10:09:13.939668",
         "category": "textile",
         "category_name": "Textile/Fabric",
@@ -1907,7 +1907,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-311BBA85",
+        "id": "DET-2025-8E35E6E7",
         "timestamp": "2026-01-15T10:09:19.748591",
         "category": "organic_waste",
         "category_name": "Organic Waste",
@@ -1931,7 +1931,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-8E8A9152",
+        "id": "DET-2025-89BAEA62",
         "timestamp": "2026-01-15T10:09:25.290485",
         "category": "plastic_bottle",
         "category_name": "Plastic Bottles",
@@ -1955,7 +1955,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-160EF513",
+        "id": "DET-2025-32FBFE66",
         "timestamp": "2026-01-15T10:09:30.823972",
         "category": "glass",
         "category_name": "Glass",
@@ -1979,7 +1979,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-8D88C4B3",
+        "id": "DET-2025-8EAF09AC",
         "timestamp": "2026-01-15T10:09:36.603482",
         "category": "glass",
         "category_name": "Glass",
@@ -2003,7 +2003,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-04E1CFA2",
+        "id": "DET-2025-1473C5A5",
         "timestamp": "2026-01-15T10:09:41.858399",
         "category": "textile",
         "category_name": "Textile/Fabric",
@@ -2027,7 +2027,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-9EF1F51A",
+        "id": "DET-2025-2ABBCAE1",
         "timestamp": "2026-01-15T10:09:47.131025",
         "category": "plastic_bottle",
         "category_name": "Plastic Bottles",
@@ -2051,7 +2051,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-EB849645",
+        "id": "DET-2025-E0322988",
         "timestamp": "2026-01-15T10:09:52.406603",
         "category": "plastic_bottle",
         "category_name": "Plastic Bottles",
@@ -2075,7 +2075,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-B75D9F11",
+        "id": "DET-2025-F1B22E3D",
         "timestamp": "2026-01-15T10:10:03.427484",
         "category": "glass",
         "category_name": "Glass",
@@ -2099,7 +2099,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-A088A316",
+        "id": "DET-2025-3E57D956",
         "timestamp": "2026-01-15T10:10:08.782971",
         "category": "glass",
         "category_name": "Glass",
@@ -2123,7 +2123,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-219320C3",
+        "id": "DET-2025-194C6609",
         "timestamp": "2026-01-15T10:10:14.147973",
         "category": "glass",
         "category_name": "Glass",
@@ -2147,7 +2147,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-94215D03",
+        "id": "DET-2025-78AE093F",
         "timestamp": "2026-01-15T10:10:19.812543",
         "category": "glass",
         "category_name": "Glass",
@@ -2171,7 +2171,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-E70E8579",
+        "id": "DET-2025-7DA8266F",
         "timestamp": "2026-01-15T10:10:25.409375",
         "category": "glass",
         "category_name": "Glass",
@@ -2195,7 +2195,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-A59977AA",
+        "id": "DET-2025-02BC47B2",
         "timestamp": "2026-01-15T10:10:36.139702",
         "category": "plastic_bottle",
         "category_name": "Plastic Bottles",
@@ -2219,7 +2219,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-1B507DB9",
+        "id": "DET-2025-903B34D2",
         "timestamp": "2026-01-15T10:10:41.397278",
         "category": "food_packaging",
         "category_name": "Food Packaging/Cardboard",
@@ -2243,7 +2243,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-B93AC3D4",
+        "id": "DET-2025-1A257257",
         "timestamp": "2026-01-15T10:10:46.691825",
         "category": "food_packaging",
         "category_name": "Food Packaging/Cardboard",
@@ -2267,7 +2267,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-B144FB61",
+        "id": "DET-2025-15F148C7",
         "timestamp": "2026-01-15T10:10:52.078799",
         "category": "metal_debris",
         "category_name": "Metal Debris",
@@ -2286,18 +2286,66 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -80.78765419733313,
-          41.89430797296498
+          -80.66433267051097,
+          41.924785767592745
         ]
       },
       "properties": {
-        "id": "DET-2025-4BB4942B",
+        "id": "DET-2025-5D3A5D4E",
         "timestamp": "2026-01-15T10:00:00",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.795,
+        "size_m2": 0.0035,
+        "estimated_weight_kg": 0.023,
+        "priority": "low",
+        "color": "#3498db",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.70589262694298,
+          41.914381765283906
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-AEB8E7FC",
+        "timestamp": "2026-01-15T10:02:24.004209",
+        "category": "metal_debris",
+        "category_name": "Metal Debris",
+        "confidence": 0.792,
+        "size_m2": 0.042,
+        "estimated_weight_kg": 3.403,
+        "priority": "low",
+        "color": "#95a5a6",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.74694115444758,
+          41.90398539984017
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-7339E739",
+        "timestamp": "2026-01-15T10:04:48.029608",
         "category": "food_packaging",
         "category_name": "Food Packaging/Cardboard",
-        "confidence": 0.818,
-        "size_m2": 0.0125,
-        "estimated_weight_kg": 0.044,
+        "confidence": 0.961,
+        "size_m2": 0.0067,
+        "estimated_weight_kg": 0.094,
         "priority": "low",
         "color": "#e67e22",
         "flight_id": "SYLVA-ROU-001",
@@ -2310,20 +2358,20 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -80.82271158415367,
-          41.87899048508058
+          -80.78780485992479,
+          41.89349248171396
         ]
       },
       "properties": {
-        "id": "DET-2025-B5F8E48F",
-        "timestamp": "2026-01-15T10:02:12.622884",
-        "category": "food_packaging",
-        "category_name": "Food Packaging/Cardboard",
-        "confidence": 0.785,
-        "size_m2": 0.0186,
-        "estimated_weight_kg": 0.039,
+        "id": "DET-2025-7DFCDB3F",
+        "timestamp": "2026-01-15T10:07:12.076192",
+        "category": "metal_debris",
+        "category_name": "Metal Debris",
+        "confidence": 0.965,
+        "size_m2": 0.0431,
+        "estimated_weight_kg": 0.919,
         "priority": "low",
-        "color": "#e67e22",
+        "color": "#95a5a6",
         "flight_id": "SYLVA-ROU-001",
         "environment": "highway",
         "location": "Lake Erie - Highway & Waterfront, Ohio"
@@ -2334,18 +2382,18 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -80.85673299353532,
-          41.86375439349707
+          -80.8291723769629,
+          41.882716151061906
         ]
       },
       "properties": {
-        "id": "DET-2025-BC480B98",
-        "timestamp": "2026-01-15T10:04:25.245768",
+        "id": "DET-2025-5B32BA0B",
+        "timestamp": "2026-01-15T10:09:36.143958",
         "category": "construction_waste",
         "category_name": "Construction Waste",
-        "confidence": 0.838,
-        "size_m2": 0.4282,
-        "estimated_weight_kg": 39.129,
+        "confidence": 0.937,
+        "size_m2": 0.9228,
+        "estimated_weight_kg": 45.483,
         "priority": "critical",
         "color": "#8e44ad",
         "flight_id": "SYLVA-ROU-001",
@@ -2358,18 +2406,162 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -80.89158508371449,
-          41.848798658913346
+          -80.91150017617406,
+          41.86250659759314
         ]
       },
       "properties": {
-        "id": "DET-2025-F742E8D5",
-        "timestamp": "2026-01-15T10:06:37.868653",
+        "id": "DET-2025-D48F9A2A",
+        "timestamp": "2026-01-15T10:14:24.325869",
+        "category": "metal_debris",
+        "category_name": "Metal Debris",
+        "confidence": 0.909,
+        "size_m2": 0.0257,
+        "estimated_weight_kg": 0.957,
+        "priority": "low",
+        "color": "#95a5a6",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.95311432180857,
+          41.853082802802035
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-41D047CD",
+        "timestamp": "2026-01-15T10:16:48.440742",
+        "category": "metal_debris",
+        "category_name": "Metal Debris",
+        "confidence": 0.807,
+        "size_m2": 0.0418,
+        "estimated_weight_kg": 3.705,
+        "priority": "low",
+        "color": "#95a5a6",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.9945738958489,
+          41.84346669325611
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-365F3718",
+        "timestamp": "2026-01-15T10:19:12.575455",
+        "category": "metal_debris",
+        "category_name": "Metal Debris",
+        "confidence": 0.838,
+        "size_m2": 0.0676,
+        "estimated_weight_kg": 0.922,
+        "priority": "low",
+        "color": "#95a5a6",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.03411296890907,
+          41.82974185591794
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-7C3CE2D0",
+        "timestamp": "2026-01-15T10:21:36.622303",
+        "category": "glass",
+        "category_name": "Glass",
+        "confidence": 0.871,
+        "size_m2": 0.0072,
+        "estimated_weight_kg": 0.438,
+        "priority": "low",
+        "color": "#1abc9c",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.07295260140708,
+          41.81522379236665
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-5A8C9A79",
+        "timestamp": "2026-01-15T10:24:00.738053",
+        "category": "food_packaging",
+        "category_name": "Food Packaging/Cardboard",
+        "confidence": 0.793,
+        "size_m2": 0.0054,
+        "estimated_weight_kg": 0.072,
+        "priority": "low",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.11163148992524,
+          41.80050542228377
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-C2FAF3E8",
+        "timestamp": "2026-01-15T10:26:24.780021",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.982,
+        "size_m2": 0.0038,
+        "estimated_weight_kg": 0.027,
+        "priority": "low",
+        "color": "#3498db",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.14964672782908,
+          41.78450625965438
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-67229A56",
+        "timestamp": "2026-01-15T10:28:48.795779",
         "category": "organic_waste",
         "category_name": "Organic Waste",
-        "confidence": 0.76,
-        "size_m2": 0.0294,
-        "estimated_weight_kg": 0.268,
+        "confidence": 0.884,
+        "size_m2": 0.0293,
+        "estimated_weight_kg": 0.253,
         "priority": "low",
         "color": "#27ae60",
         "flight_id": "SYLVA-ROU-001",
@@ -2382,17 +2574,1241 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -80.92568943203594,
-          41.83338850418797
+          -81.18786066406949,
+          41.76898691243371
         ]
       },
       "properties": {
-        "id": "DET-2025-16B80E66",
-        "timestamp": "2026-01-15T10:08:50.491537",
+        "id": "DET-2025-DD2D282F",
+        "timestamp": "2026-01-15T10:31:12.838490",
+        "category": "metal_debris",
+        "category_name": "Metal Debris",
+        "confidence": 0.874,
+        "size_m2": 0.0993,
+        "estimated_weight_kg": 1.13,
+        "priority": "medium",
+        "color": "#95a5a6",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.22481335859946,
+          41.75261075108093
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-DC50CA4A",
+        "timestamp": "2026-01-15T10:33:36.899817",
+        "category": "tire",
+        "category_name": "Tires",
+        "confidence": 0.944,
+        "size_m2": 0.2351,
+        "estimated_weight_kg": 13.666,
+        "priority": "high",
+        "color": "#2c3e50",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.30049981342088,
+          41.720531066268435
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-B6316BC0",
+        "timestamp": "2026-01-15T10:38:25.137296",
+        "category": "construction_waste",
+        "category_name": "Construction Waste",
+        "confidence": 0.941,
+        "size_m2": 0.7375,
+        "estimated_weight_kg": 38.079,
+        "priority": "critical",
+        "color": "#8e44ad",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.37651126726627,
+          41.68912113914215
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-CF09EA9B",
+        "timestamp": "2026-01-15T10:43:13.428386",
+        "category": "metal_debris",
+        "category_name": "Metal Debris",
+        "confidence": 0.88,
+        "size_m2": 0.0277,
+        "estimated_weight_kg": 2.595,
+        "priority": "low",
+        "color": "#95a5a6",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.41073623664569,
+          41.66902420952493
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-16F0E669",
+        "timestamp": "2026-01-15T10:45:37.471054",
+        "category": "organic_waste",
+        "category_name": "Organic Waste",
+        "confidence": 0.875,
+        "size_m2": 0.0312,
+        "estimated_weight_kg": 0.214,
+        "priority": "low",
+        "color": "#27ae60",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.44114357248615,
+          41.64658908917053
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-103C1D2E",
+        "timestamp": "2026-01-15T10:48:01.425911",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.903,
+        "size_m2": 0.0026,
+        "estimated_weight_kg": 0.032,
+        "priority": "low",
+        "color": "#3498db",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.46871671259431,
+          41.6215774480092
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-72F17660",
+        "timestamp": "2026-01-15T10:50:25.494446",
+        "category": "construction_waste",
+        "category_name": "Construction Waste",
+        "confidence": 0.769,
+        "size_m2": 0.4531,
+        "estimated_weight_kg": 27.559,
+        "priority": "critical",
+        "color": "#8e44ad",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.49699419202832,
+          41.597574157800665
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-E4397CBD",
+        "timestamp": "2026-01-15T10:52:49.423715",
+        "category": "tire",
+        "category_name": "Tires",
+        "confidence": 0.81,
+        "size_m2": 0.19,
+        "estimated_weight_kg": 9.095,
+        "priority": "high",
+        "color": "#2c3e50",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.60604253895588,
+          41.54428762648013
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-5EAC3125",
+        "timestamp": "2026-01-15T11:00:01.605860",
+        "category": "textile",
+        "category_name": "Textile/Fabric",
+        "confidence": 0.897,
+        "size_m2": 0.1607,
+        "estimated_weight_kg": 1.198,
+        "priority": "medium",
+        "color": "#e74c3c",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.64103997383883,
+          41.52566395931753
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-823D1880",
+        "timestamp": "2026-01-15T11:02:25.650749",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.76,
+        "size_m2": 0.0013,
+        "estimated_weight_kg": 0.012,
+        "priority": "low",
+        "color": "#3498db",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.67211220363649,
+          41.50277566156372
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-15D6662B",
+        "timestamp": "2026-01-15T11:04:49.728221",
+        "category": "tire",
+        "category_name": "Tires",
+        "confidence": 0.854,
+        "size_m2": 0.3026,
+        "estimated_weight_kg": 9.212,
+        "priority": "high",
+        "color": "#2c3e50",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.7068882027842,
+          41.485536723443765
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-85DFDA73",
+        "timestamp": "2026-01-15T11:07:13.460329",
+        "category": "tire",
+        "category_name": "Tires",
+        "confidence": 0.956,
+        "size_m2": 0.3597,
+        "estimated_weight_kg": 11.522,
+        "priority": "critical",
+        "color": "#2c3e50",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.74858842011663,
+          41.47798272260503
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-BDFCDA7E",
+        "timestamp": "2026-01-15T11:09:37.627543",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.888,
+        "size_m2": 0.0028,
+        "estimated_weight_kg": 0.048,
+        "priority": "low",
+        "color": "#3498db",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.83352113733247,
+          41.46548644038176
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-FAD3B46B",
+        "timestamp": "2026-01-15T11:14:25.923378",
+        "category": "glass",
+        "category_name": "Glass",
+        "confidence": 0.967,
+        "size_m2": 0.0054,
+        "estimated_weight_kg": 0.488,
+        "priority": "low",
+        "color": "#1abc9c",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.87650148061394,
+          41.459772605125195
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-BAC5C566",
+        "timestamp": "2026-01-15T11:16:50.059870",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.827,
+        "size_m2": 0.003,
+        "estimated_weight_kg": 0.013,
+        "priority": "low",
+        "color": "#3498db",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.95149267933073,
+          41.48419416662147
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-365AE9B3",
+        "timestamp": "2026-01-15T11:21:37.991264",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.961,
+        "size_m2": 0.0031,
+        "estimated_weight_kg": 0.035,
+        "priority": "low",
+        "color": "#3498db",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.99064427256562,
+          41.49501375006091
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-20AF8ACD",
+        "timestamp": "2026-01-15T11:24:01.425124",
+        "category": "construction_waste",
+        "category_name": "Construction Waste",
+        "confidence": 0.849,
+        "size_m2": 0.8551,
+        "estimated_weight_kg": 49.62,
+        "priority": "critical",
+        "color": "#8e44ad",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.03324128037394,
+          41.497247543537604
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-D0B1B3F5",
+        "timestamp": "2026-01-15T11:26:25.522025",
+        "category": "organic_waste",
+        "category_name": "Organic Waste",
+        "confidence": 0.931,
+        "size_m2": 0.0343,
+        "estimated_weight_kg": 0.776,
+        "priority": "low",
+        "color": "#27ae60",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.07502092519191,
+          41.491694886720175
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-B9080138",
+        "timestamp": "2026-01-15T11:28:49.305551",
         "category": "food_packaging",
         "category_name": "Food Packaging/Cardboard",
-        "confidence": 0.916,
-        "size_m2": 0.0147,
+        "confidence": 0.753,
+        "size_m2": 0.0184,
+        "estimated_weight_kg": 0.051,
+        "priority": "low",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.11545869891941,
+          41.48022964882144
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-717695EF",
+        "timestamp": "2026-01-15T11:31:13.467637",
+        "category": "textile",
+        "category_name": "Textile/Fabric",
+        "confidence": 0.858,
+        "size_m2": 0.136,
+        "estimated_weight_kg": 1.337,
+        "priority": "medium",
+        "color": "#e74c3c",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.15612926260535,
+          41.469092654049355
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-CE2CBB06",
+        "timestamp": "2026-01-15T11:33:37.651812",
+        "category": "construction_waste",
+        "category_name": "Construction Waste",
+        "confidence": 0.869,
+        "size_m2": 0.8422,
+        "estimated_weight_kg": 13.648,
+        "priority": "critical",
+        "color": "#8e44ad",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.19533695566693,
+          41.455574532586866
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-33873C4F",
+        "timestamp": "2026-01-15T11:36:01.693888",
+        "category": "tire",
+        "category_name": "Tires",
+        "confidence": 0.933,
+        "size_m2": 0.1689,
+        "estimated_weight_kg": 9.001,
+        "priority": "high",
+        "color": "#2c3e50",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.23402163138967,
+          41.4408456557577
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-943C3511",
+        "timestamp": "2026-01-15T11:38:25.719127",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.77,
+        "size_m2": 0.0035,
+        "estimated_weight_kg": 0.038,
+        "priority": "low",
+        "color": "#3498db",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.2729883319524,
+          41.42654830030307
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-6AC0290C",
+        "timestamp": "2026-01-15T11:40:49.770082",
+        "category": "organic_waste",
+        "category_name": "Organic Waste",
+        "confidence": 0.931,
+        "size_m2": 0.0576,
+        "estimated_weight_kg": 0.987,
+        "priority": "low",
+        "color": "#27ae60",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.31185358238693,
+          41.41306497837653
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-2AB45E02",
+        "timestamp": "2026-01-15T11:43:13.828907",
+        "category": "tire",
+        "category_name": "Tires",
+        "confidence": 0.868,
+        "size_m2": 0.4649,
+        "estimated_weight_kg": 8.778,
+        "priority": "high",
+        "color": "#2c3e50",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.35412665170479,
+          41.40506587856324
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-B892698A",
+        "timestamp": "2026-01-15T11:45:37.897557",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.89,
+        "size_m2": 0.0029,
+        "estimated_weight_kg": 0.04,
+        "priority": "low",
+        "color": "#3498db",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.39548406086374,
+          41.39739196903333
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-EE50588E",
+        "timestamp": "2026-01-15T11:48:01.982328",
+        "category": "food_packaging",
+        "category_name": "Food Packaging/Cardboard",
+        "confidence": 0.983,
+        "size_m2": 0.0194,
+        "estimated_weight_kg": 0.021,
+        "priority": "low",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.43736208192972,
+          41.389875365206805
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-08B8E3A5",
+        "timestamp": "2026-01-15T11:50:26.083214",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.876,
+        "size_m2": 0.0027,
+        "estimated_weight_kg": 0.049,
+        "priority": "low",
+        "color": "#3498db",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.55121240406868,
+          41.36096967847892
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-17220378",
+        "timestamp": "2026-01-15T11:57:36.610241",
+        "category": "metal_debris",
+        "category_name": "Metal Debris",
+        "confidence": 0.817,
+        "size_m2": 0.0926,
+        "estimated_weight_kg": 0.705,
+        "priority": "medium",
+        "color": "#95a5a6",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.58936427487757,
+          41.376260789167766
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-53F2F012",
+        "timestamp": "2026-01-15T12:00:00.803657",
+        "category": "food_packaging",
+        "category_name": "Food Packaging/Cardboard",
+        "confidence": 0.835,
+        "size_m2": 0.0078,
+        "estimated_weight_kg": 0.057,
+        "priority": "low",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.65557130826537,
+          41.414845167263096
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-7A565379",
+        "timestamp": "2026-01-15T12:04:48.977804",
+        "category": "construction_waste",
+        "category_name": "Construction Waste",
+        "confidence": 0.945,
+        "size_m2": 0.6521,
+        "estimated_weight_kg": 22.381,
+        "priority": "critical",
+        "color": "#8e44ad",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.67777809613686,
+          41.44262801556579
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-75FC11EC",
+        "timestamp": "2026-01-15T12:07:13.013021",
+        "category": "glass",
+        "category_name": "Glass",
+        "confidence": 0.85,
+        "size_m2": 0.0079,
+        "estimated_weight_kg": 0.384,
+        "priority": "low",
+        "color": "#1abc9c",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.69963194490882,
+          41.4703291604836
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-2937DDE9",
+        "timestamp": "2026-01-15T12:09:37.038999",
+        "category": "tire",
+        "category_name": "Tires",
+        "confidence": 0.786,
+        "size_m2": 0.429,
+        "estimated_weight_kg": 14.911,
+        "priority": "critical",
+        "color": "#2c3e50",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.72022939243428,
+          41.49897539373939
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-9C6F20EE",
+        "timestamp": "2026-01-15T12:12:01.049851",
+        "category": "organic_waste",
+        "category_name": "Organic Waste",
+        "confidence": 0.816,
+        "size_m2": 0.0361,
+        "estimated_weight_kg": 0.473,
+        "priority": "low",
+        "color": "#27ae60",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.86489304326236,
+          41.53491774390058
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-82A50E19",
+        "timestamp": "2026-01-15T12:21:34.739913",
+        "category": "textile",
+        "category_name": "Textile/Fabric",
+        "confidence": 0.977,
+        "size_m2": 0.1333,
+        "estimated_weight_kg": 1.584,
+        "priority": "medium",
+        "color": "#e74c3c",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.90348616231365,
+          41.51912940026098
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-2AB10F8C",
+        "timestamp": "2026-01-15T12:23:58.918277",
+        "category": "textile",
+        "category_name": "Textile/Fabric",
+        "confidence": 0.911,
+        "size_m2": 0.1409,
+        "estimated_weight_kg": 0.612,
+        "priority": "medium",
+        "color": "#e74c3c",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.94105288099922,
+          41.50337126066718
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-76E7EFB2",
+        "timestamp": "2026-01-15T12:26:23.123329",
+        "category": "metal_debris",
+        "category_name": "Metal Debris",
+        "confidence": 0.955,
+        "size_m2": 0.0829,
+        "estimated_weight_kg": 2.841,
+        "priority": "medium",
+        "color": "#95a5a6",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.97678305087653,
+          41.51996051494573
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-27BCC5CF",
+        "timestamp": "2026-01-15T12:28:44.623572",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.899,
+        "size_m2": 0.0011,
+        "estimated_weight_kg": 0.04,
+        "priority": "low",
+        "color": "#3498db",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.01235134400514,
+          41.53831717450083
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-529A22F8",
+        "timestamp": "2026-01-15T12:31:08.710244",
+        "category": "tire",
+        "category_name": "Tires",
+        "confidence": 0.855,
+        "size_m2": 0.3462,
+        "estimated_weight_kg": 10.746,
+        "priority": "critical",
+        "color": "#2c3e50",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.04704136883737,
+          41.55718065095526
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-86C96FBB",
+        "timestamp": "2026-01-15T12:33:32.769142",
+        "category": "tire",
+        "category_name": "Tires",
+        "confidence": 0.978,
+        "size_m2": 0.3583,
+        "estimated_weight_kg": 14.037,
+        "priority": "critical",
+        "color": "#2c3e50",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.08279024480319,
+          41.575953148217614
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-6F1B3AB0",
+        "timestamp": "2026-01-15T12:35:56.800258",
+        "category": "tire",
+        "category_name": "Tires",
+        "confidence": 0.829,
+        "size_m2": 0.4925,
+        "estimated_weight_kg": 11.448,
+        "priority": "critical",
+        "color": "#2c3e50",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.12181224050038,
+          41.589135831380155
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-C8008A30",
+        "timestamp": "2026-01-15T12:38:20.731355",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.904,
+        "size_m2": 0.0015,
+        "estimated_weight_kg": 0.016,
+        "priority": "low",
+        "color": "#3498db",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.1625043396755,
+          41.60013181124398
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-A600FE7E",
+        "timestamp": "2026-01-15T12:40:44.757344",
+        "category": "metal_debris",
+        "category_name": "Metal Debris",
+        "confidence": 0.76,
+        "size_m2": 0.0379,
+        "estimated_weight_kg": 1.365,
+        "priority": "low",
+        "color": "#95a5a6",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.20367495933161,
+          41.61033211539338
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-862DAB63",
+        "timestamp": "2026-01-15T12:43:08.762280",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.837,
+        "size_m2": 0.0024,
+        "estimated_weight_kg": 0.018,
+        "priority": "low",
+        "color": "#3498db",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.24413800947242,
+          41.62076847054642
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-F5F0F168",
+        "timestamp": "2026-01-15T12:45:32.746162",
+        "category": "metal_debris",
+        "category_name": "Metal Debris",
+        "confidence": 0.971,
+        "size_m2": 0.0311,
+        "estimated_weight_kg": 4.431,
+        "priority": "low",
+        "color": "#95a5a6",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.28519564054741,
+          41.63168386517177
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-07657B7E",
+        "timestamp": "2026-01-15T12:47:56.854613",
+        "category": "food_packaging",
+        "category_name": "Food Packaging/Cardboard",
+        "confidence": 0.866,
+        "size_m2": 0.0081,
+        "estimated_weight_kg": 0.05,
+        "priority": "low",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.45073125456466,
+          41.669613099473466
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-3D735074",
+        "timestamp": "2026-01-15T12:57:33.254372",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.965,
+        "size_m2": 0.0018,
+        "estimated_weight_kg": 0.039,
+        "priority": "medium",
+        "color": "#3498db",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.49332569527941,
+          41.67629368152543
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-190DF2B5",
+        "timestamp": "2026-01-15T12:59:57.303995",
+        "category": "metal_debris",
+        "category_name": "Metal Debris",
+        "confidence": 0.841,
+        "size_m2": 0.0432,
+        "estimated_weight_kg": 1.712,
+        "priority": "low",
+        "color": "#95a5a6",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.49408960809919,
+          41.70708067959494
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-664BADAD",
+        "timestamp": "2026-01-15T13:02:17.123242",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.913,
+        "size_m2": 0.0037,
+        "estimated_weight_kg": 0.034,
+        "priority": "low",
+        "color": "#3498db",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.49167090139048,
+          41.739312092126916
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-987D6D5F",
+        "timestamp": "2026-01-15T13:04:41.204443",
+        "category": "metal_debris",
+        "category_name": "Metal Debris",
+        "confidence": 0.781,
+        "size_m2": 0.0809,
+        "estimated_weight_kg": 2.442,
+        "priority": "medium",
+        "color": "#95a5a6",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.48262853292567,
+          41.77090006581271
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-9A51EFE2",
+        "timestamp": "2026-01-15T13:07:05.158044",
+        "category": "tire",
+        "category_name": "Tires",
+        "confidence": 0.807,
+        "size_m2": 0.4949,
+        "estimated_weight_kg": 12.24,
+        "priority": "critical",
+        "color": "#2c3e50",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.467734297329,
+          41.80104247607878
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-9D7AC4F5",
+        "timestamp": "2026-01-15T13:09:29.242439",
+        "category": "food_packaging",
+        "category_name": "Food Packaging/Cardboard",
+        "confidence": 0.965,
+        "size_m2": 0.0093,
         "estimated_weight_kg": 0.034,
         "priority": "low",
         "color": "#e67e22",
@@ -2406,16 +3822,424 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -80.96026053799339,
-          41.81837110624589
+          -83.45201313001785,
+          41.831564928398
         ]
       },
       "properties": {
-        "id": "DET-2025-9D32B8C9",
-        "timestamp": "2026-01-15T10:11:03.114421",
+        "id": "DET-2025-9C4F0DCE",
+        "timestamp": "2026-01-15T13:11:53.318533",
         "category": "plastic_bottle",
         "category_name": "Plastic Bottles",
-        "confidence": 0.812,
+        "confidence": 0.958,
+        "size_m2": 0.0022,
+        "estimated_weight_kg": 0.049,
+        "priority": "low",
+        "color": "#3498db",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.43079467598471,
+          41.85932508915211
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-22BB4FE4",
+        "timestamp": "2026-01-15T13:14:17.464073",
+        "category": "glass",
+        "category_name": "Glass",
+        "confidence": 0.817,
+        "size_m2": 0.0067,
+        "estimated_weight_kg": 0.371,
+        "priority": "low",
+        "color": "#1abc9c",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.40569952488403,
+          41.8857736903243
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-86CE960A",
+        "timestamp": "2026-01-15T13:16:41.638445",
+        "category": "metal_debris",
+        "category_name": "Metal Debris",
+        "confidence": 0.897,
+        "size_m2": 0.0432,
+        "estimated_weight_kg": 1.017,
+        "priority": "low",
+        "color": "#95a5a6",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.38038657154746,
+          41.91207424015492
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-FD06BBB7",
+        "timestamp": "2026-01-15T13:19:05.792797",
+        "category": "metal_debris",
+        "category_name": "Metal Debris",
+        "confidence": 0.782,
+        "size_m2": 0.0289,
+        "estimated_weight_kg": 2.015,
+        "priority": "low",
+        "color": "#95a5a6",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.35418257584944,
+          41.938124448595325
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-F2ACEEDA",
+        "timestamp": "2026-01-15T13:21:29.906019",
+        "category": "food_packaging",
+        "category_name": "Food Packaging/Cardboard",
+        "confidence": 0.893,
+        "size_m2": 0.0152,
+        "estimated_weight_kg": 0.081,
+        "priority": "low",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.26605327128138,
+          42.009269082554496
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-8261D7C9",
+        "timestamp": "2026-01-15T13:28:42.285907",
+        "category": "organic_waste",
+        "category_name": "Organic Waste",
+        "confidence": 0.925,
+        "size_m2": 0.0584,
+        "estimated_weight_kg": 0.212,
+        "priority": "low",
+        "color": "#27ae60",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.2469714754824,
+          42.03811404387471
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-5D171885",
+        "timestamp": "2026-01-15T13:31:06.340584",
+        "category": "metal_debris",
+        "category_name": "Metal Debris",
+        "confidence": 0.941,
+        "size_m2": 0.0881,
+        "estimated_weight_kg": 1.129,
+        "priority": "medium",
+        "color": "#95a5a6",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.22763262774978,
+          42.06725664951789
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-DF18A93E",
+        "timestamp": "2026-01-15T13:33:30.382459",
+        "category": "metal_debris",
+        "category_name": "Metal Debris",
+        "confidence": 0.961,
+        "size_m2": 0.0642,
+        "estimated_weight_kg": 2.115,
+        "priority": "medium",
+        "color": "#95a5a6",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.20872196980218,
+          42.096459604460215
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-FEC98B2A",
+        "timestamp": "2026-01-15T13:35:54.411530",
+        "category": "tire",
+        "category_name": "Tires",
+        "confidence": 0.871,
+        "size_m2": 0.238,
+        "estimated_weight_kg": 13.233,
+        "priority": "high",
+        "color": "#2c3e50",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.19745862503075,
+          42.127206015605495
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-4837BD35",
+        "timestamp": "2026-01-15T13:38:18.293300",
+        "category": "glass",
+        "category_name": "Glass",
+        "confidence": 0.976,
+        "size_m2": 0.0072,
+        "estimated_weight_kg": 0.235,
+        "priority": "low",
+        "color": "#1abc9c",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.19345969033476,
+          42.15929574808993
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-71E94611",
+        "timestamp": "2026-01-15T13:40:42.371649",
+        "category": "metal_debris",
+        "category_name": "Metal Debris",
+        "confidence": 0.939,
+        "size_m2": 0.065,
+        "estimated_weight_kg": 4.523,
+        "priority": "medium",
+        "color": "#95a5a6",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.1858067330806,
+          42.22391201986542
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-6F9A9D33",
+        "timestamp": "2026-01-15T13:45:30.526662",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.96,
+        "size_m2": 0.0027,
+        "estimated_weight_kg": 0.04,
+        "priority": "low",
+        "color": "#3498db",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.1373901910068,
+          42.27746935400745
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-23FD7128",
+        "timestamp": "2026-01-15T13:50:18.143750",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.786,
+        "size_m2": 0.0022,
+        "estimated_weight_kg": 0.042,
+        "priority": "low",
+        "color": "#3498db",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.07608498676952,
+          42.32289365578205
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-B606A1C6",
+        "timestamp": "2026-01-15T13:55:06.034161",
+        "category": "construction_waste",
+        "category_name": "Construction Waste",
+        "confidence": 0.833,
+        "size_m2": 0.657,
+        "estimated_weight_kg": 20.072,
+        "priority": "critical",
+        "color": "#8e44ad",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.04153524123652,
+          42.34255286642039
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-37862CD3",
+        "timestamp": "2026-01-15T13:57:30.035675",
+        "category": "tire",
+        "category_name": "Tires",
+        "confidence": 0.891,
+        "size_m2": 0.4802,
+        "estimated_weight_kg": 9.073,
+        "priority": "high",
+        "color": "#2c3e50",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.00362873825352,
+          42.358827857749674
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-0DF726C7",
+        "timestamp": "2026-01-15T13:59:54.127935",
+        "category": "glass",
+        "category_name": "Glass",
+        "confidence": 0.971,
+        "size_m2": 0.0067,
+        "estimated_weight_kg": 0.409,
+        "priority": "low",
+        "color": "#1abc9c",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.9272188515327,
+          42.390692377012
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-28F0B306",
+        "timestamp": "2026-01-15T14:04:42.403530",
+        "category": "tire",
+        "category_name": "Tires",
+        "confidence": 0.972,
+        "size_m2": 0.4012,
+        "estimated_weight_kg": 14.541,
+        "priority": "critical",
+        "color": "#2c3e50",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.88201933080533,
+          42.44372387071594
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-6343DE60",
+        "timestamp": "2026-01-15T14:09:29.897786",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.875,
         "size_m2": 0.0038,
         "estimated_weight_kg": 0.045,
         "priority": "low",
@@ -2430,618 +4254,18 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -80.99460743775377,
-          41.80348363772916
+          -82.89389975962092,
+          42.474493668250794
         ]
       },
       "properties": {
-        "id": "DET-2025-31266FF3",
-        "timestamp": "2026-01-15T10:13:15.737305",
-        "category": "food_packaging",
-        "category_name": "Food Packaging/Cardboard",
-        "confidence": 0.966,
-        "size_m2": 0.0064,
-        "estimated_weight_kg": 0.092,
-        "priority": "low",
-        "color": "#e67e22",
-        "flight_id": "SYLVA-ROU-001",
-        "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -81.02891874143427,
-          41.7882078108885
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-B9014BD2",
-        "timestamp": "2026-01-15T10:15:28.360189",
-        "category": "glass",
-        "category_name": "Glass",
-        "confidence": 0.904,
-        "size_m2": 0.0092,
-        "estimated_weight_kg": 0.434,
-        "priority": "low",
-        "color": "#1abc9c",
-        "flight_id": "SYLVA-ROU-001",
-        "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -81.06340191553689,
-          41.77340166298715
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-809139B4",
-        "timestamp": "2026-01-15T10:17:40.983074",
-        "category": "plastic_bottle",
-        "category_name": "Plastic Bottles",
-        "confidence": 0.751,
-        "size_m2": 0.0013,
-        "estimated_weight_kg": 0.037,
-        "priority": "low",
-        "color": "#3498db",
-        "flight_id": "SYLVA-ROU-001",
-        "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -81.13222989735164,
-          41.743129036567275
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-B939E9C0",
-        "timestamp": "2026-01-15T10:22:06.228842",
-        "category": "food_packaging",
-        "category_name": "Food Packaging/Cardboard",
-        "confidence": 0.828,
-        "size_m2": 0.0157,
-        "estimated_weight_kg": 0.039,
-        "priority": "low",
-        "color": "#e67e22",
-        "flight_id": "SYLVA-ROU-001",
-        "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -81.16662896706822,
-          41.72805368005277
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-9D7F3D95",
-        "timestamp": "2026-01-15T10:24:18.851726",
-        "category": "metal_debris",
-        "category_name": "Metal Debris",
-        "confidence": 0.814,
-        "size_m2": 0.032,
-        "estimated_weight_kg": 2.155,
-        "priority": "low",
-        "color": "#95a5a6",
-        "flight_id": "SYLVA-ROU-001",
-        "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -81.20097296611657,
-          41.712722783023985
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-5EDDB101",
-        "timestamp": "2026-01-15T10:26:31.474610",
-        "category": "metal_debris",
-        "category_name": "Metal Debris",
-        "confidence": 0.888,
-        "size_m2": 0.0846,
-        "estimated_weight_kg": 2.762,
-        "priority": "medium",
-        "color": "#95a5a6",
-        "flight_id": "SYLVA-ROU-001",
-        "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -81.23577778727923,
-          41.69783653759671
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-D083C070",
-        "timestamp": "2026-01-15T10:28:44.097495",
-        "category": "plastic_bottle",
-        "category_name": "Plastic Bottles",
-        "confidence": 0.976,
-        "size_m2": 0.0029,
-        "estimated_weight_kg": 0.017,
-        "priority": "low",
-        "color": "#3498db",
-        "flight_id": "SYLVA-ROU-001",
-        "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -81.27046673039341,
-          41.682526660064255
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-27B4ECC6",
-        "timestamp": "2026-01-15T10:30:56.720379",
-        "category": "glass",
-        "category_name": "Glass",
-        "confidence": 0.981,
-        "size_m2": 0.0057,
-        "estimated_weight_kg": 0.49,
-        "priority": "low",
-        "color": "#1abc9c",
-        "flight_id": "SYLVA-ROU-001",
-        "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -81.3387071134497,
-          41.65229920572934
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-6EAC8AA6",
-        "timestamp": "2026-01-15T10:35:21.966147",
-        "category": "food_packaging",
-        "category_name": "Food Packaging/Cardboard",
-        "confidence": 0.975,
-        "size_m2": 0.0075,
-        "estimated_weight_kg": 0.065,
-        "priority": "low",
-        "color": "#e67e22",
-        "flight_id": "SYLVA-ROU-001",
-        "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -81.37330023277042,
-          41.637038589740435
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-9154E238",
-        "timestamp": "2026-01-15T10:37:34.589031",
-        "category": "textile",
-        "category_name": "Textile/Fabric",
-        "confidence": 0.961,
-        "size_m2": 0.071,
-        "estimated_weight_kg": 1.133,
-        "priority": "medium",
-        "color": "#e74c3c",
-        "flight_id": "SYLVA-ROU-001",
-        "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -81.40793851301676,
-          41.62227218552411
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-CCD84B75",
-        "timestamp": "2026-01-15T10:39:47.211916",
-        "category": "food_packaging",
-        "category_name": "Food Packaging/Cardboard",
-        "confidence": 0.958,
-        "size_m2": 0.0171,
-        "estimated_weight_kg": 0.085,
-        "priority": "low",
-        "color": "#e67e22",
-        "flight_id": "SYLVA-ROU-001",
-        "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -81.44207121952657,
-          41.60699643786462
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-24DD2381",
-        "timestamp": "2026-01-15T10:41:59.834800",
-        "category": "metal_debris",
-        "category_name": "Metal Debris",
-        "confidence": 0.964,
-        "size_m2": 0.0776,
-        "estimated_weight_kg": 4.081,
-        "priority": "medium",
-        "color": "#95a5a6",
-        "flight_id": "SYLVA-ROU-001",
-        "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -81.47669980064205,
-          41.591692161922545
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-39EA4B3E",
-        "timestamp": "2026-01-15T10:44:12.457684",
-        "category": "plastic_bottle",
-        "category_name": "Plastic Bottles",
-        "confidence": 0.819,
-        "size_m2": 0.0024,
-        "estimated_weight_kg": 0.032,
-        "priority": "low",
-        "color": "#3498db",
-        "flight_id": "SYLVA-ROU-001",
-        "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -81.51090000375834,
-          41.576514231706994
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-D96DCA88",
-        "timestamp": "2026-01-15T10:46:25.080568",
-        "category": "tire",
-        "category_name": "Tires",
-        "confidence": 0.935,
-        "size_m2": 0.1726,
-        "estimated_weight_kg": 11.656,
-        "priority": "high",
-        "color": "#2c3e50",
-        "flight_id": "SYLVA-ROU-001",
-        "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -81.54590150211284,
-          41.56150620163058
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-E79A9385",
-        "timestamp": "2026-01-15T10:48:37.703452",
-        "category": "metal_debris",
-        "category_name": "Metal Debris",
-        "confidence": 0.924,
-        "size_m2": 0.0655,
-        "estimated_weight_kg": 3.368,
-        "priority": "medium",
-        "color": "#95a5a6",
-        "flight_id": "SYLVA-ROU-001",
-        "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -81.5797694729634,
-          41.54652304520701
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-3EFB0F44",
-        "timestamp": "2026-01-15T10:50:50.326336",
-        "category": "food_packaging",
-        "category_name": "Food Packaging/Cardboard",
-        "confidence": 0.756,
-        "size_m2": 0.0116,
-        "estimated_weight_kg": 0.026,
-        "priority": "low",
-        "color": "#e67e22",
-        "flight_id": "SYLVA-ROU-001",
-        "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -81.6145006524317,
-          41.53158938740336
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-E6089CED",
-        "timestamp": "2026-01-15T10:53:02.949221",
-        "category": "food_packaging",
-        "category_name": "Food Packaging/Cardboard",
-        "confidence": 0.882,
-        "size_m2": 0.0073,
-        "estimated_weight_kg": 0.04,
-        "priority": "low",
-        "color": "#e67e22",
-        "flight_id": "SYLVA-ROU-001",
-        "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -81.65256334837281,
-          41.52396876124036
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-22674AFA",
-        "timestamp": "2026-01-15T10:55:15.552188",
-        "category": "construction_waste",
-        "category_name": "Construction Waste",
-        "confidence": 0.851,
-        "size_m2": 0.6658,
-        "estimated_weight_kg": 34.469,
-        "priority": "critical",
-        "color": "#8e44ad",
-        "flight_id": "SYLVA-ROU-001",
-        "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -81.69198633511579,
-          41.51756892650553
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-06CBE2D4",
-        "timestamp": "2026-01-15T10:57:28.153496",
-        "category": "plastic_bottle",
-        "category_name": "Plastic Bottles",
-        "confidence": 0.955,
-        "size_m2": 0.0011,
-        "estimated_weight_kg": 0.012,
-        "priority": "low",
-        "color": "#3498db",
-        "flight_id": "SYLVA-ROU-001",
-        "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -81.76914227493961,
-          41.5037983765612
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-44C3D24A",
-        "timestamp": "2026-01-15T11:01:53.356112",
-        "category": "tire",
-        "category_name": "Tires",
+        "id": "DET-2025-6395AFC7",
+        "timestamp": "2026-01-15T14:11:54.092269",
+        "category": "organic_waste",
+        "category_name": "Organic Waste",
         "confidence": 0.846,
-        "size_m2": 0.19,
-        "estimated_weight_kg": 11.037,
-        "priority": "high",
-        "color": "#2c3e50",
-        "flight_id": "SYLVA-ROU-001",
-        "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -81.80804070429006,
-          41.497021756190115
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-FC3B5C7D",
-        "timestamp": "2026-01-15T11:04:05.957420",
-        "category": "metal_debris",
-        "category_name": "Metal Debris",
-        "confidence": 0.908,
-        "size_m2": 0.0627,
-        "estimated_weight_kg": 4.354,
-        "priority": "medium",
-        "color": "#95a5a6",
-        "flight_id": "SYLVA-ROU-001",
-        "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -81.84701018110013,
-          41.49068861300922
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-BE17F252",
-        "timestamp": "2026-01-15T11:06:18.558728",
-        "category": "metal_debris",
-        "category_name": "Metal Debris",
-        "confidence": 0.843,
-        "size_m2": 0.0955,
-        "estimated_weight_kg": 3.09,
-        "priority": "medium",
-        "color": "#95a5a6",
-        "flight_id": "SYLVA-ROU-001",
-        "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -81.8851453893463,
-          41.483876029311894
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-52F2022B",
-        "timestamp": "2026-01-15T11:08:31.160036",
-        "category": "tire",
-        "category_name": "Tires",
-        "confidence": 0.797,
-        "size_m2": 0.4854,
-        "estimated_weight_kg": 14.337,
-        "priority": "critical",
-        "color": "#2c3e50",
-        "flight_id": "SYLVA-ROU-001",
-        "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -81.92444117816211,
-          41.476884145750624
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-1DF0854B",
-        "timestamp": "2026-01-15T11:10:43.761343",
-        "category": "construction_waste",
-        "category_name": "Construction Waste",
-        "confidence": 0.953,
-        "size_m2": 0.3034,
-        "estimated_weight_kg": 22.759,
-        "priority": "critical",
-        "color": "#8e44ad",
-        "flight_id": "SYLVA-ROU-001",
-        "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -81.96323510717906,
-          41.47040124555362
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-289AEE66",
-        "timestamp": "2026-01-15T11:12:56.362651",
-        "category": "construction_waste",
-        "category_name": "Construction Waste",
-        "confidence": 0.926,
-        "size_m2": 0.7217,
-        "estimated_weight_kg": 45.099,
-        "priority": "critical",
-        "color": "#8e44ad",
-        "flight_id": "SYLVA-ROU-001",
-        "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -82.00153209246085,
-          41.463639244584286
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-0297DC63",
-        "timestamp": "2026-01-15T11:15:08.963959",
-        "category": "organic_waste",
-        "category_name": "Organic Waste",
-        "confidence": 0.839,
-        "size_m2": 0.0596,
-        "estimated_weight_kg": 0.471,
+        "size_m2": 0.0152,
+        "estimated_weight_kg": 0.4,
         "priority": "low",
         "color": "#27ae60",
         "flight_id": "SYLVA-ROU-001",
@@ -3054,90 +4278,18 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -82.04019592011328,
-          41.45735487109686
+          -82.90553012761742,
+          42.505887660519214
         ]
       },
       "properties": {
-        "id": "DET-2025-7AF7A656",
-        "timestamp": "2026-01-15T11:17:21.565267",
-        "category": "tire",
-        "category_name": "Tires",
-        "confidence": 0.775,
-        "size_m2": 0.4066,
-        "estimated_weight_kg": 13.282,
-        "priority": "critical",
-        "color": "#2c3e50",
-        "flight_id": "SYLVA-ROU-001",
-        "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -82.07935945718299,
-          41.45051451248521
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-F36EC87A",
-        "timestamp": "2026-01-15T11:19:34.166575",
-        "category": "glass",
-        "category_name": "Glass",
-        "confidence": 0.967,
-        "size_m2": 0.0054,
-        "estimated_weight_kg": 0.203,
-        "priority": "low",
-        "color": "#1abc9c",
-        "flight_id": "SYLVA-ROU-001",
-        "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -82.1176285155716,
-          41.4439018557037
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-70C57E5A",
-        "timestamp": "2026-01-15T11:21:46.767883",
-        "category": "metal_debris",
-        "category_name": "Metal Debris",
-        "confidence": 0.82,
-        "size_m2": 0.0724,
-        "estimated_weight_kg": 2.518,
-        "priority": "medium",
-        "color": "#95a5a6",
-        "flight_id": "SYLVA-ROU-001",
-        "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -82.15652376084059,
-          41.43711437548572
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-0DD5E2C7",
-        "timestamp": "2026-01-15T11:23:59.369191",
+        "id": "DET-2025-5891A91A",
+        "timestamp": "2026-01-15T14:14:18.281763",
         "category": "construction_waste",
         "category_name": "Construction Waste",
-        "confidence": 0.764,
-        "size_m2": 0.3184,
-        "estimated_weight_kg": 29.777,
+        "confidence": 0.859,
+        "size_m2": 0.5892,
+        "estimated_weight_kg": 18.984,
         "priority": "critical",
         "color": "#8e44ad",
         "flight_id": "SYLVA-ROU-001",
@@ -3150,18 +4302,42 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -82.19563408778258,
-          41.43043945999798
+          -82.88471209853994,
+          42.53435376938717
         ]
       },
       "properties": {
-        "id": "DET-2025-58CE57D1",
-        "timestamp": "2026-01-15T11:26:11.970498",
+        "id": "DET-2025-071BDD27",
+        "timestamp": "2026-01-15T14:16:41.757137",
+        "category": "glass",
+        "category_name": "Glass",
+        "confidence": 0.902,
+        "size_m2": 0.0052,
+        "estimated_weight_kg": 0.374,
+        "priority": "low",
+        "color": "#1abc9c",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.86305834634776,
+          42.56257816652545
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-23C197C0",
+        "timestamp": "2026-01-15T14:19:05.814611",
         "category": "plastic_bottle",
         "category_name": "Plastic Bottles",
-        "confidence": 0.898,
-        "size_m2": 0.0014,
-        "estimated_weight_kg": 0.04,
+        "confidence": 0.989,
+        "size_m2": 0.0022,
+        "estimated_weight_kg": 0.013,
         "priority": "low",
         "color": "#3498db",
         "flight_id": "SYLVA-ROU-001",
@@ -3174,18 +4350,66 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -82.27332052416175,
-          41.4170213324761
+          -82.84439357565515,
+          42.591574745173666
         ]
       },
       "properties": {
-        "id": "DET-2025-C1754ED2",
-        "timestamp": "2026-01-15T11:30:37.173114",
+        "id": "DET-2025-41AB9888",
+        "timestamp": "2026-01-15T14:21:29.841080",
+        "category": "food_packaging",
+        "category_name": "Food Packaging/Cardboard",
+        "confidence": 0.796,
+        "size_m2": 0.0185,
+        "estimated_weight_kg": 0.036,
+        "priority": "low",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.83260308492488,
+          42.623014577160006
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-2D073785",
+        "timestamp": "2026-01-15T14:23:54.043212",
+        "category": "construction_waste",
+        "category_name": "Construction Waste",
+        "confidence": 0.856,
+        "size_m2": 0.59,
+        "estimated_weight_kg": 30.976,
+        "priority": "critical",
+        "color": "#8e44ad",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.81438152451935,
+          42.65100701871555
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-CD20C1F6",
+        "timestamp": "2026-01-15T14:26:18.038087",
         "category": "organic_waste",
         "category_name": "Organic Waste",
-        "confidence": 0.77,
-        "size_m2": 0.0468,
-        "estimated_weight_kg": 0.173,
+        "confidence": 0.815,
+        "size_m2": 0.0576,
+        "estimated_weight_kg": 0.436,
         "priority": "low",
         "color": "#27ae60",
         "flight_id": "SYLVA-ROU-001",
@@ -3198,20 +4422,68 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -82.31150615344623,
-          41.41004996098597
+          -82.77937348620706,
+          42.67062607906009
         ]
       },
       "properties": {
-        "id": "DET-2025-64A2329E",
-        "timestamp": "2026-01-15T11:32:49.774422",
-        "category": "glass",
-        "category_name": "Glass",
-        "confidence": 0.84,
-        "size_m2": 0.0099,
-        "estimated_weight_kg": 0.426,
+        "id": "DET-2025-F97F451E",
+        "timestamp": "2026-01-15T14:28:42.284239",
+        "category": "construction_waste",
+        "category_name": "Construction Waste",
+        "confidence": 0.803,
+        "size_m2": 0.7442,
+        "estimated_weight_kg": 11.084,
+        "priority": "critical",
+        "color": "#8e44ad",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.74445391029738,
+          42.690340198868974
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-A495D009",
+        "timestamp": "2026-01-15T14:31:06.501555",
+        "category": "construction_waste",
+        "category_name": "Construction Waste",
+        "confidence": 0.807,
+        "size_m2": 0.3839,
+        "estimated_weight_kg": 36.11,
+        "priority": "critical",
+        "color": "#8e44ad",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.70223666483514,
+          42.70082726141998
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-B4CF56E3",
+        "timestamp": "2026-01-15T14:33:30.334989",
+        "category": "organic_waste",
+        "category_name": "Organic Waste",
+        "confidence": 0.799,
+        "size_m2": 0.0329,
+        "estimated_weight_kg": 0.701,
         "priority": "low",
-        "color": "#1abc9c",
+        "color": "#27ae60",
         "flight_id": "SYLVA-ROU-001",
         "environment": "highway",
         "location": "Lake Erie - Highway & Waterfront, Ohio"
@@ -3222,332 +4494,20 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -82.35061526484554,
-          41.403486662504484
+          -82.62603927369577,
+          42.681902953296806
         ]
       },
       "properties": {
-        "id": "DET-2025-E05E7055",
-        "timestamp": "2026-01-15T11:35:02.375730",
-        "category": "glass",
-        "category_name": "Glass",
-        "confidence": 0.753,
-        "size_m2": 0.0033,
-        "estimated_weight_kg": 0.348,
-        "priority": "low",
-        "color": "#1abc9c",
-        "flight_id": "SYLVA-ROU-001",
-        "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -82.38957046078087,
-          41.39653733655774
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-9A59AFDB",
-        "timestamp": "2026-01-15T11:37:14.977038",
-        "category": "metal_debris",
-        "category_name": "Metal Debris",
-        "confidence": 0.981,
-        "size_m2": 0.081,
-        "estimated_weight_kg": 3.125,
-        "priority": "medium",
-        "color": "#95a5a6",
-        "flight_id": "SYLVA-ROU-001",
-        "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -82.46698556819278,
-          41.38358705441393
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-21E9A1D1",
-        "timestamp": "2026-01-15T11:41:40.179654",
-        "category": "textile",
-        "category_name": "Textile/Fabric",
-        "confidence": 0.76,
-        "size_m2": 0.0518,
-        "estimated_weight_kg": 1.946,
-        "priority": "medium",
-        "color": "#e74c3c",
-        "flight_id": "SYLVA-ROU-001",
-        "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -82.50585824171134,
-          41.37693153066197
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-92E29DB4",
-        "timestamp": "2026-01-15T11:43:52.780961",
-        "category": "metal_debris",
-        "category_name": "Metal Debris",
-        "confidence": 0.901,
-        "size_m2": 0.0977,
-        "estimated_weight_kg": 2.854,
-        "priority": "medium",
-        "color": "#95a5a6",
-        "flight_id": "SYLVA-ROU-001",
-        "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -82.57932803737229,
-          41.3897735516423
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-B6E0C396",
-        "timestamp": "2026-01-15T11:48:17.994161",
-        "category": "glass",
-        "category_name": "Glass",
-        "confidence": 0.978,
-        "size_m2": 0.0028,
-        "estimated_weight_kg": 0.284,
-        "priority": "low",
-        "color": "#1abc9c",
-        "flight_id": "SYLVA-ROU-001",
-        "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -82.61556227722005,
-          41.40232318346878
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-C96A33AD",
-        "timestamp": "2026-01-15T11:50:30.603215",
+        "id": "DET-2025-E3B3D827",
+        "timestamp": "2026-01-15T14:38:17.287328",
         "category": "food_packaging",
         "category_name": "Food Packaging/Cardboard",
         "confidence": 0.89,
-        "size_m2": 0.012,
-        "estimated_weight_kg": 0.048,
-        "priority": "low",
-        "color": "#e67e22",
-        "flight_id": "SYLVA-ROU-001",
-        "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -82.65133180999179,
-          41.41516386993046
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-E26588D2",
-        "timestamp": "2026-01-15T11:52:43.212268",
-        "category": "metal_debris",
-        "category_name": "Metal Debris",
-        "confidence": 0.914,
-        "size_m2": 0.0482,
-        "estimated_weight_kg": 4.162,
-        "priority": "low",
-        "color": "#95a5a6",
-        "flight_id": "SYLVA-ROU-001",
-        "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -82.68730303673796,
-          41.42778088376157
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-BB10C1CF",
-        "timestamp": "2026-01-15T11:54:55.821321",
-        "category": "construction_waste",
-        "category_name": "Construction Waste",
-        "confidence": 0.974,
-        "size_m2": 0.7101,
-        "estimated_weight_kg": 26.73,
-        "priority": "critical",
-        "color": "#8e44ad",
-        "flight_id": "SYLVA-ROU-001",
-        "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -82.7236882991496,
-          41.439938128246084
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-2D5A4DB6",
-        "timestamp": "2026-01-15T11:57:08.430375",
-        "category": "organic_waste",
-        "category_name": "Organic Waste",
-        "confidence": 0.893,
-        "size_m2": 0.0594,
-        "estimated_weight_kg": 0.235,
-        "priority": "low",
-        "color": "#27ae60",
-        "flight_id": "SYLVA-ROU-001",
-        "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -82.7594374508223,
-          41.45306107783033
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-FFCA1936",
-        "timestamp": "2026-01-15T11:59:21.039428",
-        "category": "tire",
-        "category_name": "Tires",
-        "confidence": 0.764,
-        "size_m2": 0.2806,
-        "estimated_weight_kg": 9.914,
-        "priority": "high",
-        "color": "#2c3e50",
-        "flight_id": "SYLVA-ROU-001",
-        "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -82.79542534630255,
-          41.46571917101133
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-A3510118",
-        "timestamp": "2026-01-15T12:01:33.648481",
-        "category": "metal_debris",
-        "category_name": "Metal Debris",
-        "confidence": 0.954,
-        "size_m2": 0.0827,
-        "estimated_weight_kg": 4.751,
-        "priority": "medium",
-        "color": "#95a5a6",
-        "flight_id": "SYLVA-ROU-001",
-        "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -82.83155518500693,
-          41.477895920123295
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-26C94315",
-        "timestamp": "2026-01-15T12:03:46.257535",
-        "category": "metal_debris",
-        "category_name": "Metal Debris",
-        "confidence": 0.898,
-        "size_m2": 0.0421,
-        "estimated_weight_kg": 3.523,
-        "priority": "low",
-        "color": "#95a5a6",
-        "flight_id": "SYLVA-ROU-001",
-        "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -82.86785648402368,
-          41.490843438442305
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-8DFF41D3",
-        "timestamp": "2026-01-15T12:05:58.866588",
-        "category": "construction_waste",
-        "category_name": "Construction Waste",
-        "confidence": 0.882,
-        "size_m2": 0.6401,
-        "estimated_weight_kg": 44.087,
-        "priority": "critical",
-        "color": "#8e44ad",
-        "flight_id": "SYLVA-ROU-001",
-        "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -82.90427409275888,
-          41.50329903091542
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-D4D58A27",
-        "timestamp": "2026-01-15T12:08:11.475641",
-        "category": "plastic_bottle",
-        "category_name": "Plastic Bottles",
-        "confidence": 0.919,
-        "size_m2": 0.0033,
+        "size_m2": 0.0054,
         "estimated_weight_kg": 0.035,
         "priority": "low",
-        "color": "#3498db",
+        "color": "#e67e22",
         "flight_id": "SYLVA-ROU-001",
         "environment": "highway",
         "location": "Lake Erie - Highway & Waterfront, Ohio"
@@ -3558,90 +4518,18 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -82.94014606044011,
-          41.51573781450422
+          -82.59924181115072,
+          42.66083564014935
         ]
       },
       "properties": {
-        "id": "DET-2025-2C7DEE53",
-        "timestamp": "2026-01-15T12:10:24.084695",
-        "category": "metal_debris",
-        "category_name": "Metal Debris",
-        "confidence": 0.967,
-        "size_m2": 0.0544,
-        "estimated_weight_kg": 2.469,
-        "priority": "medium",
-        "color": "#95a5a6",
-        "flight_id": "SYLVA-ROU-001",
-        "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -82.97618075551419,
-          41.5288450738712
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-F32ED445",
-        "timestamp": "2026-01-15T12:12:36.693748",
-        "category": "metal_debris",
-        "category_name": "Metal Debris",
-        "confidence": 0.785,
-        "size_m2": 0.0897,
-        "estimated_weight_kg": 4.773,
-        "priority": "medium",
-        "color": "#95a5a6",
-        "flight_id": "SYLVA-ROU-001",
-        "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -83.01224289463721,
-          41.54112812838469
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-EBA93E1C",
-        "timestamp": "2026-01-15T12:14:49.302801",
-        "category": "textile",
-        "category_name": "Textile/Fabric",
-        "confidence": 0.902,
-        "size_m2": 0.1239,
-        "estimated_weight_kg": 0.792,
-        "priority": "medium",
-        "color": "#e74c3c",
-        "flight_id": "SYLVA-ROU-001",
-        "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -83.04846484882347,
-          41.553703841693256
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-FF2E3873",
-        "timestamp": "2026-01-15T12:17:01.911854",
+        "id": "DET-2025-4BE11835",
+        "timestamp": "2026-01-15T14:40:40.533751",
         "category": "food_packaging",
         "category_name": "Food Packaging/Cardboard",
-        "confidence": 0.794,
-        "size_m2": 0.0071,
-        "estimated_weight_kg": 0.071,
+        "confidence": 0.814,
+        "size_m2": 0.0107,
+        "estimated_weight_kg": 0.067,
         "priority": "low",
         "color": "#e67e22",
         "flight_id": "SYLVA-ROU-001",
@@ -3654,906 +4542,18 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -83.12027934167511,
-          41.57915290251975
+          -82.61892405683554,
+          42.59795210532001
         ]
       },
       "properties": {
-        "id": "DET-2025-0241600B",
-        "timestamp": "2026-01-15T12:21:27.129961",
+        "id": "DET-2025-04EC6ADD",
+        "timestamp": "2026-01-15T14:45:28.629748",
         "category": "food_packaging",
         "category_name": "Food Packaging/Cardboard",
-        "confidence": 0.791,
-        "size_m2": 0.0079,
-        "estimated_weight_kg": 0.023,
-        "priority": "low",
-        "color": "#e67e22",
-        "flight_id": "SYLVA-ROU-001",
-        "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -83.15675281321394,
-          41.59162132040972
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-9B941CC8",
-        "timestamp": "2026-01-15T12:23:39.739014",
-        "category": "tire",
-        "category_name": "Tires",
-        "confidence": 0.871,
-        "size_m2": 0.2024,
-        "estimated_weight_kg": 10.55,
-        "priority": "high",
-        "color": "#2c3e50",
-        "flight_id": "SYLVA-ROU-001",
-        "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -83.19237610715915,
-          41.60459791775951
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-17CED6AE",
-        "timestamp": "2026-01-15T12:25:52.348068",
-        "category": "plastic_bottle",
-        "category_name": "Plastic Bottles",
-        "confidence": 0.765,
-        "size_m2": 0.0036,
-        "estimated_weight_kg": 0.047,
-        "priority": "low",
-        "color": "#3498db",
-        "flight_id": "SYLVA-ROU-001",
-        "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -83.22879568589674,
-          41.61721443878421
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-8273D795",
-        "timestamp": "2026-01-15T12:28:04.957121",
-        "category": "food_packaging",
-        "category_name": "Food Packaging/Cardboard",
-        "confidence": 0.898,
-        "size_m2": 0.0106,
-        "estimated_weight_kg": 0.059,
-        "priority": "low",
-        "color": "#e67e22",
-        "flight_id": "SYLVA-ROU-001",
-        "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -83.33713472257809,
-          41.65513499457399
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-F2B3A64E",
-        "timestamp": "2026-01-15T12:34:42.784281",
-        "category": "food_packaging",
-        "category_name": "Food Packaging/Cardboard",
-        "confidence": 0.873,
-        "size_m2": 0.0157,
-        "estimated_weight_kg": 0.092,
-        "priority": "low",
-        "color": "#e67e22",
-        "flight_id": "SYLVA-ROU-001",
-        "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -83.3387018835198,
-          41.67976014583906
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-10AA2941",
-        "timestamp": "2026-01-15T12:36:55.399076",
-        "category": "food_packaging",
-        "category_name": "Food Packaging/Cardboard",
-        "confidence": 0.755,
-        "size_m2": 0.009,
-        "estimated_weight_kg": 0.05,
-        "priority": "low",
-        "color": "#e67e22",
-        "flight_id": "SYLVA-ROU-001",
-        "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -83.3293641653369,
-          41.70865247265066
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-7611997E",
-        "timestamp": "2026-01-15T12:39:08.015820",
-        "category": "glass",
-        "category_name": "Glass",
-        "confidence": 0.939,
-        "size_m2": 0.007,
-        "estimated_weight_kg": 0.404,
-        "priority": "low",
-        "color": "#1abc9c",
-        "flight_id": "SYLVA-ROU-001",
-        "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -83.31932277962143,
-          41.73769123633376
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-969C758E",
-        "timestamp": "2026-01-15T12:41:20.632563",
-        "category": "construction_waste",
-        "category_name": "Construction Waste",
-        "confidence": 0.818,
-        "size_m2": 0.5737,
-        "estimated_weight_kg": 15.103,
-        "priority": "critical",
-        "color": "#8e44ad",
-        "flight_id": "SYLVA-ROU-001",
-        "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -83.30988125628348,
-          41.76662768575744
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-1DD0CD0E",
-        "timestamp": "2026-01-15T12:43:33.249307",
-        "category": "textile",
-        "category_name": "Textile/Fabric",
-        "confidence": 0.774,
-        "size_m2": 0.1409,
-        "estimated_weight_kg": 0.627,
-        "priority": "medium",
-        "color": "#e74c3c",
-        "flight_id": "SYLVA-ROU-001",
-        "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -83.30033918780165,
-          41.79538313729558
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-E7E28506",
-        "timestamp": "2026-01-15T12:45:45.866050",
-        "category": "food_packaging",
-        "category_name": "Food Packaging/Cardboard",
-        "confidence": 0.769,
-        "size_m2": 0.0076,
-        "estimated_weight_kg": 0.092,
-        "priority": "low",
-        "color": "#e67e22",
-        "flight_id": "SYLVA-ROU-001",
-        "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -83.29076891160007,
-          41.82473868343608
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-68CADD17",
-        "timestamp": "2026-01-15T12:47:58.482794",
-        "category": "tire",
-        "category_name": "Tires",
-        "confidence": 0.946,
-        "size_m2": 0.4886,
-        "estimated_weight_kg": 14.059,
-        "priority": "critical",
-        "color": "#2c3e50",
-        "flight_id": "SYLVA-ROU-001",
-        "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -83.26121733713308,
-          41.911380467641045
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-F38C0086",
-        "timestamp": "2026-01-15T12:54:36.333025",
-        "category": "metal_debris",
-        "category_name": "Metal Debris",
-        "confidence": 0.935,
-        "size_m2": 0.0679,
-        "estimated_weight_kg": 1.76,
-        "priority": "medium",
-        "color": "#95a5a6",
-        "flight_id": "SYLVA-ROU-001",
-        "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -83.25189150360738,
-          41.94022812497353
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-85701641",
-        "timestamp": "2026-01-15T12:56:48.949769",
-        "category": "food_packaging",
-        "category_name": "Food Packaging/Cardboard",
-        "confidence": 0.819,
-        "size_m2": 0.0067,
-        "estimated_weight_kg": 0.069,
-        "priority": "low",
-        "color": "#e67e22",
-        "flight_id": "SYLVA-ROU-001",
-        "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -83.24220835926893,
-          41.96923834381542
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-D53C1A28",
-        "timestamp": "2026-01-15T12:59:01.566512",
-        "category": "plastic_bottle",
-        "category_name": "Plastic Bottles",
-        "confidence": 0.765,
-        "size_m2": 0.002,
-        "estimated_weight_kg": 0.015,
-        "priority": "low",
-        "color": "#3498db",
-        "flight_id": "SYLVA-ROU-001",
-        "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -83.21346273928569,
-          42.056175684645154
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-62A00048",
-        "timestamp": "2026-01-15T13:05:39.416743",
-        "category": "construction_waste",
-        "category_name": "Construction Waste",
-        "confidence": 0.863,
-        "size_m2": 0.8202,
-        "estimated_weight_kg": 33.826,
-        "priority": "critical",
-        "color": "#8e44ad",
-        "flight_id": "SYLVA-ROU-001",
-        "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -83.2034245192441,
-          42.085156439258874
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-2AC33661",
-        "timestamp": "2026-01-15T13:07:52.033487",
-        "category": "textile",
-        "category_name": "Textile/Fabric",
-        "confidence": 0.975,
-        "size_m2": 0.0686,
-        "estimated_weight_kg": 1.516,
-        "priority": "medium",
-        "color": "#e74c3c",
-        "flight_id": "SYLVA-ROU-001",
-        "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -83.19395250875894,
-          42.11399245497955
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-36986B9A",
-        "timestamp": "2026-01-15T13:10:04.650231",
-        "category": "organic_waste",
-        "category_name": "Organic Waste",
-        "confidence": 0.798,
-        "size_m2": 0.0213,
-        "estimated_weight_kg": 0.816,
-        "priority": "low",
-        "color": "#27ae60",
-        "flight_id": "SYLVA-ROU-001",
-        "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -83.1842108139517,
-          42.143036663203766
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-462B12BF",
-        "timestamp": "2026-01-15T13:12:17.266974",
-        "category": "metal_debris",
-        "category_name": "Metal Debris",
-        "confidence": 0.844,
-        "size_m2": 0.0519,
-        "estimated_weight_kg": 4.447,
-        "priority": "medium",
-        "color": "#95a5a6",
-        "flight_id": "SYLVA-ROU-001",
-        "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -83.16251358915153,
-          42.199758091171084
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-D385E47D",
-        "timestamp": "2026-01-15T13:16:42.499787",
-        "category": "food_packaging",
-        "category_name": "Food Packaging/Cardboard",
-        "confidence": 0.806,
-        "size_m2": 0.0162,
-        "estimated_weight_kg": 0.06,
-        "priority": "low",
-        "color": "#e67e22",
-        "flight_id": "SYLVA-ROU-001",
-        "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -83.1368910646962,
-          42.223023797496275
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-7F030A65",
-        "timestamp": "2026-01-15T13:18:55.112391",
-        "category": "metal_debris",
-        "category_name": "Metal Debris",
-        "confidence": 0.901,
-        "size_m2": 0.0338,
-        "estimated_weight_kg": 4.729,
-        "priority": "low",
-        "color": "#95a5a6",
-        "flight_id": "SYLVA-ROU-001",
-        "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -83.11176457315682,
-          42.24638885388786
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-6D2DDB7E",
-        "timestamp": "2026-01-15T13:21:07.724994",
-        "category": "metal_debris",
-        "category_name": "Metal Debris",
-        "confidence": 0.786,
-        "size_m2": 0.092,
-        "estimated_weight_kg": 4.049,
-        "priority": "medium",
-        "color": "#95a5a6",
-        "flight_id": "SYLVA-ROU-001",
-        "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -83.08688155652273,
-          42.26964518904345
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-1BB4D47D",
-        "timestamp": "2026-01-15T13:23:20.337598",
-        "category": "metal_debris",
-        "category_name": "Metal Debris",
-        "confidence": 0.832,
-        "size_m2": 0.0822,
-        "estimated_weight_kg": 4.445,
-        "priority": "medium",
-        "color": "#95a5a6",
-        "flight_id": "SYLVA-ROU-001",
-        "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -83.0614282921427,
-          42.29292291143198
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-DD2795C1",
-        "timestamp": "2026-01-15T13:25:32.950202",
-        "category": "tire",
-        "category_name": "Tires",
-        "confidence": 0.805,
-        "size_m2": 0.424,
-        "estimated_weight_kg": 9.049,
-        "priority": "high",
-        "color": "#2c3e50",
-        "flight_id": "SYLVA-ROU-001",
-        "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -83.03570517055863,
-          42.3160632482411
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-21097E51",
-        "timestamp": "2026-01-15T13:27:45.562805",
-        "category": "metal_debris",
-        "category_name": "Metal Debris",
-        "confidence": 0.794,
-        "size_m2": 0.0439,
-        "estimated_weight_kg": 2.056,
-        "priority": "low",
-        "color": "#95a5a6",
-        "flight_id": "SYLVA-ROU-001",
-        "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -83.01060678487984,
-          42.339136405634186
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-1C6E4A0D",
-        "timestamp": "2026-01-15T13:29:58.175409",
-        "category": "glass",
-        "category_name": "Glass",
-        "confidence": 0.871,
-        "size_m2": 0.0037,
-        "estimated_weight_kg": 0.376,
-        "priority": "low",
-        "color": "#1abc9c",
-        "flight_id": "SYLVA-ROU-001",
-        "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -82.98488406611446,
-          42.36257689721407
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-91EDE00A",
-        "timestamp": "2026-01-15T13:32:10.788013",
-        "category": "metal_debris",
-        "category_name": "Metal Debris",
-        "confidence": 0.92,
-        "size_m2": 0.0772,
-        "estimated_weight_kg": 4.651,
-        "priority": "medium",
-        "color": "#95a5a6",
-        "flight_id": "SYLVA-ROU-001",
-        "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -82.95988979242293,
-          42.38566228875749
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-B1847BAF",
-        "timestamp": "2026-01-15T13:34:23.400616",
-        "category": "construction_waste",
-        "category_name": "Construction Waste",
-        "confidence": 0.858,
-        "size_m2": 0.9508,
-        "estimated_weight_kg": 47.023,
-        "priority": "critical",
-        "color": "#8e44ad",
-        "flight_id": "SYLVA-ROU-001",
-        "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -82.93487743969605,
-          42.409048382286436
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-CB9849BF",
-        "timestamp": "2026-01-15T13:36:36.013220",
-        "category": "glass",
-        "category_name": "Glass",
-        "confidence": 0.892,
-        "size_m2": 0.009,
-        "estimated_weight_kg": 0.356,
-        "priority": "low",
-        "color": "#1abc9c",
-        "flight_id": "SYLVA-ROU-001",
-        "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -82.90902913974494,
-          42.432061353010475
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-530C94E2",
-        "timestamp": "2026-01-15T13:38:48.625824",
-        "category": "plastic_bottle",
-        "category_name": "Plastic Bottles",
-        "confidence": 0.879,
-        "size_m2": 0.002,
-        "estimated_weight_kg": 0.026,
-        "priority": "low",
-        "color": "#3498db",
-        "flight_id": "SYLVA-ROU-001",
-        "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -82.88373760820151,
-          42.45522571594518
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-CA3F2D31",
-        "timestamp": "2026-01-15T13:41:01.238427",
-        "category": "tire",
-        "category_name": "Tires",
         "confidence": 0.784,
-        "size_m2": 0.2092,
-        "estimated_weight_kg": 11.167,
-        "priority": "high",
-        "color": "#2c3e50",
-        "flight_id": "SYLVA-ROU-001",
-        "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -82.85831598455863,
-          42.47854559655975
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-9CD7DF81",
-        "timestamp": "2026-01-15T13:43:13.851031",
-        "category": "tire",
-        "category_name": "Tires",
-        "confidence": 0.753,
-        "size_m2": 0.3427,
-        "estimated_weight_kg": 12.426,
-        "priority": "critical",
-        "color": "#2c3e50",
-        "flight_id": "SYLVA-ROU-001",
-        "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -82.8335631133849,
-          42.50206336369172
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-7456778E",
-        "timestamp": "2026-01-15T13:45:26.463634",
-        "category": "tire",
-        "category_name": "Tires",
-        "confidence": 0.871,
-        "size_m2": 0.157,
-        "estimated_weight_kg": 14.978,
-        "priority": "high",
-        "color": "#2c3e50",
-        "flight_id": "SYLVA-ROU-001",
-        "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -82.80814465388191,
-          42.52516961997505
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-CAF9A03C",
-        "timestamp": "2026-01-15T13:47:39.076238",
-        "category": "glass",
-        "category_name": "Glass",
-        "confidence": 0.759,
-        "size_m2": 0.004,
-        "estimated_weight_kg": 0.257,
-        "priority": "low",
-        "color": "#1abc9c",
-        "flight_id": "SYLVA-ROU-001",
-        "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -82.75712382219554,
-          42.571274321656766
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-DE279E76",
-        "timestamp": "2026-01-15T13:52:04.301445",
-        "category": "tire",
-        "category_name": "Tires",
-        "confidence": 0.846,
-        "size_m2": 0.3216,
-        "estimated_weight_kg": 11.085,
-        "priority": "critical",
-        "color": "#2c3e50",
-        "flight_id": "SYLVA-ROU-001",
-        "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -82.7317495887377,
-          42.59455424529272
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-DAAECD3B",
-        "timestamp": "2026-01-15T13:54:16.914049",
-        "category": "glass",
-        "category_name": "Glass",
-        "confidence": 0.905,
-        "size_m2": 0.0053,
-        "estimated_weight_kg": 0.281,
-        "priority": "low",
-        "color": "#1abc9c",
-        "flight_id": "SYLVA-ROU-001",
-        "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -82.70653286714355,
-          42.61779904197172
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-1BDD9889",
-        "timestamp": "2026-01-15T13:56:29.526653",
-        "category": "metal_debris",
-        "category_name": "Metal Debris",
-        "confidence": 0.805,
-        "size_m2": 0.027,
-        "estimated_weight_kg": 1.499,
-        "priority": "low",
-        "color": "#95a5a6",
-        "flight_id": "SYLVA-ROU-001",
-        "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -82.68107705721218,
-          42.64096049237552
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-32D2A259",
-        "timestamp": "2026-01-15T13:58:42.139256",
-        "category": "food_packaging",
-        "category_name": "Food Packaging/Cardboard",
-        "confidence": 0.774,
-        "size_m2": 0.0148,
-        "estimated_weight_kg": 0.039,
-        "priority": "low",
-        "color": "#e67e22",
-        "flight_id": "SYLVA-ROU-001",
-        "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -82.6304776210375,
-          42.687895651599376
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-448EB493",
-        "timestamp": "2026-01-15T14:03:07.364464",
-        "category": "food_packaging",
-        "category_name": "Food Packaging/Cardboard",
-        "confidence": 0.82,
-        "size_m2": 0.015,
-        "estimated_weight_kg": 0.036,
+        "size_m2": 0.0192,
+        "estimated_weight_kg": 0.081,
         "priority": "low",
         "color": "#e67e22",
         "flight_id": "SYLVA-ROU-001",
@@ -4571,7 +4571,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-D8BF3AA6",
+        "id": "DET-2025-6DEB22E7",
         "timestamp": "2026-01-15T10:00:00",
         "category": "construction_waste",
         "category_name": "Construction Waste",
@@ -4595,7 +4595,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-5BB81C2A",
+        "id": "DET-2025-F632CED6",
         "timestamp": "2026-01-15T10:00:06.006208",
         "category": "metal_debris",
         "category_name": "Metal Debris",
@@ -4619,7 +4619,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-9C5C6DB9",
+        "id": "DET-2025-D83DA96F",
         "timestamp": "2026-01-15T10:00:18.018623",
         "category": "plastic_bottle",
         "category_name": "Plastic Bottles",
@@ -4643,7 +4643,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-11597447",
+        "id": "DET-2025-CFAB64C6",
         "timestamp": "2026-01-15T10:00:24.024831",
         "category": "food_packaging",
         "category_name": "Food Packaging/Cardboard",
@@ -4667,7 +4667,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-CCFE9687",
+        "id": "DET-2025-01F799A1",
         "timestamp": "2026-01-15T10:00:30.031039",
         "category": "tire",
         "category_name": "Tires",
@@ -4691,7 +4691,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-A875EA16",
+        "id": "DET-2025-19E80020",
         "timestamp": "2026-01-15T10:00:48.049662",
         "category": "plastic_bottle",
         "category_name": "Plastic Bottles",
@@ -4715,7 +4715,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-FDBE8981",
+        "id": "DET-2025-45F27D61",
         "timestamp": "2026-01-15T10:00:54.055870",
         "category": "textile",
         "category_name": "Textile/Fabric",
@@ -4739,7 +4739,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-263410E7",
+        "id": "DET-2025-9B373D5B",
         "timestamp": "2026-01-15T10:01:00.062077",
         "category": "metal_debris",
         "category_name": "Metal Debris",
@@ -4763,7 +4763,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-EE644E62",
+        "id": "DET-2025-7E0A4E52",
         "timestamp": "2026-01-15T10:01:06.068285",
         "category": "tire",
         "category_name": "Tires",
@@ -4787,7 +4787,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-F61211FD",
+        "id": "DET-2025-FCBAB317",
         "timestamp": "2026-01-15T10:01:12.074493",
         "category": "construction_waste",
         "category_name": "Construction Waste",
@@ -4811,7 +4811,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-FD8BAA4E",
+        "id": "DET-2025-E2564EF7",
         "timestamp": "2026-01-15T10:01:18.080701",
         "category": "construction_waste",
         "category_name": "Construction Waste",
@@ -4835,7 +4835,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-DBE298CE",
+        "id": "DET-2025-A64C91A2",
         "timestamp": "2026-01-15T10:01:24.086908",
         "category": "tire",
         "category_name": "Tires",
@@ -4859,7 +4859,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-08180CFA",
+        "id": "DET-2025-B6063334",
         "timestamp": "2026-01-15T10:01:30.093116",
         "category": "tire",
         "category_name": "Tires",
@@ -4883,7 +4883,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-1685591F",
+        "id": "DET-2025-55B921B6",
         "timestamp": "2026-01-15T10:01:36.099324",
         "category": "metal_debris",
         "category_name": "Metal Debris",
@@ -4907,7 +4907,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-F5D6787B",
+        "id": "DET-2025-FBC61B20",
         "timestamp": "2026-01-15T10:01:42.105531",
         "category": "plastic_bottle",
         "category_name": "Plastic Bottles",
@@ -4931,7 +4931,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-96AB9BB1",
+        "id": "DET-2025-5749AABB",
         "timestamp": "2026-01-15T10:01:54.117947",
         "category": "food_packaging",
         "category_name": "Food Packaging/Cardboard",
@@ -4955,7 +4955,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-306A277D",
+        "id": "DET-2025-FE294369",
         "timestamp": "2026-01-15T10:02:00.124155",
         "category": "metal_debris",
         "category_name": "Metal Debris",
@@ -4979,7 +4979,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-C13ABAC7",
+        "id": "DET-2025-D2EB671B",
         "timestamp": "2026-01-15T10:02:06.130362",
         "category": "plastic_bottle",
         "category_name": "Plastic Bottles",
@@ -5003,7 +5003,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-D72FDEB1",
+        "id": "DET-2025-2BCC6764",
         "timestamp": "2026-01-15T10:02:12.136570",
         "category": "tire",
         "category_name": "Tires",
@@ -5027,7 +5027,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-4C98394D",
+        "id": "DET-2025-97BC537E",
         "timestamp": "2026-01-15T10:02:30.155193",
         "category": "organic_waste",
         "category_name": "Organic Waste",
@@ -5051,7 +5051,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-093AB142",
+        "id": "DET-2025-0B362FD4",
         "timestamp": "2026-01-15T10:02:36.161401",
         "category": "metal_debris",
         "category_name": "Metal Debris",
@@ -5075,7 +5075,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-FDA02586",
+        "id": "DET-2025-AFBA0135",
         "timestamp": "2026-01-15T10:02:42.171146",
         "category": "glass",
         "category_name": "Glass",
@@ -5099,7 +5099,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-CC19BE8B",
+        "id": "DET-2025-4080B202",
         "timestamp": "2026-01-15T10:02:48.181397",
         "category": "food_packaging",
         "category_name": "Food Packaging/Cardboard",
@@ -5123,7 +5123,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-AA51C01B",
+        "id": "DET-2025-102F3D8E",
         "timestamp": "2026-01-15T10:02:54.191647",
         "category": "organic_waste",
         "category_name": "Organic Waste",
@@ -5147,7 +5147,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-06EBAEAC",
+        "id": "DET-2025-2E592453",
         "timestamp": "2026-01-15T10:03:00.201897",
         "category": "food_packaging",
         "category_name": "Food Packaging/Cardboard",
@@ -5171,7 +5171,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-3E0F4375",
+        "id": "DET-2025-7A9A3636",
         "timestamp": "2026-01-15T10:03:12.222398",
         "category": "construction_waste",
         "category_name": "Construction Waste",
@@ -5195,7 +5195,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-537F0C13",
+        "id": "DET-2025-180B8E7F",
         "timestamp": "2026-01-15T10:03:18.232649",
         "category": "plastic_bottle",
         "category_name": "Plastic Bottles",
@@ -5219,7 +5219,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-CC9C6D98",
+        "id": "DET-2025-60C4CDC6",
         "timestamp": "2026-01-15T10:03:24.242899",
         "category": "tire",
         "category_name": "Tires",
@@ -5243,7 +5243,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-49E9212B",
+        "id": "DET-2025-5FFD4FD3",
         "timestamp": "2026-01-15T10:03:30.253149",
         "category": "tire",
         "category_name": "Tires",
@@ -5267,7 +5267,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-0B86A192",
+        "id": "DET-2025-6F2FF031",
         "timestamp": "2026-01-15T10:03:36.263400",
         "category": "construction_waste",
         "category_name": "Construction Waste",
@@ -5291,7 +5291,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-4715EE4A",
+        "id": "DET-2025-CC7A22D3",
         "timestamp": "2026-01-15T10:03:42.273650",
         "category": "plastic_bottle",
         "category_name": "Plastic Bottles",
@@ -5315,7 +5315,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-FF26537D",
+        "id": "DET-2025-A0B90780",
         "timestamp": "2026-01-15T10:03:48.283901",
         "category": "metal_debris",
         "category_name": "Metal Debris",
@@ -5339,7 +5339,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-B72C8A03",
+        "id": "DET-2025-BA15E1DF",
         "timestamp": "2026-01-15T10:03:54.294151",
         "category": "food_packaging",
         "category_name": "Food Packaging/Cardboard",
@@ -5363,7 +5363,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-29961097",
+        "id": "DET-2025-F165284C",
         "timestamp": "2026-01-15T10:04:00.304402",
         "category": "food_packaging",
         "category_name": "Food Packaging/Cardboard",
@@ -5387,7 +5387,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-B909E91A",
+        "id": "DET-2025-0D85DE31",
         "timestamp": "2026-01-15T10:04:06.314652",
         "category": "textile",
         "category_name": "Textile/Fabric",
@@ -5411,7 +5411,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-79EC3218",
+        "id": "DET-2025-128AA324",
         "timestamp": "2026-01-15T10:04:12.324902",
         "category": "tire",
         "category_name": "Tires",
@@ -5435,7 +5435,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-C4287732",
+        "id": "DET-2025-0BF7AEC5",
         "timestamp": "2026-01-15T10:04:18.335153",
         "category": "food_packaging",
         "category_name": "Food Packaging/Cardboard",
@@ -5459,7 +5459,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-F232EACB",
+        "id": "DET-2025-710C64EF",
         "timestamp": "2026-01-15T10:04:24.345403",
         "category": "food_packaging",
         "category_name": "Food Packaging/Cardboard",
@@ -5483,7 +5483,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-3F2766D4",
+        "id": "DET-2025-AC933885",
         "timestamp": "2026-01-15T10:04:36.365904",
         "category": "construction_waste",
         "category_name": "Construction Waste",
@@ -5507,7 +5507,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-E0F0D006",
+        "id": "DET-2025-367B41F5",
         "timestamp": "2026-01-15T10:04:42.383375",
         "category": "food_packaging",
         "category_name": "Food Packaging/Cardboard",
@@ -5531,7 +5531,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-D3331C11",
+        "id": "DET-2025-B420EF30",
         "timestamp": "2026-01-15T10:04:54.418318",
         "category": "plastic_bottle",
         "category_name": "Plastic Bottles",
@@ -5555,7 +5555,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-877BD9AF",
+        "id": "DET-2025-8DD3685A",
         "timestamp": "2026-01-15T10:05:00.435789",
         "category": "food_packaging",
         "category_name": "Food Packaging/Cardboard",
@@ -5579,7 +5579,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-A7A1F2BF",
+        "id": "DET-2025-0AAACD88",
         "timestamp": "2026-01-15T10:05:06.453261",
         "category": "glass",
         "category_name": "Glass",
@@ -5603,7 +5603,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-A6F581F5",
+        "id": "DET-2025-35834450",
         "timestamp": "2026-01-15T10:05:12.470732",
         "category": "metal_debris",
         "category_name": "Metal Debris",
@@ -5627,7 +5627,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-ECA75C06",
+        "id": "DET-2025-DD327DA4",
         "timestamp": "2026-01-15T10:05:24.505675",
         "category": "organic_waste",
         "category_name": "Organic Waste",
@@ -5651,7 +5651,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-614EE49D",
+        "id": "DET-2025-F94601DD",
         "timestamp": "2026-01-15T10:05:30.523146",
         "category": "metal_debris",
         "category_name": "Metal Debris",
@@ -5675,7 +5675,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-7433AC7C",
+        "id": "DET-2025-AFCDF277",
         "timestamp": "2026-01-15T10:05:36.540618",
         "category": "tire",
         "category_name": "Tires",
@@ -5699,7 +5699,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-F4874432",
+        "id": "DET-2025-C4210116",
         "timestamp": "2026-01-15T10:05:42.558089",
         "category": "glass",
         "category_name": "Glass",
@@ -5723,7 +5723,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-D2D5EB1D",
+        "id": "DET-2025-4A3F44DB",
         "timestamp": "2026-01-15T10:05:48.575560",
         "category": "tire",
         "category_name": "Tires",
@@ -5747,7 +5747,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-0A962E41",
+        "id": "DET-2025-DFC90BFF",
         "timestamp": "2026-01-15T10:05:54.593032",
         "category": "metal_debris",
         "category_name": "Metal Debris",
@@ -5771,7 +5771,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-8020569D",
+        "id": "DET-2025-1B910CD5",
         "timestamp": "2026-01-15T10:06:00.610503",
         "category": "plastic_bottle",
         "category_name": "Plastic Bottles",
@@ -5795,7 +5795,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-23F90201",
+        "id": "DET-2025-2C7A9B95",
         "timestamp": "2026-01-15T10:06:06.627974",
         "category": "tire",
         "category_name": "Tires",
@@ -5819,7 +5819,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-6E41CAEE",
+        "id": "DET-2025-2E29B90C",
         "timestamp": "2026-01-15T10:06:18.662917",
         "category": "glass",
         "category_name": "Glass",
@@ -5843,7 +5843,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-D7A77ECC",
+        "id": "DET-2025-A19B66AF",
         "timestamp": "2026-01-15T10:06:24.680388",
         "category": "tire",
         "category_name": "Tires",
@@ -5867,7 +5867,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-10C5D6BC",
+        "id": "DET-2025-4DFA4585",
         "timestamp": "2026-01-15T10:06:30.697860",
         "category": "organic_waste",
         "category_name": "Organic Waste",
@@ -5891,7 +5891,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-1C0E4535",
+        "id": "DET-2025-1769F9B7",
         "timestamp": "2026-01-15T10:06:48.750181",
         "category": "food_packaging",
         "category_name": "Food Packaging/Cardboard",
@@ -5915,7 +5915,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-738CC930",
+        "id": "DET-2025-DA41CCF7",
         "timestamp": "2026-01-15T10:06:54.767279",
         "category": "metal_debris",
         "category_name": "Metal Debris",
@@ -5939,7 +5939,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-F72D4047",
+        "id": "DET-2025-EF0E5B1C",
         "timestamp": "2026-01-15T10:07:00.784378",
         "category": "plastic_bottle",
         "category_name": "Plastic Bottles",
@@ -5963,7 +5963,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-2988BB03",
+        "id": "DET-2025-0CD26702",
         "timestamp": "2026-01-15T10:07:06.801476",
         "category": "plastic_bottle",
         "category_name": "Plastic Bottles",
@@ -5987,7 +5987,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-040ACB44",
+        "id": "DET-2025-392FA464",
         "timestamp": "2026-01-15T10:07:12.818575",
         "category": "organic_waste",
         "category_name": "Organic Waste",
@@ -6011,7 +6011,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-D1E9CFF2",
+        "id": "DET-2025-90ACC920",
         "timestamp": "2026-01-15T10:07:18.835673",
         "category": "organic_waste",
         "category_name": "Organic Waste",
@@ -6035,7 +6035,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-2BEE3FD5",
+        "id": "DET-2025-1E9B073C",
         "timestamp": "2026-01-15T10:07:24.852772",
         "category": "food_packaging",
         "category_name": "Food Packaging/Cardboard",
@@ -6059,7 +6059,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-39DF8A8C",
+        "id": "DET-2025-4F92C188",
         "timestamp": "2026-01-15T10:07:30.869870",
         "category": "metal_debris",
         "category_name": "Metal Debris",
@@ -6083,7 +6083,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-2625063B",
+        "id": "DET-2025-EB1253F0",
         "timestamp": "2026-01-15T10:07:36.886969",
         "category": "plastic_bottle",
         "category_name": "Plastic Bottles",
@@ -6107,7 +6107,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-6280A46A",
+        "id": "DET-2025-290AAD83",
         "timestamp": "2026-01-15T10:07:42.904068",
         "category": "metal_debris",
         "category_name": "Metal Debris",
@@ -6131,7 +6131,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-59D53015",
+        "id": "DET-2025-4A46CACD",
         "timestamp": "2026-01-15T10:07:48.921166",
         "category": "construction_waste",
         "category_name": "Construction Waste",
@@ -6155,7 +6155,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-6B53F93B",
+        "id": "DET-2025-9E4CA981",
         "timestamp": "2026-01-15T10:08:06.972462",
         "category": "construction_waste",
         "category_name": "Construction Waste",
@@ -6179,7 +6179,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-DE159F81",
+        "id": "DET-2025-B4AB8419",
         "timestamp": "2026-01-15T10:08:12.989560",
         "category": "organic_waste",
         "category_name": "Organic Waste",
@@ -6203,7 +6203,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-4F510023",
+        "id": "DET-2025-B0D5896B",
         "timestamp": "2026-01-15T10:08:19.006659",
         "category": "tire",
         "category_name": "Tires",
@@ -6227,7 +6227,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-DD370C39",
+        "id": "DET-2025-F21E8D66",
         "timestamp": "2026-01-15T10:08:31.040856",
         "category": "glass",
         "category_name": "Glass",
@@ -6251,7 +6251,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-44D3DC4C",
+        "id": "DET-2025-62AB2FE3",
         "timestamp": "2026-01-15T10:08:37.057954",
         "category": "construction_waste",
         "category_name": "Construction Waste",
@@ -6275,7 +6275,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-A7FBD946",
+        "id": "DET-2025-27492EE7",
         "timestamp": "2026-01-15T10:08:43.075053",
         "category": "organic_waste",
         "category_name": "Organic Waste",
@@ -6299,7 +6299,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-0A8DE818",
+        "id": "DET-2025-415E25C9",
         "timestamp": "2026-01-15T10:08:49.092152",
         "category": "plastic_bottle",
         "category_name": "Plastic Bottles",
@@ -6323,7 +6323,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-93586308",
+        "id": "DET-2025-739B3EF3",
         "timestamp": "2026-01-15T10:08:55.109250",
         "category": "food_packaging",
         "category_name": "Food Packaging/Cardboard",
@@ -6347,7 +6347,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-E7BF5EE9",
+        "id": "DET-2025-56271EB0",
         "timestamp": "2026-01-15T10:09:01.126349",
         "category": "metal_debris",
         "category_name": "Metal Debris",
@@ -6371,7 +6371,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-2A0A01FB",
+        "id": "DET-2025-2C7FC1B2",
         "timestamp": "2026-01-15T10:09:07.143447",
         "category": "glass",
         "category_name": "Glass",
@@ -6395,7 +6395,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-DDD8D5DD",
+        "id": "DET-2025-677CA7C8",
         "timestamp": "2026-01-15T10:09:13.160546",
         "category": "glass",
         "category_name": "Glass",
@@ -6419,7 +6419,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-41E5C48C",
+        "id": "DET-2025-1CA7A6E1",
         "timestamp": "2026-01-15T10:09:19.177143",
         "category": "tire",
         "category_name": "Tires",
@@ -6443,7 +6443,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-719289C6",
+        "id": "DET-2025-0815E137",
         "timestamp": "2026-01-15T10:09:31.203326",
         "category": "food_packaging",
         "category_name": "Food Packaging/Cardboard",
@@ -6467,7 +6467,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-AD4B793D",
+        "id": "DET-2025-37AFE6B2",
         "timestamp": "2026-01-15T10:09:37.216417",
         "category": "tire",
         "category_name": "Tires",
@@ -6491,7 +6491,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-780A17F9",
+        "id": "DET-2025-215B3531",
         "timestamp": "2026-01-15T10:09:55.255690",
         "category": "metal_debris",
         "category_name": "Metal Debris",
@@ -6515,7 +6515,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-1E44AC1E",
+        "id": "DET-2025-4E2E8FB4",
         "timestamp": "2026-01-15T10:10:01.268781",
         "category": "textile",
         "category_name": "Textile/Fabric",
@@ -6539,7 +6539,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-55412970",
+        "id": "DET-2025-36657F6F",
         "timestamp": "2026-01-15T10:10:13.294963",
         "category": "plastic_bottle",
         "category_name": "Plastic Bottles",
@@ -6563,7 +6563,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-473470F2",
+        "id": "DET-2025-D1FC30D5",
         "timestamp": "2026-01-15T10:10:25.321146",
         "category": "tire",
         "category_name": "Tires",
@@ -6587,7 +6587,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-23931613",
+        "id": "DET-2025-998F4513",
         "timestamp": "2026-01-15T10:10:31.334237",
         "category": "food_packaging",
         "category_name": "Food Packaging/Cardboard",
@@ -6611,7 +6611,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-86ED1DFC",
+        "id": "DET-2025-1AB703EF",
         "timestamp": "2026-01-15T10:10:37.347328",
         "category": "plastic_bottle",
         "category_name": "Plastic Bottles",
@@ -6635,7 +6635,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-77580AC3",
+        "id": "DET-2025-44221472",
         "timestamp": "2026-01-15T10:10:43.360419",
         "category": "plastic_bottle",
         "category_name": "Plastic Bottles",
@@ -6659,7 +6659,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-C724A5A5",
+        "id": "DET-2025-384B302B",
         "timestamp": "2026-01-15T10:10:49.373510",
         "category": "plastic_bottle",
         "category_name": "Plastic Bottles",
@@ -6683,7 +6683,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-F51359A0",
+        "id": "DET-2025-7A0DDB74",
         "timestamp": "2026-01-15T10:10:55.386601",
         "category": "food_packaging",
         "category_name": "Food Packaging/Cardboard",
@@ -6707,7 +6707,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-9731FD69",
+        "id": "DET-2025-ACD65D35",
         "timestamp": "2026-01-15T10:11:01.399692",
         "category": "plastic_bottle",
         "category_name": "Plastic Bottles",
@@ -6731,7 +6731,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-288886AA",
+        "id": "DET-2025-E89E7ED1",
         "timestamp": "2026-01-15T10:11:07.412783",
         "category": "plastic_bottle",
         "category_name": "Plastic Bottles",
@@ -6755,7 +6755,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-4776F651",
+        "id": "DET-2025-4496706D",
         "timestamp": "2026-01-15T10:11:13.425874",
         "category": "food_packaging",
         "category_name": "Food Packaging/Cardboard",
@@ -6779,7 +6779,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-4B669624",
+        "id": "DET-2025-1070B668",
         "timestamp": "2026-01-15T10:11:19.438966",
         "category": "plastic_bottle",
         "category_name": "Plastic Bottles",
@@ -6803,7 +6803,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-26923615",
+        "id": "DET-2025-985D0505",
         "timestamp": "2026-01-15T10:11:25.452057",
         "category": "construction_waste",
         "category_name": "Construction Waste",
@@ -6827,7 +6827,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-4D659EBA",
+        "id": "DET-2025-F27E01D2",
         "timestamp": "2026-01-15T10:11:31.465148",
         "category": "metal_debris",
         "category_name": "Metal Debris",
@@ -6851,7 +6851,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-55B2E5ED",
+        "id": "DET-2025-2442A2B0",
         "timestamp": "2026-01-15T10:11:37.478239",
         "category": "construction_waste",
         "category_name": "Construction Waste",
@@ -6875,7 +6875,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-759B36E0",
+        "id": "DET-2025-2DB13BCB",
         "timestamp": "2026-01-15T10:11:43.491330",
         "category": "food_packaging",
         "category_name": "Food Packaging/Cardboard",
@@ -6899,7 +6899,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-4FAB651A",
+        "id": "DET-2025-5B338B63",
         "timestamp": "2026-01-15T10:11:49.535205",
         "category": "food_packaging",
         "category_name": "Food Packaging/Cardboard",
@@ -6923,7 +6923,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-93DAF84B",
+        "id": "DET-2025-0A7A80EF",
         "timestamp": "2026-01-15T10:11:55.579079",
         "category": "plastic_bottle",
         "category_name": "Plastic Bottles",
@@ -6947,7 +6947,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-26C912FB",
+        "id": "DET-2025-6032268F",
         "timestamp": "2026-01-15T10:12:01.622954",
         "category": "metal_debris",
         "category_name": "Metal Debris",
@@ -6971,7 +6971,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-1C58F57C",
+        "id": "DET-2025-E6C72F3C",
         "timestamp": "2026-01-15T10:12:07.666829",
         "category": "tire",
         "category_name": "Tires",
@@ -6995,7 +6995,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-DE7A3C69",
+        "id": "DET-2025-E64CBFF9",
         "timestamp": "2026-01-15T10:12:13.710704",
         "category": "construction_waste",
         "category_name": "Construction Waste",
@@ -7019,7 +7019,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-DBAED29B",
+        "id": "DET-2025-460A1F83",
         "timestamp": "2026-01-15T10:12:25.798453",
         "category": "glass",
         "category_name": "Glass",
@@ -7043,7 +7043,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-D9A7ACB7",
+        "id": "DET-2025-A51C8F3F",
         "timestamp": "2026-01-15T10:12:31.842328",
         "category": "textile",
         "category_name": "Textile/Fabric",
@@ -7067,7 +7067,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-DE68B5D9",
+        "id": "DET-2025-F09E69E8",
         "timestamp": "2026-01-15T10:12:37.886203",
         "category": "tire",
         "category_name": "Tires",
@@ -7091,7 +7091,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-0871A27F",
+        "id": "DET-2025-D45E7D58",
         "timestamp": "2026-01-15T10:12:43.930077",
         "category": "plastic_bottle",
         "category_name": "Plastic Bottles",
@@ -7115,7 +7115,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-76613ED3",
+        "id": "DET-2025-AE6CB0C8",
         "timestamp": "2026-01-15T10:12:49.973952",
         "category": "plastic_bottle",
         "category_name": "Plastic Bottles",
@@ -7139,7 +7139,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-8F59CD80",
+        "id": "DET-2025-AE9A67D9",
         "timestamp": "2026-01-15T10:13:02.061702",
         "category": "food_packaging",
         "category_name": "Food Packaging/Cardboard",
@@ -7163,7 +7163,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-C5F2DEBD",
+        "id": "DET-2025-4C94267C",
         "timestamp": "2026-01-15T10:13:08.105576",
         "category": "food_packaging",
         "category_name": "Food Packaging/Cardboard",
@@ -7187,7 +7187,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-731EDD8C",
+        "id": "DET-2025-A08CAA52",
         "timestamp": "2026-01-15T10:13:14.149451",
         "category": "plastic_bottle",
         "category_name": "Plastic Bottles",
@@ -7209,6 +7209,6 @@
       "route_66",
       "nasa_clear_lake"
     ],
-    "generated_at": "2025-12-26T09:26:29.604740"
+    "generated_at": "2025-12-26T10:07:58.387776"
   }
 }
