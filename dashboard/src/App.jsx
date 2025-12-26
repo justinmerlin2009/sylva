@@ -32,7 +32,7 @@ function App() {
   const [showPopulationDensity, setShowPopulationDensity] = useState(false)
   const [populationDensityData, setPopulationDensityData] = useState([])
   const [geographyData, setGeographyData] = useState(null)
-  const [showGeography, setShowGeography] = useState(true)
+  const [showGeography, setShowGeography] = useState(false)
 
   // Live demo state
   const [demoActive, setDemoActive] = useState(false)
