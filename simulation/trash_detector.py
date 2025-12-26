@@ -724,7 +724,22 @@ class TrashDetector:
         # Extract waypoints from flight path with proper timestamps
         waypoints = []
         speed = config.get("survey_speed_ms", 25)  # meters per second
-        start_time = datetime.now()
+
+        # Use the flight path's start time to sync with animation data
+        # This ensures detection timestamps match the drone's position timestamps
+        start_time_str = None
+        if flight_path.get("features"):
+            for feature in flight_path["features"]:
+                if feature["geometry"]["type"] == "LineString":
+                    start_time_str = feature.get("properties", {}).get("start_time")
+                    break
+
+        if start_time_str:
+            start_time = datetime.fromisoformat(start_time_str)
+        else:
+            # Fallback to simulation start date for consistency
+            start_time = datetime.fromisoformat(f"{SIMULATION['start_date']}T10:00:00")
+
         elapsed_seconds = 0
 
         if flight_path.get("features"):
