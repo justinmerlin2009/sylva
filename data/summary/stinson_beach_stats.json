@@ -1,71 +1,71 @@
 {
   "total_detections": 95,
-  "total_estimated_weight_kg": 60.1,
-  "total_area_m2": 3.23,
+  "total_estimated_weight_kg": 151.95,
+  "total_area_m2": 5.78,
   "by_category": [
     {
       "category": "plastic_bottle",
       "name": "Plastic Bottles",
-      "count": 33,
-      "percentage": 34.7,
+      "count": 35,
+      "percentage": 36.8,
       "color": "#3498db"
     },
     {
       "category": "food_packaging",
-      "name": "Food Packaging",
-      "count": 25,
-      "percentage": 26.3,
+      "name": "Food Packaging/Cardboard",
+      "count": 17,
+      "percentage": 17.9,
       "color": "#e67e22"
-    },
-    {
-      "category": "glass",
-      "name": "Glass",
-      "count": 14,
-      "percentage": 14.7,
-      "color": "#1abc9c"
     },
     {
       "category": "organic_waste",
       "name": "Organic Waste",
+      "count": 13,
+      "percentage": 13.7,
+      "color": "#27ae60"
+    },
+    {
+      "category": "glass",
+      "name": "Glass",
       "count": 9,
       "percentage": 9.5,
-      "color": "#27ae60"
+      "color": "#1abc9c"
     },
     {
       "category": "textile",
       "name": "Textile/Fabric",
-      "count": 6,
-      "percentage": 6.3,
+      "count": 8,
+      "percentage": 8.4,
       "color": "#e74c3c"
     },
     {
       "category": "metal_debris",
       "name": "Metal Debris",
-      "count": 5,
-      "percentage": 5.3,
+      "count": 7,
+      "percentage": 7.4,
       "color": "#95a5a6"
-    },
-    {
-      "category": "tire",
-      "name": "Tires",
-      "count": 2,
-      "percentage": 2.1,
-      "color": "#2c3e50"
     },
     {
       "category": "construction_waste",
       "name": "Construction Waste",
-      "count": 1,
-      "percentage": 1.1,
+      "count": 3,
+      "percentage": 3.2,
       "color": "#8e44ad"
+    },
+    {
+      "category": "tire",
+      "name": "Tires",
+      "count": 3,
+      "percentage": 3.2,
+      "color": "#2c3e50"
     }
   ],
   "by_priority": {
-    "critical": 4,
+    "critical": 6,
     "high": 7,
-    "medium": 72,
-    "low": 12
+    "medium": 24,
+    "low": 58
   },
-  "location": "Stinson Beach, California",
+  "location": "Stinson Beach Coastline, California",
   "environment_type": "beach"
 }

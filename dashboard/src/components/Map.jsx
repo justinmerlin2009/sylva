@@ -102,11 +102,14 @@ function HeatmapLayer({ data }) {
           maxZoom: 17,
           max: 1.0,
           gradient: {
-            0.0: '#22c55e',
-            0.3: '#84cc16',
-            0.5: '#eab308',
-            0.7: '#f97316',
-            1.0: '#ef4444',
+            0.0: '#3b82f6',   // Blue - very low density
+            0.15: '#06b6d4',  // Cyan - low density
+            0.30: '#22c55e',  // Green - moderate low
+            0.45: '#84cc16',  // Yellow-green - moderate
+            0.60: '#eab308',  // Yellow - medium high
+            0.75: '#f97316',  // Orange - high density
+            0.90: '#ef4444',  // Red - very high
+            1.0: '#dc2626',   // Dark red - critical
           },
         }).addTo(map)
       }

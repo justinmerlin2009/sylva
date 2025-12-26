@@ -202,47 +202,64 @@ class TrashDetector:
                 },
             ]
         else:
-            # Highway hotspots for 10-mile Route 66 section near Needles
+            # Lake Erie - Highway & Waterfront hotspots
+            # Path: (41.8941, -80.7880) to (42.6925, -82.6254)
             self.hotspots = [
                 {
-                    "lat": 34.8480,
-                    "lon": -114.6147,
-                    "radius_m": 250,
+                    "lat": 41.8900,
+                    "lon": -80.8000,
+                    "radius_m": 400,
                     "multiplier": 4.5,
-                    "name": "Needles Downtown Exit",
-                    "primary_trash": ["food_packaging", "plastic_bottle", "tire"],
+                    "name": "Conneaut Harbor Dumping",
+                    "primary_trash": ["tire", "metal_debris", "construction_waste"],
                 },
                 {
-                    "lat": 34.8550,
-                    "lon": -114.5850,
-                    "radius_m": 180,
-                    "multiplier": 3.0,
-                    "name": "East Needles Pullout",
-                    "primary_trash": ["plastic_bottle", "metal_debris"],
-                },
-                {
-                    "lat": 34.8650,
-                    "lon": -114.5550,
-                    "radius_m": 300,
-                    "multiplier": 5.0,
-                    "name": "Desert Rest Stop",
-                    "primary_trash": ["food_packaging", "plastic_bottle", "tire"],
-                },
-                {
-                    "lat": 34.8694,
-                    "lon": -114.5289,
-                    "radius_m": 200,
-                    "multiplier": 4.0,
-                    "name": "AZ State Line Welcome",
-                    "primary_trash": ["plastic_bottle", "food_packaging"],
-                },
-                {
-                    "lat": 34.8820,
-                    "lon": -114.4800,
-                    "radius_m": 350,
+                    "lat": 41.5500,
+                    "lon": -81.6000,
+                    "radius_m": 500,
                     "multiplier": 6.0,
-                    "name": "Historic Marker Dumping",
+                    "name": "Cleveland Industrial Zone",
+                    "primary_trash": ["metal_debris", "tire", "construction_waste"],
+                },
+                {
+                    "lat": 41.4800,
+                    "lon": -81.7500,
+                    "radius_m": 350,
+                    "multiplier": 5.0,
+                    "name": "Cleveland Harbor",
+                    "primary_trash": ["plastic_bottle", "food_packaging", "tire"],
+                },
+                {
+                    "lat": 41.3700,
+                    "lon": -82.5300,
+                    "radius_m": 400,
+                    "multiplier": 4.5,
+                    "name": "Sandusky Bay Marina",
+                    "primary_trash": ["plastic_bottle", "organic_waste", "glass"],
+                },
+                {
+                    "lat": 41.6600,
+                    "lon": -83.3500,
+                    "radius_m": 450,
+                    "multiplier": 5.5,
+                    "name": "Toledo Waterfront",
+                    "primary_trash": ["food_packaging", "plastic_bottle", "metal_debris"],
+                },
+                {
+                    "lat": 42.2000,
+                    "lon": -83.1700,
+                    "radius_m": 500,
+                    "multiplier": 6.5,
+                    "name": "Detroit River Industrial",
                     "primary_trash": ["tire", "construction_waste", "metal_debris"],
+                },
+                {
+                    "lat": 42.6900,
+                    "lon": -82.6300,
+                    "radius_m": 350,
+                    "multiplier": 4.0,
+                    "name": "Lake St. Clair Shore",
+                    "primary_trash": ["plastic_bottle", "food_packaging", "organic_waste"],
                 },
             ]
 
@@ -941,8 +958,14 @@ if __name__ == "__main__":
             with open(anim_file, 'r') as f:
                 anim_data = json.load(f)
             # Convert animation frames to waypoints format
-            # Sample every Nth frame to create ~20-30 waypoints
-            sample_rate = max(1, len(anim_data) // 25)
+            # Sample more waypoints to allow for target detection counts
+            # urban_waterfront needs 90-115 detections, others need 75-95
+            env_type = LOCATIONS[location].get("type", "beach")
+            if env_type == "urban_waterfront":
+                target_waypoints = 130  # More for NASA Space Center
+            else:
+                target_waypoints = 110  # Enough for 75-95 detections
+            sample_rate = max(1, len(anim_data) // target_waypoints)
             waypoints = []
             for i in range(0, len(anim_data), sample_rate):
                 frame = anim_data[i]

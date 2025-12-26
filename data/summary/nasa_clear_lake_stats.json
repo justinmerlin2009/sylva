@@ -1,71 +1,71 @@
 {
-  "total_detections": 95,
-  "total_estimated_weight_kg": 268.02,
-  "total_area_m2": 7.54,
+  "total_detections": 110,
+  "total_estimated_weight_kg": 553.61,
+  "total_area_m2": 14.75,
   "by_category": [
     {
       "category": "plastic_bottle",
       "name": "Plastic Bottles",
-      "count": 31,
-      "percentage": 32.6,
+      "count": 23,
+      "percentage": 20.9,
       "color": "#3498db"
     },
     {
       "category": "food_packaging",
-      "name": "Food Packaging",
-      "count": 30,
-      "percentage": 31.6,
+      "name": "Food Packaging/Cardboard",
+      "count": 21,
+      "percentage": 19.1,
       "color": "#e67e22"
     },
     {
       "category": "tire",
       "name": "Tires",
-      "count": 9,
-      "percentage": 9.5,
+      "count": 18,
+      "percentage": 16.4,
       "color": "#2c3e50"
     },
     {
       "category": "metal_debris",
       "name": "Metal Debris",
-      "count": 8,
-      "percentage": 8.4,
+      "count": 16,
+      "percentage": 14.5,
       "color": "#95a5a6"
+    },
+    {
+      "category": "construction_waste",
+      "name": "Construction Waste",
+      "count": 12,
+      "percentage": 10.9,
+      "color": "#8e44ad"
     },
     {
       "category": "organic_waste",
       "name": "Organic Waste",
-      "count": 5,
-      "percentage": 5.3,
+      "count": 8,
+      "percentage": 7.3,
       "color": "#27ae60"
+    },
+    {
+      "category": "glass",
+      "name": "Glass",
+      "count": 8,
+      "percentage": 7.3,
+      "color": "#1abc9c"
     },
     {
       "category": "textile",
       "name": "Textile/Fabric",
       "count": 4,
-      "percentage": 4.2,
+      "percentage": 3.6,
       "color": "#e74c3c"
-    },
-    {
-      "category": "glass",
-      "name": "Glass",
-      "count": 4,
-      "percentage": 4.2,
-      "color": "#1abc9c"
-    },
-    {
-      "category": "construction_waste",
-      "name": "Construction Waste",
-      "count": 4,
-      "percentage": 4.2,
-      "color": "#8e44ad"
     }
   ],
   "by_priority": {
-    "critical": 13,
-    "high": 8,
-    "medium": 41,
-    "low": 33
+    "critical": 20,
+    "high": 10,
+    "medium": 20,
+    "low": 60
   },
-  "location": "NASA Clear Lake, Houston TX",
+  "location": "NASA - Space Center Houston, Texas",
   "environment_type": "urban_waterfront"
 }

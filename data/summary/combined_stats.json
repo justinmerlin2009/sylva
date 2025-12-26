@@ -1,221 +1,221 @@
 {
-  "total_detections": 285,
-  "total_weight_kg": 971.36,
+  "total_detections": 300,
+  "total_weight_kg": 1275.97,
   "total_clusters": 0,
   "by_location": {
     "stinson_beach": {
       "total_detections": 95,
-      "total_estimated_weight_kg": 60.1,
-      "total_area_m2": 3.23,
+      "total_estimated_weight_kg": 151.95,
+      "total_area_m2": 5.78,
       "by_category": [
         {
           "category": "plastic_bottle",
           "name": "Plastic Bottles",
-          "count": 33,
-          "percentage": 34.7,
+          "count": 35,
+          "percentage": 36.8,
           "color": "#3498db"
         },
         {
           "category": "food_packaging",
-          "name": "Food Packaging",
-          "count": 25,
-          "percentage": 26.3,
+          "name": "Food Packaging/Cardboard",
+          "count": 17,
+          "percentage": 17.9,
           "color": "#e67e22"
-        },
-        {
-          "category": "glass",
-          "name": "Glass",
-          "count": 14,
-          "percentage": 14.7,
-          "color": "#1abc9c"
         },
         {
           "category": "organic_waste",
           "name": "Organic Waste",
+          "count": 13,
+          "percentage": 13.7,
+          "color": "#27ae60"
+        },
+        {
+          "category": "glass",
+          "name": "Glass",
           "count": 9,
           "percentage": 9.5,
-          "color": "#27ae60"
+          "color": "#1abc9c"
         },
         {
           "category": "textile",
           "name": "Textile/Fabric",
-          "count": 6,
-          "percentage": 6.3,
+          "count": 8,
+          "percentage": 8.4,
           "color": "#e74c3c"
         },
         {
           "category": "metal_debris",
           "name": "Metal Debris",
-          "count": 5,
-          "percentage": 5.3,
+          "count": 7,
+          "percentage": 7.4,
           "color": "#95a5a6"
-        },
-        {
-          "category": "tire",
-          "name": "Tires",
-          "count": 2,
-          "percentage": 2.1,
-          "color": "#2c3e50"
         },
         {
           "category": "construction_waste",
           "name": "Construction Waste",
-          "count": 1,
-          "percentage": 1.1,
+          "count": 3,
+          "percentage": 3.2,
           "color": "#8e44ad"
+        },
+        {
+          "category": "tire",
+          "name": "Tires",
+          "count": 3,
+          "percentage": 3.2,
+          "color": "#2c3e50"
         }
       ],
       "by_priority": {
-        "critical": 4,
+        "critical": 6,
         "high": 7,
-        "medium": 72,
-        "low": 12
+        "medium": 24,
+        "low": 58
       },
-      "location": "Stinson Beach, California",
+      "location": "Stinson Beach Coastline, California",
       "environment_type": "beach"
     },
     "route_66": {
       "total_detections": 95,
-      "total_estimated_weight_kg": 643.24,
-      "total_area_m2": 13.34,
+      "total_estimated_weight_kg": 570.41,
+      "total_area_m2": 12.27,
       "by_category": [
         {
+          "category": "metal_debris",
+          "name": "Metal Debris",
+          "count": 22,
+          "percentage": 23.2,
+          "color": "#95a5a6"
+        },
+        {
           "category": "food_packaging",
-          "name": "Food Packaging",
-          "count": 25,
-          "percentage": 26.3,
+          "name": "Food Packaging/Cardboard",
+          "count": 20,
+          "percentage": 21.1,
+          "color": "#e67e22"
+        },
+        {
+          "category": "tire",
+          "name": "Tires",
+          "count": 12,
+          "percentage": 12.6,
+          "color": "#2c3e50"
+        },
+        {
+          "category": "glass",
+          "name": "Glass",
+          "count": 11,
+          "percentage": 11.6,
+          "color": "#1abc9c"
+        },
+        {
+          "category": "construction_waste",
+          "name": "Construction Waste",
+          "count": 10,
+          "percentage": 10.5,
+          "color": "#8e44ad"
+        },
+        {
+          "category": "plastic_bottle",
+          "name": "Plastic Bottles",
+          "count": 10,
+          "percentage": 10.5,
+          "color": "#3498db"
+        },
+        {
+          "category": "organic_waste",
+          "name": "Organic Waste",
+          "count": 5,
+          "percentage": 5.3,
+          "color": "#27ae60"
+        },
+        {
+          "category": "textile",
+          "name": "Textile/Fabric",
+          "count": 5,
+          "percentage": 5.3,
+          "color": "#e74c3c"
+        }
+      ],
+      "by_priority": {
+        "critical": 15,
+        "high": 7,
+        "medium": 21,
+        "low": 52
+      },
+      "location": "Lake Erie - Highway & Waterfront, Ohio",
+      "environment_type": "highway"
+    },
+    "nasa_clear_lake": {
+      "total_detections": 110,
+      "total_estimated_weight_kg": 553.61,
+      "total_area_m2": 14.75,
+      "by_category": [
+        {
+          "category": "plastic_bottle",
+          "name": "Plastic Bottles",
+          "count": 23,
+          "percentage": 20.9,
+          "color": "#3498db"
+        },
+        {
+          "category": "food_packaging",
+          "name": "Food Packaging/Cardboard",
+          "count": 21,
+          "percentage": 19.1,
           "color": "#e67e22"
         },
         {
           "category": "tire",
           "name": "Tires",
           "count": 18,
-          "percentage": 18.9,
+          "percentage": 16.4,
           "color": "#2c3e50"
         },
         {
           "category": "metal_debris",
           "name": "Metal Debris",
-          "count": 15,
-          "percentage": 15.8,
+          "count": 16,
+          "percentage": 14.5,
           "color": "#95a5a6"
-        },
-        {
-          "category": "plastic_bottle",
-          "name": "Plastic Bottles",
-          "count": 13,
-          "percentage": 13.7,
-          "color": "#3498db"
         },
         {
           "category": "construction_waste",
           "name": "Construction Waste",
           "count": 12,
-          "percentage": 12.6,
+          "percentage": 10.9,
           "color": "#8e44ad"
         },
         {
           "category": "organic_waste",
           "name": "Organic Waste",
-          "count": 6,
-          "percentage": 6.3,
-          "color": "#27ae60"
-        },
-        {
-          "category": "glass",
-          "name": "Glass",
-          "count": 3,
-          "percentage": 3.2,
-          "color": "#1abc9c"
-        },
-        {
-          "category": "textile",
-          "name": "Textile/Fabric",
-          "count": 3,
-          "percentage": 3.2,
-          "color": "#e74c3c"
-        }
-      ],
-      "by_priority": {
-        "critical": 26,
-        "high": 8,
-        "medium": 33,
-        "low": 28
-      },
-      "location": "Route 66 - Needles Corridor",
-      "environment_type": "highway"
-    },
-    "nasa_clear_lake": {
-      "total_detections": 95,
-      "total_estimated_weight_kg": 268.02,
-      "total_area_m2": 7.54,
-      "by_category": [
-        {
-          "category": "plastic_bottle",
-          "name": "Plastic Bottles",
-          "count": 31,
-          "percentage": 32.6,
-          "color": "#3498db"
-        },
-        {
-          "category": "food_packaging",
-          "name": "Food Packaging",
-          "count": 30,
-          "percentage": 31.6,
-          "color": "#e67e22"
-        },
-        {
-          "category": "tire",
-          "name": "Tires",
-          "count": 9,
-          "percentage": 9.5,
-          "color": "#2c3e50"
-        },
-        {
-          "category": "metal_debris",
-          "name": "Metal Debris",
           "count": 8,
-          "percentage": 8.4,
-          "color": "#95a5a6"
+          "percentage": 7.3,
+          "color": "#27ae60"
         },
         {
-          "category": "organic_waste",
-          "name": "Organic Waste",
-          "count": 5,
-          "percentage": 5.3,
-          "color": "#27ae60"
+          "category": "glass",
+          "name": "Glass",
+          "count": 8,
+          "percentage": 7.3,
+          "color": "#1abc9c"
         },
         {
           "category": "textile",
           "name": "Textile/Fabric",
           "count": 4,
-          "percentage": 4.2,
+          "percentage": 3.6,
           "color": "#e74c3c"
-        },
-        {
-          "category": "glass",
-          "name": "Glass",
-          "count": 4,
-          "percentage": 4.2,
-          "color": "#1abc9c"
-        },
-        {
-          "category": "construction_waste",
-          "name": "Construction Waste",
-          "count": 4,
-          "percentage": 4.2,
-          "color": "#8e44ad"
         }
       ],
       "by_priority": {
-        "critical": 13,
-        "high": 8,
-        "medium": 41,
-        "low": 33
+        "critical": 20,
+        "high": 10,
+        "medium": 20,
+        "low": 60
       },
-      "location": "NASA Clear Lake, Houston TX",
+      "location": "NASA - Space Center Houston, Texas",
       "environment_type": "urban_waterfront"
     }
   },
-  "generated_at": "2025-12-25T14:51:46.492379"
+  "generated_at": "2025-12-26T08:52:12.012425"
 }

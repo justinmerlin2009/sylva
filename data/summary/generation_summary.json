@@ -1,32 +1,32 @@
 {
-  "generated_at": "2025-12-25T14:51:46.443974",
+  "generated_at": "2025-12-26T08:52:11.888777",
   "seed": 42,
   "locations": {
     "stinson_beach": {
       "flight_id": "SYLVA-STI-001",
-      "waypoints": 235,
-      "distance_km": 3.63,
-      "duration_minutes": 3.0,
+      "waypoints": 124,
+      "distance_km": 9.32,
+      "duration_minutes": 7.8,
       "detections": 95,
-      "estimated_weight_kg": 60.1,
+      "estimated_weight_kg": 151.95,
       "clusters": 0
     },
     "route_66": {
       "flight_id": "SYLVA-ROU-001",
-      "waypoints": 1021,
-      "distance_km": 15.33,
-      "duration_minutes": 9.1,
+      "waypoints": 111,
+      "distance_km": 365.38,
+      "duration_minutes": 243.6,
       "detections": 95,
-      "estimated_weight_kg": 643.24,
+      "estimated_weight_kg": 570.41,
       "clusters": 0
     },
     "nasa_clear_lake": {
       "flight_id": "SYLVA-NAS-001",
-      "waypoints": 409,
-      "distance_km": 6.17,
-      "duration_minutes": 4.7,
-      "detections": 95,
-      "estimated_weight_kg": 268.02,
+      "waypoints": 134,
+      "distance_km": 16.0,
+      "duration_minutes": 13.3,
+      "detections": 110,
+      "estimated_weight_kg": 553.61,
       "clusters": 0
     }
   }

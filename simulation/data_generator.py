@@ -87,22 +87,50 @@ class DataGenerator:
         """
         flight_id = f"SYLVA-{location_key.upper()[:3]}-001"
 
-        # Generate flight path
-        print(f"  Generating flight path...")
-        flight_gen = FlightPathGenerator(location_key)
-        waypoints = flight_gen.generate_path()
-
-        flight_geojson = flight_gen.to_geojson()
-        animation_data = flight_gen.to_animation_data()
-
-        # Save flight data
-        flight_path = self.flights_dir / f"{location_key}_flight.geojson"
-        with open(flight_path, "w") as f:
-            json.dump(flight_geojson, f, indent=2)
-
+        # Check for existing animation file (custom paths)
         animation_path = self.flights_dir / f"{location_key}_animation.json"
-        with open(animation_path, "w") as f:
-            json.dump(animation_data, f, indent=2)
+        flight_path_file = self.flights_dir / f"{location_key}_flight.geojson"
+
+        if animation_path.exists() and flight_path_file.exists():
+            # Use existing custom flight paths
+            print(f"  Loading existing flight path...")
+            with open(animation_path, "r") as f:
+                animation_data = json.load(f)
+            with open(flight_path_file, "r") as f:
+                flight_geojson = json.load(f)
+
+            # Convert animation frames to waypoints format for detection generation
+            env_type = LOCATIONS[location_key].get("type", "beach")
+            if env_type == "urban_waterfront":
+                target_waypoints = 130
+            else:
+                target_waypoints = 110
+            sample_rate = max(1, len(animation_data) // target_waypoints)
+
+            waypoints = []
+            for i in range(0, len(animation_data), sample_rate):
+                frame = animation_data[i]
+                waypoints.append({
+                    "lat": frame["lat"],
+                    "lon": frame["lon"],
+                    "timestamp": frame.get("timestamp", "2026-01-15T10:00:00"),
+                    "name": f"WP-{len(waypoints)+1}"
+                })
+        else:
+            # Generate new flight path from config
+            print(f"  Generating flight path...")
+            flight_gen = FlightPathGenerator(location_key)
+            waypoints = flight_gen.generate_path()
+
+            flight_geojson = flight_gen.to_geojson()
+            animation_data = flight_gen.to_animation_data()
+
+            # Save flight data
+            with open(flight_path_file, "w") as f:
+                json.dump(flight_geojson, f, indent=2)
+
+            with open(animation_path, "w") as f:
+                json.dump(animation_data, f, indent=2)
 
         self.all_flights[location_key] = {
             "geojson": flight_geojson,
@@ -139,11 +167,20 @@ class DataGenerator:
         self.all_stats[location_key] = stats
         self.all_clusters[location_key] = clusters_geojson
 
+        # Get distance and duration from flight data
+        if flight_geojson.get("features"):
+            props = flight_geojson["features"][0].get("properties", {})
+            distance_km = round(props.get("total_distance_m", 0) / 1000, 2)
+            duration_minutes = round(props.get("duration_seconds", 0) / 60, 1)
+        else:
+            distance_km = 0
+            duration_minutes = 0
+
         location_summary = {
             "flight_id": flight_id,
             "waypoints": len(waypoints),
-            "distance_km": round(flight_gen.get_total_distance() / 1000, 2),
-            "duration_minutes": round(flight_gen.get_flight_duration() / 60, 1),
+            "distance_km": distance_km,
+            "duration_minutes": duration_minutes,
             "detections": len(detections),
             "estimated_weight_kg": stats.get("total_estimated_weight_kg", 0),
             "clusters": len(clusters),
@@ -215,25 +252,55 @@ class DataGenerator:
         with open(combined_stats_path, "w") as f:
             json.dump(combined_stats, f, indent=2)
 
+        # Generate heatmap data
+        self.get_heatmap_data()
+
     def get_heatmap_data(self) -> List[List]:
         """
         Generate heatmap data for visualization.
+        Uses weight and priority to create varied intensity distribution.
+        Blue/green = low trash, yellow/orange/red = high density.
 
         Returns:
             List of [lat, lon, intensity] values
         """
+        import math
         heatmap_data = []
+
+        # Priority multipliers for intensity
+        priority_mult = {
+            "critical": 1.0,
+            "high": 0.75,
+            "medium": 0.5,
+            "low": 0.25
+        }
 
         for location_key, geojson in self.all_detections.items():
             for feature in geojson["features"]:
                 coords = feature["geometry"]["coordinates"]
                 weight = feature["properties"]["estimated_weight_kg"]
+                priority = feature["properties"].get("priority", "low")
 
-                # Intensity based on weight
-                intensity = min(1.0, weight / 10.0)
-                heatmap_data.append([coords[1], coords[0], intensity])
+                # Base intensity from weight - spread across full gradient range
+                # Lightweight items (0-0.5kg): 0.05-0.3 intensity (blue/cyan)
+                # Medium items (0.5-2kg): 0.3-0.5 intensity (green/yellow-green)
+                # Large items (2-10kg): 0.5-0.75 intensity (yellow/orange)
+                # Heavy items (10+kg): 0.75-1.0 intensity (red)
+                if weight < 0.5:
+                    base_intensity = 0.05 + (weight / 0.5) * 0.25
+                elif weight < 2.0:
+                    base_intensity = 0.3 + ((weight - 0.5) / 1.5) * 0.2
+                elif weight < 10.0:
+                    base_intensity = 0.5 + ((weight - 2.0) / 8.0) * 0.25
+                else:
+                    base_intensity = 0.75 + min(0.25, (weight - 10.0) / 40.0)
 
-        heatmap_path = self.summary_dir / "heatmap_data.json"
+                # Adjust by priority - critical items bump up, low items stay low
+                priority_boost = priority_mult.get(priority, 0.25)
+                intensity = min(1.0, base_intensity * (0.6 + 0.4 * priority_boost))
+                heatmap_data.append([coords[1], coords[0], round(intensity, 3)])
+
+        heatmap_path = self.output_dir / "heatmap_data.json"
         with open(heatmap_path, "w") as f:
             json.dump(heatmap_data, f)
 

@@ -51,7 +51,7 @@ function Sidebar({
             >
               <div className="location-name">
                 {loc.id === 'stinson_beach' ? 'Stinson Beach' :
-                 loc.id === 'route_66' ? 'Route 66' :
+                 loc.id === 'route_66' ? 'Lake Erie' :
                  loc.id === 'nasa_clear_lake' ? 'NASA Space Center' : loc.name}
               </div>
               <div className="location-type">{loc.type}</div>

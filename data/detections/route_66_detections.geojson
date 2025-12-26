@@ -6,85 +6,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -114.62985200911241,
-          34.84320645272961
+          -80.78765419733313,
+          41.89430797296498
         ]
       },
       "properties": {
-        "id": "DET-2025-79AA9803",
+        "id": "DET-2025-5B727B8C",
         "timestamp": "2026-01-15T10:00:00",
-        "category": "food_packaging",
-        "category_name": "Food Packaging/Cardboard",
-        "confidence": 0.944,
-        "size_m2": 0.0184,
-        "estimated_weight_kg": 0.063,
-        "priority": "low",
-        "color": "#e67e22",
-        "flight_id": "SYLVA-ROU-001",
-        "environment": "highway",
-        "location": "Historic Route 66, Needles CA"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -114.62873982956025,
-          34.843180258081986
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-A5FF5B1A",
-        "timestamp": "2026-01-15T10:00:04.828885",
-        "category": "tire",
-        "category_name": "Tires",
-        "confidence": 0.752,
-        "size_m2": 0.4318,
-        "estimated_weight_kg": 14.025,
-        "priority": "critical",
-        "color": "#2c3e50",
-        "flight_id": "SYLVA-ROU-001",
-        "environment": "highway",
-        "location": "Historic Route 66, Needles CA"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -114.62738702934517,
-          34.843604146483564
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-7001122B",
-        "timestamp": "2026-01-15T10:00:09.657770",
-        "category": "food_packaging",
-        "category_name": "Food Packaging/Cardboard",
-        "confidence": 0.875,
-        "size_m2": 0.0191,
-        "estimated_weight_kg": 0.046,
-        "priority": "low",
-        "color": "#e67e22",
-        "flight_id": "SYLVA-ROU-001",
-        "environment": "highway",
-        "location": "Historic Route 66, Needles CA"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -114.62548398838081,
-          34.84422858437926
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-95C7CCC7",
-        "timestamp": "2026-01-15T10:00:14.486655",
         "category": "food_packaging",
         "category_name": "Food Packaging/Cardboard",
         "confidence": 0.818,
@@ -94,7 +22,7 @@
         "color": "#e67e22",
         "flight_id": "SYLVA-ROU-001",
         "environment": "highway",
-        "location": "Historic Route 66, Needles CA"
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
       }
     },
     {
@@ -102,13 +30,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -114.62452760995247,
-          34.84441747140893
+          -80.82271158415367,
+          41.87899048508058
         ]
       },
       "properties": {
-        "id": "DET-2025-9A24D100",
-        "timestamp": "2026-01-15T10:00:19.315540",
+        "id": "DET-2025-0B0DBA10",
+        "timestamp": "2026-01-15T10:02:12.622884",
         "category": "food_packaging",
         "category_name": "Food Packaging/Cardboard",
         "confidence": 0.785,
@@ -118,7 +46,7 @@
         "color": "#e67e22",
         "flight_id": "SYLVA-ROU-001",
         "environment": "highway",
-        "location": "Historic Route 66, Needles CA"
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
       }
     },
     {
@@ -126,13 +54,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -114.62280582625068,
-          34.8446690268103
+          -80.85673299353532,
+          41.86375439349707
         ]
       },
       "properties": {
-        "id": "DET-2025-80FC11B5",
-        "timestamp": "2026-01-15T10:00:24.144425",
+        "id": "DET-2025-D1842E06",
+        "timestamp": "2026-01-15T10:04:25.245768",
         "category": "construction_waste",
         "category_name": "Construction Waste",
         "confidence": 0.838,
@@ -142,7 +70,7 @@
         "color": "#8e44ad",
         "flight_id": "SYLVA-ROU-001",
         "environment": "highway",
-        "location": "Historic Route 66, Needles CA"
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
       }
     },
     {
@@ -150,13 +78,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -114.62170253436102,
-          34.84515114194553
+          -80.89158508371449,
+          41.848798658913346
         ]
       },
       "properties": {
-        "id": "DET-2025-D7DCBD65",
-        "timestamp": "2026-01-15T10:00:28.973311",
+        "id": "DET-2025-81DA2E31",
+        "timestamp": "2026-01-15T10:06:37.868653",
         "category": "organic_waste",
         "category_name": "Organic Waste",
         "confidence": 0.76,
@@ -166,7 +94,7 @@
         "color": "#27ae60",
         "flight_id": "SYLVA-ROU-001",
         "environment": "highway",
-        "location": "Historic Route 66, Needles CA"
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
       }
     },
     {
@@ -174,13 +102,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -114.62002844879423,
-          34.84525186121756
+          -80.92568943203594,
+          41.83338850418797
         ]
       },
       "properties": {
-        "id": "DET-2025-A5326CC4",
-        "timestamp": "2026-01-15T10:00:33.802196",
+        "id": "DET-2025-B9746788",
+        "timestamp": "2026-01-15T10:08:50.491537",
         "category": "food_packaging",
         "category_name": "Food Packaging/Cardboard",
         "confidence": 0.916,
@@ -190,7 +118,7 @@
         "color": "#e67e22",
         "flight_id": "SYLVA-ROU-001",
         "environment": "highway",
-        "location": "Historic Route 66, Needles CA"
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
       }
     },
     {
@@ -198,13 +126,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -114.61871667767616,
-          34.84568783458061
+          -80.96026053799339,
+          41.81837110624589
         ]
       },
       "properties": {
-        "id": "DET-2025-942AFCAC",
-        "timestamp": "2026-01-15T10:00:38.631081",
+        "id": "DET-2025-4C85872D",
+        "timestamp": "2026-01-15T10:11:03.114421",
         "category": "plastic_bottle",
         "category_name": "Plastic Bottles",
         "confidence": 0.812,
@@ -214,7 +142,7 @@
         "color": "#3498db",
         "flight_id": "SYLVA-ROU-001",
         "environment": "highway",
-        "location": "Historic Route 66, Needles CA"
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
       }
     },
     {
@@ -222,13 +150,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -114.61724396401586,
-          34.84622708027664
+          -80.99460743775377,
+          41.80348363772916
         ]
       },
       "properties": {
-        "id": "DET-2025-D853B868",
-        "timestamp": "2026-01-15T10:00:43.459966",
+        "id": "DET-2025-8D62CAC7",
+        "timestamp": "2026-01-15T10:13:15.737305",
         "category": "food_packaging",
         "category_name": "Food Packaging/Cardboard",
         "confidence": 0.966,
@@ -238,7 +166,7 @@
         "color": "#e67e22",
         "flight_id": "SYLVA-ROU-001",
         "environment": "highway",
-        "location": "Historic Route 66, Needles CA"
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
       }
     },
     {
@@ -246,23 +174,23 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -114.61573694475135,
-          34.84643399272101
+          -81.02891874143427,
+          41.7882078108885
         ]
       },
       "properties": {
-        "id": "DET-2025-70BE35A3",
-        "timestamp": "2026-01-15T10:00:48.288851",
-        "category": "construction_waste",
-        "category_name": "Construction Waste",
+        "id": "DET-2025-A1735FBF",
+        "timestamp": "2026-01-15T10:15:28.360189",
+        "category": "glass",
+        "category_name": "Glass",
         "confidence": 0.904,
-        "size_m2": 0.9153,
-        "estimated_weight_kg": 41.195,
-        "priority": "critical",
-        "color": "#8e44ad",
+        "size_m2": 0.0092,
+        "estimated_weight_kg": 0.434,
+        "priority": "low",
+        "color": "#1abc9c",
         "flight_id": "SYLVA-ROU-001",
         "environment": "highway",
-        "location": "Historic Route 66, Needles CA"
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
       }
     },
     {
@@ -270,13 +198,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -114.6143463272771,
-          34.847042731441114
+          -81.06340191553689,
+          41.77340166298715
         ]
       },
       "properties": {
-        "id": "DET-2025-DD6414A5",
-        "timestamp": "2026-01-15T10:00:53.117736",
+        "id": "DET-2025-5F3C6519",
+        "timestamp": "2026-01-15T10:17:40.983074",
         "category": "plastic_bottle",
         "category_name": "Plastic Bottles",
         "confidence": 0.751,
@@ -286,7 +214,7 @@
         "color": "#3498db",
         "flight_id": "SYLVA-ROU-001",
         "environment": "highway",
-        "location": "Historic Route 66, Needles CA"
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
       }
     },
     {
@@ -294,23 +222,23 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -114.61289399459788,
-          34.847362808444714
+          -81.13222989735164,
+          41.743129036567275
         ]
       },
       "properties": {
-        "id": "DET-2025-AD49D396",
-        "timestamp": "2026-01-15T10:00:57.946621",
-        "category": "plastic_bottle",
-        "category_name": "Plastic Bottles",
+        "id": "DET-2025-AAB4CC0E",
+        "timestamp": "2026-01-15T10:22:06.228842",
+        "category": "food_packaging",
+        "category_name": "Food Packaging/Cardboard",
         "confidence": 0.828,
-        "size_m2": 0.0031,
-        "estimated_weight_kg": 0.019,
+        "size_m2": 0.0157,
+        "estimated_weight_kg": 0.039,
         "priority": "low",
-        "color": "#3498db",
+        "color": "#e67e22",
         "flight_id": "SYLVA-ROU-001",
         "environment": "highway",
-        "location": "Historic Route 66, Needles CA"
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
       }
     },
     {
@@ -318,13 +246,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -114.6114412404988,
-          34.84773755382305
+          -81.16662896706822,
+          41.72805368005277
         ]
       },
       "properties": {
-        "id": "DET-2025-A0FF7743",
-        "timestamp": "2026-01-15T10:01:02.775506",
+        "id": "DET-2025-FA6853FB",
+        "timestamp": "2026-01-15T10:24:18.851726",
         "category": "metal_debris",
         "category_name": "Metal Debris",
         "confidence": 0.814,
@@ -334,7 +262,7 @@
         "color": "#95a5a6",
         "flight_id": "SYLVA-ROU-001",
         "environment": "highway",
-        "location": "Historic Route 66, Needles CA"
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
       }
     },
     {
@@ -342,13 +270,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -114.60997338786495,
-          34.84791186593636
+          -81.20097296611657,
+          41.712722783023985
         ]
       },
       "properties": {
-        "id": "DET-2025-D943F810",
-        "timestamp": "2026-01-15T10:01:07.604391",
+        "id": "DET-2025-B192E7D9",
+        "timestamp": "2026-01-15T10:26:31.474610",
         "category": "metal_debris",
         "category_name": "Metal Debris",
         "confidence": 0.888,
@@ -358,7 +286,7 @@
         "color": "#95a5a6",
         "flight_id": "SYLVA-ROU-001",
         "environment": "highway",
-        "location": "Historic Route 66, Needles CA"
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
       }
     },
     {
@@ -366,13 +294,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -114.60879644659545,
-          34.84840171872463
+          -81.23577778727923,
+          41.69783653759671
         ]
       },
       "properties": {
-        "id": "DET-2025-52489AEA",
-        "timestamp": "2026-01-15T10:01:12.441415",
+        "id": "DET-2025-835FF631",
+        "timestamp": "2026-01-15T10:28:44.097495",
         "category": "plastic_bottle",
         "category_name": "Plastic Bottles",
         "confidence": 0.976,
@@ -382,7 +310,7 @@
         "color": "#3498db",
         "flight_id": "SYLVA-ROU-001",
         "environment": "highway",
-        "location": "Historic Route 66, Needles CA"
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
       }
     },
     {
@@ -390,13 +318,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -114.60756138993743,
-          34.84852185379515
+          -81.27046673039341,
+          41.682526660064255
         ]
       },
       "properties": {
-        "id": "DET-2025-15DFF291",
-        "timestamp": "2026-01-15T10:01:17.279456",
+        "id": "DET-2025-4630ED67",
+        "timestamp": "2026-01-15T10:30:56.720379",
         "category": "glass",
         "category_name": "Glass",
         "confidence": 0.981,
@@ -406,7 +334,7 @@
         "color": "#1abc9c",
         "flight_id": "SYLVA-ROU-001",
         "environment": "highway",
-        "location": "Historic Route 66, Needles CA"
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
       }
     },
     {
@@ -414,13 +342,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -114.60563414711814,
-          34.84880132731579
+          -81.3387071134497,
+          41.65229920572934
         ]
       },
       "properties": {
-        "id": "DET-2025-EB99A206",
-        "timestamp": "2026-01-15T10:01:22.117497",
+        "id": "DET-2025-8DA07B01",
+        "timestamp": "2026-01-15T10:35:21.966147",
         "category": "food_packaging",
         "category_name": "Food Packaging/Cardboard",
         "confidence": 0.975,
@@ -430,7 +358,7 @@
         "color": "#e67e22",
         "flight_id": "SYLVA-ROU-001",
         "environment": "highway",
-        "location": "Historic Route 66, Needles CA"
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
       }
     },
     {
@@ -438,13 +366,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -114.6043083794092,
-          34.84896494130497
+          -81.37330023277042,
+          41.637038589740435
         ]
       },
       "properties": {
-        "id": "DET-2025-29036F1C",
-        "timestamp": "2026-01-15T10:01:26.955539",
+        "id": "DET-2025-59EF4FB0",
+        "timestamp": "2026-01-15T10:37:34.589031",
         "category": "textile",
         "category_name": "Textile/Fabric",
         "confidence": 0.961,
@@ -454,7 +382,7 @@
         "color": "#e74c3c",
         "flight_id": "SYLVA-ROU-001",
         "environment": "highway",
-        "location": "Historic Route 66, Needles CA"
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
       }
     },
     {
@@ -462,13 +390,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -114.60302448594055,
-          34.849542527323216
+          -81.40793851301676,
+          41.62227218552411
         ]
       },
       "properties": {
-        "id": "DET-2025-ADA810C1",
-        "timestamp": "2026-01-15T10:01:31.793580",
+        "id": "DET-2025-D1A749A2",
+        "timestamp": "2026-01-15T10:39:47.211916",
         "category": "food_packaging",
         "category_name": "Food Packaging/Cardboard",
         "confidence": 0.958,
@@ -478,7 +406,7 @@
         "color": "#e67e22",
         "flight_id": "SYLVA-ROU-001",
         "environment": "highway",
-        "location": "Historic Route 66, Needles CA"
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
       }
     },
     {
@@ -486,13 +414,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -114.601355590746,
-          34.84968319851663
+          -81.44207121952657,
+          41.60699643786462
         ]
       },
       "properties": {
-        "id": "DET-2025-079B1D24",
-        "timestamp": "2026-01-15T10:01:36.631621",
+        "id": "DET-2025-E2B4BFEC",
+        "timestamp": "2026-01-15T10:41:59.834800",
         "category": "metal_debris",
         "category_name": "Metal Debris",
         "confidence": 0.964,
@@ -502,7 +430,7 @@
         "color": "#95a5a6",
         "flight_id": "SYLVA-ROU-001",
         "environment": "highway",
-        "location": "Historic Route 66, Needles CA"
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
       }
     },
     {
@@ -510,13 +438,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -114.60006820854885,
-          34.84981389753289
+          -81.47669980064205,
+          41.591692161922545
         ]
       },
       "properties": {
-        "id": "DET-2025-A8F89F05",
-        "timestamp": "2026-01-15T10:01:41.469662",
+        "id": "DET-2025-68C1E04F",
+        "timestamp": "2026-01-15T10:44:12.457684",
         "category": "plastic_bottle",
         "category_name": "Plastic Bottles",
         "confidence": 0.819,
@@ -526,7 +454,7 @@
         "color": "#3498db",
         "flight_id": "SYLVA-ROU-001",
         "environment": "highway",
-        "location": "Historic Route 66, Needles CA"
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
       }
     },
     {
@@ -534,13 +462,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -114.59843294068831,
-          34.850039420482304
+          -81.51090000375834,
+          41.576514231706994
         ]
       },
       "properties": {
-        "id": "DET-2025-F04D1D3B",
-        "timestamp": "2026-01-15T10:01:46.307704",
+        "id": "DET-2025-D9031488",
+        "timestamp": "2026-01-15T10:46:25.080568",
         "category": "tire",
         "category_name": "Tires",
         "confidence": 0.935,
@@ -550,7 +478,7 @@
         "color": "#2c3e50",
         "flight_id": "SYLVA-ROU-001",
         "environment": "highway",
-        "location": "Historic Route 66, Needles CA"
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
       }
     },
     {
@@ -558,13 +486,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -114.5974232307273,
-          34.85042544426908
+          -81.54590150211284,
+          41.56150620163058
         ]
       },
       "properties": {
-        "id": "DET-2025-FB232CC0",
-        "timestamp": "2026-01-15T10:01:51.145745",
+        "id": "DET-2025-5B4E81F8",
+        "timestamp": "2026-01-15T10:48:37.703452",
         "category": "metal_debris",
         "category_name": "Metal Debris",
         "confidence": 0.924,
@@ -574,7 +502,7 @@
         "color": "#95a5a6",
         "flight_id": "SYLVA-ROU-001",
         "environment": "highway",
-        "location": "Historic Route 66, Needles CA"
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
       }
     },
     {
@@ -582,13 +510,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -114.59554201958593,
-          34.850819308854625
+          -81.5797694729634,
+          41.54652304520701
         ]
       },
       "properties": {
-        "id": "DET-2025-A20B3DAF",
-        "timestamp": "2026-01-15T10:01:55.983786",
+        "id": "DET-2025-E138F207",
+        "timestamp": "2026-01-15T10:50:50.326336",
         "category": "food_packaging",
         "category_name": "Food Packaging/Cardboard",
         "confidence": 0.756,
@@ -598,7 +526,7 @@
         "color": "#e67e22",
         "flight_id": "SYLVA-ROU-001",
         "environment": "highway",
-        "location": "Historic Route 66, Needles CA"
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
       }
     },
     {
@@ -606,13 +534,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -114.59432868428559,
-          34.85125050814297
+          -81.6145006524317,
+          41.53158938740336
         ]
       },
       "properties": {
-        "id": "DET-2025-2F441694",
-        "timestamp": "2026-01-15T10:02:00.821827",
+        "id": "DET-2025-1D449886",
+        "timestamp": "2026-01-15T10:53:02.949221",
         "category": "food_packaging",
         "category_name": "Food Packaging/Cardboard",
         "confidence": 0.882,
@@ -622,7 +550,7 @@
         "color": "#e67e22",
         "flight_id": "SYLVA-ROU-001",
         "environment": "highway",
-        "location": "Historic Route 66, Needles CA"
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
       }
     },
     {
@@ -630,13 +558,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -114.59261800732828,
-          34.85130541635863
+          -81.65256334837281,
+          41.52396876124036
         ]
       },
       "properties": {
-        "id": "DET-2025-1F6DEFBE",
-        "timestamp": "2026-01-15T10:02:05.659868",
+        "id": "DET-2025-AE09230E",
+        "timestamp": "2026-01-15T10:55:15.552188",
         "category": "construction_waste",
         "category_name": "Construction Waste",
         "confidence": 0.851,
@@ -646,7 +574,7 @@
         "color": "#8e44ad",
         "flight_id": "SYLVA-ROU-001",
         "environment": "highway",
-        "location": "Historic Route 66, Needles CA"
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
       }
     },
     {
@@ -654,13 +582,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -114.59167862493443,
-          34.851854127525115
+          -81.69198633511579,
+          41.51756892650553
         ]
       },
       "properties": {
-        "id": "DET-2025-2A1B9257",
-        "timestamp": "2026-01-15T10:02:10.497910",
+        "id": "DET-2025-372C7FB2",
+        "timestamp": "2026-01-15T10:57:28.153496",
         "category": "plastic_bottle",
         "category_name": "Plastic Bottles",
         "confidence": 0.955,
@@ -670,7 +598,7 @@
         "color": "#3498db",
         "flight_id": "SYLVA-ROU-001",
         "environment": "highway",
-        "location": "Historic Route 66, Needles CA"
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
       }
     },
     {
@@ -678,13 +606,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -114.58995902823294,
-          34.85183736023237
+          -81.76914227493961,
+          41.5037983765612
         ]
       },
       "properties": {
-        "id": "DET-2025-BC6FB73C",
-        "timestamp": "2026-01-15T10:02:15.335951",
+        "id": "DET-2025-F6C07716",
+        "timestamp": "2026-01-15T11:01:53.356112",
         "category": "tire",
         "category_name": "Tires",
         "confidence": 0.846,
@@ -694,7 +622,7 @@
         "color": "#2c3e50",
         "flight_id": "SYLVA-ROU-001",
         "environment": "highway",
-        "location": "Historic Route 66, Needles CA"
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
       }
     },
     {
@@ -702,13 +630,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -114.58863721262449,
-          34.85205693599296
+          -81.80804070429006,
+          41.497021756190115
         ]
       },
       "properties": {
-        "id": "DET-2025-462290F1",
-        "timestamp": "2026-01-15T10:02:20.173992",
+        "id": "DET-2025-EC23549F",
+        "timestamp": "2026-01-15T11:04:05.957420",
         "category": "metal_debris",
         "category_name": "Metal Debris",
         "confidence": 0.908,
@@ -718,7 +646,7 @@
         "color": "#95a5a6",
         "flight_id": "SYLVA-ROU-001",
         "environment": "highway",
-        "location": "Historic Route 66, Needles CA"
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
       }
     },
     {
@@ -726,13 +654,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -114.58734666425721,
-          34.85266163056975
+          -81.84701018110013,
+          41.49068861300922
         ]
       },
       "properties": {
-        "id": "DET-2025-514F25A3",
-        "timestamp": "2026-01-15T10:02:25.012033",
+        "id": "DET-2025-70BD78EA",
+        "timestamp": "2026-01-15T11:06:18.558728",
         "category": "metal_debris",
         "category_name": "Metal Debris",
         "confidence": 0.843,
@@ -742,7 +670,7 @@
         "color": "#95a5a6",
         "flight_id": "SYLVA-ROU-001",
         "environment": "highway",
-        "location": "Historic Route 66, Needles CA"
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
       }
     },
     {
@@ -750,13 +678,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -114.5854393185229,
-          34.85284922003769
+          -81.8851453893463,
+          41.483876029311894
         ]
       },
       "properties": {
-        "id": "DET-2025-A01A17D8",
-        "timestamp": "2026-01-15T10:02:29.850074",
+        "id": "DET-2025-CF65B068",
+        "timestamp": "2026-01-15T11:08:31.160036",
         "category": "tire",
         "category_name": "Tires",
         "confidence": 0.797,
@@ -766,7 +694,7 @@
         "color": "#2c3e50",
         "flight_id": "SYLVA-ROU-001",
         "environment": "highway",
-        "location": "Historic Route 66, Needles CA"
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
       }
     },
     {
@@ -774,13 +702,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -114.58438924760327,
-          34.85289619024489
+          -81.92444117816211,
+          41.476884145750624
         ]
       },
       "properties": {
-        "id": "DET-2025-49FF9250",
-        "timestamp": "2026-01-15T10:02:34.687962",
+        "id": "DET-2025-B3F9E388",
+        "timestamp": "2026-01-15T11:10:43.761343",
         "category": "construction_waste",
         "category_name": "Construction Waste",
         "confidence": 0.953,
@@ -790,7 +718,7 @@
         "color": "#8e44ad",
         "flight_id": "SYLVA-ROU-001",
         "environment": "highway",
-        "location": "Historic Route 66, Needles CA"
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
       }
     },
     {
@@ -798,13 +726,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -114.58298720017169,
-          34.85338108489496
+          -81.96323510717906,
+          41.47040124555362
         ]
       },
       "properties": {
-        "id": "DET-2025-65CB1F77",
-        "timestamp": "2026-01-15T10:02:39.525725",
+        "id": "DET-2025-F0A0C7B2",
+        "timestamp": "2026-01-15T11:12:56.362651",
         "category": "construction_waste",
         "category_name": "Construction Waste",
         "confidence": 0.926,
@@ -814,7 +742,7 @@
         "color": "#8e44ad",
         "flight_id": "SYLVA-ROU-001",
         "environment": "highway",
-        "location": "Historic Route 66, Needles CA"
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
       }
     },
     {
@@ -822,13 +750,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -114.58119285044177,
-          34.853619940952036
+          -82.00153209246085,
+          41.463639244584286
         ]
       },
       "properties": {
-        "id": "DET-2025-6148C20E",
-        "timestamp": "2026-01-15T10:02:44.363489",
+        "id": "DET-2025-4E9DFAEC",
+        "timestamp": "2026-01-15T11:15:08.963959",
         "category": "organic_waste",
         "category_name": "Organic Waste",
         "confidence": 0.839,
@@ -838,7 +766,7 @@
         "color": "#27ae60",
         "flight_id": "SYLVA-ROU-001",
         "environment": "highway",
-        "location": "Historic Route 66, Needles CA"
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
       }
     },
     {
@@ -846,13 +774,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -114.5796750948962,
-          34.85425937337596
+          -82.04019592011328,
+          41.45735487109686
         ]
       },
       "properties": {
-        "id": "DET-2025-DE299806",
-        "timestamp": "2026-01-15T10:02:49.201253",
+        "id": "DET-2025-0E890611",
+        "timestamp": "2026-01-15T11:17:21.565267",
         "category": "tire",
         "category_name": "Tires",
         "confidence": 0.775,
@@ -862,7 +790,7 @@
         "color": "#2c3e50",
         "flight_id": "SYLVA-ROU-001",
         "environment": "highway",
-        "location": "Historic Route 66, Needles CA"
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
       }
     },
     {
@@ -870,13 +798,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -114.57854605076609,
-          34.85441986142676
+          -82.07935945718299,
+          41.45051451248521
         ]
       },
       "properties": {
-        "id": "DET-2025-1B536FAB",
-        "timestamp": "2026-01-15T10:02:54.039016",
+        "id": "DET-2025-3C7D9D1C",
+        "timestamp": "2026-01-15T11:19:34.166575",
         "category": "glass",
         "category_name": "Glass",
         "confidence": 0.967,
@@ -886,7 +814,7 @@
         "color": "#1abc9c",
         "flight_id": "SYLVA-ROU-001",
         "environment": "highway",
-        "location": "Historic Route 66, Needles CA"
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
       }
     },
     {
@@ -894,13 +822,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -114.57672328920982,
-          34.85478757840432
+          -82.1176285155716,
+          41.4439018557037
         ]
       },
       "properties": {
-        "id": "DET-2025-367F8703",
-        "timestamp": "2026-01-15T10:02:58.876780",
+        "id": "DET-2025-9720723A",
+        "timestamp": "2026-01-15T11:21:46.767883",
         "category": "metal_debris",
         "category_name": "Metal Debris",
         "confidence": 0.82,
@@ -910,7 +838,7 @@
         "color": "#95a5a6",
         "flight_id": "SYLVA-ROU-001",
         "environment": "highway",
-        "location": "Historic Route 66, Needles CA"
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
       }
     },
     {
@@ -918,13 +846,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -114.57539112329509,
-          34.855009333959295
+          -82.15652376084059,
+          41.43711437548572
         ]
       },
       "properties": {
-        "id": "DET-2025-D8D8EBA8",
-        "timestamp": "2026-01-15T10:03:03.714544",
+        "id": "DET-2025-A90D0F66",
+        "timestamp": "2026-01-15T11:23:59.369191",
         "category": "construction_waste",
         "category_name": "Construction Waste",
         "confidence": 0.764,
@@ -934,7 +862,7 @@
         "color": "#8e44ad",
         "flight_id": "SYLVA-ROU-001",
         "environment": "highway",
-        "location": "Historic Route 66, Needles CA"
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
       }
     },
     {
@@ -942,13 +870,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -114.57422575520215,
-          34.85531373894708
+          -82.19563408778258,
+          41.43043945999798
         ]
       },
       "properties": {
-        "id": "DET-2025-88D41BE6",
-        "timestamp": "2026-01-15T10:03:08.552307",
+        "id": "DET-2025-259C3718",
+        "timestamp": "2026-01-15T11:26:11.970498",
         "category": "plastic_bottle",
         "category_name": "Plastic Bottles",
         "confidence": 0.898,
@@ -958,7 +886,7 @@
         "color": "#3498db",
         "flight_id": "SYLVA-ROU-001",
         "environment": "highway",
-        "location": "Historic Route 66, Needles CA"
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
       }
     },
     {
@@ -966,13 +894,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -114.57290667864096,
-          34.85560687908411
+          -82.27332052416175,
+          41.4170213324761
         ]
       },
       "properties": {
-        "id": "DET-2025-75F54717",
-        "timestamp": "2026-01-15T10:03:13.390071",
+        "id": "DET-2025-01204C82",
+        "timestamp": "2026-01-15T11:30:37.173114",
         "category": "organic_waste",
         "category_name": "Organic Waste",
         "confidence": 0.77,
@@ -982,7 +910,7 @@
         "color": "#27ae60",
         "flight_id": "SYLVA-ROU-001",
         "environment": "highway",
-        "location": "Historic Route 66, Needles CA"
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
       }
     },
     {
@@ -990,13 +918,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -114.5710190217469,
-          34.85565665852565
+          -82.31150615344623,
+          41.41004996098597
         ]
       },
       "properties": {
-        "id": "DET-2025-A921A90E",
-        "timestamp": "2026-01-15T10:03:18.227835",
+        "id": "DET-2025-ACB41E17",
+        "timestamp": "2026-01-15T11:32:49.774422",
         "category": "glass",
         "category_name": "Glass",
         "confidence": 0.84,
@@ -1006,7 +934,7 @@
         "color": "#1abc9c",
         "flight_id": "SYLVA-ROU-001",
         "environment": "highway",
-        "location": "Historic Route 66, Needles CA"
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
       }
     },
     {
@@ -1014,13 +942,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -114.56986148827471,
-          34.85606797045418
+          -82.35061526484554,
+          41.403486662504484
         ]
       },
       "properties": {
-        "id": "DET-2025-1213BA51",
-        "timestamp": "2026-01-15T10:03:23.065599",
+        "id": "DET-2025-E67FCE0D",
+        "timestamp": "2026-01-15T11:35:02.375730",
         "category": "glass",
         "category_name": "Glass",
         "confidence": 0.753,
@@ -1030,7 +958,7 @@
         "color": "#1abc9c",
         "flight_id": "SYLVA-ROU-001",
         "environment": "highway",
-        "location": "Historic Route 66, Needles CA"
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
       }
     },
     {
@@ -1038,13 +966,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -114.5685641123579,
-          34.85614961032852
+          -82.38957046078087,
+          41.39653733655774
         ]
       },
       "properties": {
-        "id": "DET-2025-A9E374AB",
-        "timestamp": "2026-01-15T10:03:27.903362",
+        "id": "DET-2025-3C15755E",
+        "timestamp": "2026-01-15T11:37:14.977038",
         "category": "metal_debris",
         "category_name": "Metal Debris",
         "confidence": 0.981,
@@ -1054,7 +982,7 @@
         "color": "#95a5a6",
         "flight_id": "SYLVA-ROU-001",
         "environment": "highway",
-        "location": "Historic Route 66, Needles CA"
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
       }
     },
     {
@@ -1062,13 +990,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -114.56703954820858,
-          34.85682646754113
+          -82.46698556819278,
+          41.38358705441393
         ]
       },
       "properties": {
-        "id": "DET-2025-8447379D",
-        "timestamp": "2026-01-15T10:03:32.741126",
+        "id": "DET-2025-C12692FA",
+        "timestamp": "2026-01-15T11:41:40.179654",
         "category": "textile",
         "category_name": "Textile/Fabric",
         "confidence": 0.76,
@@ -1078,7 +1006,7 @@
         "color": "#e74c3c",
         "flight_id": "SYLVA-ROU-001",
         "environment": "highway",
-        "location": "Historic Route 66, Needles CA"
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
       }
     },
     {
@@ -1086,13 +1014,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -114.56568655152161,
-          34.85715124917177
+          -82.50585824171134,
+          41.37693153066197
         ]
       },
       "properties": {
-        "id": "DET-2025-405F95A4",
-        "timestamp": "2026-01-15T10:03:37.578890",
+        "id": "DET-2025-002452D4",
+        "timestamp": "2026-01-15T11:43:52.780961",
         "category": "metal_debris",
         "category_name": "Metal Debris",
         "confidence": 0.901,
@@ -1102,7 +1030,7 @@
         "color": "#95a5a6",
         "flight_id": "SYLVA-ROU-001",
         "environment": "highway",
-        "location": "Historic Route 66, Needles CA"
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
       }
     },
     {
@@ -1110,13 +1038,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -114.56396469394622,
-          34.8572950377515
+          -82.57932803737229,
+          41.3897735516423
         ]
       },
       "properties": {
-        "id": "DET-2025-BA8E81AB",
-        "timestamp": "2026-01-15T10:03:42.416653",
+        "id": "DET-2025-51E18F80",
+        "timestamp": "2026-01-15T11:48:17.994161",
         "category": "glass",
         "category_name": "Glass",
         "confidence": 0.978,
@@ -1126,7 +1054,7 @@
         "color": "#1abc9c",
         "flight_id": "SYLVA-ROU-001",
         "environment": "highway",
-        "location": "Historic Route 66, Needles CA"
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
       }
     },
     {
@@ -1134,13 +1062,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -114.56263851707872,
-          34.85749891117842
+          -82.61556227722005,
+          41.40232318346878
         ]
       },
       "properties": {
-        "id": "DET-2025-CA38D4C9",
-        "timestamp": "2026-01-15T10:03:47.254417",
+        "id": "DET-2025-8D926ADF",
+        "timestamp": "2026-01-15T11:50:30.603215",
         "category": "food_packaging",
         "category_name": "Food Packaging/Cardboard",
         "confidence": 0.89,
@@ -1150,7 +1078,7 @@
         "color": "#e67e22",
         "flight_id": "SYLVA-ROU-001",
         "environment": "highway",
-        "location": "Historic Route 66, Needles CA"
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
       }
     },
     {
@@ -1158,13 +1086,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -114.56097223476688,
-          34.85796028699216
+          -82.65133180999179,
+          41.41516386993046
         ]
       },
       "properties": {
-        "id": "DET-2025-5D07A50C",
-        "timestamp": "2026-01-15T10:03:52.092181",
+        "id": "DET-2025-ACFEDE5F",
+        "timestamp": "2026-01-15T11:52:43.212268",
         "category": "metal_debris",
         "category_name": "Metal Debris",
         "confidence": 0.914,
@@ -1174,7 +1102,7 @@
         "color": "#95a5a6",
         "flight_id": "SYLVA-ROU-001",
         "environment": "highway",
-        "location": "Historic Route 66, Needles CA"
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
       }
     },
     {
@@ -1182,13 +1110,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -114.55947927117876,
-          34.85824547579379
+          -82.68730303673796,
+          41.42778088376157
         ]
       },
       "properties": {
-        "id": "DET-2025-3A875F2D",
-        "timestamp": "2026-01-15T10:03:56.928169",
+        "id": "DET-2025-4433354C",
+        "timestamp": "2026-01-15T11:54:55.821321",
         "category": "construction_waste",
         "category_name": "Construction Waste",
         "confidence": 0.974,
@@ -1198,7 +1126,7 @@
         "color": "#8e44ad",
         "flight_id": "SYLVA-ROU-001",
         "environment": "highway",
-        "location": "Historic Route 66, Needles CA"
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
       }
     },
     {
@@ -1206,13 +1134,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -114.55826062903715,
-          34.85812735416583
+          -82.7236882991496,
+          41.439938128246084
         ]
       },
       "properties": {
-        "id": "DET-2025-9299CE7A",
-        "timestamp": "2026-01-15T10:04:01.757943",
+        "id": "DET-2025-DC601663",
+        "timestamp": "2026-01-15T11:57:08.430375",
         "category": "organic_waste",
         "category_name": "Organic Waste",
         "confidence": 0.893,
@@ -1222,7 +1150,7 @@
         "color": "#27ae60",
         "flight_id": "SYLVA-ROU-001",
         "environment": "highway",
-        "location": "Historic Route 66, Needles CA"
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
       }
     },
     {
@@ -1230,13 +1158,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -114.55658351763752,
-          34.85883013686354
+          -82.7594374508223,
+          41.45306107783033
         ]
       },
       "properties": {
-        "id": "DET-2025-0C8DF244",
-        "timestamp": "2026-01-15T10:04:06.587717",
+        "id": "DET-2025-05441C82",
+        "timestamp": "2026-01-15T11:59:21.039428",
         "category": "tire",
         "category_name": "Tires",
         "confidence": 0.764,
@@ -1246,7 +1174,7 @@
         "color": "#2c3e50",
         "flight_id": "SYLVA-ROU-001",
         "environment": "highway",
-        "location": "Historic Route 66, Needles CA"
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
       }
     },
     {
@@ -1254,13 +1182,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -114.55509309865248,
-          34.8591271857953
+          -82.79542534630255,
+          41.46571917101133
         ]
       },
       "properties": {
-        "id": "DET-2025-7016C1BC",
-        "timestamp": "2026-01-15T10:04:11.417491",
+        "id": "DET-2025-2A1810E9",
+        "timestamp": "2026-01-15T12:01:33.648481",
         "category": "metal_debris",
         "category_name": "Metal Debris",
         "confidence": 0.954,
@@ -1270,7 +1198,7 @@
         "color": "#95a5a6",
         "flight_id": "SYLVA-ROU-001",
         "environment": "highway",
-        "location": "Historic Route 66, Needles CA"
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
       }
     },
     {
@@ -1278,13 +1206,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -114.55371010687385,
-          34.85903525115104
+          -82.83155518500693,
+          41.477895920123295
         ]
       },
       "properties": {
-        "id": "DET-2025-284BBCE3",
-        "timestamp": "2026-01-15T10:04:16.247265",
+        "id": "DET-2025-D1CFDC77",
+        "timestamp": "2026-01-15T12:03:46.257535",
         "category": "metal_debris",
         "category_name": "Metal Debris",
         "confidence": 0.898,
@@ -1294,7 +1222,7 @@
         "color": "#95a5a6",
         "flight_id": "SYLVA-ROU-001",
         "environment": "highway",
-        "location": "Historic Route 66, Needles CA"
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
       }
     },
     {
@@ -1302,13 +1230,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -114.55243121862,
-          34.85958715685662
+          -82.86785648402368,
+          41.490843438442305
         ]
       },
       "properties": {
-        "id": "DET-2025-B8D4B43D",
-        "timestamp": "2026-01-15T10:04:21.077039",
+        "id": "DET-2025-1D09CC95",
+        "timestamp": "2026-01-15T12:05:58.866588",
         "category": "construction_waste",
         "category_name": "Construction Waste",
         "confidence": 0.882,
@@ -1318,7 +1246,7 @@
         "color": "#8e44ad",
         "flight_id": "SYLVA-ROU-001",
         "environment": "highway",
-        "location": "Historic Route 66, Needles CA"
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
       }
     },
     {
@@ -1326,13 +1254,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -114.55127669612548,
-          34.859719945206216
+          -82.90427409275888,
+          41.50329903091542
         ]
       },
       "properties": {
-        "id": "DET-2025-2B5D914A",
-        "timestamp": "2026-01-15T10:04:25.906812",
+        "id": "DET-2025-F28CCE18",
+        "timestamp": "2026-01-15T12:08:11.475641",
         "category": "plastic_bottle",
         "category_name": "Plastic Bottles",
         "confidence": 0.919,
@@ -1342,7 +1270,7 @@
         "color": "#3498db",
         "flight_id": "SYLVA-ROU-001",
         "environment": "highway",
-        "location": "Historic Route 66, Needles CA"
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
       }
     },
     {
@@ -1350,13 +1278,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -114.54968038693539,
-          34.859846780570805
+          -82.94014606044011,
+          41.51573781450422
         ]
       },
       "properties": {
-        "id": "DET-2025-5148B1DE",
-        "timestamp": "2026-01-15T10:04:30.736586",
+        "id": "DET-2025-63C29FAF",
+        "timestamp": "2026-01-15T12:10:24.084695",
         "category": "metal_debris",
         "category_name": "Metal Debris",
         "confidence": 0.967,
@@ -1366,7 +1294,7 @@
         "color": "#95a5a6",
         "flight_id": "SYLVA-ROU-001",
         "environment": "highway",
-        "location": "Historic Route 66, Needles CA"
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
       }
     },
     {
@@ -1374,13 +1302,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -114.54821741932857,
-          34.8605380630981
+          -82.97618075551419,
+          41.5288450738712
         ]
       },
       "properties": {
-        "id": "DET-2025-AAB39D76",
-        "timestamp": "2026-01-15T10:04:35.566360",
+        "id": "DET-2025-D2FB04F6",
+        "timestamp": "2026-01-15T12:12:36.693748",
         "category": "metal_debris",
         "category_name": "Metal Debris",
         "confidence": 0.785,
@@ -1390,7 +1318,7 @@
         "color": "#95a5a6",
         "flight_id": "SYLVA-ROU-001",
         "environment": "highway",
-        "location": "Historic Route 66, Needles CA"
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
       }
     },
     {
@@ -1398,13 +1326,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -114.54678478223094,
-          34.86052142867808
+          -83.01224289463721,
+          41.54112812838469
         ]
       },
       "properties": {
-        "id": "DET-2025-481B4ED8",
-        "timestamp": "2026-01-15T10:04:40.396134",
+        "id": "DET-2025-F9482801",
+        "timestamp": "2026-01-15T12:14:49.302801",
         "category": "textile",
         "category_name": "Textile/Fabric",
         "confidence": 0.902,
@@ -1414,7 +1342,7 @@
         "color": "#e74c3c",
         "flight_id": "SYLVA-ROU-001",
         "environment": "highway",
-        "location": "Historic Route 66, Needles CA"
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
       }
     },
     {
@@ -1422,13 +1350,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -114.54544392481668,
-          34.860761875981794
+          -83.04846484882347,
+          41.553703841693256
         ]
       },
       "properties": {
-        "id": "DET-2025-CFE8D63F",
-        "timestamp": "2026-01-15T10:04:45.225908",
+        "id": "DET-2025-B9EE48E0",
+        "timestamp": "2026-01-15T12:17:01.911854",
         "category": "food_packaging",
         "category_name": "Food Packaging/Cardboard",
         "confidence": 0.794,
@@ -1438,7 +1366,7 @@
         "color": "#e67e22",
         "flight_id": "SYLVA-ROU-001",
         "environment": "highway",
-        "location": "Historic Route 66, Needles CA"
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
       }
     },
     {
@@ -1446,13 +1374,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -114.54378057934883,
-          34.86119816375914
+          -83.12027934167511,
+          41.57915290251975
         ]
       },
       "properties": {
-        "id": "DET-2025-894B12A8",
-        "timestamp": "2026-01-15T10:04:50.055682",
+        "id": "DET-2025-30416117",
+        "timestamp": "2026-01-15T12:21:27.129961",
         "category": "food_packaging",
         "category_name": "Food Packaging/Cardboard",
         "confidence": 0.791,
@@ -1462,7 +1390,7 @@
         "color": "#e67e22",
         "flight_id": "SYLVA-ROU-001",
         "environment": "highway",
-        "location": "Historic Route 66, Needles CA"
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
       }
     },
     {
@@ -1470,13 +1398,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -114.54265373003365,
-          34.86135430292778
+          -83.15675281321394,
+          41.59162132040972
         ]
       },
       "properties": {
-        "id": "DET-2025-4DB72024",
-        "timestamp": "2026-01-15T10:04:54.885456",
+        "id": "DET-2025-28B3EA5A",
+        "timestamp": "2026-01-15T12:23:39.739014",
         "category": "tire",
         "category_name": "Tires",
         "confidence": 0.871,
@@ -1486,7 +1414,7 @@
         "color": "#2c3e50",
         "flight_id": "SYLVA-ROU-001",
         "environment": "highway",
-        "location": "Historic Route 66, Needles CA"
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
       }
     },
     {
@@ -1494,13 +1422,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -114.54085936785606,
-          34.861920169618436
+          -83.19237610715915,
+          41.60459791775951
         ]
       },
       "properties": {
-        "id": "DET-2025-E79E3B78",
-        "timestamp": "2026-01-15T10:04:59.715230",
+        "id": "DET-2025-FDDB37BF",
+        "timestamp": "2026-01-15T12:25:52.348068",
         "category": "plastic_bottle",
         "category_name": "Plastic Bottles",
         "confidence": 0.765,
@@ -1510,7 +1438,7 @@
         "color": "#3498db",
         "flight_id": "SYLVA-ROU-001",
         "environment": "highway",
-        "location": "Historic Route 66, Needles CA"
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
       }
     },
     {
@@ -1518,13 +1446,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -114.54017643850443,
-          34.86209839859105
+          -83.22879568589674,
+          41.61721443878421
         ]
       },
       "properties": {
-        "id": "DET-2025-7525CA32",
-        "timestamp": "2026-01-15T10:05:02.935079",
+        "id": "DET-2025-9DDD763E",
+        "timestamp": "2026-01-15T12:28:04.957121",
         "category": "food_packaging",
         "category_name": "Food Packaging/Cardboard",
         "confidence": 0.898,
@@ -1534,8 +1462,829 @@
         "color": "#e67e22",
         "flight_id": "SYLVA-ROU-001",
         "environment": "highway",
-        "location": "Historic Route 66, Needles CA"
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.33713472257809,
+          41.65513499457399
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-A6BE420C",
+        "timestamp": "2026-01-15T12:34:42.784281",
+        "category": "food_packaging",
+        "category_name": "Food Packaging/Cardboard",
+        "confidence": 0.873,
+        "size_m2": 0.0157,
+        "estimated_weight_kg": 0.092,
+        "priority": "low",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.3387018835198,
+          41.67976014583906
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-13442A95",
+        "timestamp": "2026-01-15T12:36:55.399076",
+        "category": "food_packaging",
+        "category_name": "Food Packaging/Cardboard",
+        "confidence": 0.755,
+        "size_m2": 0.009,
+        "estimated_weight_kg": 0.05,
+        "priority": "low",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.3293641653369,
+          41.70865247265066
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-34D944E5",
+        "timestamp": "2026-01-15T12:39:08.015820",
+        "category": "glass",
+        "category_name": "Glass",
+        "confidence": 0.939,
+        "size_m2": 0.007,
+        "estimated_weight_kg": 0.404,
+        "priority": "low",
+        "color": "#1abc9c",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.31932277962143,
+          41.73769123633376
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-46614805",
+        "timestamp": "2026-01-15T12:41:20.632563",
+        "category": "construction_waste",
+        "category_name": "Construction Waste",
+        "confidence": 0.818,
+        "size_m2": 0.5737,
+        "estimated_weight_kg": 15.103,
+        "priority": "critical",
+        "color": "#8e44ad",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.30988125628348,
+          41.76662768575744
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-19F021ED",
+        "timestamp": "2026-01-15T12:43:33.249307",
+        "category": "textile",
+        "category_name": "Textile/Fabric",
+        "confidence": 0.774,
+        "size_m2": 0.1409,
+        "estimated_weight_kg": 0.627,
+        "priority": "medium",
+        "color": "#e74c3c",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.30033918780165,
+          41.79538313729558
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-24D72826",
+        "timestamp": "2026-01-15T12:45:45.866050",
+        "category": "food_packaging",
+        "category_name": "Food Packaging/Cardboard",
+        "confidence": 0.769,
+        "size_m2": 0.0076,
+        "estimated_weight_kg": 0.092,
+        "priority": "low",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.29076891160007,
+          41.82473868343608
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-E01AFC51",
+        "timestamp": "2026-01-15T12:47:58.482794",
+        "category": "tire",
+        "category_name": "Tires",
+        "confidence": 0.946,
+        "size_m2": 0.4886,
+        "estimated_weight_kg": 14.059,
+        "priority": "critical",
+        "color": "#2c3e50",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.26121733713308,
+          41.911380467641045
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-398E20A0",
+        "timestamp": "2026-01-15T12:54:36.333025",
+        "category": "metal_debris",
+        "category_name": "Metal Debris",
+        "confidence": 0.935,
+        "size_m2": 0.0679,
+        "estimated_weight_kg": 1.76,
+        "priority": "medium",
+        "color": "#95a5a6",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.25189150360738,
+          41.94022812497353
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-C2A74368",
+        "timestamp": "2026-01-15T12:56:48.949769",
+        "category": "food_packaging",
+        "category_name": "Food Packaging/Cardboard",
+        "confidence": 0.819,
+        "size_m2": 0.0067,
+        "estimated_weight_kg": 0.069,
+        "priority": "low",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.24220835926893,
+          41.96923834381542
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-153AB487",
+        "timestamp": "2026-01-15T12:59:01.566512",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.765,
+        "size_m2": 0.002,
+        "estimated_weight_kg": 0.015,
+        "priority": "low",
+        "color": "#3498db",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.21346273928569,
+          42.056175684645154
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-8594F81A",
+        "timestamp": "2026-01-15T13:05:39.416743",
+        "category": "construction_waste",
+        "category_name": "Construction Waste",
+        "confidence": 0.863,
+        "size_m2": 0.8202,
+        "estimated_weight_kg": 33.826,
+        "priority": "critical",
+        "color": "#8e44ad",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.2034245192441,
+          42.085156439258874
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-F4D27EBB",
+        "timestamp": "2026-01-15T13:07:52.033487",
+        "category": "textile",
+        "category_name": "Textile/Fabric",
+        "confidence": 0.975,
+        "size_m2": 0.0686,
+        "estimated_weight_kg": 1.516,
+        "priority": "medium",
+        "color": "#e74c3c",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.19395250875894,
+          42.11399245497955
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-F8397421",
+        "timestamp": "2026-01-15T13:10:04.650231",
+        "category": "organic_waste",
+        "category_name": "Organic Waste",
+        "confidence": 0.798,
+        "size_m2": 0.0213,
+        "estimated_weight_kg": 0.816,
+        "priority": "low",
+        "color": "#27ae60",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.1842108139517,
+          42.143036663203766
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-452E2C83",
+        "timestamp": "2026-01-15T13:12:17.266974",
+        "category": "metal_debris",
+        "category_name": "Metal Debris",
+        "confidence": 0.844,
+        "size_m2": 0.0519,
+        "estimated_weight_kg": 4.447,
+        "priority": "medium",
+        "color": "#95a5a6",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.16251358915153,
+          42.199758091171084
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-46F44B43",
+        "timestamp": "2026-01-15T13:16:42.499787",
+        "category": "food_packaging",
+        "category_name": "Food Packaging/Cardboard",
+        "confidence": 0.806,
+        "size_m2": 0.0162,
+        "estimated_weight_kg": 0.06,
+        "priority": "low",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.1368910646962,
+          42.223023797496275
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-768F26A0",
+        "timestamp": "2026-01-15T13:18:55.112391",
+        "category": "metal_debris",
+        "category_name": "Metal Debris",
+        "confidence": 0.901,
+        "size_m2": 0.0338,
+        "estimated_weight_kg": 4.729,
+        "priority": "low",
+        "color": "#95a5a6",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.11176457315682,
+          42.24638885388786
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-649FDE10",
+        "timestamp": "2026-01-15T13:21:07.724994",
+        "category": "metal_debris",
+        "category_name": "Metal Debris",
+        "confidence": 0.786,
+        "size_m2": 0.092,
+        "estimated_weight_kg": 4.049,
+        "priority": "medium",
+        "color": "#95a5a6",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.08688155652273,
+          42.26964518904345
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-5CCC6C63",
+        "timestamp": "2026-01-15T13:23:20.337598",
+        "category": "metal_debris",
+        "category_name": "Metal Debris",
+        "confidence": 0.832,
+        "size_m2": 0.0822,
+        "estimated_weight_kg": 4.445,
+        "priority": "medium",
+        "color": "#95a5a6",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.0614282921427,
+          42.29292291143198
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-FCEE0CD8",
+        "timestamp": "2026-01-15T13:25:32.950202",
+        "category": "tire",
+        "category_name": "Tires",
+        "confidence": 0.805,
+        "size_m2": 0.424,
+        "estimated_weight_kg": 9.049,
+        "priority": "high",
+        "color": "#2c3e50",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.03570517055863,
+          42.3160632482411
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-D49FCC1B",
+        "timestamp": "2026-01-15T13:27:45.562805",
+        "category": "metal_debris",
+        "category_name": "Metal Debris",
+        "confidence": 0.794,
+        "size_m2": 0.0439,
+        "estimated_weight_kg": 2.056,
+        "priority": "low",
+        "color": "#95a5a6",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.01060678487984,
+          42.339136405634186
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-3D98ADDA",
+        "timestamp": "2026-01-15T13:29:58.175409",
+        "category": "glass",
+        "category_name": "Glass",
+        "confidence": 0.871,
+        "size_m2": 0.0037,
+        "estimated_weight_kg": 0.376,
+        "priority": "low",
+        "color": "#1abc9c",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.98488406611446,
+          42.36257689721407
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-55765A28",
+        "timestamp": "2026-01-15T13:32:10.788013",
+        "category": "metal_debris",
+        "category_name": "Metal Debris",
+        "confidence": 0.92,
+        "size_m2": 0.0772,
+        "estimated_weight_kg": 4.651,
+        "priority": "medium",
+        "color": "#95a5a6",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.95988979242293,
+          42.38566228875749
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-16DBD194",
+        "timestamp": "2026-01-15T13:34:23.400616",
+        "category": "construction_waste",
+        "category_name": "Construction Waste",
+        "confidence": 0.858,
+        "size_m2": 0.9508,
+        "estimated_weight_kg": 47.023,
+        "priority": "critical",
+        "color": "#8e44ad",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.93487743969605,
+          42.409048382286436
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-53611996",
+        "timestamp": "2026-01-15T13:36:36.013220",
+        "category": "glass",
+        "category_name": "Glass",
+        "confidence": 0.892,
+        "size_m2": 0.009,
+        "estimated_weight_kg": 0.356,
+        "priority": "low",
+        "color": "#1abc9c",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.90902913974494,
+          42.432061353010475
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-222ACEE8",
+        "timestamp": "2026-01-15T13:38:48.625824",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.879,
+        "size_m2": 0.002,
+        "estimated_weight_kg": 0.026,
+        "priority": "low",
+        "color": "#3498db",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.88373760820151,
+          42.45522571594518
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-F8F3EDAC",
+        "timestamp": "2026-01-15T13:41:01.238427",
+        "category": "tire",
+        "category_name": "Tires",
+        "confidence": 0.784,
+        "size_m2": 0.2092,
+        "estimated_weight_kg": 11.167,
+        "priority": "high",
+        "color": "#2c3e50",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.85831598455863,
+          42.47854559655975
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-67D9467A",
+        "timestamp": "2026-01-15T13:43:13.851031",
+        "category": "tire",
+        "category_name": "Tires",
+        "confidence": 0.753,
+        "size_m2": 0.3427,
+        "estimated_weight_kg": 12.426,
+        "priority": "critical",
+        "color": "#2c3e50",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.8335631133849,
+          42.50206336369172
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-A7805044",
+        "timestamp": "2026-01-15T13:45:26.463634",
+        "category": "tire",
+        "category_name": "Tires",
+        "confidence": 0.871,
+        "size_m2": 0.157,
+        "estimated_weight_kg": 14.978,
+        "priority": "high",
+        "color": "#2c3e50",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.80814465388191,
+          42.52516961997505
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-66CA4EA6",
+        "timestamp": "2026-01-15T13:47:39.076238",
+        "category": "glass",
+        "category_name": "Glass",
+        "confidence": 0.759,
+        "size_m2": 0.004,
+        "estimated_weight_kg": 0.257,
+        "priority": "low",
+        "color": "#1abc9c",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.75712382219554,
+          42.571274321656766
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-44D63876",
+        "timestamp": "2026-01-15T13:52:04.301445",
+        "category": "tire",
+        "category_name": "Tires",
+        "confidence": 0.846,
+        "size_m2": 0.3216,
+        "estimated_weight_kg": 11.085,
+        "priority": "critical",
+        "color": "#2c3e50",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.7317495887377,
+          42.59455424529272
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-D5540090",
+        "timestamp": "2026-01-15T13:54:16.914049",
+        "category": "glass",
+        "category_name": "Glass",
+        "confidence": 0.905,
+        "size_m2": 0.0053,
+        "estimated_weight_kg": 0.281,
+        "priority": "low",
+        "color": "#1abc9c",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.70653286714355,
+          42.61779904197172
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-E8E8527C",
+        "timestamp": "2026-01-15T13:56:29.526653",
+        "category": "metal_debris",
+        "category_name": "Metal Debris",
+        "confidence": 0.805,
+        "size_m2": 0.027,
+        "estimated_weight_kg": 1.499,
+        "priority": "low",
+        "color": "#95a5a6",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.68107705721218,
+          42.64096049237552
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-7006C595",
+        "timestamp": "2026-01-15T13:58:42.139256",
+        "category": "food_packaging",
+        "category_name": "Food Packaging/Cardboard",
+        "confidence": 0.774,
+        "size_m2": 0.0148,
+        "estimated_weight_kg": 0.039,
+        "priority": "low",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.6304776210375,
+          42.687895651599376
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-64209C23",
+        "timestamp": "2026-01-15T14:03:07.364464",
+        "category": "food_packaging",
+        "category_name": "Food Packaging/Cardboard",
+        "confidence": 0.82,
+        "size_m2": 0.015,
+        "estimated_weight_kg": 0.036,
+        "priority": "low",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Lake Erie - Highway & Waterfront, Ohio"
       }
     }
-  ]
+  ],
+  "properties": {
+    "location": "Lake Erie - Highway & Waterfront, Ohio",
+    "total_detections": 95,
+    "generated_at": "2025-12-26T08:52:11.941550"
+  }
 }
