@@ -168,6 +168,9 @@ The Sylva payload integrates three complementary sensing technologies into a uni
 └─────────────────────────────────────────────────────────────────┘
 ```
 
+![Sylva Sensor Payload Diagram](sylva_sensor_payload.png)
+*Figure 1: Sylva Multi-Spectral Sensor Payload - Integrated detection system combining RGB imaging, hyperspectral analysis, and LiDAR for comprehensive material identification.*
+
 ### Sensor Specifications
 
 #### 1. Primary RGB Sensor
