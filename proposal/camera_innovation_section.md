@@ -3,6 +3,9 @@
 ![Sylva Sensor Payload Prototype](sylva_payload_prototype.png)
 *The Sylva SP-1000 Multi-Spectral Sensor Payload - A fully integrated environmental detection module featuring 61MP RGB imaging, 8-band hyperspectral analysis, and 200m LiDAR, all processed by NVIDIA Jetson AI computing.*
 
+![Sylva-1 UAV System](sylva_drone_system.png)
+*The complete Sylva-1 UAV platform - A fixed-wing environmental monitoring drone with gimbal-mounted sensor payload. 1.6m wingspan, 90-minute endurance, 80km range, surveying at 120m altitude.*
+
 ## Executive Summary
 
 The Sylva drone platform incorporates a revolutionary multi-spectral sensor fusion system that goes far beyond conventional aerial photography. By combining high-resolution imaging, hyperspectral analysis, and AI-powered edge processing, Sylva achieves what no existing solution can: **real-time material identification and classification of environmental debris from 120 meters altitude with over 95% accuracy**.
