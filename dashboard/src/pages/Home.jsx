@@ -116,22 +116,44 @@ function Home() {
           <h2 className="section-title">Our Team</h2>
           <div className="team-grid">
             <div className="team-card">
-              <div className="team-avatar">[Photo]</div>
-              <h3>[Team Member 1]</h3>
-              <p className="team-role">[Role/Title]</p>
-              <p className="team-bio">[Short bio placeholder]</p>
+              <img
+                src="https://d2f0ora2gkri0g.cloudfront.net/86/2e/862e2df3-29ba-41d2-a530-b1d54e2fbd11.jpg"
+                alt="Justin Merlin"
+                className="team-avatar-img"
+              />
+              <h3>Justin Merlin</h3>
+              <p className="team-role">Founder & Leader</p>
+              <p className="team-bio">Junior at Tamalpais High School</p>
             </div>
             <div className="team-card">
-              <div className="team-avatar">[Photo]</div>
-              <h3>[Team Member 2]</h3>
-              <p className="team-role">[Role/Title]</p>
-              <p className="team-bio">[Short bio placeholder]</p>
+              <img
+                src="https://d2f0ora2gkri0g.cloudfront.net/28/6c/286c8e3a-1df1-4253-b612-905b30d2a96a.JPEG"
+                alt="David De Zafra"
+                className="team-avatar-img"
+              />
+              <h3>David De Zafra</h3>
+              <p className="team-role">Founder & Chief of Aviation</p>
+              <p className="team-bio">Junior at Tamalpais High School</p>
             </div>
             <div className="team-card">
-              <div className="team-avatar">[Photo]</div>
-              <h3>[Team Member 3]</h3>
-              <p className="team-role">[Role/Title]</p>
-              <p className="team-bio">[Short bio placeholder]</p>
+              <img
+                src="https://d2f0ora2gkri0g.cloudfront.net/d6/45/d645f6ba-4b9c-45f9-b0c5-0bde62c1853d.jpg"
+                alt="Gideon Palestrant"
+                className="team-avatar-img"
+              />
+              <h3>Gideon Palestrant</h3>
+              <p className="team-role">Founder & Chief of Technology</p>
+              <p className="team-bio">Junior at Tamalpais High School</p>
+            </div>
+            <div className="team-card">
+              <img
+                src="https://d2f0ora2gkri0g.cloudfront.net/f7/9a/f79a912a-1947-4e08-9d42-a110f162ab4d.jpeg"
+                alt="Vaugn Neumann"
+                className="team-avatar-img"
+              />
+              <h3>Vaugn Neumann</h3>
+              <p className="team-role">Founder & Chief of Media</p>
+              <p className="team-bio">Junior at Tamalpais High School</p>
             </div>
           </div>
         </section>

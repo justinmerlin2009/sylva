@@ -1755,7 +1755,7 @@ body {
 /* Team Section */
 .team-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 32px;
   margin-top: 48px;
 }
@@ -1785,6 +1785,21 @@ body {
   justify-content: center;
   color: rgba(255, 255, 255, 0.6);
   font-size: 14px;
+}
+
+.team-avatar-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin: 0 auto 24px;
+  object-fit: cover;
+  border: 3px solid rgba(255, 255, 255, 0.2);
+  transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.team-card:hover .team-avatar-img {
+  transform: scale(1.05);
+  border-color: #22c55e;
 }
 
 .team-card h3 {
@@ -1897,7 +1912,14 @@ body {
   color: rgba(255, 255, 255, 0.3);
 }
 
-/* Home page responsive */
+/* Home page responsive - medium screens */
+@media (max-width: 1024px) {
+  .team-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Home page responsive - small screens */
 @media (max-width: 768px) {
   .home-header {
     padding: 16px 20px;
