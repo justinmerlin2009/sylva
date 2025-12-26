@@ -156,6 +156,21 @@ function Home() {
               <p className="team-bio">Junior at Tamalpais High School</p>
             </div>
           </div>
+
+          {/* Mentor */}
+          <div className="mentor-section">
+            <h3 className="mentor-heading">Our Mentor</h3>
+            <a href="https://www.linkedin.com/in/ethan-swergold/" target="_blank" rel="noopener noreferrer" className="mentor-card">
+              <img
+                src="/photos/EthanSwergold.jpeg"
+                alt="Ethan Swergold"
+                className="team-avatar-img"
+              />
+              <h3>Ethan Swergold</h3>
+              <p className="team-role">Conrad Challenge Mentor</p>
+              <p className="team-bio">Seneca</p>
+            </a>
+          </div>
         </section>
 
         {/* Future Plans Section */}
