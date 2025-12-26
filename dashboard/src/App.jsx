@@ -31,8 +31,6 @@ function App() {
   const [satelliteView, setSatelliteView] = useState(false)
   const [showPopulationDensity, setShowPopulationDensity] = useState(false)
   const [populationDensityData, setPopulationDensityData] = useState([])
-  const [geographyData, setGeographyData] = useState(null)
-  const [showGeography, setShowGeography] = useState(false)
 
   // Live demo state
   const [demoActive, setDemoActive] = useState(false)
@@ -71,7 +69,6 @@ function App() {
       loadStats()
       loadWaypoints()
       loadPopulationDensity()
-      loadGeography()
     }
   }, [selectedLocation, activeFilters])
 
@@ -173,17 +170,6 @@ function App() {
       setPopulationDensityData(response.data.zones || [])
     } catch (error) {
       console.error('Error loading population density:', error)
-    }
-  }
-
-  const loadGeography = async () => {
-    try {
-      const location = selectedLocation !== 'all' ? selectedLocation : 'stinson_beach'
-      const response = await axios.get(`${API_BASE}/geography/${location}`)
-      setGeographyData(response.data)
-    } catch (error) {
-      console.error('Error loading geography:', error)
-      setGeographyData(null)
     }
   }
 
@@ -586,8 +572,6 @@ function App() {
         showPopulationDensity={showPopulationDensity}
         onTogglePopulationDensity={() => setShowPopulationDensity(!showPopulationDensity)}
         populationDensity={locations.find(l => l.id === selectedLocation)?.population_density || 0}
-        showGeography={showGeography}
-        onToggleGeography={() => setShowGeography(!showGeography)}
       >
         <LiveDemo
           locations={locations}
@@ -645,8 +629,7 @@ function App() {
             onMapClick={handleMapClick}
             customPathFlight={customPathFlight}
             customPathDetections={customPathDetections}
-            // Geography data
-            geographyData={showGeography ? geographyData : null}
+            geographyData={null}
           />
 
           {/* CV Detection Panel - shows during demo */}
