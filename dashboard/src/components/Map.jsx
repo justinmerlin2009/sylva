@@ -126,8 +126,9 @@ function HeatmapLayer({ data }) {
 }
 
 // Map view controller with smooth animation and user interaction detection
-function MapController({ center, zoom, shouldFollowDrone, disableAutoUpdate, onUserInteraction }) {
+function MapController({ center, zoom, shouldFollowDrone, disableAutoUpdate, onUserInteraction, forceRecenter }) {
   const map = useMap()
+  const prevCenterRef = useRef(center)
 
   // Detect user interaction (drag/zoom) to disable auto-follow
   useMapEvents({
@@ -149,8 +150,16 @@ function MapController({ center, zoom, shouldFollowDrone, disableAutoUpdate, onU
     if (shouldFollowDrone) {
       // Smooth pan to keep drone in view - use shorter duration for smoother following
       map.panTo(center, { animate: true, duration: 0.15 })
+    } else if (forceRecenter) {
+      // Location changed - fly to new location
+      const prevCenter = prevCenterRef.current
+      const centerChanged = Math.abs(prevCenter[0] - center[0]) > 0.01 || Math.abs(prevCenter[1] - center[1]) > 0.01
+      if (centerChanged) {
+        map.flyTo(center, zoom, { duration: 1.0 })
+      }
     }
-  }, [map, center, zoom, shouldFollowDrone, disableAutoUpdate])
+    prevCenterRef.current = center
+  }, [map, center, zoom, shouldFollowDrone, disableAutoUpdate, forceRecenter])
 
   return null
 }
@@ -585,6 +594,7 @@ function Map({
         shouldFollowDrone={shouldFollowDrone}
         disableAutoUpdate={isDrawing}
         onUserInteraction={handleUserInteraction}
+        forceRecenter={!demoActive && !isDrawing}
       />
 
       {/* Base map layer - CartoDB Voyager (detailed with roads, water, labels) */}
