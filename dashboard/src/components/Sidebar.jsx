@@ -120,23 +120,6 @@ function Sidebar({
               <span className="toggle-slider"></span>
             </label>
           </div>
-          <div className="toggle-section">
-            <span className="toggle-label">Population Density</span>
-            <label className="toggle-switch">
-              <input
-                type="checkbox"
-                checked={showPopulationDensity}
-                onChange={onTogglePopulationDensity}
-              />
-              <span className="toggle-slider"></span>
-            </label>
-          </div>
-          {showPopulationDensity && populationDensity > 0 && (
-            <div className="density-info">
-              <span className="density-value">{populationDensity.toLocaleString()}</span>
-              <span className="density-label">people/km²</span>
-            </div>
-          )}
         </div>
 
         {/* Priority Filter */}

@@ -437,19 +437,31 @@ function Map({
     ))
   }
 
-  // Render detection markers - small, subtle dots
+  // Render detection markers - size based on priority
   const renderDetections = () => {
+    // Get radius based on priority level
+    const getPriorityRadius = (priority) => {
+      switch (priority) {
+        case 'critical': return 7
+        case 'high': return 6
+        case 'medium': return 4
+        case 'low': return 3
+        default: return 4
+      }
+    }
+
     return detections.map((detection, idx) => {
       const coords = detection.geometry.coordinates
       const props = detection.properties
       const color = getCategoryColor(props.category)
       const isScanning = scanningDetection && scanningDetection.properties.id === props.id
+      const baseRadius = getPriorityRadius(props.priority)
 
       return (
         <CircleMarker
           key={`det-${props.id || idx}`}
           center={[coords[1], coords[0]]}
-          radius={isScanning ? 8 : 4}
+          radius={isScanning ? baseRadius + 4 : baseRadius}
           fillColor={color}
           color={isScanning ? '#fff' : color}
           weight={isScanning ? 2 : 1}
@@ -758,15 +770,20 @@ function Map({
         return null
       })}
 
-      {/* Custom path detections - small subtle dots */}
+      {/* Custom path detections - size based on priority */}
       {customPathDetections && customPathDetections.features && customPathDetections.features.map((detection, idx) => {
         const coords = detection.geometry.coordinates
         const props = detection.properties
+        // Size based on priority
+        const radius = props.priority === 'critical' ? 7
+          : props.priority === 'high' ? 6
+          : props.priority === 'medium' ? 4
+          : 3
         return (
           <CircleMarker
             key={`custom-det-${idx}`}
             center={[coords[1], coords[0]]}
-            radius={4}
+            radius={radius}
             fillColor={props.color}
             color={props.color}
             weight={1}
