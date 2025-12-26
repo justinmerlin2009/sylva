@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <!-- Gradients for realistic materials -->
+    <linearGradient id="carbonFiber" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2a2a2a"/>
+      <stop offset="25%" style="stop-color:#1a1a1a"/>
+      <stop offset="50%" style="stop-color:#2d2d2d"/>
+      <stop offset="75%" style="stop-color:#1f1f1f"/>
+      <stop offset="100%" style="stop-color:#252525"/>
+    </linearGradient>
+
+    <linearGradient id="carbonFiberTop" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#3a3a3a"/>
+      <stop offset="20%" style="stop-color:#2a2a2a"/>
+      <stop offset="40%" style="stop-color:#383838"/>
+      <stop offset="60%" style="stop-color:#2c2c2c"/>
+      <stop offset="80%" style="stop-color:#353535"/>
+      <stop offset="100%" style="stop-color:#2e2e2e"/>
+    </linearGradient>
+
+    <linearGradient id="aluminumEdge" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#888"/>
+      <stop offset="50%" style="stop-color:#666"/>
+      <stop offset="100%" style="stop-color:#555"/>
+    </linearGradient>
+
+    <linearGradient id="lensGlass" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a3a5a"/>
+      <stop offset="30%" style="stop-color:#0a1a2a"/>
+      <stop offset="60%" style="stop-color:#2a4a6a"/>
+      <stop offset="100%" style="stop-color:#0a2040"/>
+    </linearGradient>
+
+    <linearGradient id="lensRing" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4a4a4a"/>
+      <stop offset="30%" style="stop-color:#2a2a2a"/>
+      <stop offset="70%" style="stop-color:#3a3a3a"/>
+      <stop offset="100%" style="stop-color:#1a1a1a"/>
+    </linearGradient>
+
+    <radialGradient id="lensReflection" cx="30%" cy="30%" r="60%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:0.3"/>
+      <stop offset="100%" style="stop-color:#ffffff;stop-opacity:0"/>
+    </radialGradient>
+
+    <linearGradient id="heatsinkFins" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#3d3d3d"/>
+      <stop offset="50%" style="stop-color:#2a2a2a"/>
+      <stop offset="100%" style="stop-color:#1f1f1f"/>
+    </linearGradient>
+
+    <linearGradient id="greenLED" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00ff00"/>
+      <stop offset="50%" style="stop-color:#00cc00"/>
+      <stop offset="100%" style="stop-color:#009900"/>
+    </linearGradient>
+
+    <linearGradient id="spectralBand" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#ff0000"/>
+      <stop offset="16%" style="stop-color:#ff8800"/>
+      <stop offset="33%" style="stop-color:#ffff00"/>
+      <stop offset="50%" style="stop-color:#00ff00"/>
+      <stop offset="66%" style="stop-color:#0088ff"/>
+      <stop offset="83%" style="stop-color:#8800ff"/>
+      <stop offset="100%" style="stop-color:#ff00ff"/>
+    </linearGradient>
+
+    <filter id="dropShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="15" flood-color="#000" flood-opacity="0.5"/>
+    </filter>
+
+    <filter id="innerGlow">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+
+    <pattern id="carbonPattern" patternUnits="userSpaceOnUse" width="4" height="4">
+      <rect width="4" height="4" fill="#252525"/>
+      <rect width="2" height="2" fill="#2a2a2a"/>
+      <rect x="2" y="2" width="2" height="2" fill="#2a2a2a"/>
+    </pattern>
+
+    <!-- Lidar emitter glow -->
+    <radialGradient id="lidarGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#ff3300;stop-opacity:0.8"/>
+      <stop offset="50%" style="stop-color:#ff3300;stop-opacity:0.3"/>
+      <stop offset="100%" style="stop-color:#ff3300;stop-opacity:0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="600" fill="#0d1117"/>
+
+  <!-- Subtle gradient background -->
+  <ellipse cx="400" cy="300" rx="350" ry="250" fill="url(#lidarGlow)" opacity="0.1"/>
+
+  <!-- Main housing - 3D isometric view -->
+  <g filter="url(#dropShadow)" transform="translate(400, 280)">
+
+    <!-- Bottom of housing -->
+    <path d="M-180,80 L-180,100 L0,160 L180,100 L180,80 L0,140 Z" fill="#1a1a1a"/>
+
+    <!-- Left side panel -->
+    <path d="M-180,-60 L-180,100 L0,160 L0,0 Z" fill="url(#carbonFiber)"/>
+
+    <!-- Carbon fiber texture overlay on left -->
+    <path d="M-180,-60 L-180,100 L0,160 L0,0 Z" fill="url(#carbonPattern)" opacity="0.3"/>
+
+    <!-- Right side panel -->
+    <path d="M180,-60 L180,100 L0,160 L0,0 Z" fill="url(#carbonFiber)"/>
+    <path d="M180,-60 L180,100 L0,160 L0,0 Z" fill="url(#carbonPattern)" opacity="0.2"/>
+
+    <!-- Top panel -->
+    <path d="M-180,-60 L0,-120 L180,-60 L0,0 Z" fill="url(#carbonFiberTop)"/>
+    <path d="M-180,-60 L0,-120 L180,-60 L0,0 Z" fill="url(#carbonPattern)" opacity="0.25"/>
+
+    <!-- Aluminum edge trim - top -->
+    <path d="M-180,-60 L0,-120 L180,-60" stroke="url(#aluminumEdge)" stroke-width="3" fill="none"/>
+    <path d="M-180,-60 L0,0 L180,-60" stroke="#444" stroke-width="1" fill="none"/>
+
+    <!-- Mounting rails on top -->
+    <rect x="-120" y="-95" width="240" height="8" fill="#3a3a3a" transform="skewX(-30)"/>
+    <rect x="-100" y="-75" width="200" height="8" fill="#3a3a3a" transform="skewX(-30)"/>
+
+    <!-- Ventilation slots on left side -->
+    <g transform="translate(-140, 20)">
+      <rect x="0" y="0" width="60" height="4" fill="#111" transform="skewY(33)"/>
+      <rect x="0" y="10" width="60" height="4" fill="#111" transform="skewY(33)"/>
+      <rect x="0" y="20" width="60" height="4" fill="#111" transform="skewY(33)"/>
+      <rect x="0" y="30" width="60" height="4" fill="#111" transform="skewY(33)"/>
+      <rect x="0" y="40" width="60" height="4" fill="#111" transform="skewY(33)"/>
+    </g>
+
+    <!-- Heatsink fins on right side -->
+    <g transform="translate(80, 0)">
+      <rect x="0" y="0" width="70" height="5" fill="url(#heatsinkFins)" transform="skewY(-33)"/>
+      <rect x="0" y="12" width="70" height="5" fill="url(#heatsinkFins)" transform="skewY(-33)"/>
+      <rect x="0" y="24" width="70" height="5" fill="url(#heatsinkFins)" transform="skewY(-33)"/>
+      <rect x="0" y="36" width="70" height="5" fill="url(#heatsinkFins)" transform="skewY(-33)"/>
+      <rect x="0" y="48" width="70" height="5" fill="url(#heatsinkFins)" transform="skewY(-33)"/>
+      <rect x="0" y="60" width="70" height="5" fill="url(#heatsinkFins)" transform="skewY(-33)"/>
+    </g>
+
+    <!-- === MAIN RGB CAMERA (Large, center-left) === -->
+    <g transform="translate(-70, 40)">
+      <!-- Lens housing -->
+      <ellipse cx="0" cy="0" rx="45" ry="30" fill="url(#lensRing)"/>
+      <ellipse cx="0" cy="0" rx="40" ry="26" fill="#1a1a1a"/>
+      <ellipse cx="0" cy="0" rx="35" ry="23" fill="url(#lensGlass)"/>
+      <ellipse cx="0" cy="0" rx="35" ry="23" fill="url(#lensReflection)"/>
+      <!-- Inner lens elements -->
+      <ellipse cx="0" cy="0" rx="25" ry="16" fill="#0a1525" stroke="#333" stroke-width="1"/>
+      <ellipse cx="0" cy="0" rx="15" ry="10" fill="#050a10"/>
+      <!-- Lens coating reflection -->
+      <ellipse cx="-8" cy="-5" rx="8" ry="5" fill="#4080ff" opacity="0.15"/>
+      <!-- Label -->
+      <text x="0" y="45" text-anchor="middle" fill="#666" font-family="Arial" font-size="8" font-weight="bold">61MP RGB</text>
+    </g>
+
+    <!-- === HYPERSPECTRAL SENSOR (Center) === -->
+    <g transform="translate(20, 60)">
+      <!-- Rectangular sensor housing -->
+      <rect x="-30" y="-20" width="60" height="35" rx="3" fill="url(#lensRing)"/>
+      <rect x="-26" y="-16" width="52" height="27" rx="2" fill="#1a1a1a"/>
+      <!-- Spectral window -->
+      <rect x="-22" y="-12" width="44" height="19" fill="url(#lensGlass)"/>
+      <rect x="-22" y="-12" width="44" height="19" fill="url(#lensReflection)" opacity="0.5"/>
+      <!-- Spectral band indicator -->
+      <rect x="-18" y="0" width="36" height="3" fill="url(#spectralBand)" opacity="0.7"/>
+      <!-- Label -->
+      <text x="0" y="30" text-anchor="middle" fill="#666" font-family="Arial" font-size="7" font-weight="bold">HYPERSPECTRAL</text>
+    </g>
+
+    <!-- === LIDAR MODULE (Right side) === -->
+    <g transform="translate(100, 50)">
+      <!-- Cylindrical housing -->
+      <ellipse cx="0" cy="-15" rx="28" ry="10" fill="#3a3a3a"/>
+      <rect x="-28" y="-15" width="56" height="35" fill="url(#lensRing)"/>
+      <ellipse cx="0" cy="20" rx="28" ry="10" fill="#2a2a2a"/>
+      <!-- Emitter window -->
+      <ellipse cx="0" cy="5" rx="20" ry="12" fill="#1a1a1a"/>
+      <ellipse cx="0" cy="5" rx="16" ry="9" fill="#330000"/>
+      <!-- Laser emitter dots -->
+      <circle cx="-8" cy="2" r="2" fill="#ff3300" opacity="0.8"/>
+      <circle cx="0" cy="5" r="2" fill="#ff3300" opacity="0.8"/>
+      <circle cx="8" cy="2" r="2" fill="#ff3300" opacity="0.8"/>
+      <circle cx="-4" cy="8" r="2" fill="#ff3300" opacity="0.8"/>
+      <circle cx="4" cy="8" r="2" fill="#ff3300" opacity="0.8"/>
+      <!-- Glow effect -->
+      <ellipse cx="0" cy="5" rx="18" ry="10" fill="url(#lidarGlow)" opacity="0.4"/>
+      <!-- Label -->
+      <text x="0" y="42" text-anchor="middle" fill="#666" font-family="Arial" font-size="7" font-weight="bold">LiDAR 200m</text>
+    </g>
+
+    <!-- === STATUS LEDs === -->
+    <g transform="translate(-160, -20)">
+      <circle cx="0" cy="0" r="4" fill="#00ff00" opacity="0.9"/>
+      <circle cx="0" cy="0" r="6" fill="#00ff00" opacity="0.3"/>
+      <circle cx="0" cy="12" r="4" fill="#00aaff" opacity="0.9"/>
+      <circle cx="0" cy="12" r="6" fill="#00aaff" opacity="0.3"/>
+      <circle cx="0" cy="24" r="4" fill="#ffaa00" opacity="0.9"/>
+      <circle cx="0" cy="24" r="6" fill="#ffaa00" opacity="0.3"/>
+    </g>
+
+    <!-- === NVIDIA JETSON BADGE === -->
+    <g transform="translate(140, -30)">
+      <rect x="-35" y="-12" width="70" height="24" rx="3" fill="#76b900"/>
+      <text x="0" y="5" text-anchor="middle" fill="#fff" font-family="Arial" font-size="10" font-weight="bold">NVIDIA</text>
+      <text x="0" y="-3" text-anchor="middle" fill="#fff" font-family="Arial" font-size="6">JETSON</text>
+    </g>
+
+    <!-- === CONNECTOR PORTS (Back/right edge) === -->
+    <g transform="translate(165, 40)">
+      <!-- USB-C port -->
+      <rect x="0" y="0" width="12" height="6" rx="1" fill="#333" transform="skewY(-33)"/>
+      <!-- Ethernet port -->
+      <rect x="0" y="15" width="14" height="10" rx="1" fill="#333" transform="skewY(-33)"/>
+      <!-- Power connector -->
+      <circle cx="6" cy="38" r="5" fill="#333"/>
+      <circle cx="6" cy="38" r="3" fill="#222"/>
+    </g>
+
+    <!-- === SYLVA BRANDING === -->
+    <g transform="translate(0, -90)">
+      <text x="0" y="0" text-anchor="middle" fill="#51ab5a" font-family="Arial Black, Arial" font-size="18" font-weight="bold" letter-spacing="4">SYLVA</text>
+    </g>
+
+    <!-- Model number -->
+    <text x="-140" y="90" fill="#444" font-family="monospace" font-size="8">SP-1000</text>
+    <text x="100" y="90" fill="#444" font-family="monospace" font-size="8">SN:2026-001</text>
+
+  </g>
+
+  <!-- Title -->
+  <text x="400" y="50" text-anchor="middle" fill="#51ab5a" font-family="Arial Black, Arial" font-size="28" font-weight="bold">SYLVA SENSOR PAYLOAD</text>
+  <text x="400" y="75" text-anchor="middle" fill="#888" font-family="Arial" font-size="14">Multi-Spectral Environmental Detection Module</text>
+
+  <!-- Specifications panel -->
+  <g transform="translate(50, 480)">
+    <rect x="0" y="0" width="700" height="90" rx="5" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+
+    <!-- Spec columns -->
+    <g transform="translate(30, 25)">
+      <text fill="#51ab5a" font-family="Arial" font-size="11" font-weight="bold">DIMENSIONS</text>
+      <text y="18" fill="#aaa" font-family="Arial" font-size="10">220 x 140 x 95 mm</text>
+      <text y="32" fill="#aaa" font-family="Arial" font-size="10">Weight: 1.2 kg</text>
+      <text y="46" fill="#aaa" font-family="Arial" font-size="10">IP54 Rated</text>
+    </g>
+
+    <g transform="translate(180, 25)">
+      <text fill="#51ab5a" font-family="Arial" font-size="11" font-weight="bold">RGB CAMERA</text>
+      <text y="18" fill="#aaa" font-family="Arial" font-size="10">61 Megapixel</text>
+      <text y="32" fill="#aaa" font-family="Arial" font-size="10">Global Shutter</text>
+      <text y="46" fill="#aaa" font-family="Arial" font-size="10">1.5cm GSD @ 120m</text>
+    </g>
+
+    <g transform="translate(330, 25)">
+      <text fill="#51ab5a" font-family="Arial" font-size="11" font-weight="bold">HYPERSPECTRAL</text>
+      <text y="18" fill="#aaa" font-family="Arial" font-size="10">8-Band NIR/SWIR</text>
+      <text y="32" fill="#aaa" font-family="Arial" font-size="10">900-1700nm Range</text>
+      <text y="46" fill="#aaa" font-family="Arial" font-size="10">Material ID: Yes</text>
+    </g>
+
+    <g transform="translate(480, 25)">
+      <text fill="#51ab5a" font-family="Arial" font-size="11" font-weight="bold">LiDAR</text>
+      <text y="18" fill="#aaa" font-family="Arial" font-size="10">200m Range</text>
+      <text y="32" fill="#aaa" font-family="Arial" font-size="10">100k points/sec</text>
+      <text y="46" fill="#aaa" font-family="Arial" font-size="10">Multi-return</text>
+    </g>
+
+    <g transform="translate(600, 25)">
+      <text fill="#51ab5a" font-family="Arial" font-size="11" font-weight="bold">AI PROCESSING</text>
+      <text y="18" fill="#aaa" font-family="Arial" font-size="10">NVIDIA Orin NX</text>
+      <text y="32" fill="#aaa" font-family="Arial" font-size="10">100 TOPS</text>
+      <text y="46" fill="#aaa" font-family="Arial" font-size="10">&lt;50ms Latency</text>
+    </g>
+  </g>
+
+  <!-- Footer -->
+  <text x="400" y="590" text-anchor="middle" fill="#555" font-family="Arial" font-size="10">TamAir Environmental Technologies - Conrad Challenge 2026</text>
+
+</svg>
