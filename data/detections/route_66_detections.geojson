@@ -11,7 +11,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-E71FC57B",
+        "id": "DET-2025-B065C66D",
         "timestamp": "2026-01-15T10:00:00",
         "category": "tire",
         "category_name": "Tires",
@@ -35,7 +35,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-AA91032A",
+        "id": "DET-2025-A606508D",
         "timestamp": "2026-01-15T10:00:05.901971",
         "category": "food_packaging",
         "category_name": "Food Packaging",
@@ -59,7 +59,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-E204ACB8",
+        "id": "DET-2025-A8955E11",
         "timestamp": "2026-01-15T10:00:11.803941",
         "category": "organic_waste",
         "category_name": "Organic Waste",
@@ -83,7 +83,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-53432FAE",
+        "id": "DET-2025-2DDA5073",
         "timestamp": "2026-01-15T10:00:17.705912",
         "category": "glass",
         "category_name": "Glass",
@@ -107,7 +107,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-434CA555",
+        "id": "DET-2025-09AA523A",
         "timestamp": "2026-01-15T10:00:23.607883",
         "category": "metal_debris",
         "category_name": "Metal Debris",
@@ -131,7 +131,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-22FAC765",
+        "id": "DET-2025-85E387CA",
         "timestamp": "2026-01-15T10:00:29.509853",
         "category": "construction_waste",
         "category_name": "Construction Waste",
@@ -155,7 +155,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-7E9DA7CD",
+        "id": "DET-2025-9E5D206A",
         "timestamp": "2026-01-15T10:00:35.411824",
         "category": "plastic_bottle",
         "category_name": "Plastic Bottles",
@@ -179,7 +179,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-4F73E9BA",
+        "id": "DET-2025-7EEB7D3C",
         "timestamp": "2026-01-15T10:00:41.313795",
         "category": "tire",
         "category_name": "Tires",
@@ -203,7 +203,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-48ABA8C2",
+        "id": "DET-2025-BBBFB4E5",
         "timestamp": "2026-01-15T10:00:47.215765",
         "category": "tire",
         "category_name": "Tires",
@@ -227,7 +227,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-5707F0C9",
+        "id": "DET-2025-9ED44FF5",
         "timestamp": "2026-01-15T10:00:53.117736",
         "category": "tire",
         "category_name": "Tires",
@@ -251,7 +251,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-5FC431C8",
+        "id": "DET-2025-AA3ABF4A",
         "timestamp": "2026-01-15T10:00:59.019707",
         "category": "food_packaging",
         "category_name": "Food Packaging",
@@ -275,7 +275,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-D6C17D80",
+        "id": "DET-2025-155B7FE1",
         "timestamp": "2026-01-15T10:01:04.921677",
         "category": "metal_debris",
         "category_name": "Metal Debris",
@@ -299,7 +299,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-819ECE01",
+        "id": "DET-2025-9908E8C1",
         "timestamp": "2026-01-15T10:01:10.828735",
         "category": "metal_debris",
         "category_name": "Metal Debris",
@@ -323,7 +323,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-8CEDDEAC",
+        "id": "DET-2025-F5717ED3",
         "timestamp": "2026-01-15T10:01:16.741896",
         "category": "plastic_bottle",
         "category_name": "Plastic Bottles",
@@ -347,7 +347,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-DCE68802",
+        "id": "DET-2025-6620BA3B",
         "timestamp": "2026-01-15T10:01:22.655058",
         "category": "food_packaging",
         "category_name": "Food Packaging",
@@ -371,7 +371,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-22A84DA9",
+        "id": "DET-2025-D0E980A5",
         "timestamp": "2026-01-15T10:01:28.568219",
         "category": "construction_waste",
         "category_name": "Construction Waste",
@@ -395,7 +395,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-A8986C1E",
+        "id": "DET-2025-A8EBB258",
         "timestamp": "2026-01-15T10:01:34.481381",
         "category": "food_packaging",
         "category_name": "Food Packaging",
@@ -419,7 +419,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-43B7E4AA",
+        "id": "DET-2025-4824D41F",
         "timestamp": "2026-01-15T10:01:40.394542",
         "category": "tire",
         "category_name": "Tires",
@@ -443,7 +443,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-36D7F588",
+        "id": "DET-2025-CA80D290",
         "timestamp": "2026-01-15T10:01:46.307704",
         "category": "textile",
         "category_name": "Textile/Fabric",
@@ -467,7 +467,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-DC5E0E4F",
+        "id": "DET-2025-2932EFF4",
         "timestamp": "2026-01-15T10:01:52.220865",
         "category": "organic_waste",
         "category_name": "Organic Waste",
@@ -491,7 +491,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-3834CA75",
+        "id": "DET-2025-84AB2D5E",
         "timestamp": "2026-01-15T10:01:58.134027",
         "category": "construction_waste",
         "category_name": "Construction Waste",
@@ -515,7 +515,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-B6D698EB",
+        "id": "DET-2025-F8C1B4EA",
         "timestamp": "2026-01-15T10:02:04.047188",
         "category": "construction_waste",
         "category_name": "Construction Waste",
@@ -539,7 +539,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-D716E113",
+        "id": "DET-2025-2C757409",
         "timestamp": "2026-01-15T10:02:09.960349",
         "category": "glass",
         "category_name": "Glass",
@@ -563,7 +563,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-1E4B76CB",
+        "id": "DET-2025-967279D5",
         "timestamp": "2026-01-15T10:02:15.873511",
         "category": "food_packaging",
         "category_name": "Food Packaging",
@@ -587,7 +587,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-A84961BB",
+        "id": "DET-2025-79002774",
         "timestamp": "2026-01-15T10:02:21.786672",
         "category": "metal_debris",
         "category_name": "Metal Debris",
@@ -611,7 +611,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-1573789F",
+        "id": "DET-2025-36051CC3",
         "timestamp": "2026-01-15T10:02:27.699834",
         "category": "food_packaging",
         "category_name": "Food Packaging",
@@ -635,7 +635,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-911F2824",
+        "id": "DET-2025-7C069107",
         "timestamp": "2026-01-15T10:02:33.612903",
         "category": "textile",
         "category_name": "Textile/Fabric",
@@ -659,7 +659,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-E5D95C6D",
+        "id": "DET-2025-A94A88C2",
         "timestamp": "2026-01-15T10:02:39.525725",
         "category": "textile",
         "category_name": "Textile/Fabric",
@@ -683,7 +683,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-B25ABB99",
+        "id": "DET-2025-C5E8196E",
         "timestamp": "2026-01-15T10:02:45.438548",
         "category": "construction_waste",
         "category_name": "Construction Waste",
@@ -707,7 +707,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-00ECDD78",
+        "id": "DET-2025-E999D9BE",
         "timestamp": "2026-01-15T10:02:51.351370",
         "category": "food_packaging",
         "category_name": "Food Packaging",
@@ -731,7 +731,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-96E676D1",
+        "id": "DET-2025-45BB9864",
         "timestamp": "2026-01-15T10:02:57.264192",
         "category": "construction_waste",
         "category_name": "Construction Waste",
@@ -755,7 +755,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-B28DEC86",
+        "id": "DET-2025-9B0CDF9A",
         "timestamp": "2026-01-15T10:03:03.177014",
         "category": "metal_debris",
         "category_name": "Metal Debris",
@@ -779,7 +779,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-416665D6",
+        "id": "DET-2025-D5E427A9",
         "timestamp": "2026-01-15T10:03:09.089837",
         "category": "food_packaging",
         "category_name": "Food Packaging",
@@ -803,7 +803,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-06F65E75",
+        "id": "DET-2025-19988573",
         "timestamp": "2026-01-15T10:03:15.002659",
         "category": "metal_debris",
         "category_name": "Metal Debris",
@@ -827,7 +827,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-DC23B9B9",
+        "id": "DET-2025-47BBBE9D",
         "timestamp": "2026-01-15T10:03:20.915481",
         "category": "plastic_bottle",
         "category_name": "Plastic Bottles",
@@ -851,7 +851,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-C221985F",
+        "id": "DET-2025-D340AAFC",
         "timestamp": "2026-01-15T10:03:26.828304",
         "category": "plastic_bottle",
         "category_name": "Plastic Bottles",
@@ -875,7 +875,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-209D1EBF",
+        "id": "DET-2025-A1D59C7D",
         "timestamp": "2026-01-15T10:03:32.741126",
         "category": "organic_waste",
         "category_name": "Organic Waste",
@@ -899,7 +899,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-EEB752D7",
+        "id": "DET-2025-50949BBD",
         "timestamp": "2026-01-15T10:03:38.653948",
         "category": "construction_waste",
         "category_name": "Construction Waste",
@@ -923,7 +923,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-97A1611F",
+        "id": "DET-2025-9B5655C1",
         "timestamp": "2026-01-15T10:03:44.566771",
         "category": "glass",
         "category_name": "Glass",
@@ -947,7 +947,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-468233FD",
+        "id": "DET-2025-9039E81F",
         "timestamp": "2026-01-15T10:03:50.479593",
         "category": "plastic_bottle",
         "category_name": "Plastic Bottles",
@@ -971,7 +971,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-6F8727A1",
+        "id": "DET-2025-A1FD1BB6",
         "timestamp": "2026-01-15T10:03:56.391528",
         "category": "food_packaging",
         "category_name": "Food Packaging",
@@ -995,7 +995,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-92B9E063",
+        "id": "DET-2025-0DF84B27",
         "timestamp": "2026-01-15T10:04:02.294585",
         "category": "metal_debris",
         "category_name": "Metal Debris",
@@ -1019,7 +1019,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-4F282872",
+        "id": "DET-2025-CFA5334D",
         "timestamp": "2026-01-15T10:04:08.197642",
         "category": "plastic_bottle",
         "category_name": "Plastic Bottles",
@@ -1043,7 +1043,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-EAA95EBC",
+        "id": "DET-2025-76684F90",
         "timestamp": "2026-01-15T10:04:14.100698",
         "category": "textile",
         "category_name": "Textile/Fabric",
@@ -1067,7 +1067,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-990327D1",
+        "id": "DET-2025-AC1B11D5",
         "timestamp": "2026-01-15T10:04:20.003755",
         "category": "plastic_bottle",
         "category_name": "Plastic Bottles",
@@ -1091,7 +1091,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-7DA39871",
+        "id": "DET-2025-3C563174",
         "timestamp": "2026-01-15T10:04:25.906812",
         "category": "tire",
         "category_name": "Tires",
@@ -1115,7 +1115,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-E1F9B428",
+        "id": "DET-2025-62924A03",
         "timestamp": "2026-01-15T10:04:31.809869",
         "category": "tire",
         "category_name": "Tires",
@@ -1139,7 +1139,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-816F408B",
+        "id": "DET-2025-7A25C5E0",
         "timestamp": "2026-01-15T10:04:37.712926",
         "category": "glass",
         "category_name": "Glass",
@@ -1163,7 +1163,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-9A259264",
+        "id": "DET-2025-920BFFC7",
         "timestamp": "2026-01-15T10:04:43.615983",
         "category": "construction_waste",
         "category_name": "Construction Waste",
@@ -1187,7 +1187,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-DD5172D8",
+        "id": "DET-2025-CC5A1004",
         "timestamp": "2026-01-15T10:04:49.519040",
         "category": "glass",
         "category_name": "Glass",
@@ -1211,7 +1211,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-C7AE5B03",
+        "id": "DET-2025-5A112455",
         "timestamp": "2026-01-15T10:04:55.422097",
         "category": "plastic_bottle",
         "category_name": "Plastic Bottles",
@@ -1235,7 +1235,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-9A3E6F2F",
+        "id": "DET-2025-DA192970",
         "timestamp": "2026-01-15T10:05:01.325154",
         "category": "food_packaging",
         "category_name": "Food Packaging",
@@ -1259,7 +1259,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-EF21FD65",
+        "id": "DET-2025-C50BCEC1",
         "timestamp": "2026-01-15T10:05:02.935079",
         "category": "organic_waste",
         "category_name": "Organic Waste",

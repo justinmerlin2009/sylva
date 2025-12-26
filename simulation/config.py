@@ -65,19 +65,21 @@ LOCATIONS = {
         "population_density": 85,
     },
     "nasa_clear_lake": {
-        "name": "NASA Clear Lake Area, Houston TX",
+        "name": "NASA - Space Center Houston, Texas",
         "type": "urban_waterfront",
-        "center": {"lat": 29.540, "lon": -95.065},
-        # Waterfront corridor survey along Clear Lake shoreline
+        "center": {"lat": 29.548, "lon": -95.100},
+        # Flight path from Space Center Houston along Clear Lake to Galveston Bay
         "waypoints": [
-            {"lat": 29.558, "lon": -95.110, "name": "NASA JSC Start"},
-            {"lat": 29.550, "lon": -95.085, "name": "Clear Lake North"},
-            {"lat": 29.540, "lon": -95.065, "name": "Clear Lake Midpoint"},
-            {"lat": 29.530, "lon": -95.040, "name": "Seabrook"},
-            {"lat": 29.520, "lon": -95.015, "name": "Kemah End"},
+            {"lat": 29.4813, "lon": -95.1014, "name": "Space Center Start"},
+            {"lat": 29.5065, "lon": -95.1160, "name": "NASA Road 1"},
+            {"lat": 29.5279, "lon": -95.1138, "name": "Clear Lake North"},
+            {"lat": 29.5482, "lon": -95.1001, "name": "Clear Lake Center"},
+            {"lat": 29.5616, "lon": -95.0729, "name": "Seabrook Marina"},
+            {"lat": 29.5637, "lon": -95.0430, "name": "Kemah Boardwalk"},
+            {"lat": 29.5749, "lon": -95.0277, "name": "Galveston Bay End"},
         ],
         "survey_altitude_m": 120,
-        "survey_speed_ms": 22,
+        "survey_speed_ms": 20,
         "flight_pattern": "corridor",
         "corridor_width_m": 150,
         "population_density": 1850,
@@ -97,10 +99,10 @@ POPULATION_DENSITY_ZONES = {
         {"lat": 34.860, "lon": -114.550, "radius_m": 300, "density": 20, "name": "East Desert"},
     ],
     "nasa_clear_lake": [
-        {"lat": 29.555, "lon": -95.095, "radius_m": 800, "density": 2500, "name": "NASA Complex"},
-        {"lat": 29.540, "lon": -95.080, "radius_m": 600, "density": 3200, "name": "Clear Lake City"},
-        {"lat": 29.530, "lon": -95.060, "radius_m": 500, "density": 2800, "name": "Seabrook"},
-        {"lat": 29.520, "lon": -95.050, "radius_m": 700, "density": 1500, "name": "Kemah"},
+        {"lat": 29.485, "lon": -95.100, "radius_m": 800, "density": 2500, "name": "Space Center Houston"},
+        {"lat": 29.520, "lon": -95.115, "radius_m": 600, "density": 3200, "name": "Clear Lake City"},
+        {"lat": 29.550, "lon": -95.100, "radius_m": 500, "density": 2800, "name": "Clear Lake Shore"},
+        {"lat": 29.565, "lon": -95.045, "radius_m": 700, "density": 1500, "name": "Kemah Boardwalk"},
     ],
 }
 
