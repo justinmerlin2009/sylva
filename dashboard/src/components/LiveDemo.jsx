@@ -90,7 +90,7 @@ function LiveDemo({
             <h4>Demo Features:</h4>
             <ul>
               <li>Close-up drone following</li>
-              <li>Real-time CV detection</li>
+              <li>Real-time AI detection</li>
               <li>Individual trash identification</li>
               <li>Geo-tagging visualization</li>
             </ul>

@@ -43,7 +43,7 @@ function App() {
   const [waypoints, setWaypoints] = useState([])
   const [dronePathHistory, setDronePathHistory] = useState([]) // Track scanned path
 
-  // CV Detection panel state
+  // Computer Vision AI panel state
   const [scanningDetection, setScanningDetection] = useState(null)
   const [showDetectionPanel, setShowDetectionPanel] = useState(false)
 
@@ -250,8 +250,8 @@ function App() {
           setDemoDetections(prev => [...prev, ...data.new_detections])
         }
 
-        // Handle CV panel detection (sampled - every 5th detection)
-        // This is separate from map dots - only for the CV panel animation
+        // Handle Computer Vision AI panel detection (sampled - every 5th detection)
+        // This is separate from map dots - only for the AI panel animation
         if (data.detection_event && data.new_detection) {
           setScanningDetection(data.new_detection)
 
@@ -457,7 +457,7 @@ function App() {
           setDemoDetections(prev => [...prev, ...data.new_detections])
         }
 
-        // CV panel
+        // Computer Vision AI panel
         if (data.detection_event && data.new_detection) {
           setScanningDetection(data.new_detection)
           setTimeout(() => setScanningDetection(null), 1200)
@@ -632,7 +632,7 @@ function App() {
             geographyData={null}
           />
 
-          {/* CV Detection Panel - shows during demo */}
+          {/* Computer Vision AI Panel - shows during demo */}
           {demoActive && showDetectionPanel && (
             <DetectionPanel
               detection={scanningDetection}

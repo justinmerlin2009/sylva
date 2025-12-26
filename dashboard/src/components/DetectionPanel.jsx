@@ -109,8 +109,8 @@ const getTrashIcon = (category) => {
   return TRASH_ICONS[category] || TRASH_ICONS.plastic_bottle
 }
 
-// Simulated CV processing stages - slower for detailed visualization
-const CV_STAGES = [
+// Computer Vision AI processing stages - slower for detailed visualization
+const AI_STAGES = [
   { id: 'capture', label: '4K Frame Capture', duration: 800 },
   { id: 'multispectral', label: 'Multi-spectral Analysis', duration: 600 },
   { id: 'preprocess', label: 'Image Enhancement', duration: 500 },
@@ -141,11 +141,11 @@ function DetectionPanel({
   const [processingComplete, setProcessingComplete] = useState(false)
   const [displayedDetection, setDisplayedDetection] = useState(null)
 
-  // Only show every Nth detection in the CV panel to reduce animation frequency
+  // Only show every Nth detection in the AI panel to reduce animation frequency
   // This shows "1 of X" style - not every single detection
   useEffect(() => {
     if (detection && isProcessing) {
-      // Only animate CV panel for every 5th detection (or first one)
+      // Only animate AI panel for every 5th detection (or first one)
       if (totalDetections === 1 || totalDetections % 5 === 0) {
         setDisplayedDetection(detection)
         setCurrentStage(0)
@@ -155,7 +155,7 @@ function DetectionPanel({
     }
   }, [detection, isProcessing, totalDetections])
 
-  // Simulate CV processing stages - runs independently
+  // Simulate AI processing stages - runs independently
   useEffect(() => {
     if (!displayedDetection) {
       return
@@ -171,7 +171,7 @@ function DetectionPanel({
         stageIndex++
         progress = 0
 
-        if (stageIndex >= CV_STAGES.length) {
+        if (stageIndex >= AI_STAGES.length) {
           setProcessingComplete(true)
           clearInterval(interval)
           return
@@ -189,7 +189,7 @@ function DetectionPanel({
     return (
       <div className="detection-panel">
         <div className="detection-panel-header">
-          <h3>CV Detection Analysis</h3>
+          <h3>Computer Vision AI</h3>
           <button className="close-btn" onClick={onClose}>×</button>
         </div>
         <div className="camera-view">
@@ -236,7 +236,7 @@ function DetectionPanel({
     )
   }
 
-  // Use displayed detection (every 5th) for CV animation
+  // Use displayed detection (every 5th) for AI animation
   const activeDetection = displayedDetection || detection
   const props = activeDetection.properties
   const coords = activeDetection.geometry.coordinates
@@ -293,12 +293,12 @@ function DetectionPanel({
       </div>
 
       {/* Processing stages */}
-      <div className="cv-stages">
+      <div className="ai-stages">
         <h4>AI Processing Pipeline</h4>
-        {CV_STAGES.map((stage, idx) => (
+        {AI_STAGES.map((stage, idx) => (
           <div
             key={stage.id}
-            className={`cv-stage ${idx < currentStage ? 'complete' : ''} ${idx === currentStage ? 'active' : ''}`}
+            className={`ai-stage ${idx < currentStage ? 'complete' : ''} ${idx === currentStage ? 'active' : ''}`}
           >
             <div className="stage-indicator">
               {idx < currentStage ? '✓' : idx === currentStage ? '●' : '○'}
