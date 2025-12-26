@@ -996,6 +996,66 @@ async def export_custom_path(path_id: str, format: str = "geojson") -> Dict:
         raise HTTPException(status_code=400, detail=f"Unknown format: {format}")
 
 
+# =============================================================================
+# GEOGRAPHY ENDPOINTS
+# =============================================================================
+
+GEOGRAPHY_DIR = DATA_DIR / "geography"
+
+
+@app.get("/api/geography/{location}")
+async def get_geography(location: str) -> Dict:
+    """
+    Get geographic features (water bodies, highways, shorelines) for a location.
+
+    Returns GeoJSON FeatureCollection with:
+    - Water polygons (oceans, lakes, lagoons)
+    - Highway/road linestrings
+    - Shoreline linestrings
+    """
+    features = []
+
+    # Map location keys to geography files
+    file_mappings = {
+        "stinson_beach": ["stinson_beach_water.geojson", "stinson_beach_shoreline.geojson"],
+        "route_66": ["route_66_highway.geojson"],
+        "nasa_clear_lake": ["nasa_clear_lake.geojson"],
+    }
+
+    if location not in file_mappings:
+        raise HTTPException(status_code=404, detail=f"Geography data for {location} not found")
+
+    for filename in file_mappings[location]:
+        filepath = GEOGRAPHY_DIR / filename
+        if filepath.exists():
+            data = load_json(filepath)
+            if data and "features" in data:
+                features.extend(data["features"])
+
+    return {
+        "type": "FeatureCollection",
+        "location": location,
+        "features": features,
+    }
+
+
+@app.get("/api/geography")
+async def list_geography() -> Dict:
+    """List all available geography data."""
+    available = []
+
+    if GEOGRAPHY_DIR.exists():
+        for f in GEOGRAPHY_DIR.glob("*.geojson"):
+            data = load_json(f)
+            available.append({
+                "filename": f.name,
+                "name": data.get("name", f.stem),
+                "feature_count": len(data.get("features", [])),
+            })
+
+    return {"geography_files": available}
+
+
 @app.get("/api/health")
 async def health_check() -> Dict:
     """Health check endpoint."""

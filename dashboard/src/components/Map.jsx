@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react'
-import { MapContainer, TileLayer, Marker, Popup, Polyline, CircleMarker, Circle, useMap, useMapEvents } from 'react-leaflet'
+import { MapContainer, TileLayer, Marker, Popup, Polyline, CircleMarker, Circle, Polygon, useMap, useMapEvents } from 'react-leaflet'
 import L from 'leaflet'
 import 'leaflet/dist/leaflet.css'
 
@@ -253,6 +253,8 @@ function Map({
   onMapClick,
   customPathFlight,
   customPathDetections,
+  // Geography data
+  geographyData,
 }) {
   // Don't aggressively follow drone - just smooth pan occasionally
   const smoothFollow = demoActive && dronePosition
@@ -267,6 +269,102 @@ function Map({
   // Get priority class
   const getPriorityClass = (priority) => {
     return `priority-badge ${priority}`
+  }
+
+  // Render geography features (water bodies, highways, shorelines)
+  const renderGeography = () => {
+    if (!geographyData || !geographyData.features) return null
+
+    return geographyData.features.map((feature, idx) => {
+      const props = feature.properties
+      const geometry = feature.geometry
+
+      // Water polygons (ocean, lake, lagoon)
+      if (geometry.type === 'Polygon' && props.natural === 'water') {
+        const positions = geometry.coordinates[0].map(coord => [coord[1], coord[0]])
+        return (
+          <Polygon
+            key={`water-${idx}`}
+            positions={positions}
+            pathOptions={{
+              color: '#1e40af',
+              weight: 1,
+              fillColor: '#3b82f6',
+              fillOpacity: 0.3,
+            }}
+          >
+            <Popup>
+              <strong>{props.name}</strong>
+              <br />
+              <small>{props.type}</small>
+            </Popup>
+          </Polygon>
+        )
+      }
+
+      // Highway/road linestrings
+      if (geometry.type === 'LineString' && props.highway) {
+        const positions = geometry.coordinates.map(coord => [coord[1], coord[0]])
+        const isMotorway = props.highway === 'motorway'
+        return (
+          <Polyline
+            key={`highway-${idx}`}
+            positions={positions}
+            pathOptions={{
+              color: isMotorway ? '#dc2626' : '#f59e0b',
+              weight: isMotorway ? 5 : 4,
+              opacity: 0.8,
+            }}
+          >
+            <Popup>
+              <strong>{props.name}</strong>
+              {props.ref && <><br /><small>{props.ref}</small></>}
+            </Popup>
+          </Polyline>
+        )
+      }
+
+      // Shoreline linestrings
+      if (geometry.type === 'LineString' && props.type === 'shoreline') {
+        const positions = geometry.coordinates.map(coord => [coord[1], coord[0]])
+        return (
+          <Polyline
+            key={`shoreline-${idx}`}
+            positions={positions}
+            pathOptions={{
+              color: '#0ea5e9',
+              weight: 3,
+              opacity: 0.7,
+              dashArray: '8, 4',
+            }}
+          >
+            <Popup>
+              <strong>{props.name}</strong>
+              <br />
+              <small>Shoreline - {props.trash_density} trash density</small>
+            </Popup>
+          </Polyline>
+        )
+      }
+
+      // Stream/creek linestrings
+      if (geometry.type === 'LineString' && props.type === 'stream') {
+        const positions = geometry.coordinates.map(coord => [coord[1], coord[0]])
+        return (
+          <Polyline
+            key={`stream-${idx}`}
+            positions={positions}
+            pathOptions={{
+              color: '#3b82f6',
+              weight: 2,
+              opacity: 0.6,
+            }}
+          />
+        )
+      }
+
+      return null
+    })
   }
 
   // Render flight paths
@@ -480,6 +578,9 @@ function Map({
           opacity={0.8}
         />
       )}
+
+      {/* Geography features (water, highways, shorelines) */}
+      {renderGeography()}
 
       {/* Heatmap layer */}
       {heatmapData.length > 0 && <HeatmapLayer data={heatmapData} />}
