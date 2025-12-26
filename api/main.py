@@ -4,9 +4,14 @@ FastAPI backend for the Sylva drone simulation
 TamAir - Conrad Challenge 2026
 """
 
+import sys
+from pathlib import Path
+
+# Add parent directory to path for simulation imports
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+
 import asyncio
 import json
-from pathlib import Path
 from typing import List, Optional, Dict, Any
 from datetime import datetime
 
@@ -32,8 +37,8 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# Data directory
-DATA_DIR = Path(__file__).parent.parent / "data"
+# Data directory - resolve to absolute path for production
+DATA_DIR = Path(__file__).resolve().parent.parent / "data"
 
 
 def load_json(filepath: Path) -> Dict:
