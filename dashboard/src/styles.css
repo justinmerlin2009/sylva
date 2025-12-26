@@ -67,6 +67,8 @@ body {
   display: flex;
   align-items: center;
   gap: 12px;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 .logo h1 {
@@ -1460,6 +1462,8 @@ body {
   display: flex;
   align-items: center;
   gap: 12px;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 .logo-icon {

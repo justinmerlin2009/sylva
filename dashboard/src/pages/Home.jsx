@@ -6,10 +6,10 @@ function Home() {
     <div className="home-page">
       {/* Navigation */}
       <header className="home-header">
-        <div className="home-logo">
+        <Link to="/" className="home-logo">
           <span className="logo-icon">S</span>
           <span className="logo-text">Sylva</span>
-        </div>
+        </Link>
         <nav className="home-nav">
           <a href="#why" className="nav-link">Why It Matters</a>
           <a href="#how" className="nav-link">How It Works</a>

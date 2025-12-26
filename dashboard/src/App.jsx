@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useCallback, useRef } from 'react'
+import { Link } from 'react-router-dom'
 import axios from 'axios'
 import Map from './components/Map'
 import Sidebar from './components/Sidebar'
@@ -561,10 +562,10 @@ function App() {
 
       <div className="main-content">
         <header className="header">
-          <div className="logo">
+          <Link to="/" className="logo">
             <h1>SYLVA</h1>
             <span className="logo-subtitle">Environmental Monitoring System</span>
-          </div>
+          </Link>
           <div className="header-controls">
             <button
               className={`map-toggle-btn ${satelliteView ? 'active' : ''}`}
