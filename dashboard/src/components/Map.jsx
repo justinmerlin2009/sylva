@@ -97,19 +97,20 @@ function HeatmapLayer({ data }) {
 
       if (data.length > 0 && window.L.heatLayer) {
         heatLayerRef.current = window.L.heatLayer(data, {
-          radius: 25,
-          blur: 15,
-          maxZoom: 17,
+          radius: 35,         // Larger radius for better visibility
+          blur: 20,           // More blur for smoother gradients
+          maxZoom: 18,
           max: 1.0,
+          minOpacity: 0.4,    // Ensure heatmap is always visible
           gradient: {
-            0.0: '#3b82f6',   // Blue - very low density
-            0.15: '#06b6d4',  // Cyan - low density
-            0.30: '#22c55e',  // Green - moderate low
-            0.45: '#84cc16',  // Yellow-green - moderate
-            0.60: '#eab308',  // Yellow - medium high
-            0.75: '#f97316',  // Orange - high density
-            0.90: '#ef4444',  // Red - very high
-            1.0: '#dc2626',   // Dark red - critical
+            0.0: '#22c55e',   // Green - low density (start visible)
+            0.2: '#84cc16',   // Yellow-green - moderate low
+            0.35: '#eab308',  // Yellow - moderate
+            0.5: '#f59e0b',   // Amber - medium
+            0.65: '#f97316',  // Orange - high density
+            0.8: '#ef4444',   // Red - very high
+            0.9: '#dc2626',   // Dark red - critical
+            1.0: '#991b1b',   // Deep red - maximum intensity
           },
         }).addTo(map)
       }
@@ -457,14 +458,36 @@ function Map({
 
   // Render detection markers - size based on priority
   const renderDetections = () => {
-    // Get radius based on priority level
+    // Get radius based on priority level - larger for critical/high visibility
     const getPriorityRadius = (priority) => {
       switch (priority) {
-        case 'critical': return 7
-        case 'high': return 6
-        case 'medium': return 4
-        case 'low': return 3
-        default: return 4
+        case 'critical': return 12  // Very large for critical
+        case 'high': return 10      // Large for high priority
+        case 'medium': return 6
+        case 'low': return 4
+        default: return 5
+      }
+    }
+
+    // Get border color for better contrast based on priority
+    const getPriorityBorderColor = (priority) => {
+      switch (priority) {
+        case 'critical': return '#dc2626'  // Dark red border
+        case 'high': return '#ea580c'       // Dark orange border
+        case 'medium': return '#ffffff'     // White border
+        case 'low': return '#ffffff'        // White border
+        default: return '#ffffff'
+      }
+    }
+
+    // Get border weight based on priority
+    const getPriorityWeight = (priority) => {
+      switch (priority) {
+        case 'critical': return 3
+        case 'high': return 2.5
+        case 'medium': return 1.5
+        case 'low': return 1
+        default: return 1.5
       }
     }
 
@@ -474,6 +497,8 @@ function Map({
       const color = getCategoryColor(props.category)
       const isScanning = scanningDetection && scanningDetection.properties.id === props.id
       const baseRadius = getPriorityRadius(props.priority)
+      const borderColor = getPriorityBorderColor(props.priority)
+      const borderWeight = getPriorityWeight(props.priority)
 
       return (
         <CircleMarker
@@ -481,10 +506,10 @@ function Map({
           center={[coords[1], coords[0]]}
           radius={isScanning ? baseRadius + 4 : baseRadius}
           fillColor={color}
-          color={isScanning ? '#fff' : color}
-          weight={isScanning ? 2 : 1}
-          opacity={isScanning ? 1 : 0.7}
-          fillOpacity={isScanning ? 0.9 : 0.6}
+          color={isScanning ? '#fff' : borderColor}
+          weight={isScanning ? 3 : borderWeight}
+          opacity={1}
+          fillOpacity={isScanning ? 0.95 : 0.85}
           className={isScanning ? 'detection-scanning' : ''}
         >
           <Popup>
@@ -807,20 +832,27 @@ function Map({
       {customPathDetections && customPathDetections.features && customPathDetections.features.map((detection, idx) => {
         const coords = detection.geometry.coordinates
         const props = detection.properties
-        // Size based on priority
-        const radius = props.priority === 'critical' ? 7
-          : props.priority === 'high' ? 6
-          : props.priority === 'medium' ? 4
-          : 3
+        // Size based on priority - larger for critical/high visibility
+        const radius = props.priority === 'critical' ? 12
+          : props.priority === 'high' ? 10
+          : props.priority === 'medium' ? 6
+          : 4
+        // Border color for better contrast
+        const borderColor = props.priority === 'critical' ? '#dc2626'
+          : props.priority === 'high' ? '#ea580c'
+          : '#ffffff'
+        const borderWeight = props.priority === 'critical' ? 3
+          : props.priority === 'high' ? 2.5
+          : 1.5
         return (
           <CircleMarker
             key={`custom-det-${idx}`}
             center={[coords[1], coords[0]]}
             radius={radius}
             fillColor={props.color}
-            color={props.color}
-            weight={1}
-            fillOpacity={0.6}
+            color={borderColor}
+            weight={borderWeight}
+            fillOpacity={0.85}
           >
             <Popup>
               <div className="detection-popup">

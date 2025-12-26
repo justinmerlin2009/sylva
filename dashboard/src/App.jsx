@@ -493,14 +493,14 @@ function App() {
     // When drawing, don't change center - let user control the map freely
     // The Map component will ignore center updates when isDrawing is true
     if (selectedLocation === 'all') {
-      // Default to Stinson Beach for a good starting view
-      return [37.8988, -122.6422]
+      // Center of continental US to show all 3 locations (CA, OH, TX)
+      return [38.5, -98.0]
     }
     const loc = locations.find(l => l.id === selectedLocation)
     if (loc && loc.center) {
       return [loc.center.lat, loc.center.lon]
     }
-    return [37.8988, -122.6422]
+    return [38.5, -98.0]
   }
 
   const getMapZoom = () => {
@@ -515,7 +515,7 @@ function App() {
     // When drawing, don't force zoom - let user control freely
     // The Map component will ignore zoom updates when isDrawing is true
     if (selectedLocation === 'all') {
-      return 13  // Reasonable zoom to see the area
+      return 4  // Wide US view to see all 3 locations (CA, OH, TX)
     }
     // Zoom levels to show full flight path with all waypoints
     if (selectedLocation === 'stinson_beach') return 13  // ~13km path
