@@ -27,77 +27,77 @@ DRONE_SPECS = {
 
 LOCATIONS = {
     "stinson_beach": {
-        "name": "Stinson Beach, California",
+        "name": "Stinson Beach Shoreline, California",
         "type": "beach",
-        "center": {"lat": 37.8950, "lon": -122.6400},
-        # Flight path follows the ENTIRE coastline from north to south (~3.5 miles)
+        "center": {"lat": 37.8965, "lon": -122.6400},
+        # Flight path follows the ENTIRE shoreline from Seadrift to Bolinas (~4 miles)
         "waypoints": [
-            # Northern section - Seadrift lagoon area
-            {"lat": 37.9085, "lon": -122.6510, "name": "Seadrift North"},
-            {"lat": 37.9060, "lon": -122.6495, "name": "Seadrift Lagoon"},
-            {"lat": 37.9040, "lon": -122.6480, "name": "Seadrift Beach"},
-            # Main Stinson Beach section
-            {"lat": 37.9015, "lon": -122.6460, "name": "North Beach Access"},
-            {"lat": 37.8990, "lon": -122.6435, "name": "Stinson Main Beach"},
-            {"lat": 37.8965, "lon": -122.6415, "name": "Lifeguard Station"},
-            {"lat": 37.8940, "lon": -122.6395, "name": "Central Beach"},
-            {"lat": 37.8915, "lon": -122.6375, "name": "South Beach"},
+            # Northern section - Seadrift
+            {"lat": 37.9100, "lon": -122.6520, "name": "Seadrift Beach Start"},
+            {"lat": 37.9070, "lon": -122.6500, "name": "Seadrift South"},
+            {"lat": 37.9045, "lon": -122.6485, "name": "North Stinson"},
+            # Main Stinson Beach shoreline
+            {"lat": 37.9015, "lon": -122.6460, "name": "Stinson North Beach"},
+            {"lat": 37.9000, "lon": -122.6445, "name": "Stinson Beach Center"},
+            {"lat": 37.8975, "lon": -122.6420, "name": "Lifeguard Station"},
+            {"lat": 37.8950, "lon": -122.6400, "name": "Central Beach"},
+            {"lat": 37.8920, "lon": -122.6380, "name": "South Stinson"},
             # Southern section - toward Bolinas
-            {"lat": 37.8890, "lon": -122.6355, "name": "Easkoot Creek"},
-            {"lat": 37.8865, "lon": -122.6330, "name": "Willow Camp"},
-            {"lat": 37.8840, "lon": -122.6305, "name": "South Point"},
-            {"lat": 37.8815, "lon": -122.6280, "name": "Bolinas Approach"},
+            {"lat": 37.8895, "lon": -122.6360, "name": "Easkoot Creek"},
+            {"lat": 37.8870, "lon": -122.6340, "name": "Willow Camp"},
+            {"lat": 37.8845, "lon": -122.6310, "name": "Rocky Point"},
+            {"lat": 37.8830, "lon": -122.6295, "name": "Bolinas Approach"},
         ],
         "survey_altitude_m": 80,  # Lower for better beach detection
         "survey_speed_ms": 20,  # ~45 mph for detailed beach scanning
-        "flight_pattern": "corridor",
+        "flight_pattern": "shoreline",
         "corridor_width_m": 100,  # Full beach width
         "population_density": 450,  # people per km² - rural beach area
     },
     "route_66": {
-        "name": "Route 66 - Needles Corridor",
+        "name": "Historic Route 66, Needles to Topock",
         "type": "highway",
-        # 10-mile section (~16km) along historic Route 66 near Needles, CA
+        # 14-mile section (~22km) along historic Route 66 from Needles, CA to Topock, AZ
         "waypoints": [
-            {"lat": 34.8480, "lon": -114.6147, "name": "Needles Downtown"},
-            {"lat": 34.8520, "lon": -114.5950, "name": "East Needles"},
-            {"lat": 34.8580, "lon": -114.5750, "name": "Desert View"},
-            {"lat": 34.8650, "lon": -114.5550, "name": "Rest Stop"},
-            {"lat": 34.8694, "lon": -114.5289, "name": "AZ State Line"},
-            {"lat": 34.8750, "lon": -114.5050, "name": "Welcome Center"},
-            {"lat": 34.8820, "lon": -114.4800, "name": "Historic Marker"},
-            {"lat": 34.8900, "lon": -114.4550, "name": "Scenic Overlook"},
+            {"lat": 34.8450, "lon": -114.6200, "name": "Needles, CA"},
+            {"lat": 34.8500, "lon": -114.6100, "name": "East Needles"},
+            {"lat": 34.8540, "lon": -114.5950, "name": "Desert View"},
+            {"lat": 34.8580, "lon": -114.5750, "name": "Route 66 Sign"},
+            {"lat": 34.8625, "lon": -114.5600, "name": "Midpoint Vista"},
+            {"lat": 34.8650, "lon": -114.5550, "name": "Route 66 Midpoint"},
+            {"lat": 34.8694, "lon": -114.5289, "name": "Historic Marker"},
+            {"lat": 34.8770, "lon": -114.5000, "name": "Colorado River Approach"},
+            {"lat": 34.8820, "lon": -114.4800, "name": "River View"},
+            {"lat": 34.8855, "lon": -114.4400, "name": "Topock, AZ Border"},
         ],
-        "survey_altitude_m": 120,
+        "survey_altitude_m": 100,
         "survey_speed_ms": 28,  # ~63 mph cruise along highway
-        "flight_pattern": "corridor",
+        "flight_pattern": "highway",
         "corridor_width_m": 40,  # Highway shoulder scan
         "population_density": 85,  # people per km² - desert highway
     },
     "nasa_clear_lake": {
-        "name": "NASA Clear Lake, Houston TX",
+        "name": "NASA Clear Lake Area, Houston TX",
         "type": "urban_waterfront",
-        "center": {"lat": 29.5519, "lon": -95.0920},
-        # Survey along Clear Lake shoreline near NASA Johnson Space Center
+        "center": {"lat": 29.5400, "lon": -95.0700},
+        # 350-mile concentric circle survey around Clear Lake
         "waypoints": [
-            # Starting near Space Center Houston
-            {"lat": 29.5519, "lon": -95.0980, "name": "Space Center Houston"},
-            {"lat": 29.5480, "lon": -95.0920, "name": "NASA Parkway East"},
-            {"lat": 29.5450, "lon": -95.0850, "name": "Clear Lake Park"},
-            # Along the bay shoreline
-            {"lat": 29.5400, "lon": -95.0780, "name": "Lakeside Marina"},
-            {"lat": 29.5350, "lon": -95.0720, "name": "Bay Area Blvd"},
-            {"lat": 29.5300, "lon": -95.0650, "name": "Seabrook Channel"},
-            {"lat": 29.5270, "lon": -95.0580, "name": "Kemah Approach"},
-            # Kemah Boardwalk area
-            {"lat": 29.5250, "lon": -95.0520, "name": "Kemah Boardwalk"},
-            {"lat": 29.5220, "lon": -95.0450, "name": "Galveston Bay"},
+            # Expanding concentric circles - 7 rings totaling 350 miles
+            {"lat": 29.5580, "lon": -95.0700, "name": "Clear Lake Center - Start"},
+            {"lat": 29.5625, "lon": -95.0700, "name": "Circle 1 Complete"},
+            {"lat": 29.5670, "lon": -95.0700, "name": "Circle 2 Complete"},
+            {"lat": 29.5760, "lon": -95.0700, "name": "Circle 3 Complete"},
+            {"lat": 29.5830, "lon": -95.0700, "name": "Circle 4 Complete"},
+            {"lat": 29.5940, "lon": -95.0700, "name": "Circle 5 Complete"},
+            {"lat": 29.6080, "lon": -95.0700, "name": "Circle 6 Complete"},
+            {"lat": 29.6300, "lon": -95.0700, "name": "Circle 7 - 350 Miles Complete"},
         ],
-        "survey_altitude_m": 100,
+        "survey_altitude_m": 120,
         "survey_speed_ms": 22,  # ~50 mph for urban waterfront
-        "flight_pattern": "corridor",
-        "corridor_width_m": 80,  # Waterfront scan width
+        "flight_pattern": "concentric_circles",
+        "corridor_width_m": 150,  # Wide scan for concentric pattern
         "population_density": 1850,  # people per km² - suburban Houston
+        "total_distance_miles": 350,
     },
 }
 
