@@ -168,7 +168,7 @@ function Home() {
               />
               <h3>Ethan Swergold</h3>
               <p className="team-role">Conrad Challenge Mentor</p>
-              <p className="team-bio">Seneca</p>
+              <p className="team-bio">Operations & Community Outreach at Seneca</p>
             </a>
           </div>
         </section>
@@ -218,11 +218,6 @@ function Home() {
               <img src="/logos/UC_Irvine_Anteaters_logo.png" alt="UC Irvine" className="collab-logo-img" />
               <h3>Shu Li</h3>
               <p className="collab-role">UC Irvine Environmental Science</p>
-            </a>
-            <a href="https://seneca.com" target="_blank" rel="noopener noreferrer" className="collab-card">
-              <img src="/logos/Seneca.png" alt="Seneca" className="collab-logo-img" />
-              <h3>Ethan Swergold</h3>
-              <p className="collab-role">Conrad Mentor, Seneca</p>
             </a>
           </div>
         </section>
