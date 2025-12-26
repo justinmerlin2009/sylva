@@ -1606,6 +1606,13 @@ body {
   text-transform: uppercase;
 }
 
+.feature-icon-img {
+  width: 80px;
+  height: 80px;
+  margin: 0 auto 20px;
+  display: block;
+}
+
 .feature-card h3 {
   font-size: 20px;
   margin-bottom: 12px;
@@ -1720,6 +1727,28 @@ body {
   justify-content: center;
   color: rgba(255, 255, 255, 0.4);
   font-size: 16px;
+}
+
+.tech-img {
+  width: 100%;
+  max-width: 450px;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+}
+
+.system-diagram {
+  width: 100%;
+  margin-top: 48px;
+}
+
+.system-diagram img {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  display: block;
+  border-radius: 12px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
 }
 
 /* API Section */

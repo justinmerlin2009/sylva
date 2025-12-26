@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <circle cx="32" cy="32" r="30" fill="#0f172a" stroke="#22c55e" stroke-width="2"/>
+  <!-- Drone body -->
+  <ellipse cx="32" cy="32" rx="8" ry="5" fill="none" stroke="#22c55e" stroke-width="2"/>
+  <!-- Arms -->
+  <line x1="26" y1="28" x2="18" y2="20" stroke="#22c55e" stroke-width="2"/>
+  <line x1="38" y1="28" x2="46" y2="20" stroke="#22c55e" stroke-width="2"/>
+  <line x1="26" y1="36" x2="18" y2="44" stroke="#22c55e" stroke-width="2"/>
+  <line x1="38" y1="36" x2="46" y2="44" stroke="#22c55e" stroke-width="2"/>
+  <!-- Rotors -->
+  <circle cx="18" cy="20" r="6" fill="none" stroke="#3b82f6" stroke-width="1.5" stroke-dasharray="2,1"/>
+  <circle cx="46" cy="20" r="6" fill="none" stroke="#3b82f6" stroke-width="1.5" stroke-dasharray="2,1"/>
+  <circle cx="18" cy="44" r="6" fill="none" stroke="#3b82f6" stroke-width="1.5" stroke-dasharray="2,1"/>
+  <circle cx="46" cy="44" r="6" fill="none" stroke="#3b82f6" stroke-width="1.5" stroke-dasharray="2,1"/>
+</svg>

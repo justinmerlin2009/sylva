@@ -40,7 +40,7 @@ function Home() {
         <section id="why" className="content-section">
           <h2 className="section-title">Why It Matters</h2>
           <p className="section-description">
-            [Content placeholder: Describe the environmental pollution problem, its impact on ecosystems, communities, and why current detection methods are inadequate. Explain the urgency of addressing this issue.]
+            Illegal dumping and roadside pollution cost California over $500 million annually in cleanup efforts. Traditional detection methods rely on manual reporting, leaving vast areas unmonitored and pollution sites undiscovered for months. This trash pollutes waterways, harms wildlife, and degrades communities. Sylva provides a scalable, technology-driven solution to detect pollution faster, enabling rapid response and data-driven resource allocation.
           </p>
         </section>
 
@@ -49,20 +49,23 @@ function Home() {
           <h2 className="section-title">How Sylva Works</h2>
           <div className="features-section">
             <div className="feature-card">
-              <div className="feature-icon">1</div>
+              <img src="/images/icon-drone.svg" alt="Drone" className="feature-icon-img" />
               <h3>Drone Surveillance</h3>
-              <p>[Content placeholder: Explain the drone technology, flight patterns, multi-spectral cameras, and data collection capabilities.]</p>
+              <p>Autonomous drones equipped with high-resolution cameras systematically scan designated areas using optimized flight patterns. The aircraft captures imagery across multiple waypoints, covering large regions efficiently while maintaining detailed ground resolution.</p>
             </div>
             <div className="feature-card">
-              <div className="feature-icon">2</div>
+              <img src="/images/icon-ai.svg" alt="AI" className="feature-icon-img" />
               <h3>AI Detection</h3>
-              <p>[Content placeholder: Describe the machine learning models, object detection algorithms, and classification accuracy.]</p>
+              <p>Computer vision algorithms analyze drone imagery in real-time to identify and classify pollution types including plastic debris, tire dumps, furniture, and hazardous materials. Each detection is assigned a priority level based on size, type, and environmental risk.</p>
             </div>
             <div className="feature-card">
-              <div className="feature-icon">3</div>
+              <img src="/images/icon-analytics.svg" alt="Analytics" className="feature-icon-img" />
               <h3>Data Analytics</h3>
-              <p>[Content placeholder: Explain the heatmapping, hotspot identification, and prioritization algorithms.]</p>
+              <p>Detection data feeds into a centralized dashboard that generates heatmaps of pollution hotspots. Agencies can prioritize cleanup efforts, track trends over time, and measure the effectiveness of intervention programs.</p>
             </div>
+          </div>
+          <div className="system-diagram">
+            <img src="/images/system-diagram.svg" alt="Sylva System Architecture" />
           </div>
         </section>
 
@@ -72,16 +75,16 @@ function Home() {
           <div className="tech-grid">
             <div className="tech-content">
               <h3>The Sylva Platform</h3>
-              <p>[Content placeholder: Describe the hardware components - drone specifications, camera systems, sensors. Include technical details about the platform capabilities.]</p>
+              <p>Sylva combines commercial drone hardware with custom-built software for autonomous pollution detection. The system is designed for deployment by transportation agencies, fire departments, and environmental organizations.</p>
               <ul className="tech-list">
-                <li>[Component 1]</li>
-                <li>[Component 2]</li>
-                <li>[Component 3]</li>
-                <li>[Component 4]</li>
+                <li>High-resolution camera system (4K imaging)</li>
+                <li>GPS-guided autonomous flight</li>
+                <li>Real-time data transmission</li>
+                <li>Cloud-based processing and storage</li>
               </ul>
             </div>
             <div className="tech-image">
-              <div className="placeholder-image">[Drone/Platform Image]</div>
+              <img src="/images/drone-blueprint.svg" alt="Sylva Drone System" className="tech-img" />
             </div>
           </div>
         </section>
@@ -90,20 +93,20 @@ function Home() {
         <section className="content-section api-section">
           <h2 className="section-title">Sylva API</h2>
           <p className="section-description">
-            [Content placeholder: Describe the data sharing capabilities, API features, integration options, and how organizations can access pollution data.]
+            Sylva's open API enables government agencies, researchers, and cleanup organizations to access pollution detection data programmatically. Integrate Sylva data into existing GIS systems, environmental dashboards, or custom applications.
           </p>
           <div className="api-features">
             <div className="api-feature">
               <h4>Real-time Data</h4>
-              <p>[Placeholder: Live pollution detection feeds]</p>
+              <p>Stream live detection feeds as drones survey areas, enabling immediate dispatch of cleanup crews.</p>
             </div>
             <div className="api-feature">
               <h4>Historical Analysis</h4>
-              <p>[Placeholder: Access to historical data and trends]</p>
+              <p>Access months of detection data to identify patterns, measure progress, and inform policy decisions.</p>
             </div>
             <div className="api-feature">
               <h4>Integration Ready</h4>
-              <p>[Placeholder: Easy integration with existing systems]</p>
+              <p>RESTful API with WebSocket support for seamless integration with existing infrastructure management systems.</p>
             </div>
           </div>
           <a href="https://sylva-api.onrender.com/docs" target="_blank" rel="noopener noreferrer" className="btn btn-primary">
@@ -179,23 +182,23 @@ function Home() {
           <div className="future-grid">
             <div className="future-item">
               <span className="future-number">01</span>
-              <h4>[Future Goal 1]</h4>
-              <p>[Description placeholder]</p>
+              <h4>Expand Coverage</h4>
+              <p>Partner with additional California agencies to deploy Sylva across more counties and highway corridors.</p>
             </div>
             <div className="future-item">
               <span className="future-number">02</span>
-              <h4>[Future Goal 2]</h4>
-              <p>[Description placeholder]</p>
+              <h4>Enhanced AI Models</h4>
+              <p>Train detection models on larger datasets to improve accuracy and add new pollution categories.</p>
             </div>
             <div className="future-item">
               <span className="future-number">03</span>
-              <h4>[Future Goal 3]</h4>
-              <p>[Description placeholder]</p>
+              <h4>Automated Reporting</h4>
+              <p>Generate automatic cleanup work orders and route optimization for response teams.</p>
             </div>
             <div className="future-item">
               <span className="future-number">04</span>
-              <h4>[Future Goal 4]</h4>
-              <p>[Description placeholder]</p>
+              <h4>Open Data Initiative</h4>
+              <p>Make anonymized pollution data publicly available to support environmental research.</p>
             </div>
           </div>
         </section>
