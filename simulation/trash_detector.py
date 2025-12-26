@@ -52,46 +52,46 @@ class TrashDetector:
     def _define_hotspots(self):
         """Define areas with elevated trash density based on location type."""
         if self.env_type == "beach":
-            # Beach hotspots along entire Stinson Beach coastline (3.5 miles)
-            # Creating heterogeneous density with major and minor hotspots
+            # Beach hotspots along Stinson Beach coastline (new path from NW to SE)
+            # Path: (37.9021, -122.7185) to (37.8858, -122.6285)
             self.hotspots = [
-                # NORTHERN SECTION - Seadrift
+                # NORTHWEST SECTION
                 {
-                    "lat": 37.9070,
-                    "lon": -122.6500,
+                    "lat": 37.9000,
+                    "lon": -122.7100,
                     "radius_m": 150,
                     "multiplier": 3.5,
-                    "name": "Seadrift Lagoon Debris",
+                    "name": "Northwest Beach Debris",
                     "primary_trash": ["organic_waste", "plastic_bottle"],
                 },
                 {
-                    "lat": 37.9045,
-                    "lon": -122.6485,
+                    "lat": 37.8960,
+                    "lon": -122.7000,
                     "radius_m": 100,
                     "multiplier": 4.0,
-                    "name": "Seadrift Party Beach",
+                    "name": "Duxbury Point Area",
                     "primary_trash": ["glass", "plastic_bottle", "food_packaging"],
                 },
                 # MAIN BEACH SECTION - highest activity
                 {
-                    "lat": 37.9015,
-                    "lon": -122.6460,
+                    "lat": 37.9030,
+                    "lon": -122.6900,
                     "radius_m": 180,
                     "multiplier": 6.0,
-                    "name": "North Beach Parking",
+                    "name": "Main Beach Parking",
                     "primary_trash": ["food_packaging", "plastic_bottle"],
                 },
                 {
-                    "lat": 37.8990,
-                    "lon": -122.6435,
+                    "lat": 37.9060,
+                    "lon": -122.6750,
                     "radius_m": 220,
                     "multiplier": 7.0,
-                    "name": "Main Beach - Heavy Use",
+                    "name": "Stinson Beach Center - Heavy Use",
                     "primary_trash": ["plastic_bottle", "food_packaging", "textile"],
                 },
                 {
-                    "lat": 37.8965,
-                    "lon": -122.6415,
+                    "lat": 37.9050,
+                    "lon": -122.6650,
                     "radius_m": 120,
                     "multiplier": 5.0,
                     "name": "Lifeguard Station Area",
@@ -99,44 +99,44 @@ class TrashDetector:
                 },
                 # CENTRAL SECTION
                 {
-                    "lat": 37.8940,
-                    "lon": -122.6395,
+                    "lat": 37.9040,
+                    "lon": -122.6550,
                     "radius_m": 100,
                     "multiplier": 3.0,
                     "name": "Central Beach Access",
                     "primary_trash": ["plastic_bottle", "textile"],
                 },
                 {
-                    "lat": 37.8915,
-                    "lon": -122.6375,
+                    "lat": 37.9000,
+                    "lon": -122.6450,
                     "radius_m": 90,
                     "multiplier": 3.5,
                     "name": "South Beach Picnic",
                     "primary_trash": ["food_packaging", "glass"],
                 },
-                # SOUTHERN SECTION - Easkoot Creek and beyond
+                # SOUTHEAST SECTION
                 {
-                    "lat": 37.8890,
-                    "lon": -122.6355,
+                    "lat": 37.8950,
+                    "lon": -122.6380,
                     "radius_m": 200,
                     "multiplier": 5.5,
-                    "name": "Easkoot Creek Dumping",
+                    "name": "Seadrift Lagoon Area",
                     "primary_trash": ["tire", "construction_waste", "metal_debris"],
                 },
                 {
-                    "lat": 37.8865,
+                    "lat": 37.8900,
                     "lon": -122.6330,
                     "radius_m": 80,
                     "multiplier": 2.5,
-                    "name": "Willow Camp Debris",
+                    "name": "Southeast Beach Debris",
                     "primary_trash": ["organic_waste", "textile"],
                 },
                 {
-                    "lat": 37.8830,
-                    "lon": -122.6295,
+                    "lat": 37.8870,
+                    "lon": -122.6300,
                     "radius_m": 150,
                     "multiplier": 4.0,
-                    "name": "South Point Illegal Dump",
+                    "name": "Southeast Point",
                     "primary_trash": ["construction_waste", "tire", "metal_debris"],
                 },
             ]
@@ -904,17 +904,60 @@ class TrashDetector:
 
 
 if __name__ == "__main__":
-    # Test trash detection simulation
-    from .flight_paths import FlightPathGenerator
+    import os
+    import argparse
 
-    for location in LOCATIONS:
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--location', type=str, help='Specific location to process')
+    args = parser.parse_args()
+
+    locations_to_process = [args.location] if args.location else list(LOCATIONS.keys())
+
+    for location in locations_to_process:
+        if location not in LOCATIONS:
+            print(f"Unknown location: {location}")
+            continue
+
         print(f"\n{'='*50}")
         print(f"Simulating trash detection for: {LOCATIONS[location]['name']}")
         print('='*50)
 
-        # Generate flight path
-        flight_gen = FlightPathGenerator(location)
-        waypoints = flight_gen.generate_path()
+        # Read actual animation path to get coordinates
+        anim_file = f"data/flights/{location}_animation.json"
+        if os.path.exists(anim_file):
+            with open(anim_file, 'r') as f:
+                anim_data = json.load(f)
+            # Convert animation frames to waypoints format
+            # Sample every Nth frame to create ~20-30 waypoints
+            sample_rate = max(1, len(anim_data) // 25)
+            waypoints = []
+            for i in range(0, len(anim_data), sample_rate):
+                frame = anim_data[i]
+                waypoints.append({
+                    "lat": frame["lat"],
+                    "lon": frame["lon"],
+                    "timestamp": frame.get("timestamp", "2026-01-15T10:00:00"),
+                    "name": f"WP-{len(waypoints)+1}"
+                })
+            # Ensure last point is included
+            if waypoints[-1]["lat"] != anim_data[-1]["lat"]:
+                last_frame = anim_data[-1]
+                waypoints.append({
+                    "lat": last_frame["lat"],
+                    "lon": last_frame["lon"],
+                    "timestamp": last_frame.get("timestamp", "2026-01-15T10:10:00"),
+                    "name": f"WP-{len(waypoints)+1}"
+                })
+        else:
+            # Fallback to config waypoints - add timestamps
+            from datetime import datetime, timedelta
+            base_time = datetime.fromisoformat("2026-01-15T10:00:00")
+            config_waypoints = LOCATIONS[location]["waypoints"]
+            waypoints = []
+            for i, wp in enumerate(config_waypoints):
+                wp_copy = wp.copy()
+                wp_copy["timestamp"] = (base_time + timedelta(minutes=i)).isoformat()
+                waypoints.append(wp_copy)
 
         # Generate detections
         detector = TrashDetector(location)

@@ -27,20 +27,20 @@ DRONE_SPECS = {
 
 LOCATIONS = {
     "stinson_beach": {
-        "name": "Stinson Beach Shoreline, California",
+        "name": "Stinson Beach Coastline, California",
         "type": "beach",
-        "center": {"lat": 37.900, "lon": -122.645},
-        # Flight path follows the shoreline from north to south
+        "center": {"lat": 37.907, "lon": -122.676},
+        # Flight path follows the coastline from northwest to southeast
         "waypoints": [
-            {"lat": 37.915, "lon": -122.655, "name": "North Stinson Beach"},
-            {"lat": 37.910, "lon": -122.650, "name": "Stinson North"},
-            {"lat": 37.904, "lon": -122.646, "name": "Lifeguard Station"},
-            {"lat": 37.898, "lon": -122.644, "name": "Stinson Beach Center"},
-            {"lat": 37.892, "lon": -122.645, "name": "South Stinson"},
-            {"lat": 37.886, "lon": -122.650, "name": "Rocky Point"},
-            {"lat": 37.880, "lon": -122.656, "name": "South Beach - Bolinas"},
+            {"lat": 37.9021, "lon": -122.7185, "name": "Northwest Start"},
+            {"lat": 37.8947, "lon": -122.7030, "name": "Stinson North"},
+            {"lat": 37.9037, "lon": -122.6889, "name": "Main Beach Area"},
+            {"lat": 37.9066, "lon": -122.6756, "name": "Stinson Beach Center"},
+            {"lat": 37.9044, "lon": -122.6573, "name": "South Beach"},
+            {"lat": 37.8968, "lon": -122.6410, "name": "Rocky Point South"},
+            {"lat": 37.8858, "lon": -122.6285, "name": "Southeast End"},
         ],
-        "survey_altitude_m": 80,
+        "survey_altitude_m": 120,
         "survey_speed_ms": 20,
         "flight_pattern": "corridor",
         "corridor_width_m": 100,
@@ -87,9 +87,9 @@ LOCATIONS = {
 # Population density zones for overlay visualization
 POPULATION_DENSITY_ZONES = {
     "stinson_beach": [
-        {"lat": 37.900, "lon": -122.645, "radius_m": 500, "density": 1200, "name": "Main Beach Area"},
-        {"lat": 37.910, "lon": -122.650, "radius_m": 400, "density": 800, "name": "North Stinson"},
-        {"lat": 37.885, "lon": -122.655, "radius_m": 300, "density": 200, "name": "South Rural"},
+        {"lat": 37.907, "lon": -122.676, "radius_m": 500, "density": 1200, "name": "Main Beach Area"},
+        {"lat": 37.895, "lon": -122.710, "radius_m": 400, "density": 800, "name": "North Stinson"},
+        {"lat": 37.890, "lon": -122.640, "radius_m": 300, "density": 200, "name": "South Rural"},
     ],
     "route_66": [
         {"lat": 34.848, "lon": -114.615, "radius_m": 1000, "density": 350, "name": "Needles Town"},

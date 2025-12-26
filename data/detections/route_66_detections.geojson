@@ -6,18 +6,66 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -114.62919835677613,
-          34.843345963977555
+          -114.63000612341216,
+          34.84301085429857
         ]
       },
       "properties": {
-        "id": "DET-2025-0F930A0E",
-        "timestamp": "2026-01-15T10:00:02.682714",
+        "id": "DET-2025-E71FC57B",
+        "timestamp": "2026-01-15T10:00:00",
+        "category": "tire",
+        "category_name": "Tires",
+        "confidence": 0.758,
+        "size_m2": 0.1345,
+        "estimated_weight_kg": 8.755,
+        "priority": "high",
+        "color": "#2c3e50",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Historic Route 66, Needles CA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.62806569141625,
+          34.843394618430956
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-AA91032A",
+        "timestamp": "2026-01-15T10:00:05.901971",
+        "category": "food_packaging",
+        "category_name": "Food Packaging",
+        "confidence": 0.805,
+        "size_m2": 0.0112,
+        "estimated_weight_kg": 0.08,
+        "priority": "low",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Historic Route 66, Needles CA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.62626101417165,
+          34.84368263438642
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-E204ACB8",
+        "timestamp": "2026-01-15T10:00:11.803941",
         "category": "organic_waste",
         "category_name": "Organic Waste",
-        "confidence": 0.776,
-        "size_m2": 0.0553,
-        "estimated_weight_kg": 0.386,
+        "confidence": 0.943,
+        "size_m2": 0.0435,
+        "estimated_weight_kg": 0.884,
         "priority": "low",
         "color": "#27ae60",
         "flight_id": "SYLVA-ROU-001",
@@ -30,210 +78,18 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -114.62745661540764,
-          34.84369537582686
+          -114.6246030927784,
+          34.844309594165075
         ]
       },
       "properties": {
-        "id": "DET-2025-F995D192",
-        "timestamp": "2026-01-15T10:00:08.048142",
-        "category": "plastic_bottle",
-        "category_name": "Plastic Bottles",
-        "confidence": 0.803,
-        "size_m2": 0.0025,
-        "estimated_weight_kg": 0.027,
-        "priority": "low",
-        "color": "#3498db",
-        "flight_id": "SYLVA-ROU-001",
-        "environment": "highway",
-        "location": "Historic Route 66, Needles CA"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -114.62728693262052,
-          34.84395384151509
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-C1B6C2EE",
-        "timestamp": "2026-01-15T10:00:09.657770",
-        "category": "metal_debris",
-        "category_name": "Metal Debris",
-        "confidence": 0.983,
-        "size_m2": 0.0777,
-        "estimated_weight_kg": 2.136,
-        "priority": "medium",
-        "color": "#95a5a6",
-        "flight_id": "SYLVA-ROU-001",
-        "environment": "highway",
-        "location": "Historic Route 66, Needles CA"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -114.62713898363634,
-          34.843701943522234
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-0FF8245D",
-        "timestamp": "2026-01-15T10:00:10.194313",
-        "category": "food_packaging",
-        "category_name": "Food Packaging",
-        "confidence": 0.871,
-        "size_m2": 0.0056,
-        "estimated_weight_kg": 0.069,
-        "priority": "low",
-        "color": "#e67e22",
-        "flight_id": "SYLVA-ROU-001",
-        "environment": "highway",
-        "location": "Historic Route 66, Needles CA"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -114.62507700003916,
-          34.844460430978295
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-A50E56C4",
-        "timestamp": "2026-01-15T10:00:17.169369",
-        "category": "plastic_bottle",
-        "category_name": "Plastic Bottles",
-        "confidence": 0.808,
-        "size_m2": 0.0025,
-        "estimated_weight_kg": 0.049,
-        "priority": "low",
-        "color": "#3498db",
-        "flight_id": "SYLVA-ROU-001",
-        "environment": "highway",
-        "location": "Historic Route 66, Needles CA"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -114.6232273981099,
-          34.844494730721024
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-B2E0D264",
-        "timestamp": "2026-01-15T10:00:22.534797",
-        "category": "tire",
-        "category_name": "Tires",
-        "confidence": 0.879,
-        "size_m2": 0.3621,
-        "estimated_weight_kg": 12.435,
-        "priority": "critical",
-        "color": "#2c3e50",
-        "flight_id": "SYLVA-ROU-001",
-        "environment": "highway",
-        "location": "Historic Route 66, Needles CA"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -114.6234272593429,
-          34.844613625056446
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-B7F71409",
-        "timestamp": "2026-01-15T10:00:23.071340",
-        "category": "plastic_bottle",
-        "category_name": "Plastic Bottles",
-        "confidence": 0.754,
-        "size_m2": 0.0028,
-        "estimated_weight_kg": 0.037,
-        "priority": "low",
-        "color": "#3498db",
-        "flight_id": "SYLVA-ROU-001",
-        "environment": "highway",
-        "location": "Historic Route 66, Needles CA"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -114.62265781102303,
-          34.8449390755846
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-8839C025",
-        "timestamp": "2026-01-15T10:00:25.754054",
-        "category": "construction_waste",
-        "category_name": "Construction Waste",
-        "confidence": 0.783,
-        "size_m2": 0.5401,
-        "estimated_weight_kg": 47.469,
-        "priority": "critical",
-        "color": "#8e44ad",
-        "flight_id": "SYLVA-ROU-001",
-        "environment": "highway",
-        "location": "Historic Route 66, Needles CA"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -114.62131536601694,
-          34.845319702821435
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-AC97B4C9",
-        "timestamp": "2026-01-15T10:00:28.973311",
-        "category": "food_packaging",
-        "category_name": "Food Packaging",
-        "confidence": 0.883,
-        "size_m2": 0.0149,
-        "estimated_weight_kg": 0.085,
-        "priority": "low",
-        "color": "#e67e22",
-        "flight_id": "SYLVA-ROU-001",
-        "environment": "highway",
-        "location": "Historic Route 66, Needles CA"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -114.62045156008942,
-          34.84516267004818
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-72800037",
-        "timestamp": "2026-01-15T10:00:31.656024",
+        "id": "DET-2025-53432FAE",
+        "timestamp": "2026-01-15T10:00:17.705912",
         "category": "glass",
         "category_name": "Glass",
-        "confidence": 0.834,
-        "size_m2": 0.0072,
-        "estimated_weight_kg": 0.302,
+        "confidence": 0.805,
+        "size_m2": 0.0049,
+        "estimated_weight_kg": 0.233,
         "priority": "low",
         "color": "#1abc9c",
         "flight_id": "SYLVA-ROU-001",
@@ -246,19 +102,19 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -114.62028960919416,
-          34.84558607973941
+          -114.62329641103244,
+          34.84487806913876
         ]
       },
       "properties": {
-        "id": "DET-2025-6EE0AA18",
-        "timestamp": "2026-01-15T10:00:32.729110",
+        "id": "DET-2025-434CA555",
+        "timestamp": "2026-01-15T10:00:23.607883",
         "category": "metal_debris",
         "category_name": "Metal Debris",
-        "confidence": 0.966,
-        "size_m2": 0.0313,
-        "estimated_weight_kg": 1.227,
-        "priority": "low",
+        "confidence": 0.779,
+        "size_m2": 0.0563,
+        "estimated_weight_kg": 1.499,
+        "priority": "medium",
         "color": "#95a5a6",
         "flight_id": "SYLVA-ROU-001",
         "environment": "highway",
@@ -270,18 +126,42 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -114.61907194881178,
-          34.84555273027572
+          -114.62132857401724,
+          34.84506112316936
         ]
       },
       "properties": {
-        "id": "DET-2025-0B547F5D",
-        "timestamp": "2026-01-15T10:00:37.021452",
+        "id": "DET-2025-22FAC765",
+        "timestamp": "2026-01-15T10:00:29.509853",
+        "category": "construction_waste",
+        "category_name": "Construction Waste",
+        "confidence": 0.981,
+        "size_m2": 0.5227,
+        "estimated_weight_kg": 48.871,
+        "priority": "critical",
+        "color": "#8e44ad",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Historic Route 66, Needles CA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.61968322662942,
+          34.84548685322354
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-7E9DA7CD",
+        "timestamp": "2026-01-15T10:00:35.411824",
         "category": "plastic_bottle",
         "category_name": "Plastic Bottles",
-        "confidence": 0.916,
-        "size_m2": 0.0015,
-        "estimated_weight_kg": 0.032,
+        "confidence": 0.762,
+        "size_m2": 0.0028,
+        "estimated_weight_kg": 0.03,
         "priority": "low",
         "color": "#3498db",
         "flight_id": "SYLVA-ROU-001",
@@ -294,20 +174,20 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -114.61911334753243,
-          34.84586696828386
+          -114.61809459744484,
+          34.84594068079252
         ]
       },
       "properties": {
-        "id": "DET-2025-662B82A5",
-        "timestamp": "2026-01-15T10:00:37.557995",
-        "category": "food_packaging",
-        "category_name": "Food Packaging",
-        "confidence": 0.954,
-        "size_m2": 0.0162,
-        "estimated_weight_kg": 0.072,
-        "priority": "low",
-        "color": "#e67e22",
+        "id": "DET-2025-4F73E9BA",
+        "timestamp": "2026-01-15T10:00:41.313795",
+        "category": "tire",
+        "category_name": "Tires",
+        "confidence": 0.911,
+        "size_m2": 0.4946,
+        "estimated_weight_kg": 9.694,
+        "priority": "high",
+        "color": "#2c3e50",
         "flight_id": "SYLVA-ROU-001",
         "environment": "highway",
         "location": "Historic Route 66, Needles CA"
@@ -318,258 +198,18 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -114.61698841800886,
-          34.84612441794258
+          -114.6162320156143,
+          34.846600601826836
         ]
       },
       "properties": {
-        "id": "DET-2025-468BFA0D",
-        "timestamp": "2026-01-15T10:00:44.533051",
-        "category": "food_packaging",
-        "category_name": "Food Packaging",
-        "confidence": 0.844,
-        "size_m2": 0.0087,
-        "estimated_weight_kg": 0.098,
-        "priority": "low",
-        "color": "#e67e22",
-        "flight_id": "SYLVA-ROU-001",
-        "environment": "highway",
-        "location": "Historic Route 66, Needles CA"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -114.6161878574248,
-          34.84657506030962
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-B20C8B20",
+        "id": "DET-2025-48ABA8C2",
         "timestamp": "2026-01-15T10:00:47.215765",
         "category": "tire",
         "category_name": "Tires",
-        "confidence": 0.923,
-        "size_m2": 0.3097,
-        "estimated_weight_kg": 9.367,
-        "priority": "high",
-        "color": "#2c3e50",
-        "flight_id": "SYLVA-ROU-001",
-        "environment": "highway",
-        "location": "Historic Route 66, Needles CA"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -114.61596065496143,
-          34.846560192442794
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-F726EF1C",
-        "timestamp": "2026-01-15T10:00:48.288851",
-        "category": "glass",
-        "category_name": "Glass",
-        "confidence": 0.839,
-        "size_m2": 0.0097,
-        "estimated_weight_kg": 0.474,
-        "priority": "low",
-        "color": "#1abc9c",
-        "flight_id": "SYLVA-ROU-001",
-        "environment": "highway",
-        "location": "Historic Route 66, Needles CA"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -114.61543220195662,
-          34.84658553434145
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-62EA0C30",
-        "timestamp": "2026-01-15T10:00:48.825394",
-        "category": "glass",
-        "category_name": "Glass",
-        "confidence": 0.842,
-        "size_m2": 0.0089,
-        "estimated_weight_kg": 0.288,
-        "priority": "low",
-        "color": "#1abc9c",
-        "flight_id": "SYLVA-ROU-001",
-        "environment": "highway",
-        "location": "Historic Route 66, Needles CA"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -114.61543171865809,
-          34.846485098787234
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-75AAE1E9",
-        "timestamp": "2026-01-15T10:00:49.361936",
-        "category": "organic_waste",
-        "category_name": "Organic Waste",
-        "confidence": 0.773,
-        "size_m2": 0.0463,
-        "estimated_weight_kg": 0.613,
-        "priority": "low",
-        "color": "#27ae60",
-        "flight_id": "SYLVA-ROU-001",
-        "environment": "highway",
-        "location": "Historic Route 66, Needles CA"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -114.61536493981377,
-          34.84648570816237
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-14331A0A",
-        "timestamp": "2026-01-15T10:00:49.898479",
-        "category": "construction_waste",
-        "category_name": "Construction Waste",
-        "confidence": 0.919,
-        "size_m2": 0.8056,
-        "estimated_weight_kg": 37.881,
-        "priority": "critical",
-        "color": "#8e44ad",
-        "flight_id": "SYLVA-ROU-001",
-        "environment": "highway",
-        "location": "Historic Route 66, Needles CA"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -114.61501213069045,
-          34.84686956821101
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-4F0F096F",
-        "timestamp": "2026-01-15T10:00:50.435022",
-        "category": "construction_waste",
-        "category_name": "Construction Waste",
-        "confidence": 0.87,
-        "size_m2": 0.9349,
-        "estimated_weight_kg": 30.454,
-        "priority": "critical",
-        "color": "#8e44ad",
-        "flight_id": "SYLVA-ROU-001",
-        "environment": "highway",
-        "location": "Historic Route 66, Needles CA"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -114.6149238901158,
-          34.84683870004582
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-A5F8E8FF",
-        "timestamp": "2026-01-15T10:00:50.971565",
-        "category": "construction_waste",
-        "category_name": "Construction Waste",
-        "confidence": 0.773,
-        "size_m2": 0.5035,
-        "estimated_weight_kg": 25.023,
-        "priority": "critical",
-        "color": "#8e44ad",
-        "flight_id": "SYLVA-ROU-001",
-        "environment": "highway",
-        "location": "Historic Route 66, Needles CA"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -114.61487253150948,
-          34.846796335772744
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-707DF73D",
-        "timestamp": "2026-01-15T10:00:51.508108",
-        "category": "food_packaging",
-        "category_name": "Food Packaging",
-        "confidence": 0.759,
-        "size_m2": 0.0139,
-        "estimated_weight_kg": 0.022,
-        "priority": "low",
-        "color": "#e67e22",
-        "flight_id": "SYLVA-ROU-001",
-        "environment": "highway",
-        "location": "Historic Route 66, Needles CA"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -114.61470910035753,
-          34.84660655795537
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-FA97D7B0",
-        "timestamp": "2026-01-15T10:00:52.044650",
-        "category": "metal_debris",
-        "category_name": "Metal Debris",
-        "confidence": 0.77,
-        "size_m2": 0.0412,
-        "estimated_weight_kg": 3.303,
-        "priority": "medium",
-        "color": "#95a5a6",
-        "flight_id": "SYLVA-ROU-001",
-        "environment": "highway",
-        "location": "Historic Route 66, Needles CA"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -114.61451463115556,
-          34.846906037827935
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-132B4B36",
-        "timestamp": "2026-01-15T10:00:52.581193",
-        "category": "tire",
-        "category_name": "Tires",
-        "confidence": 0.828,
-        "size_m2": 0.4909,
-        "estimated_weight_kg": 11.614,
+        "confidence": 0.772,
+        "size_m2": 0.3626,
+        "estimated_weight_kg": 11.75,
         "priority": "critical",
         "color": "#2c3e50",
         "flight_id": "SYLVA-ROU-001",
@@ -582,42 +222,18 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -114.61467282838143,
-          34.84686112176232
+          -114.61464626331353,
+          34.846729485410165
         ]
       },
       "properties": {
-        "id": "DET-2025-757B8963",
+        "id": "DET-2025-5707F0C9",
         "timestamp": "2026-01-15T10:00:53.117736",
-        "category": "plastic_bottle",
-        "category_name": "Plastic Bottles",
-        "confidence": 0.917,
-        "size_m2": 0.0039,
-        "estimated_weight_kg": 0.043,
-        "priority": "low",
-        "color": "#3498db",
-        "flight_id": "SYLVA-ROU-001",
-        "environment": "highway",
-        "location": "Historic Route 66, Needles CA"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -114.61436486985647,
-          34.84682818118014
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-0B294EFF",
-        "timestamp": "2026-01-15T10:00:53.654279",
         "category": "tire",
         "category_name": "Tires",
-        "confidence": 0.817,
-        "size_m2": 0.393,
-        "estimated_weight_kg": 12.621,
+        "confidence": 0.873,
+        "size_m2": 0.3791,
+        "estimated_weight_kg": 8.116,
         "priority": "critical",
         "color": "#2c3e50",
         "flight_id": "SYLVA-ROU-001",
@@ -630,811 +246,19 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -114.61407173658645,
-          34.84695223072801
+          -114.61253019604646,
+          34.847145795875655
         ]
       },
       "properties": {
-        "id": "DET-2025-6A973E42",
-        "timestamp": "2026-01-15T10:00:54.190822",
-        "category": "food_packaging",
-        "category_name": "Food Packaging",
-        "confidence": 0.932,
-        "size_m2": 0.0087,
-        "estimated_weight_kg": 0.048,
-        "priority": "low",
-        "color": "#e67e22",
-        "flight_id": "SYLVA-ROU-001",
-        "environment": "highway",
-        "location": "Historic Route 66, Needles CA"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -114.61419101819264,
-          34.84681099416896
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-9515FD38",
-        "timestamp": "2026-01-15T10:00:54.727364",
-        "category": "construction_waste",
-        "category_name": "Construction Waste",
-        "confidence": 0.773,
-        "size_m2": 0.7777,
-        "estimated_weight_kg": 28.967,
-        "priority": "critical",
-        "color": "#8e44ad",
-        "flight_id": "SYLVA-ROU-001",
-        "environment": "highway",
-        "location": "Historic Route 66, Needles CA"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -114.6138031443423,
-          34.84689579616558
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-775F2D90",
-        "timestamp": "2026-01-15T10:00:55.263907",
-        "category": "food_packaging",
-        "category_name": "Food Packaging",
-        "confidence": 0.761,
-        "size_m2": 0.0142,
-        "estimated_weight_kg": 0.071,
-        "priority": "low",
-        "color": "#e67e22",
-        "flight_id": "SYLVA-ROU-001",
-        "environment": "highway",
-        "location": "Historic Route 66, Needles CA"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -114.61341836387503,
-          34.847048547988095
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-AF2FFEE8",
-        "timestamp": "2026-01-15T10:00:55.800450",
-        "category": "tire",
-        "category_name": "Tires",
-        "confidence": 0.904,
-        "size_m2": 0.1861,
-        "estimated_weight_kg": 8.494,
-        "priority": "high",
-        "color": "#2c3e50",
-        "flight_id": "SYLVA-ROU-001",
-        "environment": "highway",
-        "location": "Historic Route 66, Needles CA"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -114.61343464985652,
-          34.84737573662131
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-E00F7930",
-        "timestamp": "2026-01-15T10:00:56.336993",
-        "category": "food_packaging",
-        "category_name": "Food Packaging",
-        "confidence": 0.881,
-        "size_m2": 0.0146,
-        "estimated_weight_kg": 0.057,
-        "priority": "low",
-        "color": "#e67e22",
-        "flight_id": "SYLVA-ROU-001",
-        "environment": "highway",
-        "location": "Historic Route 66, Needles CA"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -114.61306693854527,
-          34.847339818961174
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-E8C14653",
-        "timestamp": "2026-01-15T10:00:56.873535",
-        "category": "plastic_bottle",
-        "category_name": "Plastic Bottles",
-        "confidence": 0.754,
-        "size_m2": 0.0012,
-        "estimated_weight_kg": 0.014,
-        "priority": "low",
-        "color": "#3498db",
-        "flight_id": "SYLVA-ROU-001",
-        "environment": "highway",
-        "location": "Historic Route 66, Needles CA"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -114.61322900681442,
-          34.84698181189343
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-448887A4",
-        "timestamp": "2026-01-15T10:00:57.410078",
-        "category": "construction_waste",
-        "category_name": "Construction Waste",
-        "confidence": 0.818,
-        "size_m2": 0.2675,
-        "estimated_weight_kg": 42.579,
-        "priority": "critical",
-        "color": "#8e44ad",
-        "flight_id": "SYLVA-ROU-001",
-        "environment": "highway",
-        "location": "Historic Route 66, Needles CA"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -114.61275485282465,
-          34.8473349453792
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-839BB4DD",
-        "timestamp": "2026-01-15T10:00:57.946621",
-        "category": "tire",
-        "category_name": "Tires",
-        "confidence": 0.793,
-        "size_m2": 0.4263,
-        "estimated_weight_kg": 9.974,
-        "priority": "high",
-        "color": "#2c3e50",
-        "flight_id": "SYLVA-ROU-001",
-        "environment": "highway",
-        "location": "Historic Route 66, Needles CA"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -114.61273209016977,
-          34.84758686306183
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-54A0825A",
+        "id": "DET-2025-5FC431C8",
         "timestamp": "2026-01-15T10:00:59.019707",
         "category": "food_packaging",
         "category_name": "Food Packaging",
-        "confidence": 0.973,
-        "size_m2": 0.0166,
-        "estimated_weight_kg": 0.047,
-        "priority": "low",
-        "color": "#e67e22",
-        "flight_id": "SYLVA-ROU-001",
-        "environment": "highway",
-        "location": "Historic Route 66, Needles CA"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -114.61218334132393,
-          34.847504133920836
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-433072A3",
-        "timestamp": "2026-01-15T10:01:00.092792",
-        "category": "plastic_bottle",
-        "category_name": "Plastic Bottles",
-        "confidence": 0.948,
-        "size_m2": 0.0037,
-        "estimated_weight_kg": 0.03,
-        "priority": "low",
-        "color": "#3498db",
-        "flight_id": "SYLVA-ROU-001",
-        "environment": "highway",
-        "location": "Historic Route 66, Needles CA"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -114.61230761865905,
-          34.847483484005984
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-465B9CA6",
-        "timestamp": "2026-01-15T10:01:01.165878",
-        "category": "organic_waste",
-        "category_name": "Organic Waste",
-        "confidence": 0.978,
+        "confidence": 0.832,
         "size_m2": 0.0191,
-        "estimated_weight_kg": 0.387,
-        "priority": "low",
-        "color": "#27ae60",
-        "flight_id": "SYLVA-ROU-001",
-        "environment": "highway",
-        "location": "Historic Route 66, Needles CA"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -114.61173153742203,
-          34.84765530245871
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-A7C68842",
-        "timestamp": "2026-01-15T10:01:02.238963",
-        "category": "food_packaging",
-        "category_name": "Food Packaging",
-        "confidence": 0.931,
-        "size_m2": 0.0099,
-        "estimated_weight_kg": 0.074,
-        "priority": "low",
-        "color": "#e67e22",
-        "flight_id": "SYLVA-ROU-001",
-        "environment": "highway",
-        "location": "Historic Route 66, Needles CA"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -114.6114586699038,
-          34.84744714872965
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-CCF99724",
-        "timestamp": "2026-01-15T10:01:03.312049",
-        "category": "plastic_bottle",
-        "category_name": "Plastic Bottles",
-        "confidence": 0.963,
-        "size_m2": 0.0026,
-        "estimated_weight_kg": 0.028,
-        "priority": "low",
-        "color": "#3498db",
-        "flight_id": "SYLVA-ROU-001",
-        "environment": "highway",
-        "location": "Historic Route 66, Needles CA"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -114.60918366257806,
-          34.84792512914805
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-1E304066",
-        "timestamp": "2026-01-15T10:01:10.291175",
-        "category": "metal_debris",
-        "category_name": "Metal Debris",
-        "confidence": 0.918,
-        "size_m2": 0.0326,
-        "estimated_weight_kg": 0.878,
-        "priority": "low",
-        "color": "#95a5a6",
-        "flight_id": "SYLVA-ROU-001",
-        "environment": "highway",
-        "location": "Historic Route 66, Needles CA"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -114.60890235364043,
-          34.84838032506184
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-F6C8F74D",
-        "timestamp": "2026-01-15T10:01:12.441415",
-        "category": "plastic_bottle",
-        "category_name": "Plastic Bottles",
-        "confidence": 0.839,
-        "size_m2": 0.004,
-        "estimated_weight_kg": 0.025,
-        "priority": "low",
-        "color": "#3498db",
-        "flight_id": "SYLVA-ROU-001",
-        "environment": "highway",
-        "location": "Historic Route 66, Needles CA"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -114.60789761235057,
-          34.848595327678886
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-A658C834",
-        "timestamp": "2026-01-15T10:01:14.591656",
-        "category": "tire",
-        "category_name": "Tires",
-        "confidence": 0.884,
-        "size_m2": 0.1563,
-        "estimated_weight_kg": 13.44,
-        "priority": "high",
-        "color": "#2c3e50",
-        "flight_id": "SYLVA-ROU-001",
-        "environment": "highway",
-        "location": "Historic Route 66, Needles CA"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -114.6058224486465,
-          34.84862045313476
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-8D673EBC",
-        "timestamp": "2026-01-15T10:01:22.117497",
-        "category": "plastic_bottle",
-        "category_name": "Plastic Bottles",
-        "confidence": 0.779,
-        "size_m2": 0.0024,
-        "estimated_weight_kg": 0.012,
-        "priority": "low",
-        "color": "#3498db",
-        "flight_id": "SYLVA-ROU-001",
-        "environment": "highway",
-        "location": "Historic Route 66, Needles CA"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -114.60109394622962,
-          34.849845692528966
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-F649E0BB",
-        "timestamp": "2026-01-15T10:01:37.706741",
-        "category": "textile",
-        "category_name": "Textile/Fabric",
-        "confidence": 0.958,
-        "size_m2": 0.1062,
-        "estimated_weight_kg": 0.714,
-        "priority": "medium",
-        "color": "#e74c3c",
-        "flight_id": "SYLVA-ROU-001",
-        "environment": "highway",
-        "location": "Historic Route 66, Needles CA"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -114.60012205785688,
-          34.84966133803602
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-8C7E3984",
-        "timestamp": "2026-01-15T10:01:40.394542",
-        "category": "plastic_bottle",
-        "category_name": "Plastic Bottles",
-        "confidence": 0.988,
-        "size_m2": 0.0037,
         "estimated_weight_kg": 0.031,
         "priority": "low",
-        "color": "#3498db",
-        "flight_id": "SYLVA-ROU-001",
-        "environment": "highway",
-        "location": "Historic Route 66, Needles CA"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -114.60017160135365,
-          34.85017434949242
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-69F447AB",
-        "timestamp": "2026-01-15T10:01:40.932102",
-        "category": "metal_debris",
-        "category_name": "Metal Debris",
-        "confidence": 0.901,
-        "size_m2": 0.0772,
-        "estimated_weight_kg": 2.545,
-        "priority": "medium",
-        "color": "#95a5a6",
-        "flight_id": "SYLVA-ROU-001",
-        "environment": "highway",
-        "location": "Historic Route 66, Needles CA"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -114.60005491648198,
-          34.84979280358944
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-B332C1D3",
-        "timestamp": "2026-01-15T10:01:42.007222",
-        "category": "textile",
-        "category_name": "Textile/Fabric",
-        "confidence": 0.899,
-        "size_m2": 0.1835,
-        "estimated_weight_kg": 1.02,
-        "priority": "medium",
-        "color": "#e74c3c",
-        "flight_id": "SYLVA-ROU-001",
-        "environment": "highway",
-        "location": "Historic Route 66, Needles CA"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -114.59949973011459,
-          34.85011889572253
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-C727A07A",
-        "timestamp": "2026-01-15T10:01:43.619903",
-        "category": "metal_debris",
-        "category_name": "Metal Debris",
-        "confidence": 0.987,
-        "size_m2": 0.0308,
-        "estimated_weight_kg": 4.885,
-        "priority": "low",
-        "color": "#95a5a6",
-        "flight_id": "SYLVA-ROU-001",
-        "environment": "highway",
-        "location": "Historic Route 66, Needles CA"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -114.59874799017159,
-          34.85017096671746
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-441DE5C0",
-        "timestamp": "2026-01-15T10:01:45.232583",
-        "category": "construction_waste",
-        "category_name": "Construction Waste",
-        "confidence": 0.947,
-        "size_m2": 0.372,
-        "estimated_weight_kg": 46.437,
-        "priority": "critical",
-        "color": "#8e44ad",
-        "flight_id": "SYLVA-ROU-001",
-        "environment": "highway",
-        "location": "Historic Route 66, Needles CA"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -114.59831497382163,
-          34.85037833099539
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-4148F8F8",
-        "timestamp": "2026-01-15T10:01:47.382824",
-        "category": "glass",
-        "category_name": "Glass",
-        "confidence": 0.756,
-        "size_m2": 0.009,
-        "estimated_weight_kg": 0.214,
-        "priority": "low",
-        "color": "#1abc9c",
-        "flight_id": "SYLVA-ROU-001",
-        "environment": "highway",
-        "location": "Historic Route 66, Needles CA"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -114.59785472071522,
-          34.85072064438455
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-0CAE684E",
-        "timestamp": "2026-01-15T10:01:49.533064",
-        "category": "metal_debris",
-        "category_name": "Metal Debris",
-        "confidence": 0.952,
-        "size_m2": 0.0536,
-        "estimated_weight_kg": 4.865,
-        "priority": "medium",
-        "color": "#95a5a6",
-        "flight_id": "SYLVA-ROU-001",
-        "environment": "highway",
-        "location": "Historic Route 66, Needles CA"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -114.59665693741378,
-          34.850703712079536
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-095B8778",
-        "timestamp": "2026-01-15T10:01:53.295985",
-        "category": "plastic_bottle",
-        "category_name": "Plastic Bottles",
-        "confidence": 0.99,
-        "size_m2": 0.0036,
-        "estimated_weight_kg": 0.043,
-        "priority": "low",
-        "color": "#3498db",
-        "flight_id": "SYLVA-ROU-001",
-        "environment": "highway",
-        "location": "Historic Route 66, Needles CA"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -114.59420107992831,
-          34.85127519666219
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-FCA9D23E",
-        "timestamp": "2026-01-15T10:02:00.284267",
-        "category": "organic_waste",
-        "category_name": "Organic Waste",
-        "confidence": 0.781,
-        "size_m2": 0.0261,
-        "estimated_weight_kg": 0.505,
-        "priority": "low",
-        "color": "#27ae60",
-        "flight_id": "SYLVA-ROU-001",
-        "environment": "highway",
-        "location": "Historic Route 66, Needles CA"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -114.59112879157925,
-          34.85163014916998
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-16202F7B",
-        "timestamp": "2026-01-15T10:02:11.035470",
-        "category": "metal_debris",
-        "category_name": "Metal Debris",
-        "confidence": 0.911,
-        "size_m2": 0.0519,
-        "estimated_weight_kg": 1.011,
-        "priority": "medium",
-        "color": "#95a5a6",
-        "flight_id": "SYLVA-ROU-001",
-        "environment": "highway",
-        "location": "Historic Route 66, Needles CA"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -114.59046333701656,
-          34.851850663200246
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-995FBEBD",
-        "timestamp": "2026-01-15T10:02:13.185710",
-        "category": "metal_debris",
-        "category_name": "Metal Debris",
-        "confidence": 0.847,
-        "size_m2": 0.0671,
-        "estimated_weight_kg": 4.445,
-        "priority": "medium",
-        "color": "#95a5a6",
-        "flight_id": "SYLVA-ROU-001",
-        "environment": "highway",
-        "location": "Historic Route 66, Needles CA"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -114.58957259509356,
-          34.852170167900354
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-3312E20B",
-        "timestamp": "2026-01-15T10:02:16.411071",
-        "category": "construction_waste",
-        "category_name": "Construction Waste",
-        "confidence": 0.753,
-        "size_m2": 0.4097,
-        "estimated_weight_kg": 15.455,
-        "priority": "critical",
-        "color": "#8e44ad",
-        "flight_id": "SYLVA-ROU-001",
-        "environment": "highway",
-        "location": "Historic Route 66, Needles CA"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -114.58838739790731,
-          34.85226817816592
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-C6CECF96",
-        "timestamp": "2026-01-15T10:02:20.711552",
-        "category": "glass",
-        "category_name": "Glass",
-        "confidence": 0.938,
-        "size_m2": 0.0051,
-        "estimated_weight_kg": 0.354,
-        "priority": "low",
-        "color": "#1abc9c",
-        "flight_id": "SYLVA-ROU-001",
-        "environment": "highway",
-        "location": "Historic Route 66, Needles CA"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -114.58710980539998,
-          34.85267790202935
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-F3B0F8A2",
-        "timestamp": "2026-01-15T10:02:23.936913",
-        "category": "plastic_bottle",
-        "category_name": "Plastic Bottles",
-        "confidence": 0.812,
-        "size_m2": 0.0038,
-        "estimated_weight_kg": 0.03,
-        "priority": "low",
-        "color": "#3498db",
-        "flight_id": "SYLVA-ROU-001",
-        "environment": "highway",
-        "location": "Historic Route 66, Needles CA"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -114.58416700194023,
-          34.85315179665188
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-F4806D1B",
-        "timestamp": "2026-01-15T10:02:35.225491",
-        "category": "metal_debris",
-        "category_name": "Metal Debris",
-        "confidence": 0.781,
-        "size_m2": 0.043,
-        "estimated_weight_kg": 0.841,
-        "priority": "low",
-        "color": "#95a5a6",
-        "flight_id": "SYLVA-ROU-001",
-        "environment": "highway",
-        "location": "Historic Route 66, Needles CA"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -114.58383386707578,
-          34.85307889195475
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-F3D1430E",
-        "timestamp": "2026-01-15T10:02:35.763020",
-        "category": "food_packaging",
-        "category_name": "Food Packaging",
-        "confidence": 0.864,
-        "size_m2": 0.0102,
-        "estimated_weight_kg": 0.092,
-        "priority": "low",
         "color": "#e67e22",
         "flight_id": "SYLVA-ROU-001",
         "environment": "highway",
@@ -1446,90 +270,18 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -114.58333214562633,
-          34.8532084688652
+          -114.61111805050484,
+          34.847907448835606
         ]
       },
       "properties": {
-        "id": "DET-2025-D39306BD",
-        "timestamp": "2026-01-15T10:02:38.450667",
-        "category": "food_packaging",
-        "category_name": "Food Packaging",
-        "confidence": 0.771,
-        "size_m2": 0.0092,
-        "estimated_weight_kg": 0.034,
-        "priority": "low",
-        "color": "#e67e22",
-        "flight_id": "SYLVA-ROU-001",
-        "environment": "highway",
-        "location": "Historic Route 66, Needles CA"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -114.58078919182704,
-          34.85374627280309
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-176F03ED",
-        "timestamp": "2026-01-15T10:02:46.513606",
+        "id": "DET-2025-D6C17D80",
+        "timestamp": "2026-01-15T10:01:04.921677",
         "category": "metal_debris",
         "category_name": "Metal Debris",
-        "confidence": 0.942,
-        "size_m2": 0.0768,
-        "estimated_weight_kg": 0.677,
-        "priority": "low",
-        "color": "#95a5a6",
-        "flight_id": "SYLVA-ROU-001",
-        "environment": "highway",
-        "location": "Historic Route 66, Needles CA"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -114.58031152434482,
-          34.85403368292576
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-AF9D9FE6",
-        "timestamp": "2026-01-15T10:02:47.051135",
-        "category": "plastic_bottle",
-        "category_name": "Plastic Bottles",
-        "confidence": 0.93,
-        "size_m2": 0.0018,
-        "estimated_weight_kg": 0.042,
-        "priority": "low",
-        "color": "#3498db",
-        "flight_id": "SYLVA-ROU-001",
-        "environment": "highway",
-        "location": "Historic Route 66, Needles CA"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -114.58022553522817,
-          34.85385702860306
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-4328D6D8",
-        "timestamp": "2026-01-15T10:02:48.126194",
-        "category": "metal_debris",
-        "category_name": "Metal Debris",
-        "confidence": 0.929,
-        "size_m2": 0.0527,
-        "estimated_weight_kg": 2.581,
+        "confidence": 0.877,
+        "size_m2": 0.0863,
+        "estimated_weight_kg": 2.998,
         "priority": "medium",
         "color": "#95a5a6",
         "flight_id": "SYLVA-ROU-001",
@@ -1542,19 +294,19 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -114.57695687368795,
-          34.85466960170575
+          -114.60894085887752,
+          34.84837837911338
         ]
       },
       "properties": {
-        "id": "DET-2025-F8B32336",
-        "timestamp": "2026-01-15T10:02:58.339251",
+        "id": "DET-2025-819ECE01",
+        "timestamp": "2026-01-15T10:01:10.828735",
         "category": "metal_debris",
         "category_name": "Metal Debris",
-        "confidence": 0.857,
-        "size_m2": 0.0649,
-        "estimated_weight_kg": 0.982,
-        "priority": "low",
+        "confidence": 0.924,
+        "size_m2": 0.0504,
+        "estimated_weight_kg": 2.071,
+        "priority": "medium",
         "color": "#95a5a6",
         "flight_id": "SYLVA-ROU-001",
         "environment": "highway",
@@ -1566,90 +318,18 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -114.57685503850976,
-          34.854492945905626
+          -114.60739801545184,
+          34.84858944788321
         ]
       },
       "properties": {
-        "id": "DET-2025-991F4247",
-        "timestamp": "2026-01-15T10:02:59.414309",
+        "id": "DET-2025-8CEDDEAC",
+        "timestamp": "2026-01-15T10:01:16.741896",
         "category": "plastic_bottle",
         "category_name": "Plastic Bottles",
-        "confidence": 0.829,
-        "size_m2": 0.002,
-        "estimated_weight_kg": 0.018,
-        "priority": "low",
-        "color": "#3498db",
-        "flight_id": "SYLVA-ROU-001",
-        "environment": "highway",
-        "location": "Historic Route 66, Needles CA"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -114.57574280929877,
-          34.85487764476218
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-50085AA0",
-        "timestamp": "2026-01-15T10:03:02.639485",
-        "category": "construction_waste",
-        "category_name": "Construction Waste",
-        "confidence": 0.879,
-        "size_m2": 0.6238,
-        "estimated_weight_kg": 13.477,
-        "priority": "critical",
-        "color": "#8e44ad",
-        "flight_id": "SYLVA-ROU-001",
-        "environment": "highway",
-        "location": "Historic Route 66, Needles CA"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -114.57457826944118,
-          34.85507029879131
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-86C93E7B",
-        "timestamp": "2026-01-15T10:03:07.477249",
-        "category": "food_packaging",
-        "category_name": "Food Packaging",
-        "confidence": 0.887,
-        "size_m2": 0.0104,
-        "estimated_weight_kg": 0.072,
-        "priority": "low",
-        "color": "#e67e22",
-        "flight_id": "SYLVA-ROU-001",
-        "environment": "highway",
-        "location": "Historic Route 66, Needles CA"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -114.57442814005341,
-          34.85516360195097
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-6AEA405E",
-        "timestamp": "2026-01-15T10:03:08.014778",
-        "category": "plastic_bottle",
-        "category_name": "Plastic Bottles",
-        "confidence": 0.789,
+        "confidence": 0.896,
         "size_m2": 0.0015,
-        "estimated_weight_kg": 0.02,
+        "estimated_weight_kg": 0.046,
         "priority": "low",
         "color": "#3498db",
         "flight_id": "SYLVA-ROU-001",
@@ -1662,20 +342,20 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -114.57389560868859,
-          34.854993984995005
+          -114.60592274312721,
+          34.84891124927949
         ]
       },
       "properties": {
-        "id": "DET-2025-0B9A1442",
-        "timestamp": "2026-01-15T10:03:08.552307",
-        "category": "plastic_bottle",
-        "category_name": "Plastic Bottles",
-        "confidence": 0.986,
-        "size_m2": 0.0026,
-        "estimated_weight_kg": 0.026,
+        "id": "DET-2025-DCE68802",
+        "timestamp": "2026-01-15T10:01:22.655058",
+        "category": "food_packaging",
+        "category_name": "Food Packaging",
+        "confidence": 0.906,
+        "size_m2": 0.0132,
+        "estimated_weight_kg": 0.075,
         "priority": "low",
-        "color": "#3498db",
+        "color": "#e67e22",
         "flight_id": "SYLVA-ROU-001",
         "environment": "highway",
         "location": "Historic Route 66, Needles CA"
@@ -1686,42 +366,18 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -114.57357631423616,
-          34.85549739261077
+          -114.604046449616,
+          34.84910676353782
         ]
       },
       "properties": {
-        "id": "DET-2025-FB4081FA",
-        "timestamp": "2026-01-15T10:03:09.627366",
-        "category": "organic_waste",
-        "category_name": "Organic Waste",
-        "confidence": 0.91,
-        "size_m2": 0.0266,
-        "estimated_weight_kg": 0.254,
-        "priority": "low",
-        "color": "#27ae60",
-        "flight_id": "SYLVA-ROU-001",
-        "environment": "highway",
-        "location": "Historic Route 66, Needles CA"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -114.5723256753781,
-          34.85559702884158
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-4778642F",
-        "timestamp": "2026-01-15T10:03:15.002659",
+        "id": "DET-2025-22A84DA9",
+        "timestamp": "2026-01-15T10:01:28.568219",
         "category": "construction_waste",
         "category_name": "Construction Waste",
-        "confidence": 0.852,
-        "size_m2": 0.3903,
-        "estimated_weight_kg": 22.947,
+        "confidence": 0.908,
+        "size_m2": 0.7372,
+        "estimated_weight_kg": 43.969,
         "priority": "critical",
         "color": "#8e44ad",
         "flight_id": "SYLVA-ROU-001",
@@ -1734,161 +390,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -114.56959965363762,
-          34.8559071838279
+          -114.60224646266711,
+          34.849524210496924
         ]
       },
       "properties": {
-        "id": "DET-2025-E954FC63",
-        "timestamp": "2026-01-15T10:03:23.603128",
+        "id": "DET-2025-A8986C1E",
+        "timestamp": "2026-01-15T10:01:34.481381",
         "category": "food_packaging",
         "category_name": "Food Packaging",
-        "confidence": 0.865,
-        "size_m2": 0.0137,
-        "estimated_weight_kg": 0.032,
-        "priority": "low",
-        "color": "#e67e22",
-        "flight_id": "SYLVA-ROU-001",
-        "environment": "highway",
-        "location": "Historic Route 66, Needles CA"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -114.56883580193428,
-          34.85617130473329
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-94488A5A",
-        "timestamp": "2026-01-15T10:03:26.828304",
-        "category": "plastic_bottle",
-        "category_name": "Plastic Bottles",
-        "confidence": 0.944,
-        "size_m2": 0.004,
-        "estimated_weight_kg": 0.023,
-        "priority": "low",
-        "color": "#3498db",
-        "flight_id": "SYLVA-ROU-001",
-        "environment": "highway",
-        "location": "Historic Route 66, Needles CA"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -114.56759345624873,
-          34.85661148319961
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-90C57CD9",
-        "timestamp": "2026-01-15T10:03:30.053480",
-        "category": "tire",
-        "category_name": "Tires",
-        "confidence": 0.973,
-        "size_m2": 0.2794,
-        "estimated_weight_kg": 10.442,
-        "priority": "high",
-        "color": "#2c3e50",
-        "flight_id": "SYLVA-ROU-001",
-        "environment": "highway",
-        "location": "Historic Route 66, Needles CA"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -114.56544842338548,
-          34.85671690343821
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-9675A7BC",
-        "timestamp": "2026-01-15T10:03:37.041360",
-        "category": "glass",
-        "category_name": "Glass",
-        "confidence": 0.928,
-        "size_m2": 0.0039,
-        "estimated_weight_kg": 0.22,
-        "priority": "low",
-        "color": "#1abc9c",
-        "flight_id": "SYLVA-ROU-001",
-        "environment": "highway",
-        "location": "Historic Route 66, Needles CA"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -114.56496428027401,
-          34.856829080446616
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-2CD74E52",
-        "timestamp": "2026-01-15T10:03:38.653948",
-        "category": "food_packaging",
-        "category_name": "Food Packaging",
-        "confidence": 0.945,
-        "size_m2": 0.0075,
-        "estimated_weight_kg": 0.033,
-        "priority": "low",
-        "color": "#e67e22",
-        "flight_id": "SYLVA-ROU-001",
-        "environment": "highway",
-        "location": "Historic Route 66, Needles CA"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -114.56398006289182,
-          34.857099527568394
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-0BA8A47F",
-        "timestamp": "2026-01-15T10:03:41.879124",
-        "category": "tire",
-        "category_name": "Tires",
-        "confidence": 0.84,
-        "size_m2": 0.4312,
-        "estimated_weight_kg": 11.074,
-        "priority": "critical",
-        "color": "#2c3e50",
-        "flight_id": "SYLVA-ROU-001",
-        "environment": "highway",
-        "location": "Historic Route 66, Needles CA"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -114.56046685637429,
-          34.85805570850156
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-9F927A4E",
-        "timestamp": "2026-01-15T10:03:54.242298",
-        "category": "food_packaging",
-        "category_name": "Food Packaging",
-        "confidence": 0.88,
-        "size_m2": 0.0185,
+        "confidence": 0.964,
+        "size_m2": 0.0196,
         "estimated_weight_kg": 0.051,
         "priority": "low",
         "color": "#e67e22",
@@ -1902,20 +414,44 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -114.55975590319238,
-          34.857839934889995
+          -114.60032797744496,
+          34.84987669298482
         ]
       },
       "properties": {
-        "id": "DET-2025-F9D8E484",
-        "timestamp": "2026-01-15T10:03:55.854886",
-        "category": "metal_debris",
-        "category_name": "Metal Debris",
-        "confidence": 0.941,
-        "size_m2": 0.0501,
-        "estimated_weight_kg": 1.127,
+        "id": "DET-2025-43B7E4AA",
+        "timestamp": "2026-01-15T10:01:40.394542",
+        "category": "tire",
+        "category_name": "Tires",
+        "confidence": 0.817,
+        "size_m2": 0.1982,
+        "estimated_weight_kg": 13.057,
+        "priority": "high",
+        "color": "#2c3e50",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Historic Route 66, Needles CA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.5983879054878,
+          34.85017344533941
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-36D7F588",
+        "timestamp": "2026-01-15T10:01:46.307704",
+        "category": "textile",
+        "category_name": "Textile/Fabric",
+        "confidence": 0.754,
+        "size_m2": 0.1872,
+        "estimated_weight_kg": 0.866,
         "priority": "medium",
-        "color": "#95a5a6",
+        "color": "#e74c3c",
         "flight_id": "SYLVA-ROU-001",
         "environment": "highway",
         "location": "Historic Route 66, Needles CA"
@@ -1926,20 +462,20 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -114.55935504153014,
-          34.858226272298026
+          -114.59663827637772,
+          34.85081949794812
         ]
       },
       "properties": {
-        "id": "DET-2025-5C9DB1EA",
-        "timestamp": "2026-01-15T10:03:57.464811",
-        "category": "food_packaging",
-        "category_name": "Food Packaging",
-        "confidence": 0.929,
-        "size_m2": 0.0097,
-        "estimated_weight_kg": 0.04,
+        "id": "DET-2025-DC5E0E4F",
+        "timestamp": "2026-01-15T10:01:52.220865",
+        "category": "organic_waste",
+        "category_name": "Organic Waste",
+        "confidence": 0.954,
+        "size_m2": 0.0283,
+        "estimated_weight_kg": 0.447,
         "priority": "low",
-        "color": "#e67e22",
+        "color": "#27ae60",
         "flight_id": "SYLVA-ROU-001",
         "environment": "highway",
         "location": "Historic Route 66, Needles CA"
@@ -1950,114 +486,18 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -114.55884404076379,
-          34.85827263365142
+          -114.59489342798314,
+          34.85105528722019
         ]
       },
       "properties": {
-        "id": "DET-2025-8F2E3681",
-        "timestamp": "2026-01-15T10:03:59.074735",
-        "category": "food_packaging",
-        "category_name": "Food Packaging",
-        "confidence": 0.953,
-        "size_m2": 0.0173,
-        "estimated_weight_kg": 0.029,
-        "priority": "low",
-        "color": "#e67e22",
-        "flight_id": "SYLVA-ROU-001",
-        "environment": "highway",
-        "location": "Historic Route 66, Needles CA"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -114.55698735357637,
-          34.85879292671912
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-8AC0672F",
-        "timestamp": "2026-01-15T10:04:06.587717",
-        "category": "food_packaging",
-        "category_name": "Food Packaging",
-        "confidence": 0.904,
-        "size_m2": 0.0158,
-        "estimated_weight_kg": 0.078,
-        "priority": "low",
-        "color": "#e67e22",
-        "flight_id": "SYLVA-ROU-001",
-        "environment": "highway",
-        "location": "Historic Route 66, Needles CA"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -114.55571973386317,
-          34.858748719740845
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-201DB494",
-        "timestamp": "2026-01-15T10:04:10.344208",
-        "category": "food_packaging",
-        "category_name": "Food Packaging",
-        "confidence": 0.846,
-        "size_m2": 0.0186,
-        "estimated_weight_kg": 0.067,
-        "priority": "low",
-        "color": "#e67e22",
-        "flight_id": "SYLVA-ROU-001",
-        "environment": "highway",
-        "location": "Historic Route 66, Needles CA"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -114.55354628636542,
-          34.85916751267406
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-94F21862",
-        "timestamp": "2026-01-15T10:04:17.320548",
-        "category": "metal_debris",
-        "category_name": "Metal Debris",
-        "confidence": 0.959,
-        "size_m2": 0.0709,
-        "estimated_weight_kg": 0.581,
-        "priority": "low",
-        "color": "#95a5a6",
-        "flight_id": "SYLVA-ROU-001",
-        "environment": "highway",
-        "location": "Historic Route 66, Needles CA"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -114.5525450882444,
-          34.859520739883465
-        ]
-      },
-      "properties": {
-        "id": "DET-2025-D4579984",
-        "timestamp": "2026-01-15T10:04:20.003755",
+        "id": "DET-2025-3834CA75",
+        "timestamp": "2026-01-15T10:01:58.134027",
         "category": "construction_waste",
         "category_name": "Construction Waste",
-        "confidence": 0.896,
-        "size_m2": 0.3644,
-        "estimated_weight_kg": 33.052,
+        "confidence": 0.898,
+        "size_m2": 0.6775,
+        "estimated_weight_kg": 13.887,
         "priority": "critical",
         "color": "#8e44ad",
         "flight_id": "SYLVA-ROU-001",
@@ -2070,20 +510,20 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -114.55140496786676,
-          34.85982156463983
+          -114.59309585143836,
+          34.85132092538354
         ]
       },
       "properties": {
-        "id": "DET-2025-C253560D",
-        "timestamp": "2026-01-15T10:04:23.760246",
-        "category": "tire",
-        "category_name": "Tires",
-        "confidence": 0.951,
-        "size_m2": 0.1675,
-        "estimated_weight_kg": 14.894,
-        "priority": "high",
-        "color": "#2c3e50",
+        "id": "DET-2025-B6D698EB",
+        "timestamp": "2026-01-15T10:02:04.047188",
+        "category": "construction_waste",
+        "category_name": "Construction Waste",
+        "confidence": 0.836,
+        "size_m2": 0.7728,
+        "estimated_weight_kg": 38.099,
+        "priority": "critical",
+        "color": "#8e44ad",
         "flight_id": "SYLVA-ROU-001",
         "environment": "highway",
         "location": "Historic Route 66, Needles CA"
@@ -2094,18 +534,66 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -114.54931922515065,
-          34.860340426362676
+          -114.59134940735403,
+          34.85184018299295
         ]
       },
       "properties": {
-        "id": "DET-2025-A883915F",
-        "timestamp": "2026-01-15T10:04:31.809869",
+        "id": "DET-2025-D716E113",
+        "timestamp": "2026-01-15T10:02:09.960349",
+        "category": "glass",
+        "category_name": "Glass",
+        "confidence": 0.942,
+        "size_m2": 0.0063,
+        "estimated_weight_kg": 0.35,
+        "priority": "low",
+        "color": "#1abc9c",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Historic Route 66, Needles CA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.58959767093789,
+          34.852124912696056
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-1E4B76CB",
+        "timestamp": "2026-01-15T10:02:15.873511",
+        "category": "food_packaging",
+        "category_name": "Food Packaging",
+        "confidence": 0.889,
+        "size_m2": 0.0106,
+        "estimated_weight_kg": 0.028,
+        "priority": "low",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Historic Route 66, Needles CA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.58819899859019,
+          34.85239619878112
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-A84961BB",
+        "timestamp": "2026-01-15T10:02:21.786672",
         "category": "metal_debris",
         "category_name": "Metal Debris",
-        "confidence": 0.83,
-        "size_m2": 0.0549,
-        "estimated_weight_kg": 0.746,
+        "confidence": 0.947,
+        "size_m2": 0.0273,
+        "estimated_weight_kg": 0.668,
         "priority": "low",
         "color": "#95a5a6",
         "flight_id": "SYLVA-ROU-001",
@@ -2118,18 +606,210 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -114.54902051905546,
-          34.86015696534745
+          -114.5861302109706,
+          34.85275671589129
         ]
       },
       "properties": {
-        "id": "DET-2025-AB2F8994",
-        "timestamp": "2026-01-15T10:04:32.883153",
+        "id": "DET-2025-1573789F",
+        "timestamp": "2026-01-15T10:02:27.699834",
+        "category": "food_packaging",
+        "category_name": "Food Packaging",
+        "confidence": 0.762,
+        "size_m2": 0.0143,
+        "estimated_weight_kg": 0.027,
+        "priority": "low",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Historic Route 66, Needles CA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.58440158549898,
+          34.85313496447942
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-911F2824",
+        "timestamp": "2026-01-15T10:02:33.612903",
+        "category": "textile",
+        "category_name": "Textile/Fabric",
+        "confidence": 0.941,
+        "size_m2": 0.1274,
+        "estimated_weight_kg": 0.781,
+        "priority": "medium",
+        "color": "#e74c3c",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Historic Route 66, Needles CA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.58305056071485,
+          34.85322670870903
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-E5D95C6D",
+        "timestamp": "2026-01-15T10:02:39.525725",
+        "category": "textile",
+        "category_name": "Textile/Fabric",
+        "confidence": 0.848,
+        "size_m2": 0.1754,
+        "estimated_weight_kg": 1.453,
+        "priority": "medium",
+        "color": "#e74c3c",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Historic Route 66, Needles CA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.58096121053768,
+          34.85371289194515
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-B25ABB99",
+        "timestamp": "2026-01-15T10:02:45.438548",
+        "category": "construction_waste",
+        "category_name": "Construction Waste",
+        "confidence": 0.979,
+        "size_m2": 0.7451,
+        "estimated_weight_kg": 21.197,
+        "priority": "critical",
+        "color": "#8e44ad",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Historic Route 66, Needles CA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.57932017538434,
+          34.854165633415306
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-00ECDD78",
+        "timestamp": "2026-01-15T10:02:51.351370",
+        "category": "food_packaging",
+        "category_name": "Food Packaging",
+        "confidence": 0.753,
+        "size_m2": 0.0103,
+        "estimated_weight_kg": 0.081,
+        "priority": "low",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Historic Route 66, Needles CA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.57730606850427,
+          34.854297473208874
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-96E676D1",
+        "timestamp": "2026-01-15T10:02:57.264192",
+        "category": "construction_waste",
+        "category_name": "Construction Waste",
+        "confidence": 0.868,
+        "size_m2": 0.6056,
+        "estimated_weight_kg": 13.913,
+        "priority": "critical",
+        "color": "#8e44ad",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Historic Route 66, Needles CA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.57576036787293,
+          34.854841849449194
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-B28DEC86",
+        "timestamp": "2026-01-15T10:03:03.177014",
         "category": "metal_debris",
         "category_name": "Metal Debris",
-        "confidence": 0.833,
-        "size_m2": 0.094,
-        "estimated_weight_kg": 2.059,
+        "confidence": 0.84,
+        "size_m2": 0.0726,
+        "estimated_weight_kg": 0.704,
+        "priority": "low",
+        "color": "#95a5a6",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Historic Route 66, Needles CA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.57381142355551,
+          34.85538023542372
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-416665D6",
+        "timestamp": "2026-01-15T10:03:09.089837",
+        "category": "food_packaging",
+        "category_name": "Food Packaging",
+        "confidence": 0.756,
+        "size_m2": 0.0061,
+        "estimated_weight_kg": 0.071,
+        "priority": "low",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Historic Route 66, Needles CA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.5721945786844,
+          34.855586612476586
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-06F65E75",
+        "timestamp": "2026-01-15T10:03:15.002659",
+        "category": "metal_debris",
+        "category_name": "Metal Debris",
+        "confidence": 0.976,
+        "size_m2": 0.0594,
+        "estimated_weight_kg": 2.955,
         "priority": "medium",
         "color": "#95a5a6",
         "flight_id": "SYLVA-ROU-001",
@@ -2142,18 +822,18 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -114.54755979455929,
-          34.86041378930756
+          -114.57062605824541,
+          34.85611703284974
         ]
       },
       "properties": {
-        "id": "DET-2025-E7A35DCA",
-        "timestamp": "2026-01-15T10:04:37.712926",
+        "id": "DET-2025-DC23B9B9",
+        "timestamp": "2026-01-15T10:03:20.915481",
         "category": "plastic_bottle",
         "category_name": "Plastic Bottles",
-        "confidence": 0.851,
-        "size_m2": 0.0015,
-        "estimated_weight_kg": 0.03,
+        "confidence": 0.773,
+        "size_m2": 0.0013,
+        "estimated_weight_kg": 0.011,
         "priority": "low",
         "color": "#3498db",
         "flight_id": "SYLVA-ROU-001",
@@ -2166,18 +846,18 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -114.5472961379228,
-          34.860529062980596
+          -114.5684521816074,
+          34.85620759637864
         ]
       },
       "properties": {
-        "id": "DET-2025-8F335F55",
-        "timestamp": "2026-01-15T10:04:38.249568",
+        "id": "DET-2025-C221985F",
+        "timestamp": "2026-01-15T10:03:26.828304",
         "category": "plastic_bottle",
         "category_name": "Plastic Bottles",
-        "confidence": 0.981,
-        "size_m2": 0.003,
-        "estimated_weight_kg": 0.017,
+        "confidence": 0.778,
+        "size_m2": 0.0034,
+        "estimated_weight_kg": 0.021,
         "priority": "low",
         "color": "#3498db",
         "flight_id": "SYLVA-ROU-001",
@@ -2190,19 +870,139 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -114.54656821207406,
-          34.86040874804588
+          -114.56671330655809,
+          34.856822022009716
         ]
       },
       "properties": {
-        "id": "DET-2025-AB5D8EFA",
-        "timestamp": "2026-01-15T10:04:39.859493",
+        "id": "DET-2025-209D1EBF",
+        "timestamp": "2026-01-15T10:03:32.741126",
+        "category": "organic_waste",
+        "category_name": "Organic Waste",
+        "confidence": 0.93,
+        "size_m2": 0.0277,
+        "estimated_weight_kg": 0.26,
+        "priority": "low",
+        "color": "#27ae60",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Historic Route 66, Needles CA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.56517317054697,
+          34.85692801011842
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-EEB752D7",
+        "timestamp": "2026-01-15T10:03:38.653948",
+        "category": "construction_waste",
+        "category_name": "Construction Waste",
+        "confidence": 0.956,
+        "size_m2": 0.5056,
+        "estimated_weight_kg": 47.23,
+        "priority": "critical",
+        "color": "#8e44ad",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Historic Route 66, Needles CA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.56359370056748,
+          34.85748080475392
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-97A1611F",
+        "timestamp": "2026-01-15T10:03:44.566771",
+        "category": "glass",
+        "category_name": "Glass",
+        "confidence": 0.827,
+        "size_m2": 0.0063,
+        "estimated_weight_kg": 0.448,
+        "priority": "low",
+        "color": "#1abc9c",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Historic Route 66, Needles CA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.56136748750802,
+          34.85746712096626
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-468233FD",
+        "timestamp": "2026-01-15T10:03:50.479593",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.978,
+        "size_m2": 0.002,
+        "estimated_weight_kg": 0.048,
+        "priority": "low",
+        "color": "#3498db",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Historic Route 66, Needles CA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.5599940695544,
+          34.85803780583241
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-6F8727A1",
+        "timestamp": "2026-01-15T10:03:56.391528",
+        "category": "food_packaging",
+        "category_name": "Food Packaging",
+        "confidence": 0.94,
+        "size_m2": 0.0151,
+        "estimated_weight_kg": 0.08,
+        "priority": "low",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Historic Route 66, Needles CA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.55835788081153,
+          34.85834320055032
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-92B9E063",
+        "timestamp": "2026-01-15T10:04:02.294585",
         "category": "metal_debris",
         "category_name": "Metal Debris",
-        "confidence": 0.93,
-        "size_m2": 0.0697,
-        "estimated_weight_kg": 0.802,
-        "priority": "low",
+        "confidence": 0.834,
+        "size_m2": 0.0581,
+        "estimated_weight_kg": 4.495,
+        "priority": "medium",
         "color": "#95a5a6",
         "flight_id": "SYLVA-ROU-001",
         "environment": "highway",
@@ -2214,18 +1014,18 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -114.54529398535611,
-          34.86087111458367
+          -114.55623466623372,
+          34.85888564496736
         ]
       },
       "properties": {
-        "id": "DET-2025-0A4BFFD5",
-        "timestamp": "2026-01-15T10:04:45.762550",
+        "id": "DET-2025-4F282872",
+        "timestamp": "2026-01-15T10:04:08.197642",
         "category": "plastic_bottle",
         "category_name": "Plastic Bottles",
-        "confidence": 0.766,
-        "size_m2": 0.0024,
-        "estimated_weight_kg": 0.033,
+        "confidence": 0.767,
+        "size_m2": 0.0013,
+        "estimated_weight_kg": 0.038,
         "priority": "low",
         "color": "#3498db",
         "flight_id": "SYLVA-ROU-001",
@@ -2238,18 +1038,66 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -114.54446781434417,
-          34.861151133587846
+          -114.55473865008057,
+          34.85894468532335
         ]
       },
       "properties": {
-        "id": "DET-2025-F2CB4E0D",
-        "timestamp": "2026-01-15T10:04:47.909116",
+        "id": "DET-2025-EAA95EBC",
+        "timestamp": "2026-01-15T10:04:14.100698",
+        "category": "textile",
+        "category_name": "Textile/Fabric",
+        "confidence": 0.945,
+        "size_m2": 0.1061,
+        "estimated_weight_kg": 0.867,
+        "priority": "medium",
+        "color": "#e74c3c",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Historic Route 66, Needles CA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.55290661316877,
+          34.85959444166617
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-990327D1",
+        "timestamp": "2026-01-15T10:04:20.003755",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.852,
+        "size_m2": 0.0033,
+        "estimated_weight_kg": 0.032,
+        "priority": "low",
+        "color": "#3498db",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Historic Route 66, Needles CA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.55128287146002,
+          34.8598036085546
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-7DA39871",
+        "timestamp": "2026-01-15T10:04:25.906812",
         "category": "tire",
         "category_name": "Tires",
-        "confidence": 0.794,
-        "size_m2": 0.3349,
-        "estimated_weight_kg": 9.087,
+        "confidence": 0.778,
+        "size_m2": 0.1461,
+        "estimated_weight_kg": 8.832,
         "priority": "high",
         "color": "#2c3e50",
         "flight_id": "SYLVA-ROU-001",
@@ -2262,29 +1110,168 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -114.54202960050075,
-          34.8615806933944
+          -114.54907579879256,
+          34.86022776780061
         ]
       },
       "properties": {
-        "id": "DET-2025-FB9CA02A",
-        "timestamp": "2026-01-15T10:04:56.495380",
-        "category": "metal_debris",
-        "category_name": "Metal Debris",
-        "confidence": 0.787,
-        "size_m2": 0.0557,
-        "estimated_weight_kg": 0.614,
+        "id": "DET-2025-E1F9B428",
+        "timestamp": "2026-01-15T10:04:31.809869",
+        "category": "tire",
+        "category_name": "Tires",
+        "confidence": 0.804,
+        "size_m2": 0.2321,
+        "estimated_weight_kg": 14.08,
+        "priority": "high",
+        "color": "#2c3e50",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Historic Route 66, Needles CA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.54772313767421,
+          34.8607124341289
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-816F408B",
+        "timestamp": "2026-01-15T10:04:37.712926",
+        "category": "glass",
+        "category_name": "Glass",
+        "confidence": 0.768,
+        "size_m2": 0.0065,
+        "estimated_weight_kg": 0.498,
         "priority": "low",
-        "color": "#95a5a6",
+        "color": "#1abc9c",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Historic Route 66, Needles CA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.54573462403911,
+          34.86089849032681
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-9A259264",
+        "timestamp": "2026-01-15T10:04:43.615983",
+        "category": "construction_waste",
+        "category_name": "Construction Waste",
+        "confidence": 0.89,
+        "size_m2": 0.5909,
+        "estimated_weight_kg": 35.102,
+        "priority": "critical",
+        "color": "#8e44ad",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Historic Route 66, Needles CA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.54375707905015,
+          34.86107043050872
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-DD5172D8",
+        "timestamp": "2026-01-15T10:04:49.519040",
+        "category": "glass",
+        "category_name": "Glass",
+        "confidence": 0.817,
+        "size_m2": 0.0059,
+        "estimated_weight_kg": 0.386,
+        "priority": "low",
+        "color": "#1abc9c",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Historic Route 66, Needles CA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.54221325445515,
+          34.861489741970466
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-C7AE5B03",
+        "timestamp": "2026-01-15T10:04:55.422097",
+        "category": "plastic_bottle",
+        "category_name": "Plastic Bottles",
+        "confidence": 0.918,
+        "size_m2": 0.0039,
+        "estimated_weight_kg": 0.049,
+        "priority": "low",
+        "color": "#3498db",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Historic Route 66, Needles CA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.54036753746777,
+          34.86206751473727
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-9A3E6F2F",
+        "timestamp": "2026-01-15T10:05:01.325154",
+        "category": "food_packaging",
+        "category_name": "Food Packaging",
+        "confidence": 0.978,
+        "size_m2": 0.0187,
+        "estimated_weight_kg": 0.086,
+        "priority": "low",
+        "color": "#e67e22",
+        "flight_id": "SYLVA-ROU-001",
+        "environment": "highway",
+        "location": "Historic Route 66, Needles CA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.53971439848593,
+          34.86199433373601
+        ]
+      },
+      "properties": {
+        "id": "DET-2025-EF21FD65",
+        "timestamp": "2026-01-15T10:05:02.935079",
+        "category": "organic_waste",
+        "category_name": "Organic Waste",
+        "confidence": 0.84,
+        "size_m2": 0.017,
+        "estimated_weight_kg": 0.124,
+        "priority": "low",
+        "color": "#27ae60",
         "flight_id": "SYLVA-ROU-001",
         "environment": "highway",
         "location": "Historic Route 66, Needles CA"
       }
     }
-  ],
-  "properties": {
-    "location": "Historic Route 66, Needles CA",
-    "total_detections": 95,
-    "generated_at": "2025-12-25T20:45:27.876760"
-  }
+  ]
 }
