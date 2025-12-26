@@ -533,8 +533,9 @@ async def start_enhanced_demo(websocket: WebSocket, location: str, speed: float,
         await websocket.send_json(frame_data)
 
         # Delay based on speed - ultra smooth movement
-        # With 15m interpolation we have very granular frames
-        base_delay = 0.12  # Slower, smoother animation
+        # With 10m interpolation we have very granular frames (~0.5s real time each)
+        # Use 50ms delay for buttery smooth animation
+        base_delay = 0.05
         delay = base_delay / manager.demo_state["speed_multiplier"]
         await asyncio.sleep(delay)
 

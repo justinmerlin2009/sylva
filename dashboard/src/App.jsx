@@ -43,6 +43,7 @@ function App() {
   const [currentWaypointName, setCurrentWaypointName] = useState('')
   const [waypoints, setWaypoints] = useState([])
   const [dronePathHistory, setDronePathHistory] = useState([]) // Track scanned path
+  const [followDrone, setFollowDrone] = useState(true) // Toggle for following drone during demo
 
   // Computer Vision AI panel state
   const [scanningDetection, setScanningDetection] = useState(null)
@@ -215,6 +216,7 @@ function App() {
       setScanningDetection(null)
       setShowDetectionPanel(true)
       setDronePathHistory([]) // Reset path history
+      setFollowDrone(true) // Start following drone
 
       ws.send(JSON.stringify({
         command: 'start',
@@ -678,6 +680,9 @@ function App() {
             customPathFlight={customPathFlight}
             customPathDetections={customPathDetections}
             geographyData={null}
+            // Follow drone controls
+            followDrone={followDrone}
+            onFollowDroneChange={setFollowDrone}
           />
 
           {/* Computer Vision AI Panel - shows during demo */}

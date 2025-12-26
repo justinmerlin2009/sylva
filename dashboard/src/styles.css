@@ -2685,3 +2685,35 @@ body {
     grid-template-columns: 1fr;
   }
 }
+
+/* Recenter Button - Map overlay during demo */
+.recenter-button {
+  position: absolute;
+  bottom: 100px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1000;
+  background: var(--primary);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 25px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(37, 99, 235, 0.4);
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.recenter-button:hover {
+  background: var(--primary-dark);
+  transform: translateX(-50%) scale(1.05);
+  box-shadow: 0 6px 16px rgba(37, 99, 235, 0.5);
+}
+
+.recenter-button::before {
+  content: "📍";
+}

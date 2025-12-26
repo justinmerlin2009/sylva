@@ -125,9 +125,20 @@ function HeatmapLayer({ data }) {
   return null
 }
 
-// Map view controller with smooth animation
-function MapController({ center, zoom, followDrone, smoothFollow, disableAutoUpdate }) {
+// Map view controller with smooth animation and user interaction detection
+function MapController({ center, zoom, shouldFollowDrone, disableAutoUpdate, onUserInteraction }) {
   const map = useMap()
+
+  // Detect user interaction (drag/zoom) to disable auto-follow
+  useMapEvents({
+    dragstart: () => {
+      if (onUserInteraction) onUserInteraction()
+    },
+    zoomstart: (e) => {
+      // Only trigger if user initiated (not programmatic)
+      if (e.originalEvent && onUserInteraction) onUserInteraction()
+    },
+  })
 
   useEffect(() => {
     // Don't auto-update view when user is drawing custom paths
@@ -135,15 +146,11 @@ function MapController({ center, zoom, followDrone, smoothFollow, disableAutoUpd
       return
     }
 
-    if (smoothFollow) {
-      // Smooth pan to keep drone in view without constant zooming
-      map.panTo(center, { animate: true, duration: 0.3 })
-    } else if (followDrone) {
-      map.flyTo(center, zoom, { duration: 0.8 })
-    } else {
-      map.setView(center, zoom)
+    if (shouldFollowDrone) {
+      // Smooth pan to keep drone in view - use shorter duration for smoother following
+      map.panTo(center, { animate: true, duration: 0.15 })
     }
-  }, [map, center, zoom, followDrone, smoothFollow, disableAutoUpdate])
+  }, [map, center, zoom, shouldFollowDrone, disableAutoUpdate])
 
   return null
 }
@@ -263,10 +270,12 @@ function Map({
   customPathDetections,
   // Geography data
   geographyData,
+  // Follow drone controls
+  followDrone = true,
+  onFollowDroneChange,
 }) {
-  // Don't aggressively follow drone - just smooth pan occasionally
-  const smoothFollow = demoActive && dronePosition
-  const followDrone = false // Disable zoom following
+  // Only follow drone during demo when followDrone is true
+  const shouldFollowDrone = demoActive && dronePosition && followDrone
 
   // Get category color by id
   const getCategoryColor = (categoryId) => {
@@ -551,18 +560,32 @@ function Map({
     })
   }
 
-  // Calculate map center - smooth follow without aggressive zooming
-  const mapCenter = smoothFollow && dronePosition ? [dronePosition.lat, dronePosition.lon] : center
+  // Calculate map center - follow drone when enabled
+  const mapCenter = shouldFollowDrone ? [dronePosition.lat, dronePosition.lon] : center
   const mapZoom = zoom // Use the zoom from props, don't override
 
+  // Handle user interaction to disable auto-follow
+  const handleUserInteraction = () => {
+    if (demoActive && followDrone && onFollowDroneChange) {
+      onFollowDroneChange(false)
+    }
+  }
+
   return (
+    <>
     <MapContainer
       center={center}
       zoom={zoom}
       style={{ height: '100%', width: '100%' }}
       zoomControl={true}
     >
-      <MapController center={mapCenter} zoom={mapZoom} followDrone={followDrone} smoothFollow={smoothFollow} disableAutoUpdate={isDrawing} />
+      <MapController
+        center={mapCenter}
+        zoom={mapZoom}
+        shouldFollowDrone={shouldFollowDrone}
+        disableAutoUpdate={isDrawing}
+        onUserInteraction={handleUserInteraction}
+      />
 
       {/* Base map layer - CartoDB Voyager (detailed with roads, water, labels) */}
       {!satelliteView && (
@@ -799,7 +822,20 @@ function Map({
           </CircleMarker>
         )
       })}
+
     </MapContainer>
+
+    {/* Recenter button - shown when user has panned away during demo */}
+    {demoActive && dronePosition && !followDrone && (
+      <button
+        className="recenter-button"
+        onClick={() => onFollowDroneChange && onFollowDroneChange(true)}
+        title="Re-center on drone"
+      >
+        Re-center
+      </button>
+    )}
+    </>
   )
 }
 
