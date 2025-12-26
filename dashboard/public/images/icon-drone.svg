@@ -1,15 +1,20 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
   <circle cx="32" cy="32" r="30" fill="#0f172a" stroke="#22c55e" stroke-width="2"/>
-  <!-- Drone body -->
-  <ellipse cx="32" cy="32" rx="8" ry="5" fill="none" stroke="#22c55e" stroke-width="2"/>
-  <!-- Arms -->
-  <line x1="26" y1="28" x2="18" y2="20" stroke="#22c55e" stroke-width="2"/>
-  <line x1="38" y1="28" x2="46" y2="20" stroke="#22c55e" stroke-width="2"/>
-  <line x1="26" y1="36" x2="18" y2="44" stroke="#22c55e" stroke-width="2"/>
-  <line x1="38" y1="36" x2="46" y2="44" stroke="#22c55e" stroke-width="2"/>
-  <!-- Rotors -->
-  <circle cx="18" cy="20" r="6" fill="none" stroke="#3b82f6" stroke-width="1.5" stroke-dasharray="2,1"/>
-  <circle cx="46" cy="20" r="6" fill="none" stroke="#3b82f6" stroke-width="1.5" stroke-dasharray="2,1"/>
-  <circle cx="18" cy="44" r="6" fill="none" stroke="#3b82f6" stroke-width="1.5" stroke-dasharray="2,1"/>
-  <circle cx="46" cy="44" r="6" fill="none" stroke="#3b82f6" stroke-width="1.5" stroke-dasharray="2,1"/>
+  <!-- Fixed-wing fuselage -->
+  <ellipse cx="32" cy="32" rx="16" ry="5" fill="none" stroke="#22c55e" stroke-width="2"/>
+  <!-- Nose -->
+  <path d="M 16 32 L 12 32" stroke="#22c55e" stroke-width="2"/>
+  <circle cx="11" cy="32" r="2" fill="#f59e0b"/>
+  <!-- Tail -->
+  <path d="M 48 32 L 54 32" stroke="#22c55e" stroke-width="2"/>
+  <path d="M 52 32 L 56 28" stroke="#22c55e" stroke-width="1.5"/>
+  <path d="M 52 32 L 56 36" stroke="#22c55e" stroke-width="1.5"/>
+  <!-- Left wing with propeller -->
+  <path d="M 28 32 L 22 18 L 30 17" fill="none" stroke="#22c55e" stroke-width="2"/>
+  <circle cx="20" cy="20" r="5" fill="none" stroke="#3b82f6" stroke-width="1.5" stroke-dasharray="2,1"/>
+  <!-- Right wing with propeller -->
+  <path d="M 28 32 L 22 46 L 30 47" fill="none" stroke="#22c55e" stroke-width="2"/>
+  <circle cx="20" cy="44" r="5" fill="none" stroke="#3b82f6" stroke-width="1.5" stroke-dasharray="2,1"/>
+  <!-- Camera on belly -->
+  <rect x="28" y="35" width="8" height="4" rx="1" fill="none" stroke="#f59e0b" stroke-width="1"/>
 </svg>

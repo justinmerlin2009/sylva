@@ -50,8 +50,8 @@ function Home() {
           <div className="features-section">
             <div className="feature-card">
               <img src="/images/icon-drone.svg" alt="Drone" className="feature-icon-img" />
-              <h3>Drone Surveillance</h3>
-              <p>Autonomous drones equipped with high-resolution cameras systematically scan designated areas using optimized flight patterns. The aircraft captures imagery across multiple waypoints, covering large regions efficiently while maintaining detailed ground resolution.</p>
+              <h3>Fixed-Wing Surveillance</h3>
+              <p>Our fixed-wing UAV, piloted via VR headset, covers vast areas with 90-minute flight endurance. Equipped with front-mounted HD navigation camera and belly-mounted 4K plus multispectral sensors, it captures detailed imagery while the operator maintains immersive control.</p>
             </div>
             <div className="feature-card">
               <img src="/images/icon-ai.svg" alt="AI" className="feature-icon-img" />
@@ -74,13 +74,14 @@ function Home() {
           <h2 className="section-title">Our Technology</h2>
           <div className="tech-grid">
             <div className="tech-content">
-              <h3>The Sylva Platform</h3>
-              <p>Sylva combines commercial drone hardware with custom-built software for autonomous pollution detection. The system is designed for deployment by transportation agencies, fire departments, and environmental organizations.</p>
+              <h3>The Sylva Fixed-Wing UAV</h3>
+              <p>Sylva uses a custom fixed-wing aircraft with dual propellers for extended range and flight time. The platform is remotely operated via VR headset, providing immersive first-person control for precise surveillance missions.</p>
               <ul className="tech-list">
-                <li>High-resolution camera system (4K imaging)</li>
-                <li>GPS-guided autonomous flight</li>
-                <li>Real-time data transmission</li>
-                <li>Cloud-based processing and storage</li>
+                <li>HD navigation camera (front-mounted)</li>
+                <li>4K + Multispectral cameras (belly port)</li>
+                <li>GPS module with RTH capability</li>
+                <li>Emergency parachute recovery system</li>
+                <li>90-minute flight time, 50km range</li>
               </ul>
             </div>
             <div className="tech-image">
