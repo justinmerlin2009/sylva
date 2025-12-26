@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <!-- Gradients -->
+    <linearGradient id="metalGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4a5568"/>
+      <stop offset="50%" style="stop-color:#718096"/>
+      <stop offset="100%" style="stop-color:#4a5568"/>
+    </linearGradient>
+    <linearGradient id="carbonGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a202c"/>
+      <stop offset="50%" style="stop-color:#2d3748"/>
+      <stop offset="100%" style="stop-color:#1a202c"/>
+    </linearGradient>
+    <linearGradient id="lensGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e3a5f"/>
+      <stop offset="30%" style="stop-color:#2c5282"/>
+      <stop offset="70%" style="stop-color:#1e3a5f"/>
+      <stop offset="100%" style="stop-color:#0d1b2a"/>
+    </linearGradient>
+    <linearGradient id="greenGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#22c55e"/>
+      <stop offset="100%" style="stop-color:#16a34a"/>
+    </linearGradient>
+    <linearGradient id="blueGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3b82f6"/>
+      <stop offset="100%" style="stop-color:#1d4ed8"/>
+    </linearGradient>
+    <linearGradient id="purpleGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8b5cf6"/>
+      <stop offset="100%" style="stop-color:#6d28d9"/>
+    </linearGradient>
+    <linearGradient id="orangeGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f97316"/>
+      <stop offset="100%" style="stop-color:#ea580c"/>
+    </linearGradient>
+
+    <!-- Drop shadow filter -->
+    <filter id="dropShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="2" dy="4" stdDeviation="3" flood-opacity="0.3"/>
+    </filter>
+
+    <!-- Glow filter -->
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="600" fill="#0f172a"/>
+
+  <!-- Grid pattern for tech feel -->
+  <g opacity="0.1">
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#3b82f6" stroke-width="0.5"/>
+    </pattern>
+    <rect width="800" height="600" fill="url(#grid)"/>
+  </g>
+
+  <!-- Title -->
+  <text x="400" y="40" text-anchor="middle" fill="#22c55e" font-family="Arial, sans-serif" font-size="28" font-weight="bold">SYLVA SENSOR PAYLOAD</text>
+  <text x="400" y="65" text-anchor="middle" fill="#94a3b8" font-family="Arial, sans-serif" font-size="14">Multi-Spectral Environmental Detection System</text>
+
+  <!-- Main housing - Carbon fiber body -->
+  <g filter="url(#dropShadow)">
+    <!-- Main body -->
+    <rect x="200" y="120" width="400" height="280" rx="15" ry="15" fill="url(#carbonGradient)" stroke="#475569" stroke-width="2"/>
+
+    <!-- Top plate -->
+    <rect x="210" y="125" width="380" height="20" rx="5" ry="5" fill="url(#metalGradient)"/>
+
+    <!-- Mounting rails -->
+    <rect x="180" y="130" width="15" height="100" rx="3" ry="3" fill="url(#metalGradient)"/>
+    <rect x="605" y="130" width="15" height="100" rx="3" ry="3" fill="url(#metalGradient)"/>
+
+    <!-- Mounting holes -->
+    <circle cx="187" cy="145" r="4" fill="#1a202c"/>
+    <circle cx="187" cy="175" r="4" fill="#1a202c"/>
+    <circle cx="187" cy="205" r="4" fill="#1a202c"/>
+    <circle cx="612" cy="145" r="4" fill="#1a202c"/>
+    <circle cx="612" cy="175" r="4" fill="#1a202c"/>
+    <circle cx="612" cy="205" r="4" fill="#1a202c"/>
+  </g>
+
+  <!-- RGB Camera (Left) -->
+  <g transform="translate(240, 160)">
+    <!-- Camera body -->
+    <rect x="0" y="0" width="100" height="120" rx="8" ry="8" fill="#1e293b" stroke="#334155" stroke-width="2"/>
+    <!-- Lens housing -->
+    <circle cx="50" cy="50" r="40" fill="url(#metalGradient)" stroke="#475569" stroke-width="2"/>
+    <circle cx="50" cy="50" r="32" fill="url(#lensGradient)"/>
+    <circle cx="50" cy="50" r="24" fill="#0c1929"/>
+    <circle cx="50" cy="50" r="18" fill="url(#lensGradient)" opacity="0.5"/>
+    <!-- Lens reflection -->
+    <ellipse cx="42" cy="42" rx="8" ry="6" fill="white" opacity="0.2"/>
+    <!-- Label -->
+    <rect x="10" y="95" width="80" height="18" rx="3" ry="3" fill="url(#blueGlow)"/>
+    <text x="50" y="108" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="9" font-weight="bold">61MP RGB</text>
+  </g>
+
+  <!-- Hyperspectral Imager (Center) -->
+  <g transform="translate(350, 160)">
+    <!-- Camera body -->
+    <rect x="0" y="0" width="100" height="120" rx="8" ry="8" fill="#1e293b" stroke="#334155" stroke-width="2"/>
+    <!-- Spectral sensor array -->
+    <rect x="15" y="15" width="70" height="70" rx="4" ry="4" fill="#0f172a" stroke="#475569" stroke-width="1"/>
+    <!-- Spectral bands visualization -->
+    <rect x="20" y="20" width="60" height="7" fill="#ef4444" opacity="0.8"/>
+    <rect x="20" y="29" width="60" height="7" fill="#f97316" opacity="0.8"/>
+    <rect x="20" y="38" width="60" height="7" fill="#eab308" opacity="0.8"/>
+    <rect x="20" y="47" width="60" height="7" fill="#22c55e" opacity="0.8"/>
+    <rect x="20" y="56" width="60" height="7" fill="#06b6d4" opacity="0.8"/>
+    <rect x="20" y="65" width="60" height="7" fill="#3b82f6" opacity="0.8"/>
+    <rect x="20" y="74" width="60" height="7" fill="#8b5cf6" opacity="0.8"/>
+    <!-- Label -->
+    <rect x="5" y="95" width="90" height="18" rx="3" ry="3" fill="url(#purpleGlow)"/>
+    <text x="50" y="108" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="9" font-weight="bold">HYPERSPECTRAL</text>
+  </g>
+
+  <!-- LiDAR Module (Right) -->
+  <g transform="translate(460, 160)">
+    <!-- LiDAR body -->
+    <rect x="0" y="0" width="100" height="120" rx="8" ry="8" fill="#1e293b" stroke="#334155" stroke-width="2"/>
+    <!-- Rotating head -->
+    <circle cx="50" cy="50" r="35" fill="url(#metalGradient)" stroke="#475569" stroke-width="2"/>
+    <circle cx="50" cy="50" r="28" fill="#0f172a"/>
+    <!-- Laser emitter pattern -->
+    <g fill="url(#orangeGlow)" filter="url(#glow)">
+      <circle cx="50" cy="30" r="4"/>
+      <circle cx="65" cy="40" r="4"/>
+      <circle cx="70" cy="55" r="4"/>
+      <circle cx="60" cy="70" r="4"/>
+      <circle cx="40" cy="70" r="4"/>
+      <circle cx="30" cy="55" r="4"/>
+      <circle cx="35" cy="40" r="4"/>
+    </g>
+    <!-- Center -->
+    <circle cx="50" cy="50" r="10" fill="#1e293b" stroke="#f97316" stroke-width="2"/>
+    <!-- Label -->
+    <rect x="10" y="95" width="80" height="18" rx="3" ry="3" fill="url(#orangeGlow)"/>
+    <text x="50" y="108" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="9" font-weight="bold">LiDAR</text>
+  </g>
+
+  <!-- NVIDIA Jetson Processing Unit (Bottom) -->
+  <g transform="translate(280, 300)">
+    <!-- PCB Board -->
+    <rect x="0" y="0" width="240" height="80" rx="5" ry="5" fill="#064e3b" stroke="#10b981" stroke-width="1"/>
+    <!-- Heatsink -->
+    <rect x="20" y="10" width="80" height="60" rx="3" ry="3" fill="url(#metalGradient)"/>
+    <!-- Heatsink fins -->
+    <g fill="#4a5568">
+      <rect x="25" y="12" width="70" height="4"/>
+      <rect x="25" y="20" width="70" height="4"/>
+      <rect x="25" y="28" width="70" height="4"/>
+      <rect x="25" y="36" width="70" height="4"/>
+      <rect x="25" y="44" width="70" height="4"/>
+      <rect x="25" y="52" width="70" height="4"/>
+      <rect x="25" y="60" width="70" height="4"/>
+    </g>
+    <!-- NVIDIA logo area -->
+    <rect x="110" y="15" width="60" height="25" rx="3" ry="3" fill="#76b900"/>
+    <text x="140" y="32" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="10" font-weight="bold">NVIDIA</text>
+    <!-- Chip -->
+    <rect x="110" y="45" width="50" height="30" rx="2" ry="2" fill="#1a202c" stroke="#475569" stroke-width="1"/>
+    <text x="135" y="64" text-anchor="middle" fill="#94a3b8" font-family="Arial, sans-serif" font-size="8">ORIN NX</text>
+    <!-- Connectors -->
+    <g fill="#fbbf24">
+      <rect x="175" y="20" width="50" height="8" rx="1" ry="1"/>
+      <rect x="175" y="35" width="50" height="8" rx="1" ry="1"/>
+      <rect x="175" y="50" width="50" height="8" rx="1" ry="1"/>
+      <rect x="175" y="65" width="50" height="8" rx="1" ry="1"/>
+    </g>
+    <!-- Status LEDs -->
+    <circle cx="10" cy="15" r="3" fill="#22c55e" filter="url(#glow)"/>
+    <circle cx="10" cy="25" r="3" fill="#22c55e" filter="url(#glow)"/>
+    <circle cx="10" cy="35" r="3" fill="#3b82f6" filter="url(#glow)"/>
+  </g>
+
+  <!-- Connection lines -->
+  <g stroke="#3b82f6" stroke-width="2" fill="none" opacity="0.6">
+    <!-- RGB to Jetson -->
+    <path d="M 290 280 L 290 300 L 350 300"/>
+    <!-- Hyperspectral to Jetson -->
+    <path d="M 400 280 L 400 295"/>
+    <!-- LiDAR to Jetson -->
+    <path d="M 510 280 L 510 300 L 450 300"/>
+  </g>
+
+  <!-- Specifications panel -->
+  <g transform="translate(50, 420)">
+    <rect x="0" y="0" width="700" height="150" rx="10" ry="10" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+    <text x="350" y="25" text-anchor="middle" fill="#22c55e" font-family="Arial, sans-serif" font-size="14" font-weight="bold">TECHNICAL SPECIFICATIONS</text>
+
+    <!-- Column 1 -->
+    <g transform="translate(20, 45)">
+      <text fill="#3b82f6" font-family="Arial, sans-serif" font-size="11" font-weight="bold">RGB SENSOR</text>
+      <text y="18" fill="#94a3b8" font-family="Arial, sans-serif" font-size="10">Resolution: 61 MP</text>
+      <text y="33" fill="#94a3b8" font-family="Arial, sans-serif" font-size="10">GSD @ 120m: 1.5 cm</text>
+      <text y="48" fill="#94a3b8" font-family="Arial, sans-serif" font-size="10">Shutter: Global</text>
+      <text y="63" fill="#94a3b8" font-family="Arial, sans-serif" font-size="10">Frame Rate: 10 FPS</text>
+    </g>
+
+    <!-- Column 2 -->
+    <g transform="translate(190, 45)">
+      <text fill="#8b5cf6" font-family="Arial, sans-serif" font-size="11" font-weight="bold">HYPERSPECTRAL</text>
+      <text y="18" fill="#94a3b8" font-family="Arial, sans-serif" font-size="10">Range: 900-1700nm</text>
+      <text y="33" fill="#94a3b8" font-family="Arial, sans-serif" font-size="10">Bands: 8 NIR/SWIR</text>
+      <text y="48" fill="#94a3b8" font-family="Arial, sans-serif" font-size="10">GSD @ 120m: 5 cm</text>
+      <text y="63" fill="#94a3b8" font-family="Arial, sans-serif" font-size="10">Material ID: Yes</text>
+    </g>
+
+    <!-- Column 3 -->
+    <g transform="translate(360, 45)">
+      <text fill="#f97316" font-family="Arial, sans-serif" font-size="11" font-weight="bold">LiDAR</text>
+      <text y="18" fill="#94a3b8" font-family="Arial, sans-serif" font-size="10">Range: 200m</text>
+      <text y="33" fill="#94a3b8" font-family="Arial, sans-serif" font-size="10">Points/sec: 100,000</text>
+      <text y="48" fill="#94a3b8" font-family="Arial, sans-serif" font-size="10">Accuracy: ±2 cm</text>
+      <text y="63" fill="#94a3b8" font-family="Arial, sans-serif" font-size="10">Returns: Multi</text>
+    </g>
+
+    <!-- Column 4 -->
+    <g transform="translate(510, 45)">
+      <text fill="#22c55e" font-family="Arial, sans-serif" font-size="11" font-weight="bold">SYSTEM</text>
+      <text y="18" fill="#94a3b8" font-family="Arial, sans-serif" font-size="10">Weight: 1.2 kg</text>
+      <text y="33" fill="#94a3b8" font-family="Arial, sans-serif" font-size="10">AI: 100 TOPS</text>
+      <text y="48" fill="#94a3b8" font-family="Arial, sans-serif" font-size="10">Latency: &lt;50ms</text>
+      <text y="63" fill="#94a3b8" font-family="Arial, sans-serif" font-size="10">Cost: ~$40,000</text>
+    </g>
+  </g>
+
+  <!-- Detection capabilities badge -->
+  <g transform="translate(620, 120)">
+    <rect x="0" y="0" width="130" height="180" rx="8" ry="8" fill="#1e293b" stroke="#22c55e" stroke-width="2"/>
+    <text x="65" y="20" text-anchor="middle" fill="#22c55e" font-family="Arial, sans-serif" font-size="10" font-weight="bold">DETECTS</text>
+    <g transform="translate(10, 30)" fill="#94a3b8" font-family="Arial, sans-serif" font-size="9">
+      <text y="0">✓ Plastic Bottles</text>
+      <text y="15">✓ Metal Cans</text>
+      <text y="30">✓ Glass</text>
+      <text y="45">✓ Paper/Cardboard</text>
+      <text y="60">✓ Organic Waste</text>
+      <text y="80" fill="#ef4444" font-weight="bold">⚠ HAZMAT:</text>
+      <text y="95" fill="#fbbf24">✓ Tires</text>
+      <text y="110" fill="#fbbf24">✓ Batteries</text>
+      <text y="125" fill="#fbbf24">✓ Chemicals</text>
+      <text y="140" fill="#fbbf24">✓ E-Waste</text>
+    </g>
+  </g>
+
+  <!-- TamAir branding -->
+  <text x="400" y="590" text-anchor="middle" fill="#475569" font-family="Arial, sans-serif" font-size="11">TamAir - Conrad Challenge 2026</text>
+</svg>
