@@ -13,6 +13,7 @@ function Home() {
         <nav className="home-nav">
           <a href="#why" className="nav-link">Why It Matters</a>
           <a href="#how" className="nav-link">How It Works</a>
+          <Link to="/technology" className="nav-link">Technology</Link>
           <a href="#team" className="nav-link">Our Team</a>
           <a href="#collab" className="nav-link">Collaborations</a>
           <Link to="/simulation" className="nav-link nav-cta">Simulation</Link>
@@ -93,6 +94,9 @@ function Home() {
                 <li>Emergency parachute recovery system</li>
                 <li>90-minute flight time, 50km range</li>
               </ul>
+              <Link to="/technology" className="btn btn-primary" style={{ marginTop: '20px', display: 'inline-block' }}>
+                Explore Technology
+              </Link>
             </div>
             <div className="tech-image">
               <img src="/images/drone-blueprint.svg" alt="Sylva Drone System" className="tech-img" />
@@ -218,10 +222,15 @@ function Home() {
         <section id="collab" className="content-section collab-section">
           <h2 className="section-title">Collaborations</h2>
           <div className="collab-grid">
-            <a href="https://cleanca.com" target="_blank" rel="noopener noreferrer" className="collab-card">
-              <img src="/logos/Caltrans.png" alt="Clean California" className="collab-logo-img" />
+            <a href="https://dot.ca.gov" target="_blank" rel="noopener noreferrer" className="collab-card">
+              <img src="/logos/Caltrans.png" alt="Caltrans" className="collab-logo-img" />
               <h3>Jeff Burdick</h3>
-              <p className="collab-role">Cal Transportation / Clean California</p>
+              <p className="collab-role">Caltrans</p>
+            </a>
+            <a href="https://cleanca.com" target="_blank" rel="noopener noreferrer" className="collab-card">
+              <img src="/logos/CleanCalifornia.png" alt="Clean California" className="collab-logo-img" />
+              <h3>Mea Nisbet</h3>
+              <p className="collab-role">Keep California Beautiful / CleanCA</p>
             </a>
             <a href="https://www.fire.ca.gov" target="_blank" rel="noopener noreferrer" className="collab-card">
               <img src="/logos/Logo_of_CAL_FIRE.png" alt="CAL FIRE" className="collab-logo-img" />
