@@ -13,7 +13,6 @@ function Home() {
         <nav className="home-nav">
           <a href="#why" className="nav-link">Why It Matters</a>
           <a href="#how" className="nav-link">How It Works</a>
-          <Link to="/technology" className="nav-link">Technology</Link>
           <a href="#team" className="nav-link">Our Team</a>
           <a href="#collab" className="nav-link">Collaborations</a>
           <Link to="/simulation" className="nav-link nav-cta">Simulation</Link>
@@ -97,9 +96,6 @@ function Home() {
                 <li>Emergency parachute recovery system</li>
                 <li>90-minute flight time, 50km range</li>
               </ul>
-              <Link to="/technology" className="btn btn-primary" style={{ marginTop: '20px', display: 'inline-block' }}>
-                Explore Technology
-              </Link>
             </div>
             <div className="tech-image">
               <img src="/images/drone-blueprint.svg" alt="Sylva Drone System" className="tech-img" />
