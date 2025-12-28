@@ -1,0 +1,6630 @@
+{
+  "total_images": 16,
+  "images_with_detections": 15,
+  "total_detections": 228,
+  "total_weight_kg": 45351.19,
+  "by_category": [
+    {
+      "category": "metal_debris",
+      "count": 159,
+      "percentage": 69.7
+    },
+    {
+      "category": "activity_indicator",
+      "count": 56,
+      "percentage": 24.6
+    },
+    {
+      "category": "construction_waste",
+      "count": 12,
+      "percentage": 5.3
+    },
+    {
+      "category": "organic_waste",
+      "count": 1,
+      "percentage": 0.4
+    }
+  ],
+  "by_priority": {
+    "critical": 172,
+    "high": 0,
+    "medium": 56,
+    "low": 0
+  },
+  "images": [
+    {
+      "image": "0000001_02999_d_0000005.jpg",
+      "image_path": "/Users/olivier/Documents/CLAUDE/sylva_conrad_simulation/Drone_Photos/samples/0000001_02999_d_0000005.jpg",
+      "dimensions": {
+        "width": 1920,
+        "height": 1080
+      },
+      "detection_count": 8,
+      "total_weight_kg": 1829.37,
+      "detections": [
+        {
+          "id": "DET-702A1A04",
+          "class": "metal_debris",
+          "class_name": "Large Metal Object",
+          "coco_class": "car",
+          "confidence": 0.615,
+          "bbox": [
+            439,
+            539,
+            501,
+            589
+          ],
+          "bbox_normalized": [
+            0.229,
+            0.4994,
+            0.2611,
+            0.546
+          ],
+          "center": [
+            470,
+            565
+          ],
+          "size_pixels": 3102,
+          "size_m2": 5.9252,
+          "weight_kg": 250.0,
+          "priority": "critical",
+          "color": "#95a5a6"
+        },
+        {
+          "id": "DET-284B7F8F",
+          "class": "metal_debris",
+          "class_name": "Large Metal Object",
+          "coco_class": "car",
+          "confidence": 0.449,
+          "bbox": [
+            492,
+            433,
+            538,
+            476
+          ],
+          "bbox_normalized": [
+            0.2567,
+            0.4017,
+            0.2803,
+            0.4411
+          ],
+          "center": [
+            516,
+            455
+          ],
+          "size_pixels": 1933,
+          "size_m2": 3.6912,
+          "weight_kg": 230.703,
+          "priority": "critical",
+          "color": "#95a5a6"
+        },
+        {
+          "id": "DET-D9437BE0",
+          "class": "metal_debris",
+          "class_name": "Large Metal Object",
+          "coco_class": "car",
+          "confidence": 0.358,
+          "bbox": [
+            884,
+            734,
+            939,
+            814
+          ],
+          "bbox_normalized": [
+            0.4606,
+            0.6805,
+            0.4895,
+            0.7539
+          ],
+          "center": [
+            912,
+            775
+          ],
+          "size_pixels": 4404,
+          "size_m2": 8.4117,
+          "weight_kg": 250.0,
+          "priority": "critical",
+          "color": "#95a5a6"
+        },
+        {
+          "id": "DET-403F282E",
+          "class": "metal_debris",
+          "class_name": "Large Metal Object",
+          "coco_class": "car",
+          "confidence": 0.352,
+          "bbox": [
+            1558,
+            214,
+            1624,
+            269
+          ],
+          "bbox_normalized": [
+            0.8118,
+            0.1982,
+            0.8462,
+            0.2493
+          ],
+          "center": [
+            1592,
+            242
+          ],
+          "size_pixels": 3638,
+          "size_m2": 6.9494,
+          "weight_kg": 250.0,
+          "priority": "critical",
+          "color": "#95a5a6"
+        },
+        {
+          "id": "DET-DFF41AB7",
+          "class": "metal_debris",
+          "class_name": "Large Metal Object",
+          "coco_class": "car",
+          "confidence": 0.321,
+          "bbox": [
+            609,
+            361,
+            707,
+            413
+          ],
+          "bbox_normalized": [
+            0.3173,
+            0.3346,
+            0.3686,
+            0.3833
+          ],
+          "center": [
+            658,
+            388
+          ],
+          "size_pixels": 5173,
+          "size_m2": 9.8805,
+          "weight_kg": 250.0,
+          "priority": "critical",
+          "color": "#95a5a6"
+        },
+        {
+          "id": "DET-6F151450",
+          "class": "metal_debris",
+          "class_name": "Large Metal Object",
+          "coco_class": "car",
+          "confidence": 0.299,
+          "bbox": [
+            552,
+            446,
+            588,
+            475
+          ],
+          "bbox_normalized": [
+            0.288,
+            0.4138,
+            0.3064,
+            0.4403
+          ],
+          "center": [
+            571,
+            461
+          ],
+          "size_pixels": 1009,
+          "size_m2": 1.9276,
+          "weight_kg": 120.473,
+          "priority": "critical",
+          "color": "#95a5a6"
+        },
+        {
+          "id": "DET-644B4392",
+          "class": "metal_debris",
+          "class_name": "Large Metal Object",
+          "coco_class": "car",
+          "confidence": 0.29,
+          "bbox": [
+            282,
+            750,
+            318,
+            802
+          ],
+          "bbox_normalized": [
+            0.1469,
+            0.6952,
+            0.1661,
+            0.7434
+          ],
+          "center": [
+            300,
+            777
+          ],
+          "size_pixels": 1912,
+          "size_m2": 3.651,
+          "weight_kg": 228.19,
+          "priority": "critical",
+          "color": "#95a5a6"
+        },
+        {
+          "id": "DET-F451A34A",
+          "class": "metal_debris",
+          "class_name": "Large Metal Object",
+          "coco_class": "car",
+          "confidence": 0.263,
+          "bbox": [
+            619,
+            279,
+            712,
+            347
+          ],
+          "bbox_normalized": [
+            0.3225,
+            0.2585,
+            0.371,
+            0.3217
+          ],
+          "center": [
+            666,
+            313
+          ],
+          "size_pixels": 6364,
+          "size_m2": 12.1543,
+          "weight_kg": 250.0,
+          "priority": "critical",
+          "color": "#95a5a6"
+        }
+      ],
+      "processed_at": "2025-12-26T19:10:04.877892"
+    },
+    {
+      "image": "0000001_05499_d_0000010.jpg",
+      "image_path": "/Users/olivier/Documents/CLAUDE/sylva_conrad_simulation/Drone_Photos/samples/0000001_05499_d_0000010.jpg",
+      "dimensions": {
+        "width": 1920,
+        "height": 1080
+      },
+      "detection_count": 52,
+      "total_weight_kg": 12991.2,
+      "detections": [
+        {
+          "id": "DET-1CEAE1AA",
+          "class": "metal_debris",
+          "class_name": "Large Metal Object",
+          "coco_class": "car",
+          "confidence": 0.805,
+          "bbox": [
+            999,
+            812,
+            1119,
+            948
+          ],
+          "bbox_normalized": [
+            0.5203,
+            0.7519,
+            0.5833,
+            0.8783
+          ],
+          "center": [
+            1059,
+            880
+          ],
+          "size_pixels": 16516,
+          "size_m2": 31.5445,
+          "weight_kg": 250.0,
+          "priority": "critical",
+          "color": "#95a5a6"
+        },
+        {
+          "id": "DET-ED9A11ED",
+          "class": "metal_debris",
+          "class_name": "Large Metal Object",
+          "coco_class": "car",
+          "confidence": 0.804,
+          "bbox": [
+            604,
+            443,
+            709,
+            514
+          ],
+          "bbox_normalized": [
+            0.3147,
+            0.4103,
+            0.3697,
+            0.4768
+          ],
+          "center": [
+            657,
+            479
+          ],
+          "size_pixels": 7591,
+          "size_m2": 14.4993,
+          "weight_kg": 250.0,
+          "priority": "critical",
+          "color": "#95a5a6"
+        },
+        {
+          "id": "DET-B4E68BB7",
+          "class": "metal_debris",
+          "class_name": "Large Metal Object",
+          "coco_class": "car",
+          "confidence": 0.8,
+          "bbox": [
+            1021,
+            588,
+            1109,
+            683
+          ],
+          "bbox_normalized": [
+            0.5319,
+            0.5452,
+            0.5781,
+            0.633
+          ],
+          "center": [
+            1066,
+            636
+          ],
+          "size_pixels": 8418,
+          "size_m2": 16.079,
+          "weight_kg": 250.0,
+          "priority": "critical",
+          "color": "#95a5a6"
+        },
+        {
+          "id": "DET-F2273D0E",
+          "class": "metal_debris",
+          "class_name": "Large Metal Object",
+          "coco_class": "car",
+          "confidence": 0.766,
+          "bbox": [
+            1091,
+            616,
+            1183,
+            712
+          ],
+          "bbox_normalized": [
+            0.5683,
+            0.5712,
+            0.6163,
+            0.6597
+          ],
+          "center": [
+            1137,
+            665
+          ],
+          "size_pixels": 8818,
+          "size_m2": 16.8429,
+          "weight_kg": 250.0,
+          "priority": "critical",
+          "color": "#95a5a6"
+        },
+        {
+          "id": "DET-02561142",
+          "class": "metal_debris",
+          "class_name": "Large Metal Object",
+          "coco_class": "car",
+          "confidence": 0.762,
+          "bbox": [
+            795,
+            742,
+            913,
+            869
+          ],
+          "bbox_normalized": [
+            0.4145,
+            0.6878,
+            0.4756,
+            0.8047
+          ],
+          "center": [
+            855,
+            806
+          ],
+          "size_pixels": 14815,
+          "size_m2": 28.2962,
+          "weight_kg": 250.0,
+          "priority": "critical",
+          "color": "#95a5a6"
+        },
+        {
+          "id": "DET-E784C673",
+          "class": "metal_debris",
+          "class_name": "Large Metal Object",
+          "coco_class": "car",
+          "confidence": 0.762,
+          "bbox": [
+            1173,
+            479,
+            1254,
+            544
+          ],
+          "bbox_normalized": [
+            0.6109,
+            0.4444,
+            0.6531,
+            0.5041
+          ],
+          "center": [
+            1214,
+            512
+          ],
+          "size_pixels": 5230,
+          "size_m2": 9.9893,
+          "weight_kg": 250.0,
+          "priority": "critical",
+          "color": "#95a5a6"
+        },
+        {
+          "id": "DET-46511BEC",
+          "class": "metal_debris",
+          "class_name": "Large Metal Object",
+          "coco_class": "car",
+          "confidence": 0.754,
+          "bbox": [
+            514,
+            739,
+            627,
+            839
+          ],
+          "bbox_normalized": [
+            0.2682,
+            0.685,
+            0.3266,
+            0.7771
+          ],
+          "center": [
+            571,
+            790
+          ],
+          "size_pixels": 11163,
+          "size_m2": 21.3218,
+          "weight_kg": 250.0,
+          "priority": "critical",
+          "color": "#95a5a6"
+        },
+        {
+          "id": "DET-C360C262",
+          "class": "metal_debris",
+          "class_name": "Large Metal Object",
+          "coco_class": "car",
+          "confidence": 0.736,
+          "bbox": [
+            1195,
+            632,
+            1289,
+            722
+          ],
+          "bbox_normalized": [
+            0.6227,
+            0.5857,
+            0.6716,
+            0.6693
+          ],
+          "center": [
+            1243,
+            678
+          ],
+          "size_pixels": 8472,
+          "size_m2": 16.1816,
+          "weight_kg": 250.0,
+          "priority": "critical",
+          "color": "#95a5a6"
+        },
+        {
+          "id": "DET-784479D2",
+          "class": "metal_debris",
+          "class_name": "Large Metal Object",
+          "coco_class": "car",
+          "confidence": 0.728,
+          "bbox": [
+            926,
+            787,
+            1033,
+            911
+          ],
+          "bbox_normalized": [
+            0.4827,
+            0.7287,
+            0.5384,
+            0.8441
+          ],
+          "center": [
+            980,
+            849
+          ],
+          "size_pixels": 13326,
+          "size_m2": 25.4514,
+          "weight_kg": 250.0,
+          "priority": "critical",
+          "color": "#95a5a6"
+        },
+        {
+          "id": "DET-A14AE9A7",
+          "class": "metal_debris",
+          "class_name": "Large Metal Object",
+          "coco_class": "car",
+          "confidence": 0.719,
+          "bbox": [
+            1418,
+            713,
+            1501,
+            814
+          ],
+          "bbox_normalized": [
+            0.7386,
+            0.6603,
+            0.7818,
+            0.7539
+          ],
+          "center": [
+            1460,
+            764
+          ],
+          "size_pixels": 8386,
+          "size_m2": 16.0168,
+          "weight_kg": 250.0,
+          "priority": "critical",
+          "color": "#95a5a6"
+        },
+        {
+          "id": "DET-5E773889",
+          "class": "metal_debris",
+          "class_name": "Large Metal Object",
+          "coco_class": "car",
+          "confidence": 0.709,
+          "bbox": [
+            715,
+            472,
+            819,
+            553
+          ],
+          "bbox_normalized": [
+            0.3729,
+            0.4375,
+            0.4268,
+            0.5124
+          ],
+          "center": [
+            768,
+            513
+          ],
+          "size_pixels": 8388,
+          "size_m2": 16.0203,
+          "weight_kg": 250.0,
+          "priority": "critical",
+          "color": "#95a5a6"
+        },
+        {
+          "id": "DET-01E09807",
+          "class": "metal_debris",
+          "class_name": "Large Metal Object",
+          "coco_class": "car",
+          "confidence": 0.694,
+          "bbox": [
+            1289,
+            657,
+            1367,
+            744
+          ],
+          "bbox_normalized": [
+            0.6715,
+            0.6085,
+            0.7123,
+            0.6891
+          ],
+          "center": [
+            1328,
+            701
+          ],
+          "size_pixels": 6822,
+          "size_m2": 13.0302,
+          "weight_kg": 250.0,
+          "priority": "critical",
+          "color": "#95a5a6"
+        },
+        {
+          "id": "DET-F6E0F613",
+          "class": "metal_debris",
+          "class_name": "Large Metal Object",
+          "coco_class": "car",
+          "confidence": 0.692,
+          "bbox": [
+            572,
+            794,
+            685,
+            904
+          ],
+          "bbox_normalized": [
+            0.2982,
+            0.7359,
+            0.3573,
+            0.8371
+          ],
+          "center": [
+            629,
+            849
+          ],
+          "size_pixels": 12407,
+          "size_m2": 23.696,
+          "weight_kg": 250.0,
+          "priority": "critical",
+          "color": "#95a5a6"
+        },
+        {
+          "id": "DET-F0521AAC",
+          "class": "metal_debris",
+          "class_name": "Large Metal Object",
+          "coco_class": "car",
+          "confidence": 0.691,
+          "bbox": [
+            1236,
+            499,
+            1304,
+            568
+          ],
+          "bbox_normalized": [
+            0.6438,
+            0.4622,
+            0.6795,
+            0.5262
+          ],
+          "center": [
+            1270,
+            534
+          ],
+          "size_pixels": 4736,
+          "size_m2": 9.0449,
+          "weight_kg": 250.0,
+          "priority": "critical",
+          "color": "#95a5a6"
+        },
+        {
+          "id": "DET-A84284B1",
+          "class": "metal_debris",
+          "class_name": "Large Metal Object",
+          "coco_class": "car",
+          "confidence": 0.688,
+          "bbox": [
+            1615,
+            386,
+            1672,
+            443
+          ],
+          "bbox_normalized": [
+            0.8413,
+            0.358,
+            0.8709,
+            0.4105
+          ],
+          "center": [
+            1644,
+            415
+          ],
+          "size_pixels": 3224,
+          "size_m2": 6.1573,
+          "weight_kg": 250.0,
+          "priority": "critical",
+          "color": "#95a5a6"
+        },
+        {
+          "id": "DET-BD9E0E23",
+          "class": "metal_debris",
+          "class_name": "Large Metal Object",
+          "coco_class": "car",
+          "confidence": 0.674,
+          "bbox": [
+            1397,
+            531,
+            1467,
+            598
+          ],
+          "bbox_normalized": [
+            0.7277,
+            0.4921,
+            0.7644,
+            0.5544
+          ],
+          "center": [
+            1432,
+            565
+          ],
+          "size_pixels": 4736,
+          "size_m2": 9.0453,
+          "weight_kg": 250.0,
+          "priority": "critical",
+          "color": "#95a5a6"
+        },
+        {
+          "id": "DET-B9757BA4",
+          "class": "metal_debris",
+          "class_name": "Large Metal Object",
+          "coco_class": "car",
+          "confidence": 0.659,
+          "bbox": [
+            946,
+            574,
+            1033,
+            658
+          ],
+          "bbox_normalized": [
+            0.4932,
+            0.5315,
+            0.538,
+            0.6099
+          ],
+          "center": [
+            990,
+            616
+          ],
+          "size_pixels": 7291,
+          "size_m2": 13.9247,
+          "weight_kg": 250.0,
+          "priority": "critical",
+          "color": "#95a5a6"
+        },
+        {
+          "id": "DET-B3C4283D",
+          "class": "metal_debris",
+          "class_name": "Large Metal Object",
+          "coco_class": "car",
+          "confidence": 0.658,
+          "bbox": [
+            1189,
+            800,
+            1333,
+            897
+          ],
+          "bbox_normalized": [
+            0.6196,
+            0.741,
+            0.6948,
+            0.8307
+          ],
+          "center": [
+            1262,
+            849
+          ],
+          "size_pixels": 13982,
+          "size_m2": 26.7054,
+          "weight_kg": 250.0,
+          "priority": "critical",
+          "color": "#95a5a6"
+        },
+        {
+          "id": "DET-BAF27DC2",
+          "class": "metal_debris",
+          "class_name": "Large Metal Object",
+          "coco_class": "car",
+          "confidence": 0.625,
+          "bbox": [
+            635,
+            821,
+            757,
+            955
+          ],
+          "bbox_normalized": [
+            0.3311,
+            0.761,
+            0.3945,
+            0.8847
+          ],
+          "center": [
+            697,
+            889
+          ],
+          "size_pixels": 16248,
+          "size_m2": 31.0335,
+          "weight_kg": 250.0,
+          "priority": "critical",
+          "color": "#95a5a6"
+        },
+        {
+          "id": "DET-1DB5ADF3",
+          "class": "metal_debris",
+          "class_name": "Large Metal Object",
+          "coco_class": "car",
+          "confidence": 0.624,
+          "bbox": [
+            963,
+            411,
+            1045,
+            464
+          ],
+          "bbox_normalized": [
+            0.5019,
+            0.381,
+            0.5447,
+            0.43
+          ],
+          "center": [
+            1005,
+            438
+          ],
+          "size_pixels": 4354,
+          "size_m2": 8.3161,
+          "weight_kg": 250.0,
+          "priority": "critical",
+          "color": "#95a5a6"
+        },
+        {
+          "id": "DET-D5FE71D1",
+          "class": "metal_debris",
+          "class_name": "Large Metal Object",
+          "coco_class": "car",
+          "confidence": 0.605,
+          "bbox": [
+            1353,
+            685,
+            1432,
+            788
+          ],
+          "bbox_normalized": [
+            0.7048,
+            0.6344,
+            0.7458,
+            0.7299
+          ],
+          "center": [
+            1393,
+            737
+          ],
+          "size_pixels": 8119,
+          "size_m2": 15.5074,
+          "weight_kg": 250.0,
+          "priority": "critical",
+          "color": "#95a5a6"
+        },
+        {
+          "id": "DET-38F8F0C9",
+          "class": "metal_debris",
+          "class_name": "Large Metal Object",
+          "coco_class": "car",
+          "confidence": 0.587,
+          "bbox": [
+            397,
+            723,
+            545,
+            838
+          ],
+          "bbox_normalized": [
+            0.2073,
+            0.6695,
+            0.2843,
+            0.7765
+          ],
+          "center": [
+            472,
+            781
+          ],
+          "size_pixels": 17084,
+          "size_m2": 32.6291,
+          "weight_kg": 250.0,
+          "priority": "critical",
+          "color": "#95a5a6"
+        },
+        {
+          "id": "DET-11754FFF",
+          "class": "metal_debris",
+          "class_name": "Large Metal Object",
+          "coco_class": "car",
+          "confidence": 0.564,
+          "bbox": [
+            1382,
+            323,
+            1442,
+            381
+          ],
+          "bbox_normalized": [
+            0.7202,
+            0.2994,
+            0.7513,
+            0.3537
+          ],
+          "center": [
+            1413,
+            353
+          ],
+          "size_pixels": 3502,
+          "size_m2": 6.6885,
+          "weight_kg": 250.0,
+          "priority": "critical",
+          "color": "#95a5a6"
+        },
+        {
+          "id": "DET-D5A52537",
+          "class": "metal_debris",
+          "class_name": "Large Metal Object",
+          "coco_class": "car",
+          "confidence": 0.563,
+          "bbox": [
+            355,
+            706,
+            468,
+            791
+          ],
+          "bbox_normalized": [
+            0.1851,
+            0.6539,
+            0.2442,
+            0.7326
+          ],
+          "center": [
+            412,
+            749
+          ],
+          "size_pixels": 9640,
+          "size_m2": 18.4128,
+          "weight_kg": 250.0,
+          "priority": "critical",
+          "color": "#95a5a6"
+        },
+        {
+          "id": "DET-7433B49F",
+          "class": "metal_debris",
+          "class_name": "Large Metal Object",
+          "coco_class": "car",
+          "confidence": 0.555,
+          "bbox": [
+            609,
+            637,
+            717,
+            740
+          ],
+          "bbox_normalized": [
+            0.3172,
+            0.5907,
+            0.3735,
+            0.6856
+          ],
+          "center": [
+            663,
+            689
+          ],
+          "size_pixels": 11078,
+          "size_m2": 21.1587,
+          "weight_kg": 250.0,
+          "priority": "critical",
+          "color": "#95a5a6"
+        },
+        {
+          "id": "DET-CEAE9A1B",
+          "class": "metal_debris",
+          "class_name": "Large Metal Object",
+          "coco_class": "car",
+          "confidence": 0.543,
+          "bbox": [
+            822,
+            504,
+            915,
+            579
+          ],
+          "bbox_normalized": [
+            0.4283,
+            0.4668,
+            0.4766,
+            0.5369
+          ],
+          "center": [
+            869,
+            542
+          ],
+          "size_pixels": 7016,
+          "size_m2": 13.4011,
+          "weight_kg": 250.0,
+          "priority": "critical",
+          "color": "#95a5a6"
+        },
+        {
+          "id": "DET-C0467811",
+          "class": "metal_debris",
+          "class_name": "Large Metal Object",
+          "coco_class": "car",
+          "confidence": 0.541,
+          "bbox": [
+            478,
+            615,
+            605,
+            709
+          ],
+          "bbox_normalized": [
+            0.2494,
+            0.5699,
+            0.3155,
+            0.6567
+          ],
+          "center": [
+            542,
+            662
+          ],
+          "size_pixels": 11904,
+          "size_m2": 22.7358,
+          "weight_kg": 250.0,
+          "priority": "critical",
+          "color": "#95a5a6"
+        },
+        {
+          "id": "DET-B7D7C364",
+          "class": "metal_debris",
+          "class_name": "Large Metal Object",
+          "coco_class": "car",
+          "confidence": 0.529,
+          "bbox": [
+            732,
+            343,
+            816,
+            403
+          ],
+          "bbox_normalized": [
+            0.3817,
+            0.3179,
+            0.4255,
+            0.3738
+          ],
+          "center": [
+            775,
+            374
+          ],
+          "size_pixels": 5080,
+          "size_m2": 9.7021,
+          "weight_kg": 250.0,
+          "priority": "critical",
+          "color": "#95a5a6"
+        },
+        {
+          "id": "DET-B5536D4D",
+          "class": "metal_debris",
+          "class_name": "Large Metal Object",
+          "coco_class": "car",
+          "confidence": 0.526,
+          "bbox": [
+            413,
+            581,
+            534,
+            682
+          ],
+          "bbox_normalized": [
+            0.2153,
+            0.5385,
+            0.2783,
+            0.6316
+          ],
+          "center": [
+            474,
+            632
+          ],
+          "size_pixels": 12147,
+          "size_m2": 23.2005,
+          "weight_kg": 250.0,
+          "priority": "critical",
+          "color": "#95a5a6"
+        },
+        {
+          "id": "DET-CA83BE36",
+          "class": "metal_debris",
+          "class_name": "Large Metal Object",
+          "coco_class": "car",
+          "confidence": 0.514,
+          "bbox": [
+            712,
+            712,
+            847,
+            835
+          ],
+          "bbox_normalized": [
+            0.3713,
+            0.6593,
+            0.4416,
+            0.7736
+          ],
+          "center": [
+            780,
+            774
+          ],
+          "size_pixels": 16661,
+          "size_m2": 31.8222,
+          "weight_kg": 250.0,
+          "priority": "critical",
+          "color": "#95a5a6"
+        },
+        {
+          "id": "DET-69C13696",
+          "class": "metal_debris",
+          "class_name": "Large Metal Object",
+          "coco_class": "car",
+          "confidence": 0.477,
+          "bbox": [
+            829,
+            366,
+            906,
+            445
+          ],
+          "bbox_normalized": [
+            0.4318,
+            0.3395,
+            0.4721,
+            0.4122
+          ],
+          "center": [
+            868,
+            406
+          ],
+          "size_pixels": 6085,
+          "size_m2": 11.6215,
+          "weight_kg": 250.0,
+          "priority": "critical",
+          "color": "#95a5a6"
+        },
+        {
+          "id": "DET-6E37BB61",
+          "class": "metal_debris",
+          "class_name": "Large Metal Object",
+          "coco_class": "car",
+          "confidence": 0.455,
+          "bbox": [
+            880,
+            533,
+            976,
+            606
+          ],
+          "bbox_normalized": [
+            0.4588,
+            0.4942,
+            0.5084,
+            0.5617
+          ],
+          "center": [
+            929,
+            570
+          ],
+          "size_pixels": 6939,
+          "size_m2": 13.2525,
+          "weight_kg": 250.0,
+          "priority": "critical",
+          "color": "#95a5a6"
+        },
+        {
+          "id": "DET-B30B8DB6",
+          "class": "metal_debris",
+          "class_name": "Large Metal Object",
+          "coco_class": "car",
+          "confidence": 0.452,
+          "bbox": [
+            665,
+            667,
+            783,
+            778
+          ],
+          "bbox_normalized": [
+            0.3466,
+            0.6183,
+            0.4082,
+            0.7209
+          ],
+          "center": [
+            725,
+            723
+          ],
+          "size_pixels": 13098,
+          "size_m2": 25.0168,
+          "weight_kg": 250.0,
+          "priority": "critical",
+          "color": "#95a5a6"
+        },
+        {
+          "id": "DET-480C0AC3",
+          "class": "metal_debris",
+          "class_name": "Large Metal Object",
+          "coco_class": "car",
+          "confidence": 0.446,
+          "bbox": [
+            1043,
+            429,
+            1122,
+            499
+          ],
+          "bbox_normalized": [
+            0.5437,
+            0.3977,
+            0.5847,
+            0.4623
+          ],
+          "center": [
+            1083,
+            464
+          ],
+          "size_pixels": 5482,
+          "size_m2": 10.4706,
+          "weight_kg": 250.0,
+          "priority": "critical",
+          "color": "#95a5a6"
+        },
+        {
+          "id": "DET-438FD90B",
+          "class": "metal_debris",
+          "class_name": "Large Metal Object",
+          "coco_class": "car",
+          "confidence": 0.414,
+          "bbox": [
+            1433,
+            471,
+            1500,
+            541
+          ],
+          "bbox_normalized": [
+            0.7464,
+            0.4364,
+            0.7816,
+            0.5012
+          ],
+          "center": [
+            1467,
+            506
+          ],
+          "size_pixels": 4728,
+          "size_m2": 9.0302,
+          "weight_kg": 250.0,
+          "priority": "critical",
+          "color": "#95a5a6"
+        },
+        {
+          "id": "DET-8702654C",
+          "class": "metal_debris",
+          "class_name": "Large Metal Object",
+          "coco_class": "car",
+          "confidence": 0.406,
+          "bbox": [
+            792,
+            367,
+            864,
+            424
+          ],
+          "bbox_normalized": [
+            0.4129,
+            0.3399,
+            0.4502,
+            0.3927
+          ],
+          "center": [
+            829,
+            396
+          ],
+          "size_pixels": 4077,
+          "size_m2": 7.7876,
+          "weight_kg": 250.0,
+          "priority": "critical",
+          "color": "#95a5a6"
+        },
+        {
+          "id": "DET-46BEF211",
+          "class": "metal_debris",
+          "class_name": "Large Metal Object",
+          "coco_class": "car",
+          "confidence": 0.399,
+          "bbox": [
+            281,
+            669,
+            430,
+            766
+          ],
+          "bbox_normalized": [
+            0.1468,
+            0.6195,
+            0.2241,
+            0.7094
+          ],
+          "center": [
+            356,
+            718
+          ],
+          "size_pixels": 14402,
+          "size_m2": 27.507,
+          "weight_kg": 250.0,
+          "priority": "critical",
+          "color": "#95a5a6"
+        },
+        {
+          "id": "DET-B755C6C3",
+          "class": "metal_debris",
+          "class_name": "Large Metal Object",
+          "coco_class": "car",
+          "confidence": 0.39,
+          "bbox": [
+            1324,
+            308,
+            1396,
+            361
+          ],
+          "bbox_normalized": [
+            0.6899,
+            0.2859,
+            0.7272,
+            0.3344
+          ],
+          "center": [
+            1360,
+            335
+          ],
+          "size_pixels": 3764,
+          "size_m2": 7.1882,
+          "weight_kg": 250.0,
+          "priority": "critical",
+          "color": "#95a5a6"
+        },
+        {
+          "id": "DET-B1D65140",
+          "class": "metal_debris",
+          "class_name": "Large Metal Object",
+          "coco_class": "car",
+          "confidence": 0.387,
+          "bbox": [
+            897,
+            391,
+            964,
+            449
+          ],
+          "bbox_normalized": [
+            0.4673,
+            0.3626,
+            0.5021,
+            0.4164
+          ],
+          "center": [
+            931,
+            421
+          ],
+          "size_pixels": 3881,
+          "size_m2": 7.412,
+          "weight_kg": 250.0,
+          "priority": "critical",
+          "color": "#95a5a6"
+        },
+        {
+          "id": "DET-CC9AFDDE",
+          "class": "metal_debris",
+          "class_name": "Large Metal Object",
+          "coco_class": "car",
+          "confidence": 0.383,
+          "bbox": [
+            1432,
+            358,
+            1482,
+            398
+          ],
+          "bbox_normalized": [
+            0.7463,
+            0.3317,
+            0.7723,
+            0.3691
+          ],
+          "center": [
+            1458,
+            378
+          ],
+          "size_pixels": 2021,
+          "size_m2": 3.8592,
+          "weight_kg": 241.198,
+          "priority": "critical",
+          "color": "#95a5a6"
+        },
+        {
+          "id": "DET-A33E89A9",
+          "class": "metal_debris",
+          "class_name": "Large Metal Object",
+          "coco_class": "car",
+          "confidence": 0.362,
+          "bbox": [
+            478,
+            406,
+            584,
+            467
+          ],
+          "bbox_normalized": [
+            0.249,
+            0.3763,
+            0.3043,
+            0.433
+          ],
+          "center": [
+            531,
+            437
+          ],
+          "size_pixels": 6509,
+          "size_m2": 12.4315,
+          "weight_kg": 250.0,
+          "priority": "critical",
+          "color": "#95a5a6"
+        },
+        {
+          "id": "DET-C8C7DD54",
+          "class": "metal_debris",
+          "class_name": "Large Metal Object",
+          "coco_class": "car",
+          "confidence": 0.361,
+          "bbox": [
+            1586,
+            322,
+            1651,
+            372
+          ],
+          "bbox_normalized": [
+            0.8261,
+            0.2987,
+            0.8603,
+            0.3448
+          ],
+          "center": [
+            1619,
+            347
+          ],
+          "size_pixels": 3268,
+          "size_m2": 6.2416,
+          "weight_kg": 250.0,
+          "priority": "critical",
+          "color": "#95a5a6"
+        },
+        {
+          "id": "DET-E66FCA58",
+          "class": "metal_debris",
+          "class_name": "Large Metal Object",
+          "coco_class": "car",
+          "confidence": 0.359,
+          "bbox": [
+            538,
+            638,
+            653,
+            725
+          ],
+          "bbox_normalized": [
+            0.2804,
+            0.5916,
+            0.3401,
+            0.6714
+          ],
+          "center": [
+            596,
+            682
+          ],
+          "size_pixels": 9872,
+          "size_m2": 18.8559,
+          "weight_kg": 250.0,
+          "priority": "critical",
+          "color": "#95a5a6"
+        },
+        {
+          "id": "DET-6A8C8DC3",
+          "class": "metal_debris",
+          "class_name": "Large Metal Object",
+          "coco_class": "car",
+          "confidence": 0.356,
+          "bbox": [
+            1488,
+            354,
+            1566,
+            413
+          ],
+          "bbox_normalized": [
+            0.7752,
+            0.3281,
+            0.8157,
+            0.3826
+          ],
+          "center": [
+            1527,
+            384
+          ],
+          "size_pixels": 4580,
+          "size_m2": 8.747,
+          "weight_kg": 250.0,
+          "priority": "critical",
+          "color": "#95a5a6"
+        },
+        {
+          "id": "DET-B4163755",
+          "class": "metal_debris",
+          "class_name": "Large Metal Object",
+          "coco_class": "car",
+          "confidence": 0.353,
+          "bbox": [
+            209,
+            913,
+            350,
+            1064
+          ],
+          "bbox_normalized": [
+            0.109,
+            0.8454,
+            0.1824,
+            0.9853
+          ],
+          "center": [
+            280,
+            989
+          ],
+          "size_pixels": 21298,
+          "size_m2": 40.6792,
+          "weight_kg": 250.0,
+          "priority": "critical",
+          "color": "#95a5a6"
+        },
+        {
+          "id": "DET-ACAA2834",
+          "class": "metal_debris",
+          "class_name": "Large Metal Object",
+          "coco_class": "car",
+          "confidence": 0.34,
+          "bbox": [
+            1208,
+            287,
+            1275,
+            341
+          ],
+          "bbox_normalized": [
+            0.6293,
+            0.2662,
+            0.6645,
+            0.3165
+          ],
+          "center": [
+            1242,
+            315
+          ],
+          "size_pixels": 3673,
+          "size_m2": 7.0156,
+          "weight_kg": 250.0,
+          "priority": "critical",
+          "color": "#95a5a6"
+        },
+        {
+          "id": "DET-2F584745",
+          "class": "metal_debris",
+          "class_name": "Large Metal Object",
+          "coco_class": "car",
+          "confidence": 0.338,
+          "bbox": [
+            539,
+            631,
+            689,
+            734
+          ],
+          "bbox_normalized": [
+            0.2812,
+            0.5848,
+            0.3593,
+            0.68
+          ],
+          "center": [
+            615,
+            683
+          ],
+          "size_pixels": 15421,
+          "size_m2": 29.4543,
+          "weight_kg": 250.0,
+          "priority": "critical",
+          "color": "#95a5a6"
+        },
+        {
+          "id": "DET-80EB9DAE",
+          "class": "metal_debris",
+          "class_name": "Large Metal Object",
+          "coco_class": "car",
+          "confidence": 0.33,
+          "bbox": [
+            1363,
+            441,
+            1438,
+            518
+          ],
+          "bbox_normalized": [
+            0.7104,
+            0.4089,
+            0.7491,
+            0.4802
+          ],
+          "center": [
+            1401,
+            480
+          ],
+          "size_pixels": 5733,
+          "size_m2": 10.9505,
+          "weight_kg": 250.0,
+          "priority": "critical",
+          "color": "#95a5a6"
+        },
+        {
+          "id": "DET-DBE9AF1F",
+          "class": "metal_debris",
+          "class_name": "Large Metal Object",
+          "coco_class": "car",
+          "confidence": 0.323,
+          "bbox": [
+            243,
+            623,
+            377,
+            727
+          ],
+          "bbox_normalized": [
+            0.1268,
+            0.5775,
+            0.1968,
+            0.674
+          ],
+          "center": [
+            311,
+            676
+          ],
+          "size_pixels": 13998,
+          "size_m2": 26.7358,
+          "weight_kg": 250.0,
+          "priority": "critical",
+          "color": "#95a5a6"
+        },
+        {
+          "id": "DET-29B2DBAD",
+          "class": "metal_debris",
+          "class_name": "Large Metal Object",
+          "coco_class": "car",
+          "confidence": 0.322,
+          "bbox": [
+            1502,
+            475,
+            1563,
+            546
+          ],
+          "bbox_normalized": [
+            0.7828,
+            0.4402,
+            0.8142,
+            0.5056
+          ],
+          "center": [
+            1533,
+            511
+          ],
+          "size_pixels": 4258,
+          "size_m2": 8.133,
+          "weight_kg": 250.0,
+          "priority": "critical",
+          "color": "#95a5a6"
+        },
+        {
+          "id": "DET-FD18E042",
+          "class": "metal_debris",
+          "class_name": "Large Metal Object",
+          "coco_class": "car",
+          "confidence": 0.306,
+          "bbox": [
+            1547,
+            711,
+            1622,
+            835
+          ],
+          "bbox_normalized": [
+            0.8062,
+            0.659,
+            0.8449,
+            0.7741
+          ],
+          "center": [
+            1585,
+            774
+          ],
+          "size_pixels": 9242,
+          "size_m2": 17.6519,
+          "weight_kg": 250.0,
+          "priority": "critical",
+          "color": "#95a5a6"
+        },
+        {
+          "id": "DET-0B6C559F",
+          "class": "metal_debris",
+          "class_name": "Large Metal Object",
+          "coco_class": "car",
+          "confidence": 0.297,
+          "bbox": [
+            477,
+            409,
+            555,
+            470
+          ],
+          "bbox_normalized": [
+            0.2488,
+            0.3794,
+            0.2895,
+            0.4355
+          ],
+          "center": [
+            517,
+            440
+          ],
+          "size_pixels": 4740,
+          "size_m2": 9.0534,
+          "weight_kg": 250.0,
+          "priority": "critical",
+          "color": "#95a5a6"
+        }
+      ],
+      "processed_at": "2025-12-26T19:10:04.919152"
+    },
+    {
+      "image": "0000022_00000_d_0000004.jpg",
+      "image_path": "/Users/olivier/Documents/CLAUDE/sylva_conrad_simulation/Drone_Photos/samples/0000022_00000_d_0000004.jpg",
+      "dimensions": {
+        "width": 960,
+        "height": 540
+      },
+      "detection_count": 14,
+      "total_weight_kg": 0.0,
+      "detections": [
+        {
+          "id": "DET-C34AFD74",
+          "class": "activity_indicator",
+          "class_name": "Activity Detected",
+          "coco_class": "person",
+          "confidence": 0.717,
+          "bbox": [
+            167,
+            472,
+            194,
+            536
+          ],
+          "bbox_normalized": [
+            0.1744,
+            0.8744,
+            0.2029,
+            0.9935
+          ],
+          "center": [
+            181,
+            504
+          ],
+          "size_pixels": 1758,
+          "size_m2": 3.3583,
+          "weight_kg": 0.0,
+          "priority": "medium",
+          "color": "#3498db"
+        },
+        {
+          "id": "DET-10AAAF5E",
+          "class": "activity_indicator",
+          "class_name": "Activity Detected",
+          "coco_class": "person",
+          "confidence": 0.588,
+          "bbox": [
+            216,
+            444,
+            245,
+            505
+          ],
+          "bbox_normalized": [
+            0.2251,
+            0.8234,
+            0.2555,
+            0.9358
+          ],
+          "center": [
+            231,
+            475
+          ],
+          "size_pixels": 1772,
+          "size_m2": 3.3848,
+          "weight_kg": 0.0,
+          "priority": "medium",
+          "color": "#3498db"
+        },
+        {
+          "id": "DET-FA20B7BF",
+          "class": "activity_indicator",
+          "class_name": "Activity Detected",
+          "coco_class": "person",
+          "confidence": 0.565,
+          "bbox": [
+            349,
+            355,
+            372,
+            428
+          ],
+          "bbox_normalized": [
+            0.364,
+            0.6576,
+            0.3883,
+            0.7934
+          ],
+          "center": [
+            361,
+            392
+          ],
+          "size_pixels": 1715,
+          "size_m2": 3.2763,
+          "weight_kg": 0.0,
+          "priority": "medium",
+          "color": "#3498db"
+        },
+        {
+          "id": "DET-8158F590",
+          "class": "activity_indicator",
+          "class_name": "Activity Detected",
+          "coco_class": "person",
+          "confidence": 0.541,
+          "bbox": [
+            589,
+            211,
+            605,
+            249
+          ],
+          "bbox_normalized": [
+            0.6145,
+            0.3911,
+            0.6311,
+            0.4614
+          ],
+          "center": [
+            598,
+            230
+          ],
+          "size_pixels": 606,
+          "size_m2": 1.1583,
+          "weight_kg": 0.0,
+          "priority": "medium",
+          "color": "#3498db"
+        },
+        {
+          "id": "DET-84EA0F06",
+          "class": "activity_indicator",
+          "class_name": "Activity Detected",
+          "coco_class": "person",
+          "confidence": 0.517,
+          "bbox": [
+            100,
+            510,
+            125,
+            540
+          ],
+          "bbox_normalized": [
+            0.1043,
+            0.9446,
+            0.131,
+            1.0
+          ],
+          "center": [
+            113,
+            525
+          ],
+          "size_pixels": 765,
+          "size_m2": 1.462,
+          "weight_kg": 0.0,
+          "priority": "medium",
+          "color": "#3498db"
+        },
+        {
+          "id": "DET-56A3DCEF",
+          "class": "activity_indicator",
+          "class_name": "Activity Detected",
+          "coco_class": "person",
+          "confidence": 0.511,
+          "bbox": [
+            182,
+            442,
+            204,
+            511
+          ],
+          "bbox_normalized": [
+            0.1897,
+            0.8201,
+            0.2128,
+            0.9479
+          ],
+          "center": [
+            193,
+            477
+          ],
+          "size_pixels": 1533,
+          "size_m2": 2.9274,
+          "weight_kg": 0.0,
+          "priority": "medium",
+          "color": "#3498db"
+        },
+        {
+          "id": "DET-3BBF5D85",
+          "class": "activity_indicator",
+          "class_name": "Activity Detected",
+          "coco_class": "person",
+          "confidence": 0.497,
+          "bbox": [
+            562,
+            233,
+            579,
+            266
+          ],
+          "bbox_normalized": [
+            0.5863,
+            0.433,
+            0.6034,
+            0.4931
+          ],
+          "center": [
+            571,
+            250
+          ],
+          "size_pixels": 534,
+          "size_m2": 1.0192,
+          "weight_kg": 0.0,
+          "priority": "medium",
+          "color": "#3498db"
+        },
+        {
+          "id": "DET-B66FE98E",
+          "class": "activity_indicator",
+          "class_name": "Activity Detected",
+          "coco_class": "person",
+          "confidence": 0.481,
+          "bbox": [
+            522,
+            241,
+            542,
+            273
+          ],
+          "bbox_normalized": [
+            0.5443,
+            0.4468,
+            0.5653,
+            0.5068
+          ],
+          "center": [
+            533,
+            257
+          ],
+          "size_pixels": 655,
+          "size_m2": 1.2502,
+          "weight_kg": 0.0,
+          "priority": "medium",
+          "color": "#3498db"
+        },
+        {
+          "id": "DET-4C2064DA",
+          "class": "activity_indicator",
+          "class_name": "Activity Detected",
+          "coco_class": "person",
+          "confidence": 0.443,
+          "bbox": [
+            915,
+            315,
+            933,
+            365
+          ],
+          "bbox_normalized": [
+            0.9536,
+            0.5834,
+            0.9719,
+            0.6766
+          ],
+          "center": [
+            924,
+            340
+          ],
+          "size_pixels": 886,
+          "size_m2": 1.6919,
+          "weight_kg": 0.0,
+          "priority": "medium",
+          "color": "#3498db"
+        },
+        {
+          "id": "DET-707A3FD6",
+          "class": "activity_indicator",
+          "class_name": "Activity Detected",
+          "coco_class": "person",
+          "confidence": 0.431,
+          "bbox": [
+            667,
+            205,
+            680,
+            228
+          ],
+          "bbox_normalized": [
+            0.6958,
+            0.3797,
+            0.7088,
+            0.4225
+          ],
+          "center": [
+            674,
+            217
+          ],
+          "size_pixels": 290,
+          "size_m2": 0.554,
+          "weight_kg": 0.0,
+          "priority": "medium",
+          "color": "#3498db"
+        },
+        {
+          "id": "DET-D83E9DE9",
+          "class": "activity_indicator",
+          "class_name": "Activity Detected",
+          "coco_class": "person",
+          "confidence": 0.414,
+          "bbox": [
+            94,
+            483,
+            119,
+            537
+          ],
+          "bbox_normalized": [
+            0.0986,
+            0.8951,
+            0.1249,
+            0.9956
+          ],
+          "center": [
+            107,
+            510
+          ],
+          "size_pixels": 1370,
+          "size_m2": 2.6173,
+          "weight_kg": 0.0,
+          "priority": "medium",
+          "color": "#3498db"
+        },
+        {
+          "id": "DET-EA4FFF8E",
+          "class": "activity_indicator",
+          "class_name": "Activity Detected",
+          "coco_class": "person",
+          "confidence": 0.339,
+          "bbox": [
+            722,
+            182,
+            734,
+            207
+          ],
+          "bbox_normalized": [
+            0.7523,
+            0.3387,
+            0.7652,
+            0.3839
+          ],
+          "center": [
+            728,
+            195
+          ],
+          "size_pixels": 303,
+          "size_m2": 0.5794,
+          "weight_kg": 0.0,
+          "priority": "medium",
+          "color": "#3498db"
+        },
+        {
+          "id": "DET-B96396C3",
+          "class": "activity_indicator",
+          "class_name": "Activity Detected",
+          "coco_class": "person",
+          "confidence": 0.336,
+          "bbox": [
+            356,
+            395,
+            370,
+            431
+          ],
+          "bbox_normalized": [
+            0.3712,
+            0.7325,
+            0.3864,
+            0.7986
+          ],
+          "center": [
+            364,
+            413
+          ],
+          "size_pixels": 521,
+          "size_m2": 0.9957,
+          "weight_kg": 0.0,
+          "priority": "medium",
+          "color": "#3498db"
+        },
+        {
+          "id": "DET-03556659",
+          "class": "activity_indicator",
+          "class_name": "Activity Detected",
+          "coco_class": "person",
+          "confidence": 0.316,
+          "bbox": [
+            708,
+            194,
+            721,
+            217
+          ],
+          "bbox_normalized": [
+            0.7377,
+            0.3608,
+            0.752,
+            0.4036
+          ],
+          "center": [
+            715,
+            206
+          ],
+          "size_pixels": 317,
+          "size_m2": 0.6063,
+          "weight_kg": 0.0,
+          "priority": "medium",
+          "color": "#3498db"
+        }
+      ],
+      "processed_at": "2025-12-26T19:10:04.953497"
+    },
+    {
+      "image": "0000023_00000_d_0000008.jpg",
+      "image_path": "/Users/olivier/Documents/CLAUDE/sylva_conrad_simulation/Drone_Photos/samples/0000023_00000_d_0000008.jpg",
+      "dimensions": {
+        "width": 960,
+        "height": 540
+      },
+      "detection_count": 14,
+      "total_weight_kg": 0.0,
+      "detections": [
+        {
+          "id": "DET-A92DC777",
+          "class": "activity_indicator",
+          "class_name": "Activity Detected",
+          "coco_class": "person",
+          "confidence": 0.717,
+          "bbox": [
+            167,
+            472,
+            194,
+            536
+          ],
+          "bbox_normalized": [
+            0.1744,
+            0.8744,
+            0.2029,
+            0.9935
+          ],
+          "center": [
+            181,
+            504
+          ],
+          "size_pixels": 1758,
+          "size_m2": 3.3583,
+          "weight_kg": 0.0,
+          "priority": "medium",
+          "color": "#3498db"
+        },
+        {
+          "id": "DET-A9E4CC5A",
+          "class": "activity_indicator",
+          "class_name": "Activity Detected",
+          "coco_class": "person",
+          "confidence": 0.588,
+          "bbox": [
+            216,
+            444,
+            245,
+            505
+          ],
+          "bbox_normalized": [
+            0.2251,
+            0.8234,
+            0.2555,
+            0.9358
+          ],
+          "center": [
+            231,
+            475
+          ],
+          "size_pixels": 1772,
+          "size_m2": 3.3848,
+          "weight_kg": 0.0,
+          "priority": "medium",
+          "color": "#3498db"
+        },
+        {
+          "id": "DET-E994151A",
+          "class": "activity_indicator",
+          "class_name": "Activity Detected",
+          "coco_class": "person",
+          "confidence": 0.565,
+          "bbox": [
+            349,
+            355,
+            372,
+            428
+          ],
+          "bbox_normalized": [
+            0.364,
+            0.6576,
+            0.3883,
+            0.7934
+          ],
+          "center": [
+            361,
+            392
+          ],
+          "size_pixels": 1715,
+          "size_m2": 3.2763,
+          "weight_kg": 0.0,
+          "priority": "medium",
+          "color": "#3498db"
+        },
+        {
+          "id": "DET-05CCC041",
+          "class": "activity_indicator",
+          "class_name": "Activity Detected",
+          "coco_class": "person",
+          "confidence": 0.541,
+          "bbox": [
+            589,
+            211,
+            605,
+            249
+          ],
+          "bbox_normalized": [
+            0.6145,
+            0.3911,
+            0.6311,
+            0.4614
+          ],
+          "center": [
+            598,
+            230
+          ],
+          "size_pixels": 606,
+          "size_m2": 1.1583,
+          "weight_kg": 0.0,
+          "priority": "medium",
+          "color": "#3498db"
+        },
+        {
+          "id": "DET-A5A88863",
+          "class": "activity_indicator",
+          "class_name": "Activity Detected",
+          "coco_class": "person",
+          "confidence": 0.517,
+          "bbox": [
+            100,
+            510,
+            125,
+            540
+          ],
+          "bbox_normalized": [
+            0.1043,
+            0.9446,
+            0.131,
+            1.0
+          ],
+          "center": [
+            113,
+            525
+          ],
+          "size_pixels": 765,
+          "size_m2": 1.462,
+          "weight_kg": 0.0,
+          "priority": "medium",
+          "color": "#3498db"
+        },
+        {
+          "id": "DET-7C977AED",
+          "class": "activity_indicator",
+          "class_name": "Activity Detected",
+          "coco_class": "person",
+          "confidence": 0.511,
+          "bbox": [
+            182,
+            442,
+            204,
+            511
+          ],
+          "bbox_normalized": [
+            0.1897,
+            0.8201,
+            0.2128,
+            0.9479
+          ],
+          "center": [
+            193,
+            477
+          ],
+          "size_pixels": 1533,
+          "size_m2": 2.9274,
+          "weight_kg": 0.0,
+          "priority": "medium",
+          "color": "#3498db"
+        },
+        {
+          "id": "DET-BC23B0BA",
+          "class": "activity_indicator",
+          "class_name": "Activity Detected",
+          "coco_class": "person",
+          "confidence": 0.497,
+          "bbox": [
+            562,
+            233,
+            579,
+            266
+          ],
+          "bbox_normalized": [
+            0.5863,
+            0.433,
+            0.6034,
+            0.4931
+          ],
+          "center": [
+            571,
+            250
+          ],
+          "size_pixels": 534,
+          "size_m2": 1.0192,
+          "weight_kg": 0.0,
+          "priority": "medium",
+          "color": "#3498db"
+        },
+        {
+          "id": "DET-5AB47D6B",
+          "class": "activity_indicator",
+          "class_name": "Activity Detected",
+          "coco_class": "person",
+          "confidence": 0.481,
+          "bbox": [
+            522,
+            241,
+            542,
+            273
+          ],
+          "bbox_normalized": [
+            0.5443,
+            0.4468,
+            0.5653,
+            0.5068
+          ],
+          "center": [
+            533,
+            257
+          ],
+          "size_pixels": 655,
+          "size_m2": 1.2502,
+          "weight_kg": 0.0,
+          "priority": "medium",
+          "color": "#3498db"
+        },
+        {
+          "id": "DET-935D64F9",
+          "class": "activity_indicator",
+          "class_name": "Activity Detected",
+          "coco_class": "person",
+          "confidence": 0.443,
+          "bbox": [
+            915,
+            315,
+            933,
+            365
+          ],
+          "bbox_normalized": [
+            0.9536,
+            0.5834,
+            0.9719,
+            0.6766
+          ],
+          "center": [
+            924,
+            340
+          ],
+          "size_pixels": 886,
+          "size_m2": 1.6919,
+          "weight_kg": 0.0,
+          "priority": "medium",
+          "color": "#3498db"
+        },
+        {
+          "id": "DET-A2E347B1",
+          "class": "activity_indicator",
+          "class_name": "Activity Detected",
+          "coco_class": "person",
+          "confidence": 0.431,
+          "bbox": [
+            667,
+            205,
+            680,
+            228
+          ],
+          "bbox_normalized": [
+            0.6958,
+            0.3797,
+            0.7088,
+            0.4225
+          ],
+          "center": [
+            674,
+            217
+          ],
+          "size_pixels": 290,
+          "size_m2": 0.554,
+          "weight_kg": 0.0,
+          "priority": "medium",
+          "color": "#3498db"
+        },
+        {
+          "id": "DET-09EE47E7",
+          "class": "activity_indicator",
+          "class_name": "Activity Detected",
+          "coco_class": "person",
+          "confidence": 0.414,
+          "bbox": [
+            94,
+            483,
+            119,
+            537
+          ],
+          "bbox_normalized": [
+            0.0986,
+            0.8951,
+            0.1249,
+            0.9956
+          ],
+          "center": [
+            107,
+            510
+          ],
+          "size_pixels": 1370,
+          "size_m2": 2.6173,
+          "weight_kg": 0.0,
+          "priority": "medium",
+          "color": "#3498db"
+        },
+        {
+          "id": "DET-58162F93",
+          "class": "activity_indicator",
+          "class_name": "Activity Detected",
+          "coco_class": "person",
+          "confidence": 0.339,
+          "bbox": [
+            722,
+            182,
+            734,
+            207
+          ],
+          "bbox_normalized": [
+            0.7523,
+            0.3387,
+            0.7652,
+            0.3839
+          ],
+          "center": [
+            728,
+            195
+          ],
+          "size_pixels": 303,
+          "size_m2": 0.5794,
+          "weight_kg": 0.0,
+          "priority": "medium",
+          "color": "#3498db"
+        },
+        {
+          "id": "DET-1403B1C5",
+          "class": "activity_indicator",
+          "class_name": "Activity Detected",
+          "coco_class": "person",
+          "confidence": 0.336,
+          "bbox": [
+            356,
+            395,
+            370,
+            431
+          ],
+          "bbox_normalized": [
+            0.3712,
+            0.7325,
+            0.3864,
+            0.7986
+          ],
+          "center": [
+            364,
+            413
+          ],
+          "size_pixels": 521,
+          "size_m2": 0.9957,
+          "weight_kg": 0.0,
+          "priority": "medium",
+          "color": "#3498db"
+        },
+        {
+          "id": "DET-E8AD4B87",
+          "class": "activity_indicator",
+          "class_name": "Activity Detected",
+          "coco_class": "person",
+          "confidence": 0.316,
+          "bbox": [
+            708,
+            194,
+            721,
+            217
+          ],
+          "bbox_normalized": [
+            0.7377,
+            0.3608,
+            0.752,
+            0.4036
+          ],
+          "center": [
+            715,
+            206
+          ],
+          "size_pixels": 317,
+          "size_m2": 0.6063,
+          "weight_kg": 0.0,
+          "priority": "medium",
+          "color": "#3498db"
+        }
+      ],
+      "processed_at": "2025-12-26T19:10:04.979205"
+    },
+    {
+      "image": "0000024_00000_d_0000012.jpg",
+      "image_path": "/Users/olivier/Documents/CLAUDE/sylva_conrad_simulation/Drone_Photos/samples/0000024_00000_d_0000012.jpg",
+      "dimensions": {
+        "width": 960,
+        "height": 540
+      },
+      "detection_count": 13,
+      "total_weight_kg": 0.0,
+      "detections": [
+        {
+          "id": "DET-A3FAABDF",
+          "class": "activity_indicator",
+          "class_name": "Activity Detected",
+          "coco_class": "person",
+          "confidence": 0.683,
+          "bbox": [
+            435,
+            287,
+            458,
+            344
+          ],
+          "bbox_normalized": [
+            0.454,
+            0.5327,
+            0.4779,
+            0.638
+          ],
+          "center": [
+            447,
+            316
+          ],
+          "size_pixels": 1305,
+          "size_m2": 2.492,
+          "weight_kg": 0.0,
+          "priority": "medium",
+          "color": "#3498db"
+        },
+        {
+          "id": "DET-15C865D7",
+          "class": "activity_indicator",
+          "class_name": "Activity Detected",
+          "coco_class": "person",
+          "confidence": 0.564,
+          "bbox": [
+            460,
+            290,
+            479,
+            334
+          ],
+          "bbox_normalized": [
+            0.4801,
+            0.5371,
+            0.4993,
+            0.6196
+          ],
+          "center": [
+            470,
+            312
+          ],
+          "size_pixels": 822,
+          "size_m2": 1.5709,
+          "weight_kg": 0.0,
+          "priority": "medium",
+          "color": "#3498db"
+        },
+        {
+          "id": "DET-D134F4E2",
+          "class": "activity_indicator",
+          "class_name": "Activity Detected",
+          "coco_class": "person",
+          "confidence": 0.55,
+          "bbox": [
+            902,
+            232,
+            915,
+            262
+          ],
+          "bbox_normalized": [
+            0.9399,
+            0.4312,
+            0.9537,
+            0.4855
+          ],
+          "center": [
+            909,
+            248
+          ],
+          "size_pixels": 389,
+          "size_m2": 0.7437,
+          "weight_kg": 0.0,
+          "priority": "medium",
+          "color": "#3498db"
+        },
+        {
+          "id": "DET-7721030A",
+          "class": "activity_indicator",
+          "class_name": "Activity Detected",
+          "coco_class": "person",
+          "confidence": 0.547,
+          "bbox": [
+            379,
+            293,
+            400,
+            343
+          ],
+          "bbox_normalized": [
+            0.3951,
+            0.5428,
+            0.4167,
+            0.6359
+          ],
+          "center": [
+            390,
+            318
+          ],
+          "size_pixels": 1042,
+          "size_m2": 1.9894,
+          "weight_kg": 0.0,
+          "priority": "medium",
+          "color": "#3498db"
+        },
+        {
+          "id": "DET-8C92B134",
+          "class": "activity_indicator",
+          "class_name": "Activity Detected",
+          "coco_class": "person",
+          "confidence": 0.512,
+          "bbox": [
+            207,
+            318,
+            227,
+            351
+          ],
+          "bbox_normalized": [
+            0.216,
+            0.589,
+            0.237,
+            0.6511
+          ],
+          "center": [
+            217,
+            335
+          ],
+          "size_pixels": 677,
+          "size_m2": 1.2925,
+          "weight_kg": 0.0,
+          "priority": "medium",
+          "color": "#3498db"
+        },
+        {
+          "id": "DET-C90374D4",
+          "class": "activity_indicator",
+          "class_name": "Activity Detected",
+          "coco_class": "person",
+          "confidence": 0.48,
+          "bbox": [
+            205,
+            318,
+            228,
+            362
+          ],
+          "bbox_normalized": [
+            0.2143,
+            0.5893,
+            0.2381,
+            0.6715
+          ],
+          "center": [
+            217,
+            340
+          ],
+          "size_pixels": 1011,
+          "size_m2": 1.9301,
+          "weight_kg": 0.0,
+          "priority": "medium",
+          "color": "#3498db"
+        },
+        {
+          "id": "DET-679A8BCB",
+          "class": "activity_indicator",
+          "class_name": "Activity Detected",
+          "coco_class": "person",
+          "confidence": 0.445,
+          "bbox": [
+            421,
+            290,
+            438,
+            336
+          ],
+          "bbox_normalized": [
+            0.439,
+            0.5388,
+            0.4569,
+            0.6233
+          ],
+          "center": [
+            430,
+            314
+          ],
+          "size_pixels": 784,
+          "size_m2": 1.4974,
+          "weight_kg": 0.0,
+          "priority": "medium",
+          "color": "#3498db"
+        },
+        {
+          "id": "DET-245C4139",
+          "class": "activity_indicator",
+          "class_name": "Activity Detected",
+          "coco_class": "person",
+          "confidence": 0.408,
+          "bbox": [
+            238,
+            319,
+            272,
+            371
+          ],
+          "bbox_normalized": [
+            0.2483,
+            0.5916,
+            0.2836,
+            0.6876
+          ],
+          "center": [
+            255,
+            345
+          ],
+          "size_pixels": 1755,
+          "size_m2": 3.352,
+          "weight_kg": 0.0,
+          "priority": "medium",
+          "color": "#3498db"
+        },
+        {
+          "id": "DET-0A20ABA2",
+          "class": "activity_indicator",
+          "class_name": "Activity Detected",
+          "coco_class": "person",
+          "confidence": 0.387,
+          "bbox": [
+            421,
+            288,
+            441,
+            345
+          ],
+          "bbox_normalized": [
+            0.4387,
+            0.5345,
+            0.4599,
+            0.6394
+          ],
+          "center": [
+            431,
+            317
+          ],
+          "size_pixels": 1153,
+          "size_m2": 2.2023,
+          "weight_kg": 0.0,
+          "priority": "medium",
+          "color": "#3498db"
+        },
+        {
+          "id": "DET-630D1A36",
+          "class": "activity_indicator",
+          "class_name": "Activity Detected",
+          "coco_class": "person",
+          "confidence": 0.38,
+          "bbox": [
+            240,
+            319,
+            267,
+            363
+          ],
+          "bbox_normalized": [
+            0.2506,
+            0.5921,
+            0.2788,
+            0.6737
+          ],
+          "center": [
+            254,
+            342
+          ],
+          "size_pixels": 1192,
+          "size_m2": 2.277,
+          "weight_kg": 0.0,
+          "priority": "medium",
+          "color": "#3498db"
+        },
+        {
+          "id": "DET-43336537",
+          "class": "activity_indicator",
+          "class_name": "Activity Detected",
+          "coco_class": "person",
+          "confidence": 0.341,
+          "bbox": [
+            816,
+            239,
+            827,
+            270
+          ],
+          "bbox_normalized": [
+            0.8507,
+            0.4433,
+            0.8619,
+            0.5001
+          ],
+          "center": [
+            822,
+            255
+          ],
+          "size_pixels": 332,
+          "size_m2": 0.6339,
+          "weight_kg": 0.0,
+          "priority": "medium",
+          "color": "#3498db"
+        },
+        {
+          "id": "DET-CE7A43E7",
+          "class": "activity_indicator",
+          "class_name": "Activity Detected",
+          "coco_class": "person",
+          "confidence": 0.341,
+          "bbox": [
+            187,
+            323,
+            205,
+            351
+          ],
+          "bbox_normalized": [
+            0.1951,
+            0.5986,
+            0.2136,
+            0.6504
+          ],
+          "center": [
+            196,
+            337
+          ],
+          "size_pixels": 499,
+          "size_m2": 0.9529,
+          "weight_kg": 0.0,
+          "priority": "medium",
+          "color": "#3498db"
+        },
+        {
+          "id": "DET-F1920D83",
+          "class": "activity_indicator",
+          "class_name": "Activity Detected",
+          "coco_class": "person",
+          "confidence": 0.34,
+          "bbox": [
+            395,
+            290,
+            411,
+            342
+          ],
+          "bbox_normalized": [
+            0.412,
+            0.5379,
+            0.4292,
+            0.6348
+          ],
+          "center": [
+            404,
+            317
+          ],
+          "size_pixels": 862,
+          "size_m2": 1.6473,
+          "weight_kg": 0.0,
+          "priority": "medium",
+          "color": "#3498db"
+        }
+      ],
+      "processed_at": "2025-12-26T19:10:05.004668"
+    },
+    {
+      "image": "0000360_02941_d_0000728.jpg",
+      "image_path": "/Users/olivier/Documents/CLAUDE/sylva_conrad_simulation/Drone_Photos/samples/0000360_02941_d_0000728.jpg",
+      "dimensions": {
+        "width": 1360,
+        "height": 765
+      },
+      "detection_count": 25,
+      "total_weight_kg": 4043.83,
+      "detections": [
+        {
+          "id": "DET-2849EE43",
+          "class": "metal_debris",
+          "class_name": "Large Metal Object",
+          "coco_class": "car",
+          "confidence": 0.863,
+          "bbox": [
+            699,
+            292,
+            825,
+            365
+          ],
+          "bbox_normalized": [
+            0.5145,
+            0.3821,
+            0.6067,
+            0.4775
+          ],
+          "center": [
+            762,
+            329
+          ],
+          "size_pixels": 9150,
+          "size_m2": 17.476,
+          "weight_kg": 250.0,
+          "priority": "critical",
+          "color": "#95a5a6"
+        },
+        {
+          "id": "DET-4604904D",
+          "class": "metal_debris",
+          "class_name": "Large Metal Object",
+          "coco_class": "car",
+          "confidence": 0.859,
+          "bbox": [
+            60,
+            308,
+            157,
+            378
+          ],
+          "bbox_normalized": [
+            0.0442,
+            0.4026,
+            0.1158,
+            0.4948
+          ],
+          "center": [
+            109,
+            343
+          ],
+          "size_pixels": 6861,
+          "size_m2": 13.105,
+          "weight_kg": 250.0,
+          "priority": "critical",
+          "color": "#95a5a6"
+        },
+        {
+          "id": "DET-3656ACC2",
+          "class": "metal_debris",
+          "class_name": "Large Metal Object",
+          "coco_class": "car",
+          "confidence": 0.858,
+          "bbox": [
+            842,
+            247,
+            943,
+            305
+          ],
+          "bbox_normalized": [
+            0.6193,
+            0.3229,
+            0.6935,
+            0.3996
+          ],
+          "center": [
+            893,
+            276
+          ],
+          "size_pixels": 5928,
+          "size_m2": 11.3226,
+          "weight_kg": 250.0,
+          "priority": "critical",
+          "color": "#95a5a6"
+        },
+        {
+          "id": "DET-F474907A",
+          "class": "metal_debris",
+          "class_name": "Large Metal Object",
+          "coco_class": "car",
+          "confidence": 0.788,
+          "bbox": [
+            885,
+            276,
+            989,
+            338
+          ],
+          "bbox_normalized": [
+            0.6508,
+            0.3616,
+            0.7276,
+            0.4428
+          ],
+          "center": [
+            937,
+            308
+          ],
+          "size_pixels": 6489,
+          "size_m2": 12.3931,
+          "weight_kg": 250.0,
+          "priority": "critical",
+          "color": "#95a5a6"
+        },
+        {
+          "id": "DET-F27032D9",
+          "class": "metal_debris",
+          "class_name": "Large Metal Object",
+          "coco_class": "car",
+          "confidence": 0.752,
+          "bbox": [
+            754,
+            668,
+            927,
+            765
+          ],
+          "bbox_normalized": [
+            0.5551,
+            0.8736,
+            0.6817,
+            1.0
+          ],
+          "center": [
+            841,
+            717
+          ],
+          "size_pixels": 16642,
+          "size_m2": 31.7847,
+          "weight_kg": 250.0,
+          "priority": "critical",
+          "color": "#95a5a6"
+        },
+        {
+          "id": "DET-80595652",
+          "class": "metal_debris",
+          "class_name": "Large Metal Object",
+          "coco_class": "car",
+          "confidence": 0.747,
+          "bbox": [
+            740,
+            454,
+            854,
+            573
+          ],
+          "bbox_normalized": [
+            0.5445,
+            0.594,
+            0.6286,
+            0.7503
+          ],
+          "center": [
+            798,
+            514
+          ],
+          "size_pixels": 13663,
+          "size_m2": 26.0963,
+          "weight_kg": 250.0,
+          "priority": "critical",
+          "color": "#95a5a6"
+        },
+        {
+          "id": "DET-87C20F86",
+          "class": "metal_debris",
+          "class_name": "Large Metal Object",
+          "coco_class": "car",
+          "confidence": 0.682,
+          "bbox": [
+            986,
+            321,
+            1099,
+            397
+          ],
+          "bbox_normalized": [
+            0.7256,
+            0.4204,
+            0.8087,
+            0.5197
+          ],
+          "center": [
+            1043,
+            360
+          ],
+          "size_pixels": 8591,
+          "size_m2": 16.408,
+          "weight_kg": 250.0,
+          "priority": "critical",
+          "color": "#95a5a6"
+        },
+        {
+          "id": "DET-9F94A737",
+          "class": "metal_debris",
+          "class_name": "Large Metal Object",
+          "coco_class": "car",
+          "confidence": 0.619,
+          "bbox": [
+            940,
+            213,
+            1026,
+            264
+          ],
+          "bbox_normalized": [
+            0.6915,
+            0.2788,
+            0.7548,
+            0.3453
+          ],
+          "center": [
+            983,
+            239
+          ],
+          "size_pixels": 4383,
+          "size_m2": 8.371,
+          "weight_kg": 250.0,
+          "priority": "critical",
+          "color": "#95a5a6"
+        },
+        {
+          "id": "DET-CE340A0A",
+          "class": "metal_debris",
+          "class_name": "Large Metal Object",
+          "coco_class": "car",
+          "confidence": 0.607,
+          "bbox": [
+            1007,
+            246,
+            1088,
+            294
+          ],
+          "bbox_normalized": [
+            0.7408,
+            0.3228,
+            0.8007,
+            0.3845
+          ],
+          "center": [
+            1048,
+            271
+          ],
+          "size_pixels": 3840,
+          "size_m2": 7.3338,
+          "weight_kg": 250.0,
+          "priority": "critical",
+          "color": "#95a5a6"
+        },
+        {
+          "id": "DET-4DB068A4",
+          "class": "activity_indicator",
+          "class_name": "Activity Detected",
+          "coco_class": "person",
+          "confidence": 0.563,
+          "bbox": [
+            948,
+            560,
+            974,
+            617
+          ],
+          "bbox_normalized": [
+            0.6977,
+            0.7329,
+            0.7166,
+            0.8068
+          ],
+          "center": [
+            962,
+            589
+          ],
+          "size_pixels": 1448,
+          "size_m2": 2.7658,
+          "weight_kg": 0.0,
+          "priority": "medium",
+          "color": "#3498db"
+        },
+        {
+          "id": "DET-8F69B009",
+          "class": "activity_indicator",
+          "class_name": "Activity Detected",
+          "coco_class": "person",
+          "confidence": 0.547,
+          "bbox": [
+            729,
+            380,
+            768,
+            432
+          ],
+          "bbox_normalized": [
+            0.5366,
+            0.497,
+            0.5648,
+            0.5655
+          ],
+          "center": [
+            749,
+            406
+          ],
+          "size_pixels": 2012,
+          "size_m2": 3.8433,
+          "weight_kg": 0.0,
+          "priority": "medium",
+          "color": "#3498db"
+        },
+        {
+          "id": "DET-F82DAFC3",
+          "class": "metal_debris",
+          "class_name": "Large Metal Object",
+          "coco_class": "car",
+          "confidence": 0.51,
+          "bbox": [
+            0,
+            181,
+            13,
+            213
+          ],
+          "bbox_normalized": [
+            0.0001,
+            0.2375,
+            0.0101,
+            0.279
+          ],
+          "center": [
+            7,
+            198
+          ],
+          "size_pixels": 433,
+          "size_m2": 0.8261,
+          "weight_kg": 62.5,
+          "priority": "critical",
+          "color": "#95a5a6"
+        },
+        {
+          "id": "DET-692AC59B",
+          "class": "metal_debris",
+          "class_name": "Large Metal Object",
+          "coco_class": "car",
+          "confidence": 0.429,
+          "bbox": [
+            142,
+            168,
+            174,
+            195
+          ],
+          "bbox_normalized": [
+            0.1044,
+            0.2199,
+            0.1281,
+            0.2552
+          ],
+          "center": [
+            158,
+            182
+          ],
+          "size_pixels": 871,
+          "size_m2": 1.6643,
+          "weight_kg": 104.016,
+          "priority": "critical",
+          "color": "#95a5a6"
+        },
+        {
+          "id": "DET-1E56B331",
+          "class": "metal_debris",
+          "class_name": "Large Metal Object",
+          "coco_class": "car",
+          "confidence": 0.375,
+          "bbox": [
+            113,
+            154,
+            151,
+            181
+          ],
+          "bbox_normalized": [
+            0.0838,
+            0.2024,
+            0.1115,
+            0.2378
+          ],
+          "center": [
+            133,
+            168
+          ],
+          "size_pixels": 1020,
+          "size_m2": 1.9484,
+          "weight_kg": 121.778,
+          "priority": "critical",
+          "color": "#95a5a6"
+        },
+        {
+          "id": "DET-F5C0DC6F",
+          "class": "metal_debris",
+          "class_name": "Large Metal Object",
+          "coco_class": "car",
+          "confidence": 0.371,
+          "bbox": [
+            1344,
+            199,
+            1359,
+            236
+          ],
+          "bbox_normalized": [
+            0.9884,
+            0.2603,
+            0.9996,
+            0.3096
+          ],
+          "center": [
+            1352,
+            218
+          ],
+          "size_pixels": 577,
+          "size_m2": 1.1015,
+          "weight_kg": 68.845,
+          "priority": "critical",
+          "color": "#95a5a6"
+        },
+        {
+          "id": "DET-546752F2",
+          "class": "metal_debris",
+          "class_name": "Large Metal Object",
+          "coco_class": "car",
+          "confidence": 0.37,
+          "bbox": [
+            1173,
+            165,
+            1249,
+            220
+          ],
+          "bbox_normalized": [
+            0.8626,
+            0.2167,
+            0.9184,
+            0.2876
+          ],
+          "center": [
+            1211,
+            193
+          ],
+          "size_pixels": 4115,
+          "size_m2": 7.8591,
+          "weight_kg": 250.0,
+          "priority": "critical",
+          "color": "#95a5a6"
+        },
+        {
+          "id": "DET-CD8B9E91",
+          "class": "activity_indicator",
+          "class_name": "Activity Detected",
+          "coco_class": "person",
+          "confidence": 0.363,
+          "bbox": [
+            1067,
+            433,
+            1108,
+            487
+          ],
+          "bbox_normalized": [
+            0.7849,
+            0.5667,
+            0.8148,
+            0.6373
+          ],
+          "center": [
+            1088,
+            461
+          ],
+          "size_pixels": 2199,
+          "size_m2": 4.2006,
+          "weight_kg": 0.0,
+          "priority": "medium",
+          "color": "#3498db"
+        },
+        {
+          "id": "DET-1E64DD7D",
+          "class": "metal_debris",
+          "class_name": "Large Metal Object",
+          "coco_class": "car",
+          "confidence": 0.327,
+          "bbox": [
+            573,
+            263,
+            625,
+            307
+          ],
+          "bbox_normalized": [
+            0.4213,
+            0.344,
+            0.46,
+            0.4024
+          ],
+          "center": [
+            599,
+            285
+          ],
+          "size_pixels": 2349,
+          "size_m2": 4.486,
+          "weight_kg": 250.0,
+          "priority": "critical",
+          "color": "#95a5a6"
+        },
+        {
+          "id": "DET-F13A05BB",
+          "class": "metal_debris",
+          "class_name": "Large Metal Object",
+          "coco_class": "car",
+          "confidence": 0.317,
+          "bbox": [
+            177,
+            189,
+            211,
+            213
+          ],
+          "bbox_normalized": [
+            0.1306,
+            0.2475,
+            0.1557,
+            0.2788
+          ],
+          "center": [
+            195,
+            201
+          ],
+          "size_pixels": 817,
+          "size_m2": 1.5613,
+          "weight_kg": 97.582,
+          "priority": "critical",
+          "color": "#95a5a6"
+        },
+        {
+          "id": "DET-0B03125A",
+          "class": "activity_indicator",
+          "class_name": "Activity Detected",
+          "coco_class": "person",
+          "confidence": 0.307,
+          "bbox": [
+            403,
+            249,
+            420,
+            296
+          ],
+          "bbox_normalized": [
+            0.2964,
+            0.3262,
+            0.3089,
+            0.387
+          ],
+          "center": [
+            412,
+            273
+          ],
+          "size_pixels": 790,
+          "size_m2": 1.508,
+          "weight_kg": 0.0,
+          "priority": "medium",
+          "color": "#3498db"
+        },
+        {
+          "id": "DET-2C2C5253",
+          "class": "metal_debris",
+          "class_name": "Large Metal Object",
+          "coco_class": "car",
+          "confidence": 0.291,
+          "bbox": [
+            0,
+            293,
+            35,
+            322
+          ],
+          "bbox_normalized": [
+            0.0004,
+            0.3835,
+            0.0259,
+            0.422
+          ],
+          "center": [
+            18,
+            308
+          ],
+          "size_pixels": 1023,
+          "size_m2": 1.9547,
+          "weight_kg": 122.169,
+          "priority": "critical",
+          "color": "#95a5a6"
+        },
+        {
+          "id": "DET-A419399C",
+          "class": "metal_debris",
+          "class_name": "Large Metal Object",
+          "coco_class": "car",
+          "confidence": 0.271,
+          "bbox": [
+            1,
+            292,
+            29,
+            318
+          ],
+          "bbox_normalized": [
+            0.001,
+            0.3825,
+            0.0214,
+            0.4169
+          ],
+          "center": [
+            15,
+            306
+          ],
+          "size_pixels": 729,
+          "size_m2": 1.3916,
+          "weight_kg": 86.978,
+          "priority": "critical",
+          "color": "#95a5a6"
+        },
+        {
+          "id": "DET-C041B9DD",
+          "class": "metal_debris",
+          "class_name": "Large Metal Object",
+          "coco_class": "car",
+          "confidence": 0.263,
+          "bbox": [
+            1309,
+            95,
+            1359,
+            124
+          ],
+          "bbox_normalized": [
+            0.9628,
+            0.1248,
+            0.9996,
+            0.1625
+          ],
+          "center": [
+            1334,
+            110
+          ],
+          "size_pixels": 1443,
+          "size_m2": 2.7569,
+          "weight_kg": 172.309,
+          "priority": "critical",
+          "color": "#95a5a6"
+        },
+        {
+          "id": "DET-FA63760D",
+          "class": "metal_debris",
+          "class_name": "Large Metal Object",
+          "coco_class": "car",
+          "confidence": 0.258,
+          "bbox": [
+            1107,
+            213,
+            1152,
+            251
+          ],
+          "bbox_normalized": [
+            0.814,
+            0.2796,
+            0.8478,
+            0.3292
+          ],
+          "center": [
+            1130,
+            233
+          ],
+          "size_pixels": 1740,
+          "size_m2": 3.3225,
+          "weight_kg": 207.654,
+          "priority": "critical",
+          "color": "#95a5a6"
+        },
+        {
+          "id": "DET-04D5E1F1",
+          "class": "metal_debris",
+          "class_name": "Large Metal Object",
+          "coco_class": "car",
+          "confidence": 0.258,
+          "bbox": [
+            329,
+            220,
+            381,
+            274
+          ],
+          "bbox_normalized": [
+            0.2421,
+            0.2879,
+            0.2802,
+            0.3588
+          ],
+          "center": [
+            355,
+            247
+          ],
+          "size_pixels": 2815,
+          "size_m2": 5.3764,
+          "weight_kg": 250.0,
+          "priority": "critical",
+          "color": "#95a5a6"
+        }
+      ],
+      "processed_at": "2025-12-26T19:10:05.032862"
+    },
+    {
+      "image": "0000360_05293_d_0000740.jpg",
+      "image_path": "/Users/olivier/Documents/CLAUDE/sylva_conrad_simulation/Drone_Photos/samples/0000360_05293_d_0000740.jpg",
+      "dimensions": {
+        "width": 1360,
+        "height": 765
+      },
+      "detection_count": 19,
+      "total_weight_kg": 3094.1,
+      "detections": [
+        {
+          "id": "DET-71411F89",
+          "class": "metal_debris",
+          "class_name": "Large Metal Object",
+          "coco_class": "car",
+          "confidence": 0.76,
+          "bbox": [
+            996,
+            518,
+            1287,
+            645
+          ],
+          "bbox_normalized": [
+            0.7329,
+            0.6782,
+            0.9464,
+            0.8441
+          ],
+          "center": [
+            1142,
+            582
+          ],
+          "size_pixels": 36836,
+          "size_m2": 70.356,
+          "weight_kg": 250.0,
+          "priority": "critical",
+          "color": "#95a5a6"
+        },
+        {
+          "id": "DET-7B42BA22",
+          "class": "metal_debris",
+          "class_name": "Large Metal Object",
+          "coco_class": "car",
+          "confidence": 0.748,
+          "bbox": [
+            671,
+            219,
+            726,
+            280
+          ],
+          "bbox_normalized": [
+            0.4935,
+            0.2873,
+            0.5341,
+            0.3662
+          ],
+          "center": [
+            699,
+            250
+          ],
+          "size_pixels": 3331,
+          "size_m2": 6.3617,
+          "weight_kg": 250.0,
+          "priority": "critical",
+          "color": "#95a5a6"
+        },
+        {
+          "id": "DET-23D68846",
+          "class": "metal_debris",
+          "class_name": "Large Metal Object",
+          "coco_class": "car",
+          "confidence": 0.746,
+          "bbox": [
+            787,
+            392,
+            938,
+            500
+          ],
+          "bbox_normalized": [
+            0.5789,
+            0.513,
+            0.6904,
+            0.6542
+          ],
+          "center": [
+            863,
+            446
+          ],
+          "size_pixels": 16366,
+          "size_m2": 31.2587,
+          "weight_kg": 250.0,
+          "priority": "critical",
+          "color": "#95a5a6"
+        },
+        {
+          "id": "DET-711FAA16",
+          "class": "metal_debris",
+          "class_name": "Large Metal Object",
+          "coco_class": "car",
+          "confidence": 0.689,
+          "bbox": [
+            518,
+            297,
+            598,
+            399
+          ],
+          "bbox_normalized": [
+            0.3812,
+            0.3887,
+            0.4402,
+            0.5226
+          ],
+          "center": [
+            559,
+            349
+          ],
+          "size_pixels": 8210,
+          "size_m2": 15.6804,
+          "weight_kg": 250.0,
+          "priority": "critical",
+          "color": "#95a5a6"
+        },
+        {
+          "id": "DET-DBDE5535",
+          "class": "metal_debris",
+          "class_name": "Large Metal Object",
+          "coco_class": "car",
+          "confidence": 0.681,
+          "bbox": [
+            672,
+            408,
+            796,
+            533
+          ],
+          "bbox_normalized": [
+            0.4948,
+            0.5345,
+            0.5857,
+            0.6979
+          ],
+          "center": [
+            735,
+            471
+          ],
+          "size_pixels": 15459,
+          "size_m2": 29.5268,
+          "weight_kg": 250.0,
+          "priority": "critical",
+          "color": "#95a5a6"
+        },
+        {
+          "id": "DET-A11E29D5",
+          "class": "metal_debris",
+          "class_name": "Large Metal Object",
+          "coco_class": "car",
+          "confidence": 0.633,
+          "bbox": [
+            576,
+            113,
+            621,
+            164
+          ],
+          "bbox_normalized": [
+            0.424,
+            0.149,
+            0.4567,
+            0.2148
+          ],
+          "center": [
+            599,
+            139
+          ],
+          "size_pixels": 2241,
+          "size_m2": 4.281,
+          "weight_kg": 250.0,
+          "priority": "critical",
+          "color": "#95a5a6"
+        },
+        {
+          "id": "DET-79E9109F",
+          "class": "metal_debris",
+          "class_name": "Large Metal Object",
+          "coco_class": "car",
+          "confidence": 0.624,
+          "bbox": [
+            548,
+            541,
+            715,
+            765
+          ],
+          "bbox_normalized": [
+            0.4034,
+            0.7073,
+            0.5263,
+            1.0
+          ],
+          "center": [
+            632,
+            653
+          ],
+          "size_pixels": 37421,
+          "size_m2": 71.4733,
+          "weight_kg": 250.0,
+          "priority": "critical",
+          "color": "#95a5a6"
+        },
+        {
+          "id": "DET-652EA648",
+          "class": "activity_indicator",
+          "class_name": "Activity Detected",
+          "coco_class": "person",
+          "confidence": 0.623,
+          "bbox": [
+            894,
+            311,
+            916,
+            376
+          ],
+          "bbox_normalized": [
+            0.6574,
+            0.4065,
+            0.6739,
+            0.4919
+          ],
+          "center": [
+            905,
+            344
+          ],
+          "size_pixels": 1467,
+          "size_m2": 2.802,
+          "weight_kg": 0.0,
+          "priority": "medium",
+          "color": "#3498db"
+        },
+        {
+          "id": "DET-486C680B",
+          "class": "activity_indicator",
+          "class_name": "Activity Detected",
+          "coco_class": "person",
+          "confidence": 0.553,
+          "bbox": [
+            14,
+            430,
+            60,
+            530
+          ],
+          "bbox_normalized": [
+            0.0108,
+            0.5634,
+            0.0443,
+            0.6933
+          ],
+          "center": [
+            37,
+            481
+          ],
+          "size_pixels": 4526,
+          "size_m2": 8.6452,
+          "weight_kg": 0.0,
+          "priority": "medium",
+          "color": "#3498db"
+        },
+        {
+          "id": "DET-BFD3C4BD",
+          "class": "metal_debris",
+          "class_name": "Large Metal Object",
+          "coco_class": "car",
+          "confidence": 0.5,
+          "bbox": [
+            562,
+            172,
+            613,
+            226
+          ],
+          "bbox_normalized": [
+            0.4135,
+            0.2253,
+            0.4511,
+            0.2956
+          ],
+          "center": [
+            588,
+            199
+          ],
+          "size_pixels": 2753,
+          "size_m2": 5.259,
+          "weight_kg": 250.0,
+          "priority": "critical",
+          "color": "#95a5a6"
+        },
+        {
+          "id": "DET-B022CB3E",
+          "class": "metal_debris",
+          "class_name": "Large Metal Object",
+          "coco_class": "car",
+          "confidence": 0.467,
+          "bbox": [
+            435,
+            247,
+            512,
+            327
+          ],
+          "bbox_normalized": [
+            0.3199,
+            0.3236,
+            0.3771,
+            0.4283
+          ],
+          "center": [
+            474,
+            288
+          ],
+          "size_pixels": 6229,
+          "size_m2": 11.8971,
+          "weight_kg": 250.0,
+          "priority": "critical",
+          "color": "#95a5a6"
+        },
+        {
+          "id": "DET-C78DF5DF",
+          "class": "metal_debris",
+          "class_name": "Large Metal Object",
+          "coco_class": "car",
+          "confidence": 0.463,
+          "bbox": [
+            786,
+            645,
+            908,
+            765
+          ],
+          "bbox_normalized": [
+            0.5783,
+            0.8443,
+            0.6677,
+            1.0
+          ],
+          "center": [
+            847,
+            705
+          ],
+          "size_pixels": 14482,
+          "size_m2": 27.6597,
+          "weight_kg": 250.0,
+          "priority": "critical",
+          "color": "#95a5a6"
+        },
+        {
+          "id": "DET-C3DAF03D",
+          "class": "metal_debris",
+          "class_name": "Large Metal Object",
+          "coco_class": "car",
+          "confidence": 0.417,
+          "bbox": [
+            460,
+            119,
+            512,
+            169
+          ],
+          "bbox_normalized": [
+            0.3388,
+            0.1556,
+            0.377,
+            0.2216
+          ],
+          "center": [
+            487,
+            144
+          ],
+          "size_pixels": 2623,
+          "size_m2": 5.0107,
+          "weight_kg": 250.0,
+          "priority": "critical",
+          "color": "#95a5a6"
+        },
+        {
+          "id": "DET-4A1534C0",
+          "class": "metal_debris",
+          "class_name": "Large Metal Object",
+          "coco_class": "car",
+          "confidence": 0.391,
+          "bbox": [
+            508,
+            52,
+            566,
+            98
+          ],
+          "bbox_normalized": [
+            0.3737,
+            0.0684,
+            0.4169,
+            0.1283
+          ],
+          "center": [
+            538,
+            75
+          ],
+          "size_pixels": 2696,
+          "size_m2": 5.1484,
+          "weight_kg": 250.0,
+          "priority": "critical",
+          "color": "#95a5a6"
+        },
+        {
+          "id": "DET-296BDF8B",
+          "class": "activity_indicator",
+          "class_name": "Activity Detected",
+          "coco_class": "person",
+          "confidence": 0.38,
+          "bbox": [
+            65,
+            452,
+            90,
+            512
+          ],
+          "bbox_normalized": [
+            0.048,
+            0.5918,
+            0.0663,
+            0.6702
+          ],
+          "center": [
+            78,
+            483
+          ],
+          "size_pixels": 1489,
+          "size_m2": 2.8446,
+          "weight_kg": 0.0,
+          "priority": "medium",
+          "color": "#3498db"
+        },
+        {
+          "id": "DET-E12D5528",
+          "class": "activity_indicator",
+          "class_name": "Activity Detected",
+          "coco_class": "person",
+          "confidence": 0.359,
+          "bbox": [
+            864,
+            305,
+            885,
+            360
+          ],
+          "bbox_normalized": [
+            0.6353,
+            0.399,
+            0.6509,
+            0.4708
+          ],
+          "center": [
+            875,
+            333
+          ],
+          "size_pixels": 1164,
+          "size_m2": 2.2234,
+          "weight_kg": 0.0,
+          "priority": "medium",
+          "color": "#3498db"
+        },
+        {
+          "id": "DET-BFDA42C6",
+          "class": "metal_debris",
+          "class_name": "Large Metal Object",
+          "coco_class": "car",
+          "confidence": 0.276,
+          "bbox": [
+            704,
+            48,
+            731,
+            77
+          ],
+          "bbox_normalized": [
+            0.5177,
+            0.0637,
+            0.538,
+            0.1012
+          ],
+          "center": [
+            718,
+            63
+          ],
+          "size_pixels": 788,
+          "size_m2": 1.5056,
+          "weight_kg": 94.099,
+          "priority": "critical",
+          "color": "#95a5a6"
+        },
+        {
+          "id": "DET-11E3032B",
+          "class": "activity_indicator",
+          "class_name": "Activity Detected",
+          "coco_class": "person",
+          "confidence": 0.273,
+          "bbox": [
+            778,
+            188,
+            794,
+            229
+          ],
+          "bbox_normalized": [
+            0.5727,
+            0.2462,
+            0.5844,
+            0.2998
+          ],
+          "center": [
+            787,
+            209
+          ],
+          "size_pixels": 655,
+          "size_m2": 1.2518,
+          "weight_kg": 0.0,
+          "priority": "medium",
+          "color": "#3498db"
+        },
+        {
+          "id": "DET-D39DBD41",
+          "class": "activity_indicator",
+          "class_name": "Activity Detected",
+          "coco_class": "person",
+          "confidence": 0.26,
+          "bbox": [
+            893,
+            306,
+            910,
+            375
+          ],
+          "bbox_normalized": [
+            0.6569,
+            0.4012,
+            0.6697,
+            0.4908
+          ],
+          "center": [
+            902,
+            341
+          ],
+          "size_pixels": 1190,
+          "size_m2": 2.2722,
+          "weight_kg": 0.0,
+          "priority": "medium",
+          "color": "#3498db"
+        }
+      ],
+      "processed_at": "2025-12-26T19:10:05.062269"
+    },
+    {
+      "image": "0000364_00589_d_0000798.jpg",
+      "image_path": "/Users/olivier/Documents/CLAUDE/sylva_conrad_simulation/Drone_Photos/samples/0000364_00589_d_0000798.jpg",
+      "dimensions": {
+        "width": 960,
+        "height": 540
+      },
+      "detection_count": 11,
+      "total_weight_kg": 3336.69,
+      "detections": [
+        {
+          "id": "DET-6068E3D1",
+          "class": "construction_waste",
+          "class_name": "Construction Debris",
+          "coco_class": "truck",
+          "confidence": 0.744,
+          "bbox": [
+            596,
+            408,
+            757,
+            506
+          ],
+          "bbox_normalized": [
+            0.6211,
+            0.7561,
+            0.7892,
+            0.9377
+          ],
+          "center": [
+            677,
+            457
+          ],
+          "size_pixels": 15827,
+          "size_m2": 30.2297,
+          "weight_kg": 600.0,
+          "priority": "critical",
+          "color": "#e67e22"
+        },
+        {
+          "id": "DET-CC8F9DEE",
+          "class": "construction_waste",
+          "class_name": "Construction Debris",
+          "coco_class": "truck",
+          "confidence": 0.525,
+          "bbox": [
+            265,
+            479,
+            318,
+            526
+          ],
+          "bbox_normalized": [
+            0.2762,
+            0.8881,
+            0.3317,
+            0.9743
+          ],
+          "center": [
+            292,
+            503
+          ],
+          "size_pixels": 2483,
+          "size_m2": 4.7428,
+          "weight_kg": 474.279,
+          "priority": "critical",
+          "color": "#e67e22"
+        },
+        {
+          "id": "DET-842050BE",
+          "class": "construction_waste",
+          "class_name": "Construction Debris",
+          "coco_class": "truck",
+          "confidence": 0.461,
+          "bbox": [
+            227,
+            294,
+            324,
+            364
+          ],
+          "bbox_normalized": [
+            0.2366,
+            0.5459,
+            0.3377,
+            0.6755
+          ],
+          "center": [
+            276,
+            330
+          ],
+          "size_pixels": 6787,
+          "size_m2": 12.9624,
+          "weight_kg": 600.0,
+          "priority": "critical",
+          "color": "#e67e22"
+        },
+        {
+          "id": "DET-9821562D",
+          "class": "metal_debris",
+          "class_name": "Large Metal Object",
+          "coco_class": "car",
+          "confidence": 0.343,
+          "bbox": [
+            347,
+            275,
+            375,
+            307
+          ],
+          "bbox_normalized": [
+            0.362,
+            0.5101,
+            0.3916,
+            0.5688
+          ],
+          "center": [
+            362,
+            291
+          ],
+          "size_pixels": 899,
+          "size_m2": 1.7177,
+          "weight_kg": 107.356,
+          "priority": "critical",
+          "color": "#95a5a6"
+        },
+        {
+          "id": "DET-4994F6A1",
+          "class": "construction_waste",
+          "class_name": "Construction Debris",
+          "coco_class": "truck",
+          "confidence": 0.332,
+          "bbox": [
+            0,
+            383,
+            99,
+            533
+          ],
+          "bbox_normalized": [
+            0.0005,
+            0.71,
+            0.1036,
+            0.9885
+          ],
+          "center": [
+            50,
+            459
+          ],
+          "size_pixels": 14879,
+          "size_m2": 28.418,
+          "weight_kg": 600.0,
+          "priority": "critical",
+          "color": "#e67e22"
+        },
+        {
+          "id": "DET-46B5D9A3",
+          "class": "construction_waste",
+          "class_name": "Construction Debris",
+          "coco_class": "truck",
+          "confidence": 0.328,
+          "bbox": [
+            302,
+            359,
+            349,
+            415
+          ],
+          "bbox_normalized": [
+            0.3149,
+            0.6665,
+            0.3644,
+            0.7703
+          ],
+          "center": [
+            326,
+            388
+          ],
+          "size_pixels": 2657,
+          "size_m2": 5.075,
+          "weight_kg": 507.501,
+          "priority": "critical",
+          "color": "#e67e22"
+        },
+        {
+          "id": "DET-B128A95E",
+          "class": "activity_indicator",
+          "class_name": "Activity Detected",
+          "coco_class": "person",
+          "confidence": 0.326,
+          "bbox": [
+            527,
+            360,
+            543,
+            399
+          ],
+          "bbox_normalized": [
+            0.5492,
+            0.6681,
+            0.5658,
+            0.7391
+          ],
+          "center": [
+            535,
+            380
+          ],
+          "size_pixels": 612,
+          "size_m2": 1.169,
+          "weight_kg": 0.0,
+          "priority": "medium",
+          "color": "#3498db"
+        },
+        {
+          "id": "DET-1FACDF36",
+          "class": "metal_debris",
+          "class_name": "Large Metal Object",
+          "coco_class": "car",
+          "confidence": 0.313,
+          "bbox": [
+            476,
+            247,
+            502,
+            282
+          ],
+          "bbox_normalized": [
+            0.4962,
+            0.459,
+            0.5236,
+            0.5224
+          ],
+          "center": [
+            489,
+            265
+          ],
+          "size_pixels": 901,
+          "size_m2": 1.7201,
+          "weight_kg": 107.509,
+          "priority": "critical",
+          "color": "#95a5a6"
+        },
+        {
+          "id": "DET-94692C28",
+          "class": "metal_debris",
+          "class_name": "Large Metal Object",
+          "coco_class": "car",
+          "confidence": 0.307,
+          "bbox": [
+            380,
+            295,
+            404,
+            327
+          ],
+          "bbox_normalized": [
+            0.3967,
+            0.5477,
+            0.4214,
+            0.6066
+          ],
+          "center": [
+            393,
+            312
+          ],
+          "size_pixels": 754,
+          "size_m2": 1.4407,
+          "weight_kg": 90.041,
+          "priority": "critical",
+          "color": "#95a5a6"
+        },
+        {
+          "id": "DET-6499EAD7",
+          "class": "activity_indicator",
+          "class_name": "Activity Detected",
+          "coco_class": "person",
+          "confidence": 0.272,
+          "bbox": [
+            624,
+            354,
+            638,
+            390
+          ],
+          "bbox_normalized": [
+            0.6509,
+            0.6564,
+            0.6653,
+            0.7235
+          ],
+          "center": [
+            632,
+            373
+          ],
+          "size_pixels": 500,
+          "size_m2": 0.9542,
+          "weight_kg": 0.0,
+          "priority": "medium",
+          "color": "#3498db"
+        },
+        {
+          "id": "DET-0465AA18",
+          "class": "metal_debris",
+          "class_name": "Large Metal Object",
+          "coco_class": "car",
+          "confidence": 0.27,
+          "bbox": [
+            301,
+            359,
+            350,
+            415
+          ],
+          "bbox_normalized": [
+            0.314,
+            0.6649,
+            0.3647,
+            0.7697
+          ],
+          "center": [
+            326,
+            387
+          ],
+          "size_pixels": 2757,
+          "size_m2": 5.2655,
+          "weight_kg": 250.0,
+          "priority": "critical",
+          "color": "#95a5a6"
+        }
+      ],
+      "processed_at": "2025-12-26T19:10:05.090772"
+    },
+    {
+      "image": "DSC00153.JPG",
+      "image_path": "/Users/olivier/Documents/CLAUDE/sylva_conrad_simulation/Drone_Photos/samples/DSC00153.JPG",
+      "dimensions": {
+        "width": 4592,
+        "height": 3056
+      },
+      "detection_count": 3,
+      "total_weight_kg": 1100.0,
+      "detections": [
+        {
+          "id": "DET-07686E7D",
+          "class": "metal_debris",
+          "class_name": "Large Metal Object",
+          "coco_class": "car",
+          "confidence": 0.683,
+          "bbox": [
+            3663,
+            625,
+            3905,
+            731
+          ],
+          "bbox_normalized": [
+            0.7977,
+            0.2047,
+            0.8504,
+            0.2394
+          ],
+          "center": [
+            3784,
+            679
+          ],
+          "size_pixels": 25650,
+          "size_m2": 48.991,
+          "weight_kg": 250.0,
+          "priority": "critical",
+          "color": "#95a5a6"
+        },
+        {
+          "id": "DET-A747E86F",
+          "class": "metal_debris",
+          "class_name": "Large Metal Object",
+          "coco_class": "car",
+          "confidence": 0.484,
+          "bbox": [
+            2211,
+            347,
+            2383,
+            449
+          ],
+          "bbox_normalized": [
+            0.4817,
+            0.1137,
+            0.519,
+            0.1472
+          ],
+          "center": [
+            2298,
+            399
+          ],
+          "size_pixels": 17577,
+          "size_m2": 33.5723,
+          "weight_kg": 250.0,
+          "priority": "critical",
+          "color": "#95a5a6"
+        },
+        {
+          "id": "DET-20213BDA",
+          "class": "construction_waste",
+          "class_name": "Construction Debris",
+          "coco_class": "truck",
+          "confidence": 0.255,
+          "bbox": [
+            1019,
+            1,
+            1765,
+            439
+          ],
+          "bbox_normalized": [
+            0.2221,
+            0.0004,
+            0.3844,
+            0.1439
+          ],
+          "center": [
+            1393,
+            221
+          ],
+          "size_pixels": 326927,
+          "size_m2": 624.4184,
+          "weight_kg": 600.0,
+          "priority": "critical",
+          "color": "#e67e22"
+        }
+      ],
+      "processed_at": "2025-12-26T19:10:05.213204"
+    },
+    {
+      "image": "DSC00160.JPG",
+      "image_path": "/Users/olivier/Documents/CLAUDE/sylva_conrad_simulation/Drone_Photos/samples/DSC00160.JPG",
+      "dimensions": {
+        "width": 4592,
+        "height": 3056
+      },
+      "detection_count": 12,
+      "total_weight_kg": 3950.0,
+      "detections": [
+        {
+          "id": "DET-F0A6F533",
+          "class": "construction_waste",
+          "class_name": "Large Abandoned Object",
+          "coco_class": "bus",
+          "confidence": 0.635,
+          "bbox": [
+            952,
+            0,
+            1680,
+            602
+          ],
+          "bbox_normalized": [
+            0.2074,
+            0.0,
+            0.366,
+            0.1973
+          ],
+          "center": [
+            1317,
+            301
+          ],
+          "size_pixels": 439055,
+          "size_m2": 838.5775,
+          "weight_kg": 1200.0,
+          "priority": "critical",
+          "color": "#e67e22"
+        },
+        {
+          "id": "DET-3D0A55F8",
+          "class": "metal_debris",
+          "class_name": "Large Metal Object",
+          "coco_class": "car",
+          "confidence": 0.56,
+          "bbox": [
+            3073,
+            2731,
+            3524,
+            3027
+          ],
+          "bbox_normalized": [
+            0.6693,
+            0.8938,
+            0.7676,
+            0.9905
+          ],
+          "center": [
+            3299,
+            2879
+          ],
+          "size_pixels": 133454,
+          "size_m2": 254.8924,
+          "weight_kg": 250.0,
+          "priority": "critical",
+          "color": "#95a5a6"
+        },
+        {
+          "id": "DET-4278D6DC",
+          "class": "metal_debris",
+          "class_name": "Large Metal Object",
+          "coco_class": "car",
+          "confidence": 0.52,
+          "bbox": [
+            3666,
+            1413,
+            3850,
+            1644
+          ],
+          "bbox_normalized": [
+            0.7985,
+            0.4627,
+            0.8384,
+            0.5383
+          ],
+          "center": [
+            3758,
+            1529
+          ],
+          "size_pixels": 42377,
+          "size_m2": 80.9383,
+          "weight_kg": 250.0,
+          "priority": "critical",
+          "color": "#95a5a6"
+        },
+        {
+          "id": "DET-FE908369",
+          "class": "metal_debris",
+          "class_name": "Large Metal Object",
+          "coco_class": "car",
+          "confidence": 0.488,
+          "bbox": [
+            3079,
+            2738,
+            3516,
+            2946
+          ],
+          "bbox_normalized": [
+            0.6707,
+            0.8962,
+            0.7658,
+            0.9642
+          ],
+          "center": [
+            3298,
+            2843
+          ],
+          "size_pixels": 90819,
+          "size_m2": 173.4604,
+          "weight_kg": 250.0,
+          "priority": "critical",
+          "color": "#95a5a6"
+        },
+        {
+          "id": "DET-9DAF3580",
+          "class": "metal_debris",
+          "class_name": "Large Metal Object",
+          "coco_class": "car",
+          "confidence": 0.48,
+          "bbox": [
+            2249,
+            71,
+            2421,
+            151
+          ],
+          "bbox_normalized": [
+            0.4898,
+            0.0233,
+            0.5273,
+            0.0495
+          ],
+          "center": [
+            2335,
+            111
+          ],
+          "size_pixels": 13788,
+          "size_m2": 26.3346,
+          "weight_kg": 250.0,
+          "priority": "critical",
+          "color": "#95a5a6"
+        },
+        {
+          "id": "DET-EC8B63C9",
+          "class": "metal_debris",
+          "class_name": "Large Metal Object",
+          "coco_class": "car",
+          "confidence": 0.466,
+          "bbox": [
+            3114,
+            2068,
+            3465,
+            2225
+          ],
+          "bbox_normalized": [
+            0.6782,
+            0.6768,
+            0.7547,
+            0.7283
+          ],
+          "center": [
+            3290,
+            2147
+          ],
+          "size_pixels": 55382,
+          "size_m2": 105.7783,
+          "weight_kg": 250.0,
+          "priority": "critical",
+          "color": "#95a5a6"
+        },
+        {
+          "id": "DET-CFE043E6",
+          "class": "metal_debris",
+          "class_name": "Large Metal Object",
+          "coco_class": "car",
+          "confidence": 0.448,
+          "bbox": [
+            1294,
+            612,
+            1471,
+            698
+          ],
+          "bbox_normalized": [
+            0.2819,
+            0.2005,
+            0.3205,
+            0.2287
+          ],
+          "center": [
+            1383,
+            656
+          ],
+          "size_pixels": 15298,
+          "size_m2": 29.2183,
+          "weight_kg": 250.0,
+          "priority": "critical",
+          "color": "#95a5a6"
+        },
+        {
+          "id": "DET-50CF590A",
+          "class": "metal_debris",
+          "class_name": "Large Metal Object",
+          "coco_class": "car",
+          "confidence": 0.448,
+          "bbox": [
+            1585,
+            442,
+            1712,
+            563
+          ],
+          "bbox_normalized": [
+            0.3453,
+            0.1448,
+            0.373,
+            0.1844
+          ],
+          "center": [
+            1649,
+            503
+          ],
+          "size_pixels": 15374,
+          "size_m2": 29.3639,
+          "weight_kg": 250.0,
+          "priority": "critical",
+          "color": "#95a5a6"
+        },
+        {
+          "id": "DET-3FE965BE",
+          "class": "metal_debris",
+          "class_name": "Large Metal Object",
+          "coco_class": "car",
+          "confidence": 0.418,
+          "bbox": [
+            3144,
+            417,
+            3350,
+            515
+          ],
+          "bbox_normalized": [
+            0.6847,
+            0.1368,
+            0.7296,
+            0.1687
+          ],
+          "center": [
+            3247,
+            467
+          ],
+          "size_pixels": 20123,
+          "size_m2": 38.4336,
+          "weight_kg": 250.0,
+          "priority": "critical",
+          "color": "#95a5a6"
+        },
+        {
+          "id": "DET-B49A3CA9",
+          "class": "metal_debris",
+          "class_name": "Large Metal Object",
+          "coco_class": "car",
+          "confidence": 0.353,
+          "bbox": [
+            1721,
+            295,
+            1842,
+            408
+          ],
+          "bbox_normalized": [
+            0.3749,
+            0.0968,
+            0.4012,
+            0.1337
+          ],
+          "center": [
+            1782,
+            352
+          ],
+          "size_pixels": 13587,
+          "size_m2": 25.9511,
+          "weight_kg": 250.0,
+          "priority": "critical",
+          "color": "#95a5a6"
+        },
+        {
+          "id": "DET-FFFE23F9",
+          "class": "metal_debris",
+          "class_name": "Large Metal Object",
+          "coco_class": "car",
+          "confidence": 0.327,
+          "bbox": [
+            3057,
+            2348,
+            3503,
+            2532
+          ],
+          "bbox_normalized": [
+            0.6658,
+            0.7685,
+            0.7629,
+            0.8287
+          ],
+          "center": [
+            3280,
+            2441
+          ],
+          "size_pixels": 82052,
+          "size_m2": 156.7155,
+          "weight_kg": 250.0,
+          "priority": "critical",
+          "color": "#95a5a6"
+        },
+        {
+          "id": "DET-454996D1",
+          "class": "metal_debris",
+          "class_name": "Large Metal Object",
+          "coco_class": "car",
+          "confidence": 0.306,
+          "bbox": [
+            1092,
+            579,
+            1253,
+            679
+          ],
+          "bbox_normalized": [
+            0.2378,
+            0.1896,
+            0.2729,
+            0.2222
+          ],
+          "center": [
+            1173,
+            629
+          ],
+          "size_pixels": 16030,
+          "size_m2": 30.6167,
+          "weight_kg": 250.0,
+          "priority": "critical",
+          "color": "#95a5a6"
+        }
+      ],
+      "processed_at": "2025-12-26T19:10:05.402709"
+    },
+    {
+      "image": "DSC00165.JPG",
+      "image_path": "/Users/olivier/Documents/CLAUDE/sylva_conrad_simulation/Drone_Photos/samples/DSC00165.JPG",
+      "dimensions": {
+        "width": 4592,
+        "height": 3056
+      },
+      "detection_count": 19,
+      "total_weight_kg": 4750.0,
+      "detections": [
+        {
+          "id": "DET-C1300051",
+          "class": "metal_debris",
+          "class_name": "Large Metal Object",
+          "coco_class": "car",
+          "confidence": 0.699,
+          "bbox": [
+            267,
+            1434,
+            539,
+            1608
+          ],
+          "bbox_normalized": [
+            0.0582,
+            0.4696,
+            0.1174,
+            0.5262
+          ],
+          "center": [
+            403,
+            1522
+          ],
+          "size_pixels": 47038,
+          "size_m2": 89.8412,
+          "weight_kg": 250.0,
+          "priority": "critical",
+          "color": "#95a5a6"
+        },
+        {
+          "id": "DET-2F5BB35A",
+          "class": "metal_debris",
+          "class_name": "Large Metal Object",
+          "coco_class": "car",
+          "confidence": 0.693,
+          "bbox": [
+            1042,
+            1300,
+            1292,
+            1474
+          ],
+          "bbox_normalized": [
+            0.2269,
+            0.4256,
+            0.2815,
+            0.4824
+          ],
+          "center": [
+            1167,
+            1387
+          ],
+          "size_pixels": 43526,
+          "size_m2": 83.133,
+          "weight_kg": 250.0,
+          "priority": "critical",
+          "color": "#95a5a6"
+        },
+        {
+          "id": "DET-04DD0155",
+          "class": "metal_debris",
+          "class_name": "Large Metal Object",
+          "coco_class": "car",
+          "confidence": 0.68,
+          "bbox": [
+            581,
+            815,
+            710,
+            927
+          ],
+          "bbox_normalized": [
+            0.1267,
+            0.267,
+            0.1546,
+            0.3034
+          ],
+          "center": [
+            646,
+            872
+          ],
+          "size_pixels": 14260,
+          "size_m2": 27.2365,
+          "weight_kg": 250.0,
+          "priority": "critical",
+          "color": "#95a5a6"
+        },
+        {
+          "id": "DET-21544957",
+          "class": "metal_debris",
+          "class_name": "Large Metal Object",
+          "coco_class": "car",
+          "confidence": 0.662,
+          "bbox": [
+            2402,
+            148,
+            2539,
+            247
+          ],
+          "bbox_normalized": [
+            0.5232,
+            0.0486,
+            0.553,
+            0.0809
+          ],
+          "center": [
+            2471,
+            198
+          ],
+          "size_pixels": 13519,
+          "size_m2": 25.8213,
+          "weight_kg": 250.0,
+          "priority": "critical",
+          "color": "#95a5a6"
+        },
+        {
+          "id": "DET-3E4BEE6C",
+          "class": "metal_debris",
+          "class_name": "Large Metal Object",
+          "coco_class": "car",
+          "confidence": 0.632,
+          "bbox": [
+            397,
+            1106,
+            582,
+            1279
+          ],
+          "bbox_normalized": [
+            0.0866,
+            0.3619,
+            0.1268,
+            0.4186
+          ],
+          "center": [
+            490,
+            1193
+          ],
+          "size_pixels": 31894,
+          "size_m2": 60.9166,
+          "weight_kg": 250.0,
+          "priority": "critical",
+          "color": "#95a5a6"
+        },
+        {
+          "id": "DET-33D02C73",
+          "class": "metal_debris",
+          "class_name": "Large Metal Object",
+          "coco_class": "car",
+          "confidence": 0.604,
+          "bbox": [
+            76,
+            599,
+            281,
+            724
+          ],
+          "bbox_normalized": [
+            0.0166,
+            0.196,
+            0.0614,
+            0.237
+          ],
+          "center": [
+            179,
+            662
+          ],
+          "size_pixels": 25760,
+          "size_m2": 49.2007,
+          "weight_kg": 250.0,
+          "priority": "critical",
+          "color": "#95a5a6"
+        },
+        {
+          "id": "DET-02F1EDD2",
+          "class": "metal_debris",
+          "class_name": "Large Metal Object",
+          "coco_class": "car",
+          "confidence": 0.485,
+          "bbox": [
+            705,
+            1020,
+            837,
+            1152
+          ],
+          "bbox_normalized": [
+            0.1537,
+            0.3339,
+            0.1824,
+            0.3772
+          ],
+          "center": [
+            772,
+            1087
+          ],
+          "size_pixels": 17449,
+          "size_m2": 33.3276,
+          "weight_kg": 250.0,
+          "priority": "critical",
+          "color": "#95a5a6"
+        },
+        {
+          "id": "DET-A39943B3",
+          "class": "metal_debris",
+          "class_name": "Large Metal Object",
+          "coco_class": "car",
+          "confidence": 0.474,
+          "bbox": [
+            1190,
+            1439,
+            1463,
+            1644
+          ],
+          "bbox_normalized": [
+            0.2593,
+            0.4711,
+            0.3187,
+            0.538
+          ],
+          "center": [
+            1327,
+            1542
+          ],
+          "size_pixels": 55716,
+          "size_m2": 106.4161,
+          "weight_kg": 250.0,
+          "priority": "critical",
+          "color": "#95a5a6"
+        },
+        {
+          "id": "DET-C6464AE2",
+          "class": "metal_debris",
+          "class_name": "Large Metal Object",
+          "coco_class": "car",
+          "confidence": 0.471,
+          "bbox": [
+            0,
+            1582,
+            200,
+            1759
+          ],
+          "bbox_normalized": [
+            0.0,
+            0.5178,
+            0.0436,
+            0.5759
+          ],
+          "center": [
+            100,
+            1671
+          ],
+          "size_pixels": 35522,
+          "size_m2": 67.846,
+          "weight_kg": 250.0,
+          "priority": "critical",
+          "color": "#95a5a6"
+        },
+        {
+          "id": "DET-999552B2",
+          "class": "metal_debris",
+          "class_name": "Large Metal Object",
+          "coco_class": "car",
+          "confidence": 0.462,
+          "bbox": [
+            30,
+            774,
+            184,
+            903
+          ],
+          "bbox_normalized": [
+            0.0067,
+            0.2534,
+            0.0403,
+            0.2958
+          ],
+          "center": [
+            108,
+            839
+          ],
+          "size_pixels": 19991,
+          "size_m2": 38.1817,
+          "weight_kg": 250.0,
+          "priority": "critical",
+          "color": "#95a5a6"
+        },
+        {
+          "id": "DET-F21AE1E7",
+          "class": "metal_debris",
+          "class_name": "Large Metal Object",
+          "coco_class": "car",
+          "confidence": 0.393,
+          "bbox": [
+            490,
+            481,
+            631,
+            576
+          ],
+          "bbox_normalized": [
+            0.1068,
+            0.1576,
+            0.1374,
+            0.1886
+          ],
+          "center": [
+            561,
+            529
+          ],
+          "size_pixels": 13360,
+          "size_m2": 25.5167,
+          "weight_kg": 250.0,
+          "priority": "critical",
+          "color": "#95a5a6"
+        },
+        {
+          "id": "DET-A022BAF4",
+          "class": "metal_debris",
+          "class_name": "Large Metal Object",
+          "coco_class": "car",
+          "confidence": 0.392,
+          "bbox": [
+            615,
+            455,
+            770,
+            568
+          ],
+          "bbox_normalized": [
+            0.134,
+            0.1491,
+            0.1679,
+            0.1862
+          ],
+          "center": [
+            693,
+            512
+          ],
+          "size_pixels": 17623,
+          "size_m2": 33.6584,
+          "weight_kg": 250.0,
+          "priority": "critical",
+          "color": "#95a5a6"
+        },
+        {
+          "id": "DET-7033E803",
+          "class": "metal_debris",
+          "class_name": "Large Metal Object",
+          "coco_class": "car",
+          "confidence": 0.387,
+          "bbox": [
+            1281,
+            329,
+            1437,
+            438
+          ],
+          "bbox_normalized": [
+            0.2791,
+            0.1079,
+            0.313,
+            0.1436
+          ],
+          "center": [
+            1360,
+            384
+          ],
+          "size_pixels": 16989,
+          "size_m2": 32.4492,
+          "weight_kg": 250.0,
+          "priority": "critical",
+          "color": "#95a5a6"
+        },
+        {
+          "id": "DET-C36F5A21",
+          "class": "metal_debris",
+          "class_name": "Large Metal Object",
+          "coco_class": "car",
+          "confidence": 0.383,
+          "bbox": [
+            1852,
+            322,
+            2001,
+            382
+          ],
+          "bbox_normalized": [
+            0.4034,
+            0.1054,
+            0.436,
+            0.1252
+          ],
+          "center": [
+            1927,
+            352
+          ],
+          "size_pixels": 9057,
+          "size_m2": 17.2983,
+          "weight_kg": 250.0,
+          "priority": "critical",
+          "color": "#95a5a6"
+        },
+        {
+          "id": "DET-22C6514D",
+          "class": "metal_debris",
+          "class_name": "Large Metal Object",
+          "coco_class": "car",
+          "confidence": 0.337,
+          "bbox": [
+            796,
+            363,
+            948,
+            460
+          ],
+          "bbox_normalized": [
+            0.1734,
+            0.119,
+            0.2066,
+            0.1506
+          ],
+          "center": [
+            872,
+            412
+          ],
+          "size_pixels": 14744,
+          "size_m2": 28.1607,
+          "weight_kg": 250.0,
+          "priority": "critical",
+          "color": "#95a5a6"
+        },
+        {
+          "id": "DET-5E5D9749",
+          "class": "metal_debris",
+          "class_name": "Large Metal Object",
+          "coco_class": "car",
+          "confidence": 0.273,
+          "bbox": [
+            1173,
+            1400,
+            1450,
+            1619
+          ],
+          "bbox_normalized": [
+            0.2556,
+            0.4582,
+            0.3158,
+            0.53
+          ],
+          "center": [
+            1312,
+            1510
+          ],
+          "size_pixels": 60638,
+          "size_m2": 115.8164,
+          "weight_kg": 250.0,
+          "priority": "critical",
+          "color": "#95a5a6"
+        },
+        {
+          "id": "DET-B8CD1A33",
+          "class": "metal_debris",
+          "class_name": "Large Metal Object",
+          "coco_class": "car",
+          "confidence": 0.272,
+          "bbox": [
+            1173,
+            1372,
+            1439,
+            1547
+          ],
+          "bbox_normalized": [
+            0.2556,
+            0.449,
+            0.3135,
+            0.5065
+          ],
+          "center": [
+            1307,
+            1460
+          ],
+          "size_pixels": 46677,
+          "size_m2": 89.1519,
+          "weight_kg": 250.0,
+          "priority": "critical",
+          "color": "#95a5a6"
+        },
+        {
+          "id": "DET-B8759974",
+          "class": "metal_debris",
+          "class_name": "Large Metal Object",
+          "coco_class": "car",
+          "confidence": 0.264,
+          "bbox": [
+            281,
+            1639,
+            604,
+            1908
+          ],
+          "bbox_normalized": [
+            0.0614,
+            0.5365,
+            0.1316,
+            0.6246
+          ],
+          "center": [
+            443,
+            1774
+          ],
+          "size_pixels": 86812,
+          "size_m2": 165.808,
+          "weight_kg": 250.0,
+          "priority": "critical",
+          "color": "#95a5a6"
+        },
+        {
+          "id": "DET-9A238226",
+          "class": "metal_debris",
+          "class_name": "Large Metal Object",
+          "coco_class": "car",
+          "confidence": 0.262,
+          "bbox": [
+            3405,
+            1152,
+            3642,
+            1346
+          ],
+          "bbox_normalized": [
+            0.7416,
+            0.3773,
+            0.7932,
+            0.4407
+          ],
+          "center": [
+            3524,
+            1250
+          ],
+          "size_pixels": 45874,
+          "size_m2": 87.6174,
+          "weight_kg": 250.0,
+          "priority": "critical",
+          "color": "#95a5a6"
+        }
+      ],
+      "processed_at": "2025-12-26T19:10:05.595679"
+    },
+    {
+      "image": "DSC00170.JPG",
+      "image_path": "/Users/olivier/Documents/CLAUDE/sylva_conrad_simulation/Drone_Photos/samples/DSC00170.JPG",
+      "dimensions": {
+        "width": 4592,
+        "height": 3056
+      },
+      "detection_count": 4,
+      "total_weight_kg": 1000.0,
+      "detections": [
+        {
+          "id": "DET-EB9288D6",
+          "class": "metal_debris",
+          "class_name": "Large Metal Object",
+          "coco_class": "car",
+          "confidence": 0.755,
+          "bbox": [
+            338,
+            1960,
+            631,
+            2129
+          ],
+          "bbox_normalized": [
+            0.0738,
+            0.6414,
+            0.1375,
+            0.6967
+          ],
+          "center": [
+            485,
+            2045
+          ],
+          "size_pixels": 49396,
+          "size_m2": 94.3452,
+          "weight_kg": 250.0,
+          "priority": "critical",
+          "color": "#95a5a6"
+        },
+        {
+          "id": "DET-E4449EF2",
+          "class": "metal_debris",
+          "class_name": "Large Metal Object",
+          "coco_class": "car",
+          "confidence": 0.441,
+          "bbox": [
+            50,
+            1009,
+            235,
+            1161
+          ],
+          "bbox_normalized": [
+            0.011,
+            0.3302,
+            0.0513,
+            0.3801
+          ],
+          "center": [
+            143,
+            1085
+          ],
+          "size_pixels": 28277,
+          "size_m2": 54.0086,
+          "weight_kg": 250.0,
+          "priority": "critical",
+          "color": "#95a5a6"
+        },
+        {
+          "id": "DET-37BC2525",
+          "class": "metal_debris",
+          "class_name": "Large Metal Object",
+          "coco_class": "car",
+          "confidence": 0.437,
+          "bbox": [
+            1373,
+            2403,
+            1745,
+            2595
+          ],
+          "bbox_normalized": [
+            0.2991,
+            0.7866,
+            0.3801,
+            0.8493
+          ],
+          "center": [
+            1559,
+            2500
+          ],
+          "size_pixels": 71310,
+          "size_m2": 136.1991,
+          "weight_kg": 250.0,
+          "priority": "critical",
+          "color": "#95a5a6"
+        },
+        {
+          "id": "DET-E73751C8",
+          "class": "metal_debris",
+          "class_name": "Large Metal Object",
+          "coco_class": "car",
+          "confidence": 0.333,
+          "bbox": [
+            47,
+            2284,
+            460,
+            2454
+          ],
+          "bbox_normalized": [
+            0.0104,
+            0.7475,
+            0.1002,
+            0.8033
+          ],
+          "center": [
+            254,
+            2370
+          ],
+          "size_pixels": 70268,
+          "size_m2": 134.2092,
+          "weight_kg": 250.0,
+          "priority": "critical",
+          "color": "#95a5a6"
+        }
+      ],
+      "processed_at": "2025-12-26T19:10:05.783533"
+    },
+    {
+      "image": "DSC00175.JPG",
+      "image_path": "/Users/olivier/Documents/CLAUDE/sylva_conrad_simulation/Drone_Photos/samples/DSC00175.JPG",
+      "dimensions": {
+        "width": 4592,
+        "height": 3056
+      },
+      "detection_count": 13,
+      "total_weight_kg": 3706.0,
+      "detections": [
+        {
+          "id": "DET-0F0E73BE",
+          "class": "metal_debris",
+          "class_name": "Large Metal Object",
+          "coco_class": "car",
+          "confidence": 0.788,
+          "bbox": [
+            332,
+            936,
+            564,
+            1116
+          ],
+          "bbox_normalized": [
+            0.0723,
+            0.3065,
+            0.123,
+            0.3654
+          ],
+          "center": [
+            449,
+            1027
+          ],
+          "size_pixels": 41817,
+          "size_m2": 79.8687,
+          "weight_kg": 250.0,
+          "priority": "critical",
+          "color": "#95a5a6"
+        },
+        {
+          "id": "DET-4D368770",
+          "class": "metal_debris",
+          "class_name": "Large Metal Object",
+          "coco_class": "car",
+          "confidence": 0.719,
+          "bbox": [
+            3685,
+            612,
+            3917,
+            804
+          ],
+          "bbox_normalized": [
+            0.8026,
+            0.2004,
+            0.853,
+            0.2633
+          ],
+          "center": [
+            3801,
+            709
+          ],
+          "size_pixels": 44399,
+          "size_m2": 84.8002,
+          "weight_kg": 250.0,
+          "priority": "critical",
+          "color": "#95a5a6"
+        },
+        {
+          "id": "DET-D15653B8",
+          "class": "metal_debris",
+          "class_name": "Large Metal Object",
+          "coco_class": "car",
+          "confidence": 0.539,
+          "bbox": [
+            2542,
+            1733,
+            2848,
+            2027
+          ],
+          "bbox_normalized": [
+            0.5536,
+            0.5673,
+            0.6203,
+            0.6633
+          ],
+          "center": [
+            2695,
+            1880
+          ],
+          "size_pixels": 89831,
+          "size_m2": 171.574,
+          "weight_kg": 250.0,
+          "priority": "critical",
+          "color": "#95a5a6"
+        },
+        {
+          "id": "DET-A6B3DBA5",
+          "class": "metal_debris",
+          "class_name": "Large Metal Object",
+          "coco_class": "car",
+          "confidence": 0.495,
+          "bbox": [
+            2536,
+            185,
+            2717,
+            280
+          ],
+          "bbox_normalized": [
+            0.5525,
+            0.0607,
+            0.5918,
+            0.0917
+          ],
+          "center": [
+            2627,
+            233
+          ],
+          "size_pixels": 17131,
+          "size_m2": 32.7195,
+          "weight_kg": 250.0,
+          "priority": "critical",
+          "color": "#95a5a6"
+        },
+        {
+          "id": "DET-1D5891DD",
+          "class": "metal_debris",
+          "class_name": "Large Metal Object",
+          "coco_class": "car",
+          "confidence": 0.428,
+          "bbox": [
+            3251,
+            2486,
+            3643,
+            2770
+          ],
+          "bbox_normalized": [
+            0.7081,
+            0.8137,
+            0.7935,
+            0.9067
+          ],
+          "center": [
+            3448,
+            2629
+          ],
+          "size_pixels": 111452,
+          "size_m2": 212.8698,
+          "weight_kg": 250.0,
+          "priority": "critical",
+          "color": "#95a5a6"
+        },
+        {
+          "id": "DET-AF27BFA3",
+          "class": "metal_debris",
+          "class_name": "Large Metal Object",
+          "coco_class": "car",
+          "confidence": 0.369,
+          "bbox": [
+            3066,
+            2242,
+            3386,
+            2605
+          ],
+          "bbox_normalized": [
+            0.6677,
+            0.7338,
+            0.7374,
+            0.8526
+          ],
+          "center": [
+            3226,
+            2424
+          ],
+          "size_pixels": 116197,
+          "size_m2": 221.9313,
+          "weight_kg": 250.0,
+          "priority": "critical",
+          "color": "#95a5a6"
+        },
+        {
+          "id": "DET-6FEDA26D",
+          "class": "organic_waste",
+          "class_name": "Garden Waste",
+          "coco_class": "potted plant",
+          "confidence": 0.367,
+          "bbox": [
+            3357,
+            2061,
+            3556,
+            2270
+          ],
+          "bbox_normalized": [
+            0.7313,
+            0.6747,
+            0.7745,
+            0.7431
+          ],
+          "center": [
+            3457,
+            2166
+          ],
+          "size_pixels": 41557,
+          "size_m2": 79.3721,
+          "weight_kg": 6.0,
+          "priority": "critical",
+          "color": "#27ae60"
+        },
+        {
+          "id": "DET-BD6EB7B2",
+          "class": "construction_waste",
+          "class_name": "Construction Debris",
+          "coco_class": "truck",
+          "confidence": 0.358,
+          "bbox": [
+            3409,
+            2191,
+            3870,
+            2619
+          ],
+          "bbox_normalized": [
+            0.7424,
+            0.717,
+            0.843,
+            0.8573
+          ],
+          "center": [
+            3640,
+            2406
+          ],
+          "size_pixels": 197907,
+          "size_m2": 377.9949,
+          "weight_kg": 600.0,
+          "priority": "critical",
+          "color": "#e67e22"
+        },
+        {
+          "id": "DET-D0049F08",
+          "class": "metal_debris",
+          "class_name": "Large Metal Object",
+          "coco_class": "car",
+          "confidence": 0.341,
+          "bbox": [
+            2305,
+            2006,
+            2608,
+            2328
+          ],
+          "bbox_normalized": [
+            0.5021,
+            0.6566,
+            0.5681,
+            0.7618
+          ],
+          "center": [
+            2457,
+            2167
+          ],
+          "size_pixels": 97432,
+          "size_m2": 186.092,
+          "weight_kg": 250.0,
+          "priority": "critical",
+          "color": "#95a5a6"
+        },
+        {
+          "id": "DET-1BC25A67",
+          "class": "metal_debris",
+          "class_name": "Large Metal Object",
+          "coco_class": "car",
+          "confidence": 0.338,
+          "bbox": [
+            3021,
+            2604,
+            3537,
+            3048
+          ],
+          "bbox_normalized": [
+            0.658,
+            0.8523,
+            0.7704,
+            0.9976
+          ],
+          "center": [
+            3280,
+            2827
+          ],
+          "size_pixels": 229322,
+          "size_m2": 437.9961,
+          "weight_kg": 250.0,
+          "priority": "critical",
+          "color": "#95a5a6"
+        },
+        {
+          "id": "DET-50EDF564",
+          "class": "metal_debris",
+          "class_name": "Large Metal Object",
+          "coco_class": "car",
+          "confidence": 0.319,
+          "bbox": [
+            0,
+            1810,
+            106,
+            2041
+          ],
+          "bbox_normalized": [
+            0.0,
+            0.5924,
+            0.0233,
+            0.6682
+          ],
+          "center": [
+            53,
+            1926
+          ],
+          "size_pixels": 24707,
+          "size_m2": 47.1891,
+          "weight_kg": 250.0,
+          "priority": "critical",
+          "color": "#95a5a6"
+        },
+        {
+          "id": "DET-04652490",
+          "class": "construction_waste",
+          "class_name": "Construction Debris",
+          "coco_class": "truck",
+          "confidence": 0.272,
+          "bbox": [
+            1188,
+            318,
+            2891,
+            2002
+          ],
+          "bbox_normalized": [
+            0.2588,
+            0.1042,
+            0.6297,
+            0.6553
+          ],
+          "center": [
+            2040,
+            1161
+          ],
+          "size_pixels": 2868495,
+          "size_m2": 5478.7141,
+          "weight_kg": 600.0,
+          "priority": "critical",
+          "color": "#e67e22"
+        },
+        {
+          "id": "DET-E8B4DDE6",
+          "class": "metal_debris",
+          "class_name": "Large Metal Object",
+          "coco_class": "car",
+          "confidence": 0.27,
+          "bbox": [
+            3406,
+            2186,
+            3872,
+            2635
+          ],
+          "bbox_normalized": [
+            0.7419,
+            0.7155,
+            0.8433,
+            0.8622
+          ],
+          "center": [
+            3640,
+            2411
+          ],
+          "size_pixels": 208721,
+          "size_m2": 398.6498,
+          "weight_kg": 250.0,
+          "priority": "critical",
+          "color": "#95a5a6"
+        }
+      ],
+      "processed_at": "2025-12-26T19:10:05.974466"
+    },
+    {
+      "image": "DSC00180.JPG",
+      "image_path": "/Users/olivier/Documents/CLAUDE/sylva_conrad_simulation/Drone_Photos/samples/DSC00180.JPG",
+      "dimensions": {
+        "width": 4592,
+        "height": 3056
+      },
+      "detection_count": 18,
+      "total_weight_kg": 5550.0,
+      "detections": [
+        {
+          "id": "DET-5372EFD9",
+          "class": "metal_debris",
+          "class_name": "Large Metal Object",
+          "coco_class": "car",
+          "confidence": 0.711,
+          "bbox": [
+            235,
+            1789,
+            505,
+            2109
+          ],
+          "bbox_normalized": [
+            0.0514,
+            0.5857,
+            0.11,
+            0.6903
+          ],
+          "center": [
+            370,
+            1950
+          ],
+          "size_pixels": 86010,
+          "size_m2": 164.2765,
+          "weight_kg": 250.0,
+          "priority": "critical",
+          "color": "#95a5a6"
+        },
+        {
+          "id": "DET-E986D91E",
+          "class": "metal_debris",
+          "class_name": "Large Metal Object",
+          "coco_class": "car",
+          "confidence": 0.682,
+          "bbox": [
+            3997,
+            1875,
+            4333,
+            2021
+          ],
+          "bbox_normalized": [
+            0.8705,
+            0.6138,
+            0.9436,
+            0.6615
+          ],
+          "center": [
+            4165,
+            1949
+          ],
+          "size_pixels": 48916,
+          "size_m2": 93.4271,
+          "weight_kg": 250.0,
+          "priority": "critical",
+          "color": "#95a5a6"
+        },
+        {
+          "id": "DET-337D418C",
+          "class": "metal_debris",
+          "class_name": "Large Metal Object",
+          "coco_class": "car",
+          "confidence": 0.602,
+          "bbox": [
+            4380,
+            1825,
+            4591,
+            2001
+          ],
+          "bbox_normalized": [
+            0.954,
+            0.5975,
+            1.0,
+            0.6549
+          ],
+          "center": [
+            4486,
+            1914
+          ],
+          "size_pixels": 37105,
+          "size_m2": 70.8695,
+          "weight_kg": 250.0,
+          "priority": "critical",
+          "color": "#95a5a6"
+        },
+        {
+          "id": "DET-5237E9C2",
+          "class": "metal_debris",
+          "class_name": "Large Metal Object",
+          "coco_class": "car",
+          "confidence": 0.595,
+          "bbox": [
+            3889,
+            790,
+            4080,
+            958
+          ],
+          "bbox_normalized": [
+            0.8471,
+            0.2588,
+            0.8885,
+            0.3138
+          ],
+          "center": [
+            3985,
+            875
+          ],
+          "size_pixels": 31934,
+          "size_m2": 60.9926,
+          "weight_kg": 250.0,
+          "priority": "critical",
+          "color": "#95a5a6"
+        },
+        {
+          "id": "DET-1CFB8458",
+          "class": "metal_debris",
+          "class_name": "Large Metal Object",
+          "coco_class": "car",
+          "confidence": 0.592,
+          "bbox": [
+            3688,
+            2367,
+            3909,
+            2731
+          ],
+          "bbox_normalized": [
+            0.8032,
+            0.7747,
+            0.8514,
+            0.8937
+          ],
+          "center": [
+            3799,
+            2549
+          ],
+          "size_pixels": 80551,
+          "size_m2": 153.8494,
+          "weight_kg": 250.0,
+          "priority": "critical",
+          "color": "#95a5a6"
+        },
+        {
+          "id": "DET-2EB773C6",
+          "class": "metal_debris",
+          "class_name": "Large Metal Object",
+          "coco_class": "car",
+          "confidence": 0.562,
+          "bbox": [
+            4050,
+            2335,
+            4423,
+            2762
+          ],
+          "bbox_normalized": [
+            0.882,
+            0.7643,
+            0.9634,
+            0.9038
+          ],
+          "center": [
+            4237,
+            2549
+          ],
+          "size_pixels": 159283,
+          "size_m2": 304.224,
+          "weight_kg": 250.0,
+          "priority": "critical",
+          "color": "#95a5a6"
+        },
+        {
+          "id": "DET-EC2CE4DE",
+          "class": "construction_waste",
+          "class_name": "Construction Debris",
+          "coco_class": "truck",
+          "confidence": 0.53,
+          "bbox": [
+            2535,
+            1653,
+            3175,
+            1978
+          ],
+          "bbox_normalized": [
+            0.5521,
+            0.541,
+            0.6915,
+            0.6473
+          ],
+          "center": [
+            2855,
+            1816
+          ],
+          "size_pixels": 207888,
+          "size_m2": 397.0577,
+          "weight_kg": 600.0,
+          "priority": "critical",
+          "color": "#e67e22"
+        },
+        {
+          "id": "DET-89A966D9",
+          "class": "metal_debris",
+          "class_name": "Large Metal Object",
+          "coco_class": "car",
+          "confidence": 0.518,
+          "bbox": [
+            3469,
+            232,
+            3656,
+            352
+          ],
+          "bbox_normalized": [
+            0.7555,
+            0.076,
+            0.7963,
+            0.1154
+          ],
+          "center": [
+            3563,
+            292
+          ],
+          "size_pixels": 22612,
+          "size_m2": 43.1876,
+          "weight_kg": 250.0,
+          "priority": "critical",
+          "color": "#95a5a6"
+        },
+        {
+          "id": "DET-FA1F47EF",
+          "class": "metal_debris",
+          "class_name": "Large Metal Object",
+          "coco_class": "car",
+          "confidence": 0.478,
+          "bbox": [
+            3352,
+            144,
+            3534,
+            276
+          ],
+          "bbox_normalized": [
+            0.7301,
+            0.0471,
+            0.7698,
+            0.0905
+          ],
+          "center": [
+            3444,
+            210
+          ],
+          "size_pixels": 24185,
+          "size_m2": 46.1917,
+          "weight_kg": 250.0,
+          "priority": "critical",
+          "color": "#95a5a6"
+        },
+        {
+          "id": "DET-D4DF5BC1",
+          "class": "metal_debris",
+          "class_name": "Large Metal Object",
+          "coco_class": "car",
+          "confidence": 0.466,
+          "bbox": [
+            3032,
+            1482,
+            3242,
+            1598
+          ],
+          "bbox_normalized": [
+            0.6604,
+            0.4852,
+            0.7061,
+            0.5232
+          ],
+          "center": [
+            3137,
+            1541
+          ],
+          "size_pixels": 24345,
+          "size_m2": 46.4978,
+          "weight_kg": 250.0,
+          "priority": "critical",
+          "color": "#95a5a6"
+        },
+        {
+          "id": "DET-C3432576",
+          "class": "metal_debris",
+          "class_name": "Large Metal Object",
+          "coco_class": "car",
+          "confidence": 0.439,
+          "bbox": [
+            3093,
+            1583,
+            3379,
+            1751
+          ],
+          "bbox_normalized": [
+            0.6738,
+            0.5181,
+            0.7358,
+            0.5731
+          ],
+          "center": [
+            3236,
+            1667
+          ],
+          "size_pixels": 47911,
+          "size_m2": 91.5074,
+          "weight_kg": 250.0,
+          "priority": "critical",
+          "color": "#95a5a6"
+        },
+        {
+          "id": "DET-BDA09D3E",
+          "class": "metal_debris",
+          "class_name": "Large Metal Object",
+          "coco_class": "car",
+          "confidence": 0.435,
+          "bbox": [
+            3732,
+            1184,
+            4013,
+            1407
+          ],
+          "bbox_normalized": [
+            0.8128,
+            0.3876,
+            0.8741,
+            0.4605
+          ],
+          "center": [
+            3873,
+            1296
+          ],
+          "size_pixels": 62774,
+          "size_m2": 119.8951,
+          "weight_kg": 250.0,
+          "priority": "critical",
+          "color": "#95a5a6"
+        },
+        {
+          "id": "DET-FB0A85C7",
+          "class": "metal_debris",
+          "class_name": "Large Metal Object",
+          "coco_class": "car",
+          "confidence": 0.418,
+          "bbox": [
+            3849,
+            1485,
+            4199,
+            1728
+          ],
+          "bbox_normalized": [
+            0.8383,
+            0.4862,
+            0.9146,
+            0.5656
+          ],
+          "center": [
+            4025,
+            1607
+          ],
+          "size_pixels": 84986,
+          "size_m2": 162.3196,
+          "weight_kg": 250.0,
+          "priority": "critical",
+          "color": "#95a5a6"
+        },
+        {
+          "id": "DET-E4A1AA37",
+          "class": "metal_debris",
+          "class_name": "Large Metal Object",
+          "coco_class": "car",
+          "confidence": 0.414,
+          "bbox": [
+            2948,
+            1334,
+            3226,
+            1485
+          ],
+          "bbox_normalized": [
+            0.642,
+            0.4365,
+            0.7025,
+            0.4862
+          ],
+          "center": [
+            3087,
+            1410
+          ],
+          "size_pixels": 42206,
+          "size_m2": 80.6112,
+          "weight_kg": 250.0,
+          "priority": "critical",
+          "color": "#95a5a6"
+        },
+        {
+          "id": "DET-3A2E9BC0",
+          "class": "metal_debris",
+          "class_name": "Large Metal Object",
+          "coco_class": "car",
+          "confidence": 0.388,
+          "bbox": [
+            3607,
+            1327,
+            3795,
+            1569
+          ],
+          "bbox_normalized": [
+            0.7855,
+            0.4343,
+            0.8266,
+            0.5135
+          ],
+          "center": [
+            3701,
+            1448
+          ],
+          "size_pixels": 45650,
+          "size_m2": 87.1891,
+          "weight_kg": 250.0,
+          "priority": "critical",
+          "color": "#95a5a6"
+        },
+        {
+          "id": "DET-08022E21",
+          "class": "metal_debris",
+          "class_name": "Large Metal Object",
+          "coco_class": "car",
+          "confidence": 0.353,
+          "bbox": [
+            3786,
+            1362,
+            4037,
+            1539
+          ],
+          "bbox_normalized": [
+            0.8247,
+            0.4458,
+            0.8791,
+            0.5036
+          ],
+          "center": [
+            3912,
+            1451
+          ],
+          "size_pixels": 44157,
+          "size_m2": 84.3382,
+          "weight_kg": 250.0,
+          "priority": "critical",
+          "color": "#95a5a6"
+        },
+        {
+          "id": "DET-9C29D5F6",
+          "class": "construction_waste",
+          "class_name": "Construction Debris",
+          "coco_class": "truck",
+          "confidence": 0.352,
+          "bbox": [
+            4068,
+            0,
+            4590,
+            545
+          ],
+          "bbox_normalized": [
+            0.8861,
+            0.0,
+            0.9996,
+            0.1785
+          ],
+          "center": [
+            4330,
+            273
+          ],
+          "size_pixels": 284301,
+          "size_m2": 543.0035,
+          "weight_kg": 600.0,
+          "priority": "critical",
+          "color": "#e67e22"
+        },
+        {
+          "id": "DET-E92F4582",
+          "class": "construction_waste",
+          "class_name": "Construction Debris",
+          "coco_class": "truck",
+          "confidence": 0.255,
+          "bbox": [
+            3764,
+            5,
+            4289,
+            508
+          ],
+          "bbox_normalized": [
+            0.8198,
+            0.0017,
+            0.9341,
+            0.1666
+          ],
+          "center": [
+            4027,
+            257
+          ],
+          "size_pixels": 264366,
+          "size_m2": 504.9292,
+          "weight_kg": 600.0,
+          "priority": "critical",
+          "color": "#e67e22"
+        }
+      ],
+      "processed_at": "2025-12-26T19:10:06.162726"
+    },
+    {
+      "image": "uav_trash_1.jpg",
+      "image_path": "/Users/olivier/Documents/CLAUDE/sylva_conrad_simulation/Drone_Photos/samples/uav_trash_1.jpg",
+      "dimensions": {
+        "width": 812,
+        "height": 440
+      },
+      "detection_count": 3,
+      "total_weight_kg": 0.0,
+      "detections": [
+        {
+          "id": "DET-E8173814",
+          "class": "activity_indicator",
+          "class_name": "Activity Detected",
+          "coco_class": "person",
+          "confidence": 0.898,
+          "bbox": [
+            198,
+            45,
+            362,
+            437
+          ],
+          "bbox_normalized": [
+            0.2445,
+            0.1029,
+            0.447,
+            0.9947
+          ],
+          "center": [
+            281,
+            241
+          ],
+          "size_pixels": 64526,
+          "size_m2": 123.2431,
+          "weight_kg": 0.0,
+          "priority": "medium",
+          "color": "#3498db"
+        },
+        {
+          "id": "DET-C5DD7766",
+          "class": "activity_indicator",
+          "class_name": "Activity Detected",
+          "coco_class": "person",
+          "confidence": 0.892,
+          "bbox": [
+            504,
+            264,
+            584,
+            436
+          ],
+          "bbox_normalized": [
+            0.6209,
+            0.6022,
+            0.7197,
+            0.9918
+          ],
+          "center": [
+            544,
+            351
+          ],
+          "size_pixels": 13755,
+          "size_m2": 26.2714,
+          "weight_kg": 0.0,
+          "priority": "medium",
+          "color": "#3498db"
+        },
+        {
+          "id": "DET-855A0EB0",
+          "class": "activity_indicator",
+          "class_name": "Activity Detected",
+          "coco_class": "person",
+          "confidence": 0.558,
+          "bbox": [
+            93,
+            297,
+            194,
+            438
+          ],
+          "bbox_normalized": [
+            0.1149,
+            0.6751,
+            0.2394,
+            0.996
+          ],
+          "center": [
+            144,
+            368
+          ],
+          "size_pixels": 14270,
+          "size_m2": 27.2557,
+          "weight_kg": 0.0,
+          "priority": "medium",
+          "color": "#3498db"
+        }
+      ],
+      "processed_at": "2025-12-26T19:10:06.265100"
+    },
+    {
+      "image": "uav_trash_2.jpg",
+      "image_path": "/Users/olivier/Documents/CLAUDE/sylva_conrad_simulation/Drone_Photos/samples/uav_trash_2.jpg",
+      "dimensions": {
+        "width": 812,
+        "height": 440
+      },
+      "detection_count": 0,
+      "total_weight_kg": 0,
+      "detections": [],
+      "processed_at": "2025-12-26T19:10:06.299072"
+    }
+  ],
+  "processed_at": "2025-12-26T19:10:06.299167",
+  "model": "yolov8n",
+  "altitude_assumption_m": 50.0
+}

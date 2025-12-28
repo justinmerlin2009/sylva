@@ -1,0 +1,1959 @@
+{
+  "method": "TACO detection + SAM 2.1 segmentation",
+  "processed_at": "2025-12-27T18:56:51.141628",
+  "summary": {
+    "total_frames": 90,
+    "frames_with_detections": 52,
+    "total_detections": 103,
+    "total_mask_area_pixels": 601349,
+    "by_class": {
+      "Metal bottle cap": 13,
+      "Clear plastic bottle": 9,
+      "Plastic film": 27,
+      "Plastic bottle cap": 16,
+      "Styrofoam piece": 23,
+      "Other plastic wrapper": 13,
+      "Cigarette": 1,
+      "Drink can": 1
+    },
+    "by_priority": {
+      "critical": 0,
+      "high": 1,
+      "medium": 37,
+      "low": 65
+    }
+  },
+  "results": [
+    {
+      "video": "DJI_20251227131436_0155_D",
+      "frame": "frame_000000.jpg",
+      "detections": [],
+      "output": "/Users/olivier/Documents/CLAUDE/sylva_conrad_simulation/Drone_Photos/TACO_SAM_All_Frames/DJI_20251227131436_0155_D/frame_000000_combined.jpg"
+    },
+    {
+      "video": "DJI_20251227131436_0155_D",
+      "frame": "frame_000059.jpg",
+      "detections": [],
+      "output": "/Users/olivier/Documents/CLAUDE/sylva_conrad_simulation/Drone_Photos/TACO_SAM_All_Frames/DJI_20251227131436_0155_D/frame_000059_combined.jpg"
+    },
+    {
+      "video": "DJI_20251227131436_0155_D",
+      "frame": "frame_000118.jpg",
+      "detections": [],
+      "output": "/Users/olivier/Documents/CLAUDE/sylva_conrad_simulation/Drone_Photos/TACO_SAM_All_Frames/DJI_20251227131436_0155_D/frame_000118_combined.jpg"
+    },
+    {
+      "video": "DJI_20251227131436_0155_D",
+      "frame": "frame_000177.jpg",
+      "detections": [],
+      "output": "/Users/olivier/Documents/CLAUDE/sylva_conrad_simulation/Drone_Photos/TACO_SAM_All_Frames/DJI_20251227131436_0155_D/frame_000177_combined.jpg"
+    },
+    {
+      "video": "DJI_20251227131436_0155_D",
+      "frame": "frame_000236.jpg",
+      "detections": [],
+      "output": "/Users/olivier/Documents/CLAUDE/sylva_conrad_simulation/Drone_Photos/TACO_SAM_All_Frames/DJI_20251227131436_0155_D/frame_000236_combined.jpg"
+    },
+    {
+      "video": "DJI_20251227131436_0155_D",
+      "frame": "frame_000295.jpg",
+      "detections": [],
+      "output": "/Users/olivier/Documents/CLAUDE/sylva_conrad_simulation/Drone_Photos/TACO_SAM_All_Frames/DJI_20251227131436_0155_D/frame_000295_combined.jpg"
+    },
+    {
+      "video": "DJI_20251227131436_0155_D",
+      "frame": "frame_000354.jpg",
+      "detections": [],
+      "output": "/Users/olivier/Documents/CLAUDE/sylva_conrad_simulation/Drone_Photos/TACO_SAM_All_Frames/DJI_20251227131436_0155_D/frame_000354_combined.jpg"
+    },
+    {
+      "video": "DJI_20251227131436_0155_D",
+      "frame": "frame_000413.jpg",
+      "detections": [],
+      "output": "/Users/olivier/Documents/CLAUDE/sylva_conrad_simulation/Drone_Photos/TACO_SAM_All_Frames/DJI_20251227131436_0155_D/frame_000413_combined.jpg"
+    },
+    {
+      "video": "DJI_20251227131436_0155_D",
+      "frame": "frame_000472.jpg",
+      "detections": [
+        {
+          "class": "Metal bottle cap",
+          "confidence": 0.12082740664482117,
+          "bbox": [
+            1486,
+            31,
+            1528,
+            69
+          ],
+          "priority": "low",
+          "mask_area_pixels": 1541,
+          "sam_score": 0.9177273511886597
+        },
+        {
+          "class": "Clear plastic bottle",
+          "confidence": 0.12045290321111679,
+          "bbox": [
+            900,
+            669,
+            1008,
+            824
+          ],
+          "priority": "medium",
+          "mask_area_pixels": 8447,
+          "sam_score": 0.9105344414710999
+        }
+      ],
+      "output": "/Users/olivier/Documents/CLAUDE/sylva_conrad_simulation/Drone_Photos/TACO_SAM_All_Frames/DJI_20251227131436_0155_D/frame_000472_combined.jpg"
+    },
+    {
+      "video": "DJI_20251227131436_0155_D",
+      "frame": "frame_000531.jpg",
+      "detections": [
+        {
+          "class": "Plastic film",
+          "confidence": 0.16935887932777405,
+          "bbox": [
+            876,
+            894,
+            981,
+            1039
+          ],
+          "priority": "medium",
+          "mask_area_pixels": 7889,
+          "sam_score": 0.9113625884056091
+        },
+        {
+          "class": "Clear plastic bottle",
+          "confidence": 0.15674498677253723,
+          "bbox": [
+            876,
+            890,
+            982,
+            1040
+          ],
+          "priority": "medium",
+          "mask_area_pixels": 7907,
+          "sam_score": 0.9115243554115295
+        },
+        {
+          "class": "Plastic film",
+          "confidence": 0.13048604130744934,
+          "bbox": [
+            366,
+            1346,
+            437,
+            1402
+          ],
+          "priority": "medium",
+          "mask_area_pixels": 2509,
+          "sam_score": 0.8770411014556885
+        },
+        {
+          "class": "Plastic bottle cap",
+          "confidence": 0.12355008721351624,
+          "bbox": [
+            1473,
+            211,
+            1520,
+            251
+          ],
+          "priority": "low",
+          "mask_area_pixels": 1423,
+          "sam_score": 0.9243348836898804
+        }
+      ],
+      "output": "/Users/olivier/Documents/CLAUDE/sylva_conrad_simulation/Drone_Photos/TACO_SAM_All_Frames/DJI_20251227131436_0155_D/frame_000531_combined.jpg"
+    },
+    {
+      "video": "DJI_20251227131436_0155_D",
+      "frame": "frame_000590.jpg",
+      "detections": [
+        {
+          "class": "Styrofoam piece",
+          "confidence": 0.13718469440937042,
+          "bbox": [
+            845,
+            1122,
+            950,
+            1253
+          ],
+          "priority": "low",
+          "mask_area_pixels": 8095,
+          "sam_score": 0.9291592836380005
+        }
+      ],
+      "output": "/Users/olivier/Documents/CLAUDE/sylva_conrad_simulation/Drone_Photos/TACO_SAM_All_Frames/DJI_20251227131436_0155_D/frame_000590_combined.jpg"
+    },
+    {
+      "video": "DJI_20251227131436_0155_D",
+      "frame": "frame_000649.jpg",
+      "detections": [
+        {
+          "class": "Plastic bottle cap",
+          "confidence": 0.1333259642124176,
+          "bbox": [
+            1455,
+            572,
+            1502,
+            615
+          ],
+          "priority": "low",
+          "mask_area_pixels": 1552,
+          "sam_score": 0.9192951917648315
+        },
+        {
+          "class": "Metal bottle cap",
+          "confidence": 0.1315017193555832,
+          "bbox": [
+            2400,
+            105,
+            2444,
+            149
+          ],
+          "priority": "low",
+          "mask_area_pixels": 1601,
+          "sam_score": 0.9190060496330261
+        },
+        {
+          "class": "Styrofoam piece",
+          "confidence": 0.12527555227279663,
+          "bbox": [
+            812,
+            1356,
+            923,
+            1478
+          ],
+          "priority": "low",
+          "mask_area_pixels": 8150,
+          "sam_score": 0.9122791886329651
+        }
+      ],
+      "output": "/Users/olivier/Documents/CLAUDE/sylva_conrad_simulation/Drone_Photos/TACO_SAM_All_Frames/DJI_20251227131436_0155_D/frame_000649_combined.jpg"
+    },
+    {
+      "video": "DJI_20251227131436_0155_D",
+      "frame": "frame_000708.jpg",
+      "detections": [
+        {
+          "class": "Plastic bottle cap",
+          "confidence": 0.16584263741970062,
+          "bbox": [
+            1441,
+            768,
+            1483,
+            809
+          ],
+          "priority": "low",
+          "mask_area_pixels": 1483,
+          "sam_score": 0.9195035696029663
+        },
+        {
+          "class": "Styrofoam piece",
+          "confidence": 0.12913377583026886,
+          "bbox": [
+            776,
+            1609,
+            893,
+            1736
+          ],
+          "priority": "low",
+          "mask_area_pixels": 8353,
+          "sam_score": 0.9419389963150024
+        },
+        {
+          "class": "Styrofoam piece",
+          "confidence": 0.12678714096546173,
+          "bbox": [
+            2405,
+            275,
+            2452,
+            325
+          ],
+          "priority": "low",
+          "mask_area_pixels": 1640,
+          "sam_score": 0.9281855821609497
+        },
+        {
+          "class": "Plastic film",
+          "confidence": 0.1209203451871872,
+          "bbox": [
+            776,
+            1610,
+            894,
+            1736
+          ],
+          "priority": "medium",
+          "mask_area_pixels": 8350,
+          "sam_score": 0.9416385889053345
+        }
+      ],
+      "output": "/Users/olivier/Documents/CLAUDE/sylva_conrad_simulation/Drone_Photos/TACO_SAM_All_Frames/DJI_20251227131436_0155_D/frame_000708_combined.jpg"
+    },
+    {
+      "video": "DJI_20251227131436_0155_D",
+      "frame": "frame_000767.jpg",
+      "detections": [
+        {
+          "class": "Other plastic wrapper",
+          "confidence": 0.16186131536960602,
+          "bbox": [
+            3121,
+            381,
+            3152,
+            427
+          ],
+          "priority": "low",
+          "mask_area_pixels": 1274,
+          "sam_score": 0.8681639432907104
+        },
+        {
+          "class": "Plastic film",
+          "confidence": 0.13750791549682617,
+          "bbox": [
+            743,
+            1865,
+            869,
+            1997
+          ],
+          "priority": "medium",
+          "mask_area_pixels": 9619,
+          "sam_score": 0.925625205039978
+        },
+        {
+          "class": "Metal bottle cap",
+          "confidence": 0.13608591258525848,
+          "bbox": [
+            2407,
+            450,
+            2455,
+            493
+          ],
+          "priority": "low",
+          "mask_area_pixels": 1608,
+          "sam_score": 0.9244934916496277
+        },
+        {
+          "class": "Plastic bottle cap",
+          "confidence": 0.13416682183742523,
+          "bbox": [
+            1420,
+            957,
+            1468,
+            1004
+          ],
+          "priority": "low",
+          "mask_area_pixels": 1605,
+          "sam_score": 0.9135853052139282
+        }
+      ],
+      "output": "/Users/olivier/Documents/CLAUDE/sylva_conrad_simulation/Drone_Photos/TACO_SAM_All_Frames/DJI_20251227131436_0155_D/frame_000767_combined.jpg"
+    },
+    {
+      "video": "DJI_20251227131436_0155_D",
+      "frame": "frame_000826.jpg",
+      "detections": [
+        {
+          "class": "Clear plastic bottle",
+          "confidence": 0.14481668174266815,
+          "bbox": [
+            2179,
+            1786,
+            2229,
+            1808
+          ],
+          "priority": "medium",
+          "mask_area_pixels": 852,
+          "sam_score": 0.7993135452270508
+        },
+        {
+          "class": "Styrofoam piece",
+          "confidence": 0.12828011810779572,
+          "bbox": [
+            2409,
+            625,
+            2458,
+            670
+          ],
+          "priority": "low",
+          "mask_area_pixels": 1667,
+          "sam_score": 0.9306168556213379
+        },
+        {
+          "class": "Plastic bottle cap",
+          "confidence": 0.12488751113414764,
+          "bbox": [
+            1403,
+            1157,
+            1453,
+            1204
+          ],
+          "priority": "low",
+          "mask_area_pixels": 1680,
+          "sam_score": 0.9216395020484924
+        }
+      ],
+      "output": "/Users/olivier/Documents/CLAUDE/sylva_conrad_simulation/Drone_Photos/TACO_SAM_All_Frames/DJI_20251227131436_0155_D/frame_000826_combined.jpg"
+    },
+    {
+      "video": "DJI_20251227131436_0155_D",
+      "frame": "frame_000885.jpg",
+      "detections": [
+        {
+          "class": "Other plastic wrapper",
+          "confidence": 0.15247979760169983,
+          "bbox": [
+            3146,
+            722,
+            3177,
+            772
+          ],
+          "priority": "low",
+          "mask_area_pixels": 1320,
+          "sam_score": 0.8689836859703064
+        },
+        {
+          "class": "Plastic bottle cap",
+          "confidence": 0.12792064249515533,
+          "bbox": [
+            2399,
+            798,
+            2448,
+            844
+          ],
+          "priority": "low",
+          "mask_area_pixels": 1598,
+          "sam_score": 0.9238088130950928
+        },
+        {
+          "class": "Plastic film",
+          "confidence": 0.1225086897611618,
+          "bbox": [
+            1727,
+            168,
+            1822,
+            277
+          ],
+          "priority": "medium",
+          "mask_area_pixels": 5754,
+          "sam_score": 0.9349582195281982
+        }
+      ],
+      "output": "/Users/olivier/Documents/CLAUDE/sylva_conrad_simulation/Drone_Photos/TACO_SAM_All_Frames/DJI_20251227131436_0155_D/frame_000885_combined.jpg"
+    },
+    {
+      "video": "DJI_20251227131436_0155_D",
+      "frame": "frame_000944.jpg",
+      "detections": [
+        {
+          "class": "Plastic film",
+          "confidence": 0.15932832658290863,
+          "bbox": [
+            1715,
+            304,
+            1812,
+            424
+          ],
+          "priority": "medium",
+          "mask_area_pixels": 5989,
+          "sam_score": 0.9343952536582947
+        },
+        {
+          "class": "Styrofoam piece",
+          "confidence": 0.12805667519569397,
+          "bbox": [
+            2403,
+            962,
+            2451,
+            1011
+          ],
+          "priority": "low",
+          "mask_area_pixels": 1823,
+          "sam_score": 0.918300986289978
+        },
+        {
+          "class": "Plastic bottle cap",
+          "confidence": 0.1230318546295166,
+          "bbox": [
+            1351,
+            1547,
+            1401,
+            1598
+          ],
+          "priority": "low",
+          "mask_area_pixels": 1897,
+          "sam_score": 0.9151403903961182
+        }
+      ],
+      "output": "/Users/olivier/Documents/CLAUDE/sylva_conrad_simulation/Drone_Photos/TACO_SAM_All_Frames/DJI_20251227131436_0155_D/frame_000944_combined.jpg"
+    },
+    {
+      "video": "DJI_20251227131436_0155_D",
+      "frame": "frame_001003.jpg",
+      "detections": [
+        {
+          "class": "Other plastic wrapper",
+          "confidence": 0.18519479036331177,
+          "bbox": [
+            3177,
+            1044,
+            3213,
+            1089
+          ],
+          "priority": "low",
+          "mask_area_pixels": 1389,
+          "sam_score": 0.8715056777000427
+        },
+        {
+          "class": "Plastic film",
+          "confidence": 0.143771693110466,
+          "bbox": [
+            1713,
+            453,
+            1807,
+            567
+          ],
+          "priority": "medium",
+          "mask_area_pixels": 6018,
+          "sam_score": 0.9186903834342957
+        },
+        {
+          "class": "Styrofoam piece",
+          "confidence": 0.13583292067050934,
+          "bbox": [
+            2409,
+            1126,
+            2459,
+            1173
+          ],
+          "priority": "low",
+          "mask_area_pixels": 1669,
+          "sam_score": 0.9209039211273193
+        },
+        {
+          "class": "Plastic bottle cap",
+          "confidence": 0.13017959892749786,
+          "bbox": [
+            1337,
+            1737,
+            1387,
+            1789
+          ],
+          "priority": "low",
+          "mask_area_pixels": 2066,
+          "sam_score": 0.9228292107582092
+        }
+      ],
+      "output": "/Users/olivier/Documents/CLAUDE/sylva_conrad_simulation/Drone_Photos/TACO_SAM_All_Frames/DJI_20251227131436_0155_D/frame_001003_combined.jpg"
+    },
+    {
+      "video": "DJI_20251227131436_0155_D",
+      "frame": "frame_001062.jpg",
+      "detections": [
+        {
+          "class": "Other plastic wrapper",
+          "confidence": 0.1716637760400772,
+          "bbox": [
+            3201,
+            1195,
+            3237,
+            1241
+          ],
+          "priority": "low",
+          "mask_area_pixels": 1422,
+          "sam_score": 0.88742595911026
+        },
+        {
+          "class": "Plastic film",
+          "confidence": 0.14530181884765625,
+          "bbox": [
+            1708,
+            594,
+            1808,
+            704
+          ],
+          "priority": "medium",
+          "mask_area_pixels": 6477,
+          "sam_score": 0.923993706703186
+        },
+        {
+          "class": "Plastic bottle cap",
+          "confidence": 0.14406552910804749,
+          "bbox": [
+            1327,
+            1920,
+            1379,
+            1975
+          ],
+          "priority": "low",
+          "mask_area_pixels": 2170,
+          "sam_score": 0.9102990627288818
+        }
+      ],
+      "output": "/Users/olivier/Documents/CLAUDE/sylva_conrad_simulation/Drone_Photos/TACO_SAM_All_Frames/DJI_20251227131436_0155_D/frame_001062_combined.jpg"
+    },
+    {
+      "video": "DJI_20251227131436_0155_D",
+      "frame": "frame_001121.jpg",
+      "detections": [
+        {
+          "class": "Other plastic wrapper",
+          "confidence": 0.1602635681629181,
+          "bbox": [
+            3219,
+            1334,
+            3256,
+            1382
+          ],
+          "priority": "low",
+          "mask_area_pixels": 1633,
+          "sam_score": 0.8816211819648743
+        },
+        {
+          "class": "Plastic film",
+          "confidence": 0.13204710185527802,
+          "bbox": [
+            1713,
+            716,
+            1809,
+            831
+          ],
+          "priority": "medium",
+          "mask_area_pixels": 6170,
+          "sam_score": 0.942240834236145
+        }
+      ],
+      "output": "/Users/olivier/Documents/CLAUDE/sylva_conrad_simulation/Drone_Photos/TACO_SAM_All_Frames/DJI_20251227131436_0155_D/frame_001121_combined.jpg"
+    },
+    {
+      "video": "DJI_20251227131436_0155_D",
+      "frame": "frame_001180.jpg",
+      "detections": [],
+      "output": "/Users/olivier/Documents/CLAUDE/sylva_conrad_simulation/Drone_Photos/TACO_SAM_All_Frames/DJI_20251227131436_0155_D/frame_001180_combined.jpg"
+    },
+    {
+      "video": "DJI_20251227131436_0155_D",
+      "frame": "frame_001239.jpg",
+      "detections": [
+        {
+          "class": "Other plastic wrapper",
+          "confidence": 0.1697108894586563,
+          "bbox": [
+            3257,
+            1605,
+            3295,
+            1651
+          ],
+          "priority": "low",
+          "mask_area_pixels": 1495,
+          "sam_score": 0.8593365550041199
+        },
+        {
+          "class": "Plastic film",
+          "confidence": 0.13832727074623108,
+          "bbox": [
+            1715,
+            960,
+            1810,
+            1071
+          ],
+          "priority": "medium",
+          "mask_area_pixels": 6468,
+          "sam_score": 0.9184532165527344
+        }
+      ],
+      "output": "/Users/olivier/Documents/CLAUDE/sylva_conrad_simulation/Drone_Photos/TACO_SAM_All_Frames/DJI_20251227131436_0155_D/frame_001239_combined.jpg"
+    },
+    {
+      "video": "DJI_20251227131508_0156_D",
+      "frame": "frame_000000.jpg",
+      "detections": [
+        {
+          "class": "Metal bottle cap",
+          "confidence": 0.13907712697982788,
+          "bbox": [
+            1346,
+            929,
+            1389,
+            971
+          ],
+          "priority": "low",
+          "mask_area_pixels": 1535,
+          "sam_score": 0.9105312824249268
+        }
+      ],
+      "output": "/Users/olivier/Documents/CLAUDE/sylva_conrad_simulation/Drone_Photos/TACO_SAM_All_Frames/DJI_20251227131508_0156_D/frame_000000_combined.jpg"
+    },
+    {
+      "video": "DJI_20251227131508_0156_D",
+      "frame": "frame_000059.jpg",
+      "detections": [],
+      "output": "/Users/olivier/Documents/CLAUDE/sylva_conrad_simulation/Drone_Photos/TACO_SAM_All_Frames/DJI_20251227131508_0156_D/frame_000059_combined.jpg"
+    },
+    {
+      "video": "DJI_20251227131508_0156_D",
+      "frame": "frame_000118.jpg",
+      "detections": [],
+      "output": "/Users/olivier/Documents/CLAUDE/sylva_conrad_simulation/Drone_Photos/TACO_SAM_All_Frames/DJI_20251227131508_0156_D/frame_000118_combined.jpg"
+    },
+    {
+      "video": "DJI_20251227131508_0156_D",
+      "frame": "frame_000177.jpg",
+      "detections": [
+        {
+          "class": "Other plastic wrapper",
+          "confidence": 0.13386695086956024,
+          "bbox": [
+            947,
+            1133,
+            978,
+            1176
+          ],
+          "priority": "low",
+          "mask_area_pixels": 1254,
+          "sam_score": 0.9054313898086548
+        },
+        {
+          "class": "Styrofoam piece",
+          "confidence": 0.12484997510910034,
+          "bbox": [
+            2457,
+            812,
+            2559,
+            877
+          ],
+          "priority": "low",
+          "mask_area_pixels": 5162,
+          "sam_score": 0.9417619705200195
+        }
+      ],
+      "output": "/Users/olivier/Documents/CLAUDE/sylva_conrad_simulation/Drone_Photos/TACO_SAM_All_Frames/DJI_20251227131508_0156_D/frame_000177_combined.jpg"
+    },
+    {
+      "video": "DJI_20251227131508_0156_D",
+      "frame": "frame_000236.jpg",
+      "detections": [
+        {
+          "class": "Metal bottle cap",
+          "confidence": 0.15685653686523438,
+          "bbox": [
+            1260,
+            1695,
+            1309,
+            1741
+          ],
+          "priority": "low",
+          "mask_area_pixels": 1794,
+          "sam_score": 0.887744665145874
+        }
+      ],
+      "output": "/Users/olivier/Documents/CLAUDE/sylva_conrad_simulation/Drone_Photos/TACO_SAM_All_Frames/DJI_20251227131508_0156_D/frame_000236_combined.jpg"
+    },
+    {
+      "video": "DJI_20251227131508_0156_D",
+      "frame": "frame_000295.jpg",
+      "detections": [],
+      "output": "/Users/olivier/Documents/CLAUDE/sylva_conrad_simulation/Drone_Photos/TACO_SAM_All_Frames/DJI_20251227131508_0156_D/frame_000295_combined.jpg"
+    },
+    {
+      "video": "DJI_20251227131508_0156_D",
+      "frame": "frame_000354.jpg",
+      "detections": [],
+      "output": "/Users/olivier/Documents/CLAUDE/sylva_conrad_simulation/Drone_Photos/TACO_SAM_All_Frames/DJI_20251227131508_0156_D/frame_000354_combined.jpg"
+    },
+    {
+      "video": "DJI_20251227131508_0156_D",
+      "frame": "frame_000413.jpg",
+      "detections": [
+        {
+          "class": "Plastic film",
+          "confidence": 0.14503738284111023,
+          "bbox": [
+            2529,
+            1365,
+            2642,
+            1450
+          ],
+          "priority": "medium",
+          "mask_area_pixels": 7364,
+          "sam_score": 0.8846144080162048
+        },
+        {
+          "class": "Styrofoam piece",
+          "confidence": 0.12391593307256699,
+          "bbox": [
+            1564,
+            1171,
+            1609,
+            1227
+          ],
+          "priority": "low",
+          "mask_area_pixels": 1844,
+          "sam_score": 0.8895212411880493
+        }
+      ],
+      "output": "/Users/olivier/Documents/CLAUDE/sylva_conrad_simulation/Drone_Photos/TACO_SAM_All_Frames/DJI_20251227131508_0156_D/frame_000413_combined.jpg"
+    },
+    {
+      "video": "DJI_20251227131508_0156_D",
+      "frame": "frame_000472.jpg",
+      "detections": [
+        {
+          "class": "Other plastic wrapper",
+          "confidence": 0.17906786501407623,
+          "bbox": [
+            903,
+            1900,
+            939,
+            1953
+          ],
+          "priority": "low",
+          "mask_area_pixels": 1622,
+          "sam_score": 0.8954482078552246
+        },
+        {
+          "class": "Clear plastic bottle",
+          "confidence": 0.15759891271591187,
+          "bbox": [
+            903,
+            1899,
+            939,
+            1953
+          ],
+          "priority": "medium",
+          "mask_area_pixels": 1625,
+          "sam_score": 0.8954519033432007
+        },
+        {
+          "class": "Plastic film",
+          "confidence": 0.1457369476556778,
+          "bbox": [
+            2556,
+            1533,
+            2675,
+            1623
+          ],
+          "priority": "medium",
+          "mask_area_pixels": 7335,
+          "sam_score": 0.9277260899543762
+        },
+        {
+          "class": "Plastic bottle cap",
+          "confidence": 0.1434011608362198,
+          "bbox": [
+            2106,
+            329,
+            2149,
+            377
+          ],
+          "priority": "low",
+          "mask_area_pixels": 1442,
+          "sam_score": 0.9045692682266235
+        }
+      ],
+      "output": "/Users/olivier/Documents/CLAUDE/sylva_conrad_simulation/Drone_Photos/TACO_SAM_All_Frames/DJI_20251227131508_0156_D/frame_000472_combined.jpg"
+    },
+    {
+      "video": "DJI_20251227131508_0156_D",
+      "frame": "frame_000531.jpg",
+      "detections": [
+        {
+          "class": "Plastic film",
+          "confidence": 0.16820339858531952,
+          "bbox": [
+            2584,
+            1718,
+            2707,
+            1814
+          ],
+          "priority": "medium",
+          "mask_area_pixels": 7881,
+          "sam_score": 0.9353123903274536
+        }
+      ],
+      "output": "/Users/olivier/Documents/CLAUDE/sylva_conrad_simulation/Drone_Photos/TACO_SAM_All_Frames/DJI_20251227131508_0156_D/frame_000531_combined.jpg"
+    },
+    {
+      "video": "DJI_20251227131508_0156_D",
+      "frame": "frame_000590.jpg",
+      "detections": [
+        {
+          "class": "Plastic film",
+          "confidence": 0.1498870998620987,
+          "bbox": [
+            2616,
+            1924,
+            2739,
+            2032
+          ],
+          "priority": "medium",
+          "mask_area_pixels": 8830,
+          "sam_score": 0.9500094056129456
+        },
+        {
+          "class": "Plastic bottle cap",
+          "confidence": 0.12657994031906128,
+          "bbox": [
+            2139,
+            627,
+            2183,
+            674
+          ],
+          "priority": "low",
+          "mask_area_pixels": 1609,
+          "sam_score": 0.9111204743385315
+        }
+      ],
+      "output": "/Users/olivier/Documents/CLAUDE/sylva_conrad_simulation/Drone_Photos/TACO_SAM_All_Frames/DJI_20251227131508_0156_D/frame_000590_combined.jpg"
+    },
+    {
+      "video": "DJI_20251227131508_0156_D",
+      "frame": "frame_000649.jpg",
+      "detections": [
+        {
+          "class": "Plastic film",
+          "confidence": 0.24572539329528809,
+          "bbox": [
+            1099,
+            407,
+            1238,
+            594
+          ],
+          "priority": "medium",
+          "mask_area_pixels": 15912,
+          "sam_score": 0.7750279307365417
+        },
+        {
+          "class": "Metal bottle cap",
+          "confidence": 0.15838578343391418,
+          "bbox": [
+            2158,
+            794,
+            2200,
+            839
+          ],
+          "priority": "low",
+          "mask_area_pixels": 1674,
+          "sam_score": 0.9212926030158997
+        },
+        {
+          "class": "Styrofoam piece",
+          "confidence": 0.12993858754634857,
+          "bbox": [
+            1590,
+            1907,
+            1638,
+            1969
+          ],
+          "priority": "low",
+          "mask_area_pixels": 2596,
+          "sam_score": 0.9110660552978516
+        },
+        {
+          "class": "Plastic bottle cap",
+          "confidence": 0.12056244909763336,
+          "bbox": [
+            2157,
+            794,
+            2202,
+            838
+          ],
+          "priority": "low",
+          "mask_area_pixels": 1682,
+          "sam_score": 0.9208218455314636
+        }
+      ],
+      "output": "/Users/olivier/Documents/CLAUDE/sylva_conrad_simulation/Drone_Photos/TACO_SAM_All_Frames/DJI_20251227131508_0156_D/frame_000649_combined.jpg"
+    },
+    {
+      "video": "DJI_20251227131508_0156_D",
+      "frame": "frame_000708.jpg",
+      "detections": [
+        {
+          "class": "Plastic film",
+          "confidence": 0.1510443389415741,
+          "bbox": [
+            1427,
+            507,
+            1559,
+            696
+          ],
+          "priority": "medium",
+          "mask_area_pixels": 17468,
+          "sam_score": 0.9075320959091187
+        },
+        {
+          "class": "Metal bottle cap",
+          "confidence": 0.14085844159126282,
+          "bbox": [
+            2164,
+            981,
+            2204,
+            1029
+          ],
+          "priority": "low",
+          "mask_area_pixels": 1657,
+          "sam_score": 0.9108521938323975
+        }
+      ],
+      "output": "/Users/olivier/Documents/CLAUDE/sylva_conrad_simulation/Drone_Photos/TACO_SAM_All_Frames/DJI_20251227131508_0156_D/frame_000708_combined.jpg"
+    },
+    {
+      "video": "DJI_20251227131508_0156_D",
+      "frame": "frame_000767.jpg",
+      "detections": [
+        {
+          "class": "Plastic film",
+          "confidence": 0.2069961428642273,
+          "bbox": [
+            1873,
+            484,
+            2027,
+            698
+          ],
+          "priority": "medium",
+          "mask_area_pixels": 19009,
+          "sam_score": 0.9344490766525269
+        }
+      ],
+      "output": "/Users/olivier/Documents/CLAUDE/sylva_conrad_simulation/Drone_Photos/TACO_SAM_All_Frames/DJI_20251227131508_0156_D/frame_000767_combined.jpg"
+    },
+    {
+      "video": "DJI_20251227131508_0156_D",
+      "frame": "frame_000826.jpg",
+      "detections": [
+        {
+          "class": "Plastic film",
+          "confidence": 0.1476985067129135,
+          "bbox": [
+            2430,
+            438,
+            2544,
+            617
+          ],
+          "priority": "medium",
+          "mask_area_pixels": 13893,
+          "sam_score": 0.9229039549827576
+        }
+      ],
+      "output": "/Users/olivier/Documents/CLAUDE/sylva_conrad_simulation/Drone_Photos/TACO_SAM_All_Frames/DJI_20251227131508_0156_D/frame_000826_combined.jpg"
+    },
+    {
+      "video": "DJI_20251227131508_0156_D",
+      "frame": "frame_000885.jpg",
+      "detections": [
+        {
+          "class": "Metal bottle cap",
+          "confidence": 0.16305950284004211,
+          "bbox": [
+            2184,
+            1594,
+            2234,
+            1649
+          ],
+          "priority": "low",
+          "mask_area_pixels": 2178,
+          "sam_score": 0.9264498949050903
+        },
+        {
+          "class": "Plastic film",
+          "confidence": 0.133001908659935,
+          "bbox": [
+            2919,
+            505,
+            3175,
+            685
+          ],
+          "priority": "medium",
+          "mask_area_pixels": 22504,
+          "sam_score": 0.8822335004806519
+        }
+      ],
+      "output": "/Users/olivier/Documents/CLAUDE/sylva_conrad_simulation/Drone_Photos/TACO_SAM_All_Frames/DJI_20251227131508_0156_D/frame_000885_combined.jpg"
+    },
+    {
+      "video": "DJI_20251227131508_0156_D",
+      "frame": "frame_000944.jpg",
+      "detections": [
+        {
+          "class": "Styrofoam piece",
+          "confidence": 0.12346863001585007,
+          "bbox": [
+            1980,
+            657,
+            2125,
+            771
+          ],
+          "priority": "low",
+          "mask_area_pixels": 9943,
+          "sam_score": 0.933639407157898
+        },
+        {
+          "class": "Plastic film",
+          "confidence": 0.1212608590722084,
+          "bbox": [
+            3538,
+            734,
+            3799,
+            898
+          ],
+          "priority": "medium",
+          "mask_area_pixels": 28977,
+          "sam_score": 0.9411675930023193
+        }
+      ],
+      "output": "/Users/olivier/Documents/CLAUDE/sylva_conrad_simulation/Drone_Photos/TACO_SAM_All_Frames/DJI_20251227131508_0156_D/frame_000944_combined.jpg"
+    },
+    {
+      "video": "DJI_20251227131508_0156_D",
+      "frame": "frame_001003.jpg",
+      "detections": [
+        {
+          "class": "Styrofoam piece",
+          "confidence": 0.1288900524377823,
+          "bbox": [
+            1984,
+            883,
+            2116,
+            977
+          ],
+          "priority": "low",
+          "mask_area_pixels": 8861,
+          "sam_score": 0.9155075550079346
+        }
+      ],
+      "output": "/Users/olivier/Documents/CLAUDE/sylva_conrad_simulation/Drone_Photos/TACO_SAM_All_Frames/DJI_20251227131508_0156_D/frame_001003_combined.jpg"
+    },
+    {
+      "video": "DJI_20251227131532_0157_D",
+      "frame": "frame_000000.jpg",
+      "detections": [],
+      "output": "/Users/olivier/Documents/CLAUDE/sylva_conrad_simulation/Drone_Photos/TACO_SAM_All_Frames/DJI_20251227131532_0157_D/frame_000000_combined.jpg"
+    },
+    {
+      "video": "DJI_20251227131532_0157_D",
+      "frame": "frame_000059.jpg",
+      "detections": [
+        {
+          "class": "Metal bottle cap",
+          "confidence": 0.1341490000486374,
+          "bbox": [
+            2175,
+            1762,
+            2220,
+            1809
+          ],
+          "priority": "low",
+          "mask_area_pixels": 1832,
+          "sam_score": 0.9222927093505859
+        }
+      ],
+      "output": "/Users/olivier/Documents/CLAUDE/sylva_conrad_simulation/Drone_Photos/TACO_SAM_All_Frames/DJI_20251227131532_0157_D/frame_000059_combined.jpg"
+    },
+    {
+      "video": "DJI_20251227131532_0157_D",
+      "frame": "frame_000118.jpg",
+      "detections": [],
+      "output": "/Users/olivier/Documents/CLAUDE/sylva_conrad_simulation/Drone_Photos/TACO_SAM_All_Frames/DJI_20251227131532_0157_D/frame_000118_combined.jpg"
+    },
+    {
+      "video": "DJI_20251227131532_0157_D",
+      "frame": "frame_000177.jpg",
+      "detections": [
+        {
+          "class": "Cigarette",
+          "confidence": 0.2053615301847458,
+          "bbox": [
+            2485,
+            1492,
+            2540,
+            1547
+          ],
+          "priority": "high",
+          "mask_area_pixels": 1264,
+          "sam_score": 0.8309524059295654
+        }
+      ],
+      "output": "/Users/olivier/Documents/CLAUDE/sylva_conrad_simulation/Drone_Photos/TACO_SAM_All_Frames/DJI_20251227131532_0157_D/frame_000177_combined.jpg"
+    },
+    {
+      "video": "DJI_20251227131532_0157_D",
+      "frame": "frame_000236.jpg",
+      "detections": [],
+      "output": "/Users/olivier/Documents/CLAUDE/sylva_conrad_simulation/Drone_Photos/TACO_SAM_All_Frames/DJI_20251227131532_0157_D/frame_000236_combined.jpg"
+    },
+    {
+      "video": "DJI_20251227131532_0157_D",
+      "frame": "frame_000295.jpg",
+      "detections": [
+        {
+          "class": "Other plastic wrapper",
+          "confidence": 0.13925381004810333,
+          "bbox": [
+            1268,
+            997,
+            1299,
+            1040
+          ],
+          "priority": "low",
+          "mask_area_pixels": 1213,
+          "sam_score": 0.875800371170044
+        }
+      ],
+      "output": "/Users/olivier/Documents/CLAUDE/sylva_conrad_simulation/Drone_Photos/TACO_SAM_All_Frames/DJI_20251227131532_0157_D/frame_000295_combined.jpg"
+    },
+    {
+      "video": "DJI_20251227131532_0157_D",
+      "frame": "frame_000354.jpg",
+      "detections": [
+        {
+          "class": "Metal bottle cap",
+          "confidence": 0.1496661901473999,
+          "bbox": [
+            2328,
+            3,
+            2366,
+            47
+          ],
+          "priority": "low",
+          "mask_area_pixels": 1496,
+          "sam_score": 0.9056678414344788
+        },
+        {
+          "class": "Styrofoam piece",
+          "confidence": 0.13216158747673035,
+          "bbox": [
+            2785,
+            1124,
+            2899,
+            1202
+          ],
+          "priority": "low",
+          "mask_area_pixels": 6328,
+          "sam_score": 0.9582815766334534
+        }
+      ],
+      "output": "/Users/olivier/Documents/CLAUDE/sylva_conrad_simulation/Drone_Photos/TACO_SAM_All_Frames/DJI_20251227131532_0157_D/frame_000354_combined.jpg"
+    },
+    {
+      "video": "DJI_20251227131532_0157_D",
+      "frame": "frame_000413.jpg",
+      "detections": [
+        {
+          "class": "Plastic film",
+          "confidence": 0.157460555434227,
+          "bbox": [
+            2822,
+            1562,
+            2944,
+            1654
+          ],
+          "priority": "medium",
+          "mask_area_pixels": 7551,
+          "sam_score": 0.9487929940223694
+        },
+        {
+          "class": "Clear plastic bottle",
+          "confidence": 0.15068978071212769,
+          "bbox": [
+            1185,
+            1934,
+            1218,
+            1984
+          ],
+          "priority": "medium",
+          "mask_area_pixels": 1662,
+          "sam_score": 0.9078019261360168
+        },
+        {
+          "class": "Other plastic wrapper",
+          "confidence": 0.14881344139575958,
+          "bbox": [
+            1185,
+            1935,
+            1219,
+            1984
+          ],
+          "priority": "low",
+          "mask_area_pixels": 1657,
+          "sam_score": 0.907697319984436
+        }
+      ],
+      "output": "/Users/olivier/Documents/CLAUDE/sylva_conrad_simulation/Drone_Photos/TACO_SAM_All_Frames/DJI_20251227131532_0157_D/frame_000413_combined.jpg"
+    },
+    {
+      "video": "DJI_20251227131532_0157_D",
+      "frame": "frame_000472.jpg",
+      "detections": [
+        {
+          "class": "Plastic film",
+          "confidence": 0.1914653331041336,
+          "bbox": [
+            2851,
+            1960,
+            2978,
+            2072
+          ],
+          "priority": "medium",
+          "mask_area_pixels": 8960,
+          "sam_score": 0.9574094414710999
+        },
+        {
+          "class": "Plastic bottle cap",
+          "confidence": 0.12168776988983154,
+          "bbox": [
+            2342,
+            661,
+            2382,
+            704
+          ],
+          "priority": "low",
+          "mask_area_pixels": 1645,
+          "sam_score": 0.9234732985496521
+        }
+      ],
+      "output": "/Users/olivier/Documents/CLAUDE/sylva_conrad_simulation/Drone_Photos/TACO_SAM_All_Frames/DJI_20251227131532_0157_D/frame_000472_combined.jpg"
+    },
+    {
+      "video": "DJI_20251227131532_0157_D",
+      "frame": "frame_000531.jpg",
+      "detections": [
+        {
+          "class": "Plastic bottle cap",
+          "confidence": 0.14833299815654755,
+          "bbox": [
+            2346,
+            939,
+            2391,
+            988
+          ],
+          "priority": "low",
+          "mask_area_pixels": 1767,
+          "sam_score": 0.9026201963424683
+        }
+      ],
+      "output": "/Users/olivier/Documents/CLAUDE/sylva_conrad_simulation/Drone_Photos/TACO_SAM_All_Frames/DJI_20251227131532_0157_D/frame_000531_combined.jpg"
+    },
+    {
+      "video": "DJI_20251227131532_0157_D",
+      "frame": "frame_000590.jpg",
+      "detections": [
+        {
+          "class": "Plastic bottle cap",
+          "confidence": 0.1495545208454132,
+          "bbox": [
+            2357,
+            1205,
+            2402,
+            1255
+          ],
+          "priority": "low",
+          "mask_area_pixels": 1909,
+          "sam_score": 0.9234088659286499
+        },
+        {
+          "class": "Metal bottle cap",
+          "confidence": 0.12237342447042465,
+          "bbox": [
+            2358,
+            1204,
+            2403,
+            1256
+          ],
+          "priority": "low",
+          "mask_area_pixels": 1920,
+          "sam_score": 0.921875
+        }
+      ],
+      "output": "/Users/olivier/Documents/CLAUDE/sylva_conrad_simulation/Drone_Photos/TACO_SAM_All_Frames/DJI_20251227131532_0157_D/frame_000590_combined.jpg"
+    },
+    {
+      "video": "DJI_20251227131532_0157_D",
+      "frame": "frame_000649.jpg",
+      "detections": [],
+      "output": "/Users/olivier/Documents/CLAUDE/sylva_conrad_simulation/Drone_Photos/TACO_SAM_All_Frames/DJI_20251227131532_0157_D/frame_000649_combined.jpg"
+    },
+    {
+      "video": "DJI_20251227131532_0157_D",
+      "frame": "frame_000708.jpg",
+      "detections": [
+        {
+          "class": "Metal bottle cap",
+          "confidence": 0.12011464685201645,
+          "bbox": [
+            2380,
+            1695,
+            2426,
+            1746
+          ],
+          "priority": "low",
+          "mask_area_pixels": 1998,
+          "sam_score": 0.937740683555603
+        }
+      ],
+      "output": "/Users/olivier/Documents/CLAUDE/sylva_conrad_simulation/Drone_Photos/TACO_SAM_All_Frames/DJI_20251227131532_0157_D/frame_000708_combined.jpg"
+    },
+    {
+      "video": "DJI_20251227131532_0157_D",
+      "frame": "frame_000767.jpg",
+      "detections": [],
+      "output": "/Users/olivier/Documents/CLAUDE/sylva_conrad_simulation/Drone_Photos/TACO_SAM_All_Frames/DJI_20251227131532_0157_D/frame_000767_combined.jpg"
+    },
+    {
+      "video": "DJI_20251227131532_0157_D",
+      "frame": "frame_000826.jpg",
+      "detections": [
+        {
+          "class": "Plastic bottle cap",
+          "confidence": 0.1325066089630127,
+          "bbox": [
+            2409,
+            2063,
+            2456,
+            2116
+          ],
+          "priority": "low",
+          "mask_area_pixels": 2204,
+          "sam_score": 0.9418666362762451
+        },
+        {
+          "class": "Metal bottle cap",
+          "confidence": 0.126163512468338,
+          "bbox": [
+            2408,
+            2062,
+            2457,
+            2117
+          ],
+          "priority": "low",
+          "mask_area_pixels": 2215,
+          "sam_score": 0.9404523968696594
+        },
+        {
+          "class": "Styrofoam piece",
+          "confidence": 0.126127228140831,
+          "bbox": [
+            2187,
+            871,
+            2320,
+            980
+          ],
+          "priority": "low",
+          "mask_area_pixels": 9151,
+          "sam_score": 0.941031813621521
+        }
+      ],
+      "output": "/Users/olivier/Documents/CLAUDE/sylva_conrad_simulation/Drone_Photos/TACO_SAM_All_Frames/DJI_20251227131532_0157_D/frame_000826_combined.jpg"
+    },
+    {
+      "video": "DJI_20251227131532_0157_D",
+      "frame": "frame_000885.jpg",
+      "detections": [
+        {
+          "class": "Styrofoam piece",
+          "confidence": 0.1219315379858017,
+          "bbox": [
+            2197,
+            1041,
+            2331,
+            1139
+          ],
+          "priority": "low",
+          "mask_area_pixels": 9562,
+          "sam_score": 0.9341239929199219
+        }
+      ],
+      "output": "/Users/olivier/Documents/CLAUDE/sylva_conrad_simulation/Drone_Photos/TACO_SAM_All_Frames/DJI_20251227131532_0157_D/frame_000885_combined.jpg"
+    },
+    {
+      "video": "DJI_20251227131532_0157_D",
+      "frame": "frame_000944.jpg",
+      "detections": [],
+      "output": "/Users/olivier/Documents/CLAUDE/sylva_conrad_simulation/Drone_Photos/TACO_SAM_All_Frames/DJI_20251227131532_0157_D/frame_000944_combined.jpg"
+    },
+    {
+      "video": "DJI_20251227131532_0157_D",
+      "frame": "frame_001003.jpg",
+      "detections": [
+        {
+          "class": "Styrofoam piece",
+          "confidence": 0.1269187033176422,
+          "bbox": [
+            2203,
+            1586,
+            2348,
+            1683
+          ],
+          "priority": "low",
+          "mask_area_pixels": 10308,
+          "sam_score": 0.8986330032348633
+        }
+      ],
+      "output": "/Users/olivier/Documents/CLAUDE/sylva_conrad_simulation/Drone_Photos/TACO_SAM_All_Frames/DJI_20251227131532_0157_D/frame_001003_combined.jpg"
+    },
+    {
+      "video": "DJI_20251227131532_0157_D",
+      "frame": "frame_001062.jpg",
+      "detections": [],
+      "output": "/Users/olivier/Documents/CLAUDE/sylva_conrad_simulation/Drone_Photos/TACO_SAM_All_Frames/DJI_20251227131532_0157_D/frame_001062_combined.jpg"
+    },
+    {
+      "video": "DJI_20251227131532_0157_D",
+      "frame": "frame_001121.jpg",
+      "detections": [],
+      "output": "/Users/olivier/Documents/CLAUDE/sylva_conrad_simulation/Drone_Photos/TACO_SAM_All_Frames/DJI_20251227131532_0157_D/frame_001121_combined.jpg"
+    },
+    {
+      "video": "DJI_20251227131532_0157_D",
+      "frame": "frame_001180.jpg",
+      "detections": [],
+      "output": "/Users/olivier/Documents/CLAUDE/sylva_conrad_simulation/Drone_Photos/TACO_SAM_All_Frames/DJI_20251227131532_0157_D/frame_001180_combined.jpg"
+    },
+    {
+      "video": "DJI_20251227131532_0157_D",
+      "frame": "frame_001239.jpg",
+      "detections": [],
+      "output": "/Users/olivier/Documents/CLAUDE/sylva_conrad_simulation/Drone_Photos/TACO_SAM_All_Frames/DJI_20251227131532_0157_D/frame_001239_combined.jpg"
+    },
+    {
+      "video": "DJI_20251227131532_0157_D",
+      "frame": "frame_001298.jpg",
+      "detections": [],
+      "output": "/Users/olivier/Documents/CLAUDE/sylva_conrad_simulation/Drone_Photos/TACO_SAM_All_Frames/DJI_20251227131532_0157_D/frame_001298_combined.jpg"
+    },
+    {
+      "video": "DJI_20251227131758_0163_D",
+      "frame": "frame_000000.jpg",
+      "detections": [],
+      "output": "/Users/olivier/Documents/CLAUDE/sylva_conrad_simulation/Drone_Photos/TACO_SAM_All_Frames/DJI_20251227131758_0163_D/frame_000000_combined.jpg"
+    },
+    {
+      "video": "DJI_20251227131758_0163_D",
+      "frame": "frame_000059.jpg",
+      "detections": [
+        {
+          "class": "Styrofoam piece",
+          "confidence": 0.121909499168396,
+          "bbox": [
+            2157,
+            1041,
+            2289,
+            1150
+          ],
+          "priority": "low",
+          "mask_area_pixels": 9950,
+          "sam_score": 0.93549644947052
+        }
+      ],
+      "output": "/Users/olivier/Documents/CLAUDE/sylva_conrad_simulation/Drone_Photos/TACO_SAM_All_Frames/DJI_20251227131758_0163_D/frame_000059_combined.jpg"
+    },
+    {
+      "video": "DJI_20251227131758_0163_D",
+      "frame": "frame_000118.jpg",
+      "detections": [],
+      "output": "/Users/olivier/Documents/CLAUDE/sylva_conrad_simulation/Drone_Photos/TACO_SAM_All_Frames/DJI_20251227131758_0163_D/frame_000118_combined.jpg"
+    },
+    {
+      "video": "DJI_20251227131758_0163_D",
+      "frame": "frame_000177.jpg",
+      "detections": [
+        {
+          "class": "Styrofoam piece",
+          "confidence": 0.15113049745559692,
+          "bbox": [
+            2168,
+            1311,
+            2327,
+            1448
+          ],
+          "priority": "low",
+          "mask_area_pixels": 12441,
+          "sam_score": 0.9358012080192566
+        }
+      ],
+      "output": "/Users/olivier/Documents/CLAUDE/sylva_conrad_simulation/Drone_Photos/TACO_SAM_All_Frames/DJI_20251227131758_0163_D/frame_000177_combined.jpg"
+    },
+    {
+      "video": "DJI_20251227131758_0163_D",
+      "frame": "frame_000236.jpg",
+      "detections": [
+        {
+          "class": "Styrofoam piece",
+          "confidence": 0.12363865971565247,
+          "bbox": [
+            2182,
+            1589,
+            2353,
+            1759
+          ],
+          "priority": "low",
+          "mask_area_pixels": 16915,
+          "sam_score": 0.9035933017730713
+        }
+      ],
+      "output": "/Users/olivier/Documents/CLAUDE/sylva_conrad_simulation/Drone_Photos/TACO_SAM_All_Frames/DJI_20251227131758_0163_D/frame_000236_combined.jpg"
+    },
+    {
+      "video": "DJI_20251227131758_0163_D",
+      "frame": "frame_000295.jpg",
+      "detections": [
+        {
+          "class": "Styrofoam piece",
+          "confidence": 0.1926296204328537,
+          "bbox": [
+            2195,
+            1999,
+            2384,
+            2158
+          ],
+          "priority": "low",
+          "mask_area_pixels": 21655,
+          "sam_score": 0.9415690302848816
+        },
+        {
+          "class": "Clear plastic bottle",
+          "confidence": 0.12396742403507233,
+          "bbox": [
+            1140,
+            881,
+            1238,
+            942
+          ],
+          "priority": "medium",
+          "mask_area_pixels": 4081,
+          "sam_score": 0.9369021654129028
+        }
+      ],
+      "output": "/Users/olivier/Documents/CLAUDE/sylva_conrad_simulation/Drone_Photos/TACO_SAM_All_Frames/DJI_20251227131758_0163_D/frame_000295_combined.jpg"
+    },
+    {
+      "video": "DJI_20251227131758_0163_D",
+      "frame": "frame_000354.jpg",
+      "detections": [],
+      "output": "/Users/olivier/Documents/CLAUDE/sylva_conrad_simulation/Drone_Photos/TACO_SAM_All_Frames/DJI_20251227131758_0163_D/frame_000354_combined.jpg"
+    },
+    {
+      "video": "DJI_20251227131758_0163_D",
+      "frame": "frame_000413.jpg",
+      "detections": [],
+      "output": "/Users/olivier/Documents/CLAUDE/sylva_conrad_simulation/Drone_Photos/TACO_SAM_All_Frames/DJI_20251227131758_0163_D/frame_000413_combined.jpg"
+    },
+    {
+      "video": "DJI_20251227131758_0163_D",
+      "frame": "frame_000472.jpg",
+      "detections": [],
+      "output": "/Users/olivier/Documents/CLAUDE/sylva_conrad_simulation/Drone_Photos/TACO_SAM_All_Frames/DJI_20251227131758_0163_D/frame_000472_combined.jpg"
+    },
+    {
+      "video": "DJI_20251227131758_0163_D",
+      "frame": "frame_000531.jpg",
+      "detections": [],
+      "output": "/Users/olivier/Documents/CLAUDE/sylva_conrad_simulation/Drone_Photos/TACO_SAM_All_Frames/DJI_20251227131758_0163_D/frame_000531_combined.jpg"
+    },
+    {
+      "video": "DJI_20251227131820_0164_D",
+      "frame": "frame_000000.jpg",
+      "detections": [],
+      "output": "/Users/olivier/Documents/CLAUDE/sylva_conrad_simulation/Drone_Photos/TACO_SAM_All_Frames/DJI_20251227131820_0164_D/frame_000000_combined.jpg"
+    },
+    {
+      "video": "DJI_20251227131820_0164_D",
+      "frame": "frame_000059.jpg",
+      "detections": [],
+      "output": "/Users/olivier/Documents/CLAUDE/sylva_conrad_simulation/Drone_Photos/TACO_SAM_All_Frames/DJI_20251227131820_0164_D/frame_000059_combined.jpg"
+    },
+    {
+      "video": "DJI_20251227131820_0164_D",
+      "frame": "frame_000118.jpg",
+      "detections": [
+        {
+          "class": "Plastic film",
+          "confidence": 0.13573983311653137,
+          "bbox": [
+            1471,
+            1785,
+            1584,
+            1919
+          ],
+          "priority": "medium",
+          "mask_area_pixels": 11193,
+          "sam_score": 0.9656631946563721
+        }
+      ],
+      "output": "/Users/olivier/Documents/CLAUDE/sylva_conrad_simulation/Drone_Photos/TACO_SAM_All_Frames/DJI_20251227131820_0164_D/frame_000118_combined.jpg"
+    },
+    {
+      "video": "DJI_20251227131820_0164_D",
+      "frame": "frame_000177.jpg",
+      "detections": [],
+      "output": "/Users/olivier/Documents/CLAUDE/sylva_conrad_simulation/Drone_Photos/TACO_SAM_All_Frames/DJI_20251227131820_0164_D/frame_000177_combined.jpg"
+    },
+    {
+      "video": "DJI_20251227131820_0164_D",
+      "frame": "frame_000236.jpg",
+      "detections": [],
+      "output": "/Users/olivier/Documents/CLAUDE/sylva_conrad_simulation/Drone_Photos/TACO_SAM_All_Frames/DJI_20251227131820_0164_D/frame_000236_combined.jpg"
+    },
+    {
+      "video": "DJI_20251227131820_0164_D",
+      "frame": "frame_000295.jpg",
+      "detections": [],
+      "output": "/Users/olivier/Documents/CLAUDE/sylva_conrad_simulation/Drone_Photos/TACO_SAM_All_Frames/DJI_20251227131820_0164_D/frame_000295_combined.jpg"
+    },
+    {
+      "video": "DJI_20251227131820_0164_D",
+      "frame": "frame_000354.jpg",
+      "detections": [
+        {
+          "class": "Styrofoam piece",
+          "confidence": 0.12824243307113647,
+          "bbox": [
+            2366,
+            820,
+            2453,
+            943
+          ],
+          "priority": "low",
+          "mask_area_pixels": 9063,
+          "sam_score": 0.9669410586357117
+        }
+      ],
+      "output": "/Users/olivier/Documents/CLAUDE/sylva_conrad_simulation/Drone_Photos/TACO_SAM_All_Frames/DJI_20251227131820_0164_D/frame_000354_combined.jpg"
+    },
+    {
+      "video": "DJI_20251227131820_0164_D",
+      "frame": "frame_000413.jpg",
+      "detections": [
+        {
+          "class": "Drink can",
+          "confidence": 0.14504732191562653,
+          "bbox": [
+            3489,
+            0,
+            3567,
+            56
+          ],
+          "priority": "medium",
+          "mask_area_pixels": 4143,
+          "sam_score": 0.9094086289405823
+        },
+        {
+          "class": "Styrofoam piece",
+          "confidence": 0.12807923555374146,
+          "bbox": [
+            2382,
+            1323,
+            2473,
+            1450
+          ],
+          "priority": "low",
+          "mask_area_pixels": 10131,
+          "sam_score": 0.9751274585723877
+        }
+      ],
+      "output": "/Users/olivier/Documents/CLAUDE/sylva_conrad_simulation/Drone_Photos/TACO_SAM_All_Frames/DJI_20251227131820_0164_D/frame_000413_combined.jpg"
+    },
+    {
+      "video": "DJI_20251227131820_0164_D",
+      "frame": "frame_000472.jpg",
+      "detections": [
+        {
+          "class": "Clear plastic bottle",
+          "confidence": 0.1601780652999878,
+          "bbox": [
+            3532,
+            356,
+            3618,
+            469
+          ],
+          "priority": "medium",
+          "mask_area_pixels": 6522,
+          "sam_score": 0.8877450823783875
+        },
+        {
+          "class": "Styrofoam piece",
+          "confidence": 0.1287882924079895,
+          "bbox": [
+            2401,
+            1845,
+            2493,
+            1983
+          ],
+          "priority": "low",
+          "mask_area_pixels": 11376,
+          "sam_score": 0.9758521914482117
+        }
+      ],
+      "output": "/Users/olivier/Documents/CLAUDE/sylva_conrad_simulation/Drone_Photos/TACO_SAM_All_Frames/DJI_20251227131820_0164_D/frame_000472_combined.jpg"
+    },
+    {
+      "video": "DJI_20251227131820_0164_D",
+      "frame": "frame_000531.jpg",
+      "detections": [
+        {
+          "class": "Other plastic wrapper",
+          "confidence": 0.13861526548862457,
+          "bbox": [
+            3574,
+            738,
+            3659,
+            856
+          ],
+          "priority": "low",
+          "mask_area_pixels": 6982,
+          "sam_score": 0.8964065313339233
+        },
+        {
+          "class": "Plastic film",
+          "confidence": 0.12323849648237228,
+          "bbox": [
+            3575,
+            739,
+            3658,
+            855
+          ],
+          "priority": "medium",
+          "mask_area_pixels": 6946,
+          "sam_score": 0.8950872421264648
+        }
+      ],
+      "output": "/Users/olivier/Documents/CLAUDE/sylva_conrad_simulation/Drone_Photos/TACO_SAM_All_Frames/DJI_20251227131820_0164_D/frame_000531_combined.jpg"
+    },
+    {
+      "video": "DJI_20251227131820_0164_D",
+      "frame": "frame_000590.jpg",
+      "detections": [
+        {
+          "class": "Other plastic wrapper",
+          "confidence": 0.15767191350460052,
+          "bbox": [
+            3621,
+            1089,
+            3706,
+            1212
+          ],
+          "priority": "low",
+          "mask_area_pixels": 7666,
+          "sam_score": 0.9319471120834351
+        },
+        {
+          "class": "Clear plastic bottle",
+          "confidence": 0.15574678778648376,
+          "bbox": [
+            3620,
+            1090,
+            3704,
+            1211
+          ],
+          "priority": "medium",
+          "mask_area_pixels": 7645,
+          "sam_score": 0.9315823912620544
+        }
+      ],
+      "output": "/Users/olivier/Documents/CLAUDE/sylva_conrad_simulation/Drone_Photos/TACO_SAM_All_Frames/DJI_20251227131820_0164_D/frame_000590_combined.jpg"
+    },
+    {
+      "video": "DJI_20251227131820_0164_D",
+      "frame": "frame_000649.jpg",
+      "detections": [
+        {
+          "class": "Plastic film",
+          "confidence": 0.1596456617116928,
+          "bbox": [
+            3665,
+            1422,
+            3757,
+            1549
+          ],
+          "priority": "medium",
+          "mask_area_pixels": 7912,
+          "sam_score": 0.9099729061126709
+        },
+        {
+          "class": "Other plastic wrapper",
+          "confidence": 0.13003362715244293,
+          "bbox": [
+            3666,
+            1421,
+            3757,
+            1548
+          ],
+          "priority": "low",
+          "mask_area_pixels": 7892,
+          "sam_score": 0.9097156524658203
+        }
+      ],
+      "output": "/Users/olivier/Documents/CLAUDE/sylva_conrad_simulation/Drone_Photos/TACO_SAM_All_Frames/DJI_20251227131820_0164_D/frame_000649_combined.jpg"
+    },
+    {
+      "video": "DJI_20251227131820_0164_D",
+      "frame": "frame_000708.jpg",
+      "detections": [
+        {
+          "class": "Plastic film",
+          "confidence": 0.1935027837753296,
+          "bbox": [
+            3716,
+            1757,
+            3810,
+            1888
+          ],
+          "priority": "medium",
+          "mask_area_pixels": 9281,
+          "sam_score": 0.8958243131637573
+        },
+        {
+          "class": "Clear plastic bottle",
+          "confidence": 0.12296833842992783,
+          "bbox": [
+            3717,
+            1757,
+            3809,
+            1888
+          ],
+          "priority": "medium",
+          "mask_area_pixels": 9133,
+          "sam_score": 0.8893113732337952
+        }
+      ],
+      "output": "/Users/olivier/Documents/CLAUDE/sylva_conrad_simulation/Drone_Photos/TACO_SAM_All_Frames/DJI_20251227131820_0164_D/frame_000708_combined.jpg"
+    },
+    {
+      "video": "DJI_20251227131820_0164_D",
+      "frame": "frame_000767.jpg",
+      "detections": [
+        {
+          "class": "Plastic film",
+          "confidence": 0.1418227255344391,
+          "bbox": [
+            2529,
+            1337,
+            2644,
+            1415
+          ],
+          "priority": "medium",
+          "mask_area_pixels": 7526,
+          "sam_score": 0.9363541007041931
+        }
+      ],
+      "output": "/Users/olivier/Documents/CLAUDE/sylva_conrad_simulation/Drone_Photos/TACO_SAM_All_Frames/DJI_20251227131820_0164_D/frame_000767_combined.jpg"
+    },
+    {
+      "video": "DJI_20251227131820_0164_D",
+      "frame": "frame_000826.jpg",
+      "detections": [],
+      "output": "/Users/olivier/Documents/CLAUDE/sylva_conrad_simulation/Drone_Photos/TACO_SAM_All_Frames/DJI_20251227131820_0164_D/frame_000826_combined.jpg"
+    },
+    {
+      "video": "DJI_20251227131820_0164_D",
+      "frame": "frame_000885.jpg",
+      "detections": [],
+      "output": "/Users/olivier/Documents/CLAUDE/sylva_conrad_simulation/Drone_Photos/TACO_SAM_All_Frames/DJI_20251227131820_0164_D/frame_000885_combined.jpg"
+    },
+    {
+      "video": "DJI_20251227131820_0164_D",
+      "frame": "frame_000944.jpg",
+      "detections": [],
+      "output": "/Users/olivier/Documents/CLAUDE/sylva_conrad_simulation/Drone_Photos/TACO_SAM_All_Frames/DJI_20251227131820_0164_D/frame_000944_combined.jpg"
+    }
+  ]
+}
