@@ -46,14 +46,15 @@ function DetectionDemo() {
               Each colored overlay represents a detected and segmented trash item.
             </p>
             <div className="video-container">
-              <video
-                controls
+              <iframe
                 width="100%"
-                poster="/detection-demo/tiled_DJI_20251227131705_0159_D.JPG"
-              >
-                <source src="/detection-demo/videos/Sylva_Detection_Demo_720p.mp4" type="video/mp4" />
-                Your browser does not support the video tag.
-              </video>
+                height="500"
+                src="https://www.youtube.com/embed/10NXHlf0Y10"
+                title="Sylva Detection Demo"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              ></iframe>
             </div>
             <div className="video-legend">
               <div className="legend-item">
