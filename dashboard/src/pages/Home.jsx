@@ -30,8 +30,8 @@ function Home() {
             <Link to="/simulation" className="btn btn-primary">
               Launch Simulation
             </Link>
-            <Link to="/detection-demo" className="btn btn-secondary">
-              ML Detection Demo
+            <Link to="/detection-demo" className="btn btn-detection">
+              Trash Detection Demo
             </Link>
             <a href="https://sylva-api.onrender.com/docs" target="_blank" rel="noopener noreferrer" className="btn btn-secondary">
               Explore API
