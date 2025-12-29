@@ -1613,14 +1613,15 @@ body {
 }
 
 .btn-detection {
-  background: #3b82f6;
+  background: #f97316;
   color: white;
+  transition: all 0.3s ease;
 }
 
 .btn-detection:hover {
   transform: translateY(-2px);
-  box-shadow: 0 10px 30px rgba(59, 130, 246, 0.4);
-  background: #2563eb;
+  box-shadow: 0 10px 30px rgba(34, 197, 94, 0.3);
+  background: linear-gradient(135deg, #22c55e, #16a34a);
 }
 
 .features-section {
