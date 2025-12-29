@@ -1617,7 +1617,7 @@ body {
 }
 
 .hero-title {
-  font-size: 80px;
+  font-size: 104px;
   font-weight: 800;
   margin-bottom: 24px;
   background: linear-gradient(135deg, #22c55e, #3b82f6);
@@ -2166,7 +2166,7 @@ body {
   }
 
   .hero-title {
-    font-size: 48px;
+    font-size: 62px;
   }
 
   .hero-tagline {
