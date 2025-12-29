@@ -3966,7 +3966,7 @@ body {
 .methodology-section h2 {
   font-size: 28px;
   margin-bottom: 12px;
-  color: var(--text);
+  color: #ffffff;
 }
 
 .intro-text {
@@ -4073,6 +4073,7 @@ body {
 
 .model-table td:last-child {
   font-weight: 500;
+  color: #1e293b;
 }
 
 .model-classes h4,
