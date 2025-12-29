@@ -21,6 +21,12 @@ from fastapi import FastAPI, WebSocket, WebSocketDisconnect, Query, HTTPExceptio
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
 
+from api.models import (
+    FlightListResponse, DetectionResponse, CategoriesResponse,
+    StatsResponse, LocationsResponse, HealthResponse,
+    AnnualSummaryResponse, WaterRiskResponse, ExecutiveSummaryResponse
+)
+
 # Initialize FastAPI app with comprehensive documentation
 app = FastAPI(
     title="Sylva API",
@@ -112,8 +118,8 @@ def save_json(filepath: Path, data: Dict):
 # FLIGHT ENDPOINTS
 # =============================================================================
 
-@app.get("/api/flights", tags=["Flights"])
-async def list_flights() -> Dict:
+@app.get("/api/flights", tags=["Flights"], response_model=FlightListResponse)
+async def list_flights():
     """
     List all available flight missions.
 
@@ -218,14 +224,14 @@ async def get_flight_waypoints(flight_id: str) -> Dict:
 # DETECTION ENDPOINTS
 # =============================================================================
 
-@app.get("/api/detections", tags=["Detections"])
+@app.get("/api/detections", tags=["Detections"], response_model=DetectionResponse)
 async def get_detections(
     location: Optional[str] = Query(None, description="Filter by location ID (e.g., 'stinson_beach', 'lake_erie')"),
     category: Optional[str] = Query(None, description="Filter by trash category (e.g., 'plastic_bottles', 'tires')"),
     priority: Optional[str] = Query(None, description="Filter by priority level: 'critical', 'high', 'medium', or 'low'"),
     min_confidence: Optional[float] = Query(None, ge=0, le=1, description="Minimum detection confidence (0.0 to 1.0)"),
     limit: Optional[int] = Query(None, ge=1, le=10000, description="Maximum number of results to return"),
-) -> Dict:
+):
     """
     Get trash detections with optional filtering.
 
@@ -298,8 +304,8 @@ async def get_detections_geojson(
     return load_json(detection_file)
 
 
-@app.get("/api/detections/categories", tags=["Detections"])
-async def get_categories() -> Dict:
+@app.get("/api/detections/categories", tags=["Detections"], response_model=CategoriesResponse)
+async def get_categories():
     """
     Get list of all trash categories with metadata.
 
@@ -780,8 +786,8 @@ async def start_custom_path_demo(websocket: WebSocket, path_id: str, speed: floa
 # UTILITY ENDPOINTS
 # =============================================================================
 
-@app.get("/api/locations", tags=["Locations"])
-async def get_locations() -> Dict:
+@app.get("/api/locations", tags=["Locations"], response_model=LocationsResponse)
+async def get_locations():
     """
     Get available survey locations with waypoints.
 
@@ -1594,9 +1600,9 @@ async def export_annual_data(
         raise HTTPException(status_code=400, detail=f"Unsupported format: {format}")
 
 
-@app.get("/api/health")
-async def health_check() -> Dict:
-    """Health check endpoint."""
+@app.get("/api/health", response_model=HealthResponse)
+async def health_check():
+    """Health check endpoint - returns API status and version."""
     return {
         "status": "healthy",
         "timestamp": datetime.now().isoformat(),
