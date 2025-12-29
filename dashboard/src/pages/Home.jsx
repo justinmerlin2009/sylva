@@ -107,20 +107,20 @@ function Home() {
         <section className="content-section api-section">
           <h2 className="section-title">Sylva API</h2>
           <p className="section-description">
-            Sylva's open API enables government agencies, researchers, and cleanup organizations to access pollution detection data programmatically. Integrate Sylva data into existing GIS systems, environmental dashboards, or custom applications.
+            Sylva's open API enables government agencies, researchers, and cleanup organizations to access pollution detection data programmatically. Integrate Sylva data into existing GIS systems, environmental dashboards, or custom applications with 40+ endpoints covering detections, analytics, and reporting.
           </p>
           <div className="api-features">
             <div className="api-feature">
-              <h4>Real-time Data</h4>
-              <p>Stream live detection feeds as drones survey areas, enabling immediate dispatch of cleanup crews.</p>
+              <h4>Real-time Detection</h4>
+              <p>Stream live detection feeds via WebSocket as drones survey areas. Access GeoJSON data, heatmaps, and cluster analysis for immediate response.</p>
             </div>
             <div className="api-feature">
-              <h4>Historical Analysis</h4>
-              <p>Access months of detection data to identify patterns, measure progress, and inform policy decisions.</p>
+              <h4>Analytics & Reporting</h4>
+              <p>Annual and monthly statistics, pollution trend analysis, water risk assessments, and executive summaries formatted for government reporting.</p>
             </div>
             <div className="api-feature">
-              <h4>Integration Ready</h4>
-              <p>RESTful API with WebSocket support for seamless integration with existing infrastructure management systems.</p>
+              <h4>Custom Flight Paths</h4>
+              <p>Create custom survey routes, simulate detections, and export results. Plan targeted cleanup operations with waypoint-based flight management.</p>
             </div>
           </div>
           <a href="https://sylva-api.onrender.com/docs" target="_blank" rel="noopener noreferrer" className="btn btn-primary">

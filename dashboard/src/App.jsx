@@ -636,8 +636,9 @@ function App() {
 
       <div className="main-content">
         <header className="header">
-          <Link to="/" className="logo">
-            <h1>SYLVA</h1>
+          <Link to="/" className="logo home-link">
+            <span className="back-arrow">←</span>
+            <h1 className="sylva-title">SYLVA</h1>
             <span className="logo-subtitle">Environmental Monitoring System</span>
           </Link>
           <div className="header-controls">
