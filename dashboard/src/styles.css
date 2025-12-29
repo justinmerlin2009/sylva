@@ -1627,7 +1627,7 @@ body {
 }
 
 .hero-tagline {
-  font-size: 24px;
+  font-size: 31px;
   color: rgba(255, 255, 255, 0.8);
   margin-bottom: 48px;
   line-height: 1.5;
@@ -2170,7 +2170,7 @@ body {
   }
 
   .hero-tagline {
-    font-size: 18px;
+    font-size: 23px;
   }
 
   .hero-actions {
