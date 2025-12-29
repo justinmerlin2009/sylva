@@ -3721,11 +3721,11 @@ body {
 .demo-video-section h2 {
   font-size: 24px;
   margin-bottom: 8px;
-  color: var(--text);
+  color: #ffffff;
 }
 
 .section-desc {
-  color: var(--text-secondary);
+  color: #cbd5e1;
   margin-bottom: 16px;
 }
 
@@ -3755,7 +3755,7 @@ body {
   align-items: center;
   gap: 8px;
   font-size: 14px;
-  color: var(--text-secondary);
+  color: #e2e8f0;
 }
 
 .legend-color {
@@ -3823,7 +3823,8 @@ body {
 .breakdown-card h3 {
   font-size: 16px;
   margin-bottom: 12px;
-  color: var(--text);
+  color: #0f172a;
+  font-weight: 600;
 }
 
 .breakdown-list {
@@ -3848,6 +3849,7 @@ body {
 .breakdown-name {
   flex: 1;
   font-size: 14px;
+  color: #1e293b;
 }
 
 .breakdown-count {
