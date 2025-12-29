@@ -98,7 +98,7 @@ function Home() {
               </ul>
             </div>
             <div className="tech-image">
-              <img src="/images/drone-blueprint.svg" alt="Sylva Drone System" className="tech-img" />
+              <img src="/images/sylva-payload-uav.png" alt="Sylva UAV with Hybrid Camera Payload" className="tech-img" />
             </div>
           </div>
         </section>
