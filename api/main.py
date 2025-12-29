@@ -21,13 +21,64 @@ from fastapi import FastAPI, WebSocket, WebSocketDisconnect, Query, HTTPExceptio
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
 
-# Initialize FastAPI app
+# Initialize FastAPI app with comprehensive documentation
 app = FastAPI(
     title="Sylva API",
-    description="API for Sylva drone environmental monitoring simulation",
-    version="1.1.0",
+    description="""
+## Sylva Environmental Monitoring API
+
+The Sylva API provides programmatic access to drone-based pollution detection data for California environmental monitoring.
+
+### Key Features
+- **Real-time Detection Data**: Access trash detections with GPS coordinates, categories, and priority levels
+- **Flight Path Information**: Retrieve drone survey routes and waypoint data
+- **Analytics & Reporting**: Annual/monthly statistics, hotspot analysis, and water risk assessments
+- **Custom Flight Paths**: Create and simulate custom survey routes
+- **Live Demo**: WebSocket connection for real-time flight simulation
+
+### Quick Start Examples
+
+**Get all detections:**
+```
+GET /api/detections
+```
+
+**Filter by location and priority:**
+```
+GET /api/detections?location=stinson_beach&priority=high
+```
+
+**Get annual statistics:**
+```
+GET /api/analytics/annual/2026
+```
+
+**Export data for reports:**
+```
+GET /api/reports/executive-summary/2026
+```
+
+### Data Formats
+All endpoints return JSON. GeoJSON endpoints follow the [GeoJSON specification](https://geojson.org/) for geographic data.
+
+### Contact
+TamAir - Conrad Challenge 2026
+""",
+    version="1.2.0",
     docs_url="/docs",
     redoc_url="/redoc",
+    openapi_tags=[
+        {"name": "Flights", "description": "Drone flight paths and survey routes"},
+        {"name": "Detections", "description": "Trash detection data with filtering options"},
+        {"name": "Statistics", "description": "Summary statistics and heatmap data"},
+        {"name": "Analytics", "description": "Annual and monthly analytics reports"},
+        {"name": "Water Risk", "description": "Water proximity risk assessments"},
+        {"name": "Reports", "description": "Government-ready report exports"},
+        {"name": "Custom Paths", "description": "Create and manage custom survey routes"},
+        {"name": "Geography", "description": "Geographic features (water, roads, shorelines)"},
+        {"name": "Locations", "description": "Available survey locations"},
+        {"name": "Live Demo", "description": "Real-time flight simulation via WebSocket"},
+    ],
 )
 
 # CORS middleware for frontend access
@@ -61,9 +112,14 @@ def save_json(filepath: Path, data: Dict):
 # FLIGHT ENDPOINTS
 # =============================================================================
 
-@app.get("/api/flights")
+@app.get("/api/flights", tags=["Flights"])
 async def list_flights() -> Dict:
-    """List all available flight missions."""
+    """
+    List all available flight missions.
+
+    Returns a list of all drone survey flights with their IDs, locations, distances, and durations.
+    Use the flight_id to retrieve detailed flight path data.
+    """
     flights_dir = DATA_DIR / "flights"
     flights = []
 
@@ -88,9 +144,17 @@ async def list_flights() -> Dict:
     return {"flights": flights, "count": len(flights)}
 
 
-@app.get("/api/flights/{flight_id}")
+@app.get("/api/flights/{flight_id}", tags=["Flights"])
 async def get_flight(flight_id: str) -> Dict:
-    """Get flight path GeoJSON by ID."""
+    """
+    Get flight path GeoJSON by ID.
+
+    Returns the complete flight path as a GeoJSON FeatureCollection containing:
+    - LineString geometry with all waypoint coordinates
+    - Flight metadata (distance, duration, altitude, speed)
+
+    **Example flight_ids:** `stinson_beach`, `lake_erie`, `nasa_space_center`
+    """
     flight_file = DATA_DIR / "flights" / f"{flight_id}_flight.geojson"
 
     if not flight_file.exists():
@@ -99,9 +163,14 @@ async def get_flight(flight_id: str) -> Dict:
     return load_json(flight_file)
 
 
-@app.get("/api/flights/{flight_id}/animation")
+@app.get("/api/flights/{flight_id}/animation", tags=["Flights", "Live Demo"])
 async def get_flight_animation(flight_id: str) -> List[Dict]:
-    """Get flight animation data for live demo."""
+    """
+    Get flight animation data for live demo.
+
+    Returns frame-by-frame position data for animating the drone flight path.
+    Each frame includes lat/lon coordinates, altitude, and elapsed time.
+    """
     animation_file = DATA_DIR / "flights" / f"{flight_id}_animation.json"
 
     if not animation_file.exists():
@@ -110,9 +179,14 @@ async def get_flight_animation(flight_id: str) -> List[Dict]:
     return load_json(animation_file)
 
 
-@app.get("/api/flights/{flight_id}/waypoints")
+@app.get("/api/flights/{flight_id}/waypoints", tags=["Flights"])
 async def get_flight_waypoints(flight_id: str) -> Dict:
-    """Get flight waypoints for a location."""
+    """
+    Get flight waypoints for a location.
+
+    Returns named waypoints along the flight path with coordinates, altitude, and speed settings.
+    Useful for understanding survey coverage and planning.
+    """
     from simulation.config import LOCATIONS
 
     if flight_id not in LOCATIONS:
@@ -144,15 +218,30 @@ async def get_flight_waypoints(flight_id: str) -> Dict:
 # DETECTION ENDPOINTS
 # =============================================================================
 
-@app.get("/api/detections")
+@app.get("/api/detections", tags=["Detections"])
 async def get_detections(
-    location: Optional[str] = None,
-    category: Optional[str] = None,
-    priority: Optional[str] = None,
-    min_confidence: Optional[float] = Query(None, ge=0, le=1),
-    limit: Optional[int] = Query(None, ge=1, le=10000),
+    location: Optional[str] = Query(None, description="Filter by location ID (e.g., 'stinson_beach', 'lake_erie')"),
+    category: Optional[str] = Query(None, description="Filter by trash category (e.g., 'plastic_bottles', 'tires')"),
+    priority: Optional[str] = Query(None, description="Filter by priority level: 'critical', 'high', 'medium', or 'low'"),
+    min_confidence: Optional[float] = Query(None, ge=0, le=1, description="Minimum detection confidence (0.0 to 1.0)"),
+    limit: Optional[int] = Query(None, ge=1, le=10000, description="Maximum number of results to return"),
 ) -> Dict:
-    """Get trash detections with optional filtering."""
+    """
+    Get trash detections with optional filtering.
+
+    Returns a GeoJSON FeatureCollection of detected trash items. Each feature includes:
+    - **coordinates**: GPS location [longitude, latitude]
+    - **category**: Type of trash (plastic_bottles, tires, furniture, etc.)
+    - **priority**: Cleanup priority (critical, high, medium, low)
+    - **confidence**: AI detection confidence (0.0 to 1.0)
+    - **estimated_weight_kg**: Estimated weight in kilograms
+    - **timestamp**: When the detection occurred
+
+    **Example queries:**
+    - All detections: `/api/detections`
+    - High priority only: `/api/detections?priority=high`
+    - Stinson Beach plastics: `/api/detections?location=stinson_beach&category=plastic_bottles`
+    """
     all_detections_file = DATA_DIR / "detections" / "all_detections.geojson"
     data = load_json(all_detections_file)
 
@@ -189,9 +278,15 @@ async def get_detections(
     }
 
 
-@app.get("/api/detections/geojson")
-async def get_detections_geojson(location: Optional[str] = None) -> Dict:
-    """Get detections as pure GeoJSON FeatureCollection."""
+@app.get("/api/detections/geojson", tags=["Detections"])
+async def get_detections_geojson(
+    location: Optional[str] = Query(None, description="Filter by location ID")
+) -> Dict:
+    """
+    Get detections as pure GeoJSON FeatureCollection.
+
+    Returns raw GeoJSON format suitable for direct import into GIS software (QGIS, ArcGIS, Mapbox).
+    """
     if location:
         detection_file = DATA_DIR / "detections" / f"{location}_detections.geojson"
     else:
@@ -203,9 +298,14 @@ async def get_detections_geojson(location: Optional[str] = None) -> Dict:
     return load_json(detection_file)
 
 
-@app.get("/api/detections/categories")
+@app.get("/api/detections/categories", tags=["Detections"])
 async def get_categories() -> Dict:
-    """Get list of all trash categories with metadata."""
+    """
+    Get list of all trash categories with metadata.
+
+    Returns all detectable trash categories with their display names, colors, average sizes, and weight ranges.
+    Useful for building filters and understanding detection capabilities.
+    """
     from simulation.config import TRASH_CATEGORIES
 
     categories = []
@@ -225,9 +325,20 @@ async def get_categories() -> Dict:
 # STATISTICS ENDPOINTS
 # =============================================================================
 
-@app.get("/api/stats")
-async def get_stats(location: Optional[str] = None) -> Dict:
-    """Get summary statistics."""
+@app.get("/api/stats", tags=["Statistics"])
+async def get_stats(
+    location: Optional[str] = Query(None, description="Filter by location ID for location-specific stats")
+) -> Dict:
+    """
+    Get summary statistics.
+
+    Returns aggregated statistics including:
+    - Total detections and weight
+    - Breakdown by category and priority
+    - Coverage area and flight hours
+
+    Use without parameters for combined stats across all locations.
+    """
     if location:
         stats_file = DATA_DIR / "summary" / f"{location}_stats.json"
     else:
@@ -239,9 +350,14 @@ async def get_stats(location: Optional[str] = None) -> Dict:
     return load_json(stats_file)
 
 
-@app.get("/api/heatmap")
+@app.get("/api/heatmap", tags=["Statistics"])
 async def get_heatmap() -> List[List]:
-    """Get heatmap data for density visualization."""
+    """
+    Get heatmap data for density visualization.
+
+    Returns array of [latitude, longitude, intensity] points for creating pollution density heatmaps.
+    Intensity values range from 0.0 to 1.0 based on estimated weight.
+    """
     heatmap_file = DATA_DIR / "summary" / "heatmap_data.json"
 
     if not heatmap_file.exists():
@@ -264,9 +380,16 @@ async def get_heatmap() -> List[List]:
 # CLUSTER ENDPOINTS
 # =============================================================================
 
-@app.get("/api/clusters")
-async def get_clusters(location: Optional[str] = None) -> Dict:
-    """Get high-density trash clusters."""
+@app.get("/api/clusters", tags=["Statistics"])
+async def get_clusters(
+    location: Optional[str] = Query(None, description="Filter clusters by location ID")
+) -> Dict:
+    """
+    Get high-density trash clusters.
+
+    Returns GeoJSON of clustered detection areas where multiple trash items were found in close proximity.
+    Useful for identifying dumping hotspots and prioritizing cleanup efforts.
+    """
     if location:
         clusters_file = DATA_DIR / "detections" / f"{location}_clusters.geojson"
     else:
@@ -657,9 +780,22 @@ async def start_custom_path_demo(websocket: WebSocket, path_id: str, speed: floa
 # UTILITY ENDPOINTS
 # =============================================================================
 
-@app.get("/api/locations")
+@app.get("/api/locations", tags=["Locations"])
 async def get_locations() -> Dict:
-    """Get available survey locations with waypoints."""
+    """
+    Get available survey locations with waypoints.
+
+    Returns all survey locations with their:
+    - Center coordinates and boundaries
+    - Waypoint lists for flight paths
+    - Altitude and speed settings
+    - Population density data
+
+    **Available locations:**
+    - `stinson_beach` - Stinson Beach, CA (coastal cleanup)
+    - `lake_erie` - Lake Erie Highway Corridor, OH (roadside monitoring)
+    - `nasa_space_center` - NASA Space Center, TX (urban area survey)
+    """
     from simulation.config import LOCATIONS
 
     locations = []
@@ -749,18 +885,31 @@ custom_paths = {}
 custom_path_results = {}
 
 
-@app.post("/api/custom-path")
+@app.post("/api/custom-path", tags=["Custom Paths"])
 async def create_custom_path(data: Dict) -> Dict:
     """
     Create a custom flight path from user-drawn waypoints.
 
-    Expected data:
+    Send a POST request with JSON body containing:
+    - **name**: Display name for the path
+    - **waypoints**: Array of {lat, lon} coordinates (minimum 2 points)
+    - **survey_altitude_m**: Flight altitude in meters (default: 120)
+    - **survey_speed_ms**: Flight speed in m/s (default: 25)
+
+    **Example request body:**
+    ```json
     {
         "name": "My Highway Survey",
-        "waypoints": [{"lat": 34.5, "lon": -114.5}, ...],
+        "waypoints": [
+            {"lat": 34.5, "lon": -114.5},
+            {"lat": 34.6, "lon": -114.4}
+        ],
         "survey_altitude_m": 120,
         "survey_speed_ms": 25
     }
+    ```
+
+    Returns the created path ID for use with other endpoints.
     """
     import uuid
     from simulation.flight_paths import FlightPathGenerator
@@ -822,9 +971,9 @@ async def create_custom_path(data: Dict) -> Dict:
     }
 
 
-@app.get("/api/custom-path/{path_id}")
+@app.get("/api/custom-path/{path_id}", tags=["Custom Paths"])
 async def get_custom_path(path_id: str) -> Dict:
-    """Get custom path details."""
+    """Get custom path details including configuration and detection count."""
     if path_id not in custom_paths:
         raise HTTPException(status_code=404, detail="Custom path not found")
 
@@ -838,16 +987,16 @@ async def get_custom_path(path_id: str) -> Dict:
     }
 
 
-@app.get("/api/custom-path/{path_id}/detections")
+@app.get("/api/custom-path/{path_id}/detections", tags=["Custom Paths"])
 async def get_custom_path_detections(path_id: str) -> Dict:
-    """Get detections for a custom path."""
+    """Get simulated detections for a custom path as GeoJSON."""
     if path_id not in custom_paths:
         raise HTTPException(status_code=404, detail="Custom path not found")
 
     return custom_paths[path_id]["detections"]
 
 
-@app.get("/api/custom-path/{path_id}/flight")
+@app.get("/api/custom-path/{path_id}/flight", tags=["Custom Paths"])
 async def get_custom_path_flight(path_id: str) -> Dict:
     """Get flight path GeoJSON for a custom path."""
     if path_id not in custom_paths:
@@ -856,9 +1005,9 @@ async def get_custom_path_flight(path_id: str) -> Dict:
     return custom_paths[path_id]["flight_path"]
 
 
-@app.get("/api/custom-paths")
+@app.get("/api/custom-paths", tags=["Custom Paths"])
 async def list_custom_paths() -> Dict:
-    """List all custom paths."""
+    """List all custom paths created in this session."""
     paths = []
     for path_id, path in custom_paths.items():
         paths.append({
@@ -871,9 +1020,9 @@ async def list_custom_paths() -> Dict:
     return {"paths": paths}
 
 
-@app.delete("/api/custom-path/{path_id}")
+@app.delete("/api/custom-path/{path_id}", tags=["Custom Paths"])
 async def delete_custom_path(path_id: str) -> Dict:
-    """Delete a custom path."""
+    """Delete a custom path and its associated data."""
     if path_id not in custom_paths:
         raise HTTPException(status_code=404, detail="Custom path not found")
 
@@ -1006,15 +1155,17 @@ async def export_custom_path(path_id: str, format: str = "geojson") -> Dict:
 GEOGRAPHY_DIR = DATA_DIR / "geography"
 
 
-@app.get("/api/geography/{location}")
+@app.get("/api/geography/{location}", tags=["Geography"])
 async def get_geography(location: str) -> Dict:
     """
     Get geographic features (water bodies, highways, shorelines) for a location.
 
-    Returns GeoJSON FeatureCollection with:
+    Returns GeoJSON FeatureCollection with natural and infrastructure features for map overlays:
     - Water polygons (oceans, lakes, lagoons)
     - Highway/road linestrings
     - Shoreline linestrings
+
+    **Example:** `/api/geography/stinson_beach`
     """
     features = []
 
@@ -1042,9 +1193,9 @@ async def get_geography(location: str) -> Dict:
     }
 
 
-@app.get("/api/geography")
+@app.get("/api/geography", tags=["Geography"])
 async def list_geography() -> Dict:
-    """List all available geography data."""
+    """List all available geography data files with feature counts."""
     available = []
 
     if GEOGRAPHY_DIR.exists():
@@ -1066,9 +1217,20 @@ async def list_geography() -> Dict:
 ANNUAL_DIR = DATA_DIR / "annual"
 
 
-@app.get("/api/analytics/annual/{year}")
+@app.get("/api/analytics/annual/{year}", tags=["Analytics"])
 async def get_annual_summary(year: int) -> Dict:
-    """Get comprehensive annual statistics for a year."""
+    """
+    Get comprehensive annual statistics for a year.
+
+    Returns complete annual report including:
+    - Total detections, flights, and coverage area
+    - Monthly breakdown with trends
+    - Water risk assessment summary
+    - Cleanup event impact analysis
+    - Operational metrics and cost analysis
+
+    **Example:** `/api/analytics/annual/2026`
+    """
     summary_file = ANNUAL_DIR / f"{year}_summary.json"
 
     if not summary_file.exists():
@@ -1077,9 +1239,16 @@ async def get_annual_summary(year: int) -> Dict:
     return load_json(summary_file)
 
 
-@app.get("/api/analytics/monthly/{year}/{month}")
+@app.get("/api/analytics/monthly/{year}/{month}", tags=["Analytics"])
 async def get_monthly_report(year: int, month: int) -> Dict:
-    """Get monthly report for a specific month."""
+    """
+    Get monthly report for a specific month.
+
+    Returns detailed monthly statistics including flights completed, detections by category,
+    and comparison to previous months.
+
+    **Example:** `/api/analytics/monthly/2026/6` (June 2026)
+    """
     if month < 1 or month > 12:
         raise HTTPException(status_code=400, detail="Month must be between 1 and 12")
 
@@ -1091,9 +1260,14 @@ async def get_monthly_report(year: int, month: int) -> Dict:
     return load_json(monthly_file)
 
 
-@app.get("/api/analytics/months/{year}")
+@app.get("/api/analytics/months/{year}", tags=["Analytics"])
 async def list_monthly_reports(year: int) -> Dict:
-    """List all monthly reports for a year."""
+    """
+    List all monthly reports for a year.
+
+    Returns summary of each month's activity with detection counts and weight totals.
+    Use this to identify seasonal patterns and trends.
+    """
     monthly_dir = ANNUAL_DIR / "monthly"
     reports = []
 
@@ -1217,9 +1391,21 @@ async def get_annual_flights(year: int) -> Dict:
 # WATER RISK ENDPOINTS
 # =============================================================================
 
-@app.get("/api/water-risk/summary")
-async def get_water_risk_summary(year: int = 2026) -> Dict:
-    """Get water risk summary from annual data."""
+@app.get("/api/water-risk/summary", tags=["Water Risk"])
+async def get_water_risk_summary(
+    year: int = Query(2026, description="Year for water risk analysis")
+) -> Dict:
+    """
+    Get water risk summary from annual data.
+
+    Returns analysis of trash proximity to water bodies:
+    - **Critical**: Within 25m of water (immediate pollution risk)
+    - **High**: 25-100m from water (high runoff risk)
+    - **Medium**: 100-500m from water (moderate risk)
+    - **Low**: Over 500m from water (minimal water risk)
+
+    Includes estimated pollution prevention metrics.
+    """
     summary_file = ANNUAL_DIR / f"{year}_summary.json"
 
     if not summary_file.exists():
@@ -1268,9 +1454,20 @@ async def get_water_risk_hotspots(
 # REPORT ENDPOINTS - Government-Ready Exports
 # =============================================================================
 
-@app.get("/api/reports/executive-summary/{year}")
+@app.get("/api/reports/executive-summary/{year}", tags=["Reports"])
 async def get_executive_summary(year: int) -> Dict:
-    """Generate executive summary for government reports."""
+    """
+    Generate executive summary for government reports.
+
+    Returns a formatted executive summary suitable for government agencies including:
+    - Key findings (total debris, water risk items, pollution prevented)
+    - Operational efficiency metrics (cost savings vs manual methods)
+    - Cleanup impact summary
+    - Top 5 priority hotspots requiring attention
+    - Actionable recommendations
+
+    **Example:** `/api/reports/executive-summary/2026`
+    """
     summary_file = ANNUAL_DIR / f"{year}_summary.json"
     hotspots_file = ANNUAL_DIR / f"hotspots_{year}.json"
 
@@ -1342,9 +1539,20 @@ async def get_executive_summary(year: int) -> Dict:
     }
 
 
-@app.get("/api/reports/export/{year}")
-async def export_annual_data(year: int, format: str = "json") -> Dict:
-    """Export annual data in various formats for external use."""
+@app.get("/api/reports/export/{year}", tags=["Reports"])
+async def export_annual_data(
+    year: int,
+    format: str = Query("json", description="Export format: 'json' for full data, 'csv' for spreadsheet-ready data")
+) -> Dict:
+    """
+    Export annual data in various formats for external use.
+
+    **Formats:**
+    - `json`: Complete annual summary with all metrics
+    - `csv`: Flat detection data for spreadsheet import (includes lat, lon, category, weight, priority)
+
+    **Example:** `/api/reports/export/2026?format=csv`
+    """
     summary_file = ANNUAL_DIR / f"{year}_summary.json"
     detections_file = ANNUAL_DIR / f"detections_{year}.geojson"
 
