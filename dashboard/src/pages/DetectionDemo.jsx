@@ -42,14 +42,14 @@ function DetectionDemo() {
           <section className="demo-video-section">
             <h2>Detection Demo Video</h2>
             <p className="section-desc">
-              90 frames from 5 DJI drone videos processed through our TACO + SAM 2 pipeline.
-              Each colored overlay represents a detected and segmented trash item.
+              1,759 frames at 4K resolution (3840x2160) from 5 DJI drone videos processed at 15fps through our TACO + SAM 2 pipeline.
+              Each colored overlay represents a detected and segmented trash item with pixel-precise boundaries.
             </p>
             <div className="video-container">
               <iframe
                 width="100%"
                 height="500"
-                src="https://www.youtube.com/embed/10NXHlf0Y10"
+                src="https://www.youtube.com/embed/cjw-Zz9BLMs"
                 title="Sylva Detection Demo"
                 frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -78,23 +78,23 @@ function DetectionDemo() {
             <div className="stats-grid-large">
               <div className="stat-card-large">
                 <div className="stat-icon">🎬</div>
-                <div className="stat-value-large">90</div>
-                <div className="stat-label-large">Frames Processed</div>
+                <div className="stat-value-large">1,759</div>
+                <div className="stat-label-large">Frames Processed (4K)</div>
               </div>
               <div className="stat-card-large">
                 <div className="stat-icon">🔍</div>
-                <div className="stat-value-large">52</div>
+                <div className="stat-value-large">1,122</div>
                 <div className="stat-label-large">Frames with Detections</div>
               </div>
               <div className="stat-card-large">
                 <div className="stat-icon">🗑️</div>
-                <div className="stat-value-large">103</div>
+                <div className="stat-value-large">1,876</div>
                 <div className="stat-label-large">Total Trash Items</div>
               </div>
               <div className="stat-card-large">
-                <div className="stat-icon">📐</div>
-                <div className="stat-value-large">601K</div>
-                <div className="stat-label-large">Segmented Pixels</div>
+                <div className="stat-icon">⏱️</div>
+                <div className="stat-value-large">15fps</div>
+                <div className="stat-label-large">Smooth Frame Rate</div>
               </div>
             </div>
 
@@ -141,17 +141,17 @@ function DetectionDemo() {
                   <div className="breakdown-item">
                     <span className="priority-indicator" style={{backgroundColor: '#e67e22'}}></span>
                     <span className="breakdown-name">High</span>
-                    <span className="breakdown-count">1</span>
+                    <span className="breakdown-count">7</span>
                   </div>
                   <div className="breakdown-item">
                     <span className="priority-indicator" style={{backgroundColor: '#f1c40f'}}></span>
                     <span className="breakdown-name">Medium</span>
-                    <span className="breakdown-count">37</span>
+                    <span className="breakdown-count">1,434</span>
                   </div>
                   <div className="breakdown-item">
                     <span className="priority-indicator" style={{backgroundColor: '#27ae60'}}></span>
                     <span className="breakdown-name">Low</span>
-                    <span className="breakdown-count">65</span>
+                    <span className="breakdown-count">435</span>
                   </div>
                 </div>
               </div>
@@ -199,7 +199,7 @@ function DetectionDemo() {
                 <div className="step-number">1</div>
                 <div className="step-content">
                   <h3>Image Acquisition</h3>
-                  <p>DJI drone captures 4K aerial imagery at 1 frame/second during survey flights</p>
+                  <p>DJI drone captures 4K (3840x2160) aerial imagery at 15fps during survey flights</p>
                 </div>
               </div>
               <div className="pipeline-arrow">→</div>
@@ -354,9 +354,9 @@ function DetectionDemo() {
       <div className="demo-tech-note">
         <h4>About This Demo</h4>
         <p>
-          This demonstration shows real detection results from DJI drone footage captured over a field
-          with distributed trash items. The <strong>TACO + SAM pipeline</strong> processes each frame
-          through specialized trash detection and pixel-precise segmentation.
+          This demonstration shows real detection results from 4K DJI drone footage (3840x2160) captured over a field
+          with distributed trash items. The <strong>TACO + SAM pipeline</strong> processes 1,759 frames at 15fps
+          through specialized trash detection and pixel-precise segmentation, producing smooth high-definition output.
         </p>
         <p>
           <strong>Source Code:</strong>{' '}

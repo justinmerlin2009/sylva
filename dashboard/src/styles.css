@@ -4052,7 +4052,8 @@ body {
 }
 
 .model-table td:first-child {
-  color: var(--text-secondary);
+  color: var(--text);
+  font-weight: 500;
   width: 40%;
 }
 
@@ -4076,9 +4077,10 @@ body {
 .class-tags span {
   padding: 4px 10px;
   background: var(--background);
+  border: 1px solid var(--border);
   border-radius: 20px;
   font-size: 12px;
-  color: var(--text-secondary);
+  color: var(--text);
 }
 
 .model-benefits ul {
@@ -4091,7 +4093,7 @@ body {
   padding-left: 20px;
   position: relative;
   font-size: 14px;
-  color: var(--text-secondary);
+  color: var(--text);
 }
 
 .model-benefits li::before {
