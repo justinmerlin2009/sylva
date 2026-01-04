@@ -41,6 +41,20 @@ function Home() {
         {/* Why It Matters Section */}
         <section id="why" className="content-section">
           <h2 className="section-title">Why It Matters</h2>
+          <div className="market-stats">
+            <div className="market-stat">
+              <span className="market-number">$1.1B</span>
+              <span className="market-label">California Clean California budget</span>
+            </div>
+            <div className="market-stat">
+              <span className="market-number">$24.7B</span>
+              <span className="market-label">US environmental remediation market</span>
+            </div>
+            <div className="market-stat">
+              <span className="market-number">8-14M</span>
+              <span className="market-label">Tons of plastic entering oceans yearly</span>
+            </div>
+          </div>
           <p className="section-description">
             Illegal dumping and roadside pollution cost California over $500 million annually in cleanup efforts. Traditional detection methods rely on manual reporting, leaving vast areas unmonitored and pollution sites undiscovered for months. This trash pollutes waterways, harms wildlife, and degrades communities. Sylva provides a scalable, technology-driven solution to detect pollution faster, enabling rapid response and data-driven resource allocation.
           </p>
@@ -69,6 +83,10 @@ function Home() {
               <img src="/images/icon-ai.svg" alt="AI" className="feature-icon-img" />
               <h3>AI Detection</h3>
               <p>Computer vision algorithms analyze drone imagery in real-time to identify and classify pollution types including plastic debris, tire dumps, furniture, and hazardous materials. Each detection is assigned a priority level based on size, type, and environmental risk.</p>
+              <div className="feature-stats">
+                <span className="stat-badge">73% fewer false positives</span>
+                <span className="stat-badge">87% detection confidence</span>
+              </div>
             </div>
             <div className="feature-card">
               <img src="/images/icon-analytics.svg" alt="Analytics" className="feature-icon-img" />
@@ -123,6 +141,13 @@ function Home() {
         {/* Technology/Prototype Section */}
         <section className="content-section tech-section">
           <h2 className="section-title">Our Technology</h2>
+
+          {/* Innovation Highlight */}
+          <div className="innovation-highlight">
+            <h3>The Innovation: Hyperspectral Detection</h3>
+            <p>Unlike standard cameras that only see colors, our 8-band hyperspectral sensor detects unique light signatures that identify materials. Plastics reflect differently than paper, rubber differs from rock. This "fingerprint" detection reduces false positives by 73% compared to RGB-only systems, ensuring cleanup crews focus on real pollution.</p>
+          </div>
+
           <div className="tech-grid">
             <div className="tech-content">
               <h3>The Sylva Fixed-Wing UAV</h3>
@@ -164,6 +189,32 @@ function Home() {
           <a href="https://sylva-api.onrender.com/docs" target="_blank" rel="noopener noreferrer" className="btn btn-primary">
             View API Documentation
           </a>
+        </section>
+
+        {/* Validation Section */}
+        <section className="content-section validation-section">
+          <h2 className="section-title">Validated & Proven</h2>
+          <p className="section-description">
+            Real hardware. Real testing. Real results.
+          </p>
+          <div className="validation-grid">
+            <div className="validation-card">
+              <div className="validation-number">4</div>
+              <div className="validation-label">Fixed-wing drones built and flight-tested</div>
+            </div>
+            <div className="validation-card">
+              <div className="validation-number">8</div>
+              <div className="validation-label">Successful detections from December 2025 field test</div>
+            </div>
+            <div className="validation-card">
+              <div className="validation-number">60+</div>
+              <div className="validation-label">Live API endpoints serving real data</div>
+            </div>
+            <div className="validation-card">
+              <div className="validation-number">4</div>
+              <div className="validation-label">Agency partners in active discussions</div>
+            </div>
+          </div>
         </section>
 
         {/* Team Section */}
