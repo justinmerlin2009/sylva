@@ -1616,6 +1616,25 @@ body {
   max-width: 800px;
 }
 
+.conrad-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 50px;
+  padding: 8px 20px 8px 12px;
+  margin-bottom: 24px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #22c55e;
+  backdrop-filter: blur(10px);
+}
+
+.conrad-badge .conrad-icon {
+  font-size: 20px;
+}
+
 .hero-title {
   font-size: 104px;
   font-weight: 800;
@@ -1782,6 +1801,136 @@ body {
   max-width: 800px;
   margin: 0 auto;
   line-height: 1.8;
+}
+
+/* Savings Section */
+.savings-section {
+  background: linear-gradient(180deg, rgba(34, 197, 94, 0.05) 0%, transparent 100%);
+}
+
+.savings-comparison {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  margin: 48px 0;
+  flex-wrap: wrap;
+}
+
+.savings-card {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 16px;
+  padding: 32px;
+  width: 280px;
+  text-align: center;
+}
+
+.savings-card h3 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 16px;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.savings-stat {
+  font-size: 48px;
+  font-weight: 800;
+  margin-bottom: 4px;
+}
+
+.savings-manual .savings-stat {
+  color: #ef4444;
+}
+
+.savings-sylva .savings-stat {
+  color: #22c55e;
+}
+
+.savings-unit {
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.6);
+  margin-bottom: 24px;
+}
+
+.savings-details {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+}
+
+.savings-details li {
+  padding: 8px 0;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 14px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.savings-details li:last-child {
+  border-bottom: none;
+}
+
+.savings-manual .savings-details li::before {
+  content: "✕ ";
+  color: #ef4444;
+}
+
+.savings-sylva .savings-details li::before {
+  content: "✓ ";
+  color: #22c55e;
+}
+
+.savings-arrow {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.arrow-text {
+  font-size: 14px;
+  font-weight: 700;
+  color: #22c55e;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.arrow-icon {
+  font-size: 32px;
+  color: #22c55e;
+}
+
+.savings-example {
+  text-align: center;
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.8);
+  background: rgba(34, 197, 94, 0.1);
+  border: 1px solid rgba(34, 197, 94, 0.2);
+  border-radius: 12px;
+  padding: 20px 32px;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.savings-example strong {
+  color: #22c55e;
+}
+
+@media (max-width: 768px) {
+  .savings-comparison {
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .savings-arrow {
+    transform: rotate(90deg);
+  }
+
+  .savings-card {
+    width: 100%;
+    max-width: 320px;
+  }
 }
 
 /* Video Container */

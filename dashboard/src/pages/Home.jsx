@@ -82,6 +82,45 @@ function Home() {
           </div>
         </section>
 
+        {/* Cost Savings Section */}
+        <section className="content-section savings-section">
+          <h2 className="section-title">The Business Case</h2>
+          <p className="section-description">
+            Sylva delivers dramatic cost savings compared to traditional survey methods while covering more ground, faster and safer.
+          </p>
+          <div className="savings-comparison">
+            <div className="savings-card savings-manual">
+              <h3>Manual Surveys</h3>
+              <div className="savings-stat">$12-18</div>
+              <div className="savings-unit">per acre</div>
+              <ul className="savings-details">
+                <li>2-5 acres per hour</li>
+                <li>Workers in hazardous areas</li>
+                <li>Inconsistent detection</li>
+                <li>No automated tracking</li>
+              </ul>
+            </div>
+            <div className="savings-arrow">
+              <span className="arrow-text">80-95% savings</span>
+              <span className="arrow-icon">→</span>
+            </div>
+            <div className="savings-card savings-sylva">
+              <h3>Sylva</h3>
+              <div className="savings-stat">$0.60-1.86</div>
+              <div className="savings-unit">per acre</div>
+              <ul className="savings-details">
+                <li>500 acres per hour</li>
+                <li>No worker safety risk</li>
+                <li>AI-powered consistency</li>
+                <li>Full dashboard + API</li>
+              </ul>
+            </div>
+          </div>
+          <div className="savings-example">
+            <strong>Example:</strong> A 50 km² coastal survey that costs $150,000+ with manual methods costs under $8,000 with Sylva.
+          </div>
+        </section>
+
         {/* Technology/Prototype Section */}
         <section className="content-section tech-section">
           <h2 className="section-title">Our Technology</h2>
@@ -247,7 +286,7 @@ function Home() {
 
       {/* Footer */}
       <footer className="home-footer">
-        <p>&copy; 2025 Sylva. All rights reserved.</p>
+        <p>&copy; 2026 Sylva. All rights reserved.</p>
         <p className="footer-sub">TamAir - Conrad Challenge 2026</p>
       </footer>
     </div>
