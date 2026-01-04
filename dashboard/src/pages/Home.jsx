@@ -14,7 +14,7 @@ function Home() {
           <a href="#why" className="nav-link">Why It Matters</a>
           <a href="#how" className="nav-link">How It Works</a>
           <a href="#team" className="nav-link">Our Team</a>
-          <a href="#collab" className="nav-link">Collaborations</a>
+          <a href="#partners" className="nav-link">Our Partners</a>
         </nav>
       </header>
 
@@ -306,9 +306,9 @@ function Home() {
           </div>
         </section>
 
-        {/* Collaborations Section */}
-        <section id="collab" className="content-section collab-section">
-          <h2 className="section-title">Collaborations</h2>
+        {/* Partners Section */}
+        <section id="partners" className="content-section collab-section">
+          <h2 className="section-title">Our Partners</h2>
           <div className="collab-grid">
             <a href="https://dot.ca.gov" target="_blank" rel="noopener noreferrer" className="collab-card">
               <img src="/logos/Caltrans.png" alt="Caltrans" className="collab-logo-img" />
