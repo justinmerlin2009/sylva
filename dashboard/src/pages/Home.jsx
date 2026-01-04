@@ -56,7 +56,7 @@ function Home() {
             </div>
           </div>
           <p className="section-description">
-            California has allocated over a billion dollars to programs like Clean California, yet agencies still lack effective ways to measure where pollution problems actually are. Traditional detection relies on manual reporting, leaving vast areas unmonitored for months. Sylva combines three things nobody else has put together: a hybrid camera using hyperspectral sensors to identify trash types, onboard AI that processes everything in real-time during flight, and a water risk scoring system that prioritizes pollution near waterways. We survey 500 acres per hour at $0.60 per acre, compared to $12-18 for manual methods.
+            California is making significant investments in environmental cleanup through initiatives like Caltrans' Clean California program. These efforts are making real progress, but agencies need better tools to prioritize resources and measure impact. Sylva helps these partners become even more effective by providing actionable intelligence. We combine three things nobody else has put together: a hybrid camera using hyperspectral sensors to identify trash types, onboard AI that processes everything in real-time during flight, and a water risk scoring system that prioritizes pollution near waterways. Surveying 500 acres per hour at $0.60 per acre, we help cleanup teams focus where it matters most.
           </p>
           <div className="video-container">
             <iframe
