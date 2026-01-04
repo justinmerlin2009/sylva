@@ -13,6 +13,7 @@ function Home() {
         <nav className="home-nav">
           <a href="#why" className="nav-link">Why It Matters</a>
           <a href="#how" className="nav-link">How It Works</a>
+          <a href="#business" className="nav-link">Business Case</a>
           <a href="#team" className="nav-link">Our Team</a>
           <a href="#partners" className="nav-link">Our Partners</a>
         </nav>
@@ -43,16 +44,20 @@ function Home() {
           <h2 className="section-title">Why It Matters</h2>
           <div className="market-stats">
             <div className="market-stat">
-              <span className="market-number">$1.1B</span>
-              <span className="market-label">California Clean California budget</span>
-            </div>
-            <div className="market-stat">
               <span className="market-number">$24.7B</span>
               <span className="market-label">US environmental remediation market</span>
             </div>
             <div className="market-stat">
+              <span className="market-number">$1.1B</span>
+              <span className="market-label">California Clean California budget</span>
+            </div>
+            <div className="market-stat">
               <span className="market-number">8-14M</span>
               <span className="market-label">Tons of plastic entering oceans yearly</span>
+            </div>
+            <div className="market-stat">
+              <span className="market-number">80%</span>
+              <span className="market-label">Of ocean plastic originates from land</span>
             </div>
           </div>
           <p className="section-description">
@@ -96,45 +101,6 @@ function Home() {
           </div>
           <div className="system-diagram">
             <img src="/images/system-diagram.svg" alt="Sylva System Architecture" />
-          </div>
-        </section>
-
-        {/* Cost Savings Section */}
-        <section className="content-section savings-section">
-          <h2 className="section-title">The Business Case</h2>
-          <p className="section-description">
-            Sylva delivers dramatic cost savings compared to traditional survey methods while covering more ground, faster and safer.
-          </p>
-          <div className="savings-comparison">
-            <div className="savings-card savings-manual">
-              <h3>Manual Surveys</h3>
-              <div className="savings-stat">$12-18</div>
-              <div className="savings-unit">per acre</div>
-              <ul className="savings-details">
-                <li>2-5 acres per hour</li>
-                <li>Workers in hazardous areas</li>
-                <li>Inconsistent detection</li>
-                <li>No automated tracking</li>
-              </ul>
-            </div>
-            <div className="savings-arrow">
-              <span className="arrow-text">80-95% savings</span>
-              <span className="arrow-icon">→</span>
-            </div>
-            <div className="savings-card savings-sylva">
-              <h3>Sylva</h3>
-              <div className="savings-stat">$0.60-1.86</div>
-              <div className="savings-unit">per acre</div>
-              <ul className="savings-details">
-                <li>500 acres per hour</li>
-                <li>No worker safety risk</li>
-                <li>AI-powered consistency</li>
-                <li>Full dashboard + API</li>
-              </ul>
-            </div>
-          </div>
-          <div className="savings-example">
-            <strong>Example:</strong> A 50 km² coastal survey that costs $150,000+ with manual methods costs under $8,000 with Sylva.
           </div>
         </section>
 
@@ -189,6 +155,45 @@ function Home() {
           <a href="https://sylva-api.onrender.com/docs" target="_blank" rel="noopener noreferrer" className="btn btn-primary">
             View API Documentation
           </a>
+        </section>
+
+        {/* Business Case Section */}
+        <section id="business" className="content-section savings-section">
+          <h2 className="section-title">The Business Case</h2>
+          <p className="section-description">
+            Sylva delivers dramatic cost savings compared to traditional survey methods while covering more ground, faster and safer.
+          </p>
+          <div className="savings-comparison">
+            <div className="savings-card savings-manual">
+              <h3>Manual Surveys</h3>
+              <div className="savings-stat">$12-18</div>
+              <div className="savings-unit">per acre</div>
+              <ul className="savings-details">
+                <li>2-5 acres per hour</li>
+                <li>Workers in hazardous areas</li>
+                <li>Inconsistent detection</li>
+                <li>No automated tracking</li>
+              </ul>
+            </div>
+            <div className="savings-arrow">
+              <span className="arrow-text">80-95% savings</span>
+              <span className="arrow-icon">→</span>
+            </div>
+            <div className="savings-card savings-sylva">
+              <h3>Sylva</h3>
+              <div className="savings-stat">$0.60-1.86</div>
+              <div className="savings-unit">per acre</div>
+              <ul className="savings-details">
+                <li>500 acres per hour</li>
+                <li>No worker safety risk</li>
+                <li>AI-powered consistency</li>
+                <li>Full dashboard + API</li>
+              </ul>
+            </div>
+          </div>
+          <div className="savings-example">
+            <strong>Example:</strong> A 50 km² coastal survey that costs $150,000+ with manual methods costs under $8,000 with Sylva.
+          </div>
         </section>
 
         {/* Validation Section */}
