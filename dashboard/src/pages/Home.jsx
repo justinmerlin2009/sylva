@@ -56,7 +56,7 @@ function Home() {
             </div>
           </div>
           <p className="section-description">
-            Illegal dumping and roadside pollution cost California over $500 million annually in cleanup efforts. Traditional detection methods rely on manual reporting, leaving vast areas unmonitored and pollution sites undiscovered for months. This trash pollutes waterways, harms wildlife, and degrades communities. Sylva provides a scalable, technology-driven solution to detect pollution faster, enabling rapid response and data-driven resource allocation.
+            State agencies like Caltrans and Clean California spend over a billion dollars on cleanup but have no good way to measure where the problems actually are. Traditional detection relies on manual reporting, leaving vast areas unmonitored for months. Sylva combines three things nobody else has put together: a hybrid camera using hyperspectral sensors to identify trash types, onboard AI that processes everything in real-time during flight, and a water risk scoring system that prioritizes pollution near waterways. We survey 500 acres per hour at $0.60 per acre, compared to $12-18 for manual methods.
           </p>
           <div className="video-container">
             <iframe
