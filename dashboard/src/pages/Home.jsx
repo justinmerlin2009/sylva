@@ -15,7 +15,6 @@ function Home() {
           <a href="#how" className="nav-link">How It Works</a>
           <a href="#team" className="nav-link">Our Team</a>
           <a href="#collab" className="nav-link">Collaborations</a>
-          <Link to="/simulation" className="nav-link nav-cta">Simulation</Link>
         </nav>
       </header>
 
