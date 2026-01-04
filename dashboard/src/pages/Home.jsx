@@ -42,6 +42,10 @@ function Home() {
         {/* Why It Matters Section */}
         <section id="why" className="content-section">
           <h2 className="section-title">Why It Matters</h2>
+          <div className="impact-highlight">
+            <span className="impact-number">$13 Billion</span>
+            <span className="impact-label">Annual damage to marine ecosystems from plastic pollution</span>
+          </div>
           <div className="market-stats">
             <div className="market-stat">
               <span className="market-number">$24.7B</span>
