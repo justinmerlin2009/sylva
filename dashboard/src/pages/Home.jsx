@@ -119,8 +119,8 @@ function Home() {
 
           {/* Innovation Highlight */}
           <div className="innovation-highlight">
-            <h3>The Innovation: Hyperspectral Detection</h3>
-            <p>Unlike standard cameras that only see colors, our 8-band hyperspectral sensor detects unique light signatures that identify materials. Plastics reflect differently than paper, rubber differs from rock. This "fingerprint" detection reduces false positives by 73% compared to RGB-only systems, ensuring cleanup crews focus on real pollution.</p>
+            <h3>The Innovation: Hybrid Electromagnetic Fingerprinting</h3>
+            <p>Our novel hybrid camera integrates three sensor technologies into one payload: 61-megapixel RGB for high-resolution imagery, 8-band hyperspectral (900-1700nm) for material identification, and solid-state LiDAR for depth mapping. Each material has a unique electromagnetic signature—plastics peak at 1,200nm and 1,400nm, rubber at 1,700nm, glass near 900nm. This fingerprinting approach reduces false positives by 73% compared to RGB-only systems, ensuring cleanup crews focus on real pollution.</p>
           </div>
 
           <div className="tech-grid">
