@@ -56,7 +56,7 @@ function Home() {
             </div>
           </div>
           <p className="section-description">
-            State agencies like Caltrans and Clean California spend over a billion dollars on cleanup but have no good way to measure where the problems actually are. Traditional detection relies on manual reporting, leaving vast areas unmonitored for months. Sylva combines three things nobody else has put together: a hybrid camera using hyperspectral sensors to identify trash types, onboard AI that processes everything in real-time during flight, and a water risk scoring system that prioritizes pollution near waterways. We survey 500 acres per hour at $0.60 per acre, compared to $12-18 for manual methods.
+            California has allocated over a billion dollars to programs like Clean California, yet agencies still lack effective ways to measure where pollution problems actually are. Traditional detection relies on manual reporting, leaving vast areas unmonitored for months. Sylva combines three things nobody else has put together: a hybrid camera using hyperspectral sensors to identify trash types, onboard AI that processes everything in real-time during flight, and a water risk scoring system that prioritizes pollution near waterways. We survey 500 acres per hour at $0.60 per acre, compared to $12-18 for manual methods.
           </p>
           <div className="video-container">
             <iframe
