@@ -1960,6 +1960,22 @@ body {
   color: rgba(255, 255, 255, 0.8);
 }
 
+.impact-source {
+  display: block;
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.4);
+  margin-top: 12px;
+  font-style: italic;
+}
+
+.stat-source {
+  display: block;
+  font-size: 10px;
+  color: rgba(255, 255, 255, 0.4);
+  margin-top: 8px;
+  font-style: italic;
+}
+
 /* Market Stats */
 .market-stats {
   display: flex;

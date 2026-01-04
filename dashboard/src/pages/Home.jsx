@@ -45,23 +45,28 @@ function Home() {
           <div className="impact-highlight">
             <span className="impact-number">$13 Billion</span>
             <span className="impact-label">Annual damage to marine ecosystems from plastic pollution</span>
+            <span className="impact-source">Source: UNEP, 2014</span>
           </div>
           <div className="market-stats">
             <div className="market-stat">
               <span className="market-number">$24.7B</span>
               <span className="market-label">US environmental remediation market</span>
+              <span className="stat-source">Precedence Research, 2024</span>
             </div>
             <div className="market-stat">
               <span className="market-number">$1.1B</span>
               <span className="market-label">California Clean California budget</span>
+              <span className="stat-source">Caltrans, 2024</span>
             </div>
             <div className="market-stat">
               <span className="market-number">8-14M</span>
               <span className="market-label">Tons of plastic entering oceans yearly</span>
+              <span className="stat-source">Jambeck et al., Science, 2015</span>
             </div>
             <div className="market-stat">
               <span className="market-number">80%</span>
               <span className="market-label">Of ocean plastic originates from land</span>
+              <span className="stat-source">UNEP, 2014</span>
             </div>
           </div>
           <p className="section-description">
