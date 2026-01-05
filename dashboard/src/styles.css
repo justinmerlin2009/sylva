@@ -6434,21 +6434,21 @@ body {
   }
 }
 
-.location-icon-large {
+.showcase-location-badge .location-icon-large {
   font-size: 32px;
 }
 
-.location-info {
+.showcase-location-badge .location-info {
   text-align: left;
 }
 
-.location-name {
+.showcase-location-badge .location-name {
   font-size: 18px;
   font-weight: 600;
   color: #fff;
 }
 
-.location-type {
+.showcase-location-badge .location-type {
   font-size: 13px;
   color: #22c55e;
   font-weight: 500;

@@ -81,12 +81,11 @@ function InstructionsPopup({ onClose, onDontShowAgain }) {
 
 // Showcase overlay component - minimal and unobtrusive
 function ShowcaseOverlay({ step, message, progress, onClose }) {
-  // Location info based on step
+  // Location info based on step (2 locations: Stinson Beach, NASA)
   const getLocationInfo = () => {
     if (step === 1 || step === 2) return { icon: '🏖️', name: 'Stinson Beach, CA', type: 'Coastal Survey' }
-    if (step === 3 || step === 4) return { icon: '🛣️', name: 'Lake Erie, OH', type: 'Highway Corridor' }
-    if (step === 5 || step === 6) return { icon: '🚀', name: 'NASA Space Center, TX', type: 'Urban Waterfront' }
-    if (step === 7) return { icon: '✓', name: 'Demo Complete', type: 'Explore on your own!' }
+    if (step === 3 || step === 4) return { icon: '🚀', name: 'NASA Space Center, TX', type: 'Urban Waterfront' }
+    if (step === 5) return { icon: '✓', name: 'Demo Complete', type: 'Explore on your own!' }
     return { icon: '▶', name: 'Starting Demo...', type: '' }
   }
 
@@ -114,7 +113,6 @@ function ShowcaseOverlay({ step, message, progress, onClose }) {
         <div className="showcase-locations-dots">
           <span className={`dot ${step >= 1 ? 'active' : ''} ${step >= 3 ? 'done' : ''}`}>1</span>
           <span className={`dot ${step >= 3 ? 'active' : ''} ${step >= 5 ? 'done' : ''}`}>2</span>
-          <span className={`dot ${step >= 5 ? 'active' : ''} ${step >= 7 ? 'done' : ''}`}>3</span>
         </div>
       </div>
     </div>
@@ -435,7 +433,7 @@ function App() {
   }, [])
 
   // Showcase mode functions - fully hands-off automated demo
-  // Order: Stinson Beach → Lake Erie → NASA Space Center
+  // Order: Stinson Beach → NASA Space Center (2 locations only)
 
   const startShowcase = useCallback(() => {
     // Set ref immediately to avoid stale closure issues
@@ -495,31 +493,13 @@ function App() {
         if (showcaseActiveRef.current) runShowcaseStep(3)
       }, DEMO_DURATION)
     } else if (step === 3) {
-      // Fly to Lake Erie
-      flyToLocation('lake_erie', false, true)
-      setShowcaseMessage('Flying to Lake Erie, Ohio...')
-      showcaseTimerRef.current = setTimeout(() => {
-        if (showcaseActiveRef.current) runShowcaseStep(4)
-      }, FLY_DURATION)
-    } else if (step === 4) {
-      // Run demo at Lake Erie
-      setShowcaseMessage('Highway Corridor — Surveying pollution zones')
-      startDemo('lake_erie', DEMO_SPEED, 0)
-      // Dynamic view changes
-      setTimeout(() => { if (showcaseActiveRef.current) setSatelliteView(true) }, 3000)
-      setTimeout(() => { if (showcaseActiveRef.current) setShowHeatmap(false) }, 5500)
-      setTimeout(() => { if (showcaseActiveRef.current) setSatelliteView(false) }, 8000)
-      showcaseTimerRef.current = setTimeout(() => {
-        if (showcaseActiveRef.current) runShowcaseStep(5)
-      }, DEMO_DURATION)
-    } else if (step === 5) {
       // Fly to NASA Space Center
       flyToLocation('nasa_space_center', true, false)
       setShowcaseMessage('Flying to NASA Space Center, Texas...')
       showcaseTimerRef.current = setTimeout(() => {
-        if (showcaseActiveRef.current) runShowcaseStep(6)
+        if (showcaseActiveRef.current) runShowcaseStep(4)
       }, FLY_DURATION)
-    } else if (step === 6) {
+    } else if (step === 4) {
       // Run demo at NASA
       setShowcaseMessage('Urban Waterfront — Detecting debris')
       startDemo('nasa_space_center', DEMO_SPEED, 0)
@@ -528,9 +508,9 @@ function App() {
       setTimeout(() => { if (showcaseActiveRef.current) setShowHeatmap(true) }, 4500)
       setTimeout(() => { if (showcaseActiveRef.current) setSatelliteView(true) }, 7500)
       showcaseTimerRef.current = setTimeout(() => {
-        if (showcaseActiveRef.current) runShowcaseStep(7)
+        if (showcaseActiveRef.current) runShowcaseStep(5)
       }, DEMO_DURATION)
-    } else if (step === 7) {
+    } else if (step === 5) {
       // Demo complete
       stopDemo()
       setShowHeatmap(true)
@@ -554,12 +534,12 @@ function App() {
     setForceMapRecenter(false)
   }, [stopDemo])
 
-  // Calculate showcase progress
+  // Calculate showcase progress (5 steps total for 2 locations)
   const getShowcaseProgress = () => {
-    const baseProgress = (showcaseStep / 7) * 100
-    if (showcaseStep % 2 === 0 && showcaseStep > 0 && showcaseStep < 7) {
+    const baseProgress = (showcaseStep / 5) * 100
+    if (showcaseStep % 2 === 0 && showcaseStep > 0 && showcaseStep < 5) {
       // During demo steps, add demo progress
-      return baseProgress + (demoProgress / 7)
+      return baseProgress + (demoProgress / 5)
     }
     return baseProgress
   }
