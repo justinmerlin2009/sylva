@@ -295,7 +295,7 @@ function Home() {
           <div className="api-integration-diagram">
             <div className="integration-source">
               <div className="integration-box sylva-box">
-                <span className="integration-icon">🛩️</span>
+                <span className="integration-icon">✈️</span>
                 <span className="integration-label">Sylva Drones</span>
               </div>
               <div className="integration-arrow">→</div>
