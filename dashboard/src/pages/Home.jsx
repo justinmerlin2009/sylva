@@ -306,45 +306,57 @@ function Home() {
                   <span>80%</span>
                   <span>70%</span>
                   <span>60%</span>
+                  <span>50%</span>
                 </div>
                 <div className="bar-chart-area">
-                  {/* Grid lines */}
+                  {/* Grid lines - 6 lines for 50-100% range */}
                   <div className="bar-grid-lines">
                     <div className="bar-grid-line"></div>
                     <div className="bar-grid-line"></div>
                     <div className="bar-grid-line"></div>
                     <div className="bar-grid-line"></div>
                     <div className="bar-grid-line"></div>
+                    <div className="bar-grid-line"></div>
                   </div>
-                  {/* Customer threshold line at 85% */}
-                  <div className="threshold-line-container" style={{ bottom: '62.5%' }}>
+                  {/* Customer threshold line at 85% - 70% up from 50% baseline */}
+                  <div className="threshold-line-container" style={{ bottom: '212px' }}>
                     <div className="threshold-line-bar"></div>
-                    <span className="threshold-label">Customer Threshold (85%)</span>
+                    <span className="threshold-label">Customer Desired Performance (85%)</span>
                   </div>
-                  {/* Bars */}
+                  {/* Bars - heights as percentage of container (50-100% range = 50 points) */}
                   <div className="bar-columns">
                     <div className="bar-column">
-                      <div className="bar orange" style={{ height: '25%' }}></div>
+                      <div className="bar-wrapper">
+                        <div className="bar orange" style={{ height: '40%' }}></div>
+                      </div>
                       <span className="bar-value">~70%</span>
                       <span className="bar-label">RGB<br/>Only</span>
                     </div>
                     <div className="bar-column">
-                      <div className="bar orange" style={{ height: '25%' }}></div>
+                      <div className="bar-wrapper">
+                        <div className="bar orange" style={{ height: '40%' }}></div>
+                      </div>
                       <span className="bar-value">~70%</span>
                       <span className="bar-label">Hyper-<br/>spectral</span>
                     </div>
                     <div className="bar-column">
-                      <div className="bar yellow" style={{ height: '45%' }}></div>
+                      <div className="bar-wrapper">
+                        <div className="bar yellow" style={{ height: '56%' }}></div>
+                      </div>
                       <span className="bar-value">~78%</span>
                       <span className="bar-label">RGB +<br/>Hyper</span>
                     </div>
                     <div className="bar-column">
-                      <div className="bar lime" style={{ height: '50%' }}></div>
+                      <div className="bar-wrapper">
+                        <div className="bar lime" style={{ height: '60%' }}></div>
+                      </div>
                       <span className="bar-value">~80%</span>
                       <span className="bar-label">RGB +<br/>LiDAR</span>
                     </div>
                     <div className="bar-column highlight">
-                      <div className="bar green" style={{ height: '75%' }}></div>
+                      <div className="bar-wrapper">
+                        <div className="bar green" style={{ height: '80%' }}></div>
+                      </div>
                       <span className="bar-value green-text">&gt;90%</span>
                       <span className="bar-label highlight-label">Sylva<br/>Full Fusion</span>
                     </div>

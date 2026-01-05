@@ -2387,6 +2387,7 @@ body {
   border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, 0.1);
   padding-bottom: 55px;
+  overflow: visible;
 }
 
 .bar-grid-lines {
@@ -2429,8 +2430,9 @@ body {
 
 .threshold-label {
   position: absolute;
-  right: 10px;
-  top: -18px;
+  left: calc(100% + 10px);
+  top: 50%;
+  transform: translateY(-50%);
   font-size: 10px;
   color: #ef4444;
   font-weight: 600;
@@ -2453,8 +2455,18 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: flex-end;
   position: relative;
   flex: 1;
+  height: 100%;
+}
+
+.bar-wrapper {
+  width: 100%;
+  flex: 1;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
 }
 
 .bar {
