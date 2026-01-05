@@ -163,6 +163,9 @@ function Home() {
             {/* Animated Spectral Visualization */}
             <div className="spectral-visualization">
               <div className="spectrum-container">
+                {/* Full spectrum scan line */}
+                <div className="full-scan-line"></div>
+
                 {/* Visible Light Section (400-750nm) */}
                 <div className="spectrum-section visible-section">
                   <div className="section-label">Visible Light (RGB)</div>
@@ -187,25 +190,29 @@ function Home() {
                   <div className="ir-spectrum">
                     <div className="ir-pattern"></div>
                     <div className="ir-glow"></div>
-                    <div className="scan-line"></div>
-                    {/* Material detection markers */}
+                    {/* Material detection markers with ping animations */}
                     <div className="detection-marker glass" style={{left: '8%'}} title="Glass ~900nm">
+                      <span className="marker-ping"></span>
                       <span className="marker-line"></span>
                       <span className="marker-label">Glass</span>
                     </div>
                     <div className="detection-marker plastic" style={{left: '30%'}} title="Plastic ~1200nm">
+                      <span className="marker-ping"></span>
                       <span className="marker-line"></span>
                       <span className="marker-label">Plastic</span>
                     </div>
                     <div className="detection-marker organic" style={{left: '52%'}} title="Organic ~1450nm">
+                      <span className="marker-ping"></span>
                       <span className="marker-line"></span>
                       <span className="marker-label">Organic</span>
                     </div>
                     <div className="detection-marker textile" style={{left: '72%'}} title="Textile ~1600nm">
+                      <span className="marker-ping"></span>
                       <span className="marker-line"></span>
                       <span className="marker-label">Textile</span>
                     </div>
                     <div className="detection-marker rubber" style={{left: '92%'}} title="Rubber ~1700nm">
+                      <span className="marker-ping"></span>
                       <span className="marker-line"></span>
                       <span className="marker-label">Rubber</span>
                     </div>
