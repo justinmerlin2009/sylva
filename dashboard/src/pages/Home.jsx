@@ -128,7 +128,56 @@ function Home() {
           {/* Innovation Highlight */}
           <div className="innovation-highlight">
             <h3>The Innovation: Hybrid Electromagnetic Fingerprinting</h3>
-            <p>Our novel hybrid camera integrates three sensor technologies into one payload: 61-megapixel RGB for high-resolution imagery, 8-band hyperspectral (900-1700nm) for material identification, and solid-state LiDAR for depth mapping. Each material has a unique electromagnetic signature—plastics peak at 1,200nm and 1,400nm, rubber at 1,700nm, glass near 900nm. This fingerprinting approach reduces false positives by 73% compared to RGB-only systems, ensuring cleanup crews focus on real pollution.</p>
+            <p>Our novel hybrid camera integrates three sensor technologies into one payload: 61-megapixel RGB for high-resolution imagery, 8-band hyperspectral (900-1700nm) for material identification, and solid-state LiDAR for depth mapping. This fingerprinting approach reduces false positives by 73% compared to RGB-only systems, ensuring cleanup crews focus on real pollution.</p>
+
+            <h4 className="spectral-heading">Material Detection via Spectral Signatures</h4>
+            <div className="spectral-table">
+              <div className="spectral-row spectral-header">
+                <span className="spectral-cell">Waste Type</span>
+                <span className="spectral-cell">Key Wavelength (nm)</span>
+                <span className="spectral-cell">Detection Advantage</span>
+              </div>
+              <div className="spectral-row">
+                <span className="spectral-cell">Plastics (PE, PP)</span>
+                <span className="spectral-cell">1,200 & 1,400</span>
+                <span className="spectral-cell">Distinct NIR absorption peaks</span>
+              </div>
+              <div className="spectral-row">
+                <span className="spectral-cell">Rubber/Tires</span>
+                <span className="spectral-cell">1,700</span>
+                <span className="spectral-cell">Strong carbon-black signature</span>
+              </div>
+              <div className="spectral-row">
+                <span className="spectral-cell">Glass</span>
+                <span className="spectral-cell">900-1,000</span>
+                <span className="spectral-cell">Silica reflection pattern</span>
+              </div>
+              <div className="spectral-row">
+                <span className="spectral-cell">Metals</span>
+                <span className="spectral-cell">Broadband</span>
+                <span className="spectral-cell">High reflectance across spectrum</span>
+              </div>
+              <div className="spectral-row">
+                <span className="spectral-cell">Organic waste</span>
+                <span className="spectral-cell">1,450 (water)</span>
+                <span className="spectral-cell">Moisture content differentiation</span>
+              </div>
+              <div className="spectral-row">
+                <span className="spectral-cell">Textiles</span>
+                <span className="spectral-cell">1,500-1,700</span>
+                <span className="spectral-cell">Cellulose/synthetic fiber signatures</span>
+              </div>
+              <div className="spectral-row">
+                <span className="spectral-cell">Batteries</span>
+                <span className="spectral-cell">1,100-1,300</span>
+                <span className="spectral-cell">Lithium/metal oxide signatures</span>
+              </div>
+              <div className="spectral-row">
+                <span className="spectral-cell">E-waste</span>
+                <span className="spectral-cell">Multi-band</span>
+                <span className="spectral-cell">Mixed metal/plastic composite patterns</span>
+              </div>
+            </div>
           </div>
 
           <div className="tech-grid">
