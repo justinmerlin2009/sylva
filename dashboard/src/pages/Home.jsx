@@ -56,7 +56,7 @@ function Home() {
           <img src="/logos/sylva-logo.svg" alt="Sylva" className="logo-icon-img" />
           <span className="logo-text">Sylva</span>
         </Link>
-        <a href="https://www.conradchallenge.org/" target="_blank" rel="noopener noreferrer" className="conrad-badge" title="Conrad Challenge 2026 Innovation Stage">
+        <a href="https://conrad.spacecenter.org" target="_blank" rel="noopener noreferrer" className="conrad-badge" title="Conrad Challenge 2026 Innovation Stage">
           <span className="conrad-badge-text">Conrad Challenge 2026</span>
         </a>
         <nav className="home-nav">
