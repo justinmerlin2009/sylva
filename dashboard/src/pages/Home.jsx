@@ -217,9 +217,10 @@ function Home() {
               <ul className="tech-list">
                 <li>HD navigation camera (front-mounted)</li>
                 <li>4K + Multispectral cameras (belly port)</li>
+                <li>Solid-state LiDAR for depth mapping</li>
                 <li>GPS module with RTH capability</li>
                 <li>Emergency parachute recovery system</li>
-                <li>90-minute flight time, 50km range</li>
+                <li>120-minute flight time, 50km range</li>
               </ul>
             </div>
             <div className="tech-image">
