@@ -191,6 +191,16 @@ function App() {
   // Map loading state - for impressive initial load experience
   const [mapReady, setMapReady] = useState(false)
 
+  // Force map ready after 10 seconds max (fallback if tiles don't trigger callback)
+  useEffect(() => {
+    const timeout = setTimeout(() => {
+      if (!mapReady) {
+        setMapReady(true)
+      }
+    }, 10000) // 10 second max
+    return () => clearTimeout(timeout)
+  }, [mapReady])
+
   // Showcase mode state
   const [showcaseMode, setShowcaseMode] = useState(false)
   const [showcaseStep, setShowcaseStep] = useState(0)
