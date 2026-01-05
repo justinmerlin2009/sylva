@@ -178,31 +178,6 @@ function Home() {
           </div>
         </section>
 
-        {/* API Section */}
-        <section className="content-section api-section">
-          <h2 className="section-title">Sylva API</h2>
-          <p className="section-description">
-            Sylva's open API enables government agencies, researchers, and cleanup organizations to access pollution detection data programmatically. Integrate Sylva data into existing GIS systems, environmental dashboards, or custom applications with 40+ endpoints covering detections, analytics, and reporting.
-          </p>
-          <div className="api-features">
-            <div className="api-feature">
-              <h4>Real-time Detection</h4>
-              <p>Stream live detection feeds via WebSocket as drones survey areas. Access GeoJSON data, heatmaps, and cluster analysis for immediate response.</p>
-            </div>
-            <div className="api-feature">
-              <h4>Analytics & Reporting</h4>
-              <p>Annual and monthly statistics, pollution trend analysis, water risk assessments, and executive summaries formatted for government reporting.</p>
-            </div>
-            <div className="api-feature">
-              <h4>Custom Flight Paths</h4>
-              <p>Create custom survey routes, simulate detections, and export results. Plan targeted cleanup operations with waypoint-based flight management.</p>
-            </div>
-          </div>
-          <a href="https://sylva-api.onrender.com/docs" target="_blank" rel="noopener noreferrer" className="btn btn-primary">
-            View API Documentation
-          </a>
-        </section>
-
         {/* Validation Section */}
         <section className="content-section validation-section">
           <h2 className="section-title">Validated & Proven</h2>
@@ -227,6 +202,63 @@ function Home() {
               <div className="validation-label">Agency partners in active discussions</div>
             </div>
           </div>
+        </section>
+
+        {/* API Section */}
+        <section className="content-section api-section">
+          <h2 className="section-title">Sylva API</h2>
+          <p className="section-description">
+            Sylva's open API enables government agencies, researchers, and cleanup organizations to access pollution detection data programmatically. Integrate Sylva data into existing GIS systems, environmental dashboards, or custom applications with 40+ endpoints covering detections, analytics, and reporting.
+          </p>
+
+          {/* API Integration Diagram */}
+          <div className="api-integration-diagram">
+            <div className="integration-source">
+              <div className="integration-box sylva-box">
+                <span className="integration-icon">🛩️</span>
+                <span className="integration-label">Sylva Drones</span>
+              </div>
+              <div className="integration-arrow">→</div>
+              <div className="integration-box api-box">
+                <span className="integration-icon">⚡</span>
+                <span className="integration-label">Sylva API</span>
+                <span className="integration-sublabel">REST + WebSocket</span>
+              </div>
+              <div className="integration-arrow">→</div>
+              <div className="integration-targets">
+                <div className="integration-box customer-box">
+                  <span className="integration-icon">🗺️</span>
+                  <span className="integration-label">Your GIS System</span>
+                </div>
+                <div className="integration-box customer-box">
+                  <span className="integration-icon">📊</span>
+                  <span className="integration-label">Your Dashboard</span>
+                </div>
+                <div className="integration-box customer-box">
+                  <span className="integration-icon">🔧</span>
+                  <span className="integration-label">Your Applications</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="api-features">
+            <div className="api-feature">
+              <h4>Real-time Detection</h4>
+              <p>Stream live detection feeds via WebSocket as drones survey areas. Access GeoJSON data, heatmaps, and cluster analysis for immediate response.</p>
+            </div>
+            <div className="api-feature">
+              <h4>Analytics & Reporting</h4>
+              <p>Annual and monthly statistics, pollution trend analysis, water risk assessments, and executive summaries formatted for government reporting.</p>
+            </div>
+            <div className="api-feature">
+              <h4>Custom Flight Paths</h4>
+              <p>Create custom survey routes, simulate detections, and export results. Plan targeted cleanup operations with waypoint-based flight management.</p>
+            </div>
+          </div>
+          <a href="https://sylva-api.onrender.com/docs" target="_blank" rel="noopener noreferrer" className="btn btn-primary">
+            View API Documentation
+          </a>
         </section>
 
         {/* Business Case Section */}

@@ -2286,6 +2286,92 @@ body {
   color: rgba(255, 255, 255, 0.6);
 }
 
+/* API Integration Diagram */
+.api-integration-diagram {
+  margin: 48px 0;
+  padding: 32px;
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.integration-source {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.integration-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 28px;
+  border-radius: 12px;
+  min-width: 140px;
+}
+
+.sylva-box {
+  background: linear-gradient(135deg, rgba(34, 197, 94, 0.2), rgba(34, 197, 94, 0.1));
+  border: 2px solid #22c55e;
+}
+
+.api-box {
+  background: linear-gradient(135deg, rgba(59, 130, 246, 0.2), rgba(59, 130, 246, 0.1));
+  border: 2px solid #3b82f6;
+}
+
+.customer-box {
+  background: linear-gradient(135deg, rgba(168, 85, 247, 0.2), rgba(168, 85, 247, 0.1));
+  border: 2px solid #a855f7;
+}
+
+.integration-icon {
+  font-size: 32px;
+  margin-bottom: 8px;
+}
+
+.integration-label {
+  font-size: 14px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.integration-sublabel {
+  font-size: 11px;
+  color: rgba(255, 255, 255, 0.5);
+  margin-top: 4px;
+}
+
+.integration-arrow {
+  font-size: 28px;
+  color: rgba(255, 255, 255, 0.4);
+  font-weight: bold;
+}
+
+.integration-targets {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+@media (max-width: 900px) {
+  .integration-source {
+    flex-direction: column;
+  }
+
+  .integration-arrow {
+    transform: rotate(90deg);
+  }
+
+  .integration-targets {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
 /* Team Section */
 .team-grid {
   display: grid;
