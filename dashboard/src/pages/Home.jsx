@@ -177,6 +177,11 @@ function Home() {
                 <span className="spectral-cell">Multi-band</span>
                 <span className="spectral-cell">Mixed metal/plastic composite patterns</span>
               </div>
+              <div className="spectral-row">
+                <span className="spectral-cell">Chemicals</span>
+                <span className="spectral-cell">1,600-1,800</span>
+                <span className="spectral-cell">Hydrocarbon/solvent absorption bands</span>
+              </div>
             </div>
           </div>
 
