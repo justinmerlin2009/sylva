@@ -2817,6 +2817,22 @@ body {
   color: rgba(255, 255, 255, 0.3);
 }
 
+.footer-credit {
+  font-size: 11px;
+  margin-top: 12px;
+  color: rgba(255, 255, 255, 0.25);
+}
+
+.footer-credit a {
+  color: rgba(255, 255, 255, 0.35);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.footer-credit a:hover {
+  color: rgba(255, 255, 255, 0.6);
+}
+
 /* Home page responsive - medium screens */
 @media (max-width: 1024px) {
   .team-grid,

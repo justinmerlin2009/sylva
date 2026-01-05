@@ -754,6 +754,7 @@ function Home() {
       <footer className="home-footer">
         <p>&copy; 2026 Sylva. All rights reserved.</p>
         <p className="footer-sub">TamAir - Conrad Challenge 2026</p>
+        <p className="footer-credit">Website built with <a href="https://claude.ai/code" target="_blank" rel="noopener noreferrer">Anthropic Claude Code</a></p>
       </footer>
     </div>
   )
