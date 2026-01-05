@@ -188,6 +188,9 @@ function App() {
   // Annual data panel state
   const [showAnnualData, setShowAnnualData] = useState(false)
 
+  // Map loading state - for impressive initial load experience
+  const [mapReady, setMapReady] = useState(false)
+
   // Showcase mode state
   const [showcaseMode, setShowcaseMode] = useState(false)
   const [showcaseStep, setShowcaseStep] = useState(0)
@@ -884,11 +887,20 @@ function App() {
 
       <div className="main-content">
         <header className="header">
-          <Link to="/" className="logo home-link">
-            <span className="back-arrow">←</span>
-            <h1 className="sylva-title">SYLVA</h1>
-            <span className="logo-subtitle">Environmental Monitoring System</span>
-          </Link>
+          <div className="header-left">
+            <Link to="/" className="logo home-link">
+              <span className="back-arrow">←</span>
+              <h1 className="sylva-title">SYLVA</h1>
+              <span className="logo-subtitle">Environmental Monitoring System</span>
+            </Link>
+            {/* Watch Showcase Button - in header */}
+            {!showcaseMode && !demoActive && (
+              <button className="showcase-header-btn" onClick={startShowcase}>
+                <span className="showcase-btn-icon">▶</span>
+                <span className="showcase-btn-text">Watch Showcase</span>
+              </button>
+            )}
+          </div>
           <div className="header-controls">
             <button
               className="map-toggle-btn"
@@ -937,6 +949,8 @@ function App() {
             onFollowDroneChange={setFollowDrone}
             // Showcase recenter control
             forceRecenter={forceMapRecenter}
+            // Initial load callback
+            onMapReady={() => setMapReady(true)}
           />
 
           {/* Computer Vision AI Panel - shows during demo */}
@@ -996,13 +1010,25 @@ function App() {
         />
       )}
 
-      {/* Watch Showcase Button */}
-      {!showcaseMode && !demoActive && (
-        <button className="showcase-start-btn" onClick={startShowcase}>
-          <span className="showcase-btn-icon">▶</span>
-          <span className="showcase-btn-text">Watch Showcase</span>
-        </button>
+      {/* Initial Map Loading Splash Screen */}
+      {!mapReady && !loading && (
+        <div className="map-splash-screen">
+          <div className="splash-content">
+            <div className="splash-logo">SYLVA</div>
+            <div className="splash-tagline">Environmental Monitoring System</div>
+            <div className="splash-loader">
+              <div className="splash-drone">
+                <span className="splash-drone-icon">✈</span>
+              </div>
+              <div className="splash-progress-track">
+                <div className="splash-progress-fill"></div>
+              </div>
+            </div>
+            <div className="splash-status">Initializing Map...</div>
+          </div>
+        </div>
       )}
+
     </div>
   )
 }

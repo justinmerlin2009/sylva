@@ -332,15 +332,23 @@ function Map({
   onFollowDroneChange,
   // Force recenter for showcase
   forceRecenter: forceRecenterProp = false,
+  // Initial load callback
+  onMapReady,
 }) {
   // Only follow drone during demo when followDrone is true
   const shouldFollowDrone = demoActive && dronePosition && followDrone
 
   // Track tile loading state
   const [tilesLoading, setTilesLoading] = useState(false)
+  const hasCalledMapReady = useRef(false)
   const handleLoadingChange = useCallback((loading) => {
     setTilesLoading(loading)
-  }, [])
+    // Call onMapReady once when tiles first finish loading
+    if (!loading && !hasCalledMapReady.current && onMapReady) {
+      hasCalledMapReady.current = true
+      onMapReady()
+    }
+  }, [onMapReady])
 
   // Get category color by id
   const getCategoryColor = (categoryId) => {
