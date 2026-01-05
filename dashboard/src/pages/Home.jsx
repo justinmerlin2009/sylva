@@ -46,7 +46,7 @@ function Home() {
           <div className="impact-highlight">
             <span className="impact-number">$13 Billion</span>
             <span className="impact-label">Annual damage to marine ecosystems from plastic pollution</span>
-            <span className="impact-source">UNEP, 2014 (conservative estimate)</span>
+            <span className="impact-source">UNEP, 2014; UNEP, 2023</span>
           </div>
           <div className="market-stats">
             <div className="market-stat">
