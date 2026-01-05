@@ -12,6 +12,7 @@ function Home() {
         </Link>
         <nav className="home-nav">
           <a href="#why" className="nav-link">Why It Matters</a>
+          <a href="#technology" className="nav-link">Our Technology</a>
           <a href="#how" className="nav-link">How It Works</a>
           <a href="#business" className="nav-link">Business Case</a>
           <a href="#team" className="nav-link">Our Team</a>
@@ -84,6 +85,34 @@ function Home() {
           </div>
         </section>
 
+        {/* Technology/Prototype Section */}
+        <section id="technology" className="content-section tech-section">
+          <h2 className="section-title">Our Technology</h2>
+
+          {/* Innovation Highlight */}
+          <div className="innovation-highlight">
+            <h3>The Innovation: Hybrid Electromagnetic Fingerprinting</h3>
+            <p>Our novel hybrid camera integrates three sensor technologies into one payload: 61-megapixel RGB for high-resolution imagery, 8-band hyperspectral (900-1700nm) for material identification, and solid-state LiDAR for depth mapping. Each material has a unique electromagnetic signature—plastics peak at 1,200nm and 1,400nm, rubber at 1,700nm, glass near 900nm. This fingerprinting approach reduces false positives by 73% compared to RGB-only systems, ensuring cleanup crews focus on real pollution.</p>
+          </div>
+
+          <div className="tech-grid">
+            <div className="tech-content">
+              <h3>The Sylva Fixed-Wing UAV</h3>
+              <p>Sylva uses a custom fixed-wing aircraft with dual propellers for extended range and flight time. The platform is remotely operated via VR headset, providing immersive first-person control for precise surveillance missions.</p>
+              <ul className="tech-list">
+                <li>HD navigation camera (front-mounted)</li>
+                <li>4K + Multispectral cameras (belly port)</li>
+                <li>GPS module with RTH capability</li>
+                <li>Emergency parachute recovery system</li>
+                <li>90-minute flight time, 50km range</li>
+              </ul>
+            </div>
+            <div className="tech-image">
+              <img src="/images/sylva-payload-uav.png" alt="Sylva UAV with Hybrid Camera Payload" className="tech-img" />
+            </div>
+          </div>
+        </section>
+
         {/* How It Works Section */}
         <section id="how" className="content-section how-section">
           <h2 className="section-title">How Sylva Works</h2>
@@ -110,34 +139,6 @@ function Home() {
           </div>
           <div className="system-diagram">
             <img src="/images/system-diagram.svg" alt="Sylva System Architecture" />
-          </div>
-        </section>
-
-        {/* Technology/Prototype Section */}
-        <section className="content-section tech-section">
-          <h2 className="section-title">Our Technology</h2>
-
-          {/* Innovation Highlight */}
-          <div className="innovation-highlight">
-            <h3>The Innovation: Hybrid Electromagnetic Fingerprinting</h3>
-            <p>Our novel hybrid camera integrates three sensor technologies into one payload: 61-megapixel RGB for high-resolution imagery, 8-band hyperspectral (900-1700nm) for material identification, and solid-state LiDAR for depth mapping. Each material has a unique electromagnetic signature—plastics peak at 1,200nm and 1,400nm, rubber at 1,700nm, glass near 900nm. This fingerprinting approach reduces false positives by 73% compared to RGB-only systems, ensuring cleanup crews focus on real pollution.</p>
-          </div>
-
-          <div className="tech-grid">
-            <div className="tech-content">
-              <h3>The Sylva Fixed-Wing UAV</h3>
-              <p>Sylva uses a custom fixed-wing aircraft with dual propellers for extended range and flight time. The platform is remotely operated via VR headset, providing immersive first-person control for precise surveillance missions.</p>
-              <ul className="tech-list">
-                <li>HD navigation camera (front-mounted)</li>
-                <li>4K + Multispectral cameras (belly port)</li>
-                <li>GPS module with RTH capability</li>
-                <li>Emergency parachute recovery system</li>
-                <li>90-minute flight time, 50km range</li>
-              </ul>
-            </div>
-            <div className="tech-image">
-              <img src="/images/sylva-payload-uav.png" alt="Sylva UAV with Hybrid Camera Payload" className="tech-img" />
-            </div>
           </div>
         </section>
 
@@ -295,27 +296,27 @@ function Home() {
 
         {/* Future Plans Section */}
         <section className="content-section future-section">
-          <h2 className="section-title">Future Plans</h2>
+          <h2 className="section-title">Next Steps</h2>
           <div className="future-grid">
             <div className="future-item">
               <span className="future-number">01</span>
-              <h4>Expand Coverage</h4>
-              <p>Partner with additional California agencies to deploy Sylva across more counties and highway corridors.</p>
+              <h4>Pilot with Surfrider</h4>
+              <p>Run our first real-world pilot surveying coastal areas with Surfrider Foundation to validate detection accuracy in the field.</p>
             </div>
             <div className="future-item">
               <span className="future-number">02</span>
-              <h4>Enhanced AI Models</h4>
-              <p>Train detection models on larger datasets to improve accuracy and add new pollution categories.</p>
+              <h4>Highway Corridor Test</h4>
+              <p>Partner with Caltrans Clean California for a highway corridor assessment, testing Sylva on roadside pollution monitoring.</p>
             </div>
             <div className="future-item">
               <span className="future-number">03</span>
-              <h4>Automated Reporting</h4>
-              <p>Generate automatic cleanup work orders and route optimization for response teams.</p>
+              <h4>Refine Detection Models</h4>
+              <p>Use pilot data to improve our AI models with real-world training examples and feedback from agency partners.</p>
             </div>
             <div className="future-item">
               <span className="future-number">04</span>
-              <h4>Open Data Initiative</h4>
-              <p>Make anonymized pollution data publicly available to support environmental research.</p>
+              <h4>Expand to More Agencies</h4>
+              <p>Based on pilot results, work with additional California agencies to demonstrate Sylva's value in different environments.</p>
             </div>
           </div>
         </section>
