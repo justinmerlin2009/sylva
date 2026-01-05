@@ -1,6 +1,9 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 
+// Formspree form ID - get yours at formspree.io
+const FORMSPREE_ID = 'xkgwqwpj'
+
 function Home() {
   const [showContactModal, setShowContactModal] = useState(false)
   const [contactForm, setContactForm] = useState({
@@ -9,18 +12,40 @@ function Home() {
     message: ''
   })
   const [sendStatus, setSendStatus] = useState('')
+  const [isSubmitting, setIsSubmitting] = useState(false)
 
-  const handleContactSubmit = (e) => {
+  const handleContactSubmit = async (e) => {
     e.preventDefault()
-    const recipient = atob('anVzdGluLm1lcmxpbjIwMDlAZ21haWwuY29t')
-    const mailtoLink = `mailto:${recipient}?subject=${encodeURIComponent(contactForm.subject)}&body=${encodeURIComponent(`From: ${contactForm.email}\n\n${contactForm.message}`)}`
-    window.location.href = mailtoLink
-    setSendStatus('Opening email client...')
-    setTimeout(() => {
-      setShowContactModal(false)
-      setSendStatus('')
-      setContactForm({ email: '', subject: '', message: '' })
-    }, 2000)
+    setIsSubmitting(true)
+    setSendStatus('Sending...')
+
+    try {
+      const response = await fetch(`https://formspree.io/f/${FORMSPREE_ID}`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({
+          email: contactForm.email,
+          subject: contactForm.subject,
+          message: contactForm.message
+        })
+      })
+
+      if (response.ok) {
+        setSendStatus('Message sent successfully!')
+        setContactForm({ email: '', subject: '', message: '' })
+        setTimeout(() => {
+          setShowContactModal(false)
+          setSendStatus('')
+        }, 2000)
+      } else {
+        setSendStatus('Failed to send. Please try again.')
+      }
+    } catch (error) {
+      setSendStatus('Failed to send. Please try again.')
+    }
+    setIsSubmitting(false)
   }
 
   return (
@@ -467,7 +492,9 @@ function Home() {
                   ></textarea>
                 </div>
                 {sendStatus && <p className="send-status">{sendStatus}</p>}
-                <button type="submit" className="btn btn-primary btn-full">Send Message</button>
+                <button type="submit" className="btn btn-primary btn-full" disabled={isSubmitting}>
+                  {isSubmitting ? 'Sending...' : 'Send Message'}
+                </button>
               </form>
             </div>
           </div>

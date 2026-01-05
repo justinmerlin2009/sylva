@@ -4953,6 +4953,15 @@ body {
   font-size: 14px;
 }
 
+.send-status.error {
+  color: #ef4444;
+}
+
+.btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
 @media (max-width: 768px) {
   .contact-modal {
     padding: 24px;
