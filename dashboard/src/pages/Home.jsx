@@ -182,6 +182,32 @@ function Home() {
           </a>
         </section>
 
+        {/* Validation Section */}
+        <section className="content-section validation-section">
+          <h2 className="section-title">Validated & Proven</h2>
+          <p className="section-description">
+            Real hardware. Real testing. Real results.
+          </p>
+          <div className="validation-grid">
+            <div className="validation-card">
+              <div className="validation-number">4</div>
+              <div className="validation-label">Fixed-wing drones built and flight-tested</div>
+            </div>
+            <div className="validation-card">
+              <div className="validation-number">8</div>
+              <div className="validation-label">Successful detections from December 2025 field test</div>
+            </div>
+            <div className="validation-card">
+              <div className="validation-number">60+</div>
+              <div className="validation-label">Live API endpoints serving real data</div>
+            </div>
+            <div className="validation-card">
+              <div className="validation-number">4</div>
+              <div className="validation-label">Agency partners in active discussions</div>
+            </div>
+          </div>
+        </section>
+
         {/* Business Case Section */}
         <section id="business" className="content-section savings-section">
           <h2 className="section-title">The Business Case</h2>
@@ -218,32 +244,6 @@ function Home() {
           </div>
           <div className="savings-example">
             <strong>Example:</strong> A 50 km² coastal survey that costs $150,000+ with manual methods costs under $8,000 with Sylva.
-          </div>
-        </section>
-
-        {/* Validation Section */}
-        <section className="content-section validation-section">
-          <h2 className="section-title">Validated & Proven</h2>
-          <p className="section-description">
-            Real hardware. Real testing. Real results.
-          </p>
-          <div className="validation-grid">
-            <div className="validation-card">
-              <div className="validation-number">4</div>
-              <div className="validation-label">Fixed-wing drones built and flight-tested</div>
-            </div>
-            <div className="validation-card">
-              <div className="validation-number">8</div>
-              <div className="validation-label">Successful detections from December 2025 field test</div>
-            </div>
-            <div className="validation-card">
-              <div className="validation-number">60+</div>
-              <div className="validation-label">Live API endpoints serving real data</div>
-            </div>
-            <div className="validation-card">
-              <div className="validation-number">4</div>
-              <div className="validation-label">Agency partners in active discussions</div>
-            </div>
           </div>
         </section>
 
