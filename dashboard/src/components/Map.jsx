@@ -330,6 +330,8 @@ function Map({
   // Follow drone controls
   followDrone = true,
   onFollowDroneChange,
+  // Force recenter for showcase
+  forceRecenter: forceRecenterProp = false,
 }) {
   // Only follow drone during demo when followDrone is true
   const shouldFollowDrone = demoActive && dronePosition && followDrone
@@ -672,7 +674,7 @@ function Map({
         shouldFollowDrone={shouldFollowDrone}
         disableAutoUpdate={isDrawing}
         onUserInteraction={handleUserInteraction}
-        forceRecenter={!demoActive && !isDrawing}
+        forceRecenter={forceRecenterProp || (!demoActive && !isDrawing)}
       />
 
       {/* Tile loading tracker */}

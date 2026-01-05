@@ -6397,6 +6397,131 @@ body {
   letter-spacing: 0.5px;
 }
 
+/* Minimal showcase overlay styles */
+.showcase-header-minimal {
+  position: fixed;
+  top: 70px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  pointer-events: none;
+  z-index: 2500;
+}
+
+.showcase-location-badge {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 14px 24px;
+  background: rgba(15, 23, 42, 0.9);
+  border-radius: 16px;
+  border: 1px solid rgba(34, 197, 94, 0.3);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.4);
+  animation: badgeSlideIn 0.4s ease;
+}
+
+@keyframes badgeSlideIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.location-icon-large {
+  font-size: 32px;
+}
+
+.location-info {
+  text-align: left;
+}
+
+.location-name {
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.location-type {
+  font-size: 13px;
+  color: #22c55e;
+  font-weight: 500;
+}
+
+.showcase-status {
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.7);
+  background: rgba(15, 23, 42, 0.8);
+  padding: 8px 16px;
+  border-radius: 20px;
+}
+
+.showcase-progress-minimal {
+  position: fixed;
+  bottom: 24px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  pointer-events: none;
+}
+
+.showcase-progress-minimal .showcase-progress-bar {
+  width: 200px;
+  height: 4px;
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.showcase-progress-minimal .showcase-progress-fill {
+  height: 100%;
+  background: #22c55e;
+  border-radius: 2px;
+  transition: width 0.3s ease;
+}
+
+.showcase-locations-dots {
+  display: flex;
+  gap: 12px;
+}
+
+.showcase-locations-dots .dot {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 11px;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.4);
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  transition: all 0.3s ease;
+}
+
+.showcase-locations-dots .dot.active {
+  color: #fff;
+  background: #22c55e;
+  border-color: #22c55e;
+  box-shadow: 0 0 10px rgba(34, 197, 94, 0.5);
+}
+
+.showcase-locations-dots .dot.done {
+  color: #fff;
+  background: rgba(34, 197, 94, 0.3);
+  border-color: #22c55e;
+}
+
 @media (max-width: 768px) {
   .showcase-start-btn {
     top: 60px;
