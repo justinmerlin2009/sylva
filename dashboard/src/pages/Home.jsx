@@ -323,32 +323,32 @@ function Home() {
                     <div className="threshold-line-bar"></div>
                     <span className="threshold-label">Customer Desired Performance (85%)</span>
                   </div>
-                  {/* Bars - heights as percentage of container (50-100% range = 50 points) */}
+                  {/* Bars - heights adjusted to compensate for container padding offset */}
                   <div className="bar-columns">
                     <div className="bar-column">
                       <div className="bar-wrapper">
-                        <div className="bar orange" style={{ height: '40%' }}></div>
+                        <div className="bar orange" style={{ height: '32%' }}></div>
                       </div>
                       <span className="bar-value">~70%</span>
                       <span className="bar-label">RGB<br/>Only</span>
                     </div>
                     <div className="bar-column">
                       <div className="bar-wrapper">
-                        <div className="bar orange" style={{ height: '40%' }}></div>
+                        <div className="bar orange" style={{ height: '32%' }}></div>
                       </div>
                       <span className="bar-value">~70%</span>
                       <span className="bar-label">Hyper-<br/>spectral</span>
                     </div>
                     <div className="bar-column">
                       <div className="bar-wrapper">
-                        <div className="bar yellow" style={{ height: '56%' }}></div>
+                        <div className="bar yellow" style={{ height: '50%' }}></div>
                       </div>
                       <span className="bar-value">~78%</span>
                       <span className="bar-label">RGB +<br/>Hyper</span>
                     </div>
                     <div className="bar-column">
                       <div className="bar-wrapper">
-                        <div className="bar lime" style={{ height: '60%' }}></div>
+                        <div className="bar lime" style={{ height: '56%' }}></div>
                       </div>
                       <span className="bar-value">~80%</span>
                       <span className="bar-label">RGB +<br/>LiDAR</span>
