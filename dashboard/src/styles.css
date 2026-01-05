@@ -2430,13 +2430,15 @@ body {
 
 .threshold-label {
   position: absolute;
-  left: calc(100% + 10px);
+  left: calc(100% + 8px);
   top: 50%;
   transform: translateY(-50%);
-  font-size: 10px;
+  font-size: 9px;
   color: #ef4444;
   font-weight: 600;
-  white-space: nowrap;
+  line-height: 1.3;
+  text-align: left;
+  width: 55px;
 }
 
 .bar-columns {
