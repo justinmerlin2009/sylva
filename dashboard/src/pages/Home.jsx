@@ -237,7 +237,7 @@ function Home() {
 
               <div className="ir-advantage-note">
                 <span className="ir-icon">🔬</span>
-                <span>Sylva's hybrid sensor combines <strong>visible RGB imaging</strong> with <strong>8-band hyperspectral detection (900-1700nm)</strong> and <strong>LiDAR depth sensing</strong> — capturing the full electromagnetic spectrum for maximum detection accuracy</span>
+                <span>Sylva's hybrid sensor combines <strong>visible RGB imaging</strong> with <strong>8-band hyperspectral detection (900-1700nm)</strong> and <strong>LiDAR depth sensing</strong> thus capturing the full electromagnetic spectrum for maximum detection accuracy</span>
               </div>
             </div>
 
