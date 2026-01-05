@@ -419,7 +419,7 @@ function Home() {
             </div>
             <div className="team-card">
               <img
-                src="https://d2f0ora2gkri0g.cloudfront.net/f7/9a/f79a912a-1947-4e08-9d42-a110f162ab4d.jpeg"
+                src="/photos/VaugnNeumann.png"
                 alt="Vaugn Neumann"
                 className="team-avatar-img"
               />
