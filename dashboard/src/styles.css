@@ -5570,7 +5570,7 @@ body {
 
 .spectrum-display {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   gap: 16px;
   margin-bottom: 8px;
 }
@@ -5582,7 +5582,21 @@ body {
   color: rgba(255, 255, 255, 0.5);
   text-transform: uppercase;
   letter-spacing: 0.5px;
-  min-width: 60px;
+  min-width: 90px;
+  line-height: 1.4;
+  padding-top: 8px;
+}
+
+.spectrum-sublabel {
+  font-size: 9px;
+  text-transform: none;
+  color: rgba(255, 255, 255, 0.35);
+  display: block;
+  margin-top: 2px;
+}
+
+.spectrum-label-right .spectrum-sublabel {
+  color: #22c55e;
 }
 
 .spectrum-label-right {
@@ -5591,15 +5605,16 @@ body {
 
 .spectrum-bar {
   flex: 1;
-  height: 32px;
+  height: 70px;
   border-radius: 6px;
-  overflow: hidden;
+  overflow: visible;
   position: relative;
 }
 
 .spectrum-gradient {
   width: 100%;
-  height: 100%;
+  height: 32px;
+  border-radius: 6px;
   background: linear-gradient(90deg,
     #7c3aed 0%,
     #3b82f6 15%,
@@ -5614,15 +5629,95 @@ body {
   );
 }
 
+/* Detection Zone Highlight - emphasizes infrared range */
+.detection-zone {
+  position: absolute;
+  top: 0;
+  left: 38%;
+  right: 0;
+  height: 32px;
+  border: 2px solid #22c55e;
+  border-radius: 0 6px 6px 0;
+  background: rgba(34, 197, 94, 0.1);
+  animation: zoneGlow 2s ease-in-out infinite;
+}
+
+@keyframes zoneGlow {
+  0%, 100% { box-shadow: 0 0 10px rgba(34, 197, 94, 0.3); }
+  50% { box-shadow: 0 0 20px rgba(34, 197, 94, 0.5); }
+}
+
+.detection-zone-label {
+  position: absolute;
+  top: -22px;
+  left: 38%;
+  right: 0;
+  text-align: center;
+  font-size: 10px;
+  font-weight: 600;
+  color: #22c55e;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Material Detection Markers */
+.detection-marker {
+  position: absolute;
+  top: 32px;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 10;
+}
+
+.marker-line {
+  width: 2px;
+  height: 14px;
+  background: #fff;
+  box-shadow: 0 0 6px rgba(255, 255, 255, 0.5);
+}
+
+.marker-label {
+  font-size: 8px;
+  font-weight: 600;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-top: 2px;
+  padding: 2px 5px;
+  border-radius: 3px;
+  white-space: nowrap;
+}
+
+.detection-marker.glass .marker-line { background: #94a3b8; }
+.detection-marker.glass .marker-label { background: rgba(148, 163, 184, 0.4); }
+
+.detection-marker.metal .marker-line { background: #cbd5e1; }
+.detection-marker.metal .marker-label { background: rgba(203, 213, 225, 0.4); }
+
+.detection-marker.plastic .marker-line { background: #3b82f6; }
+.detection-marker.plastic .marker-label { background: rgba(59, 130, 246, 0.4); }
+
+.detection-marker.organic .marker-line { background: #22c55e; }
+.detection-marker.organic .marker-label { background: rgba(34, 197, 94, 0.4); }
+
+.detection-marker.textile .marker-line { background: #a855f7; }
+.detection-marker.textile .marker-label { background: rgba(168, 85, 247, 0.4); }
+
+.detection-marker.rubber .marker-line { background: #6b7280; }
+.detection-marker.rubber .marker-label { background: rgba(107, 114, 128, 0.5); }
+
 .spectrum-bar .scan-line {
   position: absolute;
   top: 0;
   left: 0;
   width: 3px;
-  height: 100%;
+  height: 32px;
   background: rgba(255, 255, 255, 0.9);
   box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
   animation: spectrumScan 3s ease-in-out infinite;
+  z-index: 20;
 }
 
 @keyframes spectrumScan {
@@ -5633,8 +5728,9 @@ body {
 .wavelength-scale {
   display: flex;
   justify-content: space-between;
-  padding: 0 76px;
-  margin-bottom: 24px;
+  padding: 0 106px;
+  margin-top: 24px;
+  margin-bottom: 16px;
 }
 
 .wavelength-scale span {
@@ -5642,65 +5738,36 @@ body {
   color: rgba(255, 255, 255, 0.4);
 }
 
-.material-signatures {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 12px;
+.wavelength-scale .wavelength-highlight {
+  color: #22c55e;
+  font-weight: 600;
 }
 
-.signature-item {
+/* IR Advantage Note */
+.ir-advantage-note {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 8px;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 16px 20px;
+  background: linear-gradient(135deg, rgba(34, 197, 94, 0.12) 0%, rgba(34, 197, 94, 0.05) 100%);
+  border: 1px solid rgba(34, 197, 94, 0.25);
+  border-radius: 10px;
+  margin-top: 8px;
 }
 
-.signature-bar {
-  width: 100%;
-  height: 24px;
-  background: rgba(255, 255, 255, 0.05);
-  border-radius: 4px;
-  position: relative;
-  overflow: hidden;
+.ir-icon {
+  font-size: 20px;
+  flex-shrink: 0;
 }
 
-.signature-bar::before {
-  content: '';
-  position: absolute;
-  left: var(--peak-pos, 50%);
-  top: 0;
-  width: 30%;
-  height: 100%;
-  transform: translateX(-50%);
-  border-radius: 4px;
-  animation: signaturePulse 2s ease-in-out infinite;
+.ir-advantage-note span:last-child {
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.8);
+  line-height: 1.5;
 }
 
-.signature-item.plastic .signature-bar::before {
-  background: linear-gradient(90deg, transparent, #3b82f6, transparent);
-}
-
-.signature-item.rubber .signature-bar::before {
-  background: linear-gradient(90deg, transparent, #1f2937, transparent);
-}
-
-.signature-item.metal .signature-bar::before {
-  background: linear-gradient(90deg, transparent, #94a3b8, transparent);
-}
-
-.signature-item.organic .signature-bar::before {
-  background: linear-gradient(90deg, transparent, #22c55e, transparent);
-}
-
-@keyframes signaturePulse {
-  0%, 100% { opacity: 0.5; }
-  50% { opacity: 1; }
-}
-
-.signature-label {
-  font-size: 12px;
-  font-weight: 500;
-  color: rgba(255, 255, 255, 0.7);
+.ir-advantage-note strong {
+  color: #22c55e;
 }
 
 .visualization-caption {
