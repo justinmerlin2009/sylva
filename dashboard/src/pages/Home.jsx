@@ -360,7 +360,7 @@ function Home() {
                 className="team-avatar-img"
               />
               <h3>Justin Merlin</h3>
-              <p className="team-role">Founder & Leader</p>
+              <p className="team-role">Founder & Chief Executive Officer</p>
               <p className="team-bio">Junior at Tamalpais High School</p>
             </div>
             <div className="team-card">
@@ -370,7 +370,7 @@ function Home() {
                 className="team-avatar-img"
               />
               <h3>David De Zafra</h3>
-              <p className="team-role">Founder & Chief of Aviation</p>
+              <p className="team-role">Founder & Chief of Aviation and Outreach</p>
               <p className="team-bio">Junior at Tamalpais High School</p>
             </div>
             <div className="team-card">
@@ -380,7 +380,7 @@ function Home() {
                 className="team-avatar-img"
               />
               <h3>Gideon Palestrant</h3>
-              <p className="team-role">Founder & Chief of Technology</p>
+              <p className="team-role">Founder & Chief of Technology and Research</p>
               <p className="team-bio">Junior at Tamalpais High School</p>
             </div>
             <div className="team-card">
@@ -390,7 +390,7 @@ function Home() {
                 className="team-avatar-img"
               />
               <h3>Vaugn Neumann</h3>
-              <p className="team-role">Founder & Chief of Media</p>
+              <p className="team-role">Founder & Chief of Media and Engineering</p>
               <p className="team-bio">Junior at Tamalpais High School</p>
             </div>
           </div>
