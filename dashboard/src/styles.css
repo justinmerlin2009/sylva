@@ -5891,17 +5891,17 @@ body {
   box-shadow: 0 0 15px #22c55e, 0 0 30px #22c55e;
 }
 
-/* Glass detection - 2.1s into animation */
+/* Glass detection - adjusted timing */
 .detection-marker.glass .marker-ping::before {
   animation: pingRing 6s ease-out infinite;
-  animation-delay: 2.1s;
+  animation-delay: 2.5s;
 }
 .detection-marker.glass .marker-ping::after {
   animation: pingFlash 6s ease-out infinite;
-  animation-delay: 2.1s;
+  animation-delay: 2.5s;
 }
 
-/* Plastic detection - 3.0s into animation */
+/* Plastic detection - 3.0s (reference timing) */
 .detection-marker.plastic .marker-ping::before {
   animation: pingRing 6s ease-out infinite;
   animation-delay: 3.0s;
@@ -5911,34 +5911,34 @@ body {
   animation-delay: 3.0s;
 }
 
-/* Organic detection - 3.9s into animation */
+/* Organic detection - adjusted timing */
 .detection-marker.organic .marker-ping::before {
   animation: pingRing 6s ease-out infinite;
-  animation-delay: 3.9s;
+  animation-delay: 3.65s;
 }
 .detection-marker.organic .marker-ping::after {
   animation: pingFlash 6s ease-out infinite;
-  animation-delay: 3.9s;
+  animation-delay: 3.65s;
 }
 
-/* Textile detection - 4.7s into animation */
+/* Textile detection - adjusted timing */
 .detection-marker.textile .marker-ping::before {
   animation: pingRing 6s ease-out infinite;
-  animation-delay: 4.7s;
+  animation-delay: 4.4s;
 }
 .detection-marker.textile .marker-ping::after {
   animation: pingFlash 6s ease-out infinite;
-  animation-delay: 4.7s;
+  animation-delay: 4.4s;
 }
 
-/* Rubber detection - 5.5s into animation */
+/* Rubber detection - adjusted timing */
 .detection-marker.rubber .marker-ping::before {
   animation: pingRing 6s ease-out infinite;
-  animation-delay: 5.5s;
+  animation-delay: 5.2s;
 }
 .detection-marker.rubber .marker-ping::after {
   animation: pingFlash 6s ease-out infinite;
-  animation-delay: 5.5s;
+  animation-delay: 5.2s;
 }
 
 @keyframes pingRing {
@@ -5978,7 +5978,7 @@ body {
 /* Marker glow effect when detected */
 .detection-marker.glass .marker-line {
   animation: markerGlow 6s ease-out infinite;
-  animation-delay: 2.1s;
+  animation-delay: 2.5s;
 }
 .detection-marker.plastic .marker-line {
   animation: markerGlow 6s ease-out infinite;
@@ -5986,15 +5986,15 @@ body {
 }
 .detection-marker.organic .marker-line {
   animation: markerGlow 6s ease-out infinite;
-  animation-delay: 3.9s;
+  animation-delay: 3.65s;
 }
 .detection-marker.textile .marker-line {
   animation: markerGlow 6s ease-out infinite;
-  animation-delay: 4.7s;
+  animation-delay: 4.4s;
 }
 .detection-marker.rubber .marker-line {
   animation: markerGlow 6s ease-out infinite;
-  animation-delay: 5.5s;
+  animation-delay: 5.2s;
 }
 
 @keyframes markerGlow {
