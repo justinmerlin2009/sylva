@@ -370,7 +370,7 @@ function Home() {
                       <span className="label-sensor">RGB + LiDAR</span>
                     </div>
                     <div className="chart-label highlight" style={{ left: '86%' }}>
-                      <span className="label-value green">90%</span>
+                      <span className="label-value green">&gt;90%</span>
                       <span className="label-sensor">Full Fusion</span>
                     </div>
                   </div>
