@@ -1,7 +1,28 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 
 function Home() {
+  const [showContactModal, setShowContactModal] = useState(false)
+  const [contactForm, setContactForm] = useState({
+    email: '',
+    subject: '',
+    message: ''
+  })
+  const [sendStatus, setSendStatus] = useState('')
+
+  const handleContactSubmit = (e) => {
+    e.preventDefault()
+    const recipient = atob('anVzdGluLm1lcmxpbjIwMDlAZ21haWwuY29t')
+    const mailtoLink = `mailto:${recipient}?subject=${encodeURIComponent(contactForm.subject)}&body=${encodeURIComponent(`From: ${contactForm.email}\n\n${contactForm.message}`)}`
+    window.location.href = mailtoLink
+    setSendStatus('Opening email client...')
+    setTimeout(() => {
+      setShowContactModal(false)
+      setSendStatus('')
+      setContactForm({ email: '', subject: '', message: '' })
+    }, 2000)
+  }
+
   return (
     <div className="home-page">
       {/* Navigation */}
@@ -43,15 +64,15 @@ function Home() {
         {/* Why It Matters Section */}
         <section id="why" className="content-section">
           <h2 className="section-title">Why It Matters</h2>
-          <div className="impact-highlight">
-            <div className="impact-content">
+          <div className="impact-row">
+            <div className="impact-highlight">
               <span className="impact-number">$13 Billion</span>
               <span className="impact-label">Annual damage to marine ecosystems from plastic pollution</span>
               <span className="impact-source">
                 <a href="https://www.unep.org/news-and-stories/press-release/plastic-waste-causes-financial-damage-us13-billion-marine-ecosystems" target="_blank" rel="noopener noreferrer">UNEP, 2014</a>; <a href="https://www.unep.org/plastic-pollution" target="_blank" rel="noopener noreferrer">UNEP, 2023</a>
               </span>
             </div>
-            <div className="impact-image">
+            <div className="impact-image-standalone">
               <img src="/images/PollutionExample_USHighway.png" alt="Highway pollution example" />
             </div>
           </div>
@@ -307,7 +328,61 @@ function Home() {
               <p className="team-bio">Operations & Community Outreach at Seneca</p>
             </a>
           </div>
+
+          {/* Contact Button */}
+          <div className="contact-section">
+            <button className="btn btn-primary" onClick={() => setShowContactModal(true)}>
+              Contact Us
+            </button>
+          </div>
         </section>
+
+        {/* Contact Modal */}
+        {showContactModal && (
+          <div className="modal-overlay" onClick={() => setShowContactModal(false)}>
+            <div className="contact-modal" onClick={(e) => e.stopPropagation()}>
+              <button className="modal-close" onClick={() => setShowContactModal(false)}>&times;</button>
+              <h2>Contact the Sylva Team</h2>
+              <form onSubmit={handleContactSubmit}>
+                <div className="form-group">
+                  <label htmlFor="email">Your Email</label>
+                  <input
+                    type="email"
+                    id="email"
+                    required
+                    value={contactForm.email}
+                    onChange={(e) => setContactForm({...contactForm, email: e.target.value})}
+                    placeholder="your@email.com"
+                  />
+                </div>
+                <div className="form-group">
+                  <label htmlFor="subject">Subject</label>
+                  <input
+                    type="text"
+                    id="subject"
+                    required
+                    value={contactForm.subject}
+                    onChange={(e) => setContactForm({...contactForm, subject: e.target.value})}
+                    placeholder="How can we help?"
+                  />
+                </div>
+                <div className="form-group">
+                  <label htmlFor="message">Message</label>
+                  <textarea
+                    id="message"
+                    required
+                    rows="5"
+                    value={contactForm.message}
+                    onChange={(e) => setContactForm({...contactForm, message: e.target.value})}
+                    placeholder="Your message..."
+                  ></textarea>
+                </div>
+                {sendStatus && <p className="send-status">{sendStatus}</p>}
+                <button type="submit" className="btn btn-primary btn-full">Send Message</button>
+              </form>
+            </div>
+          </div>
+        )}
 
         {/* Future Plans Section */}
         <section className="content-section future-section">
