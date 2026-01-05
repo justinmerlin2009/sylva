@@ -1,7 +1,54 @@
-import React, { useEffect, useRef, useState } from 'react'
+import React, { useEffect, useRef, useState, useCallback } from 'react'
 import { MapContainer, TileLayer, Marker, Popup, Polyline, CircleMarker, Circle, Polygon, useMap, useMapEvents } from 'react-leaflet'
 import L from 'leaflet'
 import 'leaflet/dist/leaflet.css'
+
+// Tile loading tracker component
+function TileLoadingTracker({ onLoadingChange }) {
+  const map = useMap()
+
+  useEffect(() => {
+    let loadingCount = 0
+
+    const handleTileLoadStart = () => {
+      loadingCount++
+      if (loadingCount === 1) {
+        onLoadingChange(true)
+      }
+    }
+
+    const handleTileLoad = () => {
+      loadingCount = Math.max(0, loadingCount - 1)
+      if (loadingCount === 0) {
+        // Small delay to batch tile loads
+        setTimeout(() => {
+          if (loadingCount === 0) {
+            onLoadingChange(false)
+          }
+        }, 100)
+      }
+    }
+
+    const handleTileError = () => {
+      loadingCount = Math.max(0, loadingCount - 1)
+      if (loadingCount === 0) {
+        onLoadingChange(false)
+      }
+    }
+
+    map.on('tileloadstart', handleTileLoadStart)
+    map.on('tileload', handleTileLoad)
+    map.on('tileerror', handleTileError)
+
+    return () => {
+      map.off('tileloadstart', handleTileLoadStart)
+      map.off('tileload', handleTileLoad)
+      map.off('tileerror', handleTileError)
+    }
+  }, [map, onLoadingChange])
+
+  return null
+}
 
 // Fix for default marker icons in React-Leaflet
 delete L.Icon.Default.prototype._getIconUrl
@@ -286,6 +333,12 @@ function Map({
 }) {
   // Only follow drone during demo when followDrone is true
   const shouldFollowDrone = demoActive && dronePosition && followDrone
+
+  // Track tile loading state
+  const [tilesLoading, setTilesLoading] = useState(false)
+  const handleLoadingChange = useCallback((loading) => {
+    setTilesLoading(loading)
+  }, [])
 
   // Get category color by id
   const getCategoryColor = (categoryId) => {
@@ -622,40 +675,41 @@ function Map({
         forceRecenter={!demoActive && !isDrawing}
       />
 
-      {/* Base map layer - CartoDB Voyager (detailed with roads, water, labels) */}
-      {!satelliteView && (
-        <TileLayer
-          attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>'
-          url="https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png"
-          subdomains="abcd"
-        />
-      )}
+      {/* Tile loading tracker */}
+      <TileLoadingTracker onLoadingChange={handleLoadingChange} />
 
-      {/* Satellite layer - ESRI World Imagery */}
-      {satelliteView && (
-        <TileLayer
-          attribution='Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community'
-          url="https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}"
-        />
-      )}
+      {/* Base map layer - CartoDB Voyager (always mounted, opacity controlled) */}
+      <TileLayer
+        attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>'
+        url="https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png"
+        subdomains="abcd"
+        opacity={satelliteView ? 0 : 1}
+        className={satelliteView ? 'tile-layer-hidden' : ''}
+      />
+
+      {/* Satellite layer - ESRI World Imagery (always mounted for preloading) */}
+      <TileLayer
+        attribution='Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community'
+        url="https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}"
+        opacity={satelliteView ? 1 : 0}
+        className={satelliteView ? '' : 'tile-layer-hidden'}
+      />
 
       {/* Roads and labels overlay for satellite view */}
-      {satelliteView && (
-        <TileLayer
-          attribution=''
-          url="https://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Transportation/MapServer/tile/{z}/{y}/{x}"
-          opacity={0.7}
-        />
-      )}
+      <TileLayer
+        attribution=''
+        url="https://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Transportation/MapServer/tile/{z}/{y}/{x}"
+        opacity={satelliteView ? 0.7 : 0}
+        className={satelliteView ? '' : 'tile-layer-hidden'}
+      />
 
       {/* Place names overlay for satellite view */}
-      {satelliteView && (
-        <TileLayer
-          attribution=''
-          url="https://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}"
-          opacity={0.8}
-        />
-      )}
+      <TileLayer
+        attribution=''
+        url="https://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}"
+        opacity={satelliteView ? 0.8 : 0}
+        className={satelliteView ? '' : 'tile-layer-hidden'}
+      />
 
       {/* Geography features (water, highways, shorelines) */}
       {renderGeography()}
@@ -866,6 +920,14 @@ function Map({
       })}
 
     </MapContainer>
+
+    {/* Loading indicator for tiles */}
+    {tilesLoading && (
+      <div className="map-loading-indicator">
+        <div className="map-loading-spinner"></div>
+        <span>Loading map...</span>
+      </div>
+    )}
 
     {/* Recenter button - shown when user has panned away during demo */}
     {demoActive && dronePosition && !followDrone && (

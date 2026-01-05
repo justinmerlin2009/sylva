@@ -4968,6 +4968,60 @@ body {
   }
 }
 
+/* ==================== Map Loading Indicator ==================== */
+
+.map-loading-indicator {
+  position: absolute;
+  top: 16px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1000;
+  background: rgba(15, 23, 42, 0.9);
+  backdrop-filter: blur(8px);
+  padding: 10px 20px;
+  border-radius: 24px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 500;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  animation: loadingFadeIn 0.2s ease;
+}
+
+@keyframes loadingFadeIn {
+  from {
+    opacity: 0;
+    transform: translateX(-50%) translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
+  }
+}
+
+.map-loading-spinner {
+  width: 18px;
+  height: 18px;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  border-top-color: #22c55e;
+  border-radius: 50%;
+  animation: mapSpinner 0.8s linear infinite;
+}
+
+@keyframes mapSpinner {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Hidden tile layer - pointer events none for performance */
+.tile-layer-hidden {
+  pointer-events: none !important;
+}
+
 /* ==================== Instructions Popup ==================== */
 
 .instructions-overlay {
