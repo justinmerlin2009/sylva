@@ -246,8 +246,8 @@ function Technology() {
                   <div className="grid-line"></div>
                   <div className="grid-line"></div>
                 </div>
-                {/* Data points and connecting line */}
-                <svg className="chart-svg" viewBox="0 0 400 200" preserveAspectRatio="none">
+                {/* Data points and connecting line - 5 points now */}
+                <svg className="chart-svg" viewBox="0 0 500 200" preserveAspectRatio="none">
                   {/* Gradient fill under line */}
                   <defs>
                     <linearGradient id="chartGradient" x1="0%" y1="0%" x2="0%" y2="100%">
@@ -255,16 +255,16 @@ function Technology() {
                       <stop offset="100%" stopColor="#22c55e" stopOpacity="0.05"/>
                     </linearGradient>
                   </defs>
-                  {/* Area fill */}
+                  {/* Area fill - 70, 70, 78, 80, 90+ mapped to y positions */}
                   <path
                     className="chart-area-fill"
-                    d="M 50,140 L 150,120 L 250,60 L 350,20 L 350,200 L 50,200 Z"
+                    d="M 50,140 L 137,140 L 225,100 L 312,80 L 450,10 L 450,200 L 50,200 Z"
                     fill="url(#chartGradient)"
                   />
                   {/* Line */}
                   <path
                     className="chart-line"
-                    d="M 50,140 L 150,120 L 250,60 L 350,20"
+                    d="M 50,140 L 137,140 L 225,100 L 312,80 L 450,10"
                     fill="none"
                     stroke="#22c55e"
                     strokeWidth="3"
@@ -273,26 +273,31 @@ function Technology() {
                   />
                   {/* Data points */}
                   <circle className="chart-point" cx="50" cy="140" r="8" fill="#f59e0b"/>
-                  <circle className="chart-point" cx="150" cy="120" r="8" fill="#eab308"/>
-                  <circle className="chart-point" cx="250" cy="60" r="8" fill="#84cc16"/>
-                  <circle className="chart-point" cx="350" cy="20" r="8" fill="#22c55e"/>
+                  <circle className="chart-point" cx="137" cy="140" r="8" fill="#f59e0b"/>
+                  <circle className="chart-point" cx="225" cy="100" r="8" fill="#eab308"/>
+                  <circle className="chart-point" cx="312" cy="80" r="8" fill="#84cc16"/>
+                  <circle className="chart-point" cx="450" cy="10" r="8" fill="#22c55e"/>
                 </svg>
                 {/* Data labels */}
                 <div className="chart-labels">
-                  <div className="chart-label" style={{ left: '12.5%' }}>
-                    <span className="label-value orange">74%</span>
-                    <span className="label-sensor">RGB</span>
+                  <div className="chart-label" style={{ left: '10%' }}>
+                    <span className="label-value orange">~70%</span>
+                    <span className="label-sensor">RGB Only</span>
                   </div>
-                  <div className="chart-label" style={{ left: '37.5%' }}>
-                    <span className="label-value yellow">78%</span>
-                    <span className="label-sensor">+ Hyperspectral</span>
+                  <div className="chart-label" style={{ left: '27%' }}>
+                    <span className="label-value orange">~70%</span>
+                    <span className="label-sensor">Hyperspectral</span>
                   </div>
-                  <div className="chart-label" style={{ left: '62.5%' }}>
-                    <span className="label-value lime">85%</span>
-                    <span className="label-sensor">+ LiDAR</span>
+                  <div className="chart-label" style={{ left: '45%' }}>
+                    <span className="label-value yellow">~78%</span>
+                    <span className="label-sensor">RGB + Hyper</span>
                   </div>
-                  <div className="chart-label highlight" style={{ left: '87.5%' }}>
-                    <span className="label-value green">91%</span>
+                  <div className="chart-label" style={{ left: '62%' }}>
+                    <span className="label-value lime">~80%</span>
+                    <span className="label-sensor">RGB + LiDAR</span>
+                  </div>
+                  <div className="chart-label highlight" style={{ left: '90%' }}>
+                    <span className="label-value green">&gt;90%</span>
                     <span className="label-sensor">Full Fusion</span>
                   </div>
                 </div>
@@ -303,19 +308,19 @@ function Technology() {
             <div className="accuracy-legend">
               <div className="legend-item">
                 <span className="legend-dot orange"></span>
-                <span>RGB Only (mAP@0.5)</span>
+                <span>Single Sensor (~70%)</span>
               </div>
               <div className="legend-item">
                 <span className="legend-dot yellow"></span>
-                <span>+ Hyperspectral bands</span>
+                <span>RGB + Hyperspectral (~78%)</span>
               </div>
               <div className="legend-item">
                 <span className="legend-dot lime"></span>
-                <span>+ LiDAR depth</span>
+                <span>RGB + LiDAR (~80%)</span>
               </div>
               <div className="legend-item highlight">
                 <span className="legend-dot green"></span>
-                <span>Sylva Hybrid Camera</span>
+                <span>Sylva Full Fusion (&gt;90%)</span>
               </div>
             </div>
 

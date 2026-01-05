@@ -3900,10 +3900,11 @@ body {
   animation: popIn 0.3s ease-out forwards;
 }
 
-.chart-point:nth-child(4) { animation-delay: 0.3s; }
-.chart-point:nth-child(5) { animation-delay: 0.6s; }
-.chart-point:nth-child(6) { animation-delay: 0.9s; }
-.chart-point:nth-child(7) { animation-delay: 1.2s; }
+.chart-point:nth-child(4) { animation-delay: 0.2s; }
+.chart-point:nth-child(5) { animation-delay: 0.4s; }
+.chart-point:nth-child(6) { animation-delay: 0.6s; }
+.chart-point:nth-child(7) { animation-delay: 0.8s; }
+.chart-point:nth-child(8) { animation-delay: 1.0s; }
 
 @keyframes popIn {
   0% {
