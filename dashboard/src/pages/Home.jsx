@@ -243,14 +243,14 @@ function Home() {
               <div className="validation-number">4</div>
               <div className="validation-label">Fixed-wing drones built and flight-tested</div>
             </div>
-            <div className="validation-card">
+            <Link to="/detection-demo" className="validation-card validation-card-link">
               <div className="validation-number">8</div>
               <div className="validation-label">Successful detections from December 2025 field test</div>
-            </div>
-            <div className="validation-card">
+            </Link>
+            <Link to="/simulation" className="validation-card validation-card-link">
               <div className="validation-number">60+</div>
               <div className="validation-label">Live API endpoints serving real data</div>
-            </div>
+            </Link>
             <div className="validation-card">
               <div className="validation-number">4</div>
               <div className="validation-label">Agency partners in active discussions</div>
