@@ -162,52 +162,70 @@ function Home() {
 
             {/* Animated Spectral Visualization */}
             <div className="spectral-visualization">
-              <div className="spectrum-display">
-                <div className="spectrum-label-left">Visible<br/><span className="spectrum-sublabel">(RGB cameras)</span></div>
-                <div className="spectrum-bar">
-                  <div className="spectrum-gradient"></div>
-                  <div className="scan-line"></div>
-                  {/* Sylva Detection Zone Highlight */}
-                  <div className="detection-zone"></div>
-                  <div className="detection-zone-label">Sylva Detection Zone</div>
-                  {/* Material detection markers on spectrum */}
-                  <div className="detection-marker glass" style={{left: '42%'}} title="Glass ~900-1000nm">
-                    <span className="marker-line"></span>
-                    <span className="marker-label">Glass</span>
+              <div className="spectrum-container">
+                {/* Visible Light Section (400-750nm) */}
+                <div className="spectrum-section visible-section">
+                  <div className="section-label">Visible Light</div>
+                  <div className="visible-spectrum">
+                    <div className="visible-gradient"></div>
                   </div>
-                  <div className="detection-marker metal" style={{left: '50%'}} title="Metals ~broadband">
-                    <span className="marker-line"></span>
-                    <span className="marker-label">Metal</span>
-                  </div>
-                  <div className="detection-marker plastic" style={{left: '62%'}} title="Plastic ~1200nm">
-                    <span className="marker-line"></span>
-                    <span className="marker-label">Plastic</span>
-                  </div>
-                  <div className="detection-marker organic" style={{left: '72%'}} title="Organic ~1450nm">
-                    <span className="marker-line"></span>
-                    <span className="marker-label">Organic</span>
-                  </div>
-                  <div className="detection-marker textile" style={{left: '82%'}} title="Textile ~1500-1700nm">
-                    <span className="marker-line"></span>
-                    <span className="marker-label">Textile</span>
-                  </div>
-                  <div className="detection-marker rubber" style={{left: '92%'}} title="Rubber/Tires ~1700nm">
-                    <span className="marker-line"></span>
-                    <span className="marker-label">Rubber</span>
+                  <div className="section-sublabel">Standard RGB Cameras</div>
+                  <div className="wavelength-marks visible-marks">
+                    <span>400nm</span>
+                    <span>550nm</span>
+                    <span>750nm</span>
                   </div>
                 </div>
-                <div className="spectrum-label-right">NIR/SWIR<br/><span className="spectrum-sublabel">(Sylva hyperspectral)</span></div>
+
+                {/* Divider */}
+                <div className="spectrum-divider">
+                  <div className="divider-line"></div>
+                  <span className="divider-label">Invisible to cameras</span>
+                  <div className="divider-arrow">→</div>
+                </div>
+
+                {/* Infrared Section (750-1700nm) - Sylva Detection Zone */}
+                <div className="spectrum-section ir-section">
+                  <div className="section-label ir-label">Near & Short-Wave Infrared</div>
+                  <div className="ir-spectrum">
+                    <div className="ir-pattern"></div>
+                    <div className="ir-glow"></div>
+                    <div className="scan-line"></div>
+                    {/* Material detection markers */}
+                    <div className="detection-marker glass" style={{left: '8%'}} title="Glass ~900nm">
+                      <span className="marker-line"></span>
+                      <span className="marker-label">Glass</span>
+                    </div>
+                    <div className="detection-marker plastic" style={{left: '30%'}} title="Plastic ~1200nm">
+                      <span className="marker-line"></span>
+                      <span className="marker-label">Plastic</span>
+                    </div>
+                    <div className="detection-marker organic" style={{left: '52%'}} title="Organic ~1450nm">
+                      <span className="marker-line"></span>
+                      <span className="marker-label">Organic</span>
+                    </div>
+                    <div className="detection-marker textile" style={{left: '72%'}} title="Textile ~1600nm">
+                      <span className="marker-line"></span>
+                      <span className="marker-label">Textile</span>
+                    </div>
+                    <div className="detection-marker rubber" style={{left: '92%'}} title="Rubber ~1700nm">
+                      <span className="marker-line"></span>
+                      <span className="marker-label">Rubber</span>
+                    </div>
+                  </div>
+                  <div className="section-sublabel ir-sublabel">Sylva Hyperspectral Camera</div>
+                  <div className="wavelength-marks ir-marks">
+                    <span>900nm</span>
+                    <span>1200nm</span>
+                    <span>1450nm</span>
+                    <span>1700nm</span>
+                  </div>
+                </div>
               </div>
-              <div className="wavelength-scale">
-                <span>400nm</span>
-                <span>700nm</span>
-                <span className="wavelength-highlight">900nm</span>
-                <span className="wavelength-highlight">1200nm</span>
-                <span className="wavelength-highlight">1700nm</span>
-              </div>
+
               <div className="ir-advantage-note">
                 <span className="ir-icon">🔬</span>
-                <span>Most waste materials have distinct signatures in the <strong>900-1700nm infrared range</strong> — invisible to standard cameras but clearly detected by Sylva's hyperspectral sensor</span>
+                <span>Most waste materials have distinct signatures in the <strong>900-1700nm infrared range</strong> — invisible to human eyes and standard cameras, but clearly detected by Sylva's 8-band hyperspectral sensor</span>
               </div>
             </div>
 

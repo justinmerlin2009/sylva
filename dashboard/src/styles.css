@@ -5568,102 +5568,221 @@ body {
   border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
-.spectrum-display {
+.spectrum-container {
   display: flex;
-  align-items: flex-start;
-  gap: 16px;
-  margin-bottom: 8px;
+  align-items: stretch;
+  gap: 0;
 }
 
-.spectrum-label-left,
-.spectrum-label-right {
+.spectrum-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.visible-section {
+  flex: 0 0 28%;
+}
+
+.ir-section {
+  flex: 1;
+}
+
+.section-label {
   font-size: 11px;
-  font-weight: 500;
-  color: rgba(255, 255, 255, 0.5);
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.6);
   text-transform: uppercase;
   letter-spacing: 0.5px;
-  min-width: 90px;
-  line-height: 1.4;
-  padding-top: 8px;
+  margin-bottom: 10px;
+  text-align: center;
 }
 
-.spectrum-sublabel {
-  font-size: 9px;
-  text-transform: none;
-  color: rgba(255, 255, 255, 0.35);
-  display: block;
-  margin-top: 2px;
-}
-
-.spectrum-label-right .spectrum-sublabel {
+.section-label.ir-label {
   color: #22c55e;
+  text-shadow: 0 0 10px rgba(34, 197, 94, 0.3);
 }
 
-.spectrum-label-right {
-  text-align: right;
+.section-sublabel {
+  font-size: 10px;
+  color: rgba(255, 255, 255, 0.4);
+  margin-top: 8px;
+  text-align: center;
 }
 
-.spectrum-bar {
-  flex: 1;
-  height: 70px;
-  border-radius: 6px;
-  overflow: visible;
+.section-sublabel.ir-sublabel {
+  color: #22c55e;
+  font-weight: 500;
+}
+
+/* Visible Light Spectrum (rainbow) */
+.visible-spectrum {
+  width: 100%;
+  height: 40px;
+  border-radius: 6px 0 0 6px;
+  overflow: hidden;
   position: relative;
 }
 
-.spectrum-gradient {
+.visible-gradient {
   width: 100%;
-  height: 32px;
-  border-radius: 6px;
+  height: 100%;
   background: linear-gradient(90deg,
-    #7c3aed 0%,
-    #3b82f6 15%,
-    #06b6d4 25%,
-    #22c55e 35%,
-    #eab308 45%,
-    #f97316 55%,
-    #ef4444 65%,
-    #881337 75%,
-    #1f1f1f 85%,
-    #0a0a0a 100%
+    #8b00ff 0%,      /* Violet 400nm */
+    #4b0082 10%,     /* Indigo */
+    #0000ff 20%,     /* Blue 450nm */
+    #00bfff 30%,     /* Cyan 500nm */
+    #00ff00 45%,     /* Green 550nm */
+    #ffff00 60%,     /* Yellow 580nm */
+    #ff8c00 75%,     /* Orange 620nm */
+    #ff0000 85%,     /* Red 650nm */
+    #8b0000 100%     /* Dark Red 750nm */
+  );
+  opacity: 0.9;
+}
+
+/* Wavelength marks */
+.wavelength-marks {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 6px;
+  padding: 0 2px;
+}
+
+.wavelength-marks span {
+  font-size: 9px;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.wavelength-marks.ir-marks span {
+  color: rgba(34, 197, 94, 0.7);
+}
+
+/* Divider between visible and IR */
+.spectrum-divider {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 12px;
+  position: relative;
+}
+
+.divider-line {
+  width: 2px;
+  height: 40px;
+  background: repeating-linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0.3) 0px,
+    rgba(255, 255, 255, 0.3) 4px,
+    transparent 4px,
+    transparent 8px
   );
 }
 
-/* Detection Zone Highlight - emphasizes infrared range */
-.detection-zone {
+.divider-label {
+  font-size: 8px;
+  color: rgba(255, 255, 255, 0.4);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  transform: rotate(180deg);
+  white-space: nowrap;
+  margin-top: 8px;
+}
+
+.divider-arrow {
+  font-size: 16px;
+  color: #22c55e;
+  margin-top: 4px;
+  animation: arrowPulse 1.5s ease-in-out infinite;
+}
+
+@keyframes arrowPulse {
+  0%, 100% { opacity: 0.5; transform: translateX(0); }
+  50% { opacity: 1; transform: translateX(3px); }
+}
+
+/* Infrared Spectrum (non-color pattern) */
+.ir-spectrum {
+  width: 100%;
+  height: 40px;
+  border-radius: 0 6px 6px 0;
+  overflow: visible;
+  position: relative;
+  background: linear-gradient(90deg,
+    rgba(20, 20, 20, 0.9) 0%,
+    rgba(15, 15, 15, 0.95) 100%
+  );
+  border: 1px solid rgba(34, 197, 94, 0.3);
+}
+
+.ir-pattern {
   position: absolute;
   top: 0;
-  left: 38%;
+  left: 0;
   right: 0;
-  height: 32px;
-  border: 2px solid #22c55e;
-  border-radius: 0 6px 6px 0;
-  background: rgba(34, 197, 94, 0.1);
-  animation: zoneGlow 2s ease-in-out infinite;
+  bottom: 0;
+  background: repeating-linear-gradient(
+    90deg,
+    transparent 0px,
+    transparent 6px,
+    rgba(34, 197, 94, 0.15) 6px,
+    rgba(34, 197, 94, 0.15) 8px
+  );
 }
 
-@keyframes zoneGlow {
-  0%, 100% { box-shadow: 0 0 10px rgba(34, 197, 94, 0.3); }
-  50% { box-shadow: 0 0 20px rgba(34, 197, 94, 0.5); }
-}
-
-.detection-zone-label {
+.ir-glow {
   position: absolute;
-  top: -22px;
-  left: 38%;
+  top: 0;
+  left: 0;
   right: 0;
-  text-align: center;
-  font-size: 10px;
-  font-weight: 600;
-  color: #22c55e;
-  text-transform: uppercase;
-  letter-spacing: 1px;
+  bottom: 0;
+  background: linear-gradient(90deg,
+    rgba(34, 197, 94, 0.05) 0%,
+    rgba(34, 197, 94, 0.1) 30%,
+    rgba(34, 197, 94, 0.15) 60%,
+    rgba(34, 197, 94, 0.1) 100%
+  );
+  animation: irGlow 3s ease-in-out infinite;
+}
+
+@keyframes irGlow {
+  0%, 100% { opacity: 0.6; }
+  50% { opacity: 1; }
+}
+
+/* Scan line animation */
+.ir-spectrum .scan-line {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 3px;
+  height: 100%;
+  background: linear-gradient(180deg,
+    transparent 0%,
+    #22c55e 30%,
+    #22c55e 70%,
+    transparent 100%
+  );
+  box-shadow: 0 0 15px rgba(34, 197, 94, 0.8), 0 0 30px rgba(34, 197, 94, 0.4);
+  animation: irScan 4s ease-in-out infinite;
+  z-index: 20;
+}
+
+@keyframes irScan {
+  0%, 100% { left: 0; opacity: 0; }
+  10% { opacity: 1; }
+  90% { opacity: 1; }
+  100% { left: calc(100% - 3px); opacity: 0; }
 }
 
 /* Material Detection Markers */
 .detection-marker {
   position: absolute;
-  top: 32px;
+  top: 40px;
   transform: translateX(-50%);
   display: flex;
   flex-direction: column;
@@ -5673,75 +5792,39 @@ body {
 
 .marker-line {
   width: 2px;
-  height: 14px;
-  background: #fff;
+  height: 12px;
   box-shadow: 0 0 6px rgba(255, 255, 255, 0.5);
 }
 
 .marker-label {
-  font-size: 8px;
+  font-size: 7px;
   font-weight: 600;
   color: #fff;
   text-transform: uppercase;
-  letter-spacing: 0.5px;
+  letter-spacing: 0.3px;
   margin-top: 2px;
-  padding: 2px 5px;
+  padding: 2px 4px;
   border-radius: 3px;
   white-space: nowrap;
 }
 
 .detection-marker.glass .marker-line { background: #94a3b8; }
-.detection-marker.glass .marker-label { background: rgba(148, 163, 184, 0.4); }
+.detection-marker.glass .marker-label { background: rgba(148, 163, 184, 0.5); }
 
 .detection-marker.metal .marker-line { background: #cbd5e1; }
-.detection-marker.metal .marker-label { background: rgba(203, 213, 225, 0.4); }
+.detection-marker.metal .marker-label { background: rgba(203, 213, 225, 0.5); }
 
 .detection-marker.plastic .marker-line { background: #3b82f6; }
-.detection-marker.plastic .marker-label { background: rgba(59, 130, 246, 0.4); }
+.detection-marker.plastic .marker-label { background: rgba(59, 130, 246, 0.5); }
 
 .detection-marker.organic .marker-line { background: #22c55e; }
-.detection-marker.organic .marker-label { background: rgba(34, 197, 94, 0.4); }
+.detection-marker.organic .marker-label { background: rgba(34, 197, 94, 0.5); }
 
 .detection-marker.textile .marker-line { background: #a855f7; }
-.detection-marker.textile .marker-label { background: rgba(168, 85, 247, 0.4); }
+.detection-marker.textile .marker-label { background: rgba(168, 85, 247, 0.5); }
 
 .detection-marker.rubber .marker-line { background: #6b7280; }
-.detection-marker.rubber .marker-label { background: rgba(107, 114, 128, 0.5); }
-
-.spectrum-bar .scan-line {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 3px;
-  height: 32px;
-  background: rgba(255, 255, 255, 0.9);
-  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
-  animation: spectrumScan 3s ease-in-out infinite;
-  z-index: 20;
-}
-
-@keyframes spectrumScan {
-  0%, 100% { left: 0; }
-  50% { left: calc(100% - 3px); }
-}
-
-.wavelength-scale {
-  display: flex;
-  justify-content: space-between;
-  padding: 0 106px;
-  margin-top: 24px;
-  margin-bottom: 16px;
-}
-
-.wavelength-scale span {
-  font-size: 10px;
-  color: rgba(255, 255, 255, 0.4);
-}
-
-.wavelength-scale .wavelength-highlight {
-  color: #22c55e;
-  font-weight: 600;
-}
+.detection-marker.rubber .marker-label { background: rgba(107, 114, 128, 0.6); }
 
 /* IR Advantage Note */
 .ir-advantage-note {
@@ -5752,7 +5835,7 @@ body {
   background: linear-gradient(135deg, rgba(34, 197, 94, 0.12) 0%, rgba(34, 197, 94, 0.05) 100%);
   border: 1px solid rgba(34, 197, 94, 0.25);
   border-radius: 10px;
-  margin-top: 8px;
+  margin-top: 20px;
 }
 
 .ir-icon {
@@ -5770,13 +5853,53 @@ body {
   color: #22c55e;
 }
 
-.visualization-caption {
-  text-align: center;
-  font-size: 13px;
-  color: rgba(255, 255, 255, 0.5);
-  font-style: italic;
-  margin-top: 20px;
-  margin-bottom: 0;
+/* Responsive adjustments for spectral visualization */
+@media (max-width: 768px) {
+  .spectrum-container {
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .visible-section,
+  .ir-section {
+    flex: none;
+    width: 100%;
+  }
+
+  .visible-spectrum {
+    border-radius: 6px;
+  }
+
+  .ir-spectrum {
+    border-radius: 6px;
+  }
+
+  .spectrum-divider {
+    flex-direction: row;
+    padding: 8px 0;
+  }
+
+  .divider-line {
+    width: 100%;
+    height: 2px;
+    background: repeating-linear-gradient(
+      to right,
+      rgba(255, 255, 255, 0.3) 0px,
+      rgba(255, 255, 255, 0.3) 4px,
+      transparent 4px,
+      transparent 8px
+    );
+  }
+
+  .divider-label {
+    writing-mode: horizontal-tb;
+    transform: none;
+    margin: 0 12px;
+  }
+
+  .divider-arrow {
+    transform: rotate(90deg);
+  }
 }
 
 /* Responsive adjustments for new components */
