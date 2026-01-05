@@ -339,7 +339,7 @@ function Home() {
             </div>
             <div className="savings-card savings-sylva">
               <h3>Sylva</h3>
-              <div className="savings-stat">$0.60-1.86</div>
+              <div className="savings-stat">&lt;$2</div>
               <div className="savings-unit">per acre</div>
               <ul className="savings-details">
                 <li>500 acres per hour</li>
