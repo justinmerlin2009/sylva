@@ -219,7 +219,7 @@ function Home() {
                 <li>4K + Multispectral cameras (belly port)</li>
                 <li>Solid-state LiDAR for depth mapping</li>
                 <li>GPS module with RTH capability</li>
-                <li>Emergency parachute recovery system</li>
+                <li>Emergency parachute safety system</li>
                 <li>120-minute flight time, 50km range</li>
               </ul>
             </div>
