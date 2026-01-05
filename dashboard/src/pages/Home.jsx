@@ -73,7 +73,7 @@ function Home() {
               </span>
             </div>
             <div className="impact-image-standalone">
-              <img src="/images/PollutionExample_USHighway.png" alt="Highway pollution example" />
+              <img src="/images/PollutionExample_USHighway.jpg" alt="Highway pollution example" />
             </div>
           </div>
           <div className="market-stats">
@@ -128,7 +128,7 @@ function Home() {
           {/* Innovation Highlight */}
           <div className="innovation-highlight">
             <h3>The Innovation: Hybrid Electromagnetic Fingerprinting</h3>
-            <p>Our novel hybrid camera integrates three sensor technologies into one payload: 61-megapixel RGB for high-resolution imagery, 8-band hyperspectral (900-1700nm) for material identification, and solid-state LiDAR for depth mapping. This fingerprinting approach reduces false positives by 73% compared to RGB-only systems, ensuring cleanup crews focus on real pollution.</p>
+            <p>Our novel hybrid camera integrates three sensor technologies into one payload: 61-megapixel RGB for high-resolution imagery, 8-band hyperspectral (900-1700nm) for material identification, and solid-state LiDAR for depth mapping/size quantification. This fingerprinting approach reduces false positives by 73% compared to RGB-only systems, ensuring cleanup crews focus on real pollution.</p>
 
             <h4 className="spectral-heading">Material Detection via Spectral Signatures</h4>
             <div className="spectral-table">
@@ -193,7 +193,7 @@ function Home() {
               </ul>
             </div>
             <div className="tech-image">
-              <img src="/images/sylva-payload-uav.png" alt="Sylva UAV with Hybrid Camera Payload" className="tech-img" />
+              <img src="/images/sylva-payload-uav.jpg" alt="Sylva UAV with Hybrid Camera Payload" className="tech-img" loading="lazy" />
             </div>
           </div>
         </section>
@@ -353,7 +353,7 @@ function Home() {
         <section id="team" className="content-section team-section">
           <h2 className="section-title">Our Team</h2>
           <div className="team-photo-container">
-            <img src="/photos/TeamPhoto.png" alt="Sylva Team" className="team-photo" />
+            <img src="/photos/TeamPhoto.jpg" alt="Sylva Team" className="team-photo" loading="lazy" />
           </div>
           <div className="team-grid">
             <div className="team-card">
@@ -398,6 +398,13 @@ function Home() {
             </div>
           </div>
 
+          {/* Contact Button */}
+          <div className="contact-section">
+            <button className="btn btn-primary" onClick={() => setShowContactModal(true)}>
+              Contact Us
+            </button>
+          </div>
+
           {/* Mentor */}
           <div className="mentor-section">
             <h3 className="mentor-heading">Our Mentor</h3>
@@ -411,13 +418,6 @@ function Home() {
               <p className="team-role">Conrad Challenge Mentor</p>
               <p className="team-bio">Operations & Community Outreach at Seneca</p>
             </a>
-          </div>
-
-          {/* Contact Button */}
-          <div className="contact-section">
-            <button className="btn btn-primary" onClick={() => setShowContactModal(true)}>
-              Contact Us
-            </button>
           </div>
         </section>
 
