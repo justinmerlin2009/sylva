@@ -11,7 +11,95 @@ import AnnualData from './components/AnnualData'
 const API_BASE = 'https://sylva-api.onrender.com/api'
 const WS_BASE = 'wss://sylva-api.onrender.com'
 
+// Instructions popup component
+function InstructionsPopup({ onClose, onDontShowAgain }) {
+  const [dontShow, setDontShow] = useState(false)
+
+  const handleClose = () => {
+    if (dontShow) {
+      onDontShowAgain()
+    }
+    onClose()
+  }
+
+  return (
+    <div className="instructions-overlay">
+      <div className="instructions-popup">
+        <h2>Welcome to Sylva Simulation</h2>
+        <div className="instructions-content">
+          <div className="instruction-item">
+            <span className="instruction-icon">▶️</span>
+            <div>
+              <strong>Start Demo Survey</strong>
+              <p>Select a location from the sidebar, then click "Start Demo" to watch a live drone survey simulation.</p>
+            </div>
+          </div>
+          <div className="instruction-item">
+            <span className="instruction-icon">🗺️</span>
+            <div>
+              <strong>Navigate the Map</strong>
+              <p>Drag to pan, scroll to zoom. Click waypoint markers to start survey from that point.</p>
+            </div>
+          </div>
+          <div className="instruction-item">
+            <span className="instruction-icon">🛰️</span>
+            <div>
+              <strong>Satellite View</strong>
+              <p>Toggle between map and satellite view using the button in the top-right corner.</p>
+            </div>
+          </div>
+          <div className="instruction-item">
+            <span className="instruction-icon">🔥</span>
+            <div>
+              <strong>Show Heatmap</strong>
+              <p>Enable the heatmap toggle in the sidebar to see pollution density patterns.</p>
+            </div>
+          </div>
+          <div className="instruction-item">
+            <span className="instruction-icon">📊</span>
+            <div>
+              <strong>Annual Data 2026</strong>
+              <p>Click "Annual Data 2026" button to view yearly analytics, trends, and reports.</p>
+            </div>
+          </div>
+        </div>
+        <div className="instructions-footer">
+          <label className="dont-show-label">
+            <input
+              type="checkbox"
+              checked={dontShow}
+              onChange={(e) => setDontShow(e.target.checked)}
+            />
+            Don't show again for 24 hours
+          </label>
+          <button className="btn btn-primary" onClick={handleClose}>Got it!</button>
+        </div>
+      </div>
+    </div>
+  )
+}
+
 function App() {
+  // Instructions popup state
+  const [showInstructions, setShowInstructions] = useState(false)
+
+  // Check if we should show instructions on mount
+  useEffect(() => {
+    const dismissedUntil = localStorage.getItem('sylva_instructions_dismissed')
+    if (dismissedUntil) {
+      const dismissedTime = parseInt(dismissedUntil, 10)
+      if (Date.now() < dismissedTime) {
+        return // Still within "don't show" period
+      }
+    }
+    setShowInstructions(true)
+  }, [])
+
+  const handleDontShowAgain = () => {
+    const oneDayFromNow = Date.now() + (24 * 60 * 60 * 1000)
+    localStorage.setItem('sylva_instructions_dismissed', oneDayFromNow.toString())
+  }
+
   // Data state
   const [locations, setLocations] = useState([])
   const [flights, setFlights] = useState({})
@@ -727,6 +815,14 @@ function App() {
         isOpen={showAnnualData}
         onClose={() => setShowAnnualData(false)}
       />
+
+      {/* Instructions Popup */}
+      {showInstructions && (
+        <InstructionsPopup
+          onClose={() => setShowInstructions(false)}
+          onDontShowAgain={handleDontShowAgain}
+        />
+      )}
     </div>
   )
 }
