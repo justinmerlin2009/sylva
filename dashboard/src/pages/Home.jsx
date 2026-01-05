@@ -352,6 +352,9 @@ function Home() {
         {/* Team Section */}
         <section id="team" className="content-section team-section">
           <h2 className="section-title">Our Team</h2>
+          <div className="team-photo-container">
+            <img src="/photos/TeamPhoto.png" alt="Sylva Team" className="team-photo" />
+          </div>
           <div className="team-grid">
             <div className="team-card">
               <img

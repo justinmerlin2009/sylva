@@ -2434,6 +2434,19 @@ body {
 }
 
 /* Team Section */
+.team-photo-container {
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.team-photo {
+  max-width: 700px;
+  width: 100%;
+  height: auto;
+  border-radius: 16px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+}
+
 .team-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
