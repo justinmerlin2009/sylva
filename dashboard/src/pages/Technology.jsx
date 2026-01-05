@@ -255,16 +255,28 @@ function Technology() {
                       <stop offset="100%" stopColor="#22c55e" stopOpacity="0.05"/>
                     </linearGradient>
                   </defs>
+                  {/* Customer Threshold Line at 85% */}
+                  <line
+                    className="threshold-line"
+                    x1="0"
+                    y1="45"
+                    x2="500"
+                    y2="45"
+                    stroke="#ef4444"
+                    strokeWidth="2"
+                    strokeDasharray="8,4"
+                  />
+                  <text x="10" y="40" fill="#ef4444" fontSize="11" fontWeight="600">Customer Threshold (85%)</text>
                   {/* Area fill - 70, 70, 78, 80, 90+ mapped to y positions */}
                   <path
                     className="chart-area-fill"
-                    d="M 50,140 L 137,140 L 225,100 L 312,80 L 450,10 L 450,200 L 50,200 Z"
+                    d="M 50,140 L 137,140 L 225,100 L 312,80 L 430,10 L 430,200 L 50,200 Z"
                     fill="url(#chartGradient)"
                   />
                   {/* Line */}
                   <path
                     className="chart-line"
-                    d="M 50,140 L 137,140 L 225,100 L 312,80 L 450,10"
+                    d="M 50,140 L 137,140 L 225,100 L 312,80 L 430,10"
                     fill="none"
                     stroke="#22c55e"
                     strokeWidth="3"
@@ -276,7 +288,7 @@ function Technology() {
                   <circle className="chart-point" cx="137" cy="140" r="8" fill="#f59e0b"/>
                   <circle className="chart-point" cx="225" cy="100" r="8" fill="#eab308"/>
                   <circle className="chart-point" cx="312" cy="80" r="8" fill="#84cc16"/>
-                  <circle className="chart-point" cx="450" cy="10" r="8" fill="#22c55e"/>
+                  <circle className="chart-point" cx="430" cy="10" r="8" fill="#22c55e"/>
                 </svg>
                 {/* Data labels */}
                 <div className="chart-labels">
@@ -296,7 +308,7 @@ function Technology() {
                     <span className="label-value lime">~80%</span>
                     <span className="label-sensor">RGB + LiDAR</span>
                   </div>
-                  <div className="chart-label highlight" style={{ left: '90%' }}>
+                  <div className="chart-label highlight" style={{ left: '86%' }}>
                     <span className="label-value green">&gt;90%</span>
                     <span className="label-sensor">Full Fusion</span>
                   </div>
