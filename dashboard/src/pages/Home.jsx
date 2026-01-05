@@ -293,6 +293,97 @@ function Home() {
                 <span className="spectral-cell">Hydrocarbon/solvent absorption bands</span>
               </div>
             </div>
+
+            {/* Sensor Fusion Accuracy Chart */}
+            <div className="accuracy-chart-home">
+              <h4 className="accuracy-chart-title">Sensor Fusion Accuracy</h4>
+              <p className="accuracy-chart-subtitle">Combining sensors creates synergy — Sylva's hybrid camera achieves higher accuracy than any single sensor alone.</p>
+
+              <div className="accuracy-line-chart">
+                <div className="chart-y-axis">
+                  <span>90%</span>
+                  <span>80%</span>
+                  <span>70%</span>
+                  <span>60%</span>
+                </div>
+                <div className="chart-area">
+                  <div className="chart-grid">
+                    <div className="grid-line"></div>
+                    <div className="grid-line"></div>
+                    <div className="grid-line"></div>
+                    <div className="grid-line"></div>
+                  </div>
+                  <svg className="chart-svg" viewBox="0 0 500 200" preserveAspectRatio="none">
+                    <defs>
+                      <linearGradient id="chartGradientHome" x1="0%" y1="0%" x2="0%" y2="100%">
+                        <stop offset="0%" stopColor="#22c55e" stopOpacity="0.3"/>
+                        <stop offset="100%" stopColor="#22c55e" stopOpacity="0.05"/>
+                      </linearGradient>
+                    </defs>
+                    <path
+                      className="chart-area-fill"
+                      d="M 50,140 L 137,140 L 225,100 L 312,80 L 450,10 L 450,200 L 50,200 Z"
+                      fill="url(#chartGradientHome)"
+                    />
+                    <path
+                      className="chart-line"
+                      d="M 50,140 L 137,140 L 225,100 L 312,80 L 450,10"
+                      fill="none"
+                      stroke="#22c55e"
+                      strokeWidth="3"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    />
+                    <circle className="chart-point" cx="50" cy="140" r="8" fill="#f59e0b"/>
+                    <circle className="chart-point" cx="137" cy="140" r="8" fill="#f59e0b"/>
+                    <circle className="chart-point" cx="225" cy="100" r="8" fill="#eab308"/>
+                    <circle className="chart-point" cx="312" cy="80" r="8" fill="#84cc16"/>
+                    <circle className="chart-point" cx="450" cy="10" r="8" fill="#22c55e"/>
+                  </svg>
+                  <div className="chart-labels">
+                    <div className="chart-label" style={{ left: '10%' }}>
+                      <span className="label-value orange">~70%</span>
+                      <span className="label-sensor">RGB Only</span>
+                    </div>
+                    <div className="chart-label" style={{ left: '27%' }}>
+                      <span className="label-value orange">~70%</span>
+                      <span className="label-sensor">Hyperspectral</span>
+                    </div>
+                    <div className="chart-label" style={{ left: '45%' }}>
+                      <span className="label-value yellow">~78%</span>
+                      <span className="label-sensor">RGB + Hyper</span>
+                    </div>
+                    <div className="chart-label" style={{ left: '62%' }}>
+                      <span className="label-value lime">~80%</span>
+                      <span className="label-sensor">RGB + LiDAR</span>
+                    </div>
+                    <div className="chart-label highlight" style={{ left: '90%' }}>
+                      <span className="label-value green">&gt;90%</span>
+                      <span className="label-sensor">Full Fusion</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="accuracy-legend">
+                <div className="legend-item">
+                  <span className="legend-dot orange"></span>
+                  <span>Single Sensor (~70%)</span>
+                </div>
+                <div className="legend-item">
+                  <span className="legend-dot yellow"></span>
+                  <span>RGB + Hyperspectral</span>
+                </div>
+                <div className="legend-item">
+                  <span className="legend-dot lime"></span>
+                  <span>RGB + LiDAR</span>
+                </div>
+                <div className="legend-item highlight">
+                  <span className="legend-dot green"></span>
+                  <span>Sylva Full Fusion</span>
+                </div>
+              </div>
+            </div>
           </div>
 
           <div className="tech-grid">
