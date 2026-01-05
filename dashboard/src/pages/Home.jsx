@@ -165,11 +165,10 @@ function Home() {
               <div className="spectrum-container">
                 {/* Visible Light Section (400-750nm) */}
                 <div className="spectrum-section visible-section">
-                  <div className="section-label">Visible Light</div>
+                  <div className="section-label">Visible Light (RGB)</div>
                   <div className="visible-spectrum">
                     <div className="visible-gradient"></div>
                   </div>
-                  <div className="section-sublabel">Standard RGB Cameras</div>
                   <div className="wavelength-marks visible-marks">
                     <span>400nm</span>
                     <span>550nm</span>
@@ -180,8 +179,6 @@ function Home() {
                 {/* Divider */}
                 <div className="spectrum-divider">
                   <div className="divider-line"></div>
-                  <span className="divider-label">Invisible to cameras</span>
-                  <div className="divider-arrow">→</div>
                 </div>
 
                 {/* Infrared Section (750-1700nm) - Sylva Detection Zone */}
@@ -213,7 +210,6 @@ function Home() {
                       <span className="marker-label">Rubber</span>
                     </div>
                   </div>
-                  <div className="section-sublabel ir-sublabel">Sylva Hyperspectral Camera</div>
                   <div className="wavelength-marks ir-marks">
                     <span>900nm</span>
                     <span>1200nm</span>
@@ -223,9 +219,18 @@ function Home() {
                 </div>
               </div>
 
+              {/* Full spectrum coverage indicator */}
+              <div className="full-spectrum-coverage">
+                <div className="coverage-bracket">
+                  <div className="bracket-line"></div>
+                  <div className="bracket-label">Sylva Hybrid RGB / Hyperspectral / LiDAR Camera</div>
+                  <div className="bracket-sublabel">Full spectrum coverage: 400nm – 1700nm</div>
+                </div>
+              </div>
+
               <div className="ir-advantage-note">
                 <span className="ir-icon">🔬</span>
-                <span>Most waste materials have distinct signatures in the <strong>900-1700nm infrared range</strong> — invisible to human eyes and standard cameras, but clearly detected by Sylva's 8-band hyperspectral sensor</span>
+                <span>Sylva's hybrid sensor combines <strong>visible RGB imaging</strong> with <strong>8-band hyperspectral detection (900-1700nm)</strong> and <strong>LiDAR depth sensing</strong> — capturing the full electromagnetic spectrum for maximum detection accuracy</span>
               </div>
             </div>
 
