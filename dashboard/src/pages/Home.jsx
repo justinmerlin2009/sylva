@@ -56,6 +56,9 @@ function Home() {
           <img src="/logos/sylva-logo.svg" alt="Sylva" className="logo-icon-img" />
           <span className="logo-text">Sylva</span>
         </Link>
+        <a href="https://www.conradchallenge.org/" target="_blank" rel="noopener noreferrer" className="conrad-badge" title="Conrad Challenge 2026 Innovation Stage">
+          <span className="conrad-badge-text">Conrad Challenge 2026</span>
+        </a>
         <nav className="home-nav">
           <a href="#why" className="nav-link">Why It Matters</a>
           <a href="#technology" className="nav-link">Our Technology</a>
@@ -156,6 +159,45 @@ function Home() {
             <p>Our novel hybrid camera integrates three sensor technologies into one payload: 61-megapixel RGB for high-resolution imagery, 8-band hyperspectral (900-1700nm) for material identification, and solid-state LiDAR for depth mapping/size quantification. This fingerprinting approach reduces false positives by 73% compared to RGB-only systems, ensuring cleanup crews focus on real pollution.</p>
 
             <h4 className="spectral-heading">Material Detection via Spectral Signatures</h4>
+
+            {/* Animated Spectral Visualization */}
+            <div className="spectral-visualization">
+              <div className="spectrum-display">
+                <div className="spectrum-label-left">Visible</div>
+                <div className="spectrum-bar">
+                  <div className="spectrum-gradient"></div>
+                  <div className="scan-line"></div>
+                </div>
+                <div className="spectrum-label-right">NIR/SWIR</div>
+              </div>
+              <div className="wavelength-scale">
+                <span>400nm</span>
+                <span>700nm</span>
+                <span>1000nm</span>
+                <span>1400nm</span>
+                <span>1700nm</span>
+              </div>
+              <div className="material-signatures">
+                <div className="signature-item plastic">
+                  <div className="signature-bar" style={{"--peak-pos": "65%"}}></div>
+                  <span className="signature-label">Plastic</span>
+                </div>
+                <div className="signature-item rubber">
+                  <div className="signature-bar" style={{"--peak-pos": "90%"}}></div>
+                  <span className="signature-label">Rubber</span>
+                </div>
+                <div className="signature-item metal">
+                  <div className="signature-bar" style={{"--peak-pos": "50%"}}></div>
+                  <span className="signature-label">Metal</span>
+                </div>
+                <div className="signature-item organic">
+                  <div className="signature-bar" style={{"--peak-pos": "75%"}}></div>
+                  <span className="signature-label">Organic</span>
+                </div>
+              </div>
+              <p className="visualization-caption">Each material has a unique spectral "fingerprint" that our AI uses for accurate classification</p>
+            </div>
+
             <div className="spectral-table">
               <div className="spectral-row spectral-header">
                 <span className="spectral-cell">Waste Type</span>
@@ -282,6 +324,15 @@ function Home() {
               <div className="validation-label">Agency partners in active discussions</div>
             </div>
           </div>
+
+          {/* Environmental Impact Statement */}
+          <div className="environmental-impact">
+            <div className="impact-icon">🌊</div>
+            <div className="impact-content">
+              <h3>Potential Environmental Impact</h3>
+              <p>By enabling faster, more accurate pollution detection, Sylva could help prevent <strong>500+ tons of waste</strong> from reaching California waterways annually — protecting marine ecosystems and the communities that depend on them.</p>
+            </div>
+          </div>
         </section>
 
         {/* API Section */}
@@ -377,6 +428,48 @@ function Home() {
           </div>
           <div className="savings-example">
             <strong>Example:</strong> A 50 km² coastal survey that costs $150,000+ with manual methods costs under $8,000 with Sylva.
+          </div>
+
+          {/* Competitive Comparison Table */}
+          <div className="comparison-table-container">
+            <h3 className="comparison-title">How We Compare</h3>
+            <div className="comparison-table">
+              <div className="comparison-row comparison-header">
+                <div className="comparison-cell method-cell">Method</div>
+                <div className="comparison-cell">Cost/Acre</div>
+                <div className="comparison-cell">Speed</div>
+                <div className="comparison-cell">Accuracy</div>
+                <div className="comparison-cell">Water Risk Score</div>
+              </div>
+              <div className="comparison-row">
+                <div className="comparison-cell method-cell">Manual Survey</div>
+                <div className="comparison-cell">$12-18</div>
+                <div className="comparison-cell">2-5 acres/hr</div>
+                <div className="comparison-cell">Variable</div>
+                <div className="comparison-cell"><span className="check-no">✗</span></div>
+              </div>
+              <div className="comparison-row">
+                <div className="comparison-cell method-cell">Satellite Imaging</div>
+                <div className="comparison-cell">~$1</div>
+                <div className="comparison-cell">Fast</div>
+                <div className="comparison-cell">Poor (&lt;10m)</div>
+                <div className="comparison-cell"><span className="check-no">✗</span></div>
+              </div>
+              <div className="comparison-row">
+                <div className="comparison-cell method-cell">Basic Drone (RGB)</div>
+                <div className="comparison-cell">$5-8</div>
+                <div className="comparison-cell">50 acres/hr</div>
+                <div className="comparison-cell">Medium</div>
+                <div className="comparison-cell"><span className="check-no">✗</span></div>
+              </div>
+              <div className="comparison-row comparison-highlight">
+                <div className="comparison-cell method-cell"><strong>Sylva</strong></div>
+                <div className="comparison-cell"><strong>&lt;$2</strong></div>
+                <div className="comparison-cell"><strong>500 acres/hr</strong></div>
+                <div className="comparison-cell"><strong>87%</strong></div>
+                <div className="comparison-cell"><span className="check-yes">✓</span></div>
+              </div>
+            </div>
           </div>
         </section>
 
@@ -501,29 +594,87 @@ function Home() {
           </div>
         )}
 
-        {/* Future Plans Section */}
+        {/* Future Plans Section with Timeline */}
         <section className="content-section future-section">
-          <h2 className="section-title">Next Steps</h2>
-          <div className="future-grid">
-            <div className="future-item">
-              <span className="future-number">01</span>
-              <h4>Pilot with Surfrider</h4>
-              <p>Run our first real-world pilot surveying coastal areas with Surfrider Foundation to validate detection accuracy in the field.</p>
+          <h2 className="section-title">Our Journey & Next Steps</h2>
+
+          {/* Visual Timeline */}
+          <div className="timeline-container">
+            <div className="timeline-line"></div>
+
+            {/* Past Milestones */}
+            <div className="timeline-item completed">
+              <div className="timeline-marker">✓</div>
+              <div className="timeline-date">Sep 2024</div>
+              <div className="timeline-content">
+                <h4>Project Launch</h4>
+                <p>First drone prototype built</p>
+              </div>
             </div>
-            <div className="future-item">
-              <span className="future-number">02</span>
-              <h4>Highway Corridor Test</h4>
-              <p>Partner with Caltrans Clean California for a highway corridor assessment, testing Sylva on roadside pollution monitoring.</p>
+
+            <div className="timeline-item completed">
+              <div className="timeline-marker">✓</div>
+              <div className="timeline-date">Nov 2024</div>
+              <div className="timeline-content">
+                <h4>Partner Outreach</h4>
+                <p>Connected with Caltrans, CAL FIRE, Surfrider</p>
+              </div>
             </div>
-            <div className="future-item">
-              <span className="future-number">03</span>
-              <h4>Refine Detection Models</h4>
-              <p>Use pilot data to improve our AI models with real-world training examples and feedback from agency partners.</p>
+
+            <div className="timeline-item completed">
+              <div className="timeline-marker">✓</div>
+              <div className="timeline-date">Dec 2025</div>
+              <div className="timeline-content">
+                <h4>Field Testing</h4>
+                <p>8 successful detections from aerial imagery</p>
+              </div>
             </div>
-            <div className="future-item">
-              <span className="future-number">04</span>
-              <h4>Expand to More Agencies</h4>
-              <p>Based on pilot results, work with additional California agencies to demonstrate Sylva's value in different environments.</p>
+
+            <div className="timeline-item completed">
+              <div className="timeline-marker">✓</div>
+              <div className="timeline-date">Jan 2026</div>
+              <div className="timeline-content">
+                <h4>Dashboard Launch</h4>
+                <p>Live API with 60+ endpoints deployed</p>
+              </div>
+            </div>
+
+            {/* Current */}
+            <div className="timeline-item current">
+              <div className="timeline-marker pulse">●</div>
+              <div className="timeline-date">Now</div>
+              <div className="timeline-content">
+                <h4>Conrad Challenge</h4>
+                <p>Innovation Stage submission</p>
+              </div>
+            </div>
+
+            {/* Future Milestones */}
+            <div className="timeline-item future">
+              <div className="timeline-marker">○</div>
+              <div className="timeline-date">Q2 2026</div>
+              <div className="timeline-content">
+                <h4>Surfrider Pilot</h4>
+                <p>First coastal survey pilot program</p>
+              </div>
+            </div>
+
+            <div className="timeline-item future">
+              <div className="timeline-marker">○</div>
+              <div className="timeline-date">Q3 2026</div>
+              <div className="timeline-content">
+                <h4>Highway Assessment</h4>
+                <p>Caltrans corridor survey test</p>
+              </div>
+            </div>
+
+            <div className="timeline-item future">
+              <div className="timeline-marker">○</div>
+              <div className="timeline-date">Q4 2026</div>
+              <div className="timeline-content">
+                <h4>Scale Operations</h4>
+                <p>Multi-agency deployment across California</p>
+              </div>
             </div>
           </div>
         </section>

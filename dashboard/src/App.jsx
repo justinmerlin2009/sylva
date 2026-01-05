@@ -79,6 +79,81 @@ function InstructionsPopup({ onClose, onDontShowAgain }) {
   )
 }
 
+// Showcase overlay component
+function ShowcaseOverlay({ step, message, progress, onClose, locationName }) {
+  const stepInfo = {
+    0: { title: 'Welcome to Sylva', subtitle: 'Automated Pollution Detection Demo' },
+    1: { title: 'Stinson Beach, California', subtitle: 'Coastal Survey - Marine Debris Detection' },
+    2: { title: 'Surveying in Progress', subtitle: 'AI analyzing aerial imagery...' },
+    3: { title: 'NASA Space Center, Texas', subtitle: 'Urban Waterfront - Mixed Waste Detection' },
+    4: { title: 'Surveying in Progress', subtitle: 'AI analyzing aerial imagery...' },
+    5: { title: 'Lake Erie, Ohio', subtitle: 'Highway Corridor - Industrial Debris' },
+    6: { title: 'Surveying in Progress', subtitle: 'AI analyzing aerial imagery...' },
+    7: { title: 'Demo Complete', subtitle: 'Thank you for watching' },
+  }
+
+  const info = stepInfo[step] || stepInfo[0]
+
+  return (
+    <div className="showcase-overlay">
+      <button className="showcase-close" onClick={onClose}>✕ Exit Demo</button>
+
+      <div className="showcase-header">
+        <div className="showcase-title">{info.title}</div>
+        <div className="showcase-subtitle">{info.subtitle}</div>
+        {message && <div className="showcase-message">{message}</div>}
+      </div>
+
+      <div className="showcase-progress">
+        <div className="showcase-progress-bar">
+          <div className="showcase-progress-fill" style={{ width: `${progress}%` }}></div>
+        </div>
+        <div className="showcase-progress-text">{Math.round(progress)}% Complete</div>
+      </div>
+
+      {step === 0 && (
+        <div className="showcase-intro">
+          <p>Watch Sylva survey three different environments across the United States:</p>
+          <div className="showcase-locations-preview">
+            <div className="location-preview">
+              <span className="location-icon">🏖️</span>
+              <span>Stinson Beach, CA</span>
+            </div>
+            <div className="location-preview">
+              <span className="location-icon">🚀</span>
+              <span>NASA Space Center, TX</span>
+            </div>
+            <div className="location-preview">
+              <span className="location-icon">🏭</span>
+              <span>Lake Erie, OH</span>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {step === 7 && (
+        <div className="showcase-summary">
+          <p>Sylva demonstrated real-time pollution detection across three diverse environments.</p>
+          <div className="showcase-stats">
+            <div className="showcase-stat">
+              <span className="stat-number">3</span>
+              <span className="stat-label">Locations Surveyed</span>
+            </div>
+            <div className="showcase-stat">
+              <span className="stat-number">500+</span>
+              <span className="stat-label">Acres/Hour Capability</span>
+            </div>
+            <div className="showcase-stat">
+              <span className="stat-number">87%</span>
+              <span className="stat-label">Detection Accuracy</span>
+            </div>
+          </div>
+        </div>
+      )}
+    </div>
+  )
+}
+
 function App() {
   // Instructions popup state
   const [showInstructions, setShowInstructions] = useState(false)
@@ -147,6 +222,12 @@ function App() {
 
   // Annual data panel state
   const [showAnnualData, setShowAnnualData] = useState(false)
+
+  // Showcase mode state
+  const [showcaseMode, setShowcaseMode] = useState(false)
+  const [showcaseStep, setShowcaseStep] = useState(0)
+  const [showcaseMessage, setShowcaseMessage] = useState('')
+  const showcaseTimerRef = useRef(null)
 
   const wsRef = useRef(null)
 
@@ -383,6 +464,93 @@ function App() {
     setShowDetectionPanel(false)
     setDronePathHistory([]) // Reset path history
   }, [])
+
+  // Showcase mode functions
+  const showcaseLocations = ['stinson_beach', 'nasa_space_center', 'lake_erie']
+
+  const startShowcase = useCallback(() => {
+    setShowcaseMode(true)
+    setShowcaseStep(0)
+    setShowcaseMessage('Starting automated showcase...')
+    setSatelliteView(true)
+    setShowInstructions(false)
+
+    // Start the showcase sequence
+    setTimeout(() => runShowcaseStep(0), 2000)
+  }, [])
+
+  const runShowcaseStep = (step) => {
+    if (!showcaseMode && step > 0) return // Cancelled
+
+    setShowcaseStep(step)
+
+    // Showcase sequence:
+    // 0: Intro
+    // 1: Switch to Stinson Beach
+    // 2: Run demo at Stinson
+    // 3: Switch to NASA
+    // 4: Run demo at NASA
+    // 5: Switch to Lake Erie
+    // 6: Run demo at Lake Erie
+    // 7: Summary
+
+    if (step === 0) {
+      setShowcaseMessage('Welcome to the Sylva automated showcase')
+      showcaseTimerRef.current = setTimeout(() => runShowcaseStep(1), 3000)
+    } else if (step === 1) {
+      setSelectedLocation('stinson_beach')
+      setShowcaseMessage('Flying to Stinson Beach, California...')
+      showcaseTimerRef.current = setTimeout(() => runShowcaseStep(2), 2500)
+    } else if (step === 2) {
+      setShowcaseMessage('Initiating coastal survey...')
+      startDemo('stinson_beach', 3.0, 0) // 3x speed for showcase
+      showcaseTimerRef.current = setTimeout(() => runShowcaseStep(3), 15000) // 15 seconds per location
+    } else if (step === 3) {
+      stopDemo()
+      setSelectedLocation('nasa_space_center')
+      setShowcaseMessage('Flying to NASA Space Center, Texas...')
+      showcaseTimerRef.current = setTimeout(() => runShowcaseStep(4), 2500)
+    } else if (step === 4) {
+      setShowcaseMessage('Initiating urban waterfront survey...')
+      startDemo('nasa_space_center', 3.0, 0)
+      showcaseTimerRef.current = setTimeout(() => runShowcaseStep(5), 15000)
+    } else if (step === 5) {
+      stopDemo()
+      setSelectedLocation('lake_erie')
+      setShowcaseMessage('Flying to Lake Erie, Ohio...')
+      showcaseTimerRef.current = setTimeout(() => runShowcaseStep(6), 2500)
+    } else if (step === 6) {
+      setShowcaseMessage('Initiating highway corridor survey...')
+      startDemo('lake_erie', 3.0, 0)
+      showcaseTimerRef.current = setTimeout(() => runShowcaseStep(7), 15000)
+    } else if (step === 7) {
+      stopDemo()
+      setShowcaseMessage('Showcase complete. Explore the simulation on your own!')
+      showcaseTimerRef.current = setTimeout(() => {
+        setShowcaseMode(false)
+        setShowcaseStep(0)
+      }, 5000)
+    }
+  }
+
+  const stopShowcase = useCallback(() => {
+    if (showcaseTimerRef.current) {
+      clearTimeout(showcaseTimerRef.current)
+    }
+    stopDemo()
+    setShowcaseMode(false)
+    setShowcaseStep(0)
+  }, [stopDemo])
+
+  // Calculate showcase progress
+  const getShowcaseProgress = () => {
+    const baseProgress = (showcaseStep / 7) * 100
+    if (showcaseStep % 2 === 0 && showcaseStep > 0 && showcaseStep < 7) {
+      // During demo steps, add demo progress
+      return baseProgress + (demoProgress / 7)
+    }
+    return baseProgress
+  }
 
   const handleWaypointClick = (waypointIndex) => {
     if (!demoActive) {
@@ -822,6 +990,24 @@ function App() {
           onClose={() => setShowInstructions(false)}
           onDontShowAgain={handleDontShowAgain}
         />
+      )}
+
+      {/* Showcase Mode Overlay */}
+      {showcaseMode && (
+        <ShowcaseOverlay
+          step={showcaseStep}
+          message={showcaseMessage}
+          progress={getShowcaseProgress()}
+          onClose={stopShowcase}
+        />
+      )}
+
+      {/* Watch Showcase Button */}
+      {!showcaseMode && !demoActive && (
+        <button className="showcase-start-btn" onClick={startShowcase}>
+          <span className="showcase-btn-icon">▶</span>
+          <span className="showcase-btn-text">Watch Showcase</span>
+        </button>
       )}
     </div>
   )
