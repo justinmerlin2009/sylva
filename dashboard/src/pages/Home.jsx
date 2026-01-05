@@ -420,7 +420,7 @@ function Home() {
               <p>Computer vision algorithms analyze drone imagery in real-time to identify and classify pollution types including plastic debris, tire dumps, furniture, and hazardous materials. Each detection is assigned a priority level based on size, type, and environmental risk.</p>
               <div className="feature-stats">
                 <span className="stat-badge">73% fewer false positives</span>
-                <span className="stat-badge">87% detection confidence</span>
+                <span className="stat-badge">90% detection confidence</span>
               </div>
             </div>
             <div className="feature-card">
@@ -600,7 +600,7 @@ function Home() {
                 <div className="comparison-cell method-cell"><strong>Sylva</strong></div>
                 <div className="comparison-cell"><strong>&lt;$2</strong></div>
                 <div className="comparison-cell"><strong>500 acres/hr</strong></div>
-                <div className="comparison-cell"><strong>87%</strong></div>
+                <div className="comparison-cell"><strong>90%</strong></div>
                 <div className="comparison-cell"><span className="check-yes">✓</span></div>
               </div>
             </div>
