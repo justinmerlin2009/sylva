@@ -636,7 +636,7 @@ function Home() {
             {/* Past Milestones */}
             <div className="timeline-item completed">
               <div className="timeline-marker">✓</div>
-              <div className="timeline-date">Sep 2024</div>
+              <div className="timeline-date">Jul 2025</div>
               <div className="timeline-content">
                 <h4>Project Launch</h4>
                 <p>First drone prototype built</p>
@@ -645,7 +645,7 @@ function Home() {
 
             <div className="timeline-item completed">
               <div className="timeline-marker">✓</div>
-              <div className="timeline-date">Nov 2024</div>
+              <div className="timeline-date">Sep 2025</div>
               <div className="timeline-content">
                 <h4>Partner Outreach</h4>
                 <p>Connected with Caltrans, CAL FIRE, Surfrider</p>
@@ -683,7 +683,7 @@ function Home() {
             {/* Future Milestones */}
             <div className="timeline-item future">
               <div className="timeline-marker">○</div>
-              <div className="timeline-date">Q2 2026</div>
+              <div className="timeline-date">Q3 2026</div>
               <div className="timeline-content">
                 <h4>Surfrider Pilot</h4>
                 <p>First coastal survey pilot program</p>
@@ -692,7 +692,7 @@ function Home() {
 
             <div className="timeline-item future">
               <div className="timeline-marker">○</div>
-              <div className="timeline-date">Q3 2026</div>
+              <div className="timeline-date">Q4 2026</div>
               <div className="timeline-content">
                 <h4>Highway Assessment</h4>
                 <p>Caltrans corridor survey test</p>
@@ -701,7 +701,7 @@ function Home() {
 
             <div className="timeline-item future">
               <div className="timeline-marker">○</div>
-              <div className="timeline-date">Q4 2026</div>
+              <div className="timeline-date">2027</div>
               <div className="timeline-content">
                 <h4>Scale Operations</h4>
                 <p>Multi-agency deployment across California</p>
