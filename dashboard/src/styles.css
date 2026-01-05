@@ -1968,12 +1968,34 @@ body {
   font-style: italic;
 }
 
+.impact-source a {
+  color: rgba(255, 255, 255, 0.5);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.impact-source a:hover {
+  color: rgba(255, 255, 255, 0.8);
+  text-decoration: underline;
+}
+
 .stat-source {
   display: block;
   font-size: 10px;
   color: rgba(255, 255, 255, 0.4);
   margin-top: 8px;
   font-style: italic;
+}
+
+.stat-source a {
+  color: rgba(255, 255, 255, 0.5);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.stat-source a:hover {
+  color: rgba(255, 255, 255, 0.8);
+  text-decoration: underline;
 }
 
 /* Market Stats */
