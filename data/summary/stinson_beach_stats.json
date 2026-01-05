@@ -61,10 +61,10 @@
     }
   ],
   "by_priority": {
-    "critical": 6,
-    "high": 11,
-    "medium": 16,
-    "low": 62
+    "critical": 2,
+    "high": 34,
+    "medium": 50,
+    "low": 9
   },
   "location": "Stinson Beach Coastline, California",
   "environment_type": "beach"

@@ -11,7 +11,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-64BD5755",
+        "id": "DET-2026-AAE77882",
         "timestamp": "2026-01-15T10:00:00",
         "category": "metal_debris",
         "category_name": "Metal Debris",
@@ -22,7 +22,15 @@
         "color": "#95a5a6",
         "flight_id": "SYLVA-LAK-001",
         "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
+        "location": "Lake Erie - Highway & Waterfront, Ohio",
+        "water_risk_score": 51,
+        "water_distance_m": 155.8,
+        "score_breakdown": {
+          "water_proximity": 15,
+          "material_toxicity": 22,
+          "size_weight": 12,
+          "environmental": 2
+        }
       }
     },
     {
@@ -35,7 +43,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-E989C2BC",
+        "id": "DET-2026-FB40C756",
         "timestamp": "2026-01-15T10:03:15.757026",
         "category": "food_packaging",
         "category_name": "Food Packaging/Cardboard",
@@ -46,7 +54,15 @@
         "color": "#e67e22",
         "flight_id": "SYLVA-LAK-001",
         "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
+        "location": "Lake Erie - Highway & Waterfront, Ohio",
+        "water_risk_score": 29,
+        "water_distance_m": 754.5,
+        "score_breakdown": {
+          "water_proximity": 3,
+          "material_toxicity": 18,
+          "size_weight": 6,
+          "environmental": 2
+        }
       }
     },
     {
@@ -59,18 +75,26 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-A39E5387",
+        "id": "DET-2026-4DF8705E",
         "timestamp": "2026-01-15T10:06:30.044922",
         "category": "plastic_bottle",
         "category_name": "Plastic Bottles",
         "confidence": 0.808,
         "size_m2": 0.0025,
         "estimated_weight_kg": 0.049,
-        "priority": "low",
+        "priority": "medium",
         "color": "#3498db",
         "flight_id": "SYLVA-LAK-001",
         "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
+        "location": "Lake Erie - Highway & Waterfront, Ohio",
+        "water_risk_score": 41,
+        "water_distance_m": 282.6,
+        "score_breakdown": {
+          "water_proximity": 8,
+          "material_toxicity": 25,
+          "size_weight": 6,
+          "environmental": 2
+        }
       }
     },
     {
@@ -83,18 +107,26 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-F8103A1F",
+        "id": "DET-2026-A6B0F26C",
         "timestamp": "2026-01-15T10:09:44.363616",
         "category": "tire",
         "category_name": "Tires",
         "confidence": 0.879,
         "size_m2": 0.3621,
         "estimated_weight_kg": 12.435,
-        "priority": "critical",
+        "priority": "high",
         "color": "#2c3e50",
         "flight_id": "SYLVA-LAK-001",
         "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
+        "location": "Lake Erie - Highway & Waterfront, Ohio",
+        "water_risk_score": 70,
+        "water_distance_m": 182.6,
+        "score_breakdown": {
+          "water_proximity": 15,
+          "material_toxicity": 28,
+          "size_weight": 25,
+          "environmental": 2
+        }
       }
     },
     {
@@ -107,18 +139,26 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-FDDC0E65",
+        "id": "DET-2026-FF1FDFB5",
         "timestamp": "2026-01-15T10:12:58.713226",
         "category": "plastic_bottle",
         "category_name": "Plastic Bottles",
         "confidence": 0.754,
         "size_m2": 0.0028,
         "estimated_weight_kg": 0.037,
-        "priority": "low",
+        "priority": "medium",
         "color": "#3498db",
         "flight_id": "SYLVA-LAK-001",
         "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
+        "location": "Lake Erie - Highway & Waterfront, Ohio",
+        "water_risk_score": 48,
+        "water_distance_m": 147.4,
+        "score_breakdown": {
+          "water_proximity": 15,
+          "material_toxicity": 25,
+          "size_weight": 6,
+          "environmental": 2
+        }
       }
     },
     {
@@ -131,18 +171,26 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-35665AE8",
+        "id": "DET-2026-C06FE228",
         "timestamp": "2026-01-15T10:16:13.083606",
         "category": "construction_waste",
         "category_name": "Construction Waste",
         "confidence": 0.783,
         "size_m2": 0.5401,
         "estimated_weight_kg": 47.469,
-        "priority": "critical",
+        "priority": "medium",
         "color": "#8e44ad",
         "flight_id": "SYLVA-LAK-001",
         "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
+        "location": "Lake Erie - Highway & Waterfront, Ohio",
+        "water_risk_score": 50,
+        "water_distance_m": 753.6,
+        "score_breakdown": {
+          "water_proximity": 3,
+          "material_toxicity": 20,
+          "size_weight": 25,
+          "environmental": 2
+        }
       }
     },
     {
@@ -155,7 +203,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-976701D6",
+        "id": "DET-2026-0C6FE314",
         "timestamp": "2026-01-15T10:19:27.473664",
         "category": "food_packaging",
         "category_name": "Food Packaging/Cardboard",
@@ -166,7 +214,15 @@
         "color": "#e67e22",
         "flight_id": "SYLVA-LAK-001",
         "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
+        "location": "Lake Erie - Highway & Waterfront, Ohio",
+        "water_risk_score": 29,
+        "water_distance_m": 568.1,
+        "score_breakdown": {
+          "water_proximity": 3,
+          "material_toxicity": 18,
+          "size_weight": 6,
+          "environmental": 2
+        }
       }
     },
     {
@@ -179,7 +235,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-F8DE75D1",
+        "id": "DET-2026-A70E91AE",
         "timestamp": "2026-01-15T10:22:41.892645",
         "category": "glass",
         "category_name": "Glass",
@@ -190,7 +246,15 @@
         "color": "#1abc9c",
         "flight_id": "SYLVA-LAK-001",
         "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
+        "location": "Lake Erie - Highway & Waterfront, Ohio",
+        "water_risk_score": 23,
+        "water_distance_m": 611.0,
+        "score_breakdown": {
+          "water_proximity": 3,
+          "material_toxicity": 12,
+          "size_weight": 6,
+          "environmental": 2
+        }
       }
     },
     {
@@ -203,18 +267,26 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-C8248BFA",
+        "id": "DET-2026-83F45654",
         "timestamp": "2026-01-15T10:25:56.984392",
         "category": "metal_debris",
         "category_name": "Metal Debris",
         "confidence": 0.966,
         "size_m2": 0.0313,
         "estimated_weight_kg": 1.227,
-        "priority": "low",
+        "priority": "high",
         "color": "#95a5a6",
         "flight_id": "SYLVA-LAK-001",
         "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
+        "location": "Lake Erie - Highway & Waterfront, Ohio",
+        "water_risk_score": 56,
+        "water_distance_m": 80.2,
+        "score_breakdown": {
+          "water_proximity": 22,
+          "material_toxicity": 22,
+          "size_weight": 10,
+          "environmental": 2
+        }
       }
     },
     {
@@ -227,18 +299,26 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-E2EE039C",
+        "id": "DET-2026-F19A7291",
         "timestamp": "2026-01-15T10:29:11.379608",
         "category": "plastic_bottle",
         "category_name": "Plastic Bottles",
         "confidence": 0.916,
         "size_m2": 0.0015,
         "estimated_weight_kg": 0.032,
-        "priority": "low",
+        "priority": "medium",
         "color": "#3498db",
         "flight_id": "SYLVA-LAK-001",
         "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
+        "location": "Lake Erie - Highway & Waterfront, Ohio",
+        "water_risk_score": 48,
+        "water_distance_m": 139.0,
+        "score_breakdown": {
+          "water_proximity": 15,
+          "material_toxicity": 25,
+          "size_weight": 6,
+          "environmental": 2
+        }
       }
     },
     {
@@ -251,7 +331,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-9C0670D0",
+        "id": "DET-2026-796822AA",
         "timestamp": "2026-01-15T10:32:28.388920",
         "category": "food_packaging",
         "category_name": "Food Packaging/Cardboard",
@@ -262,7 +342,15 @@
         "color": "#e67e22",
         "flight_id": "SYLVA-LAK-001",
         "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
+        "location": "Lake Erie - Highway & Waterfront, Ohio",
+        "water_risk_score": 34,
+        "water_distance_m": 271.0,
+        "score_breakdown": {
+          "water_proximity": 8,
+          "material_toxicity": 18,
+          "size_weight": 6,
+          "environmental": 2
+        }
       }
     },
     {
@@ -275,7 +363,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-38CEC2B4",
+        "id": "DET-2026-6A809F80",
         "timestamp": "2026-01-15T10:38:57.296693",
         "category": "food_packaging",
         "category_name": "Food Packaging/Cardboard",
@@ -286,7 +374,15 @@
         "color": "#e67e22",
         "flight_id": "SYLVA-LAK-001",
         "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
+        "location": "Lake Erie - Highway & Waterfront, Ohio",
+        "water_risk_score": 29,
+        "water_distance_m": 621.9,
+        "score_breakdown": {
+          "water_proximity": 3,
+          "material_toxicity": 18,
+          "size_weight": 6,
+          "environmental": 2
+        }
       }
     },
     {
@@ -299,7 +395,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-DDFF9584",
+        "id": "DET-2026-D3774183",
         "timestamp": "2026-01-15T10:42:11.630376",
         "category": "metal_debris",
         "category_name": "Metal Debris",
@@ -310,7 +406,15 @@
         "color": "#95a5a6",
         "flight_id": "SYLVA-LAK-001",
         "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
+        "location": "Lake Erie - Highway & Waterfront, Ohio",
+        "water_risk_score": 39,
+        "water_distance_m": 583.2,
+        "score_breakdown": {
+          "water_proximity": 3,
+          "material_toxicity": 22,
+          "size_weight": 12,
+          "environmental": 2
+        }
       }
     },
     {
@@ -323,7 +427,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-D16611DD",
+        "id": "DET-2026-81C05E71",
         "timestamp": "2026-01-15T10:45:26.003836",
         "category": "glass",
         "category_name": "Glass",
@@ -334,7 +438,15 @@
         "color": "#1abc9c",
         "flight_id": "SYLVA-LAK-001",
         "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
+        "location": "Lake Erie - Highway & Waterfront, Ohio",
+        "water_risk_score": 23,
+        "water_distance_m": 730.2,
+        "score_breakdown": {
+          "water_proximity": 3,
+          "material_toxicity": 12,
+          "size_weight": 6,
+          "environmental": 2
+        }
       }
     },
     {
@@ -347,18 +459,26 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-86DDC524",
+        "id": "DET-2026-AF3FC5F8",
         "timestamp": "2026-01-15T10:48:40.478762",
         "category": "textile",
         "category_name": "Textile/Fabric",
         "confidence": 0.842,
         "size_m2": 0.178,
         "estimated_weight_kg": 0.73,
-        "priority": "medium",
+        "priority": "low",
         "color": "#e74c3c",
         "flight_id": "SYLVA-LAK-001",
         "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
+        "location": "Lake Erie - Highway & Waterfront, Ohio",
+        "water_risk_score": 31,
+        "water_distance_m": 716.3,
+        "score_breakdown": {
+          "water_proximity": 3,
+          "material_toxicity": 15,
+          "size_weight": 11,
+          "environmental": 2
+        }
       }
     },
     {
@@ -371,7 +491,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-BECDF1CD",
+        "id": "DET-2026-C5BDA906",
         "timestamp": "2026-01-15T10:51:55.035885",
         "category": "glass",
         "category_name": "Glass",
@@ -382,7 +502,15 @@
         "color": "#1abc9c",
         "flight_id": "SYLVA-LAK-001",
         "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
+        "location": "Lake Erie - Highway & Waterfront, Ohio",
+        "water_risk_score": 28,
+        "water_distance_m": 448.5,
+        "score_breakdown": {
+          "water_proximity": 8,
+          "material_toxicity": 12,
+          "size_weight": 6,
+          "environmental": 2
+        }
       }
     },
     {
@@ -395,7 +523,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-636CEEBC",
+        "id": "DET-2026-F0207773",
         "timestamp": "2026-01-15T10:55:10.051638",
         "category": "organic_waste",
         "category_name": "Organic Waste",
@@ -406,7 +534,15 @@
         "color": "#27ae60",
         "flight_id": "SYLVA-LAK-001",
         "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
+        "location": "Lake Erie - Highway & Waterfront, Ohio",
+        "water_risk_score": 24,
+        "water_distance_m": 476.7,
+        "score_breakdown": {
+          "water_proximity": 8,
+          "material_toxicity": 8,
+          "size_weight": 6,
+          "environmental": 2
+        }
       }
     },
     {
@@ -419,7 +555,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-D54C916A",
+        "id": "DET-2026-4E7BECB9",
         "timestamp": "2026-01-15T10:58:24.803948",
         "category": "organic_waste",
         "category_name": "Organic Waste",
@@ -430,7 +566,15 @@
         "color": "#27ae60",
         "flight_id": "SYLVA-LAK-001",
         "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
+        "location": "Lake Erie - Highway & Waterfront, Ohio",
+        "water_risk_score": 26,
+        "water_distance_m": 314.3,
+        "score_breakdown": {
+          "water_proximity": 8,
+          "material_toxicity": 8,
+          "size_weight": 8,
+          "environmental": 2
+        }
       }
     },
     {
@@ -443,7 +587,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-662CD50C",
+        "id": "DET-2026-EF77A84D",
         "timestamp": "2026-01-15T11:01:39.325305",
         "category": "glass",
         "category_name": "Glass",
@@ -454,7 +598,15 @@
         "color": "#1abc9c",
         "flight_id": "SYLVA-LAK-001",
         "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
+        "location": "Lake Erie - Highway & Waterfront, Ohio",
+        "water_risk_score": 23,
+        "water_distance_m": 875.8,
+        "score_breakdown": {
+          "water_proximity": 3,
+          "material_toxicity": 12,
+          "size_weight": 6,
+          "environmental": 2
+        }
       }
     },
     {
@@ -467,7 +619,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-659D1A32",
+        "id": "DET-2026-C0E07419",
         "timestamp": "2026-01-15T11:04:53.685584",
         "category": "food_packaging",
         "category_name": "Food Packaging/Cardboard",
@@ -478,7 +630,15 @@
         "color": "#e67e22",
         "flight_id": "SYLVA-LAK-001",
         "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
+        "location": "Lake Erie - Highway & Waterfront, Ohio",
+        "water_risk_score": 29,
+        "water_distance_m": 770.9,
+        "score_breakdown": {
+          "water_proximity": 3,
+          "material_toxicity": 18,
+          "size_weight": 6,
+          "environmental": 2
+        }
       }
     },
     {
@@ -491,18 +651,26 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-5F7AAF6D",
+        "id": "DET-2026-DAEC72BD",
         "timestamp": "2026-01-15T11:08:08.555169",
         "category": "construction_waste",
         "category_name": "Construction Waste",
         "confidence": 0.77,
         "size_m2": 0.4119,
         "estimated_weight_kg": 34.916,
-        "priority": "critical",
+        "priority": "high",
         "color": "#8e44ad",
         "flight_id": "SYLVA-LAK-001",
         "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
+        "location": "Lake Erie - Highway & Waterfront, Ohio",
+        "water_risk_score": 55,
+        "water_distance_m": 201.7,
+        "score_breakdown": {
+          "water_proximity": 8,
+          "material_toxicity": 20,
+          "size_weight": 25,
+          "environmental": 2
+        }
       }
     },
     {
@@ -515,18 +683,26 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-8FFE9AD0",
+        "id": "DET-2026-04841BD4",
         "timestamp": "2026-01-15T11:11:22.877492",
         "category": "construction_waste",
         "category_name": "Construction Waste",
         "confidence": 0.828,
         "size_m2": 0.9819,
         "estimated_weight_kg": 30.652,
-        "priority": "critical",
+        "priority": "high",
         "color": "#8e44ad",
         "flight_id": "SYLVA-LAK-001",
         "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
+        "location": "Lake Erie - Highway & Waterfront, Ohio",
+        "water_risk_score": 55,
+        "water_distance_m": 451.5,
+        "score_breakdown": {
+          "water_proximity": 8,
+          "material_toxicity": 20,
+          "size_weight": 25,
+          "environmental": 2
+        }
       }
     },
     {
@@ -539,18 +715,26 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-84E2AEC7",
+        "id": "DET-2026-B8088C90",
         "timestamp": "2026-01-15T11:14:37.240104",
         "category": "plastic_bottle",
         "category_name": "Plastic Bottles",
         "confidence": 0.917,
         "size_m2": 0.0039,
         "estimated_weight_kg": 0.043,
-        "priority": "low",
+        "priority": "medium",
         "color": "#3498db",
         "flight_id": "SYLVA-LAK-001",
         "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
+        "location": "Lake Erie - Highway & Waterfront, Ohio",
+        "water_risk_score": 41,
+        "water_distance_m": 314.0,
+        "score_breakdown": {
+          "water_proximity": 8,
+          "material_toxicity": 25,
+          "size_weight": 6,
+          "environmental": 2
+        }
       }
     },
     {
@@ -563,7 +747,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-6EE77F7E",
+        "id": "DET-2026-7358C503",
         "timestamp": "2026-01-15T11:21:06.663145",
         "category": "metal_debris",
         "category_name": "Metal Debris",
@@ -574,7 +758,15 @@
         "color": "#95a5a6",
         "flight_id": "SYLVA-LAK-001",
         "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
+        "location": "Lake Erie - Highway & Waterfront, Ohio",
+        "water_risk_score": 44,
+        "water_distance_m": 254.5,
+        "score_breakdown": {
+          "water_proximity": 8,
+          "material_toxicity": 22,
+          "size_weight": 12,
+          "environmental": 2
+        }
       }
     },
     {
@@ -587,7 +779,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-342C94F9",
+        "id": "DET-2026-5949FB06",
         "timestamp": "2026-01-15T11:24:21.347150",
         "category": "tire",
         "category_name": "Tires",
@@ -598,7 +790,15 @@
         "color": "#2c3e50",
         "flight_id": "SYLVA-LAK-001",
         "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
+        "location": "Lake Erie - Highway & Waterfront, Ohio",
+        "water_risk_score": 55,
+        "water_distance_m": 775.3,
+        "score_breakdown": {
+          "water_proximity": 3,
+          "material_toxicity": 28,
+          "size_weight": 22,
+          "environmental": 2
+        }
       }
     },
     {
@@ -611,7 +811,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-5F9142D3",
+        "id": "DET-2026-D22CB854",
         "timestamp": "2026-01-15T11:27:35.825782",
         "category": "organic_waste",
         "category_name": "Organic Waste",
@@ -622,7 +822,15 @@
         "color": "#27ae60",
         "flight_id": "SYLVA-LAK-001",
         "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
+        "location": "Lake Erie - Highway & Waterfront, Ohio",
+        "water_risk_score": 31,
+        "water_distance_m": 147.1,
+        "score_breakdown": {
+          "water_proximity": 15,
+          "material_toxicity": 8,
+          "size_weight": 6,
+          "environmental": 2
+        }
       }
     },
     {
@@ -635,18 +843,26 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-134FE5C6",
+        "id": "DET-2026-9093B84F",
         "timestamp": "2026-01-15T11:30:50.288690",
         "category": "tire",
         "category_name": "Tires",
         "confidence": 0.761,
         "size_m2": 0.3559,
         "estimated_weight_kg": 12.446,
-        "priority": "critical",
+        "priority": "high",
         "color": "#2c3e50",
         "flight_id": "SYLVA-LAK-001",
         "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
+        "location": "Lake Erie - Highway & Waterfront, Ohio",
+        "water_risk_score": 63,
+        "water_distance_m": 410.9,
+        "score_breakdown": {
+          "water_proximity": 8,
+          "material_toxicity": 28,
+          "size_weight": 25,
+          "environmental": 2
+        }
       }
     },
     {
@@ -659,18 +875,26 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-C03EB8B1",
+        "id": "DET-2026-0BD41742",
         "timestamp": "2026-01-15T11:34:04.711545",
         "category": "metal_debris",
         "category_name": "Metal Debris",
         "confidence": 0.904,
         "size_m2": 0.0372,
         "estimated_weight_kg": 0.818,
-        "priority": "low",
+        "priority": "medium",
         "color": "#95a5a6",
         "flight_id": "SYLVA-LAK-001",
         "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
+        "location": "Lake Erie - Highway & Waterfront, Ohio",
+        "water_risk_score": 38,
+        "water_distance_m": 391.0,
+        "score_breakdown": {
+          "water_proximity": 8,
+          "material_toxicity": 22,
+          "size_weight": 6,
+          "environmental": 2
+        }
       }
     },
     {
@@ -683,18 +907,26 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-31C944B2",
+        "id": "DET-2026-3D0215EA",
         "timestamp": "2026-01-15T11:37:19.151937",
         "category": "tire",
         "category_name": "Tires",
         "confidence": 0.881,
         "size_m2": 0.3662,
         "estimated_weight_kg": 11.208,
-        "priority": "critical",
+        "priority": "high",
         "color": "#2c3e50",
         "flight_id": "SYLVA-LAK-001",
         "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
+        "location": "Lake Erie - Highway & Waterfront, Ohio",
+        "water_risk_score": 63,
+        "water_distance_m": 376.8,
+        "score_breakdown": {
+          "water_proximity": 8,
+          "material_toxicity": 28,
+          "size_weight": 25,
+          "environmental": 2
+        }
       }
     },
     {
@@ -707,7 +939,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-C374B60C",
+        "id": "DET-2026-5C7C19EB",
         "timestamp": "2026-01-15T11:40:33.989806",
         "category": "food_packaging",
         "category_name": "Food Packaging/Cardboard",
@@ -718,7 +950,15 @@
         "color": "#e67e22",
         "flight_id": "SYLVA-LAK-001",
         "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
+        "location": "Lake Erie - Highway & Waterfront, Ohio",
+        "water_risk_score": 34,
+        "water_distance_m": 301.3,
+        "score_breakdown": {
+          "water_proximity": 8,
+          "material_toxicity": 18,
+          "size_weight": 6,
+          "environmental": 2
+        }
       }
     },
     {
@@ -731,18 +971,26 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-41E18B56",
+        "id": "DET-2026-25FE5D4D",
         "timestamp": "2026-01-15T11:43:52.734074",
         "category": "organic_waste",
         "category_name": "Organic Waste",
         "confidence": 0.818,
         "size_m2": 0.016,
         "estimated_weight_kg": 0.833,
-        "priority": "low",
+        "priority": "medium",
         "color": "#27ae60",
         "flight_id": "SYLVA-LAK-001",
         "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
+        "location": "Lake Erie - Highway & Waterfront, Ohio",
+        "water_risk_score": 38,
+        "water_distance_m": 91.3,
+        "score_breakdown": {
+          "water_proximity": 22,
+          "material_toxicity": 8,
+          "size_weight": 6,
+          "environmental": 2
+        }
       }
     },
     {
@@ -755,18 +1003,26 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-451BC2FC",
+        "id": "DET-2026-C9584658",
         "timestamp": "2026-01-15T11:47:07.116330",
         "category": "construction_waste",
         "category_name": "Construction Waste",
         "confidence": 0.793,
         "size_m2": 0.8526,
         "estimated_weight_kg": 21.281,
-        "priority": "critical",
+        "priority": "high",
         "color": "#8e44ad",
         "flight_id": "SYLVA-LAK-001",
         "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
+        "location": "Lake Erie - Highway & Waterfront, Ohio",
+        "water_risk_score": 55,
+        "water_distance_m": 486.5,
+        "score_breakdown": {
+          "water_proximity": 8,
+          "material_toxicity": 20,
+          "size_weight": 25,
+          "environmental": 2
+        }
       }
     },
     {
@@ -779,18 +1035,26 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-E4C26331",
+        "id": "DET-2026-B8A2D95C",
         "timestamp": "2026-01-15T11:50:21.840958",
         "category": "tire",
         "category_name": "Tires",
         "confidence": 0.973,
         "size_m2": 0.4162,
         "estimated_weight_kg": 10.386,
-        "priority": "critical",
+        "priority": "high",
         "color": "#2c3e50",
         "flight_id": "SYLVA-LAK-001",
         "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
+        "location": "Lake Erie - Highway & Waterfront, Ohio",
+        "water_risk_score": 70,
+        "water_distance_m": 168.6,
+        "score_breakdown": {
+          "water_proximity": 15,
+          "material_toxicity": 28,
+          "size_weight": 25,
+          "environmental": 2
+        }
       }
     },
     {
@@ -803,18 +1067,26 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-27A335B3",
+        "id": "DET-2026-A25181DB",
         "timestamp": "2026-01-15T11:53:36.304190",
         "category": "plastic_bottle",
         "category_name": "Plastic Bottles",
         "confidence": 0.948,
         "size_m2": 0.0037,
         "estimated_weight_kg": 0.03,
-        "priority": "low",
+        "priority": "medium",
         "color": "#3498db",
         "flight_id": "SYLVA-LAK-001",
         "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
+        "location": "Lake Erie - Highway & Waterfront, Ohio",
+        "water_risk_score": 36,
+        "water_distance_m": 926.2,
+        "score_breakdown": {
+          "water_proximity": 3,
+          "material_toxicity": 25,
+          "size_weight": 6,
+          "environmental": 2
+        }
       }
     },
     {
@@ -827,18 +1099,26 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-412A4EBE",
+        "id": "DET-2026-898234B4",
         "timestamp": "2026-01-15T11:56:50.799622",
         "category": "glass",
         "category_name": "Glass",
         "confidence": 0.978,
         "size_m2": 0.0032,
         "estimated_weight_kg": 0.296,
-        "priority": "low",
+        "priority": "medium",
         "color": "#1abc9c",
         "flight_id": "SYLVA-LAK-001",
         "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
+        "location": "Lake Erie - Highway & Waterfront, Ohio",
+        "water_risk_score": 35,
+        "water_distance_m": 124.9,
+        "score_breakdown": {
+          "water_proximity": 15,
+          "material_toxicity": 12,
+          "size_weight": 6,
+          "environmental": 2
+        }
       }
     },
     {
@@ -851,7 +1131,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-D79EE865",
+        "id": "DET-2026-E078D466",
         "timestamp": "2026-01-15T12:00:06.617798",
         "category": "food_packaging",
         "category_name": "Food Packaging/Cardboard",
@@ -862,7 +1142,15 @@
         "color": "#e67e22",
         "flight_id": "SYLVA-LAK-001",
         "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
+        "location": "Lake Erie - Highway & Waterfront, Ohio",
+        "water_risk_score": 34,
+        "water_distance_m": 328.5,
+        "score_breakdown": {
+          "water_proximity": 8,
+          "material_toxicity": 18,
+          "size_weight": 6,
+          "environmental": 2
+        }
       }
     },
     {
@@ -875,18 +1163,26 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-F1D16295",
+        "id": "DET-2026-FCCA6567",
         "timestamp": "2026-01-15T12:03:20.904079",
         "category": "plastic_bottle",
         "category_name": "Plastic Bottles",
         "confidence": 0.963,
         "size_m2": 0.0026,
         "estimated_weight_kg": 0.028,
-        "priority": "low",
+        "priority": "medium",
         "color": "#3498db",
         "flight_id": "SYLVA-LAK-001",
         "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
+        "location": "Lake Erie - Highway & Waterfront, Ohio",
+        "water_risk_score": 36,
+        "water_distance_m": 647.2,
+        "score_breakdown": {
+          "water_proximity": 3,
+          "material_toxicity": 25,
+          "size_weight": 6,
+          "environmental": 2
+        }
       }
     },
     {
@@ -899,7 +1195,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-AA72E70A",
+        "id": "DET-2026-BEED3037",
         "timestamp": "2026-01-15T12:06:35.227829",
         "category": "metal_debris",
         "category_name": "Metal Debris",
@@ -910,7 +1206,15 @@
         "color": "#95a5a6",
         "flight_id": "SYLVA-LAK-001",
         "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
+        "location": "Lake Erie - Highway & Waterfront, Ohio",
+        "water_risk_score": 33,
+        "water_distance_m": 891.2,
+        "score_breakdown": {
+          "water_proximity": 3,
+          "material_toxicity": 22,
+          "size_weight": 6,
+          "environmental": 2
+        }
       }
     },
     {
@@ -923,18 +1227,26 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-6403232F",
+        "id": "DET-2026-B868434B",
         "timestamp": "2026-01-15T12:09:50.307065",
         "category": "plastic_bottle",
         "category_name": "Plastic Bottles",
         "confidence": 0.839,
         "size_m2": 0.004,
         "estimated_weight_kg": 0.025,
-        "priority": "low",
+        "priority": "medium",
         "color": "#3498db",
         "flight_id": "SYLVA-LAK-001",
         "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
+        "location": "Lake Erie - Highway & Waterfront, Ohio",
+        "water_risk_score": 41,
+        "water_distance_m": 393.6,
+        "score_breakdown": {
+          "water_proximity": 8,
+          "material_toxicity": 25,
+          "size_weight": 6,
+          "environmental": 2
+        }
       }
     },
     {
@@ -947,7 +1259,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-A30BA2EE",
+        "id": "DET-2026-783A3C73",
         "timestamp": "2026-01-15T12:13:04.656341",
         "category": "tire",
         "category_name": "Tires",
@@ -958,7 +1270,15 @@
         "color": "#2c3e50",
         "flight_id": "SYLVA-LAK-001",
         "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
+        "location": "Lake Erie - Highway & Waterfront, Ohio",
+        "water_risk_score": 60,
+        "water_distance_m": 232.7,
+        "score_breakdown": {
+          "water_proximity": 8,
+          "material_toxicity": 28,
+          "size_weight": 22,
+          "environmental": 2
+        }
       }
     },
     {
@@ -971,18 +1291,26 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-22E294DA",
+        "id": "DET-2026-371EC824",
         "timestamp": "2026-01-15T12:19:34.061033",
         "category": "plastic_bottle",
         "category_name": "Plastic Bottles",
         "confidence": 0.779,
         "size_m2": 0.0024,
         "estimated_weight_kg": 0.012,
-        "priority": "low",
+        "priority": "medium",
         "color": "#3498db",
         "flight_id": "SYLVA-LAK-001",
         "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
+        "location": "Lake Erie - Highway & Waterfront, Ohio",
+        "water_risk_score": 48,
+        "water_distance_m": 116.1,
+        "score_breakdown": {
+          "water_proximity": 15,
+          "material_toxicity": 25,
+          "size_weight": 6,
+          "environmental": 2
+        }
       }
     },
     {
@@ -995,18 +1323,26 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-5B0709F5",
+        "id": "DET-2026-F195A806",
         "timestamp": "2026-01-15T12:29:18.200113",
         "category": "textile",
         "category_name": "Textile/Fabric",
         "confidence": 0.958,
         "size_m2": 0.1062,
         "estimated_weight_kg": 0.714,
-        "priority": "medium",
+        "priority": "low",
         "color": "#e74c3c",
         "flight_id": "SYLVA-LAK-001",
         "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
+        "location": "Lake Erie - Highway & Waterfront, Ohio",
+        "water_risk_score": 31,
+        "water_distance_m": 678.2,
+        "score_breakdown": {
+          "water_proximity": 3,
+          "material_toxicity": 15,
+          "size_weight": 11,
+          "environmental": 2
+        }
       }
     },
     {
@@ -1019,18 +1355,26 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-825262AF",
+        "id": "DET-2026-841B507B",
         "timestamp": "2026-01-15T12:32:32.682455",
         "category": "plastic_bottle",
         "category_name": "Plastic Bottles",
         "confidence": 0.988,
         "size_m2": 0.0037,
         "estimated_weight_kg": 0.031,
-        "priority": "low",
+        "priority": "medium",
         "color": "#3498db",
         "flight_id": "SYLVA-LAK-001",
         "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
+        "location": "Lake Erie - Highway & Waterfront, Ohio",
+        "water_risk_score": 36,
+        "water_distance_m": 784.4,
+        "score_breakdown": {
+          "water_proximity": 3,
+          "material_toxicity": 25,
+          "size_weight": 6,
+          "environmental": 2
+        }
       }
     },
     {
@@ -1043,7 +1387,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-C4BD4DA9",
+        "id": "DET-2026-3B7C0ABF",
         "timestamp": "2026-01-15T12:35:47.718058",
         "category": "metal_debris",
         "category_name": "Metal Debris",
@@ -1054,7 +1398,15 @@
         "color": "#95a5a6",
         "flight_id": "SYLVA-LAK-001",
         "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
+        "location": "Lake Erie - Highway & Waterfront, Ohio",
+        "water_risk_score": 39,
+        "water_distance_m": 986.0,
+        "score_breakdown": {
+          "water_proximity": 3,
+          "material_toxicity": 22,
+          "size_weight": 12,
+          "environmental": 2
+        }
       }
     },
     {
@@ -1067,7 +1419,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-AD7EDBD5",
+        "id": "DET-2026-F163B3E9",
         "timestamp": "2026-01-15T12:39:02.016446",
         "category": "textile",
         "category_name": "Textile/Fabric",
@@ -1078,7 +1430,15 @@
         "color": "#e74c3c",
         "flight_id": "SYLVA-LAK-001",
         "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
+        "location": "Lake Erie - Highway & Waterfront, Ohio",
+        "water_risk_score": 35,
+        "water_distance_m": 862.6,
+        "score_breakdown": {
+          "water_proximity": 3,
+          "material_toxicity": 15,
+          "size_weight": 15,
+          "environmental": 2
+        }
       }
     },
     {
@@ -1091,18 +1451,26 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-58BD759E",
+        "id": "DET-2026-5C9C66B4",
         "timestamp": "2026-01-15T12:42:16.300568",
         "category": "metal_debris",
         "category_name": "Metal Debris",
         "confidence": 0.987,
         "size_m2": 0.0308,
         "estimated_weight_kg": 4.885,
-        "priority": "low",
+        "priority": "medium",
         "color": "#95a5a6",
         "flight_id": "SYLVA-LAK-001",
         "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
+        "location": "Lake Erie - Highway & Waterfront, Ohio",
+        "water_risk_score": 37,
+        "water_distance_m": 873.2,
+        "score_breakdown": {
+          "water_proximity": 3,
+          "material_toxicity": 22,
+          "size_weight": 10,
+          "environmental": 2
+        }
       }
     },
     {
@@ -1115,18 +1483,26 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-86E448C3",
+        "id": "DET-2026-722A2262",
         "timestamp": "2026-01-15T12:45:30.562701",
         "category": "construction_waste",
         "category_name": "Construction Waste",
         "confidence": 0.947,
         "size_m2": 0.372,
         "estimated_weight_kg": 46.437,
-        "priority": "critical",
+        "priority": "high",
         "color": "#8e44ad",
         "flight_id": "SYLVA-LAK-001",
         "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
+        "location": "Lake Erie - Highway & Waterfront, Ohio",
+        "water_risk_score": 55,
+        "water_distance_m": 411.1,
+        "score_breakdown": {
+          "water_proximity": 8,
+          "material_toxicity": 20,
+          "size_weight": 25,
+          "environmental": 2
+        }
       }
     },
     {
@@ -1139,7 +1515,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-A20358FF",
+        "id": "DET-2026-0E1C228F",
         "timestamp": "2026-01-15T12:48:46.822689",
         "category": "glass",
         "category_name": "Glass",
@@ -1150,7 +1526,15 @@
         "color": "#1abc9c",
         "flight_id": "SYLVA-LAK-001",
         "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
+        "location": "Lake Erie - Highway & Waterfront, Ohio",
+        "water_risk_score": 28,
+        "water_distance_m": 480.7,
+        "score_breakdown": {
+          "water_proximity": 8,
+          "material_toxicity": 12,
+          "size_weight": 6,
+          "environmental": 2
+        }
       }
     },
     {
@@ -1163,7 +1547,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-1ADC2954",
+        "id": "DET-2026-79F6D094",
         "timestamp": "2026-01-15T12:55:20.067332",
         "category": "metal_debris",
         "category_name": "Metal Debris",
@@ -1174,7 +1558,15 @@
         "color": "#95a5a6",
         "flight_id": "SYLVA-LAK-001",
         "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
+        "location": "Lake Erie - Highway & Waterfront, Ohio",
+        "water_risk_score": 39,
+        "water_distance_m": 842.4,
+        "score_breakdown": {
+          "water_proximity": 3,
+          "material_toxicity": 22,
+          "size_weight": 12,
+          "environmental": 2
+        }
       }
     },
     {
@@ -1187,18 +1579,26 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-67365C6F",
+        "id": "DET-2026-1ECF982B",
         "timestamp": "2026-01-15T12:58:34.539699",
         "category": "plastic_bottle",
         "category_name": "Plastic Bottles",
         "confidence": 0.99,
         "size_m2": 0.0036,
         "estimated_weight_kg": 0.043,
-        "priority": "low",
+        "priority": "medium",
         "color": "#3498db",
         "flight_id": "SYLVA-LAK-001",
         "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
+        "location": "Lake Erie - Highway & Waterfront, Ohio",
+        "water_risk_score": 41,
+        "water_distance_m": 204.5,
+        "score_breakdown": {
+          "water_proximity": 8,
+          "material_toxicity": 25,
+          "size_weight": 6,
+          "environmental": 2
+        }
       }
     },
     {
@@ -1211,7 +1611,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-ED2098FB",
+        "id": "DET-2026-D2D7F4AD",
         "timestamp": "2026-01-15T13:01:49.050904",
         "category": "organic_waste",
         "category_name": "Organic Waste",
@@ -1222,7 +1622,15 @@
         "color": "#27ae60",
         "flight_id": "SYLVA-LAK-001",
         "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
+        "location": "Lake Erie - Highway & Waterfront, Ohio",
+        "water_risk_score": 24,
+        "water_distance_m": 387.5,
+        "score_breakdown": {
+          "water_proximity": 8,
+          "material_toxicity": 8,
+          "size_weight": 6,
+          "environmental": 2
+        }
       }
     },
     {
@@ -1235,7 +1643,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-659BE7A8",
+        "id": "DET-2026-97BA1D7A",
         "timestamp": "2026-01-15T13:05:03.991837",
         "category": "metal_debris",
         "category_name": "Metal Debris",
@@ -1246,7 +1654,15 @@
         "color": "#95a5a6",
         "flight_id": "SYLVA-LAK-001",
         "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
+        "location": "Lake Erie - Highway & Waterfront, Ohio",
+        "water_risk_score": 39,
+        "water_distance_m": 686.7,
+        "score_breakdown": {
+          "water_proximity": 3,
+          "material_toxicity": 22,
+          "size_weight": 12,
+          "environmental": 2
+        }
       }
     },
     {
@@ -1259,7 +1675,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-6FCD511A",
+        "id": "DET-2026-47BEEFAE",
         "timestamp": "2026-01-15T13:08:18.368037",
         "category": "metal_debris",
         "category_name": "Metal Debris",
@@ -1270,7 +1686,15 @@
         "color": "#95a5a6",
         "flight_id": "SYLVA-LAK-001",
         "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
+        "location": "Lake Erie - Highway & Waterfront, Ohio",
+        "water_risk_score": 39,
+        "water_distance_m": 716.7,
+        "score_breakdown": {
+          "water_proximity": 3,
+          "material_toxicity": 22,
+          "size_weight": 12,
+          "environmental": 2
+        }
       }
     },
     {
@@ -1283,18 +1707,26 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-F94653A2",
+        "id": "DET-2026-231082CE",
         "timestamp": "2026-01-15T13:11:32.703862",
         "category": "construction_waste",
         "category_name": "Construction Waste",
         "confidence": 0.753,
         "size_m2": 0.4097,
         "estimated_weight_kg": 15.455,
-        "priority": "critical",
+        "priority": "medium",
         "color": "#8e44ad",
         "flight_id": "SYLVA-LAK-001",
         "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
+        "location": "Lake Erie - Highway & Waterfront, Ohio",
+        "water_risk_score": 50,
+        "water_distance_m": 699.4,
+        "score_breakdown": {
+          "water_proximity": 3,
+          "material_toxicity": 20,
+          "size_weight": 25,
+          "environmental": 2
+        }
       }
     },
     {
@@ -1307,18 +1739,26 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-A0D20D22",
+        "id": "DET-2026-159EC9F3",
         "timestamp": "2026-01-15T13:14:46.999138",
         "category": "glass",
         "category_name": "Glass",
         "confidence": 0.938,
         "size_m2": 0.0051,
         "estimated_weight_kg": 0.354,
-        "priority": "low",
+        "priority": "medium",
         "color": "#1abc9c",
         "flight_id": "SYLVA-LAK-001",
         "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
+        "location": "Lake Erie - Highway & Waterfront, Ohio",
+        "water_risk_score": 35,
+        "water_distance_m": 117.8,
+        "score_breakdown": {
+          "water_proximity": 15,
+          "material_toxicity": 12,
+          "size_weight": 6,
+          "environmental": 2
+        }
       }
     },
     {
@@ -1331,18 +1771,26 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-D476F72F",
+        "id": "DET-2026-83018DAA",
         "timestamp": "2026-01-15T13:18:01.915661",
         "category": "plastic_bottle",
         "category_name": "Plastic Bottles",
         "confidence": 0.812,
         "size_m2": 0.0038,
         "estimated_weight_kg": 0.03,
-        "priority": "low",
+        "priority": "medium",
         "color": "#3498db",
         "flight_id": "SYLVA-LAK-001",
         "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
+        "location": "Lake Erie - Highway & Waterfront, Ohio",
+        "water_risk_score": 36,
+        "water_distance_m": 653.2,
+        "score_breakdown": {
+          "water_proximity": 3,
+          "material_toxicity": 25,
+          "size_weight": 6,
+          "environmental": 2
+        }
       }
     },
     {
@@ -1355,7 +1803,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-619A7129",
+        "id": "DET-2026-EBE5FF60",
         "timestamp": "2026-01-15T13:21:16.198669",
         "category": "metal_debris",
         "category_name": "Metal Debris",
@@ -1366,7 +1814,15 @@
         "color": "#95a5a6",
         "flight_id": "SYLVA-LAK-001",
         "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
+        "location": "Lake Erie - Highway & Waterfront, Ohio",
+        "water_risk_score": 33,
+        "water_distance_m": 557.4,
+        "score_breakdown": {
+          "water_proximity": 3,
+          "material_toxicity": 22,
+          "size_weight": 6,
+          "environmental": 2
+        }
       }
     },
     {
@@ -1379,7 +1835,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-7FBC7FAA",
+        "id": "DET-2026-F2989473",
         "timestamp": "2026-01-15T13:31:08.138882",
         "category": "food_packaging",
         "category_name": "Food Packaging/Cardboard",
@@ -1390,7 +1846,15 @@
         "color": "#e67e22",
         "flight_id": "SYLVA-LAK-001",
         "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
+        "location": "Lake Erie - Highway & Waterfront, Ohio",
+        "water_risk_score": 34,
+        "water_distance_m": 282.6,
+        "score_breakdown": {
+          "water_proximity": 8,
+          "material_toxicity": 18,
+          "size_weight": 6,
+          "environmental": 2
+        }
       }
     },
     {
@@ -1403,7 +1867,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-E79A222C",
+        "id": "DET-2026-BAC61C2F",
         "timestamp": "2026-01-15T13:34:22.558657",
         "category": "food_packaging",
         "category_name": "Food Packaging/Cardboard",
@@ -1414,7 +1878,15 @@
         "color": "#e67e22",
         "flight_id": "SYLVA-LAK-001",
         "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
+        "location": "Lake Erie - Highway & Waterfront, Ohio",
+        "water_risk_score": 34,
+        "water_distance_m": 489.1,
+        "score_breakdown": {
+          "water_proximity": 8,
+          "material_toxicity": 18,
+          "size_weight": 6,
+          "environmental": 2
+        }
       }
     },
     {
@@ -1427,18 +1899,26 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-77FD4B23",
+        "id": "DET-2026-C1C40796",
         "timestamp": "2026-01-15T13:37:36.948003",
         "category": "metal_debris",
         "category_name": "Metal Debris",
         "confidence": 0.942,
         "size_m2": 0.0768,
         "estimated_weight_kg": 0.677,
-        "priority": "low",
+        "priority": "medium",
         "color": "#95a5a6",
         "flight_id": "SYLVA-LAK-001",
         "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
+        "location": "Lake Erie - Highway & Waterfront, Ohio",
+        "water_risk_score": 40,
+        "water_distance_m": 306.5,
+        "score_breakdown": {
+          "water_proximity": 8,
+          "material_toxicity": 22,
+          "size_weight": 8,
+          "environmental": 2
+        }
       }
     },
     {
@@ -1451,18 +1931,26 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-EBA261BC",
+        "id": "DET-2026-007164CD",
         "timestamp": "2026-01-15T13:40:51.290903",
         "category": "plastic_bottle",
         "category_name": "Plastic Bottles",
         "confidence": 0.93,
         "size_m2": 0.0018,
         "estimated_weight_kg": 0.042,
-        "priority": "low",
+        "priority": "medium",
         "color": "#3498db",
         "flight_id": "SYLVA-LAK-001",
         "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
+        "location": "Lake Erie - Highway & Waterfront, Ohio",
+        "water_risk_score": 36,
+        "water_distance_m": 929.1,
+        "score_breakdown": {
+          "water_proximity": 3,
+          "material_toxicity": 25,
+          "size_weight": 6,
+          "environmental": 2
+        }
       }
     },
     {
@@ -1475,7 +1963,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-F8DE4DF5",
+        "id": "DET-2026-47D3FC28",
         "timestamp": "2026-01-15T13:44:05.614267",
         "category": "metal_debris",
         "category_name": "Metal Debris",
@@ -1486,7 +1974,15 @@
         "color": "#95a5a6",
         "flight_id": "SYLVA-LAK-001",
         "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
+        "location": "Lake Erie - Highway & Waterfront, Ohio",
+        "water_risk_score": 39,
+        "water_distance_m": 703.8,
+        "score_breakdown": {
+          "water_proximity": 3,
+          "material_toxicity": 22,
+          "size_weight": 12,
+          "environmental": 2
+        }
       }
     },
     {
@@ -1499,18 +1995,26 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-3ED3CEDD",
+        "id": "DET-2026-333373AB",
         "timestamp": "2026-01-15T13:47:20.636687",
         "category": "metal_debris",
         "category_name": "Metal Debris",
         "confidence": 0.857,
         "size_m2": 0.0649,
         "estimated_weight_kg": 0.982,
-        "priority": "low",
+        "priority": "medium",
         "color": "#95a5a6",
         "flight_id": "SYLVA-LAK-001",
         "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
+        "location": "Lake Erie - Highway & Waterfront, Ohio",
+        "water_risk_score": 40,
+        "water_distance_m": 258.6,
+        "score_breakdown": {
+          "water_proximity": 8,
+          "material_toxicity": 22,
+          "size_weight": 8,
+          "environmental": 2
+        }
       }
     },
     {
@@ -1523,18 +2027,26 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-7CCFB3C4",
+        "id": "DET-2026-8689EE7F",
         "timestamp": "2026-01-15T13:50:34.996260",
         "category": "plastic_bottle",
         "category_name": "Plastic Bottles",
         "confidence": 0.829,
         "size_m2": 0.002,
         "estimated_weight_kg": 0.018,
-        "priority": "low",
+        "priority": "medium",
         "color": "#3498db",
         "flight_id": "SYLVA-LAK-001",
         "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
+        "location": "Lake Erie - Highway & Waterfront, Ohio",
+        "water_risk_score": 41,
+        "water_distance_m": 358.1,
+        "score_breakdown": {
+          "water_proximity": 8,
+          "material_toxicity": 25,
+          "size_weight": 6,
+          "environmental": 2
+        }
       }
     },
     {
@@ -1547,18 +2059,26 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-3769D1D9",
+        "id": "DET-2026-4D50DBF0",
         "timestamp": "2026-01-15T13:57:04.310108",
         "category": "construction_waste",
         "category_name": "Construction Waste",
         "confidence": 0.879,
         "size_m2": 0.6238,
         "estimated_weight_kg": 13.477,
-        "priority": "critical",
+        "priority": "medium",
         "color": "#8e44ad",
         "flight_id": "SYLVA-LAK-001",
         "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
+        "location": "Lake Erie - Highway & Waterfront, Ohio",
+        "water_risk_score": 50,
+        "water_distance_m": 779.9,
+        "score_breakdown": {
+          "water_proximity": 3,
+          "material_toxicity": 20,
+          "size_weight": 25,
+          "environmental": 2
+        }
       }
     },
     {
@@ -1571,18 +2091,26 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-B3DAF6DB",
+        "id": "DET-2026-E1AC39CB",
         "timestamp": "2026-01-15T14:03:33.132224",
         "category": "food_packaging",
         "category_name": "Food Packaging/Cardboard",
         "confidence": 0.887,
         "size_m2": 0.0104,
         "estimated_weight_kg": 0.072,
-        "priority": "low",
+        "priority": "medium",
         "color": "#e67e22",
         "flight_id": "SYLVA-LAK-001",
         "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
+        "location": "Lake Erie - Highway & Waterfront, Ohio",
+        "water_risk_score": 41,
+        "water_distance_m": 103.1,
+        "score_breakdown": {
+          "water_proximity": 15,
+          "material_toxicity": 18,
+          "size_weight": 6,
+          "environmental": 2
+        }
       }
     },
     {
@@ -1595,18 +2123,26 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-FADD4DAF",
+        "id": "DET-2026-5D825118",
         "timestamp": "2026-01-15T14:13:17.235756",
         "category": "plastic_bottle",
         "category_name": "Plastic Bottles",
         "confidence": 0.789,
         "size_m2": 0.0015,
         "estimated_weight_kg": 0.02,
-        "priority": "low",
+        "priority": "medium",
         "color": "#3498db",
         "flight_id": "SYLVA-LAK-001",
         "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
+        "location": "Lake Erie - Highway & Waterfront, Ohio",
+        "water_risk_score": 36,
+        "water_distance_m": 830.7,
+        "score_breakdown": {
+          "water_proximity": 3,
+          "material_toxicity": 25,
+          "size_weight": 6,
+          "environmental": 2
+        }
       }
     },
     {
@@ -1619,18 +2155,26 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-60A0302E",
+        "id": "DET-2026-8EA7643B",
         "timestamp": "2026-01-15T14:16:31.695354",
         "category": "plastic_bottle",
         "category_name": "Plastic Bottles",
         "confidence": 0.986,
         "size_m2": 0.0026,
         "estimated_weight_kg": 0.026,
-        "priority": "low",
+        "priority": "medium",
         "color": "#3498db",
         "flight_id": "SYLVA-LAK-001",
         "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
+        "location": "Lake Erie - Highway & Waterfront, Ohio",
+        "water_risk_score": 36,
+        "water_distance_m": 814.8,
+        "score_breakdown": {
+          "water_proximity": 3,
+          "material_toxicity": 25,
+          "size_weight": 6,
+          "environmental": 2
+        }
       }
     },
     {
@@ -1643,7 +2187,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-2B6A3413",
+        "id": "DET-2026-40C56CF6",
         "timestamp": "2026-01-15T14:19:46.828307",
         "category": "organic_waste",
         "category_name": "Organic Waste",
@@ -1654,7 +2198,15 @@
         "color": "#27ae60",
         "flight_id": "SYLVA-LAK-001",
         "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
+        "location": "Lake Erie - Highway & Waterfront, Ohio",
+        "water_risk_score": 24,
+        "water_distance_m": 431.1,
+        "score_breakdown": {
+          "water_proximity": 8,
+          "material_toxicity": 8,
+          "size_weight": 6,
+          "environmental": 2
+        }
       }
     },
     {
@@ -1667,18 +2219,26 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-30042567",
+        "id": "DET-2026-879E4C93",
         "timestamp": "2026-01-15T14:23:01.157693",
         "category": "construction_waste",
         "category_name": "Construction Waste",
         "confidence": 0.852,
         "size_m2": 0.3903,
         "estimated_weight_kg": 22.947,
-        "priority": "critical",
+        "priority": "high",
         "color": "#8e44ad",
         "flight_id": "SYLVA-LAK-001",
         "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
+        "location": "Lake Erie - Highway & Waterfront, Ohio",
+        "water_risk_score": 62,
+        "water_distance_m": 112.9,
+        "score_breakdown": {
+          "water_proximity": 15,
+          "material_toxicity": 20,
+          "size_weight": 25,
+          "environmental": 2
+        }
       }
     },
     {
@@ -1691,7 +2251,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-03A15E69",
+        "id": "DET-2026-F13021CD",
         "timestamp": "2026-01-15T14:26:15.468461",
         "category": "food_packaging",
         "category_name": "Food Packaging/Cardboard",
@@ -1702,7 +2262,15 @@
         "color": "#e67e22",
         "flight_id": "SYLVA-LAK-001",
         "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
+        "location": "Lake Erie - Highway & Waterfront, Ohio",
+        "water_risk_score": 29,
+        "water_distance_m": 917.5,
+        "score_breakdown": {
+          "water_proximity": 3,
+          "material_toxicity": 18,
+          "size_weight": 6,
+          "environmental": 2
+        }
       }
     },
     {
@@ -1715,18 +2283,26 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-68299A13",
+        "id": "DET-2026-BA0A15A3",
         "timestamp": "2026-01-15T14:32:44.612119",
         "category": "plastic_bottle",
         "category_name": "Plastic Bottles",
         "confidence": 0.944,
         "size_m2": 0.004,
         "estimated_weight_kg": 0.023,
-        "priority": "low",
+        "priority": "medium",
         "color": "#3498db",
         "flight_id": "SYLVA-LAK-001",
         "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
+        "location": "Lake Erie - Highway & Waterfront, Ohio",
+        "water_risk_score": 36,
+        "water_distance_m": 588.8,
+        "score_breakdown": {
+          "water_proximity": 3,
+          "material_toxicity": 25,
+          "size_weight": 6,
+          "environmental": 2
+        }
       }
     },
     {
@@ -1739,7 +2315,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-5B1EE411",
+        "id": "DET-2026-B7ADA2B3",
         "timestamp": "2026-01-15T14:35:58.967812",
         "category": "tire",
         "category_name": "Tires",
@@ -1750,7 +2326,15 @@
         "color": "#2c3e50",
         "flight_id": "SYLVA-LAK-001",
         "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
+        "location": "Lake Erie - Highway & Waterfront, Ohio",
+        "water_risk_score": 55,
+        "water_distance_m": 732.0,
+        "score_breakdown": {
+          "water_proximity": 3,
+          "material_toxicity": 28,
+          "size_weight": 22,
+          "environmental": 2
+        }
       }
     },
     {
@@ -1763,7 +2347,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-1ACC4966",
+        "id": "DET-2026-CF7D8E99",
         "timestamp": "2026-01-15T14:39:13.322690",
         "category": "glass",
         "category_name": "Glass",
@@ -1774,7 +2358,15 @@
         "color": "#1abc9c",
         "flight_id": "SYLVA-LAK-001",
         "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
+        "location": "Lake Erie - Highway & Waterfront, Ohio",
+        "water_risk_score": 28,
+        "water_distance_m": 252.0,
+        "score_breakdown": {
+          "water_proximity": 8,
+          "material_toxicity": 12,
+          "size_weight": 6,
+          "environmental": 2
+        }
       }
     },
     {
@@ -1787,7 +2379,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-62519E51",
+        "id": "DET-2026-2A756665",
         "timestamp": "2026-01-15T14:42:27.707722",
         "category": "food_packaging",
         "category_name": "Food Packaging/Cardboard",
@@ -1798,7 +2390,15 @@
         "color": "#e67e22",
         "flight_id": "SYLVA-LAK-001",
         "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
+        "location": "Lake Erie - Highway & Waterfront, Ohio",
+        "water_risk_score": 29,
+        "water_distance_m": 524.3,
+        "score_breakdown": {
+          "water_proximity": 3,
+          "material_toxicity": 18,
+          "size_weight": 6,
+          "environmental": 2
+        }
       }
     },
     {
@@ -1811,18 +2411,26 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-7798D5FF",
+        "id": "DET-2026-091AAE90",
         "timestamp": "2026-01-15T14:45:42.100154",
         "category": "tire",
         "category_name": "Tires",
         "confidence": 0.84,
         "size_m2": 0.4312,
         "estimated_weight_kg": 11.074,
-        "priority": "critical",
+        "priority": "high",
         "color": "#2c3e50",
         "flight_id": "SYLVA-LAK-001",
         "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
+        "location": "Lake Erie - Highway & Waterfront, Ohio",
+        "water_risk_score": 58,
+        "water_distance_m": 890.4,
+        "score_breakdown": {
+          "water_proximity": 3,
+          "material_toxicity": 28,
+          "size_weight": 25,
+          "environmental": 2
+        }
       }
     },
     {
@@ -1835,7 +2443,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-26E4C7EB",
+        "id": "DET-2026-15DF9E66",
         "timestamp": "2026-01-15T14:48:56.463772",
         "category": "food_packaging",
         "category_name": "Food Packaging/Cardboard",
@@ -1846,7 +2454,15 @@
         "color": "#e67e22",
         "flight_id": "SYLVA-LAK-001",
         "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
+        "location": "Lake Erie - Highway & Waterfront, Ohio",
+        "water_risk_score": 29,
+        "water_distance_m": 660.7,
+        "score_breakdown": {
+          "water_proximity": 3,
+          "material_toxicity": 18,
+          "size_weight": 6,
+          "environmental": 2
+        }
       }
     },
     {
@@ -1859,7 +2475,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-D6772C1F",
+        "id": "DET-2026-F15D94CD",
         "timestamp": "2026-01-15T14:52:11.275965",
         "category": "metal_debris",
         "category_name": "Metal Debris",
@@ -1870,7 +2486,15 @@
         "color": "#95a5a6",
         "flight_id": "SYLVA-LAK-001",
         "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
+        "location": "Lake Erie - Highway & Waterfront, Ohio",
+        "water_risk_score": 51,
+        "water_distance_m": 185.7,
+        "score_breakdown": {
+          "water_proximity": 15,
+          "material_toxicity": 22,
+          "size_weight": 12,
+          "environmental": 2
+        }
       }
     },
     {
@@ -1883,18 +2507,26 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-86AF4AB1",
+        "id": "DET-2026-103043B9",
         "timestamp": "2026-01-15T14:55:25.651528",
         "category": "food_packaging",
         "category_name": "Food Packaging/Cardboard",
         "confidence": 0.929,
         "size_m2": 0.0097,
         "estimated_weight_kg": 0.04,
-        "priority": "low",
+        "priority": "medium",
         "color": "#e67e22",
         "flight_id": "SYLVA-LAK-001",
         "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
+        "location": "Lake Erie - Highway & Waterfront, Ohio",
+        "water_risk_score": 41,
+        "water_distance_m": 182.6,
+        "score_breakdown": {
+          "water_proximity": 15,
+          "material_toxicity": 18,
+          "size_weight": 6,
+          "environmental": 2
+        }
       }
     },
     {
@@ -1907,7 +2539,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-D4C5B7CA",
+        "id": "DET-2026-E01705C0",
         "timestamp": "2026-01-15T14:58:44.329018",
         "category": "food_packaging",
         "category_name": "Food Packaging/Cardboard",
@@ -1918,7 +2550,15 @@
         "color": "#e67e22",
         "flight_id": "SYLVA-LAK-001",
         "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
+        "location": "Lake Erie - Highway & Waterfront, Ohio",
+        "water_risk_score": 29,
+        "water_distance_m": 757.7,
+        "score_breakdown": {
+          "water_proximity": 3,
+          "material_toxicity": 18,
+          "size_weight": 6,
+          "environmental": 2
+        }
       }
     },
     {
@@ -1931,7 +2571,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-D3E7D909",
+        "id": "DET-2026-CBDB47F3",
         "timestamp": "2026-01-15T15:01:58.796146",
         "category": "food_packaging",
         "category_name": "Food Packaging/Cardboard",
@@ -1942,7 +2582,15 @@
         "color": "#e67e22",
         "flight_id": "SYLVA-LAK-001",
         "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
+        "location": "Lake Erie - Highway & Waterfront, Ohio",
+        "water_risk_score": 29,
+        "water_distance_m": 562.0,
+        "score_breakdown": {
+          "water_proximity": 3,
+          "material_toxicity": 18,
+          "size_weight": 6,
+          "environmental": 2
+        }
       }
     },
     {
@@ -1955,7 +2603,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-D68115C7",
+        "id": "DET-2026-96F34AE4",
         "timestamp": "2026-01-15T15:05:13.223114",
         "category": "food_packaging",
         "category_name": "Food Packaging/Cardboard",
@@ -1966,7 +2614,15 @@
         "color": "#e67e22",
         "flight_id": "SYLVA-LAK-001",
         "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
+        "location": "Lake Erie - Highway & Waterfront, Ohio",
+        "water_risk_score": 29,
+        "water_distance_m": 759.7,
+        "score_breakdown": {
+          "water_proximity": 3,
+          "material_toxicity": 18,
+          "size_weight": 6,
+          "environmental": 2
+        }
       }
     },
     {
@@ -1979,18 +2635,26 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-335793B4",
+        "id": "DET-2026-B20F07B5",
         "timestamp": "2026-01-15T15:08:27.770823",
         "category": "metal_debris",
         "category_name": "Metal Debris",
         "confidence": 0.959,
         "size_m2": 0.0709,
         "estimated_weight_kg": 0.581,
-        "priority": "low",
+        "priority": "medium",
         "color": "#95a5a6",
         "flight_id": "SYLVA-LAK-001",
         "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
+        "location": "Lake Erie - Highway & Waterfront, Ohio",
+        "water_risk_score": 40,
+        "water_distance_m": 457.0,
+        "score_breakdown": {
+          "water_proximity": 8,
+          "material_toxicity": 22,
+          "size_weight": 8,
+          "environmental": 2
+        }
       }
     },
     {
@@ -2003,18 +2667,26 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-C4A556C6",
+        "id": "DET-2026-D029FD3D",
         "timestamp": "2026-01-15T15:11:42.371670",
         "category": "construction_waste",
         "category_name": "Construction Waste",
         "confidence": 0.896,
         "size_m2": 0.3644,
         "estimated_weight_kg": 33.052,
-        "priority": "critical",
+        "priority": "medium",
         "color": "#8e44ad",
         "flight_id": "SYLVA-LAK-001",
         "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
+        "location": "Lake Erie - Highway & Waterfront, Ohio",
+        "water_risk_score": 50,
+        "water_distance_m": 604.4,
+        "score_breakdown": {
+          "water_proximity": 3,
+          "material_toxicity": 20,
+          "size_weight": 25,
+          "environmental": 2
+        }
       }
     },
     {
@@ -2027,7 +2699,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-4FABD907",
+        "id": "DET-2026-DD4B671D",
         "timestamp": "2026-01-15T15:14:57.121326",
         "category": "tire",
         "category_name": "Tires",
@@ -2038,7 +2710,15 @@
         "color": "#2c3e50",
         "flight_id": "SYLVA-LAK-001",
         "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
+        "location": "Lake Erie - Highway & Waterfront, Ohio",
+        "water_risk_score": 60,
+        "water_distance_m": 393.9,
+        "score_breakdown": {
+          "water_proximity": 8,
+          "material_toxicity": 28,
+          "size_weight": 22,
+          "environmental": 2
+        }
       }
     },
     {
@@ -2051,18 +2731,26 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-EF7C2D02",
+        "id": "DET-2026-B9BA8F03",
         "timestamp": "2026-01-15T15:18:11.615707",
         "category": "metal_debris",
         "category_name": "Metal Debris",
         "confidence": 0.83,
         "size_m2": 0.0549,
         "estimated_weight_kg": 0.746,
-        "priority": "low",
+        "priority": "medium",
         "color": "#95a5a6",
         "flight_id": "SYLVA-LAK-001",
         "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
+        "location": "Lake Erie - Highway & Waterfront, Ohio",
+        "water_risk_score": 35,
+        "water_distance_m": 997.5,
+        "score_breakdown": {
+          "water_proximity": 3,
+          "material_toxicity": 22,
+          "size_weight": 8,
+          "environmental": 2
+        }
       }
     },
     {
@@ -2075,7 +2763,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-509F32AF",
+        "id": "DET-2026-95D29752",
         "timestamp": "2026-01-15T15:21:25.961312",
         "category": "metal_debris",
         "category_name": "Metal Debris",
@@ -2086,7 +2774,15 @@
         "color": "#95a5a6",
         "flight_id": "SYLVA-LAK-001",
         "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
+        "location": "Lake Erie - Highway & Waterfront, Ohio",
+        "water_risk_score": 51,
+        "water_distance_m": 181.4,
+        "score_breakdown": {
+          "water_proximity": 15,
+          "material_toxicity": 22,
+          "size_weight": 12,
+          "environmental": 2
+        }
       }
     },
     {
@@ -2099,18 +2795,26 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-C2AE19A5",
+        "id": "DET-2026-C5F33828",
         "timestamp": "2026-01-15T15:24:40.284174",
         "category": "plastic_bottle",
         "category_name": "Plastic Bottles",
         "confidence": 0.851,
         "size_m2": 0.0015,
         "estimated_weight_kg": 0.03,
-        "priority": "low",
+        "priority": "medium",
         "color": "#3498db",
         "flight_id": "SYLVA-LAK-001",
         "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
+        "location": "Lake Erie - Highway & Waterfront, Ohio",
+        "water_risk_score": 36,
+        "water_distance_m": 518.8,
+        "score_breakdown": {
+          "water_proximity": 3,
+          "material_toxicity": 25,
+          "size_weight": 6,
+          "environmental": 2
+        }
       }
     },
     {
@@ -2123,18 +2827,26 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-ED1193B9",
+        "id": "DET-2026-E1D08E23",
         "timestamp": "2026-01-15T15:27:55.390571",
         "category": "plastic_bottle",
         "category_name": "Plastic Bottles",
         "confidence": 0.981,
         "size_m2": 0.003,
         "estimated_weight_kg": 0.017,
-        "priority": "low",
+        "priority": "medium",
         "color": "#3498db",
         "flight_id": "SYLVA-LAK-001",
         "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
+        "location": "Lake Erie - Highway & Waterfront, Ohio",
+        "water_risk_score": 36,
+        "water_distance_m": 768.0,
+        "score_breakdown": {
+          "water_proximity": 3,
+          "material_toxicity": 25,
+          "size_weight": 6,
+          "environmental": 2
+        }
       }
     },
     {
@@ -2147,18 +2859,26 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-35FF8BEF",
+        "id": "DET-2026-16218A9D",
         "timestamp": "2026-01-15T15:31:09.910288",
         "category": "metal_debris",
         "category_name": "Metal Debris",
         "confidence": 0.93,
         "size_m2": 0.0697,
         "estimated_weight_kg": 0.802,
-        "priority": "low",
+        "priority": "medium",
         "color": "#95a5a6",
         "flight_id": "SYLVA-LAK-001",
         "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
+        "location": "Lake Erie - Highway & Waterfront, Ohio",
+        "water_risk_score": 35,
+        "water_distance_m": 868.0,
+        "score_breakdown": {
+          "water_proximity": 3,
+          "material_toxicity": 22,
+          "size_weight": 8,
+          "environmental": 2
+        }
       }
     },
     {
@@ -2171,18 +2891,26 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-D4CFCE68",
+        "id": "DET-2026-CA8680BC",
         "timestamp": "2026-01-15T15:34:24.959777",
         "category": "plastic_bottle",
         "category_name": "Plastic Bottles",
         "confidence": 0.766,
         "size_m2": 0.0024,
         "estimated_weight_kg": 0.033,
-        "priority": "low",
+        "priority": "medium",
         "color": "#3498db",
         "flight_id": "SYLVA-LAK-001",
         "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
+        "location": "Lake Erie - Highway & Waterfront, Ohio",
+        "water_risk_score": 48,
+        "water_distance_m": 195.2,
+        "score_breakdown": {
+          "water_proximity": 15,
+          "material_toxicity": 25,
+          "size_weight": 6,
+          "environmental": 2
+        }
       }
     },
     {
@@ -2195,7 +2923,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-3EB2B33D",
+        "id": "DET-2026-84A38658",
         "timestamp": "2026-01-15T15:37:39.520322",
         "category": "tire",
         "category_name": "Tires",
@@ -2206,7 +2934,15 @@
         "color": "#2c3e50",
         "flight_id": "SYLVA-LAK-001",
         "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
+        "location": "Lake Erie - Highway & Waterfront, Ohio",
+        "water_risk_score": 60,
+        "water_distance_m": 202.0,
+        "score_breakdown": {
+          "water_proximity": 8,
+          "material_toxicity": 28,
+          "size_weight": 22,
+          "environmental": 2
+        }
       }
     },
     {
@@ -2219,18 +2955,26 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-102EDC2C",
+        "id": "DET-2026-D8416E35",
         "timestamp": "2026-01-15T15:40:54.405679",
         "category": "metal_debris",
         "category_name": "Metal Debris",
         "confidence": 0.787,
         "size_m2": 0.0557,
         "estimated_weight_kg": 0.614,
-        "priority": "low",
+        "priority": "medium",
         "color": "#95a5a6",
         "flight_id": "SYLVA-LAK-001",
         "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
+        "location": "Lake Erie - Highway & Waterfront, Ohio",
+        "water_risk_score": 35,
+        "water_distance_m": 696.5,
+        "score_breakdown": {
+          "water_proximity": 3,
+          "material_toxicity": 22,
+          "size_weight": 8,
+          "environmental": 2
+        }
       }
     },
     {
@@ -2243,7 +2987,7 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-ED19927A",
+        "id": "DET-2026-C9D0314B",
         "timestamp": "2026-01-15T15:47:23.834815",
         "category": "food_packaging",
         "category_name": "Food Packaging/Cardboard",
@@ -2254,7 +2998,15 @@
         "color": "#e67e22",
         "flight_id": "SYLVA-LAK-001",
         "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
+        "location": "Lake Erie - Highway & Waterfront, Ohio",
+        "water_risk_score": 29,
+        "water_distance_m": 616.6,
+        "score_breakdown": {
+          "water_proximity": 3,
+          "material_toxicity": 18,
+          "size_weight": 6,
+          "environmental": 2
+        }
       }
     },
     {
@@ -2267,24 +3019,32 @@
         ]
       },
       "properties": {
-        "id": "DET-2025-43FA84BD",
+        "id": "DET-2026-617D8CFA",
         "timestamp": "2026-01-15T15:53:53.740362",
         "category": "plastic_bottle",
         "category_name": "Plastic Bottles",
         "confidence": 0.955,
         "size_m2": 0.0017,
         "estimated_weight_kg": 0.039,
-        "priority": "low",
+        "priority": "medium",
         "color": "#3498db",
         "flight_id": "SYLVA-LAK-001",
         "environment": "highway",
-        "location": "Lake Erie - Highway & Waterfront, Ohio"
+        "location": "Lake Erie - Highway & Waterfront, Ohio",
+        "water_risk_score": 41,
+        "water_distance_m": 415.5,
+        "score_breakdown": {
+          "water_proximity": 8,
+          "material_toxicity": 25,
+          "size_weight": 6,
+          "environmental": 2
+        }
       }
     }
   ],
   "properties": {
     "location": "Lake Erie - Highway & Waterfront, Ohio",
     "total_detections": 95,
-    "generated_at": "2025-12-26T10:49:56.920654"
+    "generated_at": "2026-01-04T19:42:30.729019"
   }
 }

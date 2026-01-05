@@ -61,10 +61,10 @@
     }
   ],
   "by_priority": {
-    "critical": 20,
-    "high": 12,
-    "medium": 14,
-    "low": 64
+    "critical": 6,
+    "high": 35,
+    "medium": 64,
+    "low": 5
   },
   "location": "NASA - Space Center Houston, Texas",
   "environment_type": "urban_waterfront"

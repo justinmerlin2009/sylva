@@ -66,10 +66,10 @@
         }
       ],
       "by_priority": {
-        "critical": 6,
-        "high": 11,
-        "medium": 16,
-        "low": 62
+        "critical": 2,
+        "high": 34,
+        "medium": 50,
+        "low": 9
       },
       "location": "Stinson Beach Coastline, California",
       "environment_type": "beach"
@@ -137,10 +137,10 @@
         }
       ],
       "by_priority": {
-        "critical": 14,
-        "high": 5,
-        "medium": 13,
-        "low": 63
+        "critical": 0,
+        "high": 16,
+        "medium": 48,
+        "low": 31
       },
       "location": "Lake Erie - Highway & Waterfront, Ohio",
       "environment_type": "highway"
@@ -208,14 +208,14 @@
         }
       ],
       "by_priority": {
-        "critical": 20,
-        "high": 12,
-        "medium": 14,
-        "low": 64
+        "critical": 6,
+        "high": 35,
+        "medium": 64,
+        "low": 5
       },
       "location": "NASA - Space Center Houston, Texas",
       "environment_type": "urban_waterfront"
     }
   },
-  "generated_at": "2025-12-26T10:49:56.940462"
+  "generated_at": "2026-01-04T19:42:30.743561"
 }

@@ -411,7 +411,7 @@ class TrashDetector:
         return np.random.choice(categories, p=probabilities)
 
     def _generate_detection(self, lat: float, lon: float, timestamp: str, flight_id: str) -> Dict:
-        """Generate a single trash detection with all metadata."""
+        """Generate a single trash detection with all metadata including Water Risk Score."""
         category = self._select_category(lat, lon)
         cat_data = TRASH_CATEGORIES[category]
 
@@ -427,8 +427,8 @@ class TrashDetector:
         conf_min, conf_max = DETECTION_PARAMS["confidence_range"]
         confidence = np.random.uniform(conf_min, conf_max)
 
-        # Calculate priority based on various factors
-        priority = self._calculate_priority(lat, lon, weight, size)
+        # Calculate priority using Water Risk Scoring Algorithm
+        priority, score_breakdown = self._calculate_priority(lat, lon, weight, size, category)
 
         # Add small random offset to exact position (simulating detection uncertainty)
         lat_offset = np.random.uniform(-0.00005, 0.00005)
@@ -455,51 +455,141 @@ class TrashDetector:
                 "flight_id": flight_id,
                 "environment": self.env_type,
                 "location": self.location["name"],
+                # Water Risk Score breakdown - key innovation
+                "water_risk_score": score_breakdown["total"],
+                "water_distance_m": score_breakdown["water_distance_m"],
+                "score_breakdown": {
+                    "water_proximity": score_breakdown["water_proximity"],
+                    "material_toxicity": score_breakdown["material_toxicity"],
+                    "size_weight": score_breakdown["size_weight"],
+                    "environmental": score_breakdown["environmental"],
+                },
             },
         }
 
-    def _calculate_priority(self, lat: float, lon: float, weight: float, size: float) -> str:
-        """Calculate priority level based on weight, size, and location sensitivity."""
-        # Base score from weight
-        score = 0
+    def _calculate_priority(self, lat: float, lon: float, weight: float, size: float, category: str = None) -> Tuple[str, Dict]:
+        """
+        Calculate priority level using Sylva's Water Risk Scoring Algorithm.
 
-        if weight > 10:
-            score += 40
-        elif weight > 5:
-            score += 30
-        elif weight > 1:
-            score += 20
-        else:
-            score += 10
+        This novel algorithm prioritizes detections based on:
+        1. Water proximity - distance to nearest water body
+        2. Material toxicity - environmental hazard rating
+        3. Size/Weight - physical impact potential
+        4. Environmental context - ecosystem sensitivity
 
-        # Add score from size
-        if size > 0.3:
-            score += 30
-        elif size > 0.1:
-            score += 20
-        elif size > 0.05:
-            score += 10
+        Returns:
+            Tuple of (priority_level, score_breakdown)
+        """
+        score_breakdown = {
+            "water_proximity": 0,
+            "material_toxicity": 0,
+            "size_weight": 0,
+            "environmental": 0,
+            "total": 0,
+            "water_distance_m": 0,
+        }
 
-        # Add score from location sensitivity
-        density_mult = self._get_density_multiplier(lat, lon)
-        if density_mult > 3:
-            score += 20  # In a major hotspot
-        elif density_mult > 2:
-            score += 10
-
-        # Beach environments are more sensitive
+        # 1. WATER PROXIMITY SCORE (0-35 points) - Key Innovation
+        # Simulated distance to nearest water body based on environment
         if self.env_type == "beach":
-            score += 10
-
-        # Determine priority level
-        if score >= 70:
-            return "critical"
-        elif score >= 50:
-            return "high"
-        elif score >= 30:
-            return "medium"
+            # Beach: typically 10-200m from water
+            water_distance = random.uniform(10, 200)
+        elif self.env_type == "urban_waterfront":
+            # Urban waterfront: 20-500m from water
+            water_distance = random.uniform(20, 500)
         else:
-            return "low"
+            # Lake/highway: varies more, 50-1000m
+            water_distance = random.uniform(50, 1000)
+
+        score_breakdown["water_distance_m"] = round(water_distance, 1)
+
+        # Closer to water = higher priority
+        if water_distance < 25:
+            score_breakdown["water_proximity"] = 35  # Critical proximity
+        elif water_distance < 50:
+            score_breakdown["water_proximity"] = 30
+        elif water_distance < 100:
+            score_breakdown["water_proximity"] = 22
+        elif water_distance < 200:
+            score_breakdown["water_proximity"] = 15
+        elif water_distance < 500:
+            score_breakdown["water_proximity"] = 8
+        else:
+            score_breakdown["water_proximity"] = 3
+
+        # 2. MATERIAL TOXICITY SCORE (0-30 points)
+        # Based on environmental hazard potential
+        toxicity_scores = {
+            "plastic_bottle": 25,      # Microplastic breakdown risk
+            "tire": 28,                # Heavy metals, microplastics
+            "metal_debris": 22,        # Rust, contamination
+            "construction_waste": 20,  # Mixed hazards
+            "glass": 12,               # Physical hazard mainly
+            "food_packaging": 18,      # Often contains plastics
+            "textile": 15,             # Microfiber risk
+            "organic_waste": 8,        # Biodegradable but can cause algae
+        }
+        score_breakdown["material_toxicity"] = toxicity_scores.get(category, 15)
+
+        # 3. SIZE/WEIGHT SCORE (0-25 points)
+        size_weight_score = 0
+        if weight > 10:
+            size_weight_score += 15
+        elif weight > 5:
+            size_weight_score += 12
+        elif weight > 1:
+            size_weight_score += 8
+        else:
+            size_weight_score += 4
+
+        if size > 0.3:
+            size_weight_score += 10
+        elif size > 0.1:
+            size_weight_score += 7
+        elif size > 0.05:
+            size_weight_score += 4
+        else:
+            size_weight_score += 2
+
+        score_breakdown["size_weight"] = min(25, size_weight_score)
+
+        # 4. ENVIRONMENTAL CONTEXT SCORE (0-10 points)
+        env_score = 0
+        density_mult = self._get_density_multiplier(lat, lon)
+
+        if density_mult > 3:
+            env_score += 5  # In a major hotspot
+        elif density_mult > 2:
+            env_score += 3
+
+        # Ecosystem sensitivity bonus
+        if self.env_type == "beach":
+            env_score += 5  # Marine ecosystems most sensitive
+        elif self.env_type == "urban_waterfront":
+            env_score += 3  # Urban runoff concerns
+        else:
+            env_score += 2  # Freshwater systems
+
+        score_breakdown["environmental"] = min(10, env_score)
+
+        # Calculate total score
+        total = (score_breakdown["water_proximity"] +
+                 score_breakdown["material_toxicity"] +
+                 score_breakdown["size_weight"] +
+                 score_breakdown["environmental"])
+        score_breakdown["total"] = total
+
+        # Determine priority level (max possible = 100)
+        if total >= 75:
+            priority = "critical"
+        elif total >= 55:
+            priority = "high"
+        elif total >= 35:
+            priority = "medium"
+        else:
+            priority = "low"
+
+        return priority, score_breakdown
 
     def generate_detections_for_path(self, waypoints: List[Dict], flight_id: str) -> List[Dict]:
         """

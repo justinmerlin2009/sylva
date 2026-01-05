@@ -1048,6 +1048,133 @@ body {
 .result-value.priority-medium { color: var(--success); }
 .result-value.priority-low { color: var(--secondary); }
 
+/* Water Risk Score Section - Key Innovation */
+.water-risk-section {
+  margin-top: 16px;
+  padding: 14px;
+  background: linear-gradient(135deg, rgba(59, 130, 246, 0.1) 0%, rgba(34, 197, 94, 0.08) 100%);
+  border: 1px solid rgba(59, 130, 246, 0.25);
+  border-radius: 10px;
+}
+
+.water-risk-section h4 {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 13px;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 14px;
+  text-transform: none;
+}
+
+.water-risk-section .water-icon {
+  font-size: 16px;
+}
+
+.water-risk-section .risk-badge {
+  margin-left: auto;
+  padding: 4px 10px;
+  border-radius: 12px;
+  font-size: 13px;
+  font-weight: 700;
+  background: rgba(34, 197, 94, 0.2);
+  color: #22c55e;
+}
+
+.water-risk-section .risk-badge[data-priority="critical"] {
+  background: rgba(239, 68, 68, 0.2);
+  color: #ef4444;
+}
+
+.water-risk-section .risk-badge[data-priority="high"] {
+  background: rgba(249, 115, 22, 0.2);
+  color: #f97316;
+}
+
+.water-risk-section .risk-badge[data-priority="medium"] {
+  background: rgba(234, 179, 8, 0.2);
+  color: #eab308;
+}
+
+.risk-factors {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.risk-factor {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.factor-header {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 11px;
+}
+
+.factor-icon {
+  font-size: 12px;
+  width: 18px;
+  text-align: center;
+}
+
+.factor-name {
+  color: rgba(255, 255, 255, 0.8);
+  flex: 1;
+}
+
+.factor-score {
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 600;
+  font-size: 10px;
+}
+
+.factor-bar {
+  height: 6px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.factor-fill {
+  height: 100%;
+  border-radius: 3px;
+  transition: width 0.5s ease;
+}
+
+.factor-fill.water {
+  background: linear-gradient(90deg, #3b82f6, #06b6d4);
+}
+
+.factor-fill.toxicity {
+  background: linear-gradient(90deg, #f97316, #ef4444);
+}
+
+.factor-fill.size {
+  background: linear-gradient(90deg, #8b5cf6, #a855f7);
+}
+
+.factor-fill.ecosystem {
+  background: linear-gradient(90deg, #22c55e, #10b981);
+}
+
+.risk-explanation {
+  margin-top: 12px;
+  padding-top: 10px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  text-align: center;
+}
+
+.risk-explanation small {
+  font-size: 10px;
+  color: rgba(255, 255, 255, 0.5);
+  font-style: italic;
+}
+
 /* Camera Specs Section */
 .camera-specs {
   padding: 12px 16px;

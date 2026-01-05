@@ -61,10 +61,10 @@
     }
   ],
   "by_priority": {
-    "critical": 14,
-    "high": 5,
-    "medium": 13,
-    "low": 63
+    "critical": 0,
+    "high": 16,
+    "medium": 48,
+    "low": 31
   },
   "location": "Lake Erie - Highway & Waterfront, Ohio",
   "environment_type": "highway"
