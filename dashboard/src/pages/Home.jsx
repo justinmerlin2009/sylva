@@ -44,11 +44,16 @@ function Home() {
         <section id="why" className="content-section">
           <h2 className="section-title">Why It Matters</h2>
           <div className="impact-highlight">
-            <span className="impact-number">$13 Billion</span>
-            <span className="impact-label">Annual damage to marine ecosystems from plastic pollution</span>
-            <span className="impact-source">
-              <a href="https://www.unep.org/news-and-stories/press-release/plastic-waste-causes-financial-damage-us13-billion-marine-ecosystems" target="_blank" rel="noopener noreferrer">UNEP, 2014</a>; <a href="https://www.unep.org/plastic-pollution" target="_blank" rel="noopener noreferrer">UNEP, 2023</a>
-            </span>
+            <div className="impact-content">
+              <span className="impact-number">$13 Billion</span>
+              <span className="impact-label">Annual damage to marine ecosystems from plastic pollution</span>
+              <span className="impact-source">
+                <a href="https://www.unep.org/news-and-stories/press-release/plastic-waste-causes-financial-damage-us13-billion-marine-ecosystems" target="_blank" rel="noopener noreferrer">UNEP, 2014</a>; <a href="https://www.unep.org/plastic-pollution" target="_blank" rel="noopener noreferrer">UNEP, 2023</a>
+              </span>
+            </div>
+            <div className="impact-image">
+              <img src="/images/PollutionExample_USHighway.png" alt="Highway pollution example" />
+            </div>
           </div>
           <div className="market-stats">
             <div className="market-stat">
