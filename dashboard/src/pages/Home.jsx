@@ -301,23 +301,9 @@ function Home() {
 
               <div className="accuracy-bar-chart">
                 <div className="bar-chart-y-axis">
-                  <span>100%</span>
-                  <span>90%</span>
-                  <span>80%</span>
-                  <span>70%</span>
-                  <span>60%</span>
-                  <span>50%</span>
+                  <span className="y-axis-label">Trash Detection Accuracy</span>
                 </div>
                 <div className="bar-chart-area">
-                  {/* Grid lines - 6 lines for 50-100% range */}
-                  <div className="bar-grid-lines">
-                    <div className="bar-grid-line"></div>
-                    <div className="bar-grid-line"></div>
-                    <div className="bar-grid-line"></div>
-                    <div className="bar-grid-line"></div>
-                    <div className="bar-grid-line"></div>
-                    <div className="bar-grid-line"></div>
-                  </div>
                   {/* Customer threshold line at 85% - 70% up from 50% baseline */}
                   <div className="threshold-line-container" style={{ bottom: '212px' }}>
                     <div className="threshold-line-bar"></div>

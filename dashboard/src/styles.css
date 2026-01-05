@@ -2388,13 +2388,19 @@ body {
 
 .bar-chart-y-axis {
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  font-size: 11px;
-  color: #64748b;
-  text-align: right;
+  align-items: center;
+  justify-content: center;
   padding-bottom: 55px;
-  width: 40px;
+  width: 24px;
+}
+
+.y-axis-label {
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  font-size: 12px;
+  font-weight: 600;
+  color: #94a3b8;
+  letter-spacing: 0.5px;
 }
 
 .bar-chart-area {
