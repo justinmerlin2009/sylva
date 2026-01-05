@@ -294,105 +294,61 @@ function Home() {
               </div>
             </div>
 
-            {/* Sensor Fusion Accuracy Chart */}
+            {/* Sensor Fusion Accuracy Chart - Vertical Bars */}
             <div className="accuracy-chart-home">
               <h4 className="accuracy-chart-title">Sensor Fusion Accuracy</h4>
-              <p className="accuracy-chart-subtitle">Combining sensors creates synergy — Sylva's hybrid camera achieves higher accuracy than any single sensor alone.</p>
+              <p className="accuracy-chart-subtitle">Combining sensors creates synergy. Sylva's hybrid camera achieves higher accuracy than any single sensor alone.</p>
 
-              <div className="accuracy-line-chart">
-                <div className="chart-y-axis">
+              <div className="accuracy-bar-chart">
+                <div className="bar-chart-y-axis">
+                  <span>100%</span>
                   <span>90%</span>
                   <span>80%</span>
                   <span>70%</span>
                   <span>60%</span>
                 </div>
-                <div className="chart-area">
-                  <div className="chart-grid">
-                    <div className="grid-line"></div>
-                    <div className="grid-line"></div>
-                    <div className="grid-line"></div>
-                    <div className="grid-line"></div>
+                <div className="bar-chart-area">
+                  {/* Grid lines */}
+                  <div className="bar-grid-lines">
+                    <div className="bar-grid-line"></div>
+                    <div className="bar-grid-line"></div>
+                    <div className="bar-grid-line"></div>
+                    <div className="bar-grid-line"></div>
+                    <div className="bar-grid-line"></div>
                   </div>
-                  <svg className="chart-svg" viewBox="0 0 500 200" preserveAspectRatio="none">
-                    <defs>
-                      <linearGradient id="chartGradientHome" x1="0%" y1="0%" x2="0%" y2="100%">
-                        <stop offset="0%" stopColor="#22c55e" stopOpacity="0.3"/>
-                        <stop offset="100%" stopColor="#22c55e" stopOpacity="0.05"/>
-                      </linearGradient>
-                    </defs>
-                    {/* Customer Threshold Line at 85% */}
-                    <line
-                      className="threshold-line"
-                      x1="0"
-                      y1="45"
-                      x2="500"
-                      y2="45"
-                      stroke="#ef4444"
-                      strokeWidth="2"
-                      strokeDasharray="8,4"
-                    />
-                    <text x="10" y="40" fill="#ef4444" fontSize="11" fontWeight="600">Customer Threshold (85%)</text>
-                    <path
-                      className="chart-area-fill"
-                      d="M 50,140 L 137,140 L 225,100 L 312,80 L 430,10 L 430,200 L 50,200 Z"
-                      fill="url(#chartGradientHome)"
-                    />
-                    <path
-                      className="chart-line"
-                      d="M 50,140 L 137,140 L 225,100 L 312,80 L 430,10"
-                      fill="none"
-                      stroke="#22c55e"
-                      strokeWidth="3"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                    />
-                    <circle className="chart-point" cx="50" cy="140" r="8" fill="#f59e0b"/>
-                    <circle className="chart-point" cx="137" cy="140" r="8" fill="#f59e0b"/>
-                    <circle className="chart-point" cx="225" cy="100" r="8" fill="#eab308"/>
-                    <circle className="chart-point" cx="312" cy="80" r="8" fill="#84cc16"/>
-                    <circle className="chart-point" cx="430" cy="10" r="8" fill="#22c55e"/>
-                  </svg>
-                  <div className="chart-labels">
-                    <div className="chart-label" style={{ left: '10%' }}>
-                      <span className="label-value orange">~70%</span>
-                      <span className="label-sensor">RGB Only</span>
+                  {/* Customer threshold line at 85% */}
+                  <div className="threshold-line-container" style={{ bottom: '62.5%' }}>
+                    <div className="threshold-line-bar"></div>
+                    <span className="threshold-label">Customer Threshold (85%)</span>
+                  </div>
+                  {/* Bars */}
+                  <div className="bar-columns">
+                    <div className="bar-column">
+                      <div className="bar orange" style={{ height: '25%' }}></div>
+                      <span className="bar-value">~70%</span>
+                      <span className="bar-label">RGB<br/>Only</span>
                     </div>
-                    <div className="chart-label" style={{ left: '27%' }}>
-                      <span className="label-value orange">~70%</span>
-                      <span className="label-sensor">Hyperspectral</span>
+                    <div className="bar-column">
+                      <div className="bar orange" style={{ height: '25%' }}></div>
+                      <span className="bar-value">~70%</span>
+                      <span className="bar-label">Hyper-<br/>spectral</span>
                     </div>
-                    <div className="chart-label" style={{ left: '45%' }}>
-                      <span className="label-value yellow">~78%</span>
-                      <span className="label-sensor">RGB + Hyper</span>
+                    <div className="bar-column">
+                      <div className="bar yellow" style={{ height: '45%' }}></div>
+                      <span className="bar-value">~78%</span>
+                      <span className="bar-label">RGB +<br/>Hyper</span>
                     </div>
-                    <div className="chart-label" style={{ left: '62%' }}>
-                      <span className="label-value lime">~80%</span>
-                      <span className="label-sensor">RGB + LiDAR</span>
+                    <div className="bar-column">
+                      <div className="bar lime" style={{ height: '50%' }}></div>
+                      <span className="bar-value">~80%</span>
+                      <span className="bar-label">RGB +<br/>LiDAR</span>
                     </div>
-                    <div className="chart-label highlight" style={{ left: '86%' }}>
-                      <span className="label-value green">&gt;90%</span>
-                      <span className="label-sensor">Full Fusion</span>
+                    <div className="bar-column highlight">
+                      <div className="bar green" style={{ height: '75%' }}></div>
+                      <span className="bar-value green-text">&gt;90%</span>
+                      <span className="bar-label highlight-label">Sylva<br/>Full Fusion</span>
                     </div>
                   </div>
-                </div>
-              </div>
-
-              <div className="accuracy-legend">
-                <div className="legend-item">
-                  <span className="legend-dot orange"></span>
-                  <span>Single Sensor (~70%)</span>
-                </div>
-                <div className="legend-item">
-                  <span className="legend-dot yellow"></span>
-                  <span>RGB + Hyperspectral</span>
-                </div>
-                <div className="legend-item">
-                  <span className="legend-dot lime"></span>
-                  <span>RGB + LiDAR</span>
-                </div>
-                <div className="legend-item highlight">
-                  <span className="legend-dot green"></span>
-                  <span>Sylva Full Fusion</span>
                 </div>
               </div>
             </div>
