@@ -363,7 +363,7 @@ function Home() {
                   </div>
                 </div>
               </div>
-              <p className="chart-reference">Estimates based on Gao et al. (2024), "Multi-sensor fusion for waste detection", Remote Sensing</p>
+              <p className="chart-reference">Estimates based on <a href="https://www.tandfonline.com/doi/full/10.1080/01431161.2024.2429784" target="_blank" rel="noopener noreferrer">Zhang et al. (2024), "Multi-sensor remote sensing data fusion", Int. J. Remote Sensing</a></p>
             </div>
           </div>
 
