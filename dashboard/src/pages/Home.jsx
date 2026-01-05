@@ -118,7 +118,7 @@ function Home() {
             </div>
             <div className="market-stat">
               <span className="market-number">$1.1B</span>
-              <span className="market-label">California Clean California budget</span>
+              <span className="market-label">Clean California budget</span>
               <span className="stat-source">
                 <a href="https://cleancalifornia.dot.ca.gov/" target="_blank" rel="noopener noreferrer">Caltrans, 2024</a>
               </span>
