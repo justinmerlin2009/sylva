@@ -82,21 +82,21 @@ function InstructionsPopup({ onClose, onDontShowAgain }) {
 // Showcase overlay component
 function ShowcaseOverlay({ step, message, progress, onClose, locationName }) {
   const stepInfo = {
-    0: { title: 'Welcome to Sylva', subtitle: 'Automated Pollution Detection Demo' },
-    1: { title: 'Stinson Beach, California', subtitle: 'Coastal Survey - Marine Debris Detection' },
-    2: { title: 'Surveying in Progress', subtitle: 'AI analyzing aerial imagery...' },
-    3: { title: 'NASA Space Center, Texas', subtitle: 'Urban Waterfront - Mixed Waste Detection' },
-    4: { title: 'Surveying in Progress', subtitle: 'AI analyzing aerial imagery...' },
-    5: { title: 'Lake Erie, Ohio', subtitle: 'Highway Corridor - Industrial Debris' },
-    6: { title: 'Surveying in Progress', subtitle: 'AI analyzing aerial imagery...' },
-    7: { title: 'Demo Complete', subtitle: 'Thank you for watching' },
+    0: { title: 'Sylva Demo', subtitle: 'Autonomous Pollution Detection' },
+    1: { title: 'Stinson Beach, California', subtitle: 'Coastal Marine Debris Survey' },
+    2: { title: 'Stinson Beach', subtitle: 'Scanning coastline...' },
+    3: { title: 'Lake Erie, Ohio', subtitle: 'Highway Corridor Survey' },
+    4: { title: 'Lake Erie', subtitle: 'Analyzing pollution zones...' },
+    5: { title: 'NASA Space Center, Texas', subtitle: 'Urban Waterfront Survey' },
+    6: { title: 'NASA Space Center', subtitle: 'Detecting debris...' },
+    7: { title: 'Demo Complete', subtitle: 'Explore the simulation!' },
   }
 
   const info = stepInfo[step] || stepInfo[0]
 
   return (
     <div className="showcase-overlay">
-      <button className="showcase-close" onClick={onClose}>✕ Exit Demo</button>
+      <button className="showcase-close" onClick={onClose}>✕ Exit</button>
 
       <div className="showcase-header">
         <div className="showcase-title">{info.title}</div>
@@ -113,19 +113,19 @@ function ShowcaseOverlay({ step, message, progress, onClose, locationName }) {
 
       {step === 0 && (
         <div className="showcase-intro">
-          <p>Watch Sylva survey three different environments across the United States:</p>
+          <p>Watch Sylva survey three US environments:</p>
           <div className="showcase-locations-preview">
             <div className="location-preview">
               <span className="location-icon">🏖️</span>
               <span>Stinson Beach, CA</span>
             </div>
             <div className="location-preview">
-              <span className="location-icon">🚀</span>
-              <span>NASA Space Center, TX</span>
+              <span className="location-icon">🛣️</span>
+              <span>Lake Erie, OH</span>
             </div>
             <div className="location-preview">
-              <span className="location-icon">🏭</span>
-              <span>Lake Erie, OH</span>
+              <span className="location-icon">🚀</span>
+              <span>NASA Space Center, TX</span>
             </div>
           </div>
         </div>
@@ -466,17 +466,19 @@ function App() {
   }, [])
 
   // Showcase mode functions
-  const showcaseLocations = ['stinson_beach', 'nasa_space_center', 'lake_erie']
+  // Order: Stinson Beach → Lake Erie → NASA Space Center
+  const showcaseLocations = ['stinson_beach', 'lake_erie', 'nasa_space_center']
 
   const startShowcase = useCallback(() => {
     setShowcaseMode(true)
     setShowcaseStep(0)
-    setShowcaseMessage('Starting automated showcase...')
+    setShowcaseMessage('Starting Sylva Demo...')
     setSatelliteView(true)
+    setShowHeatmap(false)
     setShowInstructions(false)
 
-    // Start the showcase sequence
-    setTimeout(() => runShowcaseStep(0), 2000)
+    // Start the showcase sequence immediately
+    setTimeout(() => runShowcaseStep(0), 1000)
   }, [])
 
   const runShowcaseStep = (step) => {
@@ -484,52 +486,77 @@ function App() {
 
     setShowcaseStep(step)
 
-    // Showcase sequence:
-    // 0: Intro
-    // 1: Switch to Stinson Beach
+    // Showcase sequence - faster and more dynamic:
+    // 0: Quick intro
+    // 1: Fly to Stinson Beach (satellite view, no heatmap)
     // 2: Run demo at Stinson
-    // 3: Switch to NASA
-    // 4: Run demo at NASA
-    // 5: Switch to Lake Erie
-    // 6: Run demo at Lake Erie
-    // 7: Summary
+    // 3: Fly to Lake Erie (map view, show heatmap)
+    // 4: Run demo at Lake Erie
+    // 5: Fly to NASA Space Center (satellite view, no heatmap)
+    // 6: Run demo at NASA
+    // 7: Summary with heatmap
+
+    const DEMO_SPEED = 5.0  // 5x speed for fast showcase
+    const DEMO_DURATION = 12000  // 12 seconds per location
 
     if (step === 0) {
-      setShowcaseMessage('Welcome to the Sylva automated showcase')
-      showcaseTimerRef.current = setTimeout(() => runShowcaseStep(1), 3000)
+      setShowcaseMessage('Sylva Autonomous Pollution Detection')
+      showcaseTimerRef.current = setTimeout(() => runShowcaseStep(1), 1500)
     } else if (step === 1) {
+      // Stinson Beach - Satellite view, no heatmap
       setSelectedLocation('stinson_beach')
-      setShowcaseMessage('Flying to Stinson Beach, California...')
-      showcaseTimerRef.current = setTimeout(() => runShowcaseStep(2), 2500)
+      setSatelliteView(true)
+      setShowHeatmap(false)
+      setShowcaseMessage('Stinson Beach, California — Coastal Survey')
+      showcaseTimerRef.current = setTimeout(() => runShowcaseStep(2), 1500)
     } else if (step === 2) {
-      setShowcaseMessage('Initiating coastal survey...')
-      startDemo('stinson_beach', 3.0, 0) // 3x speed for showcase
-      showcaseTimerRef.current = setTimeout(() => runShowcaseStep(3), 15000) // 15 seconds per location
+      setShowcaseMessage('Scanning coastline for marine debris...')
+      startDemo('stinson_beach', DEMO_SPEED, 0)
+      // Toggle to map view mid-flight
+      setTimeout(() => setSatelliteView(false), 4000)
+      // Show heatmap near end
+      setTimeout(() => setShowHeatmap(true), 8000)
+      showcaseTimerRef.current = setTimeout(() => runShowcaseStep(3), DEMO_DURATION)
     } else if (step === 3) {
-      stopDemo()
-      setSelectedLocation('nasa_space_center')
-      setShowcaseMessage('Flying to NASA Space Center, Texas...')
-      showcaseTimerRef.current = setTimeout(() => runShowcaseStep(4), 2500)
-    } else if (step === 4) {
-      setShowcaseMessage('Initiating urban waterfront survey...')
-      startDemo('nasa_space_center', 3.0, 0)
-      showcaseTimerRef.current = setTimeout(() => runShowcaseStep(5), 15000)
-    } else if (step === 5) {
+      // Lake Erie - Map view, heatmap on
       stopDemo()
       setSelectedLocation('lake_erie')
-      setShowcaseMessage('Flying to Lake Erie, Ohio...')
-      showcaseTimerRef.current = setTimeout(() => runShowcaseStep(6), 2500)
+      setSatelliteView(false)
+      setShowHeatmap(true)
+      setShowcaseMessage('Lake Erie, Ohio — Highway Corridor')
+      showcaseTimerRef.current = setTimeout(() => runShowcaseStep(4), 1500)
+    } else if (step === 4) {
+      setShowcaseMessage('Surveying highway pollution zones...')
+      startDemo('lake_erie', DEMO_SPEED, 0)
+      // Toggle to satellite mid-flight
+      setTimeout(() => setSatelliteView(true), 4000)
+      // Turn off heatmap mid-flight
+      setTimeout(() => setShowHeatmap(false), 6000)
+      showcaseTimerRef.current = setTimeout(() => runShowcaseStep(5), DEMO_DURATION)
+    } else if (step === 5) {
+      // NASA Space Center - Satellite view
+      stopDemo()
+      setSelectedLocation('nasa_space_center')
+      setSatelliteView(true)
+      setShowHeatmap(false)
+      setShowcaseMessage('NASA Space Center, Texas — Urban Waterfront')
+      showcaseTimerRef.current = setTimeout(() => runShowcaseStep(6), 1500)
     } else if (step === 6) {
-      setShowcaseMessage('Initiating highway corridor survey...')
-      startDemo('lake_erie', 3.0, 0)
-      showcaseTimerRef.current = setTimeout(() => runShowcaseStep(7), 15000)
+      setShowcaseMessage('Detecting urban waterfront debris...')
+      startDemo('nasa_space_center', DEMO_SPEED, 0)
+      // Toggle views during flight
+      setTimeout(() => setSatelliteView(false), 3000)
+      setTimeout(() => setShowHeatmap(true), 5000)
+      setTimeout(() => setSatelliteView(true), 8000)
+      showcaseTimerRef.current = setTimeout(() => runShowcaseStep(7), DEMO_DURATION)
     } else if (step === 7) {
       stopDemo()
-      setShowcaseMessage('Showcase complete. Explore the simulation on your own!')
+      setShowHeatmap(true)
+      setShowcaseMessage('Demo complete — Explore the simulation!')
       showcaseTimerRef.current = setTimeout(() => {
         setShowcaseMode(false)
         setShowcaseStep(0)
-      }, 5000)
+      }, 3000)
     }
   }
 

@@ -20,7 +20,7 @@ function PathDrawer({
   const [speed, setSpeed] = useState(25)
   const [isCreating, setIsCreating] = useState(false)
   const [isSaving, setIsSaving] = useState(false)
-  const [isCollapsed, setIsCollapsed] = useState(false)
+  const [isCollapsed, setIsCollapsed] = useState(true) // Collapsed by default
 
   const handleCreate = async () => {
     if (drawnPoints.length < 2) {
