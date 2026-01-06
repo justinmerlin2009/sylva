@@ -5518,6 +5518,31 @@ body {
   margin-top: 48px;
 }
 
+/* Club Affiliation Link */
+.club-affiliation {
+  text-align: center;
+  margin-top: 24px;
+}
+
+.club-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: #8b5cf6;
+  font-size: 1rem;
+  text-decoration: none;
+  padding: 8px 16px;
+  border: 1px solid rgba(139, 92, 246, 0.3);
+  border-radius: 20px;
+  transition: all 0.3s ease;
+}
+
+.club-link:hover {
+  background: rgba(139, 92, 246, 0.1);
+  border-color: #8b5cf6;
+  color: #a78bfa;
+}
+
 /* Contact Modal */
 .modal-overlay {
   position: fixed;

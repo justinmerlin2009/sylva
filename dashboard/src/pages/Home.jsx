@@ -630,6 +630,13 @@ function Home() {
             </button>
           </div>
 
+          {/* Tam Air Club Link */}
+          <div className="club-affiliation">
+            <a href="https://tamairclub.com" target="_blank" rel="noopener noreferrer" className="club-link">
+              Members of Tam Air Club
+            </a>
+          </div>
+
           {/* Mentor */}
           <div className="mentor-section">
             <h3 className="mentor-heading">Our Mentor</h3>
