@@ -2689,8 +2689,8 @@ body {
 /* Tech Section */
 .tech-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 60px;
+  grid-template-columns: 1fr;
+  gap: 40px;
   align-items: center;
   margin-top: 48px;
 }
