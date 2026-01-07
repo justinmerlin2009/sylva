@@ -2695,14 +2695,20 @@ body {
   margin-top: 48px;
 }
 
+.tech-content {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
 .tech-content h3 {
-  font-size: 28px;
+  font-size: 32px;
   margin-bottom: 20px;
   color: #22c55e;
 }
 
 .tech-content p {
-  font-size: 16px;
+  font-size: 17px;
   color: rgba(255, 255, 255, 0.7);
   line-height: 1.8;
   margin-bottom: 24px;
@@ -2711,6 +2717,12 @@ body {
 .tech-list {
   list-style: none;
   padding: 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 8px 40px;
+  text-align: left;
+  max-width: 600px;
+  margin: 0 auto;
 }
 
 .tech-list li {
@@ -2738,9 +2750,13 @@ body {
   font-size: 16px;
 }
 
+.tech-image {
+  text-align: center;
+}
+
 .tech-img {
   width: 100%;
-  max-width: 1170px;
+  max-width: 900px;
   height: auto;
   border-radius: 12px;
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
