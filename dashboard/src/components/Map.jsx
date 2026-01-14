@@ -196,8 +196,9 @@ function MapController({ center, zoom, shouldFollowDrone, disableAutoUpdate, onU
     }
 
     if (shouldFollowDrone) {
-      // Smooth pan to keep drone in view - longer duration for smoother camera movement
-      map.panTo(center, { animate: true, duration: 0.3 })
+      // Smooth pan to keep drone in view - short duration to match frame rate
+      // At 3.5x speed, frames arrive every ~14ms, so use quick transitions
+      map.panTo(center, { animate: true, duration: 0.08 })
     } else if (forceRecenter) {
       // Location changed - fly to new location
       const prevCenter = prevCenterRef.current
