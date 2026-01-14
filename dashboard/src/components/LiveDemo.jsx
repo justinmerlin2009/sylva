@@ -15,7 +15,7 @@ function LiveDemo({
   droneAltitude,
   droneSpeed,
 }) {
-  const [speed, setSpeed] = useState('1')
+  const [speed, setSpeed] = useState('0.5')  // Default to slow for smooth experience
   const [startWaypoint, setStartWaypoint] = useState(0)
 
   const handleStart = () => {
@@ -71,10 +71,10 @@ function LiveDemo({
               value={speed}
               onChange={(e) => setSpeed(e.target.value)}
             >
-              <option value="0.5">0.5x (Slow - Best for demos)</option>
+              <option value="0.5">0.5x (Recommended - Smooth)</option>
               <option value="1">1x (Normal)</option>
               <option value="2">2x (Fast)</option>
-              <option value="5">5x (Very Fast)</option>
+              <option value="3">3x (Very Fast)</option>
             </select>
           </div>
 

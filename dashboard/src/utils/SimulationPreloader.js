@@ -20,12 +20,19 @@ const preloadCache = {
   isComplete: false,
 }
 
-// Default location for tile preloading (Stinson Beach)
-const DEFAULT_LOCATION = {
-  lat: 37.8985,
-  lon: -122.6352,
-  zoom: 14,
-}
+// Locations for tile preloading (both demo locations)
+const PRELOAD_LOCATIONS = [
+  {
+    name: 'Stinson Beach',
+    lat: 37.8985,
+    lon: -122.6352,
+  },
+  {
+    name: 'NASA Space Center',
+    lat: 29.5589,
+    lon: -95.0899,
+  },
+]
 
 /**
  * Generate tile URLs for a given location and zoom level
@@ -70,20 +77,21 @@ function preloadTile(url) {
 }
 
 /**
- * Preload map tiles for the default location
+ * Preload map tiles for all demo locations
  */
 async function preloadMapTiles() {
   if (preloadCache.tilesLoaded) return
 
-  const { lat, lon, zoom } = DEFAULT_LOCATION
-  const zoomLevels = [12, 13, 14, 15] // Preload multiple zoom levels
-
+  const zoomLevels = [12, 13, 14, 15, 16] // Preload multiple zoom levels including demo zoom
   const allTileUrls = []
 
-  for (const z of zoomLevels) {
-    // Preload both map and satellite tiles
-    allTileUrls.push(...getTileUrls(lat, lon, z, 'carto'))
-    allTileUrls.push(...getTileUrls(lat, lon, z, 'esri'))
+  // Preload tiles for both Stinson Beach and NASA Space Center
+  for (const location of PRELOAD_LOCATIONS) {
+    for (const z of zoomLevels) {
+      // Preload both map and satellite tiles
+      allTileUrls.push(...getTileUrls(location.lat, location.lon, z, 'carto'))
+      allTileUrls.push(...getTileUrls(location.lat, location.lon, z, 'esri'))
+    }
   }
 
   // Load tiles in batches to avoid overwhelming the browser
