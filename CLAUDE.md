@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-Sylva is an environmental monitoring drone simulation system developed for the Conrad Challenge 2026 by the TamAir team. It demonstrates autonomous drone surveys for detecting and mapping pollution across US locations (Stinson Beach CA, NASA Space Center TX).
+Sylva is an environmental monitoring drone simulation system developed for the Conrad Challenge 2026 by the TamAir team. It demonstrates autonomous drone surveys for detecting and mapping pollution across US locations (Stinson Beach CA, NASA Space Center TX, Lake Erie OH).
 
 ## Git Commit Attribution
 
@@ -63,7 +63,7 @@ python -m simulation.data_generator
   - `DetectionDemo.jsx` - TACO + SAM 2 detection pipeline demo with video
 - `dashboard/src/components/`:
   - `Map.jsx` - Leaflet map with flight paths, detection markers, heatmap overlay
-  - `LiveDemo.jsx` - Real-time drone animation controls
+  - `LiveDemo.jsx` - Real-time drone animation controls (default 0.5x speed)
   - `DetectionPanel.jsx` - AI detection display with confidence scores
   - `Sidebar.jsx` - Filters and statistics
   - `PathDrawer.jsx` - Custom survey path drawing
@@ -74,26 +74,49 @@ python -m simulation.data_generator
 
 ### Performance Optimizations
 
-**Simulation Preloading:**
+**Simulation Preloading (`SimulationPreloader.js`):**
 - When users visit the Home page, simulation data preloads in the background
-- Preloads: API data (locations, detections, heatmap, flights) + map tiles
+- Preloads API data: locations, detections, heatmap, flights, categories, stats
+- Preloads map tiles for ALL 3 locations at zoom levels 12-16:
+  - Stinson Beach (37.8985, -122.6352)
+  - NASA Space Center (29.5589, -95.0899)
+  - Lake Erie (41.5, -81.5)
 - Starts 2 seconds after Home page renders
 - Uses preconnect hints in `index.html` for CARTO and ESRI tile CDNs
 
-**Demo Animation Settings:**
-- `DEMO_SPEED = 2.5` (2.5x real-time for smooth tile loading)
-- `DEMO_DURATION = 20000` (20 seconds per location)
-- `panTo duration = 0.3s` (smooth camera following)
-- Starts with map view (faster tiles), switches to satellite mid-demo
+**Showcase Demo Animation Settings (`App.jsx`):**
+- `DEMO_SPEED = 3.5` (3.5x real-time for smooth animation)
+- Per-location durations based on frame counts:
+  - `STINSON_DURATION = 15000` (847 frames, ~12s at 3.5x)
+  - `NASA_DURATION = 35000` (2234 frames, ~32s at 3.5x)
+- `FLY_DURATION = 2500` (transition between locations)
+- Total showcase: ~55 seconds
+
+**Map Camera Following (`Map.jsx`):**
+- `panTo duration = 0.08s` (matches frame rate at 3.5x speed)
+- Frames arrive every ~14ms at 3.5x speed (50ms base / 3.5)
+- Short duration prevents animation stacking/jerkiness
+
+**Manual Demo (`LiveDemo.jsx`):**
+- Default speed: 0.5x (Recommended - Smooth)
+- Speed options: 0.5x, 1x, 2x, 3x
+
+### Flight Path Frame Counts
+Important for calculating demo durations:
+- Stinson Beach: 847 frames
+- NASA Space Center: 2,234 frames
+- Lake Erie: 28,581 frames (very long path)
+
+Formula: `duration = frames * 0.05 / speed`
 
 ### Data Flow
 1. `simulation/` generates GeoJSON files in `data/` (flights, detections, heatmaps, stats)
 2. `api/` serves this data via REST endpoints
 3. `dashboard/` fetches from API and renders on Leaflet map
-4. WebSocket endpoints stream live demo animations
+4. WebSocket endpoints stream live demo animations at 50ms base interval
 
 ### Data Directory
-- `data/flights/` - Flight path GeoJSON per location
+- `data/flights/` - Flight path GeoJSON per location + `{location}_animation.json`
 - `data/detections/` - Detection GeoJSON per location + aggregated
 - `data/annual/` - Monthly/yearly analytics
 - `data/geography/` - Water bodies, roads, shorelines
@@ -132,7 +155,15 @@ Production deployed on Render:
 ## Recent Changes (Jan 2026)
 
 - Updated terminology: "Sylva Full Fusion" → "Sylva Hybrid Camera"
-- Added background preloading system for faster simulation load
-- Optimized demo animation speed (6x → 2.5x) for smoother tile loading
+- Added background preloading system for faster simulation load (all 3 locations)
+- Fixed NASA demo completing full flight path (was cutting off at 45%)
+- Optimized demo animation:
+  - Speed: 6x → 2.5x → 3.5x (current)
+  - Per-location durations instead of fixed 20s
+  - panTo duration: 0.3s → 0.08s for smoother camera
+- Manual demo default speed: 1x → 0.5x (smoother)
 - Fixed copyright year to 2026
 - Updated system diagram image
+- Fixed text: "actionable intelligence" → "actionable intelligence from the air"
+- Updated Fixed-Wing Surveillance description with hybrid camera details
+- Added API/GIS integration mention to Data Analytics section
