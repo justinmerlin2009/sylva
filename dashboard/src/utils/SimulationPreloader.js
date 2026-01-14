@@ -20,7 +20,7 @@ const preloadCache = {
   isComplete: false,
 }
 
-// Locations for tile preloading (both demo locations)
+// Locations for tile preloading (all three survey locations)
 const PRELOAD_LOCATIONS = [
   {
     name: 'Stinson Beach',
@@ -31,6 +31,11 @@ const PRELOAD_LOCATIONS = [
     name: 'NASA Space Center',
     lat: 29.5589,
     lon: -95.0899,
+  },
+  {
+    name: 'Lake Erie',
+    lat: 41.5,
+    lon: -81.5,
   },
 ]
 
@@ -85,7 +90,7 @@ async function preloadMapTiles() {
   const zoomLevels = [12, 13, 14, 15, 16] // Preload multiple zoom levels including demo zoom
   const allTileUrls = []
 
-  // Preload tiles for both Stinson Beach and NASA Space Center
+  // Preload tiles for all three locations (Stinson Beach, NASA, Lake Erie)
   for (const location of PRELOAD_LOCATIONS) {
     for (const z of zoomLevels) {
       // Preload both map and satellite tiles
