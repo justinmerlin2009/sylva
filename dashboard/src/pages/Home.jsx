@@ -316,7 +316,7 @@ function Home() {
                         <div className="bar orange" style={{ height: '32%' }}></div>
                       </div>
                       <span className="bar-value">~70%</span>
-                      <span className="bar-label">RGB<br/>Only</span>
+                      <span className="bar-label">RGB<br/>only</span>
                     </div>
                     <div className="bar-column">
                       <div className="bar-wrapper">
