@@ -294,11 +294,11 @@ function Technology() {
                 <div className="chart-labels">
                   <div className="chart-label" style={{ left: '10%' }}>
                     <span className="label-value orange">~70%</span>
-                    <span className="label-sensor">RGB Only</span>
+                    <span className="label-sensor">RGB only</span>
                   </div>
                   <div className="chart-label" style={{ left: '27%' }}>
                     <span className="label-value orange">~70%</span>
-                    <span className="label-sensor">Hyperspectral</span>
+                    <span className="label-sensor">Hyper-spectral only</span>
                   </div>
                   <div className="chart-label" style={{ left: '45%' }}>
                     <span className="label-value yellow">~78%</span>
@@ -310,7 +310,7 @@ function Technology() {
                   </div>
                   <div className="chart-label highlight" style={{ left: '86%' }}>
                     <span className="label-value green">90%</span>
-                    <span className="label-sensor">Full Fusion</span>
+                    <span className="label-sensor">Sylva Hybrid Camera</span>
                   </div>
                 </div>
               </div>
@@ -332,7 +332,7 @@ function Technology() {
               </div>
               <div className="legend-item highlight">
                 <span className="legend-dot green"></span>
-                <span>Sylva Full Fusion (&gt;90%)</span>
+                <span>Sylva Hybrid Camera (&gt;90%)</span>
               </div>
             </div>
 
@@ -451,7 +451,7 @@ function Technology() {
 
       {/* Footer */}
       <footer className="home-footer">
-        <p>&copy; 2025 Sylva. All rights reserved.</p>
+        <p>&copy; 2026 Sylva. All rights reserved.</p>
         <p className="footer-sub">TamAir - Conrad Challenge 2026</p>
       </footer>
     </div>
