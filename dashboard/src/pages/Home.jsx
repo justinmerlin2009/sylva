@@ -1,11 +1,23 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
+import { preloadSimulation } from '../utils/SimulationPreloader'
 
 // Formspree form ID - get yours at formspree.io
 const FORMSPREE_ID = 'xeeonjnz'
 
 function Home() {
   const [showContactModal, setShowContactModal] = useState(false)
+
+  // Preload simulation data in the background while user browses the home page
+  useEffect(() => {
+    // Wait 2 seconds after page load to start preloading
+    // This ensures the home page renders smoothly first
+    const timer = setTimeout(() => {
+      preloadSimulation()
+    }, 2000)
+
+    return () => clearTimeout(timer)
+  }, [])
   const [contactForm, setContactForm] = useState({
     email: '',
     subject: '',

@@ -7,6 +7,7 @@ import LiveDemo from './components/LiveDemo'
 import DetectionPanel from './components/DetectionPanel'
 import PathDrawer from './components/PathDrawer'
 import AnnualData from './components/AnnualData'
+import { getPreloadedData, isPreloadComplete } from './utils/SimulationPreloader'
 
 const API_BASE = 'https://sylva-api.onrender.com/api'
 const WS_BASE = 'wss://sylva-api.onrender.com'
@@ -230,6 +231,30 @@ function App() {
     try {
       setLoading(true)
 
+      // Check if data was preloaded from Home page
+      const preloaded = getPreloadedData()
+      const hasPreloadedData = isPreloadComplete() && preloaded.locations && preloaded.categories
+
+      if (hasPreloadedData) {
+        // Use preloaded data for instant load
+        console.log('Using preloaded simulation data')
+        setLocations(preloaded.locations.locations)
+        setCategories(preloaded.categories.categories)
+        setHeatmapData(preloaded.heatmap)
+        setFlights(preloaded.flights)
+
+        if (preloaded.detections) {
+          setDetections(preloaded.detections.features || [])
+        }
+        if (preloaded.stats) {
+          setStats(preloaded.stats)
+        }
+
+        setLoading(false)
+        return
+      }
+
+      // Fallback: fetch data from API if not preloaded
       const [locationsRes, categoriesRes, heatmapRes] = await Promise.all([
         axios.get(`${API_BASE}/locations`),
         axios.get(`${API_BASE}/detections/categories`),
