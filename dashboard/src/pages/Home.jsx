@@ -393,7 +393,7 @@ function Home() {
             <div className="feature-card">
               <img src="/images/icon-analytics.svg" alt="Analytics" className="feature-icon-img" />
               <h3>Data Analytics</h3>
-              <p>Detection data feeds into a centralized dashboard that generates heatmaps of pollution hotspots. Agencies can prioritize cleanup efforts, track trends over time, and measure the effectiveness of intervention programs.</p>
+              <p>Detection data feeds into a centralized dashboard that generates heatmaps of pollution hotspots. An API has also been developed to provide data directly to the customer's internal GIS software. Agencies can prioritize cleanup efforts, track trends over time, and measure the effectiveness of intervention programs.</p>
             </div>
           </div>
           <div className="system-diagram">
