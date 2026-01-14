@@ -397,7 +397,7 @@ function Home() {
             </div>
           </div>
           <div className="system-diagram">
-            <img src="/images/system-diagram.svg" alt="Sylva System Architecture" />
+            <img src="/images/system-diagram.png" alt="Sylva System Architecture" />
           </div>
         </section>
 
