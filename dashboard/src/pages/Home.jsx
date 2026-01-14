@@ -379,7 +379,7 @@ function Home() {
             <div className="feature-card">
               <img src="/images/icon-drone.svg" alt="Drone" className="feature-icon-img" />
               <h3>Fixed-Wing Surveillance</h3>
-              <p>Our fixed-wing UAV, piloted via VR headset, covers vast areas with 120-minute flight endurance. Equipped with front-mounted HD navigation camera and belly-mounted 4K plus multispectral sensors, it captures detailed imagery while the operator maintains immersive control.</p>
+              <p>Our fixed-wing UAV, piloted via VR headset, covers vast areas with 120-minute flight endurance. Equipped with front-mounted HD navigation camera and belly-mounted novel Sylva hybrid camera with multisensors (RGB, Hyperspectral and LiDAR), it captures detailed imagery while the operator maintains immersive control.</p>
             </div>
             <div className="feature-card">
               <img src="/images/icon-ai.svg" alt="AI" className="feature-icon-img" />
