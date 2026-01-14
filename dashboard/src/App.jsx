@@ -479,7 +479,7 @@ function App() {
     setShowcaseMode(true)
     setShowcaseStep(0)
     setShowcaseMessage('Starting Sylva Demo...')
-    setSatelliteView(true)
+    setSatelliteView(false)  // Start with map view (faster tile loading)
     setShowHeatmap(false)
     setShowInstructions(false)
     setFollowDrone(true)
@@ -498,9 +498,9 @@ function App() {
 
     setShowcaseStep(step)
 
-    const DEMO_SPEED = 6.0  // 6x speed for fast showcase
-    const DEMO_DURATION = 10000  // 10 seconds per location
-    const FLY_DURATION = 2000  // 2 seconds to fly to new location
+    const DEMO_SPEED = 2.5  // 2.5x speed for smooth showcase (allows tiles to load)
+    const DEMO_DURATION = 20000  // 20 seconds per location for smooth experience
+    const FLY_DURATION = 2500  // 2.5 seconds to fly to new location
 
     // Helper to trigger map recenter
     const flyToLocation = (locationId, satellite, heatmap) => {
@@ -515,7 +515,7 @@ function App() {
 
     if (step === 1) {
       // Fly to Stinson Beach
-      flyToLocation('stinson_beach', true, false)
+      flyToLocation('stinson_beach', false, false)  // Start with map view (faster tiles)
       setShowcaseMessage('Flying to Stinson Beach, California...')
       showcaseTimerRef.current = setTimeout(() => {
         if (showcaseActiveRef.current) runShowcaseStep(2)
@@ -524,15 +524,16 @@ function App() {
       // Run demo at Stinson Beach
       setShowcaseMessage('Coastal Survey — Detecting marine debris')
       startDemo('stinson_beach', DEMO_SPEED, 0)
-      // Dynamic view changes during flight
-      setTimeout(() => { if (showcaseActiveRef.current) setSatelliteView(false) }, 3500)
-      setTimeout(() => { if (showcaseActiveRef.current) setShowHeatmap(true) }, 7000)
+      // Dynamic view changes during flight (adjusted for 20s duration)
+      setTimeout(() => { if (showcaseActiveRef.current) setSatelliteView(true) }, 5000)   // Switch to satellite at 5s
+      setTimeout(() => { if (showcaseActiveRef.current) setShowHeatmap(true) }, 12000)   // Show heatmap at 12s
+      setTimeout(() => { if (showcaseActiveRef.current) setSatelliteView(false) }, 16000) // Back to map at 16s
       showcaseTimerRef.current = setTimeout(() => {
         if (showcaseActiveRef.current) runShowcaseStep(3)
       }, DEMO_DURATION)
     } else if (step === 3) {
       // Fly to NASA Space Center
-      flyToLocation('nasa_space_center', true, false)
+      flyToLocation('nasa_space_center', false, false)  // Start with map view
       setShowcaseMessage('Flying to NASA Space Center, Texas...')
       showcaseTimerRef.current = setTimeout(() => {
         if (showcaseActiveRef.current) runShowcaseStep(4)
@@ -541,10 +542,10 @@ function App() {
       // Run demo at NASA
       setShowcaseMessage('Urban Waterfront — Detecting debris')
       startDemo('nasa_space_center', DEMO_SPEED, 0)
-      // Dynamic view changes
-      setTimeout(() => { if (showcaseActiveRef.current) setSatelliteView(false) }, 2500)
-      setTimeout(() => { if (showcaseActiveRef.current) setShowHeatmap(true) }, 4500)
-      setTimeout(() => { if (showcaseActiveRef.current) setSatelliteView(true) }, 7500)
+      // Dynamic view changes (adjusted for 20s duration)
+      setTimeout(() => { if (showcaseActiveRef.current) setSatelliteView(true) }, 5000)    // Switch to satellite at 5s
+      setTimeout(() => { if (showcaseActiveRef.current) setShowHeatmap(true) }, 10000)    // Show heatmap at 10s
+      setTimeout(() => { if (showcaseActiveRef.current) setSatelliteView(false) }, 15000) // Back to map at 15s
       showcaseTimerRef.current = setTimeout(() => {
         if (showcaseActiveRef.current) runShowcaseStep(5)
       }, DEMO_DURATION)
