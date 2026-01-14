@@ -384,7 +384,7 @@ function Home() {
             <div className="feature-card">
               <img src="/images/icon-ai.svg" alt="AI" className="feature-icon-img" />
               <h3>AI Detection</h3>
-              <p>Computer vision algorithms analyze drone imagery in real-time to identify and classify pollution types including plastic debris, tire dumps, furniture, and hazardous materials. Each detection is assigned a priority level based on size, type, and environmental risk.</p>
+              <p>Sylva's computer vision fusion algorithm (using multi-input deep learning architecture) analyze drone imagery in real-time to identify and classify pollution types including plastic debris, tire dumps, furniture, and hazardous materials. Each detection is assigned a priority level based on size, type, and environmental risk.</p>
               <div className="feature-stats">
                 <span className="stat-badge">73% fewer false positives</span>
                 <span className="stat-badge">90% detection confidence</span>
