@@ -323,7 +323,7 @@ function Home() {
                         <div className="bar orange" style={{ height: '32%' }}></div>
                       </div>
                       <span className="bar-value">~70%</span>
-                      <span className="bar-label">Hyper-<br/>spectral</span>
+                      <span className="bar-label">Hyper-<br/>spectral only</span>
                     </div>
                     <div className="bar-column">
                       <div className="bar-wrapper">
@@ -344,7 +344,7 @@ function Home() {
                         <div className="bar green" style={{ height: '80%' }}></div>
                       </div>
                       <span className="bar-value green-text">&gt;90%</span>
-                      <span className="bar-label highlight-label">Sylva<br/>Full Fusion</span>
+                      <span className="bar-label highlight-label">Sylva<br/>Hybrid Camera</span>
                     </div>
                   </div>
                 </div>
